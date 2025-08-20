@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
+
+# 301 Redirect for blog URL change
+Redirect 301 /how-ai-is-revolutionizing-seo-in-2025-human-centric-guide-for-business-growth http://localhost:5173/blog/how-ai-is-revolutionizing-seo-in-2025-human-centric-guide-for-business-growth
+

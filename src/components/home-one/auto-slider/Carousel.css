@@ -1,0 +1,22 @@
+/* LogoSlider.css */
+.logo-slider-container {
+  
+}
+
+.logo-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-image {
+  max-width: 100%;
+  max-height: auto;
+  object-fit: cover;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 20px;
+}
+.swiper-wrapper{
+  transition-timing-function: linear !important;
+  padding: 20px 0;
+}

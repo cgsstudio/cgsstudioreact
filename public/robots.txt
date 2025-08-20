@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /wp-content/uploads/
+Disallow: /feed/
+Disallow: /privacy-policy
+Sitemap: https://chameleogfxstudio.com/sitemap_index.xml

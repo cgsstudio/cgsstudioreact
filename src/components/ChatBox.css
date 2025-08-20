@@ -1,0 +1,18 @@
+.chat-box {
+  position: fixed;
+  left: 20px; /* Position from left side */
+  bottom: 20px;
+  z-index: 1000;
+}
+
+.chat-box-content {
+  position: fixed;
+  left: 20px; /* Ensure content opens from left */
+  bottom: 80px;
+  width: 300px;
+  max-height: 400px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  overflow-y: auto;
+}
