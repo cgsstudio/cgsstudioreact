@@ -94,7 +94,7 @@ function MotionGraphicsdetail() {
 									  <h4 className="mb-3">{category.subtitle}</h4>
 									  <div className="row">
 										{category.items.map((item, itemIndex) => (
-										  <div key={itemIndex} className="col-12 col-md-4">
+										  <div key={itemIndex} className="col-12 col-md-6">
 											<ul className="list-unstyled custom-list">
 											  <li>{item}</li>
 											</ul>
@@ -106,7 +106,7 @@ function MotionGraphicsdetail() {
 								{!service.categories && (
 								 <div className="row">
 								 {service.items.map((item, itemIndex) => (
-								<div key={itemIndex} className="col-12 col-md-4">
+								<div key={itemIndex} className="col-12 col-md-6">
 								  <ul className="list-unstyled custom-list">
 									<li>
 									  <a href={item.link} rel="noopener noreferrer">

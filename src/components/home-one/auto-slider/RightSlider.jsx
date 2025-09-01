@@ -23,6 +23,7 @@ import partner13 from '../../../assets/images/logo/partner-13.png'
 import partner14 from '../../../assets/images/logo/partner-14.png'
 import partner15 from '../../../assets/images/logo/partner-15.png'
 import partner16 from '../../../assets/images/logo/partner-16.png'
+import partner17 from '../../../assets/images/logo/Cybervantage-logo.webp'
 
 const LogoSlider = () => {
   const logos = [
@@ -41,7 +42,8 @@ const LogoSlider = () => {
    partner13,
    partner14,
    partner15,
-   partner16
+   partner16,
+  partner17
   ];
 
   return (
@@ -78,7 +80,7 @@ const LogoSlider = () => {
       >
         {logos.map((logo, index) => (
           <SwiperSlide key={index}>
-            <div className="logo-slide">
+            <div className="logo-slide bg-white">
               <img src={logo} alt={`Logo ${index + 1}`} className="logo-image" />
             </div>
           </SwiperSlide>

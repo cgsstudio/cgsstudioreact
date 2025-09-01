@@ -3,7 +3,7 @@ import ArrowRightImg from "../../../assets/images/icon/arrow-right.svg";
 
 function ServiceCard({ service: { title, description, icon, slug ,id} }) {
   return (
-    <div className="col-lg-6">
+    <div className="col-lg-6 col-md-6 col-sm-6">
       <div className="aximo-iconbox-wrap">
         <div className="aximo-iconbox-icon">
           <i className={`${icon}`}></i>

@@ -16,7 +16,7 @@ function ContactUs() {
 		<>
 		<Helmet>
             <title>Contact Details of Best Graphic & Branding Agency in Ahmedabad - Chameleo GFX Studio</title>
-            <meta name="description" content="Contact Details of Chameleo GFX Studio– Best Graphic & Branding Agency in Ahmedabad. Call on 8200656127 & Email on info@chameleogfxstudio.com." />
+            <meta name="description" content="Contact Details of Chameleo GFX Studio– Best Graphic & Branding Agency in Ahmedabad. Call on +918460384838 & Email on info@chameleogfxstudio.com." />
 			<meta name="keywords" content="Contact US, Chameleo GFX Studio, Chameleo GFX Studio, Contact Details, Call, Email, Address, Ahmedabad, India, Contact Details of Graphic Company, Graphic Services Provider Contact details, Contact Details of Branding Company, Graphic Services Provider Contact details" />
 			<link 
           rel="canonical" 

@@ -39,6 +39,8 @@
 	.site-navbar .menu-block-wrapper {
 		display: flex !important;
 		flex-basis: auto;
+		
+		justify-content: center;
 	}
 }
 
@@ -358,7 +360,86 @@
 	font-style: normal;
 	letter-spacing: normal;
 	position: relative;
+	gap: 5px;
 }
+/* Default style (desktop ke liye apna jo bhi use kar rahe ho, wahi rahe) */
+
+/* Mobile view ke liye */
+@media (max-width: 996px) {
+  .site-menu-main {
+    display: flex;
+    flex-direction: column;   /* vertical list */
+    justify-content: center;  /* vertical center */
+    align-items: center;      /* horizontal center */
+    min-height: 100vh;        /* pura screen cover kare */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .site-menu-main .nav-item {
+    margin: 10px 0; /* spacing between items */
+  }
+
+  .site-menu-main .nav-link-item {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+  }
+}
+
+@media (max-width: 1200px) {
+  .site-menu-main .nav-link-item {
+    font-size: 14px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
+
+@media (max-width: 990px) {
+  .site-menu-main .nav-link-item {
+    font-size: 40px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+	padding-bottom: 60px !important;
+  padding-top: 10px !important;
+  
+  }
+}
+@media (max-width: 760px) {
+  .site-menu-main .nav-link-item {
+    font-size: 26px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+}
+/* Default (desktop) -> hide number */
+.call-info {
+  display: none;
+}
+
+/* Mobile only -> show at the end */
+@media (max-width: 768px) {
+  .call-info {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+  }
+
+  .call-info a {
+    display: block;
+    color: #0073e6;
+    text-decoration: none;
+    margin: 5px 0;
+  }
+
+  .call-info a:hover {
+    text-decoration: underline;
+  }
+}
+
 .aximo-header1 .site-menu-main .nav-link-item {
 	color: var(--white-smoke);
 }
@@ -371,18 +452,42 @@
 .aximo-header5 .site-menu-main .nav-link-item {
 	color: var(--light-color4);
 }
-
+@media (min-width: 1220px) {
+	.site-menu-main .nav-link-item {
+		padding-top: 15px !important;
+		padding-bottom: 15px !important;
+		padding-left: 20px !important;
+		padding-right: 10px !important;
+	}
+}
 @media (min-width: 992px) {
 	.site-menu-main .nav-link-item {
 		padding-top: 15px !important;
 		padding-bottom: 15px !important;
-		padding-left: 19px !important;
-		padding-right: 19px !important;
+		padding-left: 10px !important;
+		padding-right: 10px !important;
 	}
 }
-
+@media (max-width: 993px) {
+	.site-menu-main .submenu .nav-link-item {
+		padding-top: 2px !important;
+		padding-bottom:2px !important;
+		padding-left: 10px !important;
+		padding-right: 10px !important;
+	}
+}
 .dark-mode-texts .nav-link-item {
 	color: #fff;
+}
+
+
+
+
+.service-page-title{
+	font-size: 48px !important;
+	font-weight: 700 !important;
+	line-height: 1.2 !important;
+	color: #000 !important;
 }
 
 .site-menu-main .sub-menu {
@@ -440,6 +545,26 @@
     max-width: 235px;
   }
 }*/
+/* 768px–1024px (tablets, small laptops) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .site-menu-main .dropdown .submenu {
+    min-width: 400px !important;
+  }
+
+  .site-menu-main .submenu li a {
+    font-size: 30px !important;
+  }
+}
+@media (max-width: 768px) {
+	.site-menu-main .submenu li a {
+    font-size: 18px !important;
+	list-style: 5;
+	margin-top: 10px;
+	margin-bottom: 10px
+  }
+	
+}
+
 
 @media (min-width: 992px) {
 	.site-menu-main .sub-menu .sub-menu {
@@ -716,6 +841,12 @@
 		transition: all 0.5s ease;
 		z-index: 1099;
 	}
+	@media (max-width: 1024px) {
+    .site-header .menu-block {
+        width: 100%; /* Full width for tablets */
+		background-color: #000;
+    }
+}
 	.site-header .menu-block.active {
 		transform: translate(0%);
 	}
@@ -731,6 +862,9 @@
 		display: block;
 		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 	}
+
+	
+	
 	.site-menu-main > li > a i {
 		position: absolute;
 		height: 50px;
@@ -751,8 +885,9 @@
 		z-index: 501;
 		position: -webkit-sticky;
 		position: sticky;
-		background-color: #ffffff;
+		background-color: #000000;
 		top: 0;
+		padding: 20px 0px 0px 10px
 	}
 	.site-header .menu-block .mobile-menu-head .go-back {
 		height: 50px;
@@ -781,17 +916,20 @@
 	.site-header .menu-block .mobile-menu-head .mobile-menu-close {
 		height: 50px;
 		width: 50px;
-		border-left: 1px solid rgba(0, 0, 0, 0.1);
+		border-left: 1px solid rgba(255, 255, 255, 0.1);
 		cursor: pointer;
 		line-height: 50px;
 		text-align: center;
-		color: #000000;
+		color: #ffffff;
 		font-size: 25px;
 	}
+	
+
 	.site-header .menu-block .site-menu-main {
 		height: 100%;
 		overflow-x: hidden;
 		overflow-y: auto;
+		padding-bottom: 100px;
 	}
 	.site-menu-main > li .sub-menu.mega-menu,
 	.site-menu-main > li .sub-menu {
@@ -910,6 +1048,17 @@
 
 .menu-block.active .nav-link-item {
 	color: #000 !important;
+}
+
+/* Tablet view */
+@media (max-width: 1024px) {
+    .menu-block.active .nav-link-item {
+        color: #fff !important; /* White color on tablets */
+    }
+	.site-menu-main .nav-link-item:hover {
+		color: #ff0000 !important;
+		border:none ;
+	}
 }
 
 @media (min-width: 480px) {
@@ -1040,6 +1189,25 @@ a.log-in-btn:hover:after {
 	cursor: pointer;
 	-webkit-font-smoothing: antialiased;
 }
+@media (max-width: 1280px) {
+	.aximo-go-top {
+		bottom: 15%;
+		right: 4%;
+	}
+}
+@media (max-width: 1024px) {
+	.aximo-go-top {
+		bottom: 15%;
+		right: 6%;
+	}
+}
+
+@media (max-width: 768px) {
+	.aximo-go-top {
+		bottom: 13%;
+		right: 13%;
+	}
+}
 .aximo-go-top:before {
 	content: "";
 	left: 50%;
@@ -1124,6 +1292,53 @@ a.address-mains {
 	color: #007bff;
   }
   
+  .site-menu-main .nav-link-item {
+  position: relative;
+  color: #333;
+  text-decoration: none;
+  padding-bottom: 4px; /* thoda space underline ke liye */
+}
+
+/* Hover effect -> bottom line */
+.site-menu-main .nav-link-item:hover {
+  color: red;
+}
+
+.site-menu-main .nav-link-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /*border-bottom: 2px solid red; */ /* underline as border */
+  transform: scaleX(0);
+  transition: transform 0.3s ease;
+}
+
+/* Hover pe underline dikhana */
+.site-menu-main .nav-link-item:hover::after {
+  transform: scaleX(1);
+}
+
+/* ✅ Active link ke liye */
+.site-menu-main .nav-item.active .nav-link-item {
+  color: red;
+}
+
+.site-menu-main .nav-item.active .nav-link-item::after {
+  transform: scaleX(1); /* underline hamesha dikhana */
+}
+
+
+/* Active page */
+.site-menu-main .nav-link-item.active {
+  color: red;
+}
+
+.site-menu-main .nav-link-item.active::after {
+  transform: scaleX(1); /* active pe line hamesha dikhe */
+}
+
   
 /* sumit 19-12-24 */
   .aximo-navigation {
@@ -1136,6 +1351,30 @@ a.address-mains {
 	align-items: center;
 	gap: 5px;
   }
+  @media (max-width: 768px) {
+  .aximo-navigation .nav-links {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 8px;
+    -webkit-overflow-scrolling: touch; /* smooth scroll iOS */
+  }
+
+  .aximo-navigation .nav-links::-webkit-scrollbar {
+    display: none; /* scrollbar hide mobile pe */
+  }
+
+  .aximo-navigation .page-numbers,
+  .aximo-navigation .prev,
+  .aximo-navigation .next {
+    flex: 0 0 auto;
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background: #fff;
+  }
+}
+
   
   .aximo-navigation .page-numbers {
 	background-color: #000;
@@ -1378,6 +1617,15 @@ button.btn.btn-warning.rounded-circle {
     font-size: 15px;
 	color: #fdfde1 !important;
 }
+@media (max-width: 768px) {
+    .footer-text p {
+        font-size: 16.5px;
+    }
+	.footer-text {
+    font-size: 16.5px;
+    color: #fdfde1 !important;
+	}
+}
 .list-gapin {
     margin: 10px 0;
 }
@@ -1463,3 +1711,16 @@ h3.blog-h2 {
 .wp-block-tag-cloud a:hover {
     color: #fff;
 } 
+
+.custom-list li {
+list-style-type: disc !important;
+}
+
+.aximo-sub-title-animation{
+	font-size: 8px !important;
+}
+
+.custom-h2 {
+  font-size: 36px;
+  display: inline-block;
+}

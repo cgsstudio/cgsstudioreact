@@ -184,6 +184,8 @@ const sitemapData = [
           { text: "Why Businesses Should Consider Custom Shopify Development?", link: "/blog/businesses-should-consider-custom-shopify-development" },
           { text: "React Performance Optimization: Techniques for Faster Apps", link: "/blog/react-performance-optimization-techniques-for-faster-apps" },
           { text: "Voice Search Optimization: How to Prepare Your Website for 2025", link: "/blog/how-to-prepare-your-website-for-voice-search-optimization-2025" },
+          { text: "What Is the Easiest Way to Convert an HTML Website to WordPress?", link: "/blog/way-to-convert-an-html-website-to-wordpress" },
+          { text: "How Webflow Enhances Speed, Security, and Scalability for Businesses?", link: "/blog/how-webflow-enhances-speed-security-and-scalability-for-businesses" },
         ],
       },
       {
@@ -230,7 +232,7 @@ function SiteMapPage() {
                   <h5 className="mb-2">{sub.subtitle}</h5>
                   <ul className="list-unstyled sitemap-left">
                     {sub.items.map((item, k) => (
-                      <li key={k} className="col-12 col-md-4 mb-2 sitemap-linkmain ">
+                      <li key={k} className="col-12 col-md-6 mb-2 sitemap-linkmain ">
                         <a href={item.link} rel="noopener noreferrer">
                           {item.text}
                         </a>

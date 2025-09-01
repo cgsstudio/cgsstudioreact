@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 /* eslint-disable react/prop-types */
 import Dropdown from "./Dropdown";
+import { NavLink } from "react-router-dom";
+
 
 function NavItem({
 	route,
@@ -65,5 +67,6 @@ function NavItem({
 		</li>
 	);
 }
+
 
 export default NavItem;

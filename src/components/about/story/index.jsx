@@ -16,8 +16,11 @@ function Story() {
 					digital innovation partner to propel your brand.
 					</h2>
 					<p>
-					Welcome to Chameleo GFX Studio. We are your premium destination for unparalleled IT solutions. Graphic Design, Web Development & Digital Marketing Company in Ahmedabad, Gujarat, India. We are an ideal partner to help you realize your vision for your website. We are dedicated to quality and have an intense passion for creativity. We have carefully designed our complete array of services to take your brand to the next level in the digital space, where it will stand out and flourish in today’s cutthroat market. Our constant commitment to staying on the cutting edge of technological advancements guarantees that your online presence will continue to be powerful and relevant, helping your company’s success and long-term growth
+					Welcome to Chameleo GFX Studio – where creativity meets technology. We are your trusted partner for Graphic Design, Web Development, and Digital Marketing in Ahmedabad, Gujarat, India. Our mission is simple: to bring your ideas to life and help your brand shine online.
 					</p>
+					<p>We believe every business has a unique story, and we’re here to tell yours in the most creative and powerful way. With a strong focus on quality, passion, and innovation, we design solutions that not only look amazing but also make a real difference.</p>
+					<p>From building beautiful websites to creating eye-catching designs and running smart digital campaigns, we’ve carefully crafted our services to help your brand stand out, connect with people, and grow in today’s fast-changing world.</p>
+					<p>At Chameleo GFX Studio, we never stop learning and improving. By staying ahead with the latest technology, we make sure your online presence stays strong, relevant, and ready for the future. Together, let’s take your business to the next level and create something truly unforgettable</p>
 				</div>
 
 				{/* <div className="row">

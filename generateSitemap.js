@@ -140,6 +140,12 @@ const pages = [
 { url: "/blog/how-to-design-high-converting-infographics-for-amazon-a-plus-content", changefreq: "monthly", priority: 0.6 },
 { url: "/blog/seo-strategies-for-healthcare", changefreq: "monthly", priority: 0.6 },
 { url: "/blog/why-ui-ux-design-is-crucial-for-android-app", changefreq: "monthly", priority: 0.6 },
+{ url: "/blog/react-performance-optimization-techniques-for-faster-apps", changefreq: "monthly", priority: 0.6 },
+{ url: "/blog/businesses-should-consider-custom-shopify-development", changefreq: "monthly", priority: 0.6 },
+{ url: "/blog/custom-coded-websites-boost-ux-conversions-for-indian-businesses", changefreq: "monthly", priority: 0.6 },
+{ url: "/blog/how-to-prepare-your-website-for-voice-search-optimization-2025", changefreq: "monthly", priority: 0.6 },
+{ url: "/blog/way-to-convert-an-html-website-to-wordpress", changefreq: "monthly", priority: 0.6 },
+{ url: "/blog/how-webflow-enhances-speed-security-and-scalability-for-businesses", changefreq: "monthly", priority: 0.6 },
 
 ];
 

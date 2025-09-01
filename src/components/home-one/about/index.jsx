@@ -23,8 +23,7 @@ function About() {
 						</div>
 						<div className="col-lg-4 offset-lg-1 d-flex align-items-center">
 							<p>
-								We work closely with our clients to know their objectives, target audience, unique
-								needs, and practical design solutions.
+								At Chameleo GFX Studio, we believe the best results come from true collaboration. That’s why we work closely with you to understand your goals, your audience, and your unique needs. Together, we create practical and creative design solutions that bring your vision to life and connect deeply with the people who matter most to your brand.
 							</p>
 						</div>
 					</div>

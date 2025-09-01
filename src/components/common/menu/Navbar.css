@@ -84,3 +84,32 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+  .mobail-menu-logo {
+  display: block;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.nav-link-item.active {
+  color: red;
+}
+@media (max-width: 991px) {
+  .site-menu-main .dropdown .submenu {
+    z-index: auto !important;
+    position: static !important;
+    box-shadow: none !important;
+    min-width: 0 !important;
+    background: none !important;
+    padding: 0 !important;
+  }
+}
+@media (max-width: 991px) {
+  .menu-block,
+  .site-menu-main {
+    overflow: visible !important;
+    height: auto !important;
+  }
+}
+
+.nav-link-item {
+ gap: 5px;
+}

@@ -8,14 +8,14 @@ function HeroContent() {
 	return (
 		<div className="aximo-hero-content">
 			<h1>
-				<span className="aximo-title-animation">
+				<span className="aximo-title-animation home-heading">
 				A Digital Innovations  
 					
 				</span>{" "}
 				 Hub
 			</h1>
-			<p>
-				{`Chameleo Gfx Studio has experts who uplift your digital brand with creativity, and innovation and take your digital footprint to the next level. Our Graphic Design Agency in Ahmedabad, Gujarat exceeds your design expectations.
+			<p className="home-description">
+				{`Chameleo Gfx Studio has experts who uplift your digital brand with creativity, and innovation and take your digital footprint to the next level. Our Graphic Design Agency in Ahmedabad, Gujarat, India exceeds your design expectations.
 `}
 			</p>
 			<div className="aximo-hero-user-wrap">
@@ -34,8 +34,8 @@ function HeroContent() {
 					<p>Believed by more than a thousand people</p>
 				</div>
 			</div>
-			<Link className="aximo-call-btn" to="/contact-us">
-				Book a free consultation <i className="icon-call"></i>
+			<Link className="aximo-call-btn home-hero-btn" to="/contact-us">
+				Book A Free Consultation <i className="icon-call"></i>
 			</Link>
 			<div className="aximo-hero-shape">
 				<img className="shape-color" src={ShapeImg} alt="ShapeImg" />

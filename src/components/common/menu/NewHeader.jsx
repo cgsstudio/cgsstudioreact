@@ -69,7 +69,7 @@ const Navbar = () => {
   return (
     <nav className="custom-navbar">
       <ul className="nav-list">
-        <li className="nav-item-custom">Home</li>
+        <li className="nav-item-custom">Home1</li>
         <li className="nav-item-custom">Company</li>
         <li className="nav-item-custom dropdown-custom" onClick={toggleMegaMenu}>
           Services <i className="fas fa-angle-down"></i>

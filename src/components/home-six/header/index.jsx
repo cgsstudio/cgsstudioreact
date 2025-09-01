@@ -19,7 +19,7 @@ function Header() {
 	return (
 		<header className="site-header aximo-header-section site-header--menu-center bg-light7" id="sticky-menu">
 			<div className="container">
-				<nav className="navbar site-navbar">
+				<nav className="navbar site-navbar ">
 					<HeaderLogo />
 					<div className="menu-block-wrapper">
 						<div className={`menu-overlay ${toggleMenu ? "active" : ""}`} onClick={handleMenu}></div>

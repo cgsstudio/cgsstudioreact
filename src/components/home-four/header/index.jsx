@@ -23,7 +23,7 @@ function Header() {
 			id="sticky-menu"
 		>
 			<div className="container">
-				<nav className="navbar site-navbar">
+				<nav className="navbar site-navbar  d-flex align-items-center justify-content-between w-100">
 					<HeaderLogo />
 					<div className="menu-block-wrapper">
 						<div className={`menu-overlay ${toggleMenu ? "active" : ""}`} onClick={handleMenu}></div>

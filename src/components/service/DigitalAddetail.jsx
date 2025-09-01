@@ -87,7 +87,7 @@ function DigitalAddetail() {
     </div>
         <div className="row">
          {service.items.map((item, itemIndex) => (
-        <div key={itemIndex} className="col-12 col-md-4">
+        <div key={itemIndex} className="col-12 col-md-6">
           <ul className="list-unstyled custom-list">
             <li>
               <a href={item.link} rel="noopener noreferrer">

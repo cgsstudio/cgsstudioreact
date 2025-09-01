@@ -4,39 +4,51 @@ const TestimonialSlider = () => {
   const testimonials = [
     {
       id: 1,
-      rating: 5.0,
+
       stars: 5,
-      text: "Excellent from start to finish! Niraj is very knowledgeable. He was able to figure out exactly what I and my business needed from start to finish. Niraj built my webpage from scratch with all the plug-ins, add-ons etc. He then helped me maintain and promote my website. He's a one stop shop for all your digital needs. Recommend him highly!!",
-      name: "Philip Smith",
-      role: "Founder@XYZ",
-      avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=60&h=60&fit=crop&crop=face&auto=format"
+      text: "Working with the CGS Team was a fantastic experience. Truly one of the best graphic designers I have worked with—able to quickly transform a complex set of numbers and information into visually appealing yet highly professional graphics for my company. Highly recommended! ",
+      name: "- Hocco Icecreams",
+
     },
     {
       id: 2,
-      rating: 4.7,
-      stars: 4.5,
-      text: "Mentioning consultation discover apartments. ndulgence off under folly death is wrote causes maintaing way spite. Plan upon yet way get coldest spot its week. Almost do am or limits hearts resolve parties the regular intension.",
-      name: "Alex Hales",
-      role: "Envato Client",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face&auto=format"
+
+      stars: 5,
+      text: "CGS Team brings real value through thier ability to listen attentively, strong work ethic, and high-level web design skills. I will definitely hire them again whenever the need arises. I had asked to enhance the look and feel of our website, and they completed the work in just two working days—super efficient and dependable. A solid and trustworthy business connection.",
+      name: "- James Zoomeren",
+
     },
     {
       id: 3,
-      rating: 4.8,
+
       stars: 5,
-      text: "Excellence consultation discover apartments. ndulgence off under folly death is wrote causes maintaing way spite. Plan upon yet way get coldest spot its week. Almost do am or limits hearts resolve parties the regular intension.",
-      name: "Sarah Johnson",
-      role: "Envato Client",
-      avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=60&h=60&fit=crop&crop=face&auto=format"
+      text: "I highly recommend this company, they are reliable, meet deadlines, and truly take the time to understand your needs. I’ve been working with them on and off for two years, and any issues have always been resolved quickly. They’re always available, responsive, and consistently prioritize the client’s best interests. Their website and graphic design services are top-notch, and I wouldn’t hesitate to recommend them.",
+      name: "- Jagatjit Industries",
+
     },
     {
       id: 4,
-      rating: 4.9,
+
       stars: 5,
-      text: "Amazing consultation discover apartments. ndulgence off under folly death is wrote causes maintaing way spite. Plan upon yet way get coldest spot its week. Almost do am or limits hearts resolve parties the regular intension.",
-      name: "John Smith",
-      role: "Envato Client",
-      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face&auto=format"
+      text: "I had an excellent experience, they brought my website vision to life effortlessly and worked with the Figma designs flawlessly. Communication was clear throughout, and they delivered high-quality work right on time. I highly recommend their services.! ",
+      name: "- Jamie Moriarty",
+
+    },
+    {
+      id: 5,
+
+      stars: 5,
+      text: "The CGS team works quickly and delivers amazing results. I’m very happy to partner with them for my network of websites. ",
+      name: "- Aruna Viswanathan",
+
+    },
+    {
+      id: 6,
+
+      stars: 5,
+      text: "The CGS team works quickly and delivers amazing results. I’m very happy to partner with them for my network of websites.",
+      name: "- BidX",
+
     }
   ];
 
@@ -63,31 +75,31 @@ const TestimonialSlider = () => {
 
   const nextSlide = () => {
     if (isTransitioning) return;
-    
+
     setIsTransitioning(true);
     setCurrentSlide((prev) => {
       const maxSlide = testimonials.length - slidesToShow;
       return prev >= maxSlide ? 0 : prev + 1;
     });
-    
+
     setTimeout(() => setIsTransitioning(false), 500);
   };
 
   const prevSlide = () => {
     if (isTransitioning) return;
-    
+
     setIsTransitioning(true);
     setCurrentSlide((prev) => {
       const maxSlide = testimonials.length - slidesToShow;
       return prev <= 0 ? maxSlide : prev - 1;
     });
-    
+
     setTimeout(() => setIsTransitioning(false), 500);
   };
 
   const goToSlide = (index) => {
     if (isTransitioning) return;
-    
+
     setIsTransitioning(true);
     setCurrentSlide(index);
     setTimeout(() => setIsTransitioning(false), 500);
@@ -126,7 +138,7 @@ const TestimonialSlider = () => {
   }, [currentSlide, slidesToShow]);
 
   return (
-    <div className="testimonial-section py-5" style={{ backgroundColor: '#1a1a1a',}}>
+    <div className="testimonial-section py-lg-5 py-md-2" style={{ backgroundColor: '#000000ff', }}>
       <style jsx>{`
         .testimonial-card {
           background: linear-gradient(135deg, #2d2d2d 0%, #1e1e1e 100%);
@@ -137,7 +149,7 @@ const TestimonialSlider = () => {
         }
         
         .testimonial-card:hover {
-          transform: translateY(-8px) scale(1.02);
+        
           box-shadow: 0 25px 50px rgba(253, 253, 225, 0.1);
           border-color: #fdfde1;
         }
@@ -176,17 +188,7 @@ const TestimonialSlider = () => {
           }
         }
         
-        .rating-badge {
-          background: #fdfde1;
-          border-radius: 15px;
-          padding: 10px 18px;
-          display: inline-flex;
-          align-items: center;
-          gap: 10px;
-          font-weight: 600;
-          color: #333;
-          box-shadow: 0 4px 15px rgba(253, 253, 225, 0.3);
-        }
+    
         
         .nav-btn {
           width: 55px;
@@ -324,6 +326,18 @@ const TestimonialSlider = () => {
         .fade-in {
           animation: fadeIn 0.6s ease-out;
         }
+          .testimonial-text {
+  font-size: 1rem !important;   /* default = mobile */
+  line-height: 2;
+}
+
+@media (MAX-width: 768px) {
+  .testimonial-text {
+    font-size: 1.5rem !important;   /* desktop (lg) */
+      line-height: 1.3;
+  }
+}
+
         
         @keyframes fadeIn {
           from {
@@ -335,17 +349,20 @@ const TestimonialSlider = () => {
             transform: translateY(0);
           }
         }
+          .home-Testimonials{
+          padding:20px 0;
+          }
       `}</style>
-      
-      <div className="container px-4">
+
+      <div className="container px-lg-4 px-sm-2 pb-5">
         {/* Header */}
         <div className="row mb-5">
           <div className="col-12">
-            <div className="d-flex justify-content-between align-items-center header-content">
-              <div className="aximo-section-title light">
+            <div className="text-center header-content">
+              <div className="aximo-section-title light home-Testimonials">
                 <h2>Testimonials</h2>
               </div>
-              <div className="overall-rating">
+              {/* <div className="overall-rating">
                 <div className="d-flex align-items-center">
                   <span className="text-white h2 fw-bold mb-0 me-3">4.9</span>
                   <div>
@@ -357,16 +374,16 @@ const TestimonialSlider = () => {
                     <small className="text-light opacity-75">145 (Review)</small>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
 
         {/* Testimonials Slider */}
         <div className="slider-container mb-5">
-          <div 
+          <div
             className="slider-wrapper"
-            style={{ 
+            style={{
               transform: `translateX(-${currentSlide * (100 / slidesToShow)}%)`,
             }}
           >
@@ -376,7 +393,7 @@ const TestimonialSlider = () => {
                   {/* Rating */}
                   <div className="mb-4">
                     <div className="rating-badge">
-                      <span className="fw-bold fs-5">{testimonial.rating}</span>
+                      {/* <span className="fw-bold fs-5">{testimonial.rating}</span> */}
                       <div>
                         {renderStars(testimonial.rating, testimonial.stars)}
                       </div>
@@ -384,13 +401,13 @@ const TestimonialSlider = () => {
                   </div>
 
                   {/* Text */}
-                  <p className="text-light mb-4 lh-lg fs-6">
+                  <p className="text-light mb-4 testimonial-text fs-6">
                     {testimonial.text}
                   </p>
 
                   {/* Author */}
                   <div className="d-flex align-items-center">
-                    <img 
+                    {/* <img 
                       src={testimonial.avatar} 
                       alt={testimonial.name}
                       className="rounded-circle me-3"
@@ -401,10 +418,10 @@ const TestimonialSlider = () => {
                         border: '3px solid #fdfde1',
                         boxShadow: '0 4px 15px rgba(0,0,0,0.3)'
                       }}
-                    />
+                    /> */}
                     <div>
                       <h6 className="text-white mb-1 fw-bold">{testimonial.name}</h6>
-                      <small className="text-light opacity-75">{testimonial.role}</small>
+                      {/* <small className="text-light opacity-75">{testimonial.role}</small> */}
                     </div>
                   </div>
                 </div>
@@ -418,8 +435,8 @@ const TestimonialSlider = () => {
           <div className="col-12">
             <div className="d-flex align-items-center justify-content-between nav-controls">
               {/* Navigation Buttons */}
-              <button 
-                className="nav-btn" 
+              <button
+                className="nav-btn"
                 onClick={prevSlide}
                 disabled={isTransitioning}
               >
@@ -437,11 +454,11 @@ const TestimonialSlider = () => {
                     ></div>
                   ))}
                 </div>
-                
+
                 <div className="progress-bar d-none d-md-block">
-                  <div 
-                    className="progress-fill" 
-                    style={{ 
+                  <div
+                    className="progress-fill"
+                    style={{
                       width: `${((currentSlide + 1) / Math.ceil(testimonials.length / slidesToShow)) * 100}%`
                     }}
                   ></div>
@@ -449,8 +466,8 @@ const TestimonialSlider = () => {
               </div>
 
               <div className="d-flex align-items-center gap-3">
-                <button 
-                  className="nav-btn" 
+                <button
+                  className="nav-btn"
                   onClick={nextSlide}
                   disabled={isTransitioning}
                 >

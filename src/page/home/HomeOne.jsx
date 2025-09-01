@@ -21,19 +21,19 @@ import TestimonialSlider from "../../components/home-one/testimonial/Testimonial
 
 
 const servicesData = [
-	{
-		id: crypto.randomUUID(),
-		title: "Logo Design",
-		description:
-			"We provide amazing logo designs to stand out in the market by providing your brand with a unique identity.",
-		icon: "icon-design-thinking",
-		slug: "logo-design-company-ahmedabad"
-	},
+	// {
+	// 	id: crypto.randomUUID(),
+	// 	title: "Logo Design",
+	// 	description:
+	// 		"We craft powerful, memorable logo designs that give your brand a unique identity and help you stand out with confidence in a competitive market.",
+	// 	icon: "icon-design-thinking",
+	// 	slug: "logo-design-company-ahmedabad"
+	// },
 	{
 		id: crypto.randomUUID(),
 		title: "Graphic Design",
 		description:
-			"Our graphic design leaves a memorable impression on your audience by turning amazing thoughts into appealing visuals.",
+			"Our graphic designs transform creative ideas into captivating visuals that leave a lasting impression on your audience.",
 		icon: "icon-branding",
 		slug: "graphic-design-company-in-ahmedabad"
 	},
@@ -41,7 +41,7 @@ const servicesData = [
 		id: crypto.randomUUID(),
 		title: "UI/UX Design",
 		description:
-			"For maximum usability, we create user interfaces that are simple to use and promote enjoyable interactions and smooth navigation.",
+			"We design intuitive user interfaces that ensure maximum usability, smooth navigation, and enjoyable interactions for every user.",
 		icon: "icon-design-tools",
 		slug: "ui-ux-design-company-in-ahmedabad"
 	},
@@ -49,7 +49,7 @@ const servicesData = [
 		id: crypto.randomUUID(),
 		title: "Web Development",
 		description:
-			"Our expertise as a top web development company in Ahmedabad, India, lies in creating visually appealing and highly effective websites that effectively communicate with your target audience.",
+			"As a leading web development company in Ahmedabad, India, we specialize in building visually stunning, high-performing websites that connect seamlessly with your target audience.",
 		icon: "icon-web",
 		slug: "web-development-company-in-ahmedabad"
 	},
@@ -57,18 +57,18 @@ const servicesData = [
 		id: crypto.randomUUID(),
 		title: "SEO",
 		description:
-			"Our staff uses advanced techniques and thorough keyword analysis to make sure your website appears highly for relevant search queries.",
+			"Our team leverages advanced strategies and in-depth keyword analysis to ensure your website ranks high for the searches that matter most.",
 		icon: "icon-design-thinking",
 		slug: "seo-company-in-ahmedabad"
 	},
-	{
-		id: crypto.randomUUID(),
-		title: "Google Ads Management",
-		description:
-			" We help your business reach the right customers at the right time through expert Google Ads setup, keyword targeting, and performance optimization.",
-		icon: "icon-design-thinking",
-		slug: "google-ads"
-	},
+	// {
+	// 	id: crypto.randomUUID(),
+	// 	title: "Google Ads Management",
+	// 	description:
+	// 		" We drive your business growth by reaching the right customers at the right time with expert Google Ads setup, precise keyword targeting, and continuous performance optimization.",
+	// 	icon: "icon-design-thinking",
+	// 	slug: "google-ads"
+	// },
 	
 	
 ];
