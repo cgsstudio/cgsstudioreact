@@ -4,16 +4,16 @@ function Content() {
 		<div className="aximo-default-content">
 			<h2>
 				<span className="aximo-title-animation">
-				Creative Designing
-					
+				Digital Solutions Partner in
 				</span>{" "}
-				Agency in Ahmedabad
+				Ahmedabad, India
+					
 			</h2>
 			<p>
-			Chameleo GFX Studio is a trusted digital solutions provider in Ahmedabad, India. We have tailored solutions for everything, like website design, graphics or digital marketing services in Ahmedabad, India. Creativity is at the heart of everything that we do. 
+			Chameleo GFX Studio is a trusted partner for businesses looking to strengthen their digital presence. Based in Ahmedabad, India, we provide end-to-end solutions including website design, development, creative graphics, and digital marketing. With creativity at the core of our approach, we deliver strategies that are both innovative and results-driven.
 			</p>
 			<p>
-			We partner in your success by optimizing your online presence, driving traffic to your website, and increasing your brand awareness. We support companies in thriving in the digital era with our creative expertise, innovative strategies, and uncompromising dedication to quality. We collaborate closely with our clients at every stage, from conception to execution, so they can be sure their goals and vision are fulfilled. 
+			Our mission is simple, help brands grow with impact. From optimizing your online presence to driving measurable traffic and building strong brand awareness, we ensure your business thrives in the digital era. With a perfect balance of strategy, creativity, and execution, we collaborate closely with you at every stage to transform ideas into outcomes and visions into success stories.
 			</p>
 		</div>
 	);

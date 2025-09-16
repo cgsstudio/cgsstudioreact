@@ -169,7 +169,7 @@ function ServicePage() {
             {service.categories &&
               service.categories.map((category, catIndex) => (
                 <div key={catIndex} className="mb-4">
-                 <h4 className="mb-3 subtitle-heading">
+                 <h4 className="mb-3 subtitle-heading link-page-subtitle">
                   <a href={category.subtitleLink} rel="noopener noreferrer">
                    {category.subtitle}
                   </a>

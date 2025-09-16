@@ -365,7 +365,7 @@
 /* Default style (desktop ke liye apna jo bhi use kar rahe ho, wahi rahe) */
 
 /* Mobile view ke liye */
-@media (max-width: 996px) {
+@media (max-width: 1000px) {
   .site-menu-main {
     display: flex;
     flex-direction: column;   /* vertical list */
@@ -390,7 +390,7 @@
 
 @media (max-width: 1200px) {
   .site-menu-main .nav-link-item {
-    font-size: 14px !important;
+    font-size: 12px !important;
     padding-left: 10px !important;
     padding-right: 10px !important;
   }
@@ -399,9 +399,9 @@
 @media (max-width: 990px) {
   .site-menu-main .nav-link-item {
     font-size: 40px !important;
-    padding-left: 10px !important;
-    padding-right: 10px !important;
-	padding-bottom: 60px !important;
+    padding-left: 6px !important;
+    padding-right: 6px !important;
+	padding-bottom: 10px !important;
   padding-top: 10px !important;
   
   }
@@ -780,12 +780,12 @@
 }
 
 /*responsive*/
-@media (max-width: 991px) {
+@media (max-width: 1000px) {
 	.site-header .mobile-menu-trigger {
 		display: flex;
 		height: 30px;
 		width: 30px;
-		margin-left: 40px;
+		margin-right: 10px;
 		cursor: pointer;
 		align-items: center;
 		justify-content: center;
@@ -981,7 +981,7 @@
 }
 
 /*Custom Css for menu*/
-@media (min-width: 992px) {
+@media (min-width: 1000px) {
 	.has-megamenu ul {
 		margin-left: auto;
 	}
@@ -1455,6 +1455,7 @@ a.address-mains {
     line-height: 30px;
     font-weight: 500;
 	margin-top: 14px;
+	text-decoration: none;
   }
   
   .py-10{
@@ -1532,6 +1533,10 @@ ul.list-main-disc {
 
 }
 
+.subtitle-heading {
+  font-size: 35px;
+  font-weight: bolder;
+}
 
 
 .team-heading {
@@ -1712,9 +1717,7 @@ h3.blog-h2 {
     color: #fff;
 } 
 
-.custom-list li {
-list-style-type: disc !important;
-}
+
 
 .aximo-sub-title-animation{
 	font-size: 8px !important;
@@ -1723,4 +1726,13 @@ list-style-type: disc !important;
 .custom-h2 {
   font-size: 36px;
   display: inline-block;
+}
+
+
+.link-tegs:hover {
+  color: red !important; /* text turns red on hover */
+}
+
+.link-tegs{
+	  color: #ffffff !important; /* default text color */
 }

@@ -146,6 +146,8 @@ const pages = [
 { url: "/blog/how-to-prepare-your-website-for-voice-search-optimization-2025", changefreq: "monthly", priority: 0.6 },
 { url: "/blog/way-to-convert-an-html-website-to-wordpress", changefreq: "monthly", priority: 0.6 },
 { url: "/blog/how-webflow-enhances-speed-security-and-scalability-for-businesses", changefreq: "monthly", priority: 0.6 },
+{ url: "/blog/how-AI-personalization-affects-search-results-&-CTR", changefreq: "monthly", priority: 0.6 },
+{ url: "/blog/best-seo-agency-in-bangalore-for-small-businesses", changefreq: "monthly", priority: 0.6 },
 
 ];
 

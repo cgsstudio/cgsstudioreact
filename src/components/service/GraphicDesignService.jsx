@@ -171,16 +171,23 @@ function GraphicDesignService() {
 
                 <div className="row">
                   {service.items.map((item, itemIndex) => (
-                    <div key={itemIndex} className="col-12 col-md-6">
-                      <ul className="list-unstyled custom-list">
+                    <div key={itemIndex} className="col-12 col-md-3 pb-3">
+                      <ul className="badge bg-black custom-hover">
                         <li>
-                          <a href={item.link}>{item.text}</a>
+                          <a
+                            href={item.link}
+                            rel="noopener noreferrer"
+                            className="link-tegs text-white text-decoration-none"
+                          >
+                            {item.text}
+                          </a>
                         </li>
                       </ul>
                       <br />
                     </div>
                   ))}
                 </div>
+
               </div>
             ))}
           </div>

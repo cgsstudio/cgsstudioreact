@@ -7,7 +7,7 @@ import User3Img from "../../../assets/images/v1/user3.png";
 function HeroContent() {
 	return (
 		<div className="aximo-hero-content">
-			<h1>
+			<h1 className="home-title">
 				<span className="aximo-title-animation home-heading">
 				A Digital Innovations  
 					
@@ -15,7 +15,7 @@ function HeroContent() {
 				 Hub
 			</h1>
 			<p className="home-description">
-				{`Chameleo Gfx Studio has experts who uplift your digital brand with creativity, and innovation and take your digital footprint to the next level. Our Graphic Design Agency in Ahmedabad, Gujarat, India exceeds your design expectations.
+				{`At Chameleo GFX Studio, we craft powerful digital experiences that help brands grow. With a perfect mix of creativity, technology, and strategy, our team turns ideas into results. Whether you need a stunning website, engaging visuals, or performance-driven digital marketing, we deliver solutions that transform your brand and strengthen your presence online.
 `}
 			</p>
 			<div className="aximo-hero-user-wrap">

@@ -40,7 +40,7 @@ function FooterBottom() {
 			</div> */}
 			<div className="col-lg-6">
 				<div class="aximo-copywright one footer-text text-start  d-flex justify-content-start justify-content-md-left ">
-				<a className="d-flex"><p> Copyright &copy; {new Date().getFullYear()}. Chameleo GFX Studio. All Rights Reserved.</p>
+				<a className="d-flex" href="https://chameleogfxstudio.com/"><p> Copyright &copy; {new Date().getFullYear()}. Chameleo GFX Studio. All Rights Reserved.</p>
 				</a>
 				</div>
 			</div>

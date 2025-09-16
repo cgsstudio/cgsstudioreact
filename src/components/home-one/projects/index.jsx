@@ -47,25 +47,27 @@ const projectsData = [
 ];
 
 const swiperSettings = {
-	spaceBetween: 24,
-	direction: "horizontal",
-	pagination: {
-		clickable: true,
-	},
-	modules: [Pagination, Mousewheel],
-	mousewheel: true,
-	breakpoints: {
-		640: {
-			slidesPerView: 1,
-		},
-		900: {
-			slidesPerView: 2,
-		},
-		1600: {
-			slidesPerView: 3.5,
-		},
-	},
+  spaceBetween: 24,
+  direction: "horizontal",
+  pagination: {
+    clickable: true,
+  },
+  modules: [Pagination, Mousewheel],
+  mousewheel: true,
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+    },
+    900: {
+      slidesPerView: 3, // instead of 3
+    },
+    1280: {
+      slidesPerView: 3, // explicitly set 2 slides for 1280-1599
+    },
+  
+  },
 };
+
 function Projects() {
 	return (
 		<div className="section dark-bg aximo-section-padding">
