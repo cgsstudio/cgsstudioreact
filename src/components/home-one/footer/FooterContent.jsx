@@ -38,7 +38,7 @@ function FooterContent() {
 </svg>
 					</a>
 				</div>
-			<p><a class="address-mains" href="https://maps.app.goo.gl/kY3NFMatS1iMAFbZ6"  target="_blank">F - 1001, F Block, PNTC,Times Of India Press Rd,<br></br> Rajmani Society, Satellite, Shyamal,<br></br> Ahmedabad, Gujarat 380015
+			<p><a class="address-mains" href="https://maps.app.goo.gl/kY3NFMatS1iMAFbZ6"  target="_blank">F - 1001, F Block, PNTC, Times Of India Press Rd,<br></br> Rajmani Society, Satellite, Shyamal,<br></br> Ahmedabad, Gujarat 380015
 			</a></p>
 			<div className="aximo-info-wrap">
 				<div className="aximo-info">

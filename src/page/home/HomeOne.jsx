@@ -17,7 +17,8 @@ import Team4Img from "../../assets/images/team/team4.png";
 import Logoslider from "../../components/home-one/auto-slider/Logoslider"
 import RightSlider from "../../components/home-one/auto-slider/RightSlider";
 import { Helmet } from "react-helmet";
-import TestimonialSlider from "../../components/home-one/testimonial/TestimonialSlider"
+import TestimonialSlider from "../../components/home-one/testimonial/TestimonialSlider";
+import ImageSection from "../../components/home-one/ImageSection";
 
 
 const servicesData = [
@@ -120,9 +121,11 @@ function HomeOne() {
 		    {/* <Partner/> */}
 			<RightSlider/>
 			<About />
+			<ImageSection />
 			<Projects />
 			<TestimonialSlider />
 			<WhyChooseUs />
+			
 			<AutoSlider />
 			{/* <Teams teams={teamsData} /> */}
 		</>

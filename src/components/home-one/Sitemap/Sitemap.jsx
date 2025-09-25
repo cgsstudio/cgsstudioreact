@@ -186,6 +186,8 @@ const sitemapData = [
           { text: "Voice Search Optimization: How to Prepare Your Website for 2025", link: "/blog/how-to-prepare-your-website-for-voice-search-optimization-2025" },
           { text: "What Is the Easiest Way to Convert an HTML Website to WordPress?", link: "/blog/way-to-convert-an-html-website-to-wordpress" },
           { text: "How Webflow Enhances Speed, Security, and Scalability for Businesses?", link: "/blog/how-webflow-enhances-speed-security-and-scalability-for-businesses" },
+          { text: "How AI Personalization Affects Search Results & CTR?", link: "/blog/how-AI-personalization-affects-search-results-&-CTR" },
+          { text: "A Step-by-Step Guide: How to Choose the Right SEO Agency for Your Business", link: "/blog/best-seo-agency-in-bangalore-for-small-businesses" },
         ],
       },
       {
