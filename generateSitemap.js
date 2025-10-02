@@ -148,6 +148,8 @@ const pages = [
 { url: "/blog/how-webflow-enhances-speed-security-and-scalability-for-businesses", changefreq: "monthly", priority: 0.6 },
 { url: "/blog/how-AI-personalization-affects-search-results-&-CTR", changefreq: "monthly", priority: 0.6 },
 { url: "/blog/best-seo-agency-in-bangalore-for-small-businesses", changefreq: "monthly", priority: 0.6 },
+{ url: "/blog/demand-for-reactjs-developers-bangalore", changefreq: "monthly", priority: 0.6 },
+
 
 ];
 

@@ -135,6 +135,7 @@ import Emailmarketing from "../page/service/Emailmarketing.jsx";
 import Googleads from "../page/service/Googleads.jsx";
 import Metaads from "../page/service/Metaads.jsx";
 import Sitemap from "../components/home-one/Sitemap/Sitemap.jsx";
+import CookiePolicy from "../components/home-one/cookie/CookiePolicy.jsx";
 
 
 
@@ -635,6 +636,10 @@ export const router = createBrowserRouter([
 					{
 						path: "/privacy-policy",
 						element: <Privacypolicy/>,
+					},
+					{
+						path: "/cookie-policy",
+						element: <CookiePolicy/>,
 					},
 				
 				],

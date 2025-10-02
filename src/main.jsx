@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { RouterProvider } from "react-router-dom";
 import { router } from "./router";
 import Chatbox from "./chatbox.jsx";
+import CookieConsent from "./components/common/CookieConsent.jsx";
 
 // Bootstrap & Styles
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -26,6 +27,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Suspense fallback={<div className="text-center mt-5">Loading...</div>}>
       <RouterProvider router={router} />
       <Chatbox />
+      <CookieConsent />
     </Suspense>
   </React.StrictMode>
 );

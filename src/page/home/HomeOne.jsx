@@ -18,7 +18,8 @@ import Logoslider from "../../components/home-one/auto-slider/Logoslider"
 import RightSlider from "../../components/home-one/auto-slider/RightSlider";
 import { Helmet } from "react-helmet";
 import TestimonialSlider from "../../components/home-one/testimonial/TestimonialSlider";
-import ImageSection from "../../components/home-one/ImageSection";
+// import ImageSection from "../../components/home-one/ImageSection";
+import Websites from "../../components/home-one/projects/Websites";
 
 
 const servicesData = [
@@ -120,8 +121,9 @@ function HomeOne() {
 			<Logoslider/>
 		    {/* <Partner/> */}
 			<RightSlider/>
+			<Websites/>
 			<About />
-			<ImageSection />
+			{/* <ImageSection /> */}
 			<Projects />
 			<TestimonialSlider />
 			<WhyChooseUs />

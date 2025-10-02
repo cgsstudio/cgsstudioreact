@@ -188,6 +188,9 @@ const sitemapData = [
           { text: "How Webflow Enhances Speed, Security, and Scalability for Businesses?", link: "/blog/how-webflow-enhances-speed-security-and-scalability-for-businesses" },
           { text: "How AI Personalization Affects Search Results & CTR?", link: "/blog/how-AI-personalization-affects-search-results-&-CTR" },
           { text: "A Step-by-Step Guide: How to Choose the Right SEO Agency for Your Business", link: "/blog/best-seo-agency-in-bangalore-for-small-businesses" },
+          { text: "Speed Optimization Techniques to Fix Slower Website Performance in Bangalore", link: "/blog/speed-optimization-techniques-fix-slower-website-performance-bangalore" },
+          { text: "The Growing Demand for React.js Developers in Bangalore’s IT Hub", link: "/blog/demand-for-reactjs-developers-bangalore" },
+
         ],
       },
       {

@@ -1,102 +1,73 @@
 import React from "react";
-import Star2Img from "../../../assets/images/v1/star2.png";
+
 import image1 from "../../../assets/images/Certifications/chamaleogfxstudio.png";
 import image2 from "../../../assets/images/Certifications/review-google.png";
 import image3 from "../../../assets/images/Certifications/Frame-3.webp";
 import image4 from "../../../assets/images/Certifications/Frame-4.webp";
 
+// Data for certifications
+const certifications = [
+	{
+		href: "https://clutch.co/profile/vulture-concepts",
+		imgSrc: image1,
+		alt: "Clutch Certification Badge",
+		title: "Top Web Development Company on Clutch",
+	},
+	{
+		href: "https://g.page/r/Cbnq-ryCGnacEAE/review",
+		imgSrc: image2,
+		alt: "Google Reviews for Chameleo GFX Studio",
+		title: "Google Customer Reviews",
+	},
+	{
+		href: "https://www.goodfirms.co/company/chameleo-gfx-studio",
+		imgSrc: "https://assets.goodfirms.co/badges/color-badge/top-web-design-companies.svg",
+		alt: "GoodFirms Top Web Design Company Badge",
+		title: "Top Web Designing (UI/UX) Company on GoodFirms",
+	},
+	{
+		imgSrc: image4,
+		alt: "Another Certification Badge",
+		title: "Certification Badge",
+	},
+	{
+		imgSrc: image3,
+		alt: "One More Certification Badge",
+		title: "Certification Badge",
+	},
+];
+
+// Common style for images
+const imageStyle = {
+	width: "200px",
+	height: "120px",
+	objectFit: "contain",
+};
+
 function ImageSection() {
-    return (
-        <div className="aximo-section-padding">
-            <div className="container">
-                <div className="row">
-                    <div className="col-lg-12">
-                        <div className="aximo-section-title-Certifications center">
-                            <h2>Global Recognition & Certifications
-                                <span className="aximo-title-animation">
+	return (
+		<div className="aximo-section-padding">
+			<div className="container">
+				<div className="aximo-section-title center">
+					<h2>Global Recognition & Certifications</h2>
+				</div>
 
-                                    <span className="aximo-title-icon">
-                                        <img className="shape-color" src={Star2Img} alt="Star2Img" />
-                                    </span>
-                                </span>
-                            </h2>
-                        </div>
-                    </div>
-                </div>
-
-                {/* Flexbox row for equal images */}
-                <div
-                    className="d-flex  flex-wrap gap-4"
-                    style={{ marginTop: "30px" }}
-                >
-                    {/* First Image (Clutch link) */}
-                     <div className="image-section-card">
-                        <a
-                            href="https://g.page/r/Cbnq-ryCGnacEAE/review"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <img
-                                src={image2}
-                                alt="Google Reviews"
-                                style={{ width: "200px", height: "120px", objectFit: "contain" }}
-                            />
-                        </a>
-                    </div>
-                   
-
-                    {/* Second Image (Google Review link) */}
-                    <div className="image-section-card">
-                        <a
-                            href="https://clutch.co/profile/vulture-concepts"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <img
-                                src={image1}
-                                alt="Chameleo GFX Studio Certification"
-                                style={{ width: "200px", height: "120px", objectFit: "contain" }}
-                            />
-                        </a>
-                    </div>
-
-                    {/* Third Badge (GoodFirms link) */}
-                    <div className="image-section-card">
-                        <a
-                            href="https://www.goodfirms.co/company/chameleo-gfx-studio"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <img
-                                src="https://assets.goodfirms.co/badges/color-badge/top-web-design-companies.svg"
-                                title="Top Web Designing (UI/UX) Company"
-                                alt="Top Web Designing (UI/UX) Company on GoodFirms"
-                                style={{ width: "200px", height: "120px", objectFit: "contain" }}
-                            />
-                        </a>
-                    </div>
-
-                    {/* Fourth Image */}
-                    <div className="image-section-card">
-                        <img
-                            src={image3}
-                            alt="Certification Badge"
-                            style={{ width: "200px", height: "120px", objectFit: "contain" }}
-                        />
-                    </div>
-
-                    {/* Fifth Image */}
-                    <div className="image-section-card">
-                        <img
-                            src={image4}
-                            alt="Certification Badge"
-                            style={{ width: "200px", height: "120px", objectFit: "contain" }}
-                        />
-                    </div>
-                </div>
-            </div>
-        </div>
-    );
+				<div className="row justify-content-center align-items-center g-4 mt-4">
+					{certifications.map((cert, index) => (
+						<div key={index} className="col-6 col-md-4 col-lg-auto text-center">
+							{cert.href ? (
+								<a href={cert.href} target="_blank" rel="noopener noreferrer" title={cert.title}>
+									<img src={cert.imgSrc} alt={cert.alt} style={imageStyle} />
+								</a>
+							) : (
+								<img src={cert.imgSrc} alt={cert.alt} style={imageStyle} title={cert.title} />
+							)}
+						</div>
+					))}
+				</div>
+			</div>
+		</div>
+	);
 }
 
 export default ImageSection;
