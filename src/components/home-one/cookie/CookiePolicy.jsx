@@ -122,13 +122,14 @@ const CookiePolicy = () => {
                     Shyamal, Ahmedabad, <br/>
                     Gujarat 380015<br/>
                     Email: <a className="text-link-main" href="mailto:info@chameleogfxstudio.com">info@chameleogfxstudio.com</a><br/>
-                    Phone: <a className="text-link-main" href="tel:+918460384838">+918460384838</a>
+                    <div className="d-flex">
+                    Phone: <div><a className="text-link-main" href="tel:+918460384838">+91-8460384838</a><br/>
+                          <a className="text-link-main" href="tel:+919737472636">+91-9737472636</a></div> </div>
                 </address>
             </div>
         </>
     );
 };
-
 export default CookiePolicy;
 
 

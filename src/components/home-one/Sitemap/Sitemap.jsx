@@ -190,6 +190,8 @@ const sitemapData = [
           { text: "A Step-by-Step Guide: How to Choose the Right SEO Agency for Your Business", link: "/blog/best-seo-agency-in-bangalore-for-small-businesses" },
           { text: "Speed Optimization Techniques to Fix Slower Website Performance in Bangalore", link: "/blog/speed-optimization-techniques-fix-slower-website-performance-bangalore" },
           { text: "The Growing Demand for React.js Developers in Bangalore’s IT Hub", link: "/blog/demand-for-reactjs-developers-bangalore" },
+          { text: "How AI is Transforming UI/UX Design in Bangalore’s Tech Scene?", link: "/blog/how-ai-is-transforming-ui-ux-design-in-bangalore-tech-scene" },
+
 
         ],
       },

@@ -1,6 +1,7 @@
 import Shape1Img from "../../../assets/images/v1/shape1.png";
 import Star2Img from "../../../assets/images/v1/star2.png";
 import LogoWhiteImg from "../../../assets/images/logo/logo-white.svg";
+import Logo from "../../../assets/images/logo/Cgs_Logo.png";
 function FooterContent() {
 	return (
 		<div className="aximo-default-content light position-relative">

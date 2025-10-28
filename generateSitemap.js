@@ -149,6 +149,7 @@ const pages = [
 { url: "/blog/how-AI-personalization-affects-search-results-&-CTR", changefreq: "monthly", priority: 0.6 },
 { url: "/blog/best-seo-agency-in-bangalore-for-small-businesses", changefreq: "monthly", priority: 0.6 },
 { url: "/blog/demand-for-reactjs-developers-bangalore", changefreq: "monthly", priority: 0.6 },
+{ url: "/blog/how-ai-is-transforming-ui-ux-design-in-bangalore-tech-scene", changefreq: "monthly", priority: 0.6 },
 
 
 ];
