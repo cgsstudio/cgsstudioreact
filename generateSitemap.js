@@ -150,6 +150,12 @@ const pages = [
 { url: "/blog/best-seo-agency-in-bangalore-for-small-businesses", changefreq: "monthly", priority: 0.6 },
 { url: "/blog/demand-for-reactjs-developers-bangalore", changefreq: "monthly", priority: 0.6 },
 { url: "/blog/how-ai-is-transforming-ui-ux-design-in-bangalore-tech-scene", changefreq: "monthly", priority: 0.6 },
+{ url: "/blog/digital-marketing-trends-bangalore-startups", changefreq: "monthly", priority: 0.6 },
+{ url: "/blog/google-gemini-transforming-design-2025", changefreq: "monthly", priority: 0.6 },
+{ url: "/blog/wordpress-security-best-practices-bangalore", changefreq: "monthly", priority: 0.6 },
+
+
+
 
 
 ];

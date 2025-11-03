@@ -40,7 +40,7 @@ function GraphicDesignService() {
       <div className="container">
         <div className="aximo-service-details-wrap">
           <div className="aximo-service-details-thumb">
-            <img src={SingleImg} alt="Graphic Design" />
+            <img src={SingleImg} alt="Graphic Design" className="services_page_image"/>
           </div>
           <div className="row">
             <div className="col-lg-12">
@@ -52,7 +52,7 @@ function GraphicDesignService() {
                       <img src={Star2Img} alt="star" />
                     </span>
                   </span>
-                </h1> <br />
+                </h1> <br/>
 
                 <p>
                   Graphic design is the creative process of combining text, images, shapes, and colors to convey ideas in a clear and visually appealing manner. One of the strongest assets a business can have is its impact on branding, marketing, and digital presence. From logos and brochures to social media posts and websites, design plays a big role in how people see and remember a brand.

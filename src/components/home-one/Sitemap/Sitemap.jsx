@@ -191,6 +191,11 @@ const sitemapData = [
           { text: "Speed Optimization Techniques to Fix Slower Website Performance in Bangalore", link: "/blog/speed-optimization-techniques-fix-slower-website-performance-bangalore" },
           { text: "The Growing Demand for React.js Developers in Bangalore’s IT Hub", link: "/blog/demand-for-reactjs-developers-bangalore" },
           { text: "How AI is Transforming UI/UX Design in Bangalore’s Tech Scene?", link: "/blog/how-ai-is-transforming-ui-ux-design-in-bangalore-tech-scene" },
+          { text: "Latest Digital Marketing Trends: What Bangalore Startups Should Watch", link: "/blog/digital-marketing-trends-bangalore-startups" },
+          { text: "How Google Gemini is Transforming Graphics & UI/UX Design in 2025", link: "/blog/google-gemini-transforming-design-2025" },
+          { text: "Step-by-Step Social Media Strategy for Bangalore Businesses", link: "/blog/step-by-step-social-media-strategy-for-bangalore-businesses" },
+          { text: "WordPress Security Best Practices Every Bangalore Business Should Follow", link: "/blog/wordpress-security-best-practices-bangalore" },
+
 
 
         ],
