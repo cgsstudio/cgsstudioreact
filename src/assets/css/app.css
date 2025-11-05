@@ -12113,16 +12113,19 @@ button#aximo-notified-btn {
 .blog-h1 {
 	font-size: 35px;
 	font-weight: 700;
+	line-height: normal;
 }
 
 .blog-h2 {
 	font-size: 30px;
+	line-height: normal;
 	margin-bottom: 10px;
 }
 
 .blog-h3 {
 	font-size: 25px;
 	margin-bottom: 10px;
+	line-height: normal;
 }
 
 .aximo-footer-bottom .aximo-copywright {

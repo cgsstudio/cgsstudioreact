@@ -90,7 +90,7 @@ function Responsivewebdesigndetail() {
       <div className="container">
         <div className="aximo-service-details-wrap">
           <div className="aximo-service-details-thumb">
-            <img src={SingleImg} alt="Web Development" />
+            <img src={SingleImg} alt="Web Development" className="responsive-web-design"/>
           </div>
           <div className="row">
             <div className="col-lg-12">
