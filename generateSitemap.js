@@ -153,6 +153,7 @@ const pages = [
 { url: "/blog/digital-marketing-trends-bangalore-startups", changefreq: "monthly", priority: 0.6 },
 { url: "/blog/google-gemini-transforming-design-2025", changefreq: "monthly", priority: 0.6 },
 { url: "/blog/wordpress-security-best-practices-bangalore", changefreq: "monthly", priority: 0.6 },
+{ url: "/blog/rise-of-ai-in-search-bangalore-digital-marketers", changefreq: "monthly", priority: 0.6 },
 
 
 

@@ -11399,7 +11399,7 @@ button#wp-block-search__button {
 }
 
 .post-tag .wp-block-tag-cloud a {
-	margin-bottom: 0;
+	margin-bottom: 10px;
 }
 
 .post-like-comment ul li {

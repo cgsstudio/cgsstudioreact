@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import LikeIcon from "../../../assets/images/icon/like.svg";
 import CommentIcon from "../../../assets/images/icon/comment.svg";
 
-function PostTags() {
+// PostTags now accepts an optional `tags` prop (array of strings).
+// Clicking a tag links to the blog list page with a `tag` query parameter
+function PostTags({ tags = [] }) {
 	// Initialize likes from local storage or use default value of 175
 	const [likes, setLikes] = useState(() => {
 		const storedLikes = localStorage.getItem("likes");
@@ -24,8 +27,23 @@ function PostTags() {
 			<div className="post-tag">
 				<h3>Tags:</h3>
 				<div className="wp-block-tag-cloud">
-					<a href="#">Business</a>
-					<a href="#">Solutions</a>
+					{/* Render tags dynamically. Each tag links to /blogs?tag=... */}
+					{tags && tags.length > 0 ? (
+						tags.map((t) => (
+							<Link
+								key={t}
+								to={`/blogs?tag=${encodeURIComponent(t)}`}
+								style={{ marginRight: 8 }}
+							>
+								{t}
+							</Link>
+						))
+					) : (
+						<>
+							<a href="#">Business</a>
+							<a href="#">Solutions</a>
+						</>
+					)}
 				</div>
 			</div>
 			<div className="post-like-comment">

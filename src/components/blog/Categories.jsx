@@ -1,6 +1,6 @@
 import React from "react";
 
-function Categories({ categories, onCategorySelect }) {
+function Categories({ categories, onCategorySelect, onAllCategoriesSelect }) {
   return (
     <div className="widget">
       <h3 className="wp-block-heading">Categories:</h3>
@@ -15,7 +15,7 @@ function Categories({ categories, onCategorySelect }) {
               cursor: "pointer",
 			  fontWeight:500
             }}
-            onClick={() => onCategorySelect(null)}
+            onClick={onAllCategoriesSelect}
           >
             All Categories
           </button>

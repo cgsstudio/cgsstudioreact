@@ -42,7 +42,7 @@ function BlogDetails({ blog }) {
                 <div className="entry-content">
                     <h1 className="blog-h1 mb-3">{blog.title}</h1>
                     <div dangerouslySetInnerHTML={{ __html: blog.fullContent }} />
-                    <PostTags />
+                    <PostTags tags={blog.keywords} />
                 </div>
                 {/* <CommentForm /> */}
                 {/* <CommentList /> */}
@@ -52,5 +52,3 @@ function BlogDetails({ blog }) {
 }
 
 export default BlogDetails;
-
-

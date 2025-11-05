@@ -11,7 +11,7 @@ function BlogCard({ blog: { title, category, content, date, img, slug } }) {
       <div className="post-content">
         <div className="post-meta">
           <div className="post-category">
-            <Link to="/">{category}</Link>
+            <Link to={`/blog/category/${category.toLowerCase()}`}>{category}</Link>
           </div>
           <div className="post-date">{date}</div>
         </div>
