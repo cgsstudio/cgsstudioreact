@@ -154,6 +154,7 @@ const pages = [
 { url: "/blog/google-gemini-transforming-design-2025", changefreq: "monthly", priority: 0.6 },
 { url: "/blog/wordpress-security-best-practices-bangalore", changefreq: "monthly", priority: 0.6 },
 { url: "/blog/rise-of-ai-in-search-bangalore-digital-marketers", changefreq: "monthly", priority: 0.6 },
+{ url: "/blog/seo-for-bangalore-saas-tech-companies-winning-strategies", changefreq: "monthly", priority: 0.6 },
 
 
 
