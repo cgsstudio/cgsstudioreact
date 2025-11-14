@@ -24,7 +24,7 @@ const teamsData = [
 			id: crypto.randomUUID(),
 			name: "Dhiraj Ahuja",
 			designation: "Co-Founder & Chairman ",
-			linkedin: "https://www.linkedin.com/in/dhirajahuja/",
+			linkedin: "https://www.linkedin.com/in/dhirahuja/",
 			img: Team2Img,
 		},
 	

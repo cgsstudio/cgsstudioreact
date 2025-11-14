@@ -41,6 +41,7 @@ import Blog40Img from '../../assets/images/blog/smm-banglore.jpg';
 import Blog41Img from '../../assets/images/blog/chameleo 17.jpg';
 import Blog42Img from '../../assets/images/blog/chameleo 18.jpg';
 import Blog43Img from '../../assets/images/blog/chameleo 19.png';
+// import Blog44Img from '../../assets/images/blog/chameleo 19.png';
 
 
 
@@ -4620,5 +4621,6 @@ creating compatibility issues, and opening security gaps</p>
     seod: "Discover powerful SEO strategies for SaaS and tech companies in Bangalore. Learn how the Best SEO Company in Bangalore, Chameleo GFX Studio, helps boost online visibility, rankings, and conversions through tailored SEO services.",
     keywords: ["Best SEO Company in Bangalore", "SEO Services in Bangalore", "SEO Agency in Bangalore", "SaaS SEO Bangalore", "Tech Company SEO Bangalore", "Local SEO Bangalore", "SEO Strategy for SaaS", "SEO for Tech Startups"]
   }
+  
 
   ];

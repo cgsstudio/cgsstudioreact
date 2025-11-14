@@ -155,6 +155,7 @@ const pages = [
 { url: "/blog/wordpress-security-best-practices-bangalore", changefreq: "monthly", priority: 0.6 },
 { url: "/blog/rise-of-ai-in-search-bangalore-digital-marketers", changefreq: "monthly", priority: 0.6 },
 { url: "/blog/seo-for-bangalore-saas-tech-companies-winning-strategies", changefreq: "monthly", priority: 0.6 },
+{ url: "/blog/how-tech-companies-in-bangalore-are-leveraging-web3-for-growth", changefreq: "monthly", priority: 0.6 },
 
 
 

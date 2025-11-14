@@ -26,7 +26,7 @@ function DhirajAhuja() {
                 <p className="m-0"><strong>Co-Founder & Chairman</strong>   |</p>
                 <ul>
                   <li>
-                    <a href="https://www.linkedin.com/in/dhirajahuja/" target="_blank">
+                    <a href="https://www.linkedin.com/in/dhirahuja/" target="_blank">
                       <i className="icon-linkedin"></i>
                     </a>
                   </li>
