@@ -198,6 +198,7 @@ const sitemapData = [
           { text: "The Rise of AI in Search and What Bangalore Digital Marketers Must Know", link: "/blog/rise-of-ai-in-search-bangalore-digital-marketers" },
           { text: "SEO for Bangalore’s SaaS & Tech Companies: Winning Strategies in a Crowded Market", link: "/blog/seo-for-bangalore-saas-tech-companies-winning-strategies" },
           { text: "How Tech Companies in Bangalore Are Leveraging Web 3.0 for Growth?", link: "/blog/how-tech-companies-in-bangalore-are-leveraging-web3-for-growth" },
+          { text: "UI/UX Case Study: Redesigning a Poor-Performing Landing Page", link: "/blog/ui-ux-case-study-landing-page-redesign" },
 
 
 
