@@ -8,7 +8,6 @@ function Layout() {
 	useScrollTop();
 	return (
 		<>
-			<Preloader />
 			<Outlet />
 			<ScrollToTop />
 			<WhatsAppWidget />
