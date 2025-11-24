@@ -1,6 +1,14 @@
 import { Helmet } from "react-helmet";
 import SingleImg from "../../assets/images/service/Graphics_01 1.png";
 import Star2Img from "../../assets/images/v1/star2.png";
+import servise_image2 from "../../assets/images/v1/Process_1 5.png";
+import servise_image1 from "../../assets/images/v1/Process_1 1.png";
+import servise_image3 from "../../assets/images/v1/Process_1 3.png";
+import servise_image4 from "../../assets/images/v1/Process_1 2.png";
+import BreadCrumb from "../common/Breadcrumb";
+
+
+
 
 const services = [
   {
@@ -36,163 +44,319 @@ const services = [
 
 function GraphicDesignService() {
   return (
-    <div className="section aximo-section-padding2">
-      <div className="container">
-        <div className="aximo-service-details-wrap">
-          <div className="aximo-service-details-thumb">
-            <img src={SingleImg} alt="Graphic Design" className="services_page_image"/>
-          </div>
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="aximo-default-content">
-                <h1>
-                  <span className="aximo-title-animation service-page-title">
-                    Graphic Design Company in Ahmedabad
-                    <span className="aximo-title-icon">
-                      <img src={Star2Img} alt="star" />
-                    </span>
-                  </span>
-                </h1> <br/>
+    <div className="section ">
+      <Helmet>
+        <title>Graphic Design Company in Ahmedabad - Chameleo GFX Studio</title>
+        <meta
+          name="description"
+          content="Chameleo GFX Studio is a top graphic design company in Ahmedabad, India. We offer creative logo design, branding, and graphic design services to elevate your brand."
+        />
+      </Helmet>
+    
 
-                <p>
-                  Graphic design is the creative process of combining text, images, shapes, and colors to convey ideas in a clear and visually appealing manner. One of the strongest assets a business can have is its impact on branding, marketing, and digital presence. From logos and brochures to social media posts and websites, design plays a big role in how people see and remember a brand.
-                </p>
+    <div className="container">
+				<div className="aximo-service-details-wrap">
+					<div className="row">
+						<div className="col-lg-12">
+							<div className="aximo-default-content">
+								<h1 className="text-lg-center text-sm-left"><span className="custom-h2"><span style={{ color: 'red' }}>Graphic Design</span> Company in Ahmedabad</span></h1>
 
-                <p>
-                  A well-made design is more than just decoration. It tells your story, explains your message, and creates a lasting impression. It makes a brand look professional, trustworthy, and unique. At <b>Chameleo GFX Studio, a leading Graphic Design Company in Ahmedabad,</b> India, to stay ahead in today’s competitive market, we also integrate <b>AI-driven market insights and creative strategies</b> to make your designs more impactful.
-                </p>
+								<p className="text-lg-center text-sm-left pt-sm-2">
+								Graphic design is the creative process of combining text, images, shapes, and colors to convey ideas in a clear and visually appealing manner. One of the strongest assets a business can have is its impact on branding, marketing, and digital presence. From logos and brochures to social media posts and websites, design plays a big role in how people see and remember a brand.</p>
+     
 
-                <h2>
-                  <span className="custom-h2">Why Graphic Design is Important for Businesses?</span>
-                </h2>
-                <p>
-                  In today’s world, people make quick decisions based on what they see. When your brand looks professional, it naturally earns more trust from people. If it looks messy or unclear, customers may move to your competitors. That is why graphic design is not just about beauty; it is about business success.
-                </p>
-                <p><b>Here’s why design matters so much:</b></p>
-                <ul className="custom-list">
-                  <li><b>Creates a strong identity –</b> A logo, color theme, and style make your brand recognizable.</li>
-                  <li><b>Builds trust and credibility –</b> A professional look shows that you care about quality.</li>
-                  <li><b>Increases engagement –</b> Eye-catching visuals make people stop, look, and interact.</li>
-                  <li><b>Boosts sales –</b> Good design encourages people to buy and stay loyal to your brand.</li>
-                </ul>
-                <br />
-                <p>Whether it is a small startup or a big company, every business needs graphic design to stand out and grow.</p>
+								<p className="text-lg-center text-sm-left">
+								A well-made design is more than just decoration. It tells your story, explains your message, and creates a lasting impression. It makes a brand look professional, trustworthy, and unique. At Chameleo GFX Studio, a leading Graphic Design Company in Ahmedabad, India, to stay ahead in today’s competitive market, we also integrate AI-driven market insights and creative strategies to make your designs more impactful.	</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 
-                <h2>
-                  <span className="custom-h2">What We Do at Chameleo GFX Studio?</span>
-                </h2>
-                <p>
-                  At Chameleo GFX Studio, we help businesses of all sizes create visuals that truly connect with their audience. As one of the top <b>graphic design companies in Ahmedabad, India,</b> we offer a wide range of services:
-                </p>
-                <ul className="custom-list">
-                  <li><b>Logo Design and Branding –</b> We design logos that are simple, unique, and memorable. Along with logos, we create full brand identities that include colors, fonts, and styles.</li>
-                  <li><b>Brochures and Flyers –</b> Perfect for explaining products and services in an attractive and simple format.</li>
-                  <li><b>Social Media Graphics –</b> Posts, stories, and ads designed to grab attention and get likes, shares, and clicks.</li>
-                  <li><b>Website Design Elements –</b> Visuals, icons, and layouts that make websites modern, clear, and easy to use.</li>
-                  <li><b>Packaging Design –</b> Creative packaging that makes products stand out on shelves and encourages people to buy.</li>
-                </ul>
-                <br />
-                <p>Every design is made with your brand’s vision in mind. We make sure it reflects your values and speaks directly to your target customers.</p>
-
-                <h2>
-                  <span className="custom-h2">How We Work?</span>
-                </h2>
-                <ul className="custom-list">
-                  <li><b>Understanding Your Needs –</b> We first learn about your business, goals, and audience.</li>
-                  <li><b>Idea Development –</b> Our creative team discusses different design options.</li>
-                  <li><b>Design Creation –</b> We prepare sample designs and share them with you.</li>
-                  <li><b>Feedback and Edits – </b>You tell us what you like, and we make improvements.</li>
-                  <li><b>Final Delivery –</b> Once you are happy, we deliver high-quality files ready for use.</li>
-                </ul>
-                <br />
-                <p>
-                  Throughout this process, we also keep track of AI-driven design trends to make sure your brand looks fresh, modern, and competitive.
-                </p>
-
-                <h2>
-                  <span className="custom-h2">Why Choose Chameleo GFX Studio in Ahmedabad?</span>
-                </h2>
-                <ul className="custom-list">
-                  <li><b>Creative and fresh ideas –</b> We bring originality to every project.</li>
-                  <li><b>High-quality results –</b> Our designs are sharp, polished, and professional.</li>
-                  <li><b>Custom solutions –</b> Since every business is unique, we create designs that reflect that individuality.</li>
-                  <li><b>Experienced team –</b> We have worked with multiple industries and understand different needs.</li>
-                  <li><b>Affordable pricing – </b>Great design does not always need to be expensive.</li>
-                </ul>
-                <br />
-                <p>We combine creativity with strategy so that your brand not only looks good but also achieves results.</p>
-
-                <h2>
-                  <span className="custom-h2">The Role of Design in Today’s Digital World</span>
-                </h2>
-                <p>
-                  The internet has completely transformed how people connect with and engage with businesses. Customers see hundreds of ads and posts daily, and they only notice what stands out. This is the stage where design truly makes the difference.
-                </p>
-                <ul className="custom-list">
-                  <li>On <b>social media</b>, eye-catching designs stop people from scrolling.</li>
-                  <li>On <b>websites</b>, clean designs make visitors stay longer and explore more.</li>
-                  <li>On <b>products</b>, attractive packaging convinces customers to choose your brand.</li>
-                </ul>
-                <br />
-                <p>
-                  With <b>AI-powered trend analysis</b>, brands can stay relevant and design visuals that truly connect with modern audiences. In short, strong design is now one of the biggest keys to success.
-                </p>
-              </div>
+      <div className="container py-lg-5 py-3">
+        <div className="row ">
+          <div className="col-lg-6 align-items-center">
+            <div className="aximo-default-content">
               <h2>
-                <span className="custom-h2">Final Words</span>
+                <span className="services-h2 ">  <span style={{ color: 'red' }}>Why Graphic Design</span> is Important for Businesses?</span>
               </h2>
-
-              <p>
-                Graphic design is much more than making things pretty. It is about communication, trust, and creating an identity that people remember. At <b>Chameleo GFX Studio in Ahmedabad,</b> we specialize in crafting designs that not only look great but also help businesses grow.
-              </p>
-              <p>
-                Whether you need a logo, a brochure, or a complete brand identity, our team is ready to deliver designs that truly make an impact. With Chameleo GFX Studio, your brand will not just exist. It will shine.
-              </p>
-
-              <p>
-                Because for us, <b>design is not just our work. It’s our passion.</b>  </p>
+              <p className="m-0">
+                In today’s world, people make quick decisions based on what they see. When your brand looks professional, it naturally earns more trust from people. If it looks messy or unclear, customers may move to your competitors. That is why graphic design is not just about beauty; it is about business success.
+              </p><br />
+              <p className="m-0"><b>Here’s why design matters so much:</b></p>
+              <ul className="custom-list mt-1 ml-5 pl-5">
+                <li className="m-lg-0 m-sm-2"><b>Creates a strong identity –</b> A logo, color theme, and style make your brand recognizable.</li>
+                <li className="m-lg-0 m-sm-2"><b>Builds trust and credibility –</b> A professional look shows that you care about quality.</li>
+                <li className="m-lg-0 m-sm-2"><b>Increases engagement –</b> Eye-catching visuals make people stop, look, and interact.</li>
+                <li className="m-lg-0 m-sm-2"><b>Boosts sales –</b> Good design encourages people to buy and stay loyal to your brand.</li>
+              </ul>
+              <br />
+              <p className="m-0">Whether it is a small startup or a big company, every business needs graphic design to stand out and grow.</p>
             </div>
           </div>
-
-          {/* Services List */}
-          <div className="container pt-5">
-            {services.map((service, index) => (
-              <div key={index}>
-                <div className="aximo-section-title main center">
-                  <h2>
-                    <span className="custom-h2">
-                      {service.title}
-                      <span className="aximo-title-icon">
-                        <img className="shape-color" src={Star2Img} alt="Star2Img" />
-                      </span>
-                    </span>
-                  </h2>
-                </div>
-
-                <div className="row">
-                  {service.items.map((item, itemIndex) => (
-                    <div key={itemIndex} className="col-12 col-md-3 pb-3">
-                      <ul className="badge bg-black custom-hover">
-                        <li>
-                          <a
-                            href={item.link}
-                            rel="noopener noreferrer"
-                            className="link-tegs text-white text-decoration-none"
-                          >
-                            {item.text}
-                          </a>
-                        </li>
-                      </ul>
-                      <br />
-                    </div>
-                  ))}
-                </div>
-
-              </div>
-            ))}
+          <div className="col-lg-6 align-items-center">
+            <div >
+              <img src={servise_image4} alt="Graphic Design" className="services_page_image" />
+            </div>
           </div>
         </div>
       </div>
+
+    
+      
+
+   
+        <div className="container py-lg-5 py-3">
+          <div className="row">
+            <div className="col-lg-6 align-items-center mt-lg-0 mt-sm-3 mt-5">
+              <div>
+                <img src={servise_image3} alt="Graphic Design" className="services_page_image" />
+              </div>
+            </div>
+            <div className="col-lg-6 align-items-center">
+              <div className="aximo-default-content">
+                <h2>
+                  <span className="services-h2">  <span style={{ color: 'red' }}>What We Do</span> at Chameleo GFX Studio?</span>
+                </h2>
+                <p className="m-0">
+                  At Chameleo GFX Studio, we help businesses of all sizes create visuals that truly connect with their audience. As one of the top <b>graphic design companies in Ahmedabad, India,</b> we offer a wide range of services:
+                </p>
+                <ul className="custom-list mt-1 ml-2">
+                  <li className="m-lg-0 m-sm-2"><b>Logo Design and Branding –</b> We design logos that are simple, unique, and memorable. Along with logos, we create full brand identities that include colors, fonts, and styles.</li>
+                  <li className="m-lg-0 m-sm-2"><b>Brochures and Flyers –</b> Perfect for explaining products and services in an attractive and simple format.</li>
+                  <li className="m-lg-0 m-sm-2"><b>Social Media Graphics –</b> Posts, stories, and ads designed to grab attention and get likes, shares, and clicks.</li>
+                  <li className="m-lg-0 m-sm-2"><b>Website Design Elements –</b> Visuals, icons, and layouts that make websites modern, clear, and easy to use.</li>
+                  <li className="m-lg-0 m-sm-2"><b>Packaging Design –</b> Creative packaging that makes products stand out on shelves and encourages people to buy.</li>
+                </ul>
+                <br />
+                <p className="m-0">Every design is made with your brand’s vision in mind. We make sure it reflects your values and speaks directly to your target customers.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+     
+      <div className="container py-lg-5 py-3">
+        <div className="row">
+
+          <div className="col-lg-6 align-items-center">
+            <div className="aximo-default-content">
+              <h2>
+                <span className="services-h2 ">How We Work?</span>
+              </h2>
+              <ul className="custom-list">
+                <li className="m-lg-0 m-sm-2"><b>Understanding Your Needs –</b> We first learn about your business, goals, and audience.</li>
+                <li className="m-lg-0 m-sm-2"><b>Idea Development –</b> Our creative team discusses different design options.</li>
+                <li className="m-lg-0 m-sm-2"><b>Design Creation –</b> We prepare sample designs and share them with you.</li>
+                <li className="m-lg-0 m-sm-2"><b>Feedback and Edits – </b>You tell us what you like, and we make improvements.</li>
+                <li className="m-lg-0 m-sm-2"><b>Final Delivery –</b> Once you are happy, we deliver high-quality files ready for use.</li>
+              </ul>
+              <br />
+              <p>
+                Throughout this process, we also keep track of AI-driven design trends to make sure your brand looks fresh, modern, and competitive.
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-6 align-items-center">
+            <div >
+              <img src={servise_image1} alt="Graphic Design" className="services_page_image" />
+            </div>
+          </div>
+        </div>
+      </div>
+     
+      <div className="container py-lg-5 py-3">
+        <div className="row">
+          <div className="col-lg-6 align-items-center  mt-lg-0 mt-sm-3 mt-5">
+            <div >
+              <img src={servise_image2} alt="Graphic Design" className="services_page_image" />
+            </div>
+          </div>
+          <div className="col-lg-6 align-items-center">
+            <div className="aximo-default-content">
+              <h2>
+                <span className="services-h2">  <span style={{ color: 'red' }}>Why Choose</span> Chameleo GFX Studio in Ahmedabad?</span>
+              </h2>
+              <ul className="custom-list m-2">
+                <li className="m-lg-0 m-sm-2"><b>Creative and fresh ideas –</b> We bring originality to every project.</li>
+                <li className="m-lg-0 m-sm-2"><b>High-quality results –</b> Our designs are sharp, polished, and professional.</li>
+                <li className="m-lg-0 m-sm-2"><b>Custom solutions –</b> Since every business is unique, we create designs that reflect that individuality.</li>
+                <li className="m-lg-0 m-sm-2"><b>Experienced team –</b> We have worked with multiple industries and understand different needs.</li>
+                <li className="m-lg-0 m-sm-2"><b>Affordable pricing – </b>Great design does not always need to be expensive.</li>
+              </ul>
+              <br />
+              <p>We combine creativity with strategy so that your brand not only looks good but also achieves results.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div className="container py-lg-5 py-3">
+        <div className="row align-items-center">
+          <div className="col-md-6 mb-4 mb-md-0 pr-5  mr-5">
+            <div className="servisepage-form-section pr-5">
+              <h2>Optimize your Business Hours Efficiently  </h2>
+            </div>
+
+            <div className="d-flex justify-content-around align-items-left py-3 mt-4">
+              <div className="text-center">
+                <h3 className="text-danger fw-bold mb-0 our_efficiently">5K+</h3>
+                <small className="text-muted our_efficiently_1">Projects Delivered</small>
+              </div>
+              <div className="text-center">
+                <h3 className="text-danger fw-bold mb-0 our_efficiently">11+</h3>
+                <small className="text-muted our_efficiently_1">Years of Experience</small>
+              </div>
+              <div className="text-center">
+                <h3 className="text-danger fw-bold mb-0 our_efficiently">100%</h3>
+                <small className="text-muted our_efficiently_1">Success Projects</small>
+              </div>
+            </div>
+
+            <p className="text-danger small mt-2 mb-0"><b><a href="mailto:info@chameleogfxstudio.com"className="text-danger" >info@chameleogfxstudio.com</a></b></p>
+          </div>
+
+          <div className="col-md-6">
+            <form className="servise-aximo-form-wrap3 border border-1 rounded p-4  shadow-sm">
+              <div className="aximo-form-field2 mb-5">
+                <input type="text" className="form-control" placeholder="Your Name" />
+              </div>
+              <div className="aximo-form-field2 mb-5">
+                <input type="email" className="form-control" placeholder="Your Email" />
+              </div>
+              <div className="aximo-form-field2 mb-5">
+                <input type="text" className="form-control" placeholder="Your Phone Number" />
+              </div>
+              <div className="aximo-form-field2  mb-5">
+                <textarea className="form-control"    style={{ backgroundColor: "#FFFFF5" }} rows="3" placeholder="Message"></textarea>
+              </div>
+              <button type="submit" className="aximo-default-btn bg-red w-100 fw-bold">
+                <span className="aximo-label-up">SUBMIT</span>
+                <span className="aximo-label-up">SUBMIT</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      
+
+      <div className="design-body-wrapper mt-lg-5 mt-3" >
+        <div className="container">
+        <div className="container py-5">
+          <div className="design-main-card">
+              <div className="row">
+                  <div className="col-lg-5 col-md-5">
+                      <div className="design-title-section">
+                          <h1 className="design-title-heading">The Role<br/>of Design<br/>in Today's<br/>Digital<br/>World.</h1>
+                      </div>
+                  </div>
+                  
+                  <div className="col-lg-7 col-md-7">
+                      <div className="design-timeline-wrapper">
+                          <div className="design-timeline-vertical-line"></div>
+                          
+                          <div className="design-timeline-single-item">
+                              <div className="design-timeline-circle-dot"></div>
+                              <div className="design-info-content-box">
+                                  <p className="design-info-text-paragraph">Websites build confidence and bring local customers for small businesses.</p>
+                              </div>
+                          </div>
+                          
+                          <div className="design-timeline-single-item">
+                              <div className="design-timeline-circle-dot"></div>
+                              <div className="design-info-content-box">
+                                  <p className="design-info-text-paragraph">Websites drive sales with hassle-free shopping experiences for e-commerce stores.</p>
+                              </div>
+                          </div>
+                          
+                          <div className="design-timeline-single-item">
+                              <div className="design-timeline-circle-dot"></div>
+                              <div className="design-info-content-box">
+                                  <p className="design-info-text-paragraph">Websites enhance brand image and deliver critical updates for corporates.</p>
+                              </div>
+                          </div>
+                          
+                          <div className="design-timeline-single-item">
+                              <div className="design-timeline-circle-dot"></div>
+                              <div className="design-info-content-box">
+                                  <p className="design-info-text-paragraph">A properly developed website is the core of your growth and digital marketing strategy.</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+
+
+      <div className="container pt-5">
+        {services.map((service, index) => (
+          <div key={index}>
+            <div className="aximo-section-title main center">
+              <h2>
+                <span className="services">
+                  {service.title}
+                 
+                </span>
+              </h2>
+            </div>
+
+            <div className="row">
+              <div className="col-12 d-flex flex-wrap justify-content-center">
+                {service.items.map((item, itemIndex) => (
+                  <div key={itemIndex}>
+                    <ul className="badge bg-black custom-hover p-2 m-2">
+                      <li>
+                        <a
+                          href={item.link}
+                          rel="noopener noreferrer"
+                          className="link-tegs text-white text-decoration-none"
+                        >
+                          {item.text}
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div className="container-fluid bg-black mt-5 ">
+      <div className="container-fluid bg-black py-5 mt-5 ">
+        <div className="container ">
+          <div className="row bg-black text-white p-lg-4 p-0  rounded">
+          <div className="row bg-black text-white rounded">
+            <div className="col-lg-12 align-items-center">
+              <div className="aximo-default-content">
+                <h2 className="text-center">
+                  <span className="services-h2 text-white text-center">Final Words</span>
+                </h2>
+
+                <p className="text-center">
+                  Graphic design is much more than making things pretty. It is about communication, trust, and creating an identity that people remember. At <b>Chameleo GFX Studio in Ahmedabad,</b> we specialize in crafting designs that not only look great but also help businesses grow.
+                </p>
+                <p className="text-center">
+                  Whether you need a logo, a brochure, or a complete brand identity, our team is ready to deliver designs that truly make an impact. With Chameleo GFX Studio, your brand will not just exist. It will shine.
+                </p>
+
+                <p className="text-center">
+                  Because for us, <b>design is not just our work. It’s our passion.</b>  </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+</div>
+</div>
+      </div>
+      {/* Services List */}
+
     </div>
   );
 }

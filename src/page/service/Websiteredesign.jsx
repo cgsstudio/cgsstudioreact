@@ -15,7 +15,8 @@ function Websiteredesign() {
           href="/website-redesign-and-revamp" 
         />
         </Helmet>
-      <BreadCrumb title="Website Redesign and Revamp" />
+      <BreadCrumb title="Website Redesign and Revamp"
+       subtitle="Graphic design is the creative process of combining text, images, shapes, and colors to convey ideas in a clear and visually appealing manner." />
       <Websiteredesigndetail />
 
     </>

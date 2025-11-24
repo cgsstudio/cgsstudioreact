@@ -15,7 +15,8 @@ function Digitalmarketing() {
           href="/digital-marketing" 
         />
         </Helmet>
-      <BreadCrumb title="Digital Marketing" />
+      <BreadCrumb title="Digital Marketing" 
+       subtitle="Graphic design is the creative process of combining text, images, shapes, and colors to convey ideas in a clear and visually appealing manner."/>
       <Digitalmarketingdetail />
 
     </>

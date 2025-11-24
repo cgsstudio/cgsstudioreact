@@ -49,7 +49,7 @@
 	width: 100% !important;
 	max-width: 100% !important;
 	border-radius: 8px;
-	
+
 }
 
 
@@ -1862,6 +1862,34 @@ h3.blog-h2 {
 	display: inline-block;
 }
 
+.services-h2 {
+	font-size: 36px;
+	display: inline-block;
+	line-height: normal;
+}
+
+.custom-hover {
+	background-color: #000;
+	/* Default black background */
+	color: white;
+	transition: all 0.3s ease;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+/* Jab hover kare to red background aur white text ho */
+.custom-hover:hover {
+	background-color: red !important;
+	color: white !important;
+}
+
+/* Link ke liye bhi white color maintain karna */
+.custom-hover:hover a {
+	color: white !important;
+	text-decoration: none;
+}
+
+
 
 .link-tegs:hover {
 	color: red !important;
@@ -1930,7 +1958,7 @@ h3.blog-h2 {
 		color: #eb1929;
 	}
 }
-	
+
 /* Mobile Social Media Styling */
 .mobile-social-info {
 	padding: 10px 15px;
@@ -1946,14 +1974,16 @@ h3.blog-h2 {
 	color: #fffff5;
 	margin-bottom: 5px;
 }
+
 @media (min-width: 769px) and (max-width: 991px) {
-  .menu-block {
-    width: 50%;
-    left: -50%;
-  }
-  .menu-block.active {
-    left: 0;
-  }
+	.menu-block {
+		width: 50%;
+		left: -50%;
+	}
+
+	.menu-block.active {
+		left: 0;
+	}
 }
 
 .menu-social-links {
@@ -1975,6 +2005,7 @@ h3.blog-h2 {
 	color: #ffffff;
 	/* Hover color for icons */
 }
+
 .menu-social-links .social-link:hover {
 	color: red !important;
 }
@@ -1989,10 +2020,10 @@ h3.blog-h2 {
 	position: relative;
 	overflow: hidden;
 	margin-top: 80px;
-  }
-  
-  /* Background decorative elements */
-  .bg-decor-1 {
+}
+
+/* Background decorative elements */
+.bg-decor-1 {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -2001,9 +2032,9 @@ h3.blog-h2 {
 	background: radial-gradient(circle, rgba(234, 179, 8, 0.1) 0%, transparent 70%);
 	border-radius: 50%;
 	filter: blur(60px);
-  }
-  
-  .bg-decor-2 {
+}
+
+.bg-decor-2 {
 	position: absolute;
 	bottom: 0;
 	left: 0;
@@ -2012,32 +2043,32 @@ h3.blog-h2 {
 	background: radial-gradient(circle, rgba(249, 115, 22, 0.1) 0%, transparent 70%);
 	border-radius: 50%;
 	filter: blur(60px);
-  }
-  
-  /* Section Header */
-  .section-header {
+}
+
+/* Section Header */
+.section-header {
 	text-align: center;
 	margin-bottom: 4rem;
-  }
-  
-  .main-title {
+}
+
+.main-title {
 	font-size: clamp(2.5rem, 5vw, 4rem);
 	font-weight: 700;
 	margin-bottom: 2rem;
 	color: var(--white-smoke);
 
-  }
-  
-  .subtitle {
+}
+
+.subtitle {
 	font-size: 1.25rem;
 	color: var(--white-smoke);
 	max-width: 48rem;
 	margin: 0 auto;
 	line-height: 1.6;
-  }
-  
-  /* Project Card */
-  .project-card {
+}
+
+/* Project Card */
+.project-card {
 	position: relative;
 	background: #161616;
 	backdrop-filter: blur(10px);
@@ -2046,45 +2077,45 @@ h3.blog-h2 {
 	border: 1px solid rgba(75, 85, 101, 0.5);
 	transition: all 0.5s ease;
 	margin-bottom: 2rem;
-  }
-  
-  .project-card:hover {
+}
+
+.project-card:hover {
 	transform: scale(1.05);
 	/* box-shadow: 0 25px 50px -12px rgba(249, 115, 22, 0.2);
 	border-color: rgba(249, 115, 22, 0.5); */
-  }
-  
-  /* Image Container */
-  .image-container {
+}
+
+/* Image Container */
+.image-container {
 	height: 16rem;
 	position: relative;
 	overflow: hidden;
 	background-color: #374151;
-  }
-  
-  .image-overlay {
+}
+
+.image-overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
 	right: 0;
 	bottom: 0;
 	background: linear-gradient(to top, rgba(0, 0, 0, 0.6), transparent);
-  }
-  
-  .placeholder-content {
+}
+
+.placeholder-content {
 	width: 100%;
 	height: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	color: rgba(255, 255, 255, 0.6);
-  }
-  
-  .placeholder-text {
+}
+
+.placeholder-text {
 	text-align: center;
-  }
-  
-  .placeholder-icon {
+}
+
+.placeholder-icon {
 	width: 4rem;
 	height: 4rem;
 	margin: 0 auto 1rem auto;
@@ -2093,16 +2124,16 @@ h3.blog-h2 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-  }
-  
-  .placeholder-text p {
+}
+
+.placeholder-text p {
 	font-size: 0.875rem;
 	font-weight: 500;
 	margin: 0;
-  }
-  
-  /* Hover Overlay */
-  .hover-overlay {
+}
+
+/* Hover Overlay */
+.hover-overlay {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -2114,48 +2145,48 @@ h3.blog-h2 {
 	justify-content: center;
 	opacity: 0;
 	transition: opacity 0.3s ease;
-  }
-  
-  .project-card:hover .hover-overlay {
+}
+
+.project-card:hover .hover-overlay {
 	opacity: 1;
-  }
-  
-  .hover-content {
+}
+
+.hover-content {
 	text-align: center;
-  }
-  
-  .hover-icon {
+}
+
+.hover-icon {
 	margin: 0 auto 0.5rem auto;
 	color: #ffffff;
-  }
-  
-  .hover-content p {
+}
+
+.hover-content p {
 	color: #ffffff;
 	font-weight: 500;
 	margin: 0;
-  }
-  
-  /* Project Info */
- .project-info {
-    padding: 1.5rem 2.5rem;
 }
 
-  
-  .project-title {
+/* Project Info */
+.project-info {
+	padding: 1.5rem 2.5rem;
+}
+
+
+.project-title {
 	font-size: 1.5rem;
 	font-weight: bold;
 	color: #ffffff;
 	margin-bottom: 1.5rem;
 	transition: color 0.3s ease;
 	text-align: center;
-  }
-  
-  /* .project-card:hover .project-title {
+}
+
+/* .project-card:hover .project-title {
 	color: #fb923c;
   } */
-  
-  /* View Button */
-  .view-button {
+
+/* View Button */
+.view-button {
 	width: 100%;
 	background: #ed1d24;
 	border: none;
@@ -2165,15 +2196,15 @@ h3.blog-h2 {
 	border-radius: 0.5rem;
 	transition: all 0.3s ease;
 	cursor: pointer;
-  }
-  
-  .view-button:hover {
+}
+
+.view-button:hover {
 	transform: scale(1.05);
 
-  }
-  
-  /* Corner Accent */
-  .corner-accent {
+}
+
+/* Corner Accent */
+.corner-accent {
 	position: absolute;
 	top: 1rem;
 	right: 1rem;
@@ -2181,235 +2212,476 @@ h3.blog-h2 {
 	height: 2rem;
 	border-top: 2px solid rgba(237, 29, 36, 0.5);
 	border-right: 2px solid rgba(237, 29, 36, 0.5);
-	
+
 	transition: border-color 0.3s ease;
-  }
-  
-  .project-card:hover .corner-accent {
+}
+
+.project-card:hover .corner-accent {
 	border-color: #ed1d24;
-  }
-  
-  /* Bootstrap Grid Override for 3 columns */
-  @media (min-width: 992px) {
+}
+
+/* Bootstrap Grid Override for 3 columns */
+@media (min-width: 992px) {
 	.col-lg-4 {
-	  flex: 0 0 33.333333%;
-	  max-width: 33.333333%;
+		flex: 0 0 33.333333%;
+		max-width: 33.333333%;
 	}
-  }
-  
-  @media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
 	.col-md-6 {
-	  flex: 0 0 50%;
-	  max-width: 50%;
+		flex: 0 0 50%;
+		max-width: 50%;
 	}
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 768px) {
-	.portfolio-section {
-	  padding-top: 2rem;
-	  padding-bottom: 2rem;
-	}
-	
-	.main-title {
-	  font-size: 2.5rem;
-	}
-	
-	.subtitle {
-	  font-size: 1.1rem;
-	  padding: 0 1rem;
-	}
-	
-	.bg-decor-1,
-	.bg-decor-2 {
-	  width: 16rem;
-	  height: 16rem;
-	}
-	
-	.col-sm-12 {
-	  flex: 0 0 100%;
-	  max-width: 100%;
-	}
-  }
-  
-  @media (max-width: 576px) {
-	.main-title {
-	  font-size: 2rem;
-	}
-	
-	.image-container {
-	  height: 12rem;
-	}
-	
-	.project-info {
-	  padding: 1rem;
-	}
-	
-	.project-title {
-	  font-size: 1.25rem;
-	  margin-bottom: 1rem;
-	}
-  }
-
-/* FAQ Section Styles */
-.blog_faq_section {
-  max-width: 1200px;
-  margin: 60px auto;
-  padding: 0 20px;
-}
-
-.blog_faq_section h2 {
-  font-size: 48px;
-  font-weight: 700;
-  text-align: center;
-  margin-bottom: 40px;
-  color: #000;
-  font-family: 'Poppins', sans-serif;
-}
-
-.blog_faq_accordion {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.blog_faq_item {
-  border: 2px solid #000;
-  border-radius: 12px;
-  background: #fff;
-  overflow: hidden;
-  transition: all 0.3s ease;
-  cursor: pointer;
-}
-
-.blog_faq_item.blog_active {
-  background: #ff0000;
-  border-color: #ff0000;
-}
-
-.blog_faq_question {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 24px 28px;
-  font-size: 18px;
-  font-weight: 600;
-  color: #000;
-  transition: all 0.3s ease;
-}
-
-.blog_faq_item.blog_active .blog_faq_question {
-  color: #fff;
-}
-
-.blog_faq_icon {
-  position: relative;
-  width: 20px;
-  height: 20px;
-  flex-shrink: 0;
-  margin-left: 20px;
-}
-
-.blog_faq_icon::before,
-.blog_faq_icon::after {
-  content: '';
-  position: absolute;
-  background: #000;
-  transition: all 0.3s ease;
-}
-
-.blog_faq_icon::before {
-  width: 20px;
-  height: 2px;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-}
-
-.blog_faq_icon::after {
-  width: 2px;
-  height: 20px;
-  left: 50%;
-  top: 0;
-  transform: translateX(-50%);
-}
-
-.blog_faq_item.blog_active .blog_faq_icon::before,
-.blog_faq_item.blog_active .blog_faq_icon::after {
-  background: #fff;
-}
-
-.blog_faq_item.blog_active .blog_faq_icon::after {
-  transform: translateX(-50%) rotate(90deg);
-  opacity: 0;
-}
-
-.blog_faq_answer {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-}
-
-.blog_faq_item.blog_active .blog_faq_answer {
-  max-height: 500px;
-}
-
-.blog_faq_answer p {
-  padding: 0 28px 24px;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #fff;
-  margin: 0;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .blog_faq_section h2 {
-    font-size: 36px;
-    margin-bottom: 30px;
-  }
+	.portfolio-section {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
 
-  .blog_faq_question {
-    padding: 20px;
-    font-size: 16px;
-  }
+	.main-title {
+		font-size: 2.5rem;
+	}
 
-  .blog_faq_answer p {
-    padding: 0 20px 20px;
-    font-size: 15px;
-  }
+	.subtitle {
+		font-size: 1.1rem;
+		padding: 0 1rem;
+	}
 
-  .blog_faq_icon {
-    width: 16px;
-    height: 16px;
-    margin-left: 15px;
-  }
+	.bg-decor-1,
+	.bg-decor-2 {
+		width: 16rem;
+		height: 16rem;
+	}
 
-  .blog_faq_icon::before {
-    width: 16px;
-  }
+	.col-sm-12 {
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+}
 
-  .blog_faq_icon::after {
-    height: 16px;
-  }
+@media (max-width: 576px) {
+	.main-title {
+		font-size: 2rem;
+	}
+
+	.image-container {
+		height: 12rem;
+	}
+
+	.project-info {
+		padding: 1rem;
+	}
+
+	.project-title {
+		font-size: 1.25rem;
+		margin-bottom: 1rem;
+	}
+}
+
+/* FAQ Section Styles */
+.blog_faq_section {
+	max-width: 1200px;
+	margin: 60px auto;
+	padding: 0 20px;
+}
+
+.blog_faq_section h2 {
+	font-size: 48px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 40px;
+	color: #000;
+	font-family: 'Poppins', sans-serif;
+}
+
+.blog_faq_accordion {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.blog_faq_item {
+	border: 2px solid #000;
+	border-radius: 12px;
+	background: #fff;
+	overflow: hidden;
+	transition: all 0.3s ease;
+	cursor: pointer;
+}
+
+.blog_faq_item.blog_active {
+	background: #ff0000;
+	border-color: #ff0000;
+}
+
+.blog_faq_question {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 24px 28px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #000;
+	transition: all 0.3s ease;
+}
+
+.blog_faq_item.blog_active .blog_faq_question {
+	color: #fff;
+}
+
+.blog_faq_icon {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	flex-shrink: 0;
+	margin-left: 20px;
+}
+
+.blog_faq_icon::before,
+.blog_faq_icon::after {
+	content: '';
+	position: absolute;
+	background: #000;
+	transition: all 0.3s ease;
+}
+
+.blog_faq_icon::before {
+	width: 20px;
+	height: 2px;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+}
+
+.blog_faq_icon::after {
+	width: 2px;
+	height: 20px;
+	left: 50%;
+	top: 0;
+	transform: translateX(-50%);
+}
+
+.blog_faq_item.blog_active .blog_faq_icon::before,
+.blog_faq_item.blog_active .blog_faq_icon::after {
+	background: #fff;
+}
+
+.blog_faq_item.blog_active .blog_faq_icon::after {
+	transform: translateX(-50%) rotate(90deg);
+	opacity: 0;
+}
+
+.blog_faq_answer {
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.3s ease;
+}
+
+.blog_faq_item.blog_active .blog_faq_answer {
+	max-height: 500px;
+}
+
+.blog_faq_answer p {
+	padding: 0 28px 24px;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #fff;
+	margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+	.blog_faq_section h2 {
+		font-size: 36px;
+		margin-bottom: 30px;
+	}
+
+	.blog_faq_question {
+		padding: 20px;
+		font-size: 16px;
+	}
+
+	.blog_faq_answer p {
+		padding: 0 20px 20px;
+		font-size: 15px;
+	}
+
+	.blog_faq_icon {
+		width: 16px;
+		height: 16px;
+		margin-left: 15px;
+	}
+
+	.blog_faq_icon::before {
+		width: 16px;
+	}
+
+	.blog_faq_icon::after {
+		height: 16px;
+	}
 }
 
 @media (max-width: 480px) {
-  .blog_faq_section {
-    margin: 40px auto;
-  }
+	.blog_faq_section {
+		margin: 40px auto;
+	}
 
-  .blog_faq_section h2 {
-    font-size: 28px;
-  }
+	.blog_faq_section h2 {
+		font-size: 28px;
+	}
 
-  .blog_faq_question {
-    padding: 16px;
-    font-size: 15px;
-  }
+	.blog_faq_question {
+		padding: 16px;
+		font-size: 15px;
+	}
 
-  .blog_faq_answer p {
-    padding: 0 16px 16px;
-    font-size: 14px;
-  }
+	.blog_faq_answer p {
+		padding: 0 16px 16px;
+		font-size: 14px;
+	}
+}
+
+.servisepage-form-section {
+	font-family: 'Syne', sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 60px;
+	line-height: 65px;
+	letter-spacing: 0;
+}
+
+
+@media (max-width: 1024px) {
+	.servisepage-form-section {
+		font-size: 48px;
+		line-height: 54px;
+	}
+}
+
+@media (max-width: 768px) {
+	.servisepage-form-section {
+		font-size: 36px;
+		line-height: 42px;
+	}
+}
+
+@media (max-width: 480px) {
+	.servisepage-form-section {
+		font-size: 28px;
+		line-height: 34px;
+	}
+}
+
+
+.aximo-form-wrap3 {
+	background-color: #fffff5;
+	border: 1px solid black;
+}
+
+.servise-aximo-form-wrap3 {
+	background-color: #fffff5;
+	border: 1px solid black !important;
+	border-radius: 30px !important;
+}
+
+.services_hero {
+	text-align: left;
+}
+
+.design-main-card {
+	/* background: white; */
+	border: 3px solid;
+	;
+	border-radius: 20px;
+	padding: 60px;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.design-title-heading {
+	font-family: 'Syne', sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 64px;
+	line-height: 82px;
+	letter-spacing: 0%;
+	margin-bottom: 0;
+}
+
+.design-timeline-wrapper {
+	position: relative;
+	padding-left: 40px;
+}
+
+.design-timeline-vertical-line {
+	position: absolute;
+	left: 12px;
+	top: 20px;
+	bottom: 20px;
+	width: 2px;
+	background-color: #ddd;
+}
+
+.design-timeline-single-item {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.design-timeline-circle-dot {
+	position: absolute;
+	left: -34px;
+	top: 20px;
+	width: 12px;
+	height: 12px;
+	/* background-color: white; */
+	border: 3px solid #333;
+	border-radius: 50%;
+	z-index: 1;
+}
+
+.design-info-content-box {
+	background-color: #000;
+	color: white;
+	padding: 20px 24px;
+	border-radius: 12px;
+}
+
+.design-info-text-paragraph {
+	font-family: 'Inter', sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 24px;
+	line-height: 38px;
+	letter-spacing: 0%;
+	margin-bottom: 0;
+}
+
+.our_efficiently {
+	font-weight: 600;
+	font-size: 60px;
+	line-height: 100%;
+	letter-spacing: 0;
+	text-align: center;
+}
+
+/* Laptop / Medium Screens */
+@media (max-width: 1024px) {
+	.our_efficiently {
+		font-size: 48px;
+	}
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+	.our_efficiently {
+		font-size: 36px;
+	}
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+	.our_efficiently {
+		font-size: 28px;
+	}
+}
+
+/* Small phones */
+@media (max-width: 360px) {
+	.our_efficiently {
+		font-size: 24px;
+	}
+}
+
+
+@media (max-width: 768px) {
+	.design-main-card {
+		padding: 40px 30px;
+	}
+
+	.design-title-heading {
+		font-size: 48px;
+	}
+
+	.design-info-text-paragraph {
+		font-size: 24px;
+		line-height: 32px;
+	}
+}
+
+
+
+
+
+.process-flow {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 40px;
+	flex-wrap: wrap;
+}
+
+.icon-circle {
+	width: 70px;
+	height: 70px;
+	background-color: #e8232a;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-size: 30px;
+	margin: 10px;
+}
+
+.arrow {
+	font-size: 30px;
+	color: #333;
+	margin: 0 20px;
+}
+
+.cards-container {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.process-card {
+	flex: 1;
+	min-width: 250px;
+	border: 2px solid #ddd;
+	border-radius: 8px;
+	padding: 25px;
+	background-color: white;
+	text-align: center;
+}
+
+.process-card h3 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 15px;
+}
+
+.process-card p {
+	font-size: 13px;
+	color: #666;
+	line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+	.arrow {
+		display: none;
+	}
+
+	.process-flow {
+		flex-direction: column;
+	}
+
+	.cards-container {
+		flex-direction: column;
+	}
 }

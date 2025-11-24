@@ -2,6 +2,11 @@ import { Helmet } from "react-helmet";
 import SingleImg from "../../assets/images/service/uiux.jpg";
 import Star2Img from "../../assets/images/v1/star2.png";
 import ServiceAccordion from "../../components/common/ServiceAccordion"; // Accordion component
+import uiux_image1 from "../../assets/images/v1/ui-ux-1.webp";
+import uiux_image2 from "../../assets/images/v1/ui-ux-2.webp";
+import uiux_image3 from "../../assets/images/v1/ui-ux-3.webp";
+import uiux_image4 from "../../assets/images/v1/ui-ux-4.webp";
+import BreadCrumb from "../common/Breadcrumb";
 
 const services = [
   {
@@ -64,7 +69,7 @@ const faqSchema = {
 
 function ServiceDetails() {
   return (
-    <div className="section aximo-section-padding2">
+    <div className="section ">
       <Helmet>
         <title>UI/UX Design Company in Ahmedabad - Chameleo GFX Studio</title>
         <meta
@@ -84,152 +89,293 @@ function ServiceDetails() {
         </script>
       </Helmet>
 
-      <div className="container">
-        <div className="aximo-service-details-wrap">
-          <div className="aximo-service-details-thumb">
-            <img src={SingleImg} alt="UI UX Design" />
-          </div>
+      <div className="container pt-5">
+        <div className="aximo-default-content text-center">
+          	<h1 className="text-center"><span className="custom-h2"><span style={{ color: 'red' }}>UI/UX Design </span> Company in Ahmedabad</span></h1>
 
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="aximo-default-content">
-                <h1>
-                  <span className="custom-h2">
-                    UI/UX Design Company in Ahmedabad
-                    <span className="aximo-title-icon">
-                      <img src={Star2Img} alt="star" />
-                    </span>
-                  </span>
-                </h1>
-
-                <p>
-                  At Chameleo GFX Studio, we believe good design is more than just looks; it’s about creating digital experiences that feel effortless. UI/UX design may sound technical, but in simple words, it’s about making websites, apps, and software <b>easy to use, enjoyable, and meaningful</b> for your audience.
-                </p>
-
-                <ul className="custom-list">
-                  <li><b>UI (User Interface)</b> is all about the visuals like colors, buttons, icons, and overall layout.</li>
-                  <li><b>UX (User Experience)</b> focuses on how people interact with it whether it’s smooth, simple, and satisfying.</li>
-                </ul><br />
-
+          <p>At Chameleo GFX Studio, we believe good design is more than just looks; it’s about creating digital experiences that feel effortless. UI/UX design may sound technical, but in simple words, it’s about making websites, apps, and software easy to use, enjoyable, and meaningful for your audience.</p>
+                <ul className="custom-list mb-2">
+                  <li className="m-0"><b>UI (User Interface)</b> is all about the visuals like colors, buttons, icons, and overall layout.</li>
+                  <li className="m-0"><b>UX (User Experience)</b> focuses on how people interact with it whether it’s smooth, simple, and satisfying.</li>
+                </ul>
                 <p>
                   Think about your favorite app: you know exactly where to tap, the design feels clean and inviting, and everything works fast. That’s the power of great UI/UX.
                 </p>
-
                 <p>
-                  As a leading <b>UI/UX Design Company in Ahmedabad</b>, Chameleo GFX Studio combines creativity with AI-driven insights to design digital products that are visually stunning, user-friendly, and built for modern audiences.
+                  As a leading UI/UX Design Company in Ahmedabad, Chameleo GFX Studio combines creativity with AI-driven insights to design digital products that are visually stunning, user-friendly, and built for modern audiences.
                 </p>
+        </div>
+      </div>
 
-                <h2>
-                  <span className="custom-h2">Why UI/UX Design Matters?</span>
-                </h2>
-                <p>
-                  No matter how great your product is, a poor design can drive users away. Today’s customers expect speed, clarity, and simplicity online. Good UI/UX design helps businesses <b>make strong first impressions, build trust, and keep customers coming back.</b>
+      {/* Why UI/UX Design Matters */}
+      <div className="container pt-5">
+        <div className="aximo-service-details-wrap">
+          <div className="row">
+            <div className="col-lg-6 align-items-center">
+              <div className="aximo-default-content">
+                <h2><span className="services-h2">Why UI/UX Design Matters?</span></h2>
+                <p>No matter how great your product is, a poor design can drive users away. Today’s customers expect speed, clarity, and simplicity online. Good UI/UX design helps businesses <b>make strong first impressions, build trust, and keep customers coming back.</b>
                 </p>
                 <p>  Here’s why it’s so important: </p>
-                <ul className="custom-list">
-                  <li><b>First impressions count –</b> Users judge in seconds.</li>
-                  <li><b>Easy navigation –</b> Clear layouts keep people engaged.</li>
-                  <li><b>Builds credibility –</b> A polished experience shows professionalism.</li>
-                  <li><b>Boosts conversions –</b> Smooth designs make buying simple.</li>
-                  <li><b>Encourages loyalty –</b> Happy users always return.</li>
+                <ul className="custom-list mt-1">
+                  <li className="m-0"><b>First impressions count –</b> Users judge in seconds.</li>
+                  <li className="m-0"><b>Easy navigation –</b> Clear layouts keep people engaged.</li>
+                  <li className="m-0"><b>Builds credibility –</b> A polished experience shows professionalism.</li>
+                  <li className="m-0"><b>Boosts conversions –</b> Smooth designs make buying simple.</li>
+                  <li className="m-0"><b>Encourages loyalty –</b> Happy users always return.</li>
                 </ul><br />
                 <p>At Chameleo GFX Studio, we ensure your platforms are not only visually appealing but also smooth and effortless to use.</p>
-
-                <h2>
-                  <span className="custom-h2">Our UI/UX Services</span>
-                </h2><br />
-                <p>As one of the most trusted UI/UX design companies in Ahmedabad, we provide end-to-end design solutions tailored to your business needs:</p>
-                <ul className="custom-list">
-                  <li><b>Website UI/UX Design –</b> Modern, responsive, and easy-to-navigate sites.</li>
-                  <li><b>Mobile App UI/UX Design –</b> Creating professional, engaging apps that users enjoy.</li>
-                  <li><b>Wireframes & Prototypes –</b> Early drafts to visualize structure and flow.</li>
-                  <li><b>User Research & Testing –</b> Real user insights to optimize performance.</li>
-                  <li><b>Dashboard & Software Design –</b> Simplifying data into clean, readable visuals.</li>
-                </ul><br />
-                <p>Every design is crafted with your audience in mind, making every click, swipe, and scroll enjoyable.</p>
-                <h2>
-                  <span className="custom-h2">Our Design Process</span>
-                </h2>
-                <ul className="custom-list">
-                  <li><b>Discovery –</b> Understand your business, goals, and users.</li>
-                  <li><b>Research –</b> Study customer behavior and competitor benchmarks.</li>
-                  <li><b>Wireframing –</b> Create layouts to plan structure and flow.</li>
-                  <li><b>Designing –</b> Add visuals, colors, and styles.</li>
-                  <li><b>Testing –</b> Get real user feedback and refine.</li>
-                  <li><b>Delivery –</b> Provide a polished, development-ready design.</li>
-                </ul><br />
-                <p>This process guarantees smooth, user-friendly digital experiences for your customers. </p>
-                <h2>
-                  <span className="custom-h2">Why Choose Chameleo GFX Studio?</span>
-                </h2>
-                <p>We design not just for looks, but with clear purpose and meaning. Here’s what sets us apart: </p>
-                <ul className="custom-list">
-                  <li><b>User-first approach –</b> Focused on real people, not just visuals.</li>
-                  <li><b>Modern, creative designs –</b> Trendy yet professional.</li>
-                  <li><b>Effortless usability –</b> Making every interaction feel smooth and natural.</li>
-                  <li><b>Experienced team –</b> Expertise across industries.</li>
-                  <li><b>High-quality design –</b> Delivering premium creativity at a fair price.</li>
-                </ul><br />
-                <p>Our goal is to make your brand look great and keep your users coming back for more.  </p>
-                <h2>
-                  <span className="custom-h2">The Role of UI/UX in Today’s Digital World</span>
-                </h2>
-                <ul className="custom-list">
-                  <li>On <b>websites,</b> design influences how long visitors stay.</li>
-                  <li>On <b>apps,</b> design decides whether users keep or delete it.</li>
-                  <li>In <b>software,</b> design impacts efficiency and productivity.</li>
-                  <li>Strong UI/UX is the secret to customer satisfaction, retention, and long-term growth.</li>
-                </ul><br />
-
-                <h2>
-                  <span className="custom-h2">Final Words </span>
-                </h2>
-                <p>UI/UX design isn’t just about looks, it’s about creating smooth, meaningful digital journeys. At <b>Chameleo GFX Studio in Ahmedabad,</b> we blend creativity with AI-powered insights to build designs that your users will love. Whether it’s a website, app, or digital product, our team ensures your brand doesn’t just stand out but also provides the <b>best user experience possible.</b> Because at Chameleo GFX Studio, we design for people, <b>not just screens.</b> </p>
-                {/* Services List */}
-                {services.map((service, index) => (
-                  <div key={index}>
-                    <h2>
-                      <span className="acustom-h2">
-                        {service.title}
-                        <span className="aximo-title-icon">
-                          <img
-                            className="shape-color"
-                            src={Star2Img}
-                            alt="Star2Img"
-                          />
-                        </span>
-                      </span>
-                    </h2>
-                    <div className="row">
-                      {service.items.map((item, itemIndex) => (
-                        <div key={itemIndex} className="col-12 col-md-3 pb-3">
-                          <ul className="badge bg-black  custom-hover">
-                            <li>
-                              <a href={item.link} rel="noopener noreferrer" className="link-tegs text-white text-decoration-none">
-                                {item.text}
-                              </a>
-                            </li>
-                          </ul>
-                          <br />
-                        </div>
-                      ))}
-                    </div>
-
-                  </div>
-                ))}
-
-                {/* FAQ Section */}
-                <section className="faq-section py-5">
-                  <div className="container ">
-                    <h2 className="mb-4 text-center">FAQs About UI/UX Design</h2>
-                    <ServiceAccordion items={faqData} defaultOpen={0} />
-                  </div>
-                </section>
+              </div>
+            </div>
+            <div className="col-lg-6 align-items-center">
+              <div>
+                <img src={uiux_image1} alt="Graphic Design" className="services_page_image" />
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      {/* Our UI/UX Services */}
+      <div className="container pt-5">
+        <div className="aximo-service-details-wrap">
+          <div className="row">
+            <div className="col-lg-6 align-items-center">
+              <div>
+                <img src={uiux_image3} className="ui-ux_image2" />
+              </div>
+            </div>
+            <div className="col-lg-6 align-items-center ">
+              <div className="aximo-default-content ">
+                <h2 className="services-h2">
+                  <span >Our UI/UX Services</span>
+                </h2><br />
+                <p>As one of the most trusted UI/UX design companies in Ahmedabad, we provide end-to-end design solutions tailored to your business needs:</p>
+                <ul className="custom-list mt-1 ml-2">
+                  <li className="m-0"><b>Website UI/UX Design –</b> Modern, responsive, and easy-to-navigate sites.</li>
+                  <li className="m-0"><b>Mobile App UI/UX Design –</b> Creating professional, engaging apps that users enjoy.</li>
+                  <li className="m-0"><b>Wireframes & Prototypes –</b> Early drafts to visualize structure and flow.</li>
+                  <li className="m-0"><b>User Research & Testing –</b> Real user insights to optimize performance.</li>
+                  <li className="m-0"><b>Dashboard & Software Design –</b> Simplifying data into clean, readable visuals.</li>
+                </ul><br />
+                <p>Every design is crafted with your audience in mind, making every click, swipe, and scroll enjoyable.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      {/* Contect Form */}
+      <div className="container py-5">
+        <div className="row align-items-center">
+          <div className="col-md-6 mb-4 mb-md-0 pr-5  mr-5">
+            <div className="servisepage-form-section pr-5">
+              <h2>Optimize your Business Hours Efficiently  </h2>
+            </div>
+
+            <div className="d-flex justify-content-around align-items-left py-3 mt-4">
+              <div className="text-center">
+                <h3 className="text-danger fw-bold mb-0 our_efficiently">5K+</h3>
+                <small className="text-muted our_efficiently_1">Projects Delivered</small>
+              </div>
+              <div className="text-center">
+                <h3 className="text-danger fw-bold mb-0 our_efficiently">11+</h3>
+                <small className="text-muted our_efficiently_1">Years of Experience</small>
+              </div>
+              <div className="text-center">
+                <h3 className="text-danger fw-bold mb-0 our_efficiently">100%</h3>
+                <small className="text-muted our_efficiently_1">Success Projects</small>
+              </div>
+            </div>
+
+            <p className="text-danger small mt-2 mb-0"><b><a href="mailto:info@chameleogfxstudio.com" className="text-danger" >info@chameleogfxstudio.com</a></b></p>
+          </div>
+
+          <div className="col-md-6">
+            <form className="servise-aximo-form-wrap3 border border-1 rounded p-4  shadow-sm">
+              <div className="aximo-form-field2 mb-5">
+                <input type="text" className="form-control" placeholder="Your Name" />
+              </div>
+              <div className="aximo-form-field2 mb-5">
+                <input type="email" className="form-control" placeholder="Your Email" />
+              </div>
+              <div className="aximo-form-field2 mb-5">
+                <input type="text" className="form-control" placeholder="Your Phone Number" />
+              </div>
+              <div className="aximo-form-field2  mb-5">
+                <textarea className="form-control" style={{ backgroundColor: "#FFFFF5" }} rows="3" placeholder="Message"></textarea>
+              </div>
+              <button type="submit" className="aximo-default-btn w-100 fw-bold">
+                <span className="aximo-label-up">SUBMIT</span>
+                <span className="aximo-label-up">SUBMIT</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      {/* The Role of Design in Today's Digital World. */}
+      <div className="design-body-wrapper">
+        <div className="container pt-5">
+          <div className="container py-5">
+            <div className="design-main-card">
+              <div className="row">
+                <div className="col-lg-5 col-md-5">
+                  <div className="design-title-section">
+                    <h1 className="design-title-heading">The Role<br />of Design<br />in Today's<br />Digital<br />World.</h1>
+                  </div>
+                </div>
+
+                <div className="col-lg-7 col-md-7">
+                  <div className="design-timeline-wrapper">
+                    <div className="design-timeline-vertical-line"></div>
+
+                    <div className="design-timeline-single-item">
+                      <div className="design-timeline-circle-dot"></div>
+                      <div className="design-info-content-box">
+                        <p className="design-info-text-paragraph">On websites, design influences how long visitors stay.</p>
+                      </div>
+                    </div>
+
+                    <div className="design-timeline-single-item">
+                      <div className="design-timeline-circle-dot"></div>
+                      <div className="design-info-content-box">
+                        <p className="design-info-text-paragraph">On apps, design decides whether users keep or delete it.</p>
+                      </div>
+                    </div>
+
+                    <div className="design-timeline-single-item">
+                      <div className="design-timeline-circle-dot"></div>
+                      <div className="design-info-content-box">
+                        <p className="design-info-text-paragraph">In software, design impacts efficiency and productivity.</p>
+                      </div>
+                    </div>
+
+                    <div className="design-timeline-single-item">
+                      <div className="design-timeline-circle-dot"></div>
+                      <div className="design-info-content-box">
+                        <p className="design-info-text-paragraph">Strong UI/UX is the secret to customer satisfaction, retention, and long-term growth.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Our Design Process */}
+      <div className="container pt-5">
+        <div className="aximo-service-details-wrap">
+          <div className="row">
+            <div className="col-lg-6 align-items-center">
+              <div className="aximo-default-content">
+                <h2>
+                  <span className="services-h2">Our Design Process</span>
+                </h2>
+                <ul className="custom-list">
+                  <li className="m-0"><b>Discovery –</b> Understand your business, goals, and users.</li>
+                  <li className="m-0"><b>Research –</b> Study customer behavior and competitor benchmarks.</li>
+                  <li className="m-0"><b>Wireframing –</b> Create layouts to plan structure and flow.</li>
+                  <li className="m-0"><b>Designing –</b> Add visuals, colors, and styles.</li>
+                  <li className="m-0"><b>Testing –</b> Get real user feedback and refine.</li>
+                  <li className="m-0"><b>Delivery –</b> Provide a polished, development-ready design.</li>
+                </ul><br />
+                <p>This process guarantees smooth, user-friendly digital experiences for your customers. </p>
+              </div>
+            </div>
+            <div className="col-lg-6 align-items-center">
+              <div>
+                <img src={uiux_image2} className="ui-ux_image2" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Why Choose Chameleo GFX Studio? */}
+      <div className="container pt-5">
+        <div className="aximo-service-details-wrap">
+          <div className="row">
+            <div className="col-lg-6 align-items-center">
+              <div>
+                <img src={uiux_image4} alt="Graphic Design" className="ui-ux_image4" />
+              </div>
+            </div>
+            <div className="col-lg-6 align-items-center">
+              <div className="aximo-default-content">
+                <h2>
+                  <span className="services-h2">Why Choose Chameleo GFX Studio?</span>
+                </h2>
+                <p>We design not just for looks, but with clear purpose and meaning. Here’s what sets us apart: </p>
+                <ul className="custom-list">
+                  <li className="m-0"><b>User-first approach –</b> Focused on real people, not just visuals.</li>
+                  <li className="m-0"><b>Modern, creative designs –</b> Trendy yet professional.</li>
+                  <li className="m-0"><b>Effortless usability –</b> Making every interaction feel smooth and natural.</li>
+                  <li className="m-0"><b>Experienced team –</b> Expertise across industries.</li>
+                  <li className="m-0"><b>High-quality design –</b> Delivering premium creativity at a fair price.</li>
+                </ul><br />
+                <p>Our goal is to make your brand look great and keep your users coming back for more.  </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      {/* Services page link */}
+      <div className="container pt-5">
+        <div className="aximo-service-details-wrap">
+
+          {/* Services List */}
+          {services.map((service, index) => (
+            <div key={index}>
+               <h2 className="text-center"><span className="services-h2">  {service.title}</span></h2>
+              
+
+              {/* Add g-4 for spacing between columns */}
+              <div className="row g-4 pt-5">
+                {service.items.map((item, itemIndex) => (
+                  <div key={itemIndex}  className="col-12 col-md-2  pb-3 mx-3 justify-content-start align-items-center" >
+                    <ul className="badge bg-black custom-hover">
+                      <li> <a href={item.link} rel="noopener noreferrer" className="link-tegs text-white text-decoration-none" >  {item.text}  </a> </li>
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            </div>
+          ))}
+
+        </div>
+      </div>
+
+
+      {/* Final Words */}
+      <div className="containar-flude bg-dark mt-5 ">
+        <div className="container pt-5 pb-5">
+          <div className="aximo-service-details-wrap">
+            <div className="row text-white text-center">
+              <div className="aximo-default-content">
+                <h2>
+                  <span className="services-h2 text-white">Final Words </span>
+                </h2>
+                <p>UI/UX design isn’t just about looks, it’s about creating smooth, meaningful digital journeys. At <b>Chameleo GFX Studio in Ahmedabad,</b> we blend creativity with AI-powered insights to build designs that your users will love. Whether it’s a website, app, or digital product, our team ensures your brand doesn’t just stand out but also provides the <b>best user experience possible.</b> Because at Chameleo GFX Studio, we design for people, <b>not just screens.</b> </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* FAQ Section */}
+      <section className="faq-section py-5">
+        <div className="container pt-5">
+          <h2 className="mb-4 text-center">FAQs About UI/UX Design</h2>
+          <ServiceAccordion items={faqData} defaultOpen={0} />
+        </div>
+      </section>
     </div>
   );
 }

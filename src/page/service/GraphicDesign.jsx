@@ -77,7 +77,10 @@ function GraphicDesign() {
       </Helmet>
 
       {/* Page Layout */}
-      <BreadCrumb title="Graphic Design" />
+      <BreadCrumb
+        title="Graphic Design Services"
+        subtitle="Graphic design is the creative process of combining text, images, shapes, and colors to convey ideas in a clear and visually appealing manner."
+      />
       <GraphicDesignService />
 
       {/* FAQs Section */}

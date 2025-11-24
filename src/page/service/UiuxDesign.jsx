@@ -13,7 +13,10 @@ function UiuxDesign() {
           href="https://chameleogfxstudio.com/ui-ux-design-company-in-ahmedabad" 
         />
     </Helmet>
-			<BreadCrumb title="UI/UX Design" />
+			<BreadCrumb
+        title="UI/UX Design Services"
+        subtitle="Graphic design is the creative process of combining text, images, shapes, and colors to convey ideas in a clear and visually appealing manner."
+      />
 			<ServiceDetails />
 		</>
 	);
