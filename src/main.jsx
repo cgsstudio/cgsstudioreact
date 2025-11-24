@@ -4,6 +4,7 @@ import { RouterProvider } from "react-router-dom";
 import { router } from "./router";
 import Chatbox from "./chatbox.jsx";
 import CookieConsent from "./components/common/CookieConsent.jsx";
+import { HelmetProvider } from "react-helmet-async";
 
 // Bootstrap & Styles
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -24,10 +25,12 @@ import "./assets/css/main.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Suspense fallback={<div className="text-center mt-5">Loading...</div>}>
-      <RouterProvider router={router} />
-      <Chatbox />
-      <CookieConsent />
-    </Suspense>
+    <HelmetProvider>
+      <Suspense fallback={<div className="text-center mt-5">Loading...</div>}>
+        <RouterProvider router={router} />
+        <Chatbox />
+        <CookieConsent />
+      </Suspense>
+    </HelmetProvider>
   </React.StrictMode>
 );
