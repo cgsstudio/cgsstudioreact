@@ -1,5 +1,5 @@
 import Story from "../components/about/story";
-import BreadCrumb from "../components/common/Breadcrumb";
+import BlogHero from "../components/common/BlogHero";
 import About from "../components/home-one/about";
 import AutoSlider from "../components/home-one/auto-slider";
 import TwoColumnFaq from "../components/contact/TwoColumnFaq";
@@ -42,7 +42,7 @@ function AboutUs() {
           href="https://chameleogfxstudio.com/About-us" 
         />
         </Helmet>
-			<BreadCrumb title="About Us" />
+			<BlogHero title="About Us" />
 			<Story />
 			<About />
 			<AutoSlider />

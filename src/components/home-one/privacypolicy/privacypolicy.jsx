@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import BreadCrumb from "../../../components/common/Breadcrumb";
+import BlogHero from "../../../components/common/BlogHero";
 
 const PrivacyPolicy = () => {
     return (
@@ -11,7 +11,7 @@ const PrivacyPolicy = () => {
                 <meta name="robots" content="noindex, nofollow" />
             </Helmet>
 
-            <BreadCrumb title="Privacy Policy" />
+            <BlogHero title="Privacy Policy" />
             <div className="container py-5">
                 <h2 className="my-4">Privacy Policy</h2>
                 <p className="paragraph-cgs mb-3">

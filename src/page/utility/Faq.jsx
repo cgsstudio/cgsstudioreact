@@ -1,9 +1,9 @@
-import BreadCrumb from "../../components/common/Breadcrumb";
+import BlogHero from "../../components/common/BlogHero";
 import FaqAccordion from "../../components/faq/FaqAccordion";
 function Faq() {
 	return (
 		<>
-			<BreadCrumb title="Faq" />
+			<BlogHero title="Faq" />
 			<FaqAccordion />
 		</>
 	);

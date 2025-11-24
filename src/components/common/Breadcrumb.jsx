@@ -1,7 +1,24 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 import social_icon from "../../assets/images/v1/social_icon.png";
 
-/*  */function BreadCrumb({ title, subtitle, image }) { // added subtitle and image prop
+function BreadCrumb({ title, subtitle, image }) { // added subtitle and image prop
+  const navigate = useNavigate();
+  const location = useLocation();
+
+  const handleQuoteClick = (e) => {
+    e.preventDefault();
+    const el = document.getElementById("contact-form");
+    if (el) {
+      // update URL hash then scroll smoothly
+      navigate(`${location.pathname}#contact-form`, { replace: false });
+      setTimeout(() => {
+        el.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 50);
+    } else {
+      navigate("/contact-us");
+    }
+  };
+
   return (
     <div className="aximo-breadcrumb">
       <div className="container">
@@ -18,9 +35,13 @@ import social_icon from "../../assets/images/v1/social_icon.png";
               </ul>
             </nav>
             <div className="aximo-btn-wrap services_hero">
-              <Link to="/contact-us" className="aximo-default-btn ">
-                <span className="aximo-label-up">Get a quote now!</span>
-              </Link>
+              <a
+                href={`${location?.pathname || "/"}#contact-form`}
+                onClick={handleQuoteClick}
+                className="aximo-default-btn pill bg-red"
+              >
+                Get a quote now!
+              </a>
             </div>
           </div>
           <div className="col-lg-5">

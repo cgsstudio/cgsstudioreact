@@ -20,8 +20,8 @@ function WebDevelopment() {
           href="https://chameleogfxstudio.com/web-development-company-in-ahmedabad" 
         />
       </Helmet>
-      <BreadCrumb title="Web Development" 
-       subtitle="Graphic design is the creative process of combining text, images, shapes, and colors to convey ideas in a clear and visually appealing manner."s />
+      <BreadCrumb title="Web Development Services" 
+       subtitle="A website is like the virtual home of a company."s />
       <WebDevelopmentDetails />
     </>
   );

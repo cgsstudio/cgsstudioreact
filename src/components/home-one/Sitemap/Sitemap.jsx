@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import BreadCrumb from "../../../components/common/Breadcrumb";
+import BlogHero from "../../../components/common/BlogHero";
 
 const sitemapData = [
     {
@@ -234,7 +234,7 @@ function SiteMapPage() {
         <link rel="canonical" href="https://chameleogfxstudio.com/sitemap" />
       </Helmet>
 
-      <BreadCrumb title="Sitemap" />
+      <BlogHero title="Sitemap" />
 
       <div className="container py-5">
         {sitemapData.map((section, i) => (
