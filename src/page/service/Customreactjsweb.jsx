@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 import BreadCrumb from "../../components/common/Breadcrumb";
 import  Customreactjswebdetail from "../../components/service/Customreactjswebdetail";
+import heroBannerImage from "../../assets/images/v1/Group 122.webp";
 
 function Customreactjsweb() {
     
@@ -15,7 +16,7 @@ function Customreactjsweb() {
           href="/custom-reactjs-web-application-development" 
         />
         </Helmet>
-      <BreadCrumb title="Custom React.js Web Application"/>
+      <BreadCrumb title="Custom React.js Web Application" image={heroBannerImage} />
       <Customreactjswebdetail />
 
     </>

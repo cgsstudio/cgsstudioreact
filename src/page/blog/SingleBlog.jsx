@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom"; // To get the dynamic slug
 import BlogBreadCrumb from "../../components/common/BlogBreadcrumb";
 import SingleBlog from "../../components/blog/single-blog";
+import heroBannerImage from "../../assets/images/v1/Group 113.webp";
 
 function SingleBlogPage() {
   const { slug } = useParams(); // Get slug from URL
@@ -21,7 +22,7 @@ function SingleBlogPage() {
 
   return (
     <>
-      <BlogBreadCrumb title={isTitleDynamic ? title : slug} title2="Blog Details"/> {/* Conditionally pass title */}
+      <BlogBreadCrumb title={isTitleDynamic ? title : slug} title2="Blog Details" image={heroBannerImage} /> {/* Conditionally pass title */}
       <SingleBlog slug={slug} /> {/* Pass the slug to the blog component */}
     </>
   );

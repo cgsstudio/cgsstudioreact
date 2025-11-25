@@ -35,7 +35,7 @@ function ContactForm() {
   };
 
   return (
-    <div className="section aximo-section-padding">
+    <div id="contact-form" className="section aximo-section-padding">
       <div className="container">
         <div className="row">
           <div className="col-lg-8">

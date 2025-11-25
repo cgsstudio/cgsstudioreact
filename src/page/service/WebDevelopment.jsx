@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
-import BreadCrumb from "../../components/common/Breadcrumb";
+import ServiceHeroBanner from "../../components/common/ServiceHeroBanner";
 import WebDevelopmentDetails from "../../components/service/WebDevelopmentDetails";
+import heroBannerImage from "../../assets/images/v1/Group 112.webp";
 
 function WebDevelopment() {
   return (
@@ -20,7 +21,11 @@ function WebDevelopment() {
           href="https://chameleogfxstudio.com/web-development-company-in-ahmedabad" 
         />
       </Helmet>
-      <BreadCrumb title="Web Development" />
+      <ServiceHeroBanner 
+        title="Web Development Services" 
+        subtitle="A website is like the virtual home of a company."
+        image={heroBannerImage}
+      />
       <WebDevelopmentDetails />
     </>
   );

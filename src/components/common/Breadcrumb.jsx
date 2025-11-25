@@ -1,21 +1,8 @@
-import { Link } from "react-router-dom";
+import BlogHero from "./BlogHero";
 
-function BreadCrumb({ title }) {
-  return (
-    <div className="aximo-breadcrumb">
-      <div className="container">
-        <h1 className="post__title">{title}</h1>
-        <nav className="breadcrumbs">
-          <ul>
-            <li>
-              <Link to="/">Home</Link> {/* Static Home link */}
-            </li>
-            <li>{title}</li> {/* Display the dynamic title */}
-          </ul>
-        </nav>
-      </div>
-    </div>
-  );
+function BreadCrumb({ title, subtitle, image }) {
+  // Reuse BlogHero so all pages that import BreadCrumb get the same hero style
+  return <BlogHero title={title} image={image} />;
 }
 
 export default BreadCrumb;

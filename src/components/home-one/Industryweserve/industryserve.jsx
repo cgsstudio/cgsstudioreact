@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import BreadCrumb from "../../../components/common/Breadcrumb";
+import BlogHero from "../../../components/common/BlogHero";
 import education from "../../../assets/images/icon/Education.svg";
 import healthcare from "../../../assets/images/icon/Healthcare.svg";
 import ecommerce from "../../../assets/images/icon/E-commerce.svg";
@@ -46,7 +46,7 @@ const Industryweserve = () => {
       <Helmet>
         <title>Industries We Serve</title>
       </Helmet>
-      <BreadCrumb title="Industries We Serve" />
+      <BlogHero title="Industries We Serve" />
       <div className="container py-5">
         <h2 className="my-4 text-center aximo-section-title center">Industries We Serve</h2>
         <div className="row g-4 justify-content-center aximo-service-wrap">

@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
-import BreadCrumb from "../../components/common/Breadcrumb";
+import ServiceHeroBanner from "../../components/common/ServiceHeroBanner";
 import  Digitalmarketingdetail from "../../components/service/Digitalmarketingdetail";
+import heroBannerImage from "../../assets/images/v1/Group 122.webp";
 
 function Digitalmarketing() {
     
@@ -15,7 +16,7 @@ function Digitalmarketing() {
           href="/digital-marketing" 
         />
         </Helmet>
-      <BreadCrumb title="Digital Marketing" />
+      <ServiceHeroBanner title="Digital  Marketing Services" subtitle="A website is like the virtual home of a company." image={heroBannerImage} />
       <Digitalmarketingdetail />
 
     </>

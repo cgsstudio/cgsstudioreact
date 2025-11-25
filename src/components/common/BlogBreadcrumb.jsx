@@ -4,13 +4,13 @@ function BreadCrumb({ title, title2 }) {
   return (
     <div className="aximo-breadcrumb">
       <div className="container">
-        <h1 className="post__title">{title2}</h1>
+        <h2 className="post__title">{title2}</h2>
         <nav className="breadcrumbs">
           <ul>
             <li>
-              <Link to="/">Home</Link> {/* Static Home link */}
+              <Link to="/">Home</Link>
             </li>
-            <li>{title}</li> {/* Display the dynamic title */}
+            <li>{title}</li>
           </ul>
         </nav>
       </div>

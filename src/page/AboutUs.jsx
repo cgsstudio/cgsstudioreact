@@ -1,9 +1,10 @@
 import Story from "../components/about/story";
-import BreadCrumb from "../components/common/Breadcrumb";
+import BlogHero from "../components/common/BlogHero";
 import About from "../components/home-one/about";
 import AutoSlider from "../components/home-one/auto-slider";
 import TwoColumnFaq from "../components/contact/TwoColumnFaq";
 import Teams from "../components/home-one/teams";
+import heroBannerImage from "../assets/images/v1/Group 113.webp";
 // Teams images
 import Team1Img from "../assets/images/team/team1.png";
 import Team2Img from "../assets/images/team/team2.png";
@@ -42,7 +43,7 @@ function AboutUs() {
           href="https://chameleogfxstudio.com/About-us" 
         />
         </Helmet>
-			<BreadCrumb title="About Us" />
+			<BlogHero title="About Us" image={heroBannerImage} />
 			<Story />
 			<About />
 			<AutoSlider />

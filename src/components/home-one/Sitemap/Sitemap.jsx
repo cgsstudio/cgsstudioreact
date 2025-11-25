@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import BreadCrumb from "../../../components/common/Breadcrumb";
+import BlogHero from "../../../components/common/BlogHero";
 
 const sitemapData = [
     {
@@ -199,6 +199,7 @@ const sitemapData = [
           { text: "SEO for Bangalore’s SaaS & Tech Companies: Winning Strategies in a Crowded Market", link: "/blog/seo-for-bangalore-saas-tech-companies-winning-strategies" },
           { text: "How Tech Companies in Bangalore Are Leveraging Web 3.0 for Growth?", link: "/blog/how-tech-companies-in-bangalore-are-leveraging-web3-for-growth" },
           { text: "UI/UX Case Study: Redesigning a Poor-Performing Landing Page", link: "/blog/ui-ux-case-study-landing-page-redesign" },
+          { text: "How AI Automation Tools Are Transforming IT Operations in 2025", link: "/blog/how-ai-automation-tools-are-transforming-it-operations-2025" },
 
 
 
@@ -234,7 +235,7 @@ function SiteMapPage() {
         <link rel="canonical" href="https://chameleogfxstudio.com/sitemap" />
       </Helmet>
 
-      <BreadCrumb title="Sitemap" />
+      <BlogHero title="Sitemap" />
 
       <div className="container py-5">
         {sitemapData.map((section, i) => (

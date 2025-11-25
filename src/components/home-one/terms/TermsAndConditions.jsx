@@ -2,7 +2,7 @@ import { Helmet } from "react-helmet";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Star2Img from "../../../assets/images/v1/star2.png";
-import BreadCrumb from "../../../components/common/Breadcrumb";
+import BlogHero from "../../../components/common/BlogHero";
 
 
 
@@ -13,7 +13,7 @@ const TermsAndConditions = () => {
                   <title>Terms & Conditions</title>
                   <meta name="robots" content="noindex, nofollow" />a
                 </Helmet>
-      <BreadCrumb title="Terms & Conditions" />
+      <BlogHero title="Terms & Conditions" />
      <div className="container py-5">
       <h1 className="mb-5">Terms & Conditions</h1>
       <p>

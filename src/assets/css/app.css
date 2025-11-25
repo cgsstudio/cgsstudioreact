@@ -3649,7 +3649,7 @@ button#aximo-submit-btn2:hover .aximo-label-up {
 
 .aximo-breadcrumb {
 	text-align: center;
-	padding: 130px 0 100px;
+	padding: 140px 0 50px;
 	background-color: var(--dark-bg);
 }
 
@@ -3667,17 +3667,54 @@ button#aximo-submit-btn2:hover .aximo-label-up {
 
 @media (max-width: 575px) {
 	.aximo-breadcrumb {
-		padding: 130px 0 80px;
+		padding: 130px 0 0px;
 	}
 }
+.blog-hero-banner {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 100px 0;
+}
 
-h1.post__title {
+.blog-hero-banner .container {
+  max-width: 1200px;
+  margin: 25px auto;
+}
+
+.blog-hero-banner h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+	color: #ffffff !important;
+}
+
+.blog-hero-banner .aximo-breadcrumb-title {
+	color: #ffffff !important;
+}
+
+.blog-hero-banner .breadcrumbs ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.blog-hero-banner .breadcrumbs li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.blog-hero-banner .breadcrumbs a {
+  color: white;
+  text-decoration: none;
+}
+
+.post__title {
 	margin-bottom: 50px;
 	color: var(--white-smoke);
 }
 
 @media (max-width: 1400px) {
-	h1.post__title {
+	.post__title {
 		margin-bottom: 30px;
 	}
 }

@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
-import BreadCrumb from "../../components/common/Breadcrumb";
+import ServiceHeroBanner from "../../components/common/ServiceHeroBanner";
 import ServiceDetails from "../../components/service/ServiceDetails";
+import heroBannerImage from "../../assets/images/v1/Group 113.webp";
 function UiuxDesign() {
 	return (
 		<>
@@ -13,7 +14,11 @@ function UiuxDesign() {
           href="https://chameleogfxstudio.com/ui-ux-design-company-in-ahmedabad" 
         />
     </Helmet>
-			<BreadCrumb title="UI/UX Design" />
+			<ServiceHeroBanner
+        title="UI/UX Design Services"
+        subtitle="Graphic design is the creative process of combining text, images, shapes, and colors to convey ideas in a clear and visually appealing manner."
+        image={heroBannerImage}
+      />
 			<ServiceDetails />
 		</>
 	);

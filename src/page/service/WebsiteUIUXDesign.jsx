@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 import BreadCrumb from "../../components/common/Breadcrumb";
 import WebsiteUIUXDesigndetail from "../../components/service/WebsiteUIUXDesigndetail";
+import heroBannerImage from "../../assets/images/v1/Group 122.webp";
 
 function WebsiteUIUXDesign() {
     
@@ -15,7 +16,7 @@ function WebsiteUIUXDesign() {
           href="https://chameleogfxstudio.com/website-ui-ux-design" 
         />
         </Helmet>
-      <BreadCrumb title="Website UI/UX Design" />
+      <BreadCrumb title="Website UI/UX Design" image={heroBannerImage} />
       <WebsiteUIUXDesigndetail />
 
     </>

@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 import BreadCrumb from "../../components/common/Breadcrumb";
-import  Websiteredesigndetail from "../../components/service/Websiteredesigndetail";
+import Websiteredesigndetail from "../../components/service/Websiteredesigndetail";
+import heroBannerImage from "../../assets/images/v1/social_icon.png";
 
 function Websiteredesign() {
     
@@ -15,7 +16,8 @@ function Websiteredesign() {
           href="/website-redesign-and-revamp" 
         />
         </Helmet>
-      <BreadCrumb title="Website Redesign and Revamp" />
+      <BreadCrumb title="Website Redesign and Revamp"
+       subtitle="Graphic design is the creative process of combining text, images, shapes, and colors to convey ideas in a clear and visually appealing manner." />
       <Websiteredesigndetail />
 
     </>

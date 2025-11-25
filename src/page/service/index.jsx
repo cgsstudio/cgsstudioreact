@@ -4,6 +4,7 @@ import TwoColumnFaq from "../../components/contact/TwoColumnFaq";
 import AutoSlider from "../../components/home-one/auto-slider";
 import Services from "../../components/home-one/services";
 import WhyChooseUs from "../../components/home-one/why-choose-us";
+import heroBannerImage from "../../assets/images/v1/social_icon.png";
 
 const services = [
 	{
@@ -67,7 +68,7 @@ function ServicePage() {
             <meta name="description" content="" />
 			<meta name="keywords" content="" />
         </Helmet>
-			<BreadCrumb title="Service" />
+			<BreadCrumb title="Service" image={heroBannerImage} />
 			<Services services={services} />
 			<AutoSlider />
 			<WhyChooseUs />

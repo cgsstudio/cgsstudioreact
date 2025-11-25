@@ -1,9 +1,10 @@
 import { Helmet } from "react-helmet";
-import BreadCrumb from "../components/common/Breadcrumb";
+import BlogHero from "../components/common/BlogHero";
 import ContactForm from "../components/contact/ContactForm";
 import ContactInfo from "../components/contact/ContactInfo";
 import GoogleMap from "../components/contact/GoogleMap";
 import TwoColumnFaq from "../components/contact/TwoColumnFaq";
+import heroBannerImage from "../assets/images/v1/Group 112.webp";
 function ContactUs() {
 	const location = {
 		center: {
@@ -23,7 +24,7 @@ function ContactUs() {
           href="https://chameleogfxstudio.com/contact-us" 
         />
         </Helmet>
-			<BreadCrumb title="Contact Us" />
+			<BlogHero title="Contact Us" image={heroBannerImage} />
 			<ContactForm />
 			<ContactInfo />
 			<GoogleMap location={location} />
