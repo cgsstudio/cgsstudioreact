@@ -44,7 +44,7 @@ import Blog43Img from '../../assets/images/blog/chameleo 19.png';
 import Blog44Img from '../../assets/images/blog/chameleo-20.jpg';
 import Blog45Img from '../../assets/images/blog/chameleo 22.jpg';
 import Blog46Img from '../../assets/images/blog/chameleo 23.webp';
-import Blog47Img from '../../assets/images/blog/chameleo 23.webp';
+import Blog47Img from '../../assets/images/blog/chameleo 24.webp';
 
 
 
