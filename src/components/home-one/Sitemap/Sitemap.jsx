@@ -200,6 +200,7 @@ const sitemapData = [
           { text: "How Tech Companies in Bangalore Are Leveraging Web 3.0 for Growth?", link: "/blog/how-tech-companies-in-bangalore-are-leveraging-web3-for-growth" },
           { text: "UI/UX Case Study: Redesigning a Poor-Performing Landing Page", link: "/blog/ui-ux-case-study-landing-page-redesign" },
           { text: "How AI Automation Tools Are Transforming IT Operations in 2025", link: "/blog/how-ai-automation-tools-are-transforming-it-operations-2025" },
+          { text: "The Best AI Tools for Software Development Teams in 2025", link: "/blog/the-best-ai-tools-for-software-development-teams-in-2025" },
 
 
 
