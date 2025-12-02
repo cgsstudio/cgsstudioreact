@@ -5059,7 +5059,7 @@ creating compatibility issues, and opening security gaps</p>
       
       <h3 class="blog-h2">2. Replit AI: Real-Time Code Generation for Cloud-Native Workflows</h3>
       <p>Replit AI is gaining popularity for its speed and collaborative environment. It’s especially powerful for DevOps teams working with small services, micro-apps, or API-driven architectures.</p>
-      <p>How Replit AI helps DevOps automation:</p>
+      <p><b>How Replit AI helps DevOps automation:</b></p>
       <ul class="bloglistitem">
           <li>Builds full-stack prototypes faster</li>
           <li>Automates repetitive code tasks</li>
@@ -5071,7 +5071,7 @@ creating compatibility issues, and opening security gaps</p>
 
       <h3 class="blog-h2">3. Tabnine: Privacy-Focused AI for Enterprise DevOps</h3>
       <p>While many AI tools rely on large public datasets, Tabnine focuses heavily on privacy, making it a trusted option for enterprise teams managing sensitive infrastructure.</p>
-      <p>Tabnine’s automation strengths include:</p>
+      <p><b>Tabnine’s automation strengths include:</b></p>
       <ul class="bloglistitem">
           <li>Secure code completion</li>
           <li>AI-assisted template generation</li>
@@ -5085,7 +5085,7 @@ creating compatibility issues, and opening security gaps</p>
 
       <h3 class="blog-h2">4. AWS CodeWhisperer: AI Automation for Cloud Infrastructure</h3>
       <p>For businesses running on AWS, AWS CodeWhisperer is a game-changer. It deeply integrates with AWS services and can generate powerful, cloud-optimised code with minimal input.</p>
-      <p>Where AWS CodeWhisperer excels:</p>
+      <p><b>Where AWS CodeWhisperer excels:</b></p>
       <ul class="bloglistitem">
           <li>Writing IaC using AWS CloudFormation</li>
           <li>Automating Lambda functions</li>
@@ -5134,7 +5134,7 @@ creating compatibility issues, and opening security gaps</p>
 
       <h2 class="blog-h2">AI for Monitoring, Security, and Incident Management</h2>
       <p>One of the most important uses of AI in DevOps is system monitoring. Traditional monitoring tools generate tons of alerts, but AI transforms monitoring into meaningful insights.</p>
-      <p>AI-powered monitoring tools now do:</p>
+      <p><b>AI-powered monitoring tools now do:</b></p>
       <ul class="bloglistitem">
         <li>Predict server outages</li>
         <li>Detect security threats in real time</li>
