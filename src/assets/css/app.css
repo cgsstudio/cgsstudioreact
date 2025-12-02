@@ -11322,8 +11322,8 @@ a.post-read-more:hover img {
 	display: inline-block;
 	border-radius: 50px;
 	letter-spacing: 0.5px;
-	color: var(--heading-color);
-	background: rgba(0, 0, 0, 0.05);
+	color: white !important;
+	background-color: black!important;
 }
 
 .widget .tagcloud a:hover,
