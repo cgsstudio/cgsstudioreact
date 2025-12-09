@@ -1,0 +1,9 @@
+.award-card{
+    height: 150px;
+}
+
+@media (max-width: 1024px) {
+    .award-card{
+        height: 200px;
+    }
+}

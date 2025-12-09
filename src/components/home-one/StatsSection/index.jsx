@@ -4,57 +4,61 @@ import ExperienceImg from "../../../assets/images/v1/6th_years.webp";
 
 function StatsSection() {
     return (
-        <div className="section py-5">
+        <div className="stats-section py-5">
             <div className="container">
-                <div className="row align-items-center">
-                    {/* Left Column: Experience Badge */}
-                    <div className="col-lg-3 mb-4 mb-lg-0 text-center text-lg-start">
-                        <div className="d-inline-block position-relative ">
+                <div className="row g-4 align-items-stretch">
+                    {/* Left Column: Experience Badge Card */}
+                    <div className="col-lg-4">
+                        <div className="stats-experience-card h-100 d-flex align-items-center justify-content-center p-4">
                             <img
                                 src={ExperienceImg}
-                                alt="6 Years of Experience"
-                                className="img-fluid stats-experience-img rotating-border-content"
+                                alt="7 Years of Experience"
+                                className="img-fluid stats-experience-img"
+
                             />
                         </div>
                     </div>
 
                     {/* Right Column: Stats Grid */}
-                    <div className="col-lg-9">
-                        <div className="row g-4">
-                            {/* Stat 1 */}
-                            <div className="col-md-6 col-sm-6">
-                                <div className="text-center p-5 h-100 rounded-3 d-flex flex-column justify-content-center stats-card">
-                                    <h3 className="display-4 fw-bold text-white">
-                                        <span className="text-black">500</span>+
-                                    </h3>
-                                    <p className="fw-bold mb-0 text-black">Projects Done</p>
+                    <div className="col-lg-8">
+                        <div className="row h-100">
+                            {/* Stat 1 - Projects Done */}
+                            <div className="col-md-6 p-0">
+                                <div className="stats-card h-100 text-center d-flex flex-column justify-content-center p-4">
+                                    <h2 className="stats-number mb-2">
+                                        <CountUp end={500} duration={2.5} suffix="+" />
+                                    </h2>
+                                    <p className="stats-label mb-0">Projects Done</p>
                                 </div>
                             </div>
-                            {/* Stat 2 */}
-                            <div className="col-md-6 col-sm-6">
-                                <div className="text-center p-5 h-100 rounded-3 d-flex flex-column justify-content-center stats-card">
-                                    <h3 className="display-4 fw-bold text-black">
-                                        <span className="text-black">10</span>+
-                                    </h3>
-                                    <p className="fw-bold mb-0 text-black">Global Location</p>
+
+                            {/* Stat 2 - Global Location */}
+                            <div className="col-md-6 p-0">
+                                <div className="stats-card h-100 text-center d-flex flex-column justify-content-center p-4">
+                                    <h2 className="stats-number mb-2">
+                                        <CountUp end={10} duration={2.5} suffix="+" />
+                                    </h2>
+                                    <p className="stats-label mb-0">Global Location</p>
                                 </div>
                             </div>
-                            {/* Stat 3 */}
-                            <div className="col-md-6 col-sm-6">
-                                <div className="text-center p-5 h-100 rounded-3 d-flex flex-column justify-content-center stats-card">
-                                    <h3 className="display-4 fw-bold text-blacke">
-                                        <span className="text-black">215</span>+
-                                    </h3>
-                                    <p className="fw-bold mb-0 text-blacktext-black">Happy Clients</p>
+
+                            {/* Stat 3 - Happy Clients */}
+                            <div className="col-md-6 p-0">
+                                <div className="stats-card h-100 text-center d-flex flex-column justify-content-center p-4">
+                                    <h2 className="stats-number mb-2">
+                                        <CountUp end={215} duration={2.5} suffix="+" />
+                                    </h2>
+                                    <p className="stats-label mb-0">Happy Clients</p>
                                 </div>
                             </div>
-                            {/* Stat 4 */}
-                            <div className="col-md-6 col-sm-6">
-                                <div className="text-center p-5 h-100 rounded-3 d-flex flex-column justify-content-center stats-card">
-                                    <h3 className="display-4 fw-bold text-black">
-                                        <span className="text-black">50</span>+
-                                    </h3>
-                                    <p className="fw-bold mb-0 text-black">Employees Work</p>
+
+                            {/* Stat 4 - Employees Work */}
+                            <div className="col-md-6 p-0">
+                                <div className="stats-card h-100 text-center d-flex flex-column justify-content-center p-4">
+                                    <h2 className="stats-number mb-2">
+                                        <CountUp end={50} duration={2.5} suffix="+" />
+                                    </h2>
+                                    <p className="stats-label mb-0">Employees Work</p>
                                 </div>
                             </div>
                         </div>

@@ -16,16 +16,7 @@ function MissionVision() {
                                 </div>
                             </div>
                             <p className="mission-vision-text">
-                                At Synarion IT Solutions, our mission is to harness the power of
-                                technology to drive innovation and empower businesses worldwide.
-                                Established in 2017, we boast a dedicated team of over 50
-                                talented professionals, committed to delivering results-driven
-                                digital marketing solutions. With a track record of 500+
-                                successful projects and counting, we prioritize client
-                                satisfaction above all else. Our relentless pursuit of excellence
-                                ensures that we consistently provide quality services, helping
-                                our clients achieve their goals and stay ahead in today's digital
-                                era.
+                                At Chameleo GFX Studio, we are committed to blending creativity, strategy, and technical excellence to build powerful brand identities and digital experiences. We strive to deliver visually stunning design, intuitive UI/UX, responsive web development, and effective digital marketing that reflect each client’s unique story. By offering tailored, end-to-end solutions, from logo design to SEO and social media campaigns, we empower businesses to connect deeply with their audience, grow their online presence, and achieve meaningful results that truly resonate.
                             </p>
                             <span className="watermark-text">Achieve</span>
                         </div>
@@ -44,15 +35,7 @@ function MissionVision() {
                                 </div>
                             </div>
                             <p className="mission-vision-text">
-                                Our vision at Synarion IT Solutions is to be a globally
-                                recognized leader in digital transformation, renowned for our
-                                unwavering commitment to innovation, excellence, and client
-                                satisfaction. We strive to continuously push boundaries,
-                                leveraging cutting-edge technologies and strategic insights to
-                                drive sustainable growth and success for our clients. By
-                                fostering a culture of collaboration, creativity, and continuous
-                                improvement, we aim to inspire positive change and make a
-                                meaningful impact on businesses and communities around the world.
+                                We envision Chameleo GFX Studio as a creative beacon that transforms ideas into digital realities, enabling businesses of all sizes, from startups to enterprises, to stand out in a crowded digital world. Our goal is to build a future where every brand we work with becomes a memorable brand, with seamless user experiences, engaging visuals, and a strong online presence. Through innovation, integrity, and collaboration, we aim to set new standards in design excellence and become the trusted partner for brands seeking growth and distinction.
                             </p>
                             <span className="watermark-text">Planned</span>
                         </div>

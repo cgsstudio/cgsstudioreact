@@ -28,34 +28,132 @@ const industries = [
 ];
 
 const IndustriesHomeSection = () => {
+    const [rotation, setRotation] = React.useState(0);
+
+    React.useEffect(() => {
+        const interval = setInterval(() => {
+            setRotation((prev) => (prev + 1) % 360);
+        }, 30);
+        return () => clearInterval(interval);
+    }, []);
+
     return (
-        <div className="section aximo-section-padding3">
+        <div className="section aximo-section-padding3" >
             <div className="container">
                 <div className="row align-items-center">
-                    <div className="col-lg-7">
-                        <div className="row g-4">
-                            {industries.map((industry, index) => (
-                                <div key={index} className="col-6 col-md-4 col-lg-4">
-                                    <div className="aximo-iconbox-wrap text-center p-3" style={{ backgroundColor: '#fff', borderRadius: '10px', height: '100%', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
-                                        <div className="aximo-iconbox-icon mb-3">
-                                            <img src={industry.icon} alt={industry.title} style={{ height: "50px", width: "auto" }} />
+                    {/* Industries Grid Table - Left Side */}
+                    <div className="col-lg-7 mb-5 mb-lg-0">
+                        {/* Animated Border Container */}
+                        <div
+                            style={{
+                                padding: '2px',
+                                background: `linear-gradient(${rotation}deg, #00d4ff, #7b2ff7, #f107a3, #00d4ff)`,
+                                borderRadius: '10px',
+                                backgroundSize: '300% 300%',
+                            }}
+                        >
+                            <div
+                                style={{
+                                    backgroundColor: '#fff',
+                                    borderRadius: '8px',
+                                    overflow: 'hidden'
+                                }}
+                            >
+                                <div className="row g-0">
+                                    {industries.map((industry, index) => (
+                                        <div
+                                            key={index}
+                                            className="col-6 col-md-3"
+                                            style={{
+                                                borderRight: (index % 4 !== 3) ? '1px solid #e0e0e0' : 'none',
+                                                borderBottom: (index < 8) ? '1px solid #e0e0e0' : 'none'
+                                            }}
+                                        >
+                                            <div
+                                                className="text-center"
+                                                style={{
+                                                    padding: '25px 15px',
+                                                    height: '100%',
+                                                    display: 'flex',
+                                                    flexDirection: 'column',
+                                                    alignItems: 'center',
+                                                    justifyContent: 'center',
+                                                    transition: 'background-color 0.3s ease',
+                                                    cursor: 'pointer'
+                                                }}
+                                                onMouseEnter={(e) => {
+                                                    e.currentTarget.style.backgroundColor = '#f8f9fa';
+                                                }}
+                                                onMouseLeave={(e) => {
+                                                    e.currentTarget.style.backgroundColor = 'transparent';
+                                                }}
+                                            >
+                                                <div className="mb-3">
+                                                    <img
+                                                        src={industry.icon}
+                                                        alt={industry.title}
+                                                        style={{ height: "55px", width: "auto" }}
+                                                    />
+                                                </div>
+                                                <div>
+                                                    <h3
+                                                        className="mb-0"
+                                                        style={{
+                                                            fontSize: '12px',
+                                                            fontWeight: '600',
+                                                            color: '#1a1a1a',
+                                                            lineHeight: '1.4'
+                                                        }}
+                                                    >
+                                                        {industry.title}
+                                                    </h3>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div className="aximo-iconbox-data">
-                                            <h3 className="h6 mb-0" style={{ fontSize: '14px', fontWeight: 'bold' }}>{industry.title}</h3>
-                                        </div>
-                                    </div>
+                                    ))}
                                 </div>
-                            ))}
+                            </div>
                         </div>
                     </div>
+
+                    {/* Content - Right Side */}
                     <div className="col-lg-5">
-                        <div className="aximo-default-content aximo-p2-ml">
-                            <span className="aximo-subtitle">Building the Future</span>
-                            <h2 className="aximo-title text-black">
-                                Development & Coding Talent Redefining Industries
+                        <div className="aximo-default-content text-end" style={{ paddingLeft: '40px' }}>
+                            <span
+                                className="aximo-subtitle "
+                                style={{
+                                    fontSize: '14px',
+                                    fontWeight: '500',
+                                    color: '#666',
+                                    textTransform: 'none',
+                                    marginBottom: '15px',
+                                    display: 'inline-block'
+                                }}
+                            >
+                                Building the Future
+                            </span>
+                            <h2
+                                className="aximo-title "
+                                style={{
+                                    fontSize: '42px',
+                                    fontWeight: '700',
+                                    color: '#1a1a1a',
+                                    lineHeight: '1.3',
+                                    marginBottom: '25px'
+                                }}
+                            >
+                                Development & Coding<br />
+                                Talent Redefining Industries
                             </h2>
-                            <p>
-                                Lead the gaming industry with innovative game concepts, captivated audiences, and generating billion-dollar revenues through Synarion IT Solutions' visionary approach to game development.
+                            <p
+                                style={{
+                                    fontSize: '15px',
+                                    lineHeight: '1.8',
+                                    color: '#555',
+                                    marginBottom: '0'
+                                }}
+                            >
+                                Lead the gaming industry with innovative game concepts, captivating audiences, and generating billion-dollar revenues through Synarion IT Solutions' visionary approach to game development.
                             </p>
                         </div>
                     </div>
