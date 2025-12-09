@@ -202,6 +202,7 @@ const sitemapData = [
           { text: "How AI Automation Tools Are Transforming IT Operations in 2025", link: "/blog/how-ai-automation-tools-are-transforming-it-operations-2025" },
           { text: "The Best AI Tools for Software Development Teams in 2025", link: "/blog/the-best-ai-tools-for-software-development-teams-in-2025" },
           { text: "IT Infrastructure Automation Using AI: The Future of DevOps", link: "/blog/it-infrastructure-automation-using-ai-future-of-devops" },
+          { text: "Top 10 UI/UX Design Trends Transforming Indian Businesses", link: "/blog/ui-ux-design-trends-transforming-indian-businesses-2025" },
 
 
 

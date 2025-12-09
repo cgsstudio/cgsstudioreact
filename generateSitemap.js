@@ -160,6 +160,7 @@ const pages = [
 { url: "/blog/how-ai-automation-tools-are-transforming-it-operations-2025", changefreq: "monthly", priority: 0.6 },
 { url: "/blog/the-best-ai-tools-for-software-development-teams-in-2025", changefreq: "monthly", priority: 0.6 },
 { url: "/blog/it-infrastructure-automation-using-ai-future-of-devops", changefreq: "monthly", priority: 0.6 },
+{ url: "/blog/ui-ux-design-trends-transforming-indian-businesses-2025", changefreq: "monthly", priority: 0.6 },
 
 
 

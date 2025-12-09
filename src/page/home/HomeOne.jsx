@@ -4,6 +4,10 @@ import AutoSlider from "../../components/home-one/auto-slider";
 import Hero from "../../components/home-one/hero";
 import Projects from "../../components/home-one/projects";
 import Services from "../../components/home-one/services";
+import AppWebServices from "../../components/home-one/AppWebServices";
+import StatsSection from "../../components/home-one/StatsSection";
+import AwardsSection from "../../components/home-one/awards";
+import MissionVision from "../../components/home-one/MissionVision";
 import Teams from "../../components/home-one/teams";
 import Testimonial from "../../components/home-one/testimonial";
 import WhyChooseUs from "../../components/home-one/why-choose-us";
@@ -20,6 +24,7 @@ import { Helmet } from "react-helmet";
 import TestimonialSlider from "../../components/home-one/testimonial/TestimonialSlider";
 // import ImageSection from "../../components/home-one/ImageSection";
 import Websites from "../../components/home-one/projects/Websites";
+import IndustriesHomeSection from "../../components/home-one/Industryweserve/IndustriesHomeSection";
 
 
 const servicesData = [
@@ -71,8 +76,8 @@ const servicesData = [
 	// 	icon: "icon-design-thinking",
 	// 	slug: "google-ads"
 	// },
-	
-	
+
+
 ];
 
 const teamsData = [
@@ -104,30 +109,35 @@ const teamsData = [
 
 function HomeOne() {
 	return (
-		
+
 		<>
-		<Helmet>
-            <title>Creative Design, Development & Marketing Agency - Chameleo GFX Studio</title>
-            <meta name="description" content="Chameleo GFX Studio is the best Creative Designing Agency in Ahmedabad. We offer innovative design solutions like graphics, logos, branding, web design, UI/UX, & more. Call now." />
-			<meta name="keywords" content="Creative Designing Agency in Ahmedabad, Creative Agency in Ahmedabad, Logo Design, Branding, web design, UI/UX" />
-			<link 
-          rel="canonical" 
-          href="https://chameleogfxstudio.com/" 
-        />
-        </Helmet>
+			<Helmet>
+				<title>Creative Design, Development & Marketing Agency - Chameleo GFX Studio</title>
+				<meta name="description" content="Chameleo GFX Studio is the best Creative Designing Agency in Ahmedabad. We offer innovative design solutions like graphics, logos, branding, web design, UI/UX, & more. Call now." />
+				<meta name="keywords" content="Creative Designing Agency in Ahmedabad, Creative Agency in Ahmedabad, Logo Design, Branding, web design, UI/UX" />
+				<link
+					rel="canonical"
+					href="https://chameleogfxstudio.com/"
+				/>
+			</Helmet>
 			<Hero />
 			<AutoSlider />
 			<Services services={servicesData} />
-			<Logoslider/>
-		    {/* <Partner/> */}
-			<RightSlider/>
-			<Websites/>
+			<AwardsSection />
+			<MissionVision />
+			<AppWebServices />
+			<Logoslider />
+			{/* <Partner/> */}
+			<RightSlider />
+			<Websites />
+			<IndustriesHomeSection />
 			<About />
 			{/* <ImageSection /> */}
 			<Projects />
 			<TestimonialSlider />
+			<StatsSection />
 			<WhyChooseUs />
-			
+
 			<AutoSlider />
 			{/* <Teams teams={teamsData} /> */}
 		</>

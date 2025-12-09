@@ -12309,3 +12309,70 @@ button#aximo-notified-btn {
 	font-size: 60px !important;
 	font-weight: 700;
 }
+/* Custom Styles for Stats & Services */
+.stats-experience-img { max-height: 300px; object-fit: contain; }
+.stats-card { border: 1px solid #333; }
+
+.service-card-1 { background: linear-gradient(to bottom, #ffffffff 50%, #eedeb8ff 100%); border: 1px solid #ddddddff; }
+.service-card-2 { background: linear-gradient(to bottom, #ffffff 50%, #e0f7fa 100%); border: 1px solid #e0f7fa; }
+.service-card-3 { background: linear-gradient(to bottom, #ffffff 50%, #d3f1dbff 100%); border: 1px solid #e6fffa; }
+.service-card-4 { background: linear-gradient(to bottom, #ffffff 50%, #ecd4deff 100%); border: 1px solid #fae3f0; }
+.service-card-hover { transition: transform 0.3s ease; cursor: default; box-shadow: 0 10px 30px rgba(0,0,0,0.05); }
+.service-tech-icon { width: 60px; height: 60px; box-shadow: 0 2px 5px rgba(0,0,0,0.03); }
+
+
+/* Rotating Border Animation */
+.rotating-border {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  padding: 3px;
+  border-radius: 12px;
+  background: transparent;
+}
+
+.rotating-border::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200%;
+  height: 200%;
+  background: conic-gradient(from 0deg, #ff4545, #00ff99, #006aff, #ff0095, #ff4545);
+  animation: rotate-border-anim 4s linear infinite;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+.rotating-border::after {
+  content: '';
+  position: absolute;
+  inset: 3px;
+  background: #000; /* Match section bg */
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.rotating-border-content {
+  position: relative;
+  z-index: 2;
+  display: block;
+  border-radius: 10px;
+}
+
+@keyframes rotate-border-anim {
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+
+/* Awards Section Helpers */
+.award-card-square {
+  aspect-ratio: 1 / 1;
+  width: 100%;
+}
+
+.award-img-container {
+  height: 120px;
+  width: 120px;
+}
