@@ -12343,10 +12343,10 @@ button#aximo-notified-btn {
 	height: 150%;
 	background: conic-gradient(from 0deg,
 			#ed1d24,
-			#ff6b6b,
-			#4ecdc4,
-			#44a8ff,
-			#ff6b6b,
+			#fcba03,
+			#fcba03,
+			#fcba03,
+			#fcba03,
 			#ed1d24);
 	animation: rotateBorder 3s linear infinite;
 	transform: translate(-50%, -50%);
@@ -12459,9 +12459,9 @@ button#aximo-notified-btn {
 	}
 }
 
-
+/* 
 .service-card-1 {
-	background: linear-gradient(to bottom, #ffffffff 50%, #eedeb8ff 100%);
+	background: linear-gradient(to bottom, #ffffffff 50%, #ed1d24 100%);
 	border: 1px solid #ddddddff;
 }
 
@@ -12478,7 +12478,12 @@ button#aximo-notified-btn {
 .service-card-4 {
 	background: linear-gradient(to bottom, #ffffff 50%, #ecd4deff 100%);
 	border: 1px solid #fae3f0;
+} */
+
+.service-box-new {
+	border: 1px solid #ed1d24;
 }
+
 
 .service-card-hover {
 	transition: transform 0.3s ease;

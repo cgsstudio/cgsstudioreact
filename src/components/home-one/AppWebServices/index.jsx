@@ -7,38 +7,61 @@ import UiUxImg from "../../../assets/images/services/ui_ux.png";
 
 // Tech Icons
 import { FaApple, FaAndroid, FaChessBoard, FaFutbol, FaFistRaised, FaVrCardboard } from "react-icons/fa";
-import { SiFlutter, SiHiveBlockchain, SiAngular, SiLaravel, SiPhp, SiPython, SiFigma, SiAdobephotoshop, SiAdobexd, SiAdobeillustrator } from "react-icons/si";
+import { SiWordpress, SiShopify, SiWebflow, SiReact, SiNextdotjs, SiWix, SiZapier, SiSquarespace, SiSketch, SiFramer, SiPhp, SiFigma, SiAdobeillustrator, SiAdobephotoshop, SiCanva, SiAdobexd } from "react-icons/si";
+
+
+const GHLIcon = ({ size = 24 }) => (
+    <svg
+        width={size}
+        height={size}
+        viewBox="0 0 64 64"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+    >
+        <rect width="64" height="64" rx="12" fill="#ffffff" />
+        <path d="M20 44V20H28V44H20Z" fill="#4CAF50" />
+        <path d="M36 44V20H44V44H36Z" fill="#FFC107" />
+        <circle cx="32" cy="20" r="8" fill="#2196F3" />
+    </svg>
+);
 
 function AppWebServices() {
     const cards = [
         {
             id: 1,
-            title: "Mobile App Development",
-            description: "We are ISO 9001:2015 Certified Mobile Application Development Company in India with a dedicated team of 50+ developers working from India.",
+            title: "Graphic Design",
+            description: "Our graphic designs transform creative ideas into captivating visuals that leave a lasting impression on your audience.",
             image: MobileAppImg,
             techs: [
-                { name: "iOS", icon: <FaApple size={24} color="#333" />, bg: "#f5f5f7" }, // Apple gray/white
-                { name: "Android", icon: <FaAndroid size={24} color="#3ddc84" />, bg: "#eaffea" }, // Android Green light
-                { name: "Flutter", icon: <SiFlutter size={24} color="#02569B" />, bg: "#e0f2ff" }, // Flutter Blue light
-                { name: "Blockchain", icon: <SiHiveBlockchain size={24} color="#fca311" />, bg: "#fff7e6" } // Orange light
+                { name: "Figma", icon: <SiFigma size={24} color="#F24E1E" />, bg: "#ffece6" },
+                { name: "Adobe Illustrator", icon: <SiAdobeillustrator size={24} color="#FF7C00" />, bg: "#fff3e6" },
+                { name: "Adobe Photoshop", icon: <SiAdobephotoshop size={24} color="#31A8FF" />, bg: "#e6f5ff" },
+                { name: "Canva", icon: <SiCanva size={24} color="#00C4CC" />, bg: "#e6ffff" },
+                { name: "Adobe XD", icon: <SiAdobexd size={24} color="#FF21C0" />, bg: "#ffe6f7" }
             ]
         },
         {
             id: 2,
             title: "Web Development",
-            description: "Crafting User-Friendly Websites: Synarion IT Solutions specializes in creating intuitive and engaging websites, ensuring a seamless user experience that drives business growth and client satisfaction.",
+            description: "As a leading web development company in Ahmedabad, India, we specialize in building visually stunning, high-performing websites that connect seamlessly with your target audience.",
             image: WebDevImg,
             techs: [
-                { name: "Angular", icon: <SiAngular size={24} color="#dd0031" />, bg: "#ffe6e9" }, // Red light
-                { name: "Laravel", icon: <SiLaravel size={24} color="#ff2d20" />, bg: "#ffebe8" }, // Red/Orange light
-                { name: "PHP", icon: <SiPhp size={24} color="#777bb4" />, bg: "#e8ebff" }, // Purple/Blue light
-                { name: "Python", icon: <SiPython size={24} color="#3776ab" />, bg: "#e6f3ff" } // Blue light
+                { name: "PHP", icon: <SiPhp size={24} color="#777bb4" />, bg: "#e8ebff" }, // Existing
+
+                { name: "WordPress", icon: <SiWordpress size={24} color="#21759b" />, bg: "#e6f1ff" },
+                { name: "Shopify", icon: <SiShopify size={24} color="#96bf48" />, bg: "#f0fae6" },
+                { name: "Webflow", icon: <SiWebflow size={24} color="#146ef5" />, bg: "#e6efff" },
+                { name: "React", icon: <SiReact size={24} color="#61dafb" />, bg: "#e6faff" },
+                { name: "Next.js", icon: <SiNextdotjs size={24} color="#000000" />, bg: "#f2f2f2" },
+                { name: "Wix", icon: <SiWix size={24} color="#0c6efc" />, bg: "#e6efff" },
+                { name: "GoHighLevel", icon: <GHLIcon size={24} color="#ff4a00" />, bg: "#fff1e6" }, // Placeholder icon
+                { name: "Squarespace", icon: <SiSquarespace size={24} color="#000000" />, bg: "#f4f4f4" }
             ]
         },
         {
             id: 3,
-            title: "Game Development",
-            description: "Lead the gaming industry with innovative game concepts, captivating audiences, and generating billion-dollar revenues through Synarion IT Solutions' visionary approach to game development.",
+            title: "SEO",
+            description: "Our team leverages advanced strategies and in-depth keyword analysis to ensure your website ranks high for the searches that matter most.",
             image: GameDevImg,
             techs: [
                 { name: "Board Game", icon: <FaChessBoard size={24} color="#e67e22" />, bg: "#fff3e0" },
@@ -50,16 +73,18 @@ function AppWebServices() {
         {
             id: 4,
             title: "UI/UX Design",
-            description: "Crafting user-friendly, visually appealing digital experiences is our forte. Our experienced graphic and website designers, skilled in Photoshop, Figma, XD, and Illustrator, bring your vision to life seamlessly.",
+            description: "We design intuitive user interfaces that ensure maximum usability, smooth navigation, and enjoyable interactions for every user.",
             image: UiUxImg,
             techs: [
                 { name: "Figma", icon: <SiFigma size={24} color="#F24E1E" />, bg: "#ffe0d6" },
-                { name: "Photoshop", icon: <SiAdobephotoshop size={24} color="#31A8FF" />, bg: "#e0f2ff" },
-                { name: "XD", icon: <SiAdobexd size={24} color="#FF61F6" />, bg: "#ffe0fd" },
-                { name: "Illustrator", icon: <SiAdobeillustrator size={24} color="#FF9A00" />, bg: "#fff5e0" }
+                { name: "Adobe XD", icon: <SiAdobexd size={24} color="#FF61F6" />, bg: "#ffe0fd" },
+                { name: "Sketch", icon: <SiSketch size={24} color="#F7B500" />, bg: "#fff3d6" },
+                { name: "Framer", icon: <SiFramer size={24} color="#0055FF" />, bg: "#e0eaff" }
             ]
+
         }
     ];
+
 
     return (
         <div className="section pt-5">
@@ -71,7 +96,7 @@ function AppWebServices() {
                     {cards.map((card) => (
                         <div key={card.id} className="col-lg-6">
                             <div
-                                className={`p-4 h-100 rounded-4 service-card-hover service-card-${card.id}`}
+                                className={`bg-white p-4 h-100 rounded-4 service-card-hover service-box-new service-card-${card.id}`}
                             >
                                 {/* Top Image */}
                                 <div className="mb-4">

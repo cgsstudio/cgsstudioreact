@@ -47,7 +47,7 @@ const IndustriesHomeSection = () => {
                         <div
                             style={{
                                 padding: '2px',
-                                background: `linear-gradient(${rotation}deg, #00d4ff, #7b2ff7, #f107a3, #00d4ff)`,
+                                background: `linear-gradient(${rotation}deg, #ed1d24, #fcba03, #fcba03, #ed1d24)`,
                                 borderRadius: '10px',
                                 backgroundSize: '300% 300%',
                             }}
@@ -118,7 +118,7 @@ const IndustriesHomeSection = () => {
 
                     {/* Content - Right Side */}
                     <div className="col-lg-5">
-                        <div className="aximo-default-content text-end" style={{ paddingLeft: '40px' }}>
+                        <div className="aximo-default-content " style={{ paddingLeft: '40px' }}>
                             <span
                                 className="aximo-subtitle "
                                 style={{
