@@ -122,10 +122,12 @@ function HomeOne() {
 			</Helmet>
 			<Hero />
 			<AutoSlider />
-			<Services services={servicesData} />
 			<AwardsSection />
-			<MissionVision />
+			{/* <Services services={servicesData} /> */}
 			<AppWebServices />
+
+			<MissionVision />
+
 			<Logoslider />
 			{/* <Partner/> */}
 			<RightSlider />

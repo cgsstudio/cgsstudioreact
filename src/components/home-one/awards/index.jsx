@@ -50,26 +50,26 @@ function AwardsSection() {
     return out;
   }, [maxSlidesPerView]);
 
- const swiperSettings = {
+  const swiperSettings = {
     slidesPerView: 1,
     spaceBetween: 20,
     loop: true,
     speed: 2500, // long smooth continuous movement
     autoplay: {
-        delay: 0, // super important
-        disableOnInteraction: false,
+      delay: 0, // super important
+      disableOnInteraction: false,
     },
     modules: [Autoplay],
     breakpoints: {
-        576: { slidesPerView: 2, spaceBetween: 24 },
-        768: { slidesPerView: 3, spaceBetween: 28 },
-        1200: { slidesPerView: 4, spaceBetween: 24 }
+      576: { slidesPerView: 2, spaceBetween: 24 },
+      768: { slidesPerView: 3, spaceBetween: 28 },
+      1200: { slidesPerView: 4, spaceBetween: 24 }
     },
-};
+  };
 
 
   return (
-    <div className="section py-5">
+    <div className="section pt-5">
       <div className="container">
         <div className="row align-items-center gy-4">
           <div className="col-lg-3">

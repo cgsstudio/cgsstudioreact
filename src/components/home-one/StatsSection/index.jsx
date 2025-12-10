@@ -1,10 +1,10 @@
 import React from "react";
 import CountUp from "react-countup";
-import ExperienceImg from "../../../assets/images/v1/6th_years.webp";
+import ExperienceImg from "../../../assets/images/v1/certificate.webp";
 
 function StatsSection() {
     return (
-        <div className="stats-section py-5">
+        <div className="stats-section pb-5">
             <div className="container">
                 <div className="row g-4 align-items-stretch">
                     {/* Left Column: Experience Badge Card */}
