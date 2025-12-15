@@ -2019,7 +2019,7 @@ h3.blog-h2 {
 	padding-bottom: 4rem;
 	position: relative;
 	overflow: hidden;
-	margin-top: 80px;
+
 }
 
 /* Background decorative elements */
@@ -2477,13 +2477,13 @@ h3.blog-h2 {
 }
 
 .blog-hero-banner {
-  padding-top: 140px !important;
-  padding-bottom: 40px !important;
+	padding-top: 140px !important;
+	padding-bottom: 40px !important;
 }
 
 .blog-hero-banner {
-  padding-top: 140px !important;
-  padding-bottom: 40px !important;
+	padding-top: 140px !important;
+	padding-bottom: 40px !important;
 }
 
 
@@ -2595,7 +2595,7 @@ h3.blog-h2 {
 @media (max-width: 480px) {
 	.our_efficiently {
 		font-size: 38px;
-		padding-bottom:15px;
+		padding-bottom: 15px;
 	}
 }
 
@@ -2606,12 +2606,12 @@ h3.blog-h2 {
 	}
 }
 
-.aximo-breadcrumb1
- {
-    text-align: center;
-    padding: 140px 0 50px;
-    background-color: var(--dark-bg);
+.aximo-breadcrumb1 {
+	text-align: center;
+	padding: 140px 0 50px;
+	background-color: var(--dark-bg);
 }
+
 @media (max-width: 768px) {
 	.design-main-card {
 		padding: 40px 30px;
@@ -2703,15 +2703,15 @@ h3.blog-h2 {
 }
 
 @media (max-width: 768px) {
-  .design-title-heading {
-    line-height: 60px;
-  }
+	.design-title-heading {
+		line-height: 60px;
+	}
 }
 
 @media (max-width: 768px) {
-    .servisepage-form-section-1 h2 {
-        font-size: 42px;
-        font-weight: 700;
-        letter-spacing: -0.64px;
-    }
+	.servisepage-form-section-1 h2 {
+		font-size: 42px;
+		font-weight: 700;
+		letter-spacing: -0.64px;
+	}
 }

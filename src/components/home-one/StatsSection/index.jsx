@@ -4,7 +4,7 @@ import ExperienceImg from "../../../assets/images/v1/certificate.webp";
 
 function StatsSection() {
     return (
-        <div className="stats-section pb-5">
+        <div className="stats-section py-5">
             <div className="container">
                 <div className="row g-4 align-items-stretch">
                     {/* Left Column: Experience Badge Card */}
@@ -20,12 +20,12 @@ function StatsSection() {
                     </div>
 
                     {/* Right Column: Stats Grid */}
-                    <div className="col-lg-8">
+                    <div className="col-lg-8 stat-grid">
                         <div className="row h-100">
                             {/* Stat 1 - Projects Done */}
                             <div className="col-md-6 p-0">
-                                <div className="stats-card h-100 text-center d-flex flex-column justify-content-center p-4">
-                                    <h2 className="stats-number mb-2">
+                                <div className="stats-card stats-card-1  h-100 text-center d-flex flex-column justify-content-center p-4">
+                                    <h2 className="stats-number  mb-2">
                                         <CountUp end={500} duration={2.5} suffix="+" />
                                     </h2>
                                     <p className="stats-label mb-0">Projects Done</p>
@@ -34,8 +34,8 @@ function StatsSection() {
 
                             {/* Stat 2 - Global Location */}
                             <div className="col-md-6 p-0">
-                                <div className="stats-card h-100 text-center d-flex flex-column justify-content-center p-4">
-                                    <h2 className="stats-number mb-2">
+                                <div className="stats-card stats-card-2 h-100 text-center d-flex flex-column justify-content-center p-4">
+                                    <h2 className="stats-number  mb-2">
                                         <CountUp end={10} duration={2.5} suffix="+" />
                                     </h2>
                                     <p className="stats-label mb-0">Global Location</p>
@@ -44,8 +44,8 @@ function StatsSection() {
 
                             {/* Stat 3 - Happy Clients */}
                             <div className="col-md-6 p-0">
-                                <div className="stats-card h-100 text-center d-flex flex-column justify-content-center p-4">
-                                    <h2 className="stats-number mb-2">
+                                <div className="stats-card stats-card-3 h-100 text-center d-flex flex-column justify-content-center p-4">
+                                    <h2 className="stats-number  mb-2">
                                         <CountUp end={215} duration={2.5} suffix="+" />
                                     </h2>
                                     <p className="stats-label mb-0">Happy Clients</p>
@@ -54,8 +54,8 @@ function StatsSection() {
 
                             {/* Stat 4 - Employees Work */}
                             <div className="col-md-6 p-0">
-                                <div className="stats-card h-100 text-center d-flex flex-column justify-content-center p-4">
-                                    <h2 className="stats-number mb-2">
+                                <div className="stats-card stats-card-4 h-100 text-center d-flex flex-column justify-content-center p-4">
+                                    <h2 className="stats-number  mb-2">
                                         <CountUp end={50} duration={2.5} suffix="+" />
                                     </h2>
                                     <p className="stats-label mb-0">Employees Work</p>

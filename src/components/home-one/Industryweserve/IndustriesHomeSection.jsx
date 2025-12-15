@@ -1,6 +1,6 @@
 import React from "react";
 import education from "../../../assets/images/icon/Education.svg";
-import healthcare from "../../../assets/images/icon/Healthcare.svg";
+import healthcare from "../../../assets/images/icon/Group 6.svg";
 import ecommerce from "../../../assets/images/icon/E-commerce.svg";
 import RealEstate from "../../../assets/images/icon/Real Estate.svg";
 import Finance from "../../../assets/images/icon/Finance.svg";
@@ -38,7 +38,7 @@ const IndustriesHomeSection = () => {
     }, []);
 
     return (
-        <div className="section aximo-section-padding3" >
+        <div className="section aximo-section-padding3 py-5 bg-black" >
             <div className="container">
                 <div className="row align-items-center">
                     {/* Industries Grid Table - Left Side */}
@@ -54,7 +54,7 @@ const IndustriesHomeSection = () => {
                         >
                             <div
                                 style={{
-                                    backgroundColor: '#fff',
+                                    background: 'linear-gradient(135deg, #2d2d2d 0%, #1e1e1e 100%)',
                                     borderRadius: '8px',
                                     overflow: 'hidden'
                                 }}
@@ -80,12 +80,7 @@ const IndustriesHomeSection = () => {
                                                     justifyContent: 'center',
                                                     transition: 'background-color 0.3s ease',
                                                     cursor: 'pointer'
-                                                }}
-                                                onMouseEnter={(e) => {
-                                                    e.currentTarget.style.backgroundColor = '#f8f9fa';
-                                                }}
-                                                onMouseLeave={(e) => {
-                                                    e.currentTarget.style.backgroundColor = 'transparent';
+
                                                 }}
                                             >
                                                 <div className="mb-3">
@@ -101,7 +96,7 @@ const IndustriesHomeSection = () => {
                                                         style={{
                                                             fontSize: '12px',
                                                             fontWeight: '600',
-                                                            color: '#1a1a1a',
+                                                            color: '#fff',
                                                             lineHeight: '1.4'
                                                         }}
                                                     >
@@ -124,7 +119,7 @@ const IndustriesHomeSection = () => {
                                 style={{
                                     fontSize: '14px',
                                     fontWeight: '500',
-                                    color: '#666',
+                                    color: '#d7d7d7',
                                     textTransform: 'none',
                                     marginBottom: '15px',
                                     display: 'inline-block'
@@ -137,7 +132,7 @@ const IndustriesHomeSection = () => {
                                 style={{
                                     fontSize: '42px',
                                     fontWeight: '700',
-                                    color: '#1a1a1a',
+                                    color: '#fff',
                                     lineHeight: '1.3',
                                     marginBottom: '25px'
                                 }}
@@ -149,7 +144,7 @@ const IndustriesHomeSection = () => {
                                 style={{
                                     fontSize: '15px',
                                     lineHeight: '1.8',
-                                    color: '#555',
+                                    color: '#d7d7d7',
                                     marginBottom: '0'
                                 }}
                             >

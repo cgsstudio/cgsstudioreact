@@ -1,12 +1,11 @@
 /* LogoSlider.css */
-.logo-slider-container {
-  
-}
+.logo-slider-container {}
 
 .logo-slide {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 10px;
 }
 
 .logo-image {
@@ -16,7 +15,8 @@
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   border-radius: 20px;
 }
-.swiper-wrapper{
+
+.swiper-wrapper {
   transition-timing-function: linear !important;
   padding: 20px 0;
 }

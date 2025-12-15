@@ -1,9 +1,9 @@
 import React from "react";
 // Import Images
-import MobileAppImg from "../../../assets/images/services/mobile_app_dev.png";
-import WebDevImg from "../../../assets/images/services/web_dev.png";
-import GameDevImg from "../../../assets/images/services/seo.png";
-import UiUxImg from "../../../assets/images/services/uiux.png";
+import MobileAppImg from "../../../assets/images/services/web-design.png";
+import WebDevImg from "../../../assets/images/services/app-development.png";
+import GameDevImg from "../../../assets/images/services/search-engine.png";
+import UiUxImg from "../../../assets/images/services/design.png";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 
@@ -130,15 +130,15 @@ function AppWebServices() {
 
 
     return (
-        <div className="section ">
+        <div className="section" style={{ backgroundColor: '#000' }}>
             <div className="container">
-                <div class="aximo-section-title center"><h2>Innovative Services</h2></div>
+                <div class="aximo-section-title center"><h2 style={{ color: '#fff' }}>Innovative Services</h2></div>
 
                 <div className="row gy-4">
                     {cards.map((card) => (
                         <div key={card.id} className="col-lg-6">
                             <div
-                                className={`bg-white p-4 h-100 rounded-4 service-card-hover service-box-new service-card-${card.id}`}
+                                className={` p-4 h-100 rounded-4 service-card-hover service-box-new service-card-${card.id}`}
                             >
                                 {/* Top Image */}
                                 <div className="mb-4">
@@ -146,13 +146,13 @@ function AppWebServices() {
                                         src={card.image}
                                         alt={card.title}
                                         className="d-block"
-                                        style={{ width: '80px', height: 'auto' }}
+                                        style={{ width: '60px', height: 'auto' }}
                                     />
                                 </div>
 
                                 {/* Content */}
-                                <h3 className="h4 mb-3 fw-bold text-dark">{card.title}</h3>
-                                <p className="mb-4 text-muted small lh-base" style={{ fontSize: "0.95rem" }}>
+                                <h3 className="h4 mb-3 fw-bold text-white">{card.title}</h3>
+                                <p className="mb-4  small lh-base text-white" style={{ fontSize: "0.95rem" }}>
                                     {card.description}
                                 </p>
 
@@ -169,7 +169,7 @@ function AppWebServices() {
                                             >
                                                 {tech.icon}
                                             </div>
-                                            <span className="small text-muted fw-medium lh-base" style={{ fontSize: "12px" }}>
+                                            <span className="small fw-medium lh-base text-white" style={{ fontSize: "12px" }}>
                                                 {tech.name}
                                             </span>
                                         </div>
@@ -180,7 +180,7 @@ function AppWebServices() {
                                 <div className="mt-auto pt-4 d-flex align-items-center justify-content-end">
                                     <Link
                                         to={card.link}
-                                        className="btn btn-link p-0 text-dark d-flex align-items-center justify-content-center text-decoration-none"
+                                        className="btn btn-link p-0 text-white  d-flex align-items-center justify-content-center text-decoration-none"
                                         style={{
                                             width: "40px",
                                             height: "40px",
@@ -191,10 +191,12 @@ function AppWebServices() {
                                         onMouseEnter={(e) => {
                                             e.currentTarget.style.transform = "translateX(5px)";
                                             e.currentTarget.style.borderColor = "#333";
+
                                         }}
                                         onMouseLeave={(e) => {
                                             e.currentTarget.style.transform = "translateX(0)";
                                             e.currentTarget.style.borderColor = "#ddd";
+
                                         }}
                                     >
                                         <FaArrowRight size={16} />

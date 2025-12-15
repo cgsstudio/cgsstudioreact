@@ -25,6 +25,7 @@ import TestimonialSlider from "../../components/home-one/testimonial/Testimonial
 // import ImageSection from "../../components/home-one/ImageSection";
 import Websites from "../../components/home-one/projects/Websites";
 import IndustriesHomeSection from "../../components/home-one/Industryweserve/IndustriesHomeSection";
+import HowWeWork from "../../components/home-one/How-we-work/index";
 
 
 const servicesData = [
@@ -135,7 +136,8 @@ function HomeOne() {
 			<IndustriesHomeSection />
 			<About />
 			{/* <ImageSection /> */}
-			<Projects />
+			{/* <Projects /> */}
+			<HowWeWork />
 			<TestimonialSlider />
 			<StatsSection />
 			<WhyChooseUs />

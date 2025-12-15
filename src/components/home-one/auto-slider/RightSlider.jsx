@@ -27,56 +27,56 @@ import partner17 from '../../../assets/images/logo/Cybervantage-logo.webp'
 
 const LogoSlider = () => {
   const logos = [
-   partner1,
-   partner2,
-   partner3,
-   partner4,
-   partner5,
-   partner6,
-   partner7,
-   partner8,
-   partner9,
-   partner10,
-   partner11,
-   partner12,
-   partner13,
-   partner14,
-   partner15,
-   partner16,
-  partner17
+    partner1,
+    partner2,
+    partner3,
+    partner4,
+    partner5,
+    partner6,
+    partner7,
+    partner8,
+    partner9,
+    partner10,
+    partner11,
+    partner12,
+    partner13,
+    partner14,
+    partner15,
+    partner16,
+    partner17
   ];
 
   return (
-    <div className="logo-slider-container">
+    <div className="logo-slider-container bg-black">
       <Swiper
-         spaceBetween={20}
-         slidesPerView={7}
-		 
-         loop={true}
-         speed={3500} // Total duration of one slide transition
-         autoplay={{
-           delay: 1,
-           disableOnInteraction: false,
-		   reverseDirection: true, 
-         }}
-         navigation={false}
-         modules={[Autoplay]}
-		 breakpoints={{
-			1024: {
-				slidesPerView: 7,
-				spaceBetween: 20,
-				},
-			// Breakpoint for tablets (768px and above)
-			768: {
-			 slidesPerView: 3, // Show 3 slides on tablets
-			 spaceBetween: 20,
-			},
-			// Breakpoint for mobile (max-width: 767px)
-			0: {
-			 slidesPerView: 2, // Show 2 slides on mobile
-			 spaceBetween: 10,
-			},
-		   }}
+        spaceBetween={20}
+        slidesPerView={7}
+
+        loop={true}
+        speed={3500} // Total duration of one slide transition
+        autoplay={{
+          delay: 1,
+          disableOnInteraction: false,
+          reverseDirection: true,
+        }}
+        navigation={false}
+        modules={[Autoplay]}
+        breakpoints={{
+          1024: {
+            slidesPerView: 7,
+            spaceBetween: 20,
+          },
+          // Breakpoint for tablets (768px and above)
+          768: {
+            slidesPerView: 3, // Show 3 slides on tablets
+            spaceBetween: 20,
+          },
+          // Breakpoint for mobile (max-width: 767px)
+          0: {
+            slidesPerView: 2, // Show 2 slides on mobile
+            spaceBetween: 10,
+          },
+        }}
       >
         {logos.map((logo, index) => (
           <SwiperSlide key={index}>
