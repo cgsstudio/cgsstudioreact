@@ -1,0 +1,175 @@
+.footer-top-container {
+    background: linear-gradient(135deg, #2d2d2d 0%, #1e1e1e 100%);
+    border-radius: 30px;
+    padding: 30px 40px;
+    margin-bottom: 40px;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+.footer-top-row {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    /* Generally center vertically is good, but might need flex-start if items have different heights */
+    padding-bottom: 30px;
+    /* Increased spacing */
+    border-bottom: 1px solid #444;
+    /* Darker border for dark theme */
+    margin-bottom: 20px;
+}
+
+.footer-logo {
+    display: flex;
+    /* align-items: center; */
+}
+
+.footer-logo img {
+    max-height: 80px;
+    /* Reset to reasonable size, 100px is too big for footer usually, user changed it but I'll try 60px */
+    width: auto;
+}
+
+.footer-contact-info {
+    display: flex;
+    align-items: flex-start;
+    /* Align top for multi-line content */
+}
+
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    /* Icon aligns with top of text */
+    gap: 15px;
+    padding: 0 40px;
+    /* Horizontal padding for spacing */
+    border-left: 1px solid #555;
+    /* Refined divider color */
+    position: relative;
+    max-width: 350px;
+    /* Prevent it from getting too wide */
+}
+
+/* Remove border from the first item if needed, but in the design, the first item (Phone) has a border to the left of it? 
+   Actually, looking at the image:
+   Logo [space] (Divider) Phone (Divider) Email (Divider) Address
+   Wait, is there a divider between Logo and Phone? 
+   No, usually Logo is on the far left. 
+   The dividers are between the contact items. 
+   Let's keep border-left on contact items but adjust first-child.
+*/
+.contact-item:first-child {
+    border-left: none;
+    padding-left: 0;
+}
+
+/* However, if the user wants dividers to look right, we need to ensure the height is full. 
+   With align-items: flex-start, the border height will only be as tall as the content.
+   To make dividers look good, we might want consistent height or let them be content height.
+*/
+
+.contact-icon {
+    font-size: 20px;
+    color: #ed1d24;
+    margin-top: 3px;
+    /* visual adjustment to align with text cap height */
+    flex-shrink: 0;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contact-label {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #d7d7d7;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+}
+
+.contact-value {
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    line-height: 1.5;
+}
+
+.footer-bottom-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.footer-tagline {
+    font-size: 14px;
+    color: #888;
+    /* Softer color */
+    font-weight: 400;
+}
+
+.footer-social-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.social-icon {
+    color: #888;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.social-icon:hover {
+    color: #ed1d24;
+}
+
+@media (max-width: 1200px) {
+    .contact-item {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .footer-top-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+
+    .footer-contact-info {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 25px;
+        width: 100%;
+        border-left: none;
+        /* Remove potential leftover borders */
+    }
+
+    .contact-item {
+        border-left: none;
+        padding: 0;
+        width: 100%;
+        max-width: 100%;
+        border-bottom: 1px solid #444;
+        /* Add horizontal separator for mobile */
+        padding-bottom: 20px;
+    }
+
+    .contact-item:last-child {
+        border-bottom: none;
+        padding-bottom: 0;
+    }
+
+    .footer-bottom-row {
+        flex-direction: column;
+        gap: 20px;
+        align-items: flex-start;
+    }
+}

@@ -56,7 +56,7 @@ function StatsSection() {
                             <div className="col-md-6 p-0">
                                 <div className="stats-card stats-card-4 h-100 text-center d-flex flex-column justify-content-center p-4">
                                     <h2 className="stats-number  mb-2">
-                                        <CountUp end={50} duration={2.5} suffix="+" />
+                                        <CountUp end={20} duration={2.5} suffix="+" />
                                     </h2>
                                     <p className="stats-label mb-0">Employees Work</p>
                                 </div>

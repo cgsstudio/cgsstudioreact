@@ -73,8 +73,8 @@ function AwardsSection() {
       <div className="container">
         <div className="row align-items-center gy-4">
           <div className="col-lg-3">
-            <h3 className="fw-bold mb-3" style={{ color: '#fff' }}>Our Awards & Recognition</h3>
-            <p style={{ color: '#ccc' }}>Celebrating Excellence: A Legacy of Awards and Recognitions</p>
+            <h3 className="fw-bold mb-3 text-whitesmoke">Our Awards & Recognition</h3>
+            <p className="text-whitesmoke">Celebrating Excellence: A Legacy of Awards and Recognitions</p>
           </div>
 
           <div className="col-lg-9">

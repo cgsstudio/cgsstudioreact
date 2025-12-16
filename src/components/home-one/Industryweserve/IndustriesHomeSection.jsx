@@ -3,14 +3,14 @@ import education from "../../../assets/images/icon/Education.svg";
 import healthcare from "../../../assets/images/icon/Group 6.svg";
 import ecommerce from "../../../assets/images/icon/E-commerce.svg";
 import RealEstate from "../../../assets/images/icon/Real Estate.svg";
-import Finance from "../../../assets/images/icon/Finance.svg";
-import hospitality from "../../../assets/images/icon/Hospitality & Travel.svg";
-import Technology from "../../../assets/images/icon/Technology & IT.svg";
-import Automotive from "../../../assets/images/icon/Automotive.svg";
-import Retail from "../../../assets/images/icon/Retail & Consumer Goods.svg";
-import Sports from "../../../assets/images/icon/Sports & Fitness.svg";
-import Beauty from "../../../assets/images/icon/Beauty & Fashion.svg";
-import Manufacturing from "../../../assets/images/icon/Manufacturing & Industrial.svg";
+import Finance from "../../../assets/images/icon/Banking.svg";
+import hospitality from "../../../assets/images/icon/Food.svg";
+import Technology from "../../../assets/images/icon/Social.svg";
+import Automotive from "../../../assets/images/icon/Automobile.svg";
+import Retail from "../../../assets/images/icon/Retail.svg";
+import Sports from "../../../assets/images/icon/dumbbell.svg";
+import Beauty from "../../../assets/images/icon/Fashion.svg";
+import Manufacturing from "../../../assets/images/icon/Transport.svg";
 
 const industries = [
     { title: "Healthcare & Fitness", icon: healthcare },
@@ -96,7 +96,7 @@ const IndustriesHomeSection = () => {
                                                         style={{
                                                             fontSize: '12px',
                                                             fontWeight: '600',
-                                                            color: '#fff',
+                                                            color: '#fdfde1',
                                                             lineHeight: '1.4'
                                                         }}
                                                     >
@@ -119,7 +119,7 @@ const IndustriesHomeSection = () => {
                                 style={{
                                     fontSize: '14px',
                                     fontWeight: '500',
-                                    color: '#d7d7d7',
+                                    color: '#fdfde1',
                                     textTransform: 'none',
                                     marginBottom: '15px',
                                     display: 'inline-block'
@@ -132,7 +132,7 @@ const IndustriesHomeSection = () => {
                                 style={{
                                     fontSize: '42px',
                                     fontWeight: '700',
-                                    color: '#fff',
+                                    color: '#fdfde1',
                                     lineHeight: '1.3',
                                     marginBottom: '25px'
                                 }}
@@ -144,7 +144,7 @@ const IndustriesHomeSection = () => {
                                 style={{
                                     fontSize: '15px',
                                     lineHeight: '1.8',
-                                    color: '#d7d7d7',
+                                    color: '#fdfde1',
                                     marginBottom: '0'
                                 }}
                             >

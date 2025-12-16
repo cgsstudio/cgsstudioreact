@@ -11,7 +11,7 @@ function About() {
 				<div className="aximo-section-title">
 					<div className="row">
 						<div className="col-lg-7">
-							<h2 className="text-white">
+							<h2 className="text-whitesmoke">
 								<span className="aximo-title-animation ">
 									We make your
 									<span className="aximo-title-icon">
@@ -21,7 +21,7 @@ function About() {
 								business stand out
 							</h2>
 						</div>
-						<div className="col-lg-4 offset-lg-1 d-flex align-items-center text-white">
+						<div className="col-lg-4 offset-lg-1 d-flex align-items-center text-whitesmoke">
 							<p>
 								At Chameleo GFX Studio, we believe the best results come from true collaboration. That’s why we work closely with you to understand your goals, your audience, and your unique needs. Together, we create practical and creative design solutions that bring your vision to life and connect deeply with the people who matter most to your brand.
 							</p>

@@ -105,12 +105,12 @@ const PortfolioSection = () => {
 
                 {/* Project Info */}
                 <div className="project-info">
-                  <h3 className="project-title">
+                  <h3 className="project-title text-whitesmoke">
                     {project.title}
                   </h3>
 
                   <button
-                    className="view-button"
+                    className="view-button text-whitesmoke"
                     onClick={() => handleViewProject(project.url)}
                   >
                     View Project

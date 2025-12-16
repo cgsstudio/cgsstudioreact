@@ -56,7 +56,7 @@ const LogoSlider = () => {
           <div className="aximo-section-title">
             <div className="row">
               <div className="col-xl-12">
-                <h2 className="text-center text-white">Trusted by Leading Brands</h2>
+                <h2 className="text-center text-whitesmoke">Trusted by Leading Brands</h2>
               </div>
             </div>
 

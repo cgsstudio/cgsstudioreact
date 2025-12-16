@@ -9,6 +9,7 @@ const TestimonialSlider = () => {
       date: "06/03/2025",
       stars: 5,
       verified: true,
+      title: "Reliable and Professional Web Partner",
       text: "I've worked with ChameleoGFXstudio for some time, their design and web...",
       fullText: "I’ve worked with ChameleoGFXstudio for some time, their design and web development are top-tier. Fast, responsive, and highly professional, they consistently deliver on time without sacrificing quality. Easily the most reliable and supportive team I’ve partnered with.",
       avatar: "G",
@@ -20,6 +21,7 @@ const TestimonialSlider = () => {
       date: "12/05/2025",
       stars: 5,
       verified: true,
+      title: "Professional and fast delivery",
       text: "I've had the pleasure of working with Niraj and the ChameleoGFXstudio team on...",
       fullText: "I’ve had the pleasure of working with Niraj and the ChameleoGFXstudio team on multiple projects. Their clear communication, proactive problem-solving, and dedication truly stand out. They consistently deliver polished, thoughtful work on time, always responsive to feedback and invested in success. A reliable, collaborative partner I highly recommend.",
       avatar: "C",
@@ -31,6 +33,7 @@ const TestimonialSlider = () => {
       date: "08/07/2025",
       stars: 5,
       verified: true,
+      title: "Dependable and High-Quality Work",
       text: "Niraj is a reliable, hardworking professional who consistently delivers...",
       fullText: "Niraj is a reliable, hardworking professional who consistently delivers high-quality work on time. He communicates clearly, pays close attention to detail, and ensures every task is completed to the highest standard. I highly recommend him to anyone seeking a dependable and skilled team member",
       avatar: "H",
@@ -42,8 +45,9 @@ const TestimonialSlider = () => {
       date: "08/07/2025",
       stars: 5,
       verified: true,
-      text: "I truly appreciate the ChameleoGFXstudio team's 'can-do' attitude and...",
-      fullText: "I truly appreciate the ChameleoGFXstudio team’s “can-do” attitude and strong sense of ownership. They’re highly dependable and consistently deliver high-quality work. Their professionalism, attention to detail, and reliability make them a team you can trust with any project. It’s always a pleasure working with them.",
+      title: "Exceptional Website for Jagatjit Industries",
+      text: "Chameleo GFX Studio created a stunning, modern, and highly engaging...",
+      fullText: "Chameleo GFX Studio created a stunning, modern, and highly engaging website for our liquor brand that perfectly captures the sophistication of Jagatjit Industries. The design is visually captivating with elegant aesthetics and a seamless user experience, while technical execution is flawless—fast, mobile-responsive, and fully industry-compliant. Since launch, we've seen remarkable increases in engagement and business inquiries from distributors and partners. Highly recommend Chameleo GFX Studio for premium website development that delivers exceptional results!",
       avatar: "J",
       avatarColor: "#FBBC04", // Yellow
     },
@@ -53,8 +57,9 @@ const TestimonialSlider = () => {
       date: "15/09/2025",
       stars: 5,
       verified: true,
-      text: "We’ve had the pleasure of working with the outstanding team behind our Mr. Sprinkle® brand...",
-      fullText: "We’ve had the pleasure of working with the outstanding team behind our Mr. Sprinkle® brand. Their efficiency, responsiveness, and problem-solving approach truly impressed us. Special thanks to Dhir for his exceptional leadership and support. Always dependable and proactive, they’re a collaborative partner we highly recommend.",
+      title: "From concept to reality, exceptional work!",
+      text: "We came to Chameleo GFX Studio with just an idea for Mr. Spinkle Spices, and they...",
+      fullText: "We came to Chameleo GFX Studio with just an idea for Mr. Spinkle Spices, and they brought it to life beautifully. The logo design process was collaborative; they presented multiple concepts that reflected our spice heritage and refined it until it was perfect. The website they built is fast and professional and includes an e-commerce system that makes online ordering seamless for our customers. Their SEO strategy is working wonders; we're getting daily orders from people finding us on Google. Our brand visibility has increased dramatically in the competitive spices market. Best investment we made for Mr. Spinkle!",
       avatar: "S",
       avatarColor: "#34A853",
     },
@@ -64,6 +69,7 @@ const TestimonialSlider = () => {
       date: "22/10/2025",
       stars: 5,
       verified: true,
+      title: "Quick Support and Seamless Solutions",
       text: "Niraj has been such a great help while we made website and...",
       fullText: "Niraj has been such a great help while we made website and form changes for our moving company. He’s always quick to respond with simple, effective solutions and makes everything easy. I’m grateful I can count on him for every need. Thanks, Niraj!",
       avatar: "S",
@@ -75,11 +81,36 @@ const TestimonialSlider = () => {
       date: "22/10/2025",
       stars: 5,
       verified: true,
-      text: "I’ve worked with Niraj and the ChameleoGFXstudio team on several...",
-      fullText: "I’ve worked with Niraj and the ChameleoGFXstudio team on several projects, and they consistently deliver high-quality work. They’re professional, reliable, and detail-oriented, with excellent communication. Highly recommended for anyone seeking top-notch web design and development services.",
+      title: "Professional and fast delivery",
+      text: "They built our cybersecurity website in record time without compromising quality...",
+      fullText: "They built our cybersecurity website in record time without compromising quality. The site looks incredible and performs even better. The team understood our requirements perfectly and delivered exactly what we envisioned. Communication was excellent throughout the project, and they were always available to answer questions. The attention to detail is remarkable, from the smooth animations to the security features. Great team to work with, and we'll definitely use them again!",
       avatar: "C",
       avatarColor: "#FBBC04",
-    }
+    },
+    {
+      id: 8,
+      company: "Addy Organics",
+      date: "22/10/2025",
+      stars: 5,
+      verified: true,
+      title: "Exceptional Amazon Banners!",
+      text: "Chameleo GFX Studio created extraordinary Amazon banners for Addy Organic...",
+      fullText: "Chameleo GFX Studio created extraordinary Amazon banners for Addy Organic that completely elevated our cosmetic brand's presence. The designs are stunning, professionally crafted, and perfectly showcase our organic beauty products with vibrant visuals. Our conversion rates and sales have increased significantly since implementation. Highly recommend for e-commerce design!",
+      avatar: "A",
+      avatarColor: "#34A853",
+    },
+    {
+      id: 9,
+      company: "Island Space",
+      date: "22/10/2025",
+      stars: 5,
+      verified: true,
+      title: "Outstanding Design Partner for Island Space!",
+      text: "Chameleo GFX Studio is fantastic to work with! They deliver graphic...",
+      fullText: "Chameleo GFX Studio is fantastic to work with! They deliver graphic designs with incredible speed without compromising quality. Their dedication is unmatched. They work beyond scheduled hours whenever we need urgent turnarounds and are always receptive to creative feedback. The consistency and professionalism they bring have made them our trusted partner for nearly all design projects. Their client-first approach and reliability make them highly recommended for any design needs!",
+      avatar: "I",
+      avatarColor: "#4285F4",
+    },
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -153,7 +184,7 @@ const TestimonialSlider = () => {
         {/* Header */}
         <div className="text-center ">
           <div className="aximo-section-title ">
-            <h2 className='text-white'>Testimonials</h2>
+            <h2 className='text-whitesmoke'>Testimonials</h2>
           </div>
         </div>
 
@@ -203,6 +234,9 @@ const TestimonialSlider = () => {
                       </svg>
                     )}
                   </div>
+
+                  {/* Review Title */}
+                  <p className="review-title mb-2 ">{testimonial.title}</p>
 
                   {/* Review Text */}
                   <p className="review-text">

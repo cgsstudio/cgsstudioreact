@@ -6,27 +6,27 @@ const HowWeWork = () => {
     const workSteps = [
         {
             id: 1,
-            title: "Planning",
+            title: "Discover & Understand",
             icon: FiTarget,
-            description: "We first create a plan. Our plan will help you determine your website's goals. "
+            description: "We start by understanding your business, goals, and target audience. This ensures every design decision is aligned with your brand vision. "
         },
         {
             id: 2,
-            title: "Development",
+            title: "Strategy & Planning",
             icon: FiCode,
-            description: "This stage is all about shaping the raw ideas into functional reality by weaving all the technologies together."
+            description: "We define the brand strategy, structure, and creative direction. A clear roadmap is created to deliver measurable business results."
         },
         {
             id: 3,
-            title: "Testing & Deployment",
+            title: "Design & Development",
             icon: FiCheckCircle,
-            description: "We make sure that everything is functioning correctly. We only launch once the website passes all tests."
+            description: "We design and build high-quality, scalable brand and web solutions. Every element is crafted for performance, usability, and consistency."
         },
         {
             id: 4,
-            title: "Design",
+            title: "Launch & Growth",
             icon: FiEdit2,
-            description: "We decide and design the overall look and feel of your website, choosing colors, fonts, etc"
+            description: "We launch, test, and optimize for real-world performance. Our focus is long-term growth, engagement, and conversions."
         }
     ];
 
@@ -34,11 +34,11 @@ const HowWeWork = () => {
         <div className="how-we-work-section section py-5">
             <div className="container">
                 {/* Section Title */}
-                <div className="aximo-section-title center py-5">
+                <div className="aximo-section-title center py-2">
                     <div className="small-tag">
-                        <span className="tag-label">Clear Steps for Better Results</span>
+                        <span className="tag-label text-whitesmoke">Clear Steps for Better Results</span>
                     </div>
-                    <h2 className='mb-2'>Our Development Process</h2>
+                    <h2 className='mb-2 text-whitesmoke'>Our Development Process</h2>
                 </div>
 
                 {/* Work Steps Grid */}

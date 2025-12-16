@@ -12602,5 +12602,9 @@ button#aximo-notified-btn {
 }
 
 .service-box-new {
-	background: linear-gradient(135deg, #2d2d2d 0%, #1e1e1e 100%);
+	background: linear-gradient(180deg, #1e1e1e 0%, #3b3b3b 100%);
+}
+
+.text-whitesmoke {
+	color: #fdfde1 !important;
 }

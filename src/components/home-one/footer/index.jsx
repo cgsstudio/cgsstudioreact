@@ -1,12 +1,14 @@
 import FooterBottom from "./FooterBottom";
 import FooterContent from "./FooterContent";
 import MessageForm from "./MessageForm";
+import FooterTop from "./FooterTop";
 import WhatsAppWidget from "../../WhatsappWidget/WhatsAppWidget.jsx"
 
 function Footer() {
 	return (
-		<footer className="aximo-footer-section dark-bg">
+		<footer className="aximo-footer-section dark-bg pt-5">
 			<div className="container">
+				<FooterTop />
 				<div className="aximo-footer-top aximo-section-padding">
 					<div className="row align-items-center">
 						<div className="col-lg-7">

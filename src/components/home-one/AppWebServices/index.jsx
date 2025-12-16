@@ -132,7 +132,7 @@ function AppWebServices() {
     return (
         <div className="section" style={{ backgroundColor: '#000' }}>
             <div className="container">
-                <div class="aximo-section-title center"><h2 style={{ color: '#fff' }}>Innovative Services</h2></div>
+                <div class="aximo-section-title center"><h2 className="text-whitesmoke">Innovative Services</h2></div>
 
                 <div className="row gy-4">
                     {cards.map((card) => (
@@ -151,8 +151,8 @@ function AppWebServices() {
                                 </div>
 
                                 {/* Content */}
-                                <h3 className="h4 mb-3 fw-bold text-white">{card.title}</h3>
-                                <p className="mb-4  small lh-base text-white" style={{ fontSize: "0.95rem" }}>
+                                <h3 className="h4 mb-3 fw-bold text-whitesmoke">{card.title}</h3>
+                                <p className="mb-4  small lh-base text-whitesmoke" style={{ fontSize: "0.95rem" }}>
                                     {card.description}
                                 </p>
 

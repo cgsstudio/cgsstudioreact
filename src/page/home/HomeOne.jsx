@@ -127,7 +127,7 @@ function HomeOne() {
 			{/* <Services services={servicesData} /> */}
 			<AppWebServices />
 
-			<MissionVision />
+
 
 			<Logoslider />
 			{/* <Partner/> */}
@@ -139,6 +139,7 @@ function HomeOne() {
 			{/* <Projects /> */}
 			<HowWeWork />
 			<TestimonialSlider />
+			<MissionVision />
 			<StatsSection />
 			<WhyChooseUs />
 
