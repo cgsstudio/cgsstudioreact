@@ -25,14 +25,15 @@
 }
 
 .footer-logo img {
-    max-height: 80px;
+    max-height: 100px;
     /* Reset to reasonable size, 100px is too big for footer usually, user changed it but I'll try 60px */
     width: auto;
 }
 
 .footer-contact-info {
-    display: flex;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
     /* Align top for multi-line content */
 }
 
@@ -41,12 +42,13 @@
     align-items: flex-start;
     /* Icon aligns with top of text */
     gap: 15px;
-    padding: 0 40px;
+    padding: 0 20px;
     /* Horizontal padding for spacing */
     border-left: 1px solid #555;
     /* Refined divider color */
     position: relative;
     max-width: 350px;
+    justify-content: center;
     /* Prevent it from getting too wide */
 }
 
@@ -60,7 +62,7 @@
 */
 .contact-item:first-child {
     border-left: none;
-    padding-left: 0;
+
 }
 
 /* However, if the user wants dividers to look right, we need to ensure the height is full. 
@@ -86,7 +88,7 @@
     font-size: 11px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #d7d7d7;
+    color: rgba(255, 255, 255, 0.5);
     letter-spacing: 0.5px;
     margin-bottom: 5px;
 }
@@ -94,7 +96,7 @@
 .contact-value {
     font-size: 15px;
     font-weight: 700;
-    color: #fff;
+    color: var(--white-smoke);
     text-decoration: none;
     line-height: 1.5;
 }
@@ -119,7 +121,7 @@
 }
 
 .social-icon {
-    color: #888;
+    color: var(--white-smoke);
     font-size: 18px;
     transition: color 0.3s ease;
     display: flex;
@@ -144,13 +146,10 @@
     }
 
     .footer-contact-info {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 25px;
-        width: 100%;
-        border-left: none;
-        /* Remove potential leftover borders */
+
+        grid-template-columns: repeat(2, 1fr);
     }
+
 
     .contact-item {
         border-left: none;
@@ -171,5 +170,11 @@
         flex-direction: column;
         gap: 20px;
         align-items: flex-start;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-contact-info {
+        grid-template-columns: repeat(1, 1fr);
     }
 }

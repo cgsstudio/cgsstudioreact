@@ -79,7 +79,7 @@ const IndustriesHomeSection = () => {
                                                     alignItems: 'center',
                                                     justifyContent: 'center',
                                                     transition: 'background-color 0.3s ease',
-                                                    cursor: 'pointer'
+
 
                                                 }}
                                             >
@@ -125,7 +125,7 @@ const IndustriesHomeSection = () => {
                                     display: 'inline-block'
                                 }}
                             >
-                                Building the Future
+                                Shaping the Digital Future
                             </span>
                             <h2
                                 className="aximo-title "
@@ -137,8 +137,7 @@ const IndustriesHomeSection = () => {
                                     marginBottom: '25px'
                                 }}
                             >
-                                Development & Coding<br />
-                                Talent Redefining Industries
+                                Advanced Development<br /> & Intelligent Coding
                             </h2>
                             <p
                                 style={{
@@ -148,7 +147,7 @@ const IndustriesHomeSection = () => {
                                     marginBottom: '0'
                                 }}
                             >
-                                Lead the gaming industry with innovative game concepts, captivating audiences, and generating billion-dollar revenues through Synarion IT Solutions' visionary approach to game development.
+                                We deliver smart, scalable development solutions across healthcare, finance, education, retail, real estate, and more. Our expert team builds high-performance digital platforms that enhance user experiences, streamline operations, and drive sustainable business growth across industries.
                             </p>
                         </div>
                     </div>

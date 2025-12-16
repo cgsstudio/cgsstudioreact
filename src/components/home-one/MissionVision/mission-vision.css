@@ -13,13 +13,13 @@
 }
 
 .mission-card {
-    background: linear-gradient(135deg, #fffff5 0%, #fffadb 100%);
-    border: 1px solid #fcf8e3;
+    background: linear-gradient(180deg, #1e1e1e 50%, #3b3b3b 100%);
+
 }
 
 .vision-card {
-    background: linear-gradient(135deg, #fff5f5 0%, #ffecec 100%);
-    border: 1px solid #fbe6e6;
+    background: linear-gradient(180deg, #1e1e1e 50%, #3b3b3b 100%);
+
 }
 
 .mission-vision-header {
@@ -34,20 +34,20 @@
 .mission-vision-title {
     font-size: 40px;
     font-weight: 700;
-    color: var(--heading-color);
+    color: var(--white-smoke);
     margin: 0;
     font-family: inherit;
 }
 
 .mission-vision-icon {
     font-size: 50px;
-    color: #333;
+    color: var(--white-smoke);
 }
 
 .mission-vision-text {
     font-size: 18px;
     line-height: 1.6;
-    color: var(--body-color);
+    color: var(--white-smoke);
     position: relative;
     z-index: 2;
     margin-bottom: 0;

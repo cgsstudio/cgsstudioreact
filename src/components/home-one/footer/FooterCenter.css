@@ -1,0 +1,61 @@
+.footer-service-link {
+    color: var(--white-smoke);
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+}
+
+.footer-service-link:hover {
+    color: #ed1d24;
+    transform: translateX(5px);
+}
+
+.footer-service-link::before {
+    content: "";
+    width: 0;
+    height: 1px;
+    background-color: #ed1d24;
+    margin-right: 0;
+    transition: all 0.3s ease;
+}
+
+/* Optional: If the design has a visible dash only on hover, or always? 
+   Based on "add hover effect", it implies the change happens on hover.
+   Common pattern: Dash appears or expands.
+*/
+.footer-service-link:hover::before {
+    width: 10px;
+    margin-right: 8px;
+}
+
+.footer-service-link {
+    line-height: 1.2;
+    font-size: 14px;
+}
+
+.list-unstyled li {
+    line-height: 1.2;
+}
+
+.footer-service-title {
+    font-size: 18px;
+}
+
+.footer-service-title {
+    display: inline-block;
+    /* Ensures the title's width is determined by its content */
+}
+
+.footer-service-title::after {
+    content: "";
+    display: block;
+    /* Makes the divider take up the full width of its parent (the title) and appear on a new line */
+    height: 1px;
+    background-color: #555;
+    margin-top: 10px;
+    /* Add some space between the title and the divider */
+    transition: all 0.3s ease;
+    width: 100%;
+    /* Now correctly refers to the width of the .footer-service-title content */
+}

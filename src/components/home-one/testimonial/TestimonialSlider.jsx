@@ -3,44 +3,22 @@ import './TestimonialSlider.css';
 
 const TestimonialSlider = () => {
   const testimonials = [
+
+
     {
       id: 1,
-      company: "Greenheat Scotland",
-      date: "06/03/2025",
-      stars: 5,
-      verified: true,
-      title: "Reliable and Professional Web Partner",
-      text: "I've worked with ChameleoGFXstudio for some time, their design and web...",
-      fullText: "I’ve worked with ChameleoGFXstudio for some time, their design and web development are top-tier. Fast, responsive, and highly professional, they consistently deliver on time without sacrificing quality. Easily the most reliable and supportive team I’ve partnered with.",
-      avatar: "G",
-      avatarColor: "#34A853", // Green
-    },
-    {
-      id: 2,
-      company: "Complete Cons...",
-      date: "12/05/2025",
-      stars: 5,
-      verified: true,
-      title: "Professional and fast delivery",
-      text: "I've had the pleasure of working with Niraj and the ChameleoGFXstudio team on...",
-      fullText: "I’ve had the pleasure of working with Niraj and the ChameleoGFXstudio team on multiple projects. Their clear communication, proactive problem-solving, and dedication truly stand out. They consistently deliver polished, thoughtful work on time, always responsive to feedback and invested in success. A reliable, collaborative partner I highly recommend.",
-      avatar: "C",
-      avatarColor: "#4285F4", // Blue
-    },
-    {
-      id: 3,
       company: "Hocco Ice Cream",
       date: "08/07/2025",
       stars: 5,
       verified: true,
-      title: "Dependable and High-Quality Work",
-      text: "Niraj is a reliable, hardworking professional who consistently delivers...",
-      fullText: "Niraj is a reliable, hardworking professional who consistently delivers high-quality work on time. He communicates clearly, pays close attention to detail, and ensures every task is completed to the highest standard. I highly recommend him to anyone seeking a dependable and skilled team member",
+      title: "Outstanding Brand Design & Quick Turnaround",
+      text: "Chameleo GFX Studio delivered smart, creative brand design with a strong unders...",
+      fullText: "Chameleo GFX Studio delivered smart, creative brand design with a strong understanding of our brand vision. The team was highly responsive, proactive, and efficient throughout the project. Revisions were handled quickly without compromising on quality. We truly appreciated their professionalism and commitment to timely delivery.",
       avatar: "H",
       avatarColor: "#EA4335", // Red
     },
     {
-      id: 4,
+      id: 2,
       company: "Jagatjit Industries",
       date: "08/07/2025",
       stars: 5,
@@ -52,7 +30,7 @@ const TestimonialSlider = () => {
       avatarColor: "#FBBC04", // Yellow
     },
     {
-      id: 5,
+      id: 3,
       company: "Mr. Sprinkle",
       date: "15/09/2025",
       stars: 5,
@@ -64,19 +42,7 @@ const TestimonialSlider = () => {
       avatarColor: "#34A853",
     },
     {
-      id: 6,
-      company: "Stratica",
-      date: "22/10/2025",
-      stars: 5,
-      verified: true,
-      title: "Quick Support and Seamless Solutions",
-      text: "Niraj has been such a great help while we made website and...",
-      fullText: "Niraj has been such a great help while we made website and form changes for our moving company. He’s always quick to respond with simple, effective solutions and makes everything easy. I’m grateful I can count on him for every need. Thanks, Niraj!",
-      avatar: "S",
-      avatarColor: "#4285F4",
-    },
-    {
-      id: 7,
+      id: 4,
       company: "Cybervantage",
       date: "22/10/2025",
       stars: 5,
@@ -88,7 +54,7 @@ const TestimonialSlider = () => {
       avatarColor: "#FBBC04",
     },
     {
-      id: 8,
+      id: 5,
       company: "Addy Organics",
       date: "22/10/2025",
       stars: 5,
@@ -100,7 +66,7 @@ const TestimonialSlider = () => {
       avatarColor: "#34A853",
     },
     {
-      id: 9,
+      id: 6,
       company: "Island Space",
       date: "22/10/2025",
       stars: 5,
@@ -210,15 +176,15 @@ const TestimonialSlider = () => {
                       </div>
                       <div className="company-details">
                         <div className="company-name-wrapper">
-                          <h6 className="company-name">{testimonial.company}</h6>
-                          <svg className="google-icon" viewBox="0 0 24 24" width="16" height="16">
+                          <h6 className="company-name text-whitesmoke">{testimonial.company}</h6>
+                          {/* <svg className="google-icon" viewBox="0 0 24 24" width="16" height="16">
                             <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
                             <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
                             <path fill="#FBBC04" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" />
                             <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" />
-                          </svg>
+                          </svg> */}
                         </div>
-                        <p className="review-date">{testimonial.date}</p>
+                        {/* <p className="review-date">{testimonial.date}</p> */}
                       </div>
                     </div>
                   </div>
@@ -236,10 +202,10 @@ const TestimonialSlider = () => {
                   </div>
 
                   {/* Review Title */}
-                  <p className="review-title mb-2 ">{testimonial.title}</p>
+                  <p className="review-title text-whitesmoke mb-2 ">{testimonial.title}</p>
 
                   {/* Review Text */}
-                  <p className="review-text">
+                  <p className="review-text text-whitesmoke">
                     {expandedCards[testimonial.id] ? testimonial.fullText : testimonial.text}
                   </p>
 

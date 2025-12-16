@@ -8,25 +8,25 @@ function Services({ services }) {
 			<div className="container">
 				<div className="aximo-section-title center">
 					<h2>
-					Innovative Services
+						Innovative Services
 						{/* <span className="aximo-title-animation"> */}
-							{/* <span className="aximo-title-icon">
+						{/* <span className="aximo-title-icon">
 								<img src={Star2Img} alt="Star2Img" />
 							</span> */}
 						{/* </span> */}
 					</h2>
-					
+
 				</div>
 				<div className="aximo-service-wrap">
 					<div className="row gy-4">
-					{services.map((service) => (
-        <ServiceCard key={service.id} service={service} />
-      ))}
+						{services.map((service) => (
+							<ServiceCard key={service.id} service={service} />
+						))}
 					</div>
 				</div>
 				<Link className="aximo-call-btn main" to="/service">
-				View More Services
-			</Link>
+					View More Services
+				</Link>
 			</div>
 		</div>
 	);

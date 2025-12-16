@@ -1,18 +1,18 @@
 import React from 'react';
 import './FooterTop.css';
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaFacebookF, FaTwitter, FaInstagram, FaPinterestP, FaYoutube, FaLinkedinIn } from 'react-icons/fa';
-import { FaXTwitter } from "react-icons/fa6";
+import { FaXTwitter, FaBehance } from "react-icons/fa6";
 import Logo from "../../../assets/images/logo/Cgs_Logo.png"; // Importing project logo as placeholder/actual usage
+import { Link } from 'react-router-dom';
 
 const FooterTop = () => {
     return (
         <div className="footer-top-container">
             <div className="footer-top-row">
                 <div className="footer-logo">
-                    {/* Using project logo, but styled to fit or just generic structure if needed. 
-              The image shows "SYNARION". Since we are building for "Chameleo", we use Chameleo logo.
-          */}
-                    <img src={Logo} alt="Logo" />
+                    <Link to="/">
+                        <img src={Logo} alt="Logo" />
+                    </Link>
                 </div>
 
                 <div className="footer-contact-info">
@@ -45,9 +45,7 @@ const FooterTop = () => {
                         <div className="contact-details">
                             <span className="contact-label">OUR OFFICE ADDRESS</span>
                             <span className="contact-value" style={{ fontSize: '14px', lineHeight: '1.4' }}>
-                                F - 1001, F Block, PNTC, Times Of India Press Rd,<br />
-                                Rajmani Society, Satellite, Shyamal,<br />
-                                Ahmedabad, Gujarat 380015
+                                F - 1001, F Block, PNTC,<br /> Times Of India Press Rd,<br /> Ahmedabad, Gujarat 380015
                             </span>
                         </div>
                     </div>
@@ -57,11 +55,14 @@ const FooterTop = () => {
             <div className="footer-bottom-row">
 
                 <div className="footer-social-icons">
-                    <a href="#" className="social-icon"><FaFacebookF /></a>
-                    <a href="#" className="social-icon"><FaXTwitter /></a>
-                    <a href="#" className="social-icon"><FaInstagram /></a>
-                    <a href="#" className="social-icon"><FaPinterestP /></a>
-                    <a href="#" className="social-icon"><FaYoutube /></a>
+                    <a href="https://www.instagram.com/chameleogfxstudio/" className="social-icon"><FaInstagram /></a>
+                    <a href="https://www.facebook.com/chameleogfxstudio" className="social-icon"><FaFacebookF /></a>
+                    <a href="https://www.linkedin.com/company/chameleogfxstudio/" className="social-icon"><FaLinkedinIn /></a>
+                    <a href="https://www.behance.net/nirajmandaliya" className="social-icon"><FaBehance /></a>
+                    <a href="https://in.pinterest.com/chameleogfxstudio/" className="social-icon"><FaPinterestP /></a>
+                    <a href="https://www.youtube.com/@chameleogfxstudio" className="social-icon"><FaYoutube /></a>
+
+
                 </div>
             </div>
         </div>

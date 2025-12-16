@@ -26,6 +26,7 @@ import TestimonialSlider from "../../components/home-one/testimonial/Testimonial
 import Websites from "../../components/home-one/projects/Websites";
 import IndustriesHomeSection from "../../components/home-one/Industryweserve/IndustriesHomeSection";
 import HowWeWork from "../../components/home-one/How-we-work/index";
+import CalltoAction from "../../components/home-one/CalltoAction";
 
 
 const servicesData = [
@@ -125,16 +126,22 @@ function HomeOne() {
 			<AutoSlider />
 			<AwardsSection />
 			{/* <Services services={servicesData} /> */}
+
 			<AppWebServices />
-
-
-
 			<Logoslider />
 			{/* <Partner/> */}
 			<RightSlider />
 			<Websites />
 			<IndustriesHomeSection />
 			<About />
+			<CalltoAction
+				title="Ready to Get Started?"
+				description="Take your business to the next level with our innovative solutions. Contact us today to discuss your project."
+				btnText="Get a Quote"
+				btnLink="/contact"
+				centered={false}
+
+			/>
 			{/* <ImageSection /> */}
 			{/* <Projects /> */}
 			<HowWeWork />
