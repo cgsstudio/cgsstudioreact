@@ -1,6 +1,6 @@
 import React from 'react';
 import './ImageBox.css';
-import myImage from "../../../assets/images/services/2149273739-min.jpg";
+import myImage from "../../../assets/images/services/CGS-01.png";
 
 const ImageBox = () => {
     return (

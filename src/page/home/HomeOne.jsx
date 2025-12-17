@@ -145,11 +145,11 @@ function HomeOne() {
 			{/* <ImageSection /> */}
 			{/* <Projects /> */}
 			<HowWeWork />
-			<TestimonialSlider />
-			<MissionVision />
+
 			<StatsSection />
 			<WhyChooseUs />
-
+			<TestimonialSlider />
+			<MissionVision />
 			<AutoSlider />
 			{/* <Teams teams={teamsData} /> */}
 		</>

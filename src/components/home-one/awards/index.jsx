@@ -51,7 +51,7 @@ function AwardsSection() {
   }, [maxSlidesPerView]);
 
   const swiperSettings = {
-    slidesPerView: 1,
+    slidesPerView: 2,
     spaceBetween: 20,
     loop: true,
     speed: 2500, // long smooth continuous movement

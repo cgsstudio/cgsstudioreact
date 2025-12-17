@@ -159,6 +159,7 @@
         border-bottom: 1px solid #444;
         /* Add horizontal separator for mobile */
         padding-bottom: 20px;
+        justify-content: flex-start;
     }
 
     .contact-item:last-child {

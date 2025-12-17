@@ -518,6 +518,16 @@ h4,
 	line-height: 28px;
 }
 
+@media (max-width: 767px) {
+
+	h4,
+	.h4 {
+		font-size: 28px;
+		line-height: 30px;
+	}
+}
+
+
 h5,
 .h5 {
 	font-size: 24px;
@@ -838,6 +848,7 @@ a {
 }
 
 img {
+	height: auto;
 	max-width: 100%;
 }
 
@@ -6178,9 +6189,9 @@ a.aximo-service-icon:hover {
 }
 
 .aximo-accordion-wrap .accordion-item:has(.accordion-collapse.show) {
-	background-color: var(--accent-bg);
+	background-color: #fdfde1;
 	box-shadow: 3px 3px 0 0 var(--dark-bg);
-	color: #fff;
+	color: #000;
 }
 
 .aximo-accordion-wrap .accordion-button::after {
@@ -9796,6 +9807,14 @@ a.aximo-connect-login img {
 	}
 }
 
+@media (max-width: 767px) {
+	.aximo-section-title {
+		padding-top: 0px !important;
+		padding-bottom: 5px !important;
+	}
+}
+
+
 .aximo-section-title.familjen-grotesk h2 {
 	font-size: 84px;
 	letter-spacing: -1px;
@@ -12464,6 +12483,11 @@ button#aximo-notified-btn {
 		padding: 50px 0;
 	}
 
+	.stats-section .container {
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+
 	.stats-number {
 		font-size: 36px;
 	}
@@ -12607,4 +12631,83 @@ button#aximo-notified-btn {
 
 .text-whitesmoke {
 	color: #fdfde1 !important;
+}
+
+@media (max-width: 767px) {
+	.aximo-hero-thumb img {
+		width: 95%;
+
+	}
+
+	.Innovative_Services {
+		font-size: 1rem !important;
+	}
+}
+
+.Innovative_Services {
+	font-size: 0.97rem;
+}
+
+/* Industries Section - Mobile Description Font Size */
+@media (max-width: 767px) {
+	.industry-description {
+		font-size: 17px !important;
+	}
+}
+
+/* ========================================
+   MOBILE VIEW - CONSISTENT SPACING
+   ======================================== */
+
+/* Desktop - Industries content left padding */
+@media (min-width: 992px) {
+	.industries-content {
+		padding-left: 40px;
+	}
+}
+
+/* Mobile - Consistent container padding for all sections */
+@media (max-width: 767px) {
+
+	/* Apply consistent padding to all section containers */
+	.section .container {
+		padding-left: 20px !important;
+		padding-right: 20px !important;
+	}
+
+	/* Industries section - remove extra padding on mobile */
+	.industries-content {
+		padding-left: 0 !important;
+	}
+
+	/* Ensure all service cards have proper spacing */
+	.service-box-new {
+		margin-left: 0 !important;
+		margin-right: 0 !important;
+	}
+
+	/* Mission Vision section spacing */
+	.mission-vision-section .container {
+		padding-left: 20px !important;
+		padding-right: 20px !important;
+	}
+
+	/* About section spacing */
+	.aximo-section-padding .container {
+		padding-left: 20px !important;
+		padding-right: 20px !important;
+	}
+
+	/* Why Choose Us section spacing */
+	.aximo-faq-wrap {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
+}
+
+@media (max-width: 767px) {
+	.stats-card {
+
+		margin: 15px !important;
+	}
 }

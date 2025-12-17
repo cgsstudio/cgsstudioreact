@@ -27,24 +27,25 @@ import partner17 from '../../../assets/images/logo/Cybervantage-logo.webp'
 
 const LogoSlider = () => {
   const logos = [
-    partner1,
-    partner2,
-    partner3,
-    partner4,
-    partner5,
-    partner6,
-    partner7,
-    partner8,
-    partner9,
-    partner10,
-    partner11,
-    partner12,
-    partner13,
-    partner14,
-    partner15,
-    partner16,
-    partner17
+    { img: partner1, link: 'https://activeauto.me/' },
+    { img: partner2, link: 'https://straticamedical.ca/' },
+    { img: partner3, link: 'https://brysa.co.uk/' },
+    { img: partner4, link: 'https://cancerkidssos.org/' },
+    { img: partner5, link: 'https://islandspacefl.org/' },
+    { img: partner6, link: 'https://jagatjit.com/' },
+    { img: partner7, link: 'https://www.leconenergetics.com/' },
+    { img: partner8, link: 'https://supremeautomobiledrc.com/' },
+    { img: partner9, link: 'https://siddhrajdevelopers.com/' },
+    { img: partner10, link: 'https://www.bidx.io/en/' },
+    { img: partner11, link: 'https://24events.ng/' },
+    { img: partner12, link: 'https://fireflies.pro/' },
+    { img: partner13, link: 'https://www.hocco.in/' },
+    { img: partner14, link: 'https://mrsprinkle.co.uk/' },
+    { img: partner15, link: 'https://abscholify.com/' },
+    { img: partner16, link: 'https://kaysonlaw.co.uk/' },
+    { img: partner17, link: 'https://cybervantage.ai/' },
   ];
+
 
   return (
     <div className="logo-slider-container bg-black">
@@ -81,7 +82,9 @@ const LogoSlider = () => {
         {logos.map((logo, index) => (
           <SwiperSlide key={index}>
             <div className="logo-slide bg-white">
-              <img src={logo} alt={`Logo ${index + 1}`} className="logo-image" />
+              <a href={logo.link} target="_blank" rel="noopener noreferrer">
+                <img src={logo.img} alt={`Logo ${index + 1}`} className="logo-image" />
+              </a>
             </div>
           </SwiperSlide>
         ))}

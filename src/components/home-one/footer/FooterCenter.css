@@ -31,7 +31,16 @@
 
 .footer-service-link {
     line-height: 1.2;
-    font-size: 14px;
+    font-size: 16px;
+}
+
+/* Mobile view */
+@media (max-width: 768px) {
+    .footer-service-link {
+        font-size: 18px;
+    }
+
+
 }
 
 .list-unstyled li {
@@ -41,6 +50,14 @@
 .footer-service-title {
     font-size: 18px;
 }
+
+/* Mobile view */
+@media (max-width: 768px) {
+    .footer-service-title {
+        font-size: 26px;
+    }
+}
+
 
 .footer-service-title {
     display: inline-block;

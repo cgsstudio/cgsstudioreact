@@ -42,7 +42,7 @@ const IndustriesHomeSection = () => {
             <div className="container">
                 <div className="row align-items-center">
                     {/* Industries Grid Table - Left Side */}
-                    <div className="col-lg-7 mb-5 mb-lg-0">
+                    <div className="col-lg-7 mb-5 mb-lg-0 order-2 order-lg-1 pt-5 pt-lg-0">
                         {/* Animated Border Container */}
                         <div
                             style={{
@@ -112,8 +112,8 @@ const IndustriesHomeSection = () => {
                     </div>
 
                     {/* Content - Right Side */}
-                    <div className="col-lg-5">
-                        <div className="aximo-default-content " style={{ paddingLeft: '40px' }}>
+                    <div className="col-lg-5 order-1 order-lg-2">
+                        <div className="aximo-default-content industries-content">
                             <span
                                 className="aximo-subtitle "
                                 style={{
@@ -140,6 +140,7 @@ const IndustriesHomeSection = () => {
                                 Advanced Development<br /> & Intelligent Coding
                             </h2>
                             <p
+                                className="industry-description"
                                 style={{
                                     fontSize: '15px',
                                     lineHeight: '1.8',
