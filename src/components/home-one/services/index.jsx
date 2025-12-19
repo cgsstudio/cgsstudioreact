@@ -6,7 +6,7 @@ function Services({ services }) {
 	return (
 		<div className="section ">
 			<div className="container">
-				<div className="aximo-section-title center">
+				<div className="aximo-section-title center pt-3 pt-sm-0 pt-md-0">
 					<h2>
 						Innovative Services
 						{/* <span className="aximo-title-animation"> */}

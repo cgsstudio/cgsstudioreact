@@ -1,0 +1,27 @@
+.industry-cell {
+  border-right: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Desktop / large screens: 4 columns per row */
+.industry-cell:nth-child(4n) {
+  border-right: none;
+}
+
+
+
+/* Mobile: 2 columns per row */
+@media (max-width: 767.98px) {
+  .industry-cell {
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+  }
+
+  .industry-cell:nth-child(2n) {
+    border-right: none;
+  }
+
+  .industry-cell:nth-last-child(-n + 2) {
+    border-bottom: none;
+  }
+}

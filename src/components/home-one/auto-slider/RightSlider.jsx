@@ -46,13 +46,11 @@ const LogoSlider = () => {
     { img: partner17, link: 'https://cybervantage.ai/' },
   ];
 
-
   return (
     <div className="logo-slider-container bg-black">
       <Swiper
         spaceBetween={20}
         slidesPerView={7}
-
         loop={true}
         speed={3500} // Total duration of one slide transition
         autoplay={{
@@ -67,12 +65,10 @@ const LogoSlider = () => {
             slidesPerView: 7,
             spaceBetween: 20,
           },
-          // Breakpoint for tablets (768px and above)
           768: {
             slidesPerView: 3, // Show 3 slides on tablets
             spaceBetween: 20,
           },
-          // Breakpoint for mobile (max-width: 767px)
           0: {
             slidesPerView: 2, // Show 2 slides on mobile
             spaceBetween: 10,
@@ -82,7 +78,7 @@ const LogoSlider = () => {
         {logos.map((logo, index) => (
           <SwiperSlide key={index}>
             <div className="logo-slide bg-white">
-              <a href={logo.link} target="_blank" rel="noopener noreferrer">
+              <a href={logo.link}>
                 <img src={logo.img} alt={`Logo ${index + 1}`} className="logo-image" />
               </a>
             </div>

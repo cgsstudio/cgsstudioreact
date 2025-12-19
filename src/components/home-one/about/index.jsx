@@ -8,8 +8,8 @@ function About() {
 		<div className="section aximo-section-padding bg-black">
 			<div id="aximo-counter"></div>
 			<div className="container">
-				<div className="aximo-section-title">
-					<div className="d-flex flex-column gap-3 text-center w-75 mx-auto">
+				<div className="aximo-section-title pt-0">
+					<div className="d-flex flex-column gap-3 text-center w-80 mx-auto">
 						<div className="">
 							<h2 className="text-whitesmoke">
 								<span className="aximo-title-animation ">

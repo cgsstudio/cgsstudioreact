@@ -6,7 +6,7 @@ const CalltoAction = ({
     title = "Ready to Get Started?",
     description = "Take your business to the next level with our innovative solutions. Contact us today to discuss your project.",
     btnText = "Contact Us",
-    btnLink = "/contact",
+    btnLink = "/contact-us",
     centered = false,
 }) => {
 

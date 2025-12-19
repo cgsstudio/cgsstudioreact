@@ -121,6 +121,23 @@ function HomeOne() {
 					rel="canonical"
 					href="https://chameleogfxstudio.com/"
 				/>
+
+				{/* Open Graph Meta Tags */}
+				<meta property="og:title" content="Creative Design, Development & Marketing Agency - Chameleo GFX Studio" />
+				<meta property="og:description" content="Chameleo GFX Studio is the best Creative Designing Agency in Ahmedabad. We offer innovative design solutions like graphics, logos, branding, web design, UI/UX, & more. Call now." />
+				<meta property="og:type" content="website" />
+				<meta property="og:url" content="https://chameleogfxstudio.com/" />
+				<meta property="og:image" content="https://newcgswebsite.netlify.app/assets/images/logo/Cgs_Logo.png" />
+				<meta property="og:image:secure_url" content="https://newcgswebsite.netlify.app/assets/images/logo/Cgs_Logo.png" />
+				<meta property="og:image:type" content="image/png" />
+				<meta property="og:site_name" content="Chameleo GFX Studio" />
+				<meta property="og:locale" content="en_US" />
+
+				{/* Optional: Twitter Card */}
+				<meta name="twitter:card" content="summary_large_image" />
+				<meta name="twitter:title" content="Creative Design, Development & Marketing Agency - Chameleo GFX Studio" />
+				<meta name="twitter:description" content="Chameleo GFX Studio is the best Creative Designing Agency in Ahmedabad. We offer innovative design solutions like graphics, logos, branding, web design, UI/UX, & more. Call now." />
+				<meta name="twitter:image" content="https://newcgswebsite.netlify.app/assets/images/logo/Cgs_Logo.png" />
 			</Helmet>
 			<Hero />
 			<AutoSlider />
@@ -138,7 +155,7 @@ function HomeOne() {
 				title="Ready to Get Started?"
 				description="Take your business to the next level with our innovative solutions. Contact us today to discuss your project."
 				btnText="Get a Quote"
-				btnLink="/contact"
+				btnLink="/contact-us"
 				centered={false}
 
 			/>

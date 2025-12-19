@@ -35,7 +35,7 @@ const HowWeWork = () => {
             <div className="container">
                 {/* Section Title */}
                 <div className="aximo-section-title center py-2">
-                    <div className="small-tag">
+                    <div className="">
                         <span className="tag-label text-whitesmoke">Clear Steps for Better Results</span>
                     </div>
                     <h2 className='mb-2 text-whitesmoke'>Our Development Process</h2>

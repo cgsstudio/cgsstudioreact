@@ -25,7 +25,6 @@ import partner15 from '../../../assets/images/logo/partner-15.png'
 import partner16 from '../../../assets/images/logo/partner-16.png'
 import partner17 from '../../../assets/images/logo/Cybervantage-logo.webp'
 
-
 const LogoSlider = () => {
   const logos = [
     { img: partner1, link: 'https://activeauto.me/' },
@@ -47,7 +46,6 @@ const LogoSlider = () => {
     { img: partner17, link: 'https://cybervantage.ai/' },
   ];
 
-
   return (
     <>
       <section className="bg-black">
@@ -58,7 +56,6 @@ const LogoSlider = () => {
                 <h2 className="text-center text-whitesmoke ">Trusted by Leading Brands</h2>
               </div>
             </div>
-
           </div>
         </div>
         <div className="logo-slider-container">
@@ -73,17 +70,14 @@ const LogoSlider = () => {
             navigation={false}
             modules={[Autoplay]}
             breakpoints={{
-
               1024: {
                 slidesPerView: 7,
                 spaceBetween: 20,
               },
-
               768: {
                 slidesPerView: 3,
                 spaceBetween: 20,
               },
-
               0: {
                 slidesPerView: 2,
                 spaceBetween: 10,
@@ -93,7 +87,7 @@ const LogoSlider = () => {
             {logos.map((logo, index) => (
               <SwiperSlide key={index}>
                 <div className="logo-slide bg-white">
-                  <a href={logo.link} target="_blank" rel="noopener noreferrer">
+                  <a href={logo.link}>
                     <img src={logo.img} alt={`Logo ${index + 1}`} className="logo-image" />
                   </a>
                 </div>
@@ -101,11 +95,8 @@ const LogoSlider = () => {
             ))}
           </Swiper>
         </div>
-
       </section>
-
     </>
-
   );
 };
 

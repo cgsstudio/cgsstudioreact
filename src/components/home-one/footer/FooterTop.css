@@ -101,6 +101,13 @@
     line-height: 1.5;
 }
 
+/* Mobile view */
+@media (max-width: 768px) {
+    .contact-value {
+        font-size: 18px;
+    }
+}
+
 .footer-bottom-row {
     display: flex;
     justify-content: center;
@@ -120,9 +127,14 @@
     gap: 20px;
 }
 
+.aximo-copywright p:hover {
+    color: red;
+    /* Red color on hover */
+}
+
 .social-icon {
     color: var(--white-smoke);
-    font-size: 18px;
+    font-size: 22px;
     transition: color 0.3s ease;
     display: flex;
     align-items: center;
@@ -136,6 +148,26 @@
     .contact-item {
         padding: 0 20px;
     }
+}
+
+.aximo-copywright a p {
+    transition: color 0.3s ease !important;
+    /* Smooth transition for color change */
+}
+
+.aximo-copywright a:hover p {
+    color: red !important;
+    /* Change text color to red on hover */
+}
+
+.aximo-copywright a {
+    transition: color 0.3s ease !important;
+    /* Smooth transition for color change */
+}
+
+.aximo-copywright a:hover {
+    color: red !important;
+    /* Change text color to red on hover */
 }
 
 @media (max-width: 991px) {

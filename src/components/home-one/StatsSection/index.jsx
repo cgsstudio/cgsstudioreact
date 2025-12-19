@@ -21,9 +21,9 @@ function StatsSection() {
 
                     {/* Right Column: Stats Grid */}
                     <div className="col-lg-8 stat-grid">
-                        <div className="row h-100">
+                        <div className="row h-100 px-3">
                             {/* Stat 1 - Projects Done */}
-                            <div className="col-md-6 p-0">
+                            <div className="col-md-6  col-6 p-0">
                                 <div className="stats-card stats-card-1  h-100 text-center d-flex flex-column justify-content-center p-4">
                                     <h2 className="stats-number  mb-2">
                                         <CountUp end={500} duration={2.5} suffix="+" />
@@ -33,7 +33,7 @@ function StatsSection() {
                             </div>
 
                             {/* Stat 2 - Global Location */}
-                            <div className="col-md-6 p-0">
+                            <div className="col-md-6 col-6 p-0">
                                 <div className="stats-card stats-card-2 h-100 text-center d-flex flex-column justify-content-center p-4">
                                     <h2 className="stats-number  mb-2">
                                         <CountUp end={10} duration={2.5} suffix="+" />
@@ -43,7 +43,7 @@ function StatsSection() {
                             </div>
 
                             {/* Stat 3 - Happy Clients */}
-                            <div className="col-md-6 p-0">
+                            <div className="col-md-6 col-6 p-0">
                                 <div className="stats-card stats-card-3 h-100 text-center d-flex flex-column justify-content-center p-4">
                                     <h2 className="stats-number  mb-2">
                                         <CountUp end={215} duration={2.5} suffix="+" />
@@ -53,7 +53,7 @@ function StatsSection() {
                             </div>
 
                             {/* Stat 4 - Employees Work */}
-                            <div className="col-md-6 p-0">
+                            <div className="col-md-6 col-6 p-0">
                                 <div className="stats-card stats-card-4 h-100 text-center d-flex flex-column justify-content-center p-4">
                                     <h2 className="stats-number  mb-2">
                                         <CountUp end={20} duration={2.5} suffix="+" />

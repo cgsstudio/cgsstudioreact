@@ -9,10 +9,10 @@ function HeroContent() {
 		<div className="aximo-hero-content">
 			<h1 className="home-title">
 				<span className="aximo-title-animation home-heading">
-				A Digital Innovations  
-					
+					A Digital Innovations
+
 				</span>{" "}
-				 Hub
+				Hub
 			</h1>
 			<p className="home-description">
 				{`At Chameleo GFX Studio, we craft powerful digital experiences that help brands grow. With a perfect mix of creativity, technology, and strategy, our team turns ideas into results. Whether you need a stunning website, engaging visuals, or performance-driven digital marketing, we deliver solutions that transform your brand and strengthen your presence online.
@@ -34,14 +34,14 @@ function HeroContent() {
 					<p>Believed by more than a thousand people</p>
 				</div>
 			</div>
-			<Link className="aximo-call-btn home-hero-btn" to="/contact-us">
+			<a className="aximo-call-btn home-hero-btn" href="tel:+918460384838">
 				Book A Free Consultation <i className="icon-call"></i>
-			</Link>
+			</a>
 			<div className="aximo-hero-shape">
 				<img className="shape-color" src={ShapeImg} alt="ShapeImg" />
 			</div>
 		</div>
-		
+
 	);
 }
 

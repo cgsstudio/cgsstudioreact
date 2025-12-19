@@ -6110,7 +6110,7 @@ a.aximo-service-icon:hover {
 
 .aximo-faq-wrap {
 	padding: 130px 0;
-	border-bottom: 1px solid #e6e6e6;
+	/* border-bottom: 1px solid #e6e6e6; */
 }
 
 @media (max-width: 991px) {
@@ -10262,11 +10262,22 @@ a.aximo-connect-login img {
 		padding: 100px 0;
 		margin-top: 0;
 	}
+
+	.aximo-title-animation {
+		position: relative;
+		display: initial;
+		line-height: 1.3;
+	}
 }
 
 @media (max-width: 767px) {
 	.aximo-about-section.bg-orange {
 		padding: 80px 0;
+	}
+
+	.aximo-title-animation {
+		position: relative;
+		display: initial;
 	}
 }
 
@@ -10533,6 +10544,11 @@ a.aximo-connect-login img {
 @media (max-width: 767px) {
 	.aximo-iconbox-slider {
 		padding-bottom: 120px;
+	}
+
+	.Innovative {
+		font-size: 40px;
+		padding-bottom: 30px;
 	}
 }
 
@@ -12604,24 +12620,28 @@ button#aximo-notified-btn {
 	display: grid;
 	grid-template-columns: repeat(6, 1fr);
 	row-gap: 10px;
-	text-align: center;
+	text-align: left;
 }
 
 @media (max-width: 1024px) {
 	.tool-icon-row {
 		grid-template-columns: repeat(5, 1fr);
+		text-align: center;
+
 	}
 }
 
 @media (max-width: 767px) {
 	.tool-icon-row {
 		grid-template-columns: repeat(4, 1fr);
+		text-align: left;
 	}
 }
 
 @media (max-width: 576px) {
 	.tool-icon-row {
 		grid-template-columns: repeat(3, 1fr);
+		text-align: left;
 	}
 }
 
@@ -12642,6 +12662,10 @@ button#aximo-notified-btn {
 	.Innovative_Services {
 		font-size: 1rem !important;
 	}
+}
+
+.icon_name {
+	font-size: 14px !important;
 }
 
 .Innovative_Services {
@@ -12702,12 +12726,5 @@ button#aximo-notified-btn {
 	.aximo-faq-wrap {
 		padding-left: 0 !important;
 		padding-right: 0 !important;
-	}
-}
-
-@media (max-width: 767px) {
-	.stats-card {
-
-		margin: 15px !important;
 	}
 }

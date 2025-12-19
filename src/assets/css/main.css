@@ -36,6 +36,16 @@
 	align-items: center;
 }
 
+@media (min-width: 1300px) {
+	.site-menu-main {
+		display: flex !important;
+		gap: 26px !important;
+		margin-bottom: 0 !important;
+		padding-left: 0 !important;
+	}
+}
+
+
 @media (min-width: 992px) {
 	.site-navbar .menu-block-wrapper {
 		display: flex !important;
@@ -338,7 +348,18 @@
 .site-menu-main {
 	margin-bottom: 0;
 	padding-left: 0;
+
 }
+
+@media (min-width: 1300px) and (max-width: 1600px) {
+	.site-menu-main {
+		display: flex !important;
+		margin-bottom: 0 !important;
+		padding-left: 0 !important;
+		gap: 12px !important;
+	}
+}
+
 
 @media (min-width: 992px) {
 	.site-menu-main {

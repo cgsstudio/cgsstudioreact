@@ -1,7 +1,7 @@
 import Star2Img from "../../../assets/images/v1/star2.png";
 function Content() {
 	return (
-		<div className="aximo-default-content text-whitesmoke ">
+		<div className="aximo-default-content text-whitesmoke m-0">
 			<h2 className="text-whitesmoke">
 				<span className="aximo-title-animation  ">
 					Digital Solutions Partner in

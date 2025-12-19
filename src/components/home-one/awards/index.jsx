@@ -13,7 +13,7 @@ const baseAwards = [
   { id: 2, title: "Highly Recommended Software Company in 2025", img: Award1, link: "https://www.goodfirms.co/company/chameleo-gfx-studio", bg: "#fffcf5", border: "#f0e1baff" },
   { id: 3, title: "Top Mobile App Development Companies in 2024", img: Award2, link: "https://www.trustpilot.com/review/chameleogfxstudio.com", bg: "#f0fff4", border: "#c3f3e9ff" },
   { id: 4, title: "Top Web Development Companies in 2024", img: Award4, link: "https://g.page/r/CeTVJ5LvBhuzEAE/review", bg: "#e0f7fa", border: "#a9daf3ff" },
-  { id: 4, title: "DesignRus", img: Award5, link: "https://www.designrush.com/agency/profile/chameleo-gfx-studio", bg: "#fffcf5", border: "#f0e1baff" },
+  { id: 5, title: "DesignRus", img: Award5, link: "https://www.designrush.com/agency/profile/chameleo-gfx-studio", bg: "#fffcf5", border: "#f0e1baff" },
 ];
 
 const breakpoints = {
@@ -67,7 +67,6 @@ function AwardsSection() {
     },
   };
 
-
   return (
     <div className="section pt-5" style={{ backgroundColor: '#000' }}>
       <div className="container">
@@ -83,7 +82,7 @@ function AwardsSection() {
                 <SwiperSlide key={award.id}>
                   <a
                     href={award.link}
-                    target="_blank"
+                    // Remove `target="_blank"` to open in the same tab
                     rel="noopener noreferrer"
                     style={{ textDecoration: "none", display: "block", height: "100%" }}
                   >

@@ -31,7 +31,7 @@ function MissionVision() {
                             <div className="mission-vision-header">
                                 <h3 className="mission-vision-title">Vision</h3>
                                 <div className="mission-vision-icon">
-                                    <Telescope size={48} strokeWidth={1.5} color="#f4b905" />
+                                    <Telescope size={48} strokeWidth={1.5} color="#f40505ff" />
                                 </div>
                             </div>
                             <p className="mission-vision-text">

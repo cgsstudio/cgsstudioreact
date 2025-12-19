@@ -12,12 +12,12 @@
 }
 
 .footer-service-link::before {
-    content: "";
+    /* content: ""; */
     width: 0;
     height: 1px;
     background-color: #ed1d24;
     margin-right: 0;
-    transition: all 0.3s ease;
+    /* transition: all 0.3s ease; */
 }
 
 /* Optional: If the design has a visible dash only on hover, or always? 
@@ -26,7 +26,7 @@
 */
 .footer-service-link:hover::before {
     width: 10px;
-    margin-right: 8px;
+    /*  margin-right: 8px; */
 }
 
 .footer-service-link {

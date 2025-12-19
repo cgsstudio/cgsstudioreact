@@ -2,10 +2,10 @@ import { Helmet } from "react-helmet";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import BlogHero from "../../../components/common/BlogHero";
-import education from "../../../assets/images/icon/Education.svg";
+import education from "../../../assets/images/icon/Education1.svg";
 import healthcare from "../../../assets/images/icon/Healthcare.svg";
 import ecommerce from "../../../assets/images/icon/E-commerce.svg";
-import RealEstate from "../../../assets/images/icon/Real Estate.svg";
+import RealEstate from "../../../assets/images/icon/Real Estate1.svg";
 import Finance from "../../../assets/images/icon/Finance.svg";
 import hospitality from "../../../assets/images/icon/Hospitality & Travel.svg";
 import Technology from "../../../assets/images/icon/Technology & IT.svg";
@@ -22,22 +22,22 @@ import Beauty from "../../../assets/images/icon/Beauty & Fashion.svg";
 const industries = [
 
 
-{ title: "Education", description: "Schools, colleges, universities, and online learning platforms.",icon: education },
+  { title: "Education", description: "Schools, colleges, universities, and online learning platforms.", icon: education },
   { title: "Healthcare", description: "Hospitals, clinics, doctors, and medical service providers.", icon: healthcare },
-  { title: "E-commerce", description: "Online stores, marketplaces, and retail businesses.", icon: ecommerce},
-  { title: "Real Estate", description: "Property listings, agencies, and builders.", icon: RealEstate},
-  { title: "Finance", description: "Banks, investment firms, and fintech companies.", icon: Finance},
-  { title: "Hospitality & Travel", description: "Hotels, restaurants, travel agencies, and tourism services.", icon: hospitality},
-  { title: "Technology & IT", description: "SaaS, startups, and IT service providers.", icon: Technology},
-  { title: "Nonprofits & NGOs", description: "Charity organizations, foundations, and social initiatives.", icon: Nonprofits},
-  { title: "Automotive", description: "Car dealerships, rental services, and auto repair businesses.", icon: Automotive},
-  { title: "Entertainment & Media", description: "News portals, blogs, music, and streaming services.", icon: Entertainment},
-  { title: "Legal & Law Firms", description: "Attorneys, law offices, and legal consultants.", icon: Legal},
-  { title: "Construction & Architecture", description: "Builders, contractors, and architects.", icon: Construction},
-  { title: "Manufacturing & Industrial", description: "Factories, suppliers, and B2B manufacturers.", icon: Manufacturing},
-  { title: "Retail & Consumer Goods", description: "Brick-and-mortar businesses with online presence.", icon: Retail},
-  { title: "Sports & Fitness", description: "Gyms, personal trainers, sports clubs, and wellness centers.", icon: Sports},
-  { title: "Beauty & Fashion", description: "Salons, beauty brands, and fashion designers.", icon: Beauty},
+  { title: "E-commerce", description: "Online stores, marketplaces, and retail businesses.", icon: ecommerce },
+  { title: "Real Estate", description: "Property listings, agencies, and builders.", icon: RealEstate },
+  { title: "Finance", description: "Banks, investment firms, and fintech companies.", icon: Finance },
+  { title: "Hospitality & Travel", description: "Hotels, restaurants, travel agencies, and tourism services.", icon: hospitality },
+  { title: "Technology & IT", description: "SaaS, startups, and IT service providers.", icon: Technology },
+  { title: "Nonprofits & NGOs", description: "Charity organizations, foundations, and social initiatives.", icon: Nonprofits },
+  { title: "Automotive", description: "Car dealerships, rental services, and auto repair businesses.", icon: Automotive },
+  { title: "Entertainment & Media", description: "News portals, blogs, music, and streaming services.", icon: Entertainment },
+  { title: "Legal & Law Firms", description: "Attorneys, law offices, and legal consultants.", icon: Legal },
+  { title: "Construction & Architecture", description: "Builders, contractors, and architects.", icon: Construction },
+  { title: "Manufacturing & Industrial", description: "Factories, suppliers, and B2B manufacturers.", icon: Manufacturing },
+  { title: "Retail & Consumer Goods", description: "Brick-and-mortar businesses with online presence.", icon: Retail },
+  { title: "Sports & Fitness", description: "Gyms, personal trainers, sports clubs, and wellness centers.", icon: Sports },
+  { title: "Beauty & Fashion", description: "Salons, beauty brands, and fashion designers.", icon: Beauty },
 ];
 
 const Industryweserve = () => {

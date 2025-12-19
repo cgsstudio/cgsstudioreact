@@ -1,4 +1,5 @@
 import React from "react";
+import "./IndustriesHomeSection.css";
 import education from "../../../assets/images/icon/Education.svg";
 import healthcare from "../../../assets/images/icon/Group 6.svg";
 import ecommerce from "../../../assets/images/icon/E-commerce.svg";
@@ -11,6 +12,7 @@ import Retail from "../../../assets/images/icon/Retail.svg";
 import Sports from "../../../assets/images/icon/dumbbell.svg";
 import Beauty from "../../../assets/images/icon/Fashion.svg";
 import Manufacturing from "../../../assets/images/icon/Transport.svg";
+import Hotel from "../../../assets/images/icon/Hotel.svg";
 
 const industries = [
     { title: "Healthcare & Fitness", icon: healthcare },
@@ -24,7 +26,7 @@ const industries = [
     { title: "Retail", icon: Retail },
     { title: "Fashion & Ecommerce", icon: Beauty },
     { title: "Transports", icon: Manufacturing },
-    { title: "Hotel", icon: hospitality },
+    { title: "Hotel", icon: Hotel },
 ];
 
 const IndustriesHomeSection = () => {
@@ -63,11 +65,7 @@ const IndustriesHomeSection = () => {
                                     {industries.map((industry, index) => (
                                         <div
                                             key={index}
-                                            className="col-6 col-md-3"
-                                            style={{
-                                                borderRight: (index % 4 !== 3) ? '1px solid #e0e0e0' : 'none',
-                                                borderBottom: (index < 8) ? '1px solid #e0e0e0' : 'none'
-                                            }}
+                                            className="col-6 col-md-3 industry-cell"
                                         >
                                             <div
                                                 className="text-center"
@@ -113,7 +111,7 @@ const IndustriesHomeSection = () => {
 
                     {/* Content - Right Side */}
                     <div className="col-lg-5 order-1 order-lg-2">
-                        <div className="aximo-default-content industries-content">
+                        <div className="aximo-default-content industries-content m-0">
                             <span
                                 className="aximo-subtitle "
                                 style={{
@@ -140,7 +138,7 @@ const IndustriesHomeSection = () => {
                                 Advanced Development<br /> & Intelligent Coding
                             </h2>
                             <p
-                                className="industry-description"
+                                className="industry-description m-0"
                                 style={{
                                     fontSize: '15px',
                                     lineHeight: '1.8',

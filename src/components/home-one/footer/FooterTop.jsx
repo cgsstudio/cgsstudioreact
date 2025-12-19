@@ -44,10 +44,17 @@ const FooterTop = () => {
                         </div>
                         <div className="contact-details">
                             <span className="contact-label">OUR OFFICE ADDRESS</span>
-                            <span className="contact-value" style={{ fontSize: '14px', lineHeight: '1.4' }}>
+                            <a
+                                href="https://maps.app.goo.gl/kY3NFMatS1iMAFbZ6"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="contact-value"
+                                style={{ fontSize: '14px', lineHeight: '1.4' }}
+                            >
                                 F - 1001, F Block, PNTC,<br /> Times Of India Press Rd,<br /> Ahmedabad, Gujarat 380015
-                            </span>
+                            </a>
                         </div>
+
                     </div>
                 </div>
             </div>

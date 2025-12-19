@@ -1,5 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import './TestimonialSlider.css';
+import HoccoLogo from "../../../assets/images/TestimonialSlider/HOCCO.webp";
+import JagatjitLogo from "../../../assets/images/TestimonialSlider/Jagatjit.webp";
+import CybervantageLogo from "../../../assets/images/TestimonialSlider/Cybervantage.webp";
+import IslandSpaceLogo from "../../../assets/images/TestimonialSlider/IslandSPACE.webp";
+import Sprinkle from "../../../assets/images/TestimonialSlider/Mr. Sprinkle.webp";
+import Addy_Organics from "../../../assets/images/TestimonialSlider/Addy Organics.webp";
 
 const TestimonialSlider = () => {
   const testimonials = [
@@ -16,6 +22,7 @@ const TestimonialSlider = () => {
       fullText: "Chameleo GFX Studio delivered smart, creative brand design with a strong understanding of our brand vision. The team was highly responsive, proactive, and efficient throughout the project. Revisions were handled quickly without compromising on quality. We truly appreciated their professionalism and commitment to timely delivery.",
       avatar: "H",
       avatarColor: "#EA4335", // Red
+      logo: HoccoLogo,
     },
     {
       id: 2,
@@ -28,6 +35,7 @@ const TestimonialSlider = () => {
       fullText: "Chameleo GFX Studio created a stunning, modern, and highly engaging website for our liquor brand that perfectly captures the sophistication of Jagatjit Industries. The design is visually captivating with elegant aesthetics and a seamless user experience, while technical execution is flawless—fast, mobile-responsive, and fully industry-compliant. Since launch, we've seen remarkable increases in engagement and business inquiries from distributors and partners. Highly recommend Chameleo GFX Studio for premium website development that delivers exceptional results!",
       avatar: "J",
       avatarColor: "#FBBC04", // Yellow
+      logo: JagatjitLogo,
     },
     {
       id: 3,
@@ -40,6 +48,7 @@ const TestimonialSlider = () => {
       fullText: "We came to Chameleo GFX Studio with just an idea for Mr. Spinkle Spices, and they brought it to life beautifully. The logo design process was collaborative; they presented multiple concepts that reflected our spice heritage and refined it until it was perfect. The website they built is fast and professional and includes an e-commerce system that makes online ordering seamless for our customers. Their SEO strategy is working wonders; we're getting daily orders from people finding us on Google. Our brand visibility has increased dramatically in the competitive spices market. Best investment we made for Mr. Spinkle!",
       avatar: "S",
       avatarColor: "#34A853",
+      logo: Sprinkle,
     },
     {
       id: 4,
@@ -52,6 +61,7 @@ const TestimonialSlider = () => {
       fullText: "They built our cybersecurity website in record time without compromising quality. The site looks incredible and performs even better. The team understood our requirements perfectly and delivered exactly what we envisioned. Communication was excellent throughout the project, and they were always available to answer questions. The attention to detail is remarkable, from the smooth animations to the security features. Great team to work with, and we'll definitely use them again!",
       avatar: "C",
       avatarColor: "#FBBC04",
+      logo: CybervantageLogo,
     },
     {
       id: 5,
@@ -64,6 +74,7 @@ const TestimonialSlider = () => {
       fullText: "Chameleo GFX Studio created extraordinary Amazon banners for Addy Organic that completely elevated our cosmetic brand's presence. The designs are stunning, professionally crafted, and perfectly showcase our organic beauty products with vibrant visuals. Our conversion rates and sales have increased significantly since implementation. Highly recommend for e-commerce design!",
       avatar: "A",
       avatarColor: "#34A853",
+      logo: Addy_Organics,
     },
     {
       id: 6,
@@ -76,6 +87,7 @@ const TestimonialSlider = () => {
       fullText: "Chameleo GFX Studio is fantastic to work with! They deliver graphic designs with incredible speed without compromising quality. Their dedication is unmatched. They work beyond scheduled hours whenever we need urgent turnarounds and are always receptive to creative feedback. The consistency and professionalism they bring have made them our trusted partner for nearly all design projects. Their client-first approach and reliability make them highly recommended for any design needs!",
       avatar: "I",
       avatarColor: "#4285F4",
+      logo: IslandSpaceLogo,
     },
   ];
 
@@ -168,12 +180,21 @@ const TestimonialSlider = () => {
                   {/* Header: Avatar, Company Name, Google Icon */}
                   <div className="card-header">
                     <div className="company-info">
-                      <div
-                        className="company-avatar"
-                        style={{ backgroundColor: testimonial.avatarColor }}
-                      >
-                        {testimonial.avatar}
-                      </div>
+                      {testimonial.logo ? (
+                        <img
+                          src={testimonial.logo}
+                          alt={testimonial.company}
+                          className="TestimonialSliderlogo"
+                          style={{ width: "38px", height: "38px", objectFit: "contain", borderRadius: "50%" }}
+                        />
+                      ) : (
+                        <div
+                          className="company-avatar"
+                          style={{ backgroundColor: testimonial.avatarColor }}
+                        >
+                          {testimonial.avatar}
+                        </div>
+                      )}
                       <div className="company-details">
                         <div className="company-name-wrapper">
                           <h6 className="company-name text-whitesmoke">{testimonial.company}</h6>
