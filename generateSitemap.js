@@ -164,6 +164,7 @@ const pages = [
   { url: "/blog/how-ai-helps-it-departments-reduce-costs-increase-efficiency", changefreq: "monthly", priority: 0.6 },
   { url: "/blog/logo-design-fundamentals-ai-tools-guide", changefreq: "monthly", priority: 0.6 },
   { url: "/blog/ai-in-cloud-management-monitoring-cost-control-scaling", changefreq: "monthly", priority: 0.6 },
+  { url: "/blog/wordpress-development-workflow-local-to-production", changefreq: "monthly", priority: 0.6 },
 
 
 

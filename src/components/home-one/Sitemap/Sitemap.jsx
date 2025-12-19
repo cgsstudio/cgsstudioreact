@@ -206,6 +206,7 @@ const sitemapData = [
       { text: "How AI Helps IT Departments Reduce Costs & Increase Efficiency?", link: "/blog/how-ai-helps-it-departments-reduce-costs-increase-efficiency" },
       { text: "10 Logo Design Fundamentals to Know Before Using AI Design Tools", link: "/blog/logo-design-fundamentals-ai-tools-guide" },
       { text: "AI in Cloud Management: Smarter Monitoring, Cost Control & Scaling", link: "/blog/ai-in-cloud-management-monitoring-cost-control-scaling" },
+      { text: "WordPress Development Workflow: From Local Setup to Production", link: "/blog/wordpress-development-workflow-local-to-production" },
 
 
 
