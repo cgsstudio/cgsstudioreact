@@ -1,10 +1,10 @@
 import React from "react";
 // Import Images
 import Lottie from "lottie-react";
-import MobileAppAnimation from "../../../assets/lottie/mobile-app.json";
-import WebDevAnimation from "../../../assets/lottie/web-dev.json";
-import SeoAnimation from "../../../assets/lottie/seo.json";
-import UiUxAnimation from "../../../assets/lottie/ui-ux.json";
+import MobileAppAnimation from "../../../assets/lottie/vector_1.json";
+import WebDevAnimation from "../../../assets/lottie/software_1.json";
+import SeoAnimation from "../../../assets/lottie/seo_1.json";
+import UiUxAnimation from "../../../assets/lottie/layout_1.json";
 import { Link } from "react-router-dom";
 import { FaArrowRight } from "react-icons/fa";
 
