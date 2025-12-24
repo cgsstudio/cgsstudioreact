@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import Blog from "../../components/blog";
 import HeroBanner from "../../components/common/BlogHeroBanner";
 import heroBannerImage from "../../assets/images/v1/Group 122.webp";

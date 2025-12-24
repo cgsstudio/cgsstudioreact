@@ -165,6 +165,7 @@ const pages = [
   { url: "/blog/logo-design-fundamentals-ai-tools-guide", changefreq: "monthly", priority: 0.6 },
   { url: "/blog/ai-in-cloud-management-monitoring-cost-control-scaling", changefreq: "monthly", priority: 0.6 },
   { url: "/blog/wordpress-development-workflow-local-to-production", changefreq: "monthly", priority: 0.6 },
+  { url: "/blog/ai-powered-qa-testing-tools-future-software-quality", changefreq: "monthly", priority: 0.6 },
 
 
 

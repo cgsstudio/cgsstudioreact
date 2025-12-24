@@ -16,7 +16,8 @@
   border-radius: 20px;
 }
 
-.swiper-wrapper {
+.logo-slider-container .swiper-wrapper {
+  /* keep the marquee-style linear scroll only for the logo slider */
   transition-timing-function: linear !important;
   padding: 20px 0;
 }

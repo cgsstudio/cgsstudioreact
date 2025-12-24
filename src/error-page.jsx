@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import ErrorImg from "/src/assets/images/about/404.png";
 import ArrowRightImg from "/src/assets/images/icon/arrow-right.svg";
 import Star2Img from "/src/assets/images/v1/star2.png";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 export default function ErrorPage() {
 	return (

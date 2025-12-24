@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import BreadCrumb from "../../components/common/Breadcrumb";
 import  Responsivewordpressdesigndetail from "../../components/service/Responsivewordpressdesigndetail";
 

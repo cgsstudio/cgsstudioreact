@@ -1,6 +1,6 @@
 import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import { Helmet } from "react-helmet";  // Importing Helmet
+import { Helmet } from "react-helmet-async";  // Importing Helmet
 import PostMeta from "./PostMeta";
 import PostTags from "./PostTags";
 import CommentForm from "./CommentForm";

@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import BreadCrumb from "../../components/common/Breadcrumb";
 import Websiteredesigndetail from "../../components/service/Websiteredesigndetail";
 import heroBannerImage from "../../assets/images/v1/social_icon.png";

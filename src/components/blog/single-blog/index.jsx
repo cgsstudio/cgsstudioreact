@@ -4,7 +4,7 @@ import BlogDetails from "./BlogDetails";
 import RecentPosts from "../RecentPosts";
 import Search from "../Search";
 import { BlogData } from "../BlogData";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 function SingleBlog() {
   const { slug } = useParams(); // Get the 'slug' from the URL

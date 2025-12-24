@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import SingleImg from "../../assets/images/service/Brochure Design.jpg";
 import SingleImg2 from "../../assets/images/service/service-details.webp";
 import Star2Img from "../../assets/images/v1/star2.png";

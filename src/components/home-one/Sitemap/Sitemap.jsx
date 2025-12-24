@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import BlogHero from "../../../components/common/BlogHero";
@@ -207,6 +207,7 @@ const sitemapData = [
       { text: "10 Logo Design Fundamentals to Know Before Using AI Design Tools", link: "/blog/logo-design-fundamentals-ai-tools-guide" },
       { text: "AI in Cloud Management: Smarter Monitoring, Cost Control & Scaling", link: "/blog/ai-in-cloud-management-monitoring-cost-control-scaling" },
       { text: "WordPress Development Workflow: From Local Setup to Production", link: "/blog/wordpress-development-workflow-local-to-production" },
+      { text: "AI-Powered QA & Testing Tools Shaping the Future of Software Quality", link: "/blog/ai-powered-qa-testing-tools-future-software-quality" },
 
 
 

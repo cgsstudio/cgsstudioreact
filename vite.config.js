@@ -8,6 +8,7 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),  // @ maps to src directory
+      'react-helmet': 'react-helmet-async',
     },
   },
 });

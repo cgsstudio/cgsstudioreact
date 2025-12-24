@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import ServiceHeroBanner from "../../components/common/ServiceHeroBanner";
 import GraphicDesignService from "../../components/service/GraphicDesignService";
 import ServiceAccordion from "../../components/common/ServiceAccordion";

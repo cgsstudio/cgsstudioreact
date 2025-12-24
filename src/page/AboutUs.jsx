@@ -10,7 +10,7 @@ import Team1Img from "../assets/images/team/team1.png";
 import Team2Img from "../assets/images/team/team2.png";
 import Team4Img from "../assets/images/team/team4.png";
 
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 
 
 const teamsData = [
