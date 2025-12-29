@@ -1,6 +1,5 @@
 import { Helmet } from "react-helmet";
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import BlogHero from "../../../components/common/BlogHero";
 import education from "../../../assets/images/icon/Education1.svg";
 import healthcare from "../../../assets/images/icon/Healthcare.svg";

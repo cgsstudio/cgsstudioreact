@@ -11,8 +11,21 @@ export default defineConfig({
       'react-helmet': 'react-helmet-async',
     },
   },
-  // Ensure CSS is split into chunks so large styles can be loaded separately
+  // Optimize build output
   build: {
-    cssCodeSplit: true
-  }
+    cssCodeSplit: true,
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true,
+      },
+    },
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          bootstrap: ['bootstrap'],
+        },
+      },
+    },
+  },
 });
