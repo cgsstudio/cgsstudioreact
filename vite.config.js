@@ -11,4 +11,8 @@ export default defineConfig({
       'react-helmet': 'react-helmet-async',
     },
   },
+  // Ensure CSS is split into chunks so large styles can be loaded separately
+  build: {
+    cssCodeSplit: true
+  }
 });
