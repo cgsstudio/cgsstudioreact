@@ -20,8 +20,7 @@ import "swiper/css/mousewheel";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import "./assets/css/app.css";
-import "./assets/css/main.css";
+// NOTE: `app.css` and `main.css` are intentionally loaded lazily below
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -34,3 +33,25 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     </HelmetProvider>
   </React.StrictMode>
 );
+
+// Lazy-load non-critical / large site styles after initial render to avoid render-blocking
+function lazyLoadLargeCSS() {
+  try {
+    if ('requestIdleCallback' in window) {
+      requestIdleCallback(() => {
+        import('./assets/css/app.css');
+        import('./assets/css/main.css');
+      });
+    } else {
+      setTimeout(() => {
+        import('./assets/css/app.css');
+        import('./assets/css/main.css');
+      }, 1500);
+    }
+  } catch (e) {
+    // ignore in unsupported environments
+  }
+}
+
+// Start lazy-loading styles (non-blocking)
+lazyLoadLargeCSS();

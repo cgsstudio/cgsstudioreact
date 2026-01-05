@@ -1,6 +1,5 @@
 import { Helmet } from "react-helmet";
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import Star2Img from "../../../assets/images/v1/star2.png";
 import BlogHero from "../../../components/common/BlogHero";
 

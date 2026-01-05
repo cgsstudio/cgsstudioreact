@@ -11,4 +11,21 @@ export default defineConfig({
       'react-helmet': 'react-helmet-async',
     },
   },
+  // Optimize build output
+  build: {
+    cssCodeSplit: true,
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true,
+      },
+    },
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          bootstrap: ['bootstrap'],
+        },
+      },
+    },
+  },
 });

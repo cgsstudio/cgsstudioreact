@@ -1,6 +1,5 @@
 import { Helmet } from "react-helmet";
 import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import BlogHero from "../../../components/common/BlogHero";
 
 const PrivacyPolicy = () => {
