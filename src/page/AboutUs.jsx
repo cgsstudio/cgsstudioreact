@@ -15,41 +15,41 @@ import { Helmet } from "react-helmet-async";
 
 const teamsData = [
 	{
-			id: crypto.randomUUID(),
-			name: "Niraj Mandaliya",
-			designation: "Co-Founder & CEO",
-			linkedin: "https://www.linkedin.com/in/nirajmandaliya/",
-			img: Team1Img,
-		},
-		{
-			id: crypto.randomUUID(),
-			name: "Dhiraj Ahuja",
-			designation: "Co-Founder & Chairman ",
-			linkedin: "https://www.linkedin.com/in/dhirahuja/",
-			img: Team2Img,
-		},
-	
+		id: crypto.randomUUID(),
+		name: "Niraj Mandaliya",
+		designation: "Co-Founder & CEO",
+		linkedin: "https://www.linkedin.com/in/nirajmandaliya/",
+		img: Team1Img,
+	},
+	{
+		id: crypto.randomUUID(),
+		name: "Dhiraj Ahuja",
+		designation: "Co-Founder & CFO ",
+		linkedin: "https://www.linkedin.com/in/dhirahuja/",
+		img: Team2Img,
+	},
+
 ];
 
 function AboutUs() {
 	return (
 		<>
-		<Helmet>
-            <title>About Chameleo GFX Studio-Best Graphic & Branding Agency</title>
-            <meta name="description" content="Chameleo GFX Studio is a well-known Graphic & Branding Agency Company based in Ahmedabad, India. We have dedicated team of Graphic, Branding, UI/UX and Logo Design Experts; they are always ready to give complete support." />
-			<meta name="keywords" content="About Chameleo GFX Studio. About Graphic Company in Ahmedabad, About best Branding company in Ahmedabad, Logo design company, UI UX Design Company, Web development company, social media marketing agency, SEO Company" />
-			<link 
-          rel="canonical" 
-          href="https://chameleogfxstudio.com/About-us" 
-        />
-        </Helmet>
+			<Helmet>
+				<title>About Chameleo GFX Studio-Best Graphic & Branding Agency</title>
+				<meta name="description" content="Chameleo GFX Studio is a well-known Graphic & Branding Agency Company based in Ahmedabad, India. We have dedicated team of Graphic, Branding, UI/UX and Logo Design Experts; they are always ready to give complete support." />
+				<meta name="keywords" content="About Chameleo GFX Studio. About Graphic Company in Ahmedabad, About best Branding company in Ahmedabad, Logo design company, UI UX Design Company, Web development company, social media marketing agency, SEO Company" />
+				<link
+					rel="canonical"
+					href="https://chameleogfxstudio.com/About-us"
+				/>
+			</Helmet>
 			<BlogHero title="About Us" image={heroBannerImage} />
 			<Story />
 			<About />
 			<AutoSlider />
 			<Teams teams={teamsData} />
 			<TwoColumnFaq />
-			
+
 		</>
 	);
 }

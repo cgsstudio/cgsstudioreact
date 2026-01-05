@@ -110,6 +110,7 @@ const pages = [
 
   // ✅ Digital Marketing
   { url: "/digital-marketing", changefreq: "monthly", priority: 0.7 },
+  { url: "/digital-marketing-agency-ahmedabad", changefreq: "monthly", priority: 0.7 },
   { url: "/search-engine-optimization", changefreq: "monthly", priority: 0.7 },
   { url: "/social-media-marketing", changefreq: "monthly", priority: 0.7 },
   { url: "/email-marketing", changefreq: "monthly", priority: 0.7 },
