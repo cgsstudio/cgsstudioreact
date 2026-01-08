@@ -39,15 +39,15 @@ function FooterBottom() {
 				</div>
 			</div> */}
 			<div className="col-lg-6">
-				<div class="aximo-copywright one footer-text text-start  d-flex justify-content-start justify-content-md-left ">
-				<a className="d-flex" href="https://chameleogfxstudio.com/"><p> Copyright &copy; {new Date().getFullYear()}. Chameleo GFX Studio. All Rights Reserved.</p>
-				</a>
+				<div className="aximo-copywright one footer-text text-start  d-flex justify-content-start justify-content-md-left ">
+					<a className="d-flex" href="https://chameleogfxstudio.com/"><p> Copyright &copy; {new Date().getFullYear()}. Chameleo GFX Studio. All Rights Reserved.</p>
+					</a>
 				</div>
 			</div>
 			<div className="col-lg-6">
 				<div className="aximo-copywright threes ">
-				<p><a className="text-link-main-white click-main footer-text" href="/privacy-policy" rel="noopener noreferrer">Privacy Policy</a>| <a className="text-link-main-white footer-text" href="/terms-and-conditions" rel="noopener noreferrer">Terms and Conditions</a>| <a className="text-link-main-white footer-text " href="/sitemap" rel="noopener noreferrer">Sitemap</a>|<a className="text-link-main-white footer-text " href="/faq" rel="noopener noreferrer">FAQ</a></p>
-				
+					<p><a className="text-link-main-white click-main footer-text" href="/privacy-policy" rel="noopener noreferrer">Privacy Policy</a>| <a className="text-link-main-white footer-text" href="/terms-and-conditions" rel="noopener noreferrer">Terms and Conditions</a>| <a className="text-link-main-white footer-text " href="/sitemap" rel="noopener noreferrer">Sitemap</a>|<a className="text-link-main-white footer-text " href="/faq" rel="noopener noreferrer">FAQ</a></p>
+
 				</div>
 			</div>
 		</>

@@ -49,7 +49,7 @@ const IndustriesHomeSection = () => {
                         <div
                             style={{
                                 padding: '2px',
-                                background: `linear-gradient(${rotation}deg, #ed1d24, #fcba03, #fcba03, #ed1d24)`,
+                                backgroundImage: `linear-gradient(${rotation}deg, #ed1d24, #fcba03, #fcba03, #ed1d24)`,
                                 borderRadius: '10px',
                                 backgroundSize: '300% 300%',
                             }}
