@@ -207,6 +207,8 @@ const sitemapData = [
       { text: "AI in Cloud Management: Smarter Monitoring, Cost Control & Scaling", link: "/blog/ai-in-cloud-management-monitoring-cost-control-scaling" },
       { text: "WordPress Development Workflow: From Local Setup to Production", link: "/blog/wordpress-development-workflow-local-to-production" },
       { text: "AI-Powered QA & Testing Tools Shaping the Future of Software Quality", link: "/blog/ai-powered-qa-testing-tools-future-software-quality" },
+      { text: "The Future of UI/UX Design: Human-Centered Experiences in an AI World", link: "/blog/future-of-ui-ux-design-human-centered-ai" },
+      { text: "LinkedIn Marketing for B2B Brands: A Complete Guide", link: "/blog/linkedin-marketing-for-b2b-brands-complete-guide" },
 
 
 
