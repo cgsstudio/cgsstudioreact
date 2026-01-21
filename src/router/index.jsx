@@ -1,141 +1,141 @@
 import React, { lazy } from "react";
 import { createBrowserRouter } from "react-router-dom";
-import LayoutEight from "../components/layout/LayoutEight.jsx";
-import LayoutFive from "../components/layout/LayoutFive.jsx";
-import LayoutFour from "../components/layout/LayoutFour.jsx";
-import LayoutOne from "../components/layout/LayoutOne.jsx";
-import LayoutSeven from "../components/layout/LayoutSeven.jsx";
-import LayoutSix from "../components/layout/LayoutSix.jsx";
-import LayoutThree from "../components/layout/LayoutThree.jsx";
-import LayoutTwo from "../components/layout/LayoutTwo.jsx";
-import Layout from "../components/layout/index.jsx";
-import ErrorPage from "../error-page";
-import AboutUs from "../page/AboutUs";
-import ContactUs from "../page/ContactUs";
-import Pricing from "../page/Pricing";
-import Reset from "../page/auth/ResetPassword.jsx";
-import SignIn from "../page/auth/SignIn";
-import SignUp from "../page/auth/SignUp";
-import BlogGridPage from "../page/blog/BlogGridPage.jsx";
-import BlogPage from "../page/blog/BlogPage.jsx";
-import SingleBlogPage from "../page/blog/SingleBlog.jsx";
-import HomeFive from "../page/home/HomeFive.jsx";
-import HomeFour from "../page/home/HomeFour.jsx";
-import HomeOne from "../page/home/HomeOne.jsx";
-import HomeSeven from "../page/home/HomeSeven.jsx";
-import HomeSix from "../page/home/HomeSix.jsx";
-import HomeThree from "../page/home/HomeThree.jsx";
-import HomeTwo from "../page/home/HomeTwo.jsx";
-import PortfolioOneColumn from "../page/portfolio/PortfolioOneColoum";
-import PortfolioTwoColumn from "../page/portfolio/PortfolioTwoColumn";
-import SinglePortfolio from "../page/portfolio/SinglePortfolio";
-import Service from "../page/service";
-import UiuxDesign from "../page/service/UiuxDesign.jsx";
-import Team from "../page/team";
-import SingleTeam from "../page/team/SingleTeam.jsx";
-import CommingSoon from "../page/utility/CommingSoon.jsx";
-import Faq from "../page/utility/Faq.jsx";
-import TestimonialPage from "../page/utility/Testimonial.jsx";
-import WebDevelopment from "../page/service/WebDevelopment.jsx"
-import GraphicDesign from "../page/service/GraphicDesign.jsx"
-import LogoDesign from "../page/service/LogoDesign.jsx"
-import Seo from "../page/service/Seo.jsx"
-import SocialMedia from "../page/service/SocialMedia.jsx"
-import ServicePage from "../components/home-one/services/ServicePage.jsx"
-import TermsAndConditions from "../components/home-one/terms/TermsAndConditions.jsx"
-import Privacypolicy from "../components/home-one/privacypolicy/privacypolicy.jsx"
-import Industryweserve from "../components/home-one/Industryweserve/industryserve.jsx";
-import FlyerDesign from "../page/service/FlyerDesign.jsx";
-import HoardingDesign from "../page/service/HoardingDesign.jsx";
-import NewsletterDesign from "../page/service/NewsletterDesign.jsx";
-import PresentationDesign from "../components/service/PresentationDesign.jsx";
-import EventInvitation from "../components/service/EventInvitation.jsx";
-import CorporateProfile from "../components/service/CorporateProfile.jsx";
-import TradeShow from "../page/service/TradeShow.jsx";
-import BrandingIdentity from "../page/service/BrandingIdentity.jsx";
-import BrochureDesign from "../page/service/BrochureDesign.jsx";
-import PackagingDesign from "../page/service/PackagingDesign.jsx";
-import InfographicDesign from "../page/service/InfographicDesign.jsx";
-import MagazineBooklet from "../page/service/MagazineBooklet.jsx";
-import Menudesigncard from "../page/service/Hotelmenu.jsx"
-import AnnualReport from "../page/service/AnnualReport.jsx";
-import MotionGraphics from "../page/service/MotionGraphics.jsx";
-import SocialMediaBanner from "../page/service/SocialMediaBanner.jsx";
-import PosterDesign from "../page/service/PosterDesign.jsx";
-import AdvertisingDesign from "../page/service/AdvertisingDesign.jsx";
-import BusinessCard from "../page/service/BusinessCard.jsx";
-import CustomIllustration from "../page/service/CustomIllustration.jsx";
-import SignageDesign from "../page/service/SignageDesign.jsx";
-import DigitalAd from "../page/service/DigitalAd.jsx";
-import Ebookdesign from "../page/service/Ebookdesign.jsx";
-import WebsiteUIUXDesign from "../page/service/WebsiteUIUXDesign.jsx";
-import IOSUIUXDesign from "../page/service/IOSUIUXDesign.jsx";
-import AndroidUIUXDesign from "../page/service/AndroidUIUXDesign.jsx";
-import ERPUIUXDesign from "../page/service/ERPUIUXDesign.jsx";
-import BackendUIUXDesign from "../page/service/BackendUIUXDesign.jsx";
-import NirajMandaliya from "../components/team/NirajMandaliya.jsx";
-import DhirajAhuja from "../components/team/DhirajAhuja.jsx";
-import Webflowthemedevelopment from "../page/service/Webflowthemedevelopment.jsx";
-import Figmatowebflow from "../page/service/Figmatowebflow.jsx";
-import Photoshoptowebflow from "../page/service/Photoshoptowebflow.jsx";
-import Htmltowebflow from "../page/service/Htmltowebflow.jsx";
-import Webflowintegration from "../page/service/Webflowintegration.jsx";
-import WordPress from "../page/service/WordPress.jsx";
-import CustomwordPresswebsite from "../page/service/CustomwordPresswebsite.jsx";
-import Webflowdevelopment from "../page/service/Webflowdevelopment.jsx";
-import Customwebflowdevelopment from "../page/service/Customwebflowdevelopment.jsx";
-import WooCommercedevelopment from "../page/service/WooCommercedevelopment.jsx";
-import WordPressseooptimization from "../page/service/WordPressseooptimization.jsx";
-import WordPressmigration from "../page/service/WordPressmigration.jsx";
-import BuddyBossdesign from "../page/service/BuddyBossdesign.jsx";
-import LearnDashdesign from "../page/service/LearnDashdesign.jsx";
-import Dokandesign from "../page/service/Dokandesign.jsx";
-import Responsivewordpressdesign from "../page/service/Responsivewordpressdesign.jsx";
-import FigmatowordPress from "../page/service/FigmatowordPress.jsx";
-import PhotoshoptowordPress from "../page/service/PhotoshoptowordPress.jsx";
-import Htmltowebflowdetail from "../components/service/Htmltowebflowdetail.jsx";
-import HtmltowordPress from "../page/service/HtmltowordPress.jsx";
-import Themeandplugin from "../page/service/Themeandplugin.jsx";
-import WooCommercedesign from "../page/service/WooCommercedesign.jsx";
-import WordPresswebsitemaintenancedetail from "../components/service/WordPresswebsitemaintenancedetail.jsx";
-import WordPresswebsitemaintenance from "../page/service/WordPresswebsitemaintenance.jsx";
-import Shopify from "../page/service/Shopify.jsx";
-import Customshopifystoredesign from "../page/service/Customshopifystoredesign.jsx";
-import Shopifythemecustomization from "../page/service/Shopifythemecustomization.jsx";
-import Shopifyseooptimization from "../page/service/Shopifyseooptimization.jsx";
-import Figmatoshopify from "../page/service/Figmatoshopify.jsx";
-import Photoshoptoshopify from "../page/service/Photoshoptoshopify.jsx";
-import Htmltoshopify from "../page/service/Htmltoshopify.jsx";
-import Shopifyappintegration from "../page/service/Shopifyappintegration.jsx";
-import Shopifyecommercemanagement from "../page/service/Shopifyecommercemanagement.jsx";
-import Reactjs from "../page/service/Reactjs.jsx";
-import Figmatoreact from "../page/service/Figmatoreact.jsx";
-import Photoshoptoreact from "../page/service/Photoshoptoreact.jsx";
-import Htmltoreact from "../page/service/Htmltoreact.jsx";
-import Reactjsperformance from "../page/service/Reactjsperformance.jsx";
-import Customreactjswebdetail from "../components/service/Customreactjswebdetail.jsx";
-import Customreactjsweb from "../page/service/Customreactjsweb.jsx";
-import Reactjscomponentdevelopmentdetail from "../components/service/Reactjscomponentdevelopmentdetail.jsx";
-import Reactjscomponentdevelopment from "../page/service/Reactjscomponentdevelopment.jsx";
-import Reactjsmobileappdetail from "../components/service/Reactjsmobileappdetail.jsx";
-import Reactjsmobileapp from "../page/service/Reactjsmobileapp.jsx";
-import Reactjswebsitedevelopment from "../page/service/Reactjswebsitedevelopment.jsx";
-import Reactjsuiuxdesign from "../page/service/Reactjsuiuxdesign.jsx";
-import Htmlcss from "../page/service/Htmlcss.jsx";
-import Customhtmlwebsitedesigndetail from "../components/service/Customhtmlwebsitedesigndetail.jsx";
-import Customhtmlwebsitedesign from "../page/service/Customhtmlwebsitedesign.jsx";
-import Templatecustomization from "../page/service/Templatecustomization.jsx";
-import Responsivewebdesign from "../page/service/Responsivewebdesign.jsx";
-import Crossbrowser from "../page/service/Crossbrowser.jsx";
-import Websiteredesign from "../page/service/Websiteredesign.jsx";
-import Digitalmarketing from "../page/service/Digitalmarketing.jsx";
-import Searchengineoptimization from "../page/service/Searchengineoptimization.jsx";
-import Socialmediamarketing from "../page/service/Socialmediamarketing.jsx";
-import Emailmarketing from "../page/service/Emailmarketing.jsx";
-import Googleads from "../page/service/Googleads.jsx";
-import Metaads from "../page/service/Metaads.jsx";
-import Sitemap from "../components/home-one/Sitemap/Sitemap.jsx";
-import CookiePolicy from "../components/home-one/cookie/CookiePolicy.jsx";
+const LayoutEight = lazy(() => import("../components/layout/LayoutEight.jsx"));
+const LayoutFive = lazy(() => import("../components/layout/LayoutFive.jsx"));
+const LayoutFour = lazy(() => import("../components/layout/LayoutFour.jsx"));
+const LayoutOne = lazy(() => import("../components/layout/LayoutOne.jsx"));
+const LayoutSeven = lazy(() => import("../components/layout/LayoutSeven.jsx"));
+const LayoutSix = lazy(() => import("../components/layout/LayoutSix.jsx"));
+const LayoutThree = lazy(() => import("../components/layout/LayoutThree.jsx"));
+const LayoutTwo = lazy(() => import("../components/layout/LayoutTwo.jsx"));
+const Layout = lazy(() => import("../components/layout/index.jsx"));
+const ErrorPage = lazy(() => import("../error-page"));
+const AboutUs = lazy(() => import("../page/AboutUs"));
+const ContactUs = lazy(() => import("../page/ContactUs"));
+const Pricing = lazy(() => import("../page/Pricing"));
+const Reset = lazy(() => import("../page/auth/ResetPassword.jsx"));
+const SignIn = lazy(() => import("../page/auth/SignIn"));
+const SignUp = lazy(() => import("../page/auth/SignUp"));
+const BlogGridPage = lazy(() => import("../page/blog/BlogGridPage.jsx"));
+const BlogPage = lazy(() => import("../page/blog/BlogPage.jsx"));
+const SingleBlogPage = lazy(() => import("../page/blog/SingleBlog.jsx"));
+const HomeFive = lazy(() => import("../page/home/HomeFive.jsx"));
+const HomeFour = lazy(() => import("../page/home/HomeFour.jsx"));
+const HomeOne = lazy(() => import("../page/home/HomeOne.jsx"));
+const HomeSeven = lazy(() => import("../page/home/HomeSeven.jsx"));
+const HomeSix = lazy(() => import("../page/home/HomeSix.jsx"));
+const HomeThree = lazy(() => import("../page/home/HomeThree.jsx"));
+const HomeTwo = lazy(() => import("../page/home/HomeTwo.jsx"));
+const PortfolioOneColumn = lazy(() => import("../page/portfolio/PortfolioOneColoum"));
+const PortfolioTwoColumn = lazy(() => import("../page/portfolio/PortfolioTwoColumn"));
+const SinglePortfolio = lazy(() => import("../page/portfolio/SinglePortfolio"));
+const Service = lazy(() => import("../page/service"));
+const UiuxDesign = lazy(() => import("../page/service/UiuxDesign.jsx"));
+const Team = lazy(() => import("../page/team"));
+const SingleTeam = lazy(() => import("../page/team/SingleTeam.jsx"));
+const CommingSoon = lazy(() => import("../page/utility/CommingSoon.jsx"));
+const Faq = lazy(() => import("../page/utility/Faq.jsx"));
+const TestimonialPage = lazy(() => import("../page/utility/Testimonial.jsx"));
+const WebDevelopment = lazy(() => import("../page/service/WebDevelopment.jsx"));
+const GraphicDesign = lazy(() => import("../page/service/GraphicDesign.jsx"));
+const LogoDesign = lazy(() => import("../page/service/LogoDesign.jsx"));
+const Seo = lazy(() => import("../page/service/Seo.jsx"));
+const SocialMedia = lazy(() => import("../page/service/SocialMedia.jsx"));
+const ServicePage = lazy(() => import("../components/home-one/services/ServicePage.jsx"));
+const TermsAndConditions = lazy(() => import("../components/home-one/terms/TermsAndConditions.jsx"));
+const Privacypolicy = lazy(() => import("../components/home-one/privacypolicy/privacypolicy.jsx"));
+const Industryweserve = lazy(() => import("../components/home-one/Industryweserve/industryserve.jsx"));
+const FlyerDesign = lazy(() => import("../page/service/FlyerDesign.jsx"));
+const HoardingDesign = lazy(() => import("../page/service/HoardingDesign.jsx"));
+const NewsletterDesign = lazy(() => import("../page/service/NewsletterDesign.jsx"));
+const PresentationDesign = lazy(() => import("../components/service/PresentationDesign.jsx"));
+const EventInvitation = lazy(() => import("../components/service/EventInvitation.jsx"));
+const CorporateProfile = lazy(() => import("../components/service/CorporateProfile.jsx"));
+const TradeShow = lazy(() => import("../page/service/TradeShow.jsx"));
+const BrandingIdentity = lazy(() => import("../page/service/BrandingIdentity.jsx"));
+const BrochureDesign = lazy(() => import("../page/service/BrochureDesign.jsx"));
+const PackagingDesign = lazy(() => import("../page/service/PackagingDesign.jsx"));
+const InfographicDesign = lazy(() => import("../page/service/InfographicDesign.jsx"));
+const MagazineBooklet = lazy(() => import("../page/service/MagazineBooklet.jsx"));
+const Menudesigncard = lazy(() => import("../page/service/Hotelmenu.jsx"));
+const AnnualReport = lazy(() => import("../page/service/AnnualReport.jsx"));
+const MotionGraphics = lazy(() => import("../page/service/MotionGraphics.jsx"));
+const SocialMediaBanner = lazy(() => import("../page/service/SocialMediaBanner.jsx"));
+const PosterDesign = lazy(() => import("../page/service/PosterDesign.jsx"));
+const AdvertisingDesign = lazy(() => import("../page/service/AdvertisingDesign.jsx"));
+const BusinessCard = lazy(() => import("../page/service/BusinessCard.jsx"));
+const CustomIllustration = lazy(() => import("../page/service/CustomIllustration.jsx"));
+const SignageDesign = lazy(() => import("../page/service/SignageDesign.jsx"));
+const DigitalAd = lazy(() => import("../page/service/DigitalAd.jsx"));
+const Ebookdesign = lazy(() => import("../page/service/Ebookdesign.jsx"));
+const WebsiteUIUXDesign = lazy(() => import("../page/service/WebsiteUIUXDesign.jsx"));
+const IOSUIUXDesign = lazy(() => import("../page/service/IOSUIUXDesign.jsx"));
+const AndroidUIUXDesign = lazy(() => import("../page/service/AndroidUIUXDesign.jsx"));
+const ERPUIUXDesign = lazy(() => import("../page/service/ERPUIUXDesign.jsx"));
+const BackendUIUXDesign = lazy(() => import("../page/service/BackendUIUXDesign.jsx"));
+const NirajMandaliya = lazy(() => import("../components/team/NirajMandaliya.jsx"));
+const DhirajAhuja = lazy(() => import("../components/team/DhirajAhuja.jsx"));
+const Webflowthemedevelopment = lazy(() => import("../page/service/Webflowthemedevelopment.jsx"));
+const Figmatowebflow = lazy(() => import("../page/service/Figmatowebflow.jsx"));
+const Photoshoptowebflow = lazy(() => import("../page/service/Photoshoptowebflow.jsx"));
+const Htmltowebflow = lazy(() => import("../page/service/Htmltowebflow.jsx"));
+const Webflowintegration = lazy(() => import("../page/service/Webflowintegration.jsx"));
+const WordPress = lazy(() => import("../page/service/WordPress.jsx"));
+const CustomwordPresswebsite = lazy(() => import("../page/service/CustomwordPresswebsite.jsx"));
+const Webflowdevelopment = lazy(() => import("../page/service/Webflowdevelopment.jsx"));
+const Customwebflowdevelopment = lazy(() => import("../page/service/Customwebflowdevelopment.jsx"));
+const WooCommercedevelopment = lazy(() => import("../page/service/WooCommercedevelopment.jsx"));
+const WordPressseooptimization = lazy(() => import("../page/service/WordPressseooptimization.jsx"));
+const WordPressmigration = lazy(() => import("../page/service/WordPressmigration.jsx"));
+const BuddyBossdesign = lazy(() => import("../page/service/BuddyBossdesign.jsx"));
+const LearnDashdesign = lazy(() => import("../page/service/LearnDashdesign.jsx"));
+const Dokandesign = lazy(() => import("../page/service/Dokandesign.jsx"));
+const Responsivewordpressdesign = lazy(() => import("../page/service/Responsivewordpressdesign.jsx"));
+const FigmatowordPress = lazy(() => import("../page/service/FigmatowordPress.jsx"));
+const PhotoshoptowordPress = lazy(() => import("../page/service/PhotoshoptowordPress.jsx"));
+const Htmltowebflowdetail = lazy(() => import("../components/service/Htmltowebflowdetail.jsx"));
+const HtmltowordPress = lazy(() => import("../page/service/HtmltowordPress.jsx"));
+const Themeandplugin = lazy(() => import("../page/service/Themeandplugin.jsx"));
+const WooCommercedesign = lazy(() => import("../page/service/WooCommercedesign.jsx"));
+const WordPresswebsitemaintenancedetail = lazy(() => import("../components/service/WordPresswebsitemaintenancedetail.jsx"));
+const WordPresswebsitemaintenance = lazy(() => import("../page/service/WordPresswebsitemaintenance.jsx"));
+const Shopify = lazy(() => import("../page/service/Shopify.jsx"));
+const Customshopifystoredesign = lazy(() => import("../page/service/Customshopifystoredesign.jsx"));
+const Shopifythemecustomization = lazy(() => import("../page/service/Shopifythemecustomization.jsx"));
+const Shopifyseooptimization = lazy(() => import("../page/service/Shopifyseooptimization.jsx"));
+const Figmatoshopify = lazy(() => import("../page/service/Figmatoshopify.jsx"));
+const Photoshoptoshopify = lazy(() => import("../page/service/Photoshoptoshopify.jsx"));
+const Htmltoshopify = lazy(() => import("../page/service/Htmltoshopify.jsx"));
+const Shopifyappintegration = lazy(() => import("../page/service/Shopifyappintegration.jsx"));
+const Shopifyecommercemanagement = lazy(() => import("../page/service/Shopifyecommercemanagement.jsx"));
+const Reactjs = lazy(() => import("../page/service/Reactjs.jsx"));
+const Figmatoreact = lazy(() => import("../page/service/Figmatoreact.jsx"));
+const Photoshoptoreact = lazy(() => import("../page/service/Photoshoptoreact.jsx"));
+const Htmltoreact = lazy(() => import("../page/service/Htmltoreact.jsx"));
+const Reactjsperformance = lazy(() => import("../page/service/Reactjsperformance.jsx"));
+const Customreactjswebdetail = lazy(() => import("../components/service/Customreactjswebdetail.jsx"));
+const Customreactjsweb = lazy(() => import("../page/service/Customreactjsweb.jsx"));
+const Reactjscomponentdevelopmentdetail = lazy(() => import("../components/service/Reactjscomponentdevelopmentdetail.jsx"));
+const Reactjscomponentdevelopment = lazy(() => import("../page/service/Reactjscomponentdevelopment.jsx"));
+const Reactjsmobileappdetail = lazy(() => import("../components/service/Reactjsmobileappdetail.jsx"));
+const Reactjsmobileapp = lazy(() => import("../page/service/Reactjsmobileapp.jsx"));
+const Reactjswebsitedevelopment = lazy(() => import("../page/service/Reactjswebsitedevelopment.jsx"));
+const Reactjsuiuxdesign = lazy(() => import("../page/service/Reactjsuiuxdesign.jsx"));
+const Htmlcss = lazy(() => import("../page/service/Htmlcss.jsx"));
+const Customhtmlwebsitedesigndetail = lazy(() => import("../components/service/Customhtmlwebsitedesigndetail.jsx"));
+const Customhtmlwebsitedesign = lazy(() => import("../page/service/Customhtmlwebsitedesign.jsx"));
+const Templatecustomization = lazy(() => import("../page/service/Templatecustomization.jsx"));
+const Responsivewebdesign = lazy(() => import("../page/service/Responsivewebdesign.jsx"));
+const Crossbrowser = lazy(() => import("../page/service/Crossbrowser.jsx"));
+const Websiteredesign = lazy(() => import("../page/service/Websiteredesign.jsx"));
+const Digitalmarketing = lazy(() => import("../page/service/Digitalmarketing.jsx"));
+const Searchengineoptimization = lazy(() => import("../page/service/Searchengineoptimization.jsx"));
+const Socialmediamarketing = lazy(() => import("../page/service/Socialmediamarketing.jsx"));
+const Emailmarketing = lazy(() => import("../page/service/Emailmarketing.jsx"));
+const Googleads = lazy(() => import("../page/service/Googleads.jsx"));
+const Metaads = lazy(() => import("../page/service/Metaads.jsx"));
+const Sitemap = lazy(() => import("../components/home-one/Sitemap/Sitemap.jsx"));
+const CookiePolicy = lazy(() => import("../components/home-one/cookie/CookiePolicy.jsx"));
 
 
 
@@ -199,167 +199,167 @@ export const router = createBrowserRouter([
 					},
 					{
 						path: "/meta-ads",
-						element: <Metaads/>,
+						element: <Metaads />,
 					},
 					{
 						path: "/sitemap",
-						element: <Sitemap/>,
+						element: <Sitemap />,
 					},
 					{
 						path: "/google-ads",
-						element: <Googleads/>,
+						element: <Googleads />,
 					},
 					{
 						path: "/email-marketing",
-						element: <Emailmarketing/>,
+						element: <Emailmarketing />,
 					},
 					{
 						path: "/social-media-marketing",
-						element: <Socialmediamarketing/>,
+						element: <Socialmediamarketing />,
 					},
 					{
 						path: "/search-engine-optimization",
-						element: <Searchengineoptimization/>,
+						element: <Searchengineoptimization />,
 					},
 					{
 						path: "/digital-marketing",
-						element: <Digitalmarketing/>,
+						element: <Digitalmarketing />,
 					},
 					{
 						path: "/website-redesign-and-revamp",
-						element: <Websiteredesign/>,
+						element: <Websiteredesign />,
 					},
 					{
 						path: "/cross-browser-compatibility-testing",
-						element: <Crossbrowser/>,
+						element: <Crossbrowser />,
 					},
 					{
 						path: "/responsive-web-design",
-						element: <Responsivewebdesign/>,
+						element: <Responsivewebdesign />,
 					},
 					{
 						path: "/template-customization",
-						element: <Templatecustomization/>,
+						element: <Templatecustomization />,
 					},
 					{
 						path: "/custom-html-website-design",
-						element: <Customhtmlwebsitedesign/>,
+						element: <Customhtmlwebsitedesign />,
 					},
 					{
 						path: "/html-css",
-						element: <Htmlcss/>,
+						element: <Htmlcss />,
 					},
 					{
 						path: "/reactjs-ui-ux-design-and-development",
-						element: <Reactjsuiuxdesign/>,
+						element: <Reactjsuiuxdesign />,
 					},
 					{
 						path: "/reactjs-ssr-website-development",
-						element: <Reactjswebsitedevelopment/>,
+						element: <Reactjswebsitedevelopment />,
 					},
 					{
 						path: "/reactjs-mobile-app-development",
-						element: <Reactjsmobileapp/>,
+						element: <Reactjsmobileapp />,
 					},
 					{
 						path: "/reactjs-component-development-and-integration",
-						element: <Reactjscomponentdevelopment/>,
+						element: <Reactjscomponentdevelopment />,
 					},
 					{
 						path: "/custom-reactjs-web-application-development",
-						element: <Customreactjsweb/>,
+						element: <Customreactjsweb />,
 					},
 					{
 						path: "/reactjs-performance-optimization",
-						element: <Reactjsperformance/>,
+						element: <Reactjsperformance />,
 					},
 					{
 						path: "/photoshop-to-react",
-						element: <Photoshoptoreact/>,
+						element: <Photoshoptoreact />,
 					},
 					{
 						path: "/html-to-react",
-						element: <Htmltoreact/>,
+						element: <Htmltoreact />,
 					},
 					{
 						path: "/figma-to-react",
-						element: <Figmatoreact/>,
+						element: <Figmatoreact />,
 					},
 					{
 						path: "/react-js",
-						element: <Reactjs/>,
+						element: <Reactjs />,
 					},
 					{
 						path: "/shopify-ecommerce-management-and-support",
-						element: <Shopifyecommercemanagement/>,
+						element: <Shopifyecommercemanagement />,
 					},
 					{
 						path: "/shopify-app-integration-and-development",
-						element: <Shopifyappintegration/>,
+						element: <Shopifyappintegration />,
 					},
 					{
 						path: "/html-to-shopify",
-						element: <Htmltoshopify/>,
+						element: <Htmltoshopify />,
 					},
 					{
 						path: "/photoshop-to-shopify",
-						element: <Photoshoptoshopify/>,
+						element: <Photoshoptoshopify />,
 					},
 					{
 						path: "/figma-to-shopify",
-						element: <Figmatoshopify/>,
+						element: <Figmatoshopify />,
 					},
 					{
 						path: "/shopify-seo-optimization",
-						element: <Shopifyseooptimization/>,
+						element: <Shopifyseooptimization />,
 					},
 					{
 						path: "/shopify-theme-customization",
-						element: <Shopifythemecustomization/>,
+						element: <Shopifythemecustomization />,
 					},
 					{
 						path: "/custom-shopify-store-design",
-						element: <Customshopifystoredesign/>,
+						element: <Customshopifystoredesign />,
 					},
 					{
 						path: "/shopify",
-						element: <Shopify/>,
+						element: <Shopify />,
 					},
 					{
 						path: "/wordpress-website-maintenance-and-support",
-						element: <WordPresswebsitemaintenance/>,
+						element: <WordPresswebsitemaintenance />,
 					},
 					{
 						path: "/woocommerce-design-and-development",
-						element: <WooCommercedesign/>,
+						element: <WooCommercedesign />,
 					},
 					{
 						path: "/theme-and-plugin-customization",
-						element: <Themeandplugin/>,
+						element: <Themeandplugin />,
 					},
 					{
 						path: "/html-to-wordpress",
-						element: <HtmltowordPress/>,
+						element: <HtmltowordPress />,
 					},
 					{
 						path: "/photoshop-to-wordpress",
-						element: <PhotoshoptowordPress/>,
+						element: <PhotoshoptowordPress />,
 					},
 					{
 						path: "/figma-to-wordpress",
-						element: <FigmatowordPress/>,
+						element: <FigmatowordPress />,
 					},
 					{
 						path: "/responsive-wordpress-design",
-						element: <Responsivewordpressdesign/>,
+						element: <Responsivewordpressdesign />,
 					},
 					{
 						path: "/dokan-design-and-development",
-						element: <Dokandesign/>,
+						element: <Dokandesign />,
 					},
 					{
 						path: "/learndash-design-and-development",
-						element: <LearnDashdesign/>,
+						element: <LearnDashdesign />,
 					},
 					{
 						path: "/buddyboss-design-and-development",
@@ -387,7 +387,7 @@ export const router = createBrowserRouter([
 						element: <Webflowdevelopment />,
 
 					},
-					
+
 					{
 						path: "/custom-wordpress-website-design",
 						element: <CustomwordPresswebsite />,
@@ -431,167 +431,167 @@ export const router = createBrowserRouter([
 					{
 						path: "/web-development-company-in-ahmedabad",
 						element: <WebDevelopment />,
-						
+
 					},
 					{
 						path: "/graphic-design-company-in-ahmedabad",
 						element: <GraphicDesign />,
-						
+
 					},
 					{
 						path: "/Flyer-Design",
 						element: <FlyerDesign />,
-						
+
 					},
 					{
 						path: "/Hoarding-Design",
-						element: <HoardingDesign/>,
-						
+						element: <HoardingDesign />,
+
 					},
 					{
 						path: "/Newsletter-Design",
-						element: <NewsletterDesign/>,
-						
+						element: <NewsletterDesign />,
+
 					},
 					{
 						path: "/presentation-design",
-						element: <PresentationDesign/>,
-						
+						element: <PresentationDesign />,
+
 					},
 					{
 						path: "/event-invitation-design",
-						element: <EventInvitation/>,
-						
+						element: <EventInvitation />,
+
 					},
 					{
 						path: "/advertising-design",
-						element: <AdvertisingDesign/>,
-						
+						element: <AdvertisingDesign />,
+
 					},
 					{
 						path: "/corporate-profile-design",
-						element: <CorporateProfile/>,
-						
+						element: <CorporateProfile />,
+
 					},
 					{
 						path: "/trade-show-booth-design",
-						element: <TradeShow/>,
-						
+						element: <TradeShow />,
+
 					},
 					{
 						path: "/branding-and-identity-design",
-						element: <BrandingIdentity/>,
-						
+						element: <BrandingIdentity />,
+
 					},
 					{
 						path: "/brochure-design",
-						element: <BrochureDesign/>,
-						
+						element: <BrochureDesign />,
+
 					},
 					{
 						path: "/packaging-design",
-						element: <PackagingDesign/>,
-						
+						element: <PackagingDesign />,
+
 					},
 					{
 						path: "/infographic-design",
-						element: <InfographicDesign/>,
-						
+						element: <InfographicDesign />,
+
 					},
 					{
 						path: "/magazine-and-booklet-design",
-						element: <MagazineBooklet/>,
-						
+						element: <MagazineBooklet />,
+
 					},
 					{
 						path: "/menu-design",
-						element: <Menudesigncard/>,
-						
+						element: <Menudesigncard />,
+
 					},
 					{
 						path: "/annual-report-design",
-						element: <AnnualReport/>,
-						
+						element: <AnnualReport />,
+
 					},
 					{
 						path: "/motion-graphics-design",
-						element: <MotionGraphics/>,
-						
+						element: <MotionGraphics />,
+
 					},
 					{
 						path: "/social-media-banner-design",
-						element: <SocialMediaBanner/>,
-						
+						element: <SocialMediaBanner />,
+
 					},
 					{
 						path: "/business-card-design",
-						element: <BusinessCard/>,
-						
+						element: <BusinessCard />,
+
 					},
 					{
 						path: "/custom-illustration-design",
-						element: <CustomIllustration/>,
-						
+						element: <CustomIllustration />,
+
 					},
 					{
 						path: "/signage-design",
-						element: <SignageDesign/>,
-						
+						element: <SignageDesign />,
+
 					},
 					{
 						path: "/digital-ad-design",
-						element: <DigitalAd/>,
-						
+						element: <DigitalAd />,
+
 					},
 					{
 						path: "/e-book-design",
-						element: <Ebookdesign/>,
-						
+						element: <Ebookdesign />,
+
 					},
 					{
 						path: "/poster-design",
-						element: <PosterDesign/>,
-						
+						element: <PosterDesign />,
+
 					},
 					{
 						path: "/logo-design-company-ahmedabad",
 						element: <LogoDesign />,
-						
+
 					},
 					{
 						path: "/website-ui-ux-design",
-						element: <WebsiteUIUXDesign/>,
-						
+						element: <WebsiteUIUXDesign />,
+
 					},
 					{
 						path: "/ios-ui-ux-design",
-						element: <IOSUIUXDesign/>,
-						
+						element: <IOSUIUXDesign />,
+
 					},
 					{
 						path: "/android-ui-ux-design",
-						element: <AndroidUIUXDesign/>,
-						
+						element: <AndroidUIUXDesign />,
+
 					},
 					{
 						path: "/erp-ui-ux-design",
-						element: <ERPUIUXDesign/>,
-						
+						element: <ERPUIUXDesign />,
+
 					},
 					{
 						path: "/backend-ui-ux-design",
-						element: <BackendUIUXDesign/>,
-						
+						element: <BackendUIUXDesign />,
+
 					},
 					{
 						path: "/seo-company-in-ahmedabad",
 						element: <Seo />,
-						
+
 					},
 					{
 						path: "/social-media-marketing-agency-ahmedabad",
 						element: <SocialMedia />,
-						
+
 					},
 					{
 						path: "/team",
@@ -604,11 +604,11 @@ export const router = createBrowserRouter([
 					{
 						path: "/niraj-mandaliya",
 						element: <NirajMandaliya />,
-					  },
-					  {
+					},
+					{
 						path: "/dhiraj-ahuja",
 						element: <DhirajAhuja />,
-					  },
+					},
 					{
 						path: "/portfolio-one",
 						element: <PortfolioOneColumn />,
@@ -627,21 +627,21 @@ export const router = createBrowserRouter([
 					},
 					{
 						path: "/service",
-						element: <ServicePage/>,
+						element: <ServicePage />,
 					},
 					{
 						path: "/terms-and-conditions",
-						element: <TermsAndConditions/>,
+						element: <TermsAndConditions />,
 					},
 					{
 						path: "/privacy-policy",
-						element: <Privacypolicy/>,
+						element: <Privacypolicy />,
 					},
 					{
 						path: "/cookie-policy",
-						element: <CookiePolicy/>,
+						element: <CookiePolicy />,
 					},
-				
+
 				],
 			},
 			{

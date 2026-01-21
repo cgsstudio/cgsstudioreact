@@ -9,6 +9,7 @@ export default defineConfig({
     alias: {
       '@': path.resolve(__dirname, './src'),  // @ maps to src directory
       'react-helmet': 'react-helmet-async',
+      'lottie-web': 'lottie-web/build/player/lottie_light',
     },
   },
   // Optimize build output
