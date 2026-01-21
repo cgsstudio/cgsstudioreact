@@ -169,6 +169,7 @@ const pages = [
   { url: "/blog/ai-powered-qa-testing-tools-future-software-quality", changefreq: "monthly", priority: 0.6 },
   { url: "/blog/future-of-ui-ux-design-human-centered-ai", changefreq: "monthly", priority: 0.6 },
   { url: "/blog/linkedin-marketing-for-b2b-brands-complete-guide", changefreq: "monthly", priority: 0.6 },
+  { url: "/blog/human-ai-collaboration-in-design", changefreq: "monthly", priority: 0.6 },
 
 
 

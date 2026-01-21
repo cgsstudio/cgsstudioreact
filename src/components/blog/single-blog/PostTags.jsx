@@ -25,7 +25,7 @@ function PostTags({ tags = [] }) {
 	return (
 		<div className="post-tag-wrap">
 			<div className="post-tag">
-				<h3>Tags:</h3>
+				<h3 style={{ padding: "20px 0px" }}>Tags:</h3>
 				<div className="wp-block-tag-cloud">
 					{/* Render tags dynamically. Each tag links to /blogs?tag=... */}
 					{tags && tags.length > 0 ? (
@@ -46,7 +46,7 @@ function PostTags({ tags = [] }) {
 					)}
 				</div>
 			</div>
-			<div className="post-like-comment">
+			<div className="post-like-comment" style={{ padding: "20px 0px" }}>
 				<ul className="post-like">
 					<li>
 						<button onClick={handleLike} className="like-button">
@@ -54,7 +54,7 @@ function PostTags({ tags = [] }) {
 							{likes}
 						</button>
 					</li>
-				
+
 				</ul>
 			</div>
 		</div>

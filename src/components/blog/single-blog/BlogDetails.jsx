@@ -2,7 +2,6 @@ import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import { Helmet } from "react-helmet-async";  // Importing Helmet
 import PostMeta from "./PostMeta";
-import PostTags from "./PostTags";
 import CommentForm from "./CommentForm";
 
 
@@ -42,7 +41,6 @@ function BlogDetails({ blog }) {
                 <div className="entry-content">
                     <h1 className="blog-h1 mb-3">{blog.title}</h1>
                     <div dangerouslySetInnerHTML={{ __html: blog.fullContent }} />
-                    <PostTags tags={blog.keywords} />
                 </div>
                 {/* <CommentForm /> */}
                 {/* <CommentList /> */}

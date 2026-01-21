@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import BlogDetails from "./BlogDetails";
+import PostTags from "./PostTags";
 import RecentPosts from "../RecentPosts";
 import Search from "../Search";
 import { BlogData } from "../BlogData";
@@ -25,16 +26,17 @@ function SingleBlog() {
         <meta name="keywords" content={blog.keywords.join(", ")} />
       </Helmet>
       <div className="container">
-        <div className="row justify-content-center">
+        <div className="row">
           <div className="col-lg-8">
             <BlogDetails blog={blog} />
           </div>
-          {/* <div className="col-lg-4">
-            <div className="right-sidebar">
-              <Search />
-              <RecentPosts />
+          <div className="col-lg-4">
+            <div className="right-sidebar tag_sidebar">
+              <PostTags tags={blog.keywords} />
+              {/* <Search />
+              <RecentPosts /> */}
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>

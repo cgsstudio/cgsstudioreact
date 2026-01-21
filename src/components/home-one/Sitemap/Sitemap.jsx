@@ -209,6 +209,7 @@ const sitemapData = [
       { text: "AI-Powered QA & Testing Tools Shaping the Future of Software Quality", link: "/blog/ai-powered-qa-testing-tools-future-software-quality" },
       { text: "The Future of UI/UX Design: Human-Centered Experiences in an AI World", link: "/blog/future-of-ui-ux-design-human-centered-ai" },
       { text: "LinkedIn Marketing for B2B Brands: A Complete Guide", link: "/blog/linkedin-marketing-for-b2b-brands-complete-guide" },
+      { text: "Human-AI Collaboration in Design: Where Creativity Meets Technology", link: "/blog/human-ai-collaboration-in-design" },
 
 
 

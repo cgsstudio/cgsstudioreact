@@ -11233,6 +11233,12 @@ a.post-read-more:hover img {
 	margin-left: 10px;
 }
 
+.tag_sidebar {
+	border-radius: 10px;
+	border: 1px solid black;
+	padding: 15px;
+}
+
 @media (max-width: 991px) {
 	.right-sidebar {
 		margin-top: 50px;
@@ -11362,7 +11368,7 @@ a.post-read-more:hover img {
 	font-size: 16px !important;
 	line-height: 23px;
 	display: inline-block;
-	border-radius: 50px;
+	border-radius: 10px;
 	letter-spacing: 0.5px;
 	color: white !important;
 	background-color: black !important;
@@ -11447,17 +11453,14 @@ button#wp-block-search__button {
 }
 
 .post-tag {
-	display: flex;
+
 	align-items: center;
 }
 
 .post-tag-wrap {
-	display: flex;
+
 	align-items: center;
 	justify-content: space-between;
-	padding: 25px 0;
-	border-top: 1px solid #e6e6e6;
-	border-bottom: 1px solid #e6e6e6;
 }
 
 @media (max-width: 767px) {
@@ -12727,4 +12730,12 @@ button#aximo-notified-btn {
 		padding-left: 0 !important;
 		padding-right: 0 !important;
 	}
+}
+
+/* Right Sidebar Sticky for Blog Single Page */
+.right-sidebar {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 130px;
+	height: fit-content;
 }
