@@ -6126,9 +6126,8 @@ a.aximo-service-icon:hover {
 }
 
 /* Accordion one */
-.aximo-accordion-wrap {
-	margin-left: 50px;
-	margin-right: 3px;
+.aximo-accordion-wrap h3.accordion-header {
+	font-size: 24px !important;
 }
 
 @media (max-width: 1199px) {
@@ -11357,10 +11356,24 @@ a.post-read-more:hover img {
 	border-radius: 10px;
 }
 
+.responsive-img {
+	width: 100%;
+	height: 600px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+	.responsive-img {
+		height: 350px !important;
+	}
+}
+
 .widget .tagcloud a,
 .widget .wp-block-tag-cloud a,
 .wp-block-tag-cloud a {
-	padding: 9px 24px;
+	padding: 9px 15px;
 	margin-right: 6px;
 	margin-bottom: 10px;
 	font-style: normal;

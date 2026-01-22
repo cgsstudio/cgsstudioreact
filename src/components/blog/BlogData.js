@@ -6317,14 +6317,14 @@ creating compatibility issues, and opening security gaps</p>
         <h2 class="blog-h2" id="link-2">Introduction: The Partnership, Not the Replacement</h2>
         <p>The conversation around <b>AI in graphic design</b> has often been framed in extremes: either as an existential threat to creatives or a magical button for instant artwork. The reality, as leading <b>Graphic Design Companies in Ahmedabad</b> and worldwide are discovering, is far more nuanced and powerful. The true revolution lies not in AI replacing the designer but in <b>AI-powered design</b> tools augmenting human creativity, strategy, and efficiency.</p>
         <p>This synergy, which we term <b>human-AI design collaboration</b>, is creating a new paradigm. It allows designers to offload repetitive tasks, generate unprecedented volumes of ideas, and personalize at scale, while they focus on what humans do best: conceptual thinking, emotional intelligence, cultural nuance, and strategic storytelling. For any business seeking cutting-edge branding and marketing, partnering with a <a class="blogtitle" href="https://chameleogfxstudio.com/graphic-design-company-in-ahmedabad">graphic design agency in Ahmedabad</a> that understands this balance is no longer a luxury; it’s a strategic necessity.</p>
-       <img src="/image/cgs_1.png" alt="human-AI design collaboration" style="width:100%;height:600px;margin-top:15px;margin-bottom:15px;border-radius:8px;" />
+       <img src="/image/cgs_1.png" alt="human-AI design collaboration" class="responsive-img" />
 
         </br>
 
-        <div class="bg-black  p-3">         
+        <div class="bg-black rounded-3  p-3">         
         <h3 class="text-white mb-2">Is your brand design feeling old?</h3>
         <p class="text-white mb-2">Let us show you a fun and smart way where people and AI create better designs together. </p>
-        <button class="bg-red fw-bold text-white p-2 rounded br-2" href="https://api.whatsapp.com/send/?phone=918460384838&text&type=phone_number&app_absent=0"><b>Book a Free Design Strategy Call</b></button>
+        <a href="https://api.whatsapp.com/send/?phone=918460384838&text&type=phone_number&app_absent=0" class="bg-red fw-bold text-white p-2 rounded br-2"> Book a Free Design Strategy Call</a>
         </div>
         <br>
 
@@ -6338,7 +6338,7 @@ creating compatibility issues, and opening security gaps</p>
     </ul><br>
 
     <p>This <b>creative collaboration with AI</b> amplifies the designer’s capabilities. As noted in a seminal blog on <b>AI and creativity in design</b> by Adobe’s blog, the tools are shifting from mere utilities to "<a class="blogtitle" href="https://copilot.microsoft.com/">co-pilots</a>" actively participating in the <b>AI design workflow</b>. The result is a faster, more exploratory, and often more innovative process.</p>
-    <img src="/image/CGS_3.png" alt="AI and creativity in design " style="width:100%;height:auto;margin-top:15px;margin-bottom:15px;border-radius:8px;" />
+    <img src="/image/CGS_3.png" alt="AI and creativity in design " class="responsive-img"/>
     <h2 class="blog-h2" id="link-4">AI in the Graphic Design Workflow: From Concept to Final Art</h2>
     <p>Let’s demystify how <b>AI tools for designers</b> are integrated into a professional <b>AI-driven design process</b> at a forward-thinking agency. This isn't about one-click logos; it's about an enhanced, phase-by-phase approach.</p>
     <ul class="bloglistitem">
@@ -6349,12 +6349,13 @@ creating compatibility issues, and opening security gaps</p>
     </ul><br>
   
     <p>This integrated <b>AI design workflow</b> ensures speed and volume without sacrificing the <b>human-centered AI design</b> touch that makes work resonate.</p>  
-    <img src="/image/CGS_4.png" alt="human-AI design collaboration" style="width:100%;height:600px;margin-top:15px;margin-bottom:15px;border-radius:8px;" />
+    <img src="/image/CGS_4.png" alt="human-AI design collaboration" class="responsive-img"/>
 
     <div class="bg-black rounded-3 p-3">         
     <h3 class="text-white mb-2">Want to see how AI and creativity work together?</h3>
     <p class="text-white mb-2">Let our expert team of designers give the best output. </p>
-    <button class="bg-red fw-bold text-white p-2 rounded br-2" href="https://chameleogfxstudio.com/digital-marketing-agency-ahmedabad/">See Our Process</button>
+   <a href="https://chameleogfxstudio.com/digital-marketing-agency-ahmedabad/" class="bg-red fw-bold text-white p-2 rounded br-2"> See Our Process</a>
+
     </div>
     <br>
 
@@ -6366,7 +6367,7 @@ creating compatibility issues, and opening security gaps</p>
       <li><b>Ethical & Original Output :</b> A professional agency uses AI ethically, ensuring the final artwork is original, copyright-compliant, and free from the biases that can exist in AI training data. The human guarantees uniqueness.</li>
       <li><b>Iterative Dialogue :</b> The best work comes from a "conversation." The designer inputs a prompt, evaluates the AI's output, refines the prompt, and guides the tool iteratively toward the desired vision.</li>
     </ul>
-    <img src="/image/CGS_5.png" alt="human-AI design collaboration" style="width:100%;height:600px ;margin-top:15px;margin-bottom:15px;border-radius:8px;" />
+    <img src="/image/CGS_5.png" alt="human-AI design collaboration" class="responsive-img"/>
 
       <h2 class="blog-h2" id="link-6">Local Insight Meets Global Technology</h2>
       <p>Why does finding the <a class="blogtitle" href="https://chameleogfxstudio.com/graphic-design-company-in-ahmedabad">best graphic design company in Ahmedabad</a> matter in this context? Because the most powerful human-AI design collaboration is one that is also deeply human-centered. A local agency brings an irreplaceable layer:</p>
@@ -6377,7 +6378,7 @@ creating compatibility issues, and opening security gaps</p>
       </ul>
     <br>
     <p>When this local expertise is fused with global AI tools for designers, the result is design that is both technologically cutting-edge and culturally resonant a formidable combination for any brand targeting the Ahmedabad market or beyond.</p>
-    <img src="/image/cgs_2.png" alt="human-AI design collaboration" style="width:100%;height:600px ;margin-top:15px;margin-bottom:15px;border-radius:8px;" />
+    <img src="/image/cgs_2.png" alt="human-AI design collaboration" class="responsive-img"/>
     <h2 class="blog-h2" id="link-7">Choosing the Right Partner: A Graphic Design Agency for the AI Era</h2>
     <p>As you seek a <b>Graphic Design Agency in Ahmedabad</b>, look for these signs that they are leading in the age of AI collaboration:</p>
 
@@ -6389,11 +6390,7 @@ creating compatibility issues, and opening security gaps</p>
      </ul>
      <br>
 
-      <div class="bg-black rounded-3 p-3">         
-        <h3 class="text-white mb-2">Looking for a partner that blends Ahmedabad's creative spirit with AI's power? </h3>
-        <p class="text-white mb-0">a Graphic Design Company in Ahmedabad built for this new era. Let's discuss your vision. <a href="https://chameleogfxstudio.com/" class="blogtitle">Partner with Us</a> or call <a href="tel:+918460384838" class="blogtitle">+91-846-038-4838</a></p>
-       </div>
-        <br>
+     
 
        <div class="blog_faq_accordion">
        <div class="aximo-accordion-wrap" id="aximo-accordion-blog" style="margin-top: 30px;">
@@ -6469,9 +6466,23 @@ creating compatibility issues, and opening security gaps</p>
     <h3 class="text-white mb-0 lh-sm">Ready to leverage this powerful collaboration for your brand?</h3>
     <p class="text-white mb-0">At <b>Chameleo GFX Studio</b>, we combine the creative heart owith the transformative power of <b>AI-assisted design</b>. Let’s co-create your brand’s future.</p>
     <br>
-    <p class="text-white mb-0"><b>Contact us today to begin</b></p>
-    <p class="text-white mb-0"><b>Visit:</b> <a href="https://chameleogfxstudio.com/contact-us" class="blogtitle">https://chameleogfxstudio.com/contact-us</a></p>
-    <p class="text-white mb-0"><b>Call:</b> <a href="tel:+918460384838" class="blogtitle">+91-846-038-4838</a></p>
+    <p class="text-white mb-0 "><b>Contact us today to begin</b></p>
+   <div class="d-flex gap-3 flex-wrap ">
+  <a 
+    href="https://chameleogfxstudio.com/contact-us"
+    class="bg-red text-white fw-bold px-4 py-2 rounded br-2 text-decoration-none"
+  >
+    Visit
+  </a>
+
+  <a 
+    href="tel:+918460384838"
+    class="bg-red text-white fw-bold px-4 py-2  rounded br-2 text-decoration-none"
+  >
+    Call Us
+  </a>
+</div>
+
     </div> 
     <br>
       `,
@@ -6491,7 +6502,7 @@ creating compatibility issues, and opening security gaps</p>
       "human AI design collaboration",
       "AI powered design",
       "Graphic Design Company in Ahmedabad",
-      "Best Graphic Design Company in Ahmedabad",
+      "Graphic Design Company in Ahmedabad",
       "Graphic Design Agency in Ahmedabad"
     ]
   }

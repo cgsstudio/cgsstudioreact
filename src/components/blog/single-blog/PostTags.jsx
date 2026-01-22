@@ -46,7 +46,7 @@ function PostTags({ tags = [] }) {
 					)}
 				</div>
 			</div>
-			<div className="post-like-comment" style={{ padding: "20px 0px" }}>
+			{/* <div className="post-like-comment" style={{ padding: "20px 0px" }}>
 				<ul className="post-like">
 					<li>
 						<button onClick={handleLike} className="like-button">
@@ -56,7 +56,7 @@ function PostTags({ tags = [] }) {
 					</li>
 
 				</ul>
-			</div>
+			</div> */}
 		</div>
 	);
 }
