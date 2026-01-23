@@ -54,7 +54,7 @@ import Blog53Img from '../../assets/images/blog/chameleo 33.webp';
 import Blog54Img from '../../assets/images/blog/chameleo 34.webp';
 import Blog55Img from '../../assets/images/blog/chameleo 35.webp';
 import Blog56Img from '../../assets/images/blog/chameleo 36.webp';
-import Blog57Img from '../../assets/images/blog/chameleo 36.webp';
+import Blog57Img from '../../assets/images/blog/chameleo 37.jpg';
 
 
 
