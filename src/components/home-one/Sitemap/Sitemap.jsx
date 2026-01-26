@@ -210,6 +210,7 @@ const sitemapData = [
       { text: "The Future of UI/UX Design: Human-Centered Experiences in an AI World", link: "/blog/future-of-ui-ux-design-human-centered-ai" },
       { text: "LinkedIn Marketing for B2B Brands: A Complete Guide", link: "/blog/linkedin-marketing-for-b2b-brands-complete-guide" },
       { text: "Human-AI Collaboration in Design: Where Creativity Meets Technology", link: "/blog/human-ai-collaboration-in-design" },
+      { text: "Why Strong Branding Is Essential for Small Businesses?", link: "/blog/strong-branding-for-small-businesses" },
 
 
 
