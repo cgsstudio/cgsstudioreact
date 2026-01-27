@@ -123,7 +123,7 @@ const services = [
   {
     title: "Digital Marketing",
     items: [
-      { text: "Digital Marketing", link: "/digital-marketing" },
+      { text: "Digital Marketing", link: "/digital-marketing-agency-india" },
       { text: "Search Engine Optimization (SEO)", link: "/search-engine-optimization" },
       { text: "Social Media Marketing", link: "/social-media-marketing" },
       { text: "Email Marketing", link: "/email-marketing" },
@@ -131,7 +131,7 @@ const services = [
       { text: "Meta Ads", link: "/meta-ads" },
     ],
   },
-  
+
 ];
 
 function ServicePage() {
@@ -168,10 +168,10 @@ function ServicePage() {
             {service.categories &&
               service.categories.map((category, catIndex) => (
                 <div key={catIndex} className="mb-4">
-                 <h4 className="mb-3 subtitle-heading link-page-subtitle">
-                  <a href={category.subtitleLink} rel="noopener noreferrer">
-                   {category.subtitle}
-                  </a>
+                  <h4 className="mb-3 subtitle-heading link-page-subtitle">
+                    <a href={category.subtitleLink} rel="noopener noreferrer">
+                      {category.subtitle}
+                    </a>
                   </h4>
                   <div className="row">
                     {category.items.map((item, itemIndex) => (

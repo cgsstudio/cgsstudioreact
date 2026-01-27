@@ -52,7 +52,7 @@ const servicesData = [
 		description:
 			"We design intuitive user interfaces that ensure maximum usability, smooth navigation, and enjoyable interactions for every user.",
 		icon: "icon-design-tools",
-		slug: "ui-ux-design-company-in-ahmedabad"
+		slug: "ui-ux-design-agency-in-ahmedabad"
 	},
 	{
 		id: crypto.randomUUID(),
@@ -60,7 +60,7 @@ const servicesData = [
 		description:
 			"As a leading web development company in Ahmedabad, India, we specialize in building visually stunning, high-performing websites that connect seamlessly with your target audience.",
 		icon: "icon-web",
-		slug: "web-development-company-in-ahmedabad"
+		slug: "website-development-company-ahmedabad"
 	},
 	{
 		id: crypto.randomUUID(),

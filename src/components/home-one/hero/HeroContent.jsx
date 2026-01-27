@@ -7,17 +7,20 @@ import User3Img from "../../../assets/images/v1/user3.png";
 function HeroContent() {
 	return (
 		<div className="aximo-hero-content">
-			<h1 className="home-title">
-				<span className="aximo-title-animation home-heading">
-					A Digital Innovations
-
+			<h1 className="home-title ">
+				<span className="aximo-title-animation home-heading text-red">
+					Digital Marketing
 				</span>{" "}
-				Hub
+				Agency
 			</h1>
+			<p className="home-sub_description">
+				{`SEO, Web Design & Growth Solutions Partner`}
+			</p>
 			<p className="home-description">
 				{`At Chameleo GFX Studio, we craft powerful digital experiences that help brands grow. With a perfect mix of creativity, technology, and strategy, our team turns ideas into results. Whether you need a stunning website, engaging visuals, or performance-driven digital marketing, we deliver solutions that transform your brand and strengthen your presence online.
 `}
 			</p>
+
 			<div className="aximo-hero-user-wrap">
 				<div className="aximo-hero-user-thumb">
 					<div className="aximo-hero-user-thumb-item">

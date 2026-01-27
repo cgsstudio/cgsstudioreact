@@ -1,7 +1,7 @@
 import { Link, useNavigate, useLocation } from "react-router-dom";
 import social_icon from "../../assets/images/v1/social_icon.png";
 
-function ServiceHeroBanner({ title, subtitle, image }) {
+function ServiceHeroBanner({ title, subtitle, image, breadcrumbTitle }) {
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -25,13 +25,13 @@ function ServiceHeroBanner({ title, subtitle, image }) {
         <div className="row D-flex align-items-center">
           <div className="col-lg-7">
             <h2 className="post__title text-left services_hero text-white mb-3">{title}</h2>
-            {subtitle && <p className="post__subtitle text-white text-left services_hero">{subtitle}</p>} 
+            {subtitle && <p className="post__subtitle text-white text-left services_hero">{subtitle}</p>}
             <nav className="breadcrumbs">
               <ul className="text-left services_hero">
                 <li>
                   <Link to="/">Home</Link> {/* Static Home link */}
                 </li>
-                <li>{title}</li> {/* Display the dynamic title */}
+                <li>{breadcrumbTitle || title}</li> {/* Display the dynamic title */}
               </ul>
             </nav>
             <div className="aximo-btn-wrap services_hero">

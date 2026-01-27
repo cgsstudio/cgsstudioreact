@@ -3,19 +3,19 @@ import BreadCrumb from "../../components/common/Breadcrumb";
 import BrandingIdentitydetail from "../../components/service/BrandingIdentitydetail";
 
 function BrandingIdentity() {
-    
+
   return (
     <>
-    <Helmet>
-            <title>Brand Identity Design Services in Ahmedabad</title>
-            <meta name="description" content="Chameleo GFX Studio is the best Brand & Identity Design Agency in Ahmedabad. We make unique logos, visuals & branding strategies to make a business stand out. " />
-			<meta name="keywords" content="Chameleo GFX Studio, Brand Identity Design, Branding Agency Ahmedabad, Brand Identity Design Services, Brand Identity Design Ahmedabad, Identity Design Ahmedabad, Identity Design Agency" />
-      <link 
-          rel="canonical" 
-          href="https://chameleogfxstudio.com/branding-and-identity-design" 
+      <Helmet>
+        <title>Brand Identity Design Agency in Ahmedabad</title>
+        <meta name="description" content="Chameleo GFX Studio is the best Brand & Identity Design Agency in Ahmedabad. We make unique logos, visuals & branding strategies to make a business stand out. " />
+        <meta name="keywords" content="Chameleo GFX Studio, Brand Identity Design, Branding Agency Ahmedabad, Brand Identity Design Services, Brand Identity Design Ahmedabad, Identity Design Ahmedabad, Identity Design Agency" />
+        <link
+          rel="canonical"
+          href="https://chameleogfxstudio.com/branding-and-identity-design-agency-ahmedabad"
         />
-        </Helmet>
-      <BreadCrumb title="Branding and Identity Design" />
+      </Helmet>
+      <BreadCrumb title="Brand Identity Design Agency" breadcrumbTitle="Brand Identity Design Agency in Ahmedabad" />
       <BrandingIdentitydetail />
 
     </>

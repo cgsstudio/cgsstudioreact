@@ -110,7 +110,7 @@ const faqData = [
 	},
 	{
 		question: "What kind of websites does Chameleo GFX Studio create?",
-		answer: "We create all types—business sites, e-commerce websites, corporate websites, blogs, and custom web solutions.",
+		answer: "We create all types business sites, e-commerce websites, corporate websites, blogs, and custom web solutions.",
 	},
 	{
 		question: "How long does it take to create a website?",
@@ -194,7 +194,7 @@ function WebDevelopmentDetails() {
 					<div className="row ">
 						<div className="col-lg-12">
 							<div className="aximo-default-content">
-								<h1 className="text-lg-center text-sm-left"><span className="custom-h2"><span style={{ color: 'red' }}>Website Development</span> Company in Ahmedabad</span></h1>
+								<h1 className="text-lg-center text-sm-left"><span className="custom-h2"><span style={{ color: 'red' }}>Website Development</span> Company</span></h1>
 
 								<p className="text-lg-center text-sm-left pt-sm-2 pt-3 pt-lg-0">
 									A website is like the virtual home of a company. Just as a physical store, it must be inviting, well-structured, and appealing. Website designing is the process of creating that virtual house, ensuring it is aesthetically pleasing, functions well, and provides users with the information they require.
@@ -203,7 +203,7 @@ function WebDevelopmentDetails() {
 								<p className="text-lg-center text-sm-left">
 									At Chameleo GFX Studio, one of the top Website Development companies in Ahmedabad, we develop websites that are not just beautiful but also dynamic. Our websites are quick, responsive, and optimized to grow businesses. Whether you need a clean business website, an e-commerce website, or a corporate site, we develop solutions that match your objectives. For long-term business success, we also implement AI-powered strategies for performance, personalization, and intelligent engagement.
 								</p>
-							
+
 							</div>
 						</div>
 					</div>
@@ -216,7 +216,7 @@ function WebDevelopmentDetails() {
 						<div className="col-lg-6 order-2 order-lg-1 pt-4 pt-lg-0">
 							<div className="aximo-default-content">
 
-								<h2><span className="services-h2">Why <span style={{ color: 'red' }}>Website Development</span> Matters?</span></h2>
+								<h2><span className="services-h2">Why <span style={{ color: 'red' }}>Website Development Service </span> Matters?</span></h2>
 								<p>
 									In the age of the internet, most consumers log on to research before making a purchase. Without a professional website, you risk losing customers to others who do. A website is in action 24 hours a day, 7 days a week, spreading the word about your brand, products, and services.
 								</p>
@@ -231,7 +231,7 @@ function WebDevelopmentDetails() {
 									<li className="ml-4 mt-0"><b>Complements marketing efforts –</b> Search engine optimization-friendly sites rank higher on Google and drive organic traffic.</li>
 								</ul><br />
 
-								<p>At Chameleo GFX Studio, we ensure your website is greater than a digital brochure—it is transformed into a business growth tool.</p>
+								<p>At Chameleo GFX Studio, we ensure your website is greater than a digital brochure it is transformed into a business growth tool.</p>
 							</div>
 						</div>
 						<div className="col-lg-6 align-items-center order-1 order-lg-2 pt-4 pt-lg-0">
@@ -253,7 +253,7 @@ function WebDevelopmentDetails() {
 						</div>
 						<div className="col-lg-6 pt-4 pt-lg-0">
 							<div className="aximo-default-content">
-								<h2><span className="services-h2">What We Do at <span style={{ color: 'red' }}>Chameleo GFX Studio</span>?</span></h2>
+								<h2><span className="services-h2">End-to-End <span style={{ color: 'red' }}>Website Development Solutions in Ahmedabad </span>for Growing Businesses</span></h2>
 								<p>
 									As a reliable Website Development Company in Ahmedabad, we offer complete web solutions as per your requirements. Our services are:
 								</p>
@@ -407,7 +407,7 @@ function WebDevelopmentDetails() {
 					<div className="row align-items-center">
 						<div className="col-lg-6 order-2 order-lg-1 pt-4 pt-lg-0">
 							<div className="aximo-default-content">
-								<h2><span className="services-h2">Our <span style={{ color: 'red' }}>Development Process</span></span></h2>
+								<h2><span className="services-h2">Our <span style={{ color: 'red' }}>Web Development Process</span></span></h2>
 								<ul className="custom-list mt-1 ml-5 pl-5">
 									<li className="ml-4 mt-0"><b>Discovery –</b> Acquiring a clear vision of your business, objectives, and clientele.</li>
 									<li className="ml-4 mt-0"><b>Planning –</b> Creating a clear plan with the appropriate designs and functionalities.</li>
@@ -446,7 +446,7 @@ function WebDevelopmentDetails() {
 						<div className="col-lg-6 pt-4 pt-lg-0">
 							<div className="aximo-default-content">
 
-								<h2><span className="services-h2 mb-2">Why Work with <span style={{ color: 'red' }}>Chameleo GFX Studio</span> for Website Development?</span></h2>
+								<h2><span className="services-h2 mb-2">Why Choose <span style={{ color: 'red' }}>Chameleo GFX Studio</span> for Website Development in Ahmedabad?</span></h2>
 								<p>
 									There are many website developers to go around, but here's why companies hire us:
 								</p>
@@ -482,7 +482,7 @@ function WebDevelopmentDetails() {
 
 									<h2><span className="custom-h2">The Role of Websites in Today's Digital World</span></h2>
 									<p>
-										The internet is now the go-to platform for nearly everything—shopping, education, leisure, and services. That's why it's no longer a choice to have a strong online presence; it's necessary.
+										The internet is now the go-to platform for nearly everything shopping, education, leisure, and services. That's why it's no longer a choice to have a strong online presence; it's necessary.
 									</p>
 									<ul className="custom-list">
 										<li>Websites build confidence and bring local customers for small businesses.</li>
@@ -498,7 +498,7 @@ function WebDevelopmentDetails() {
 			<div className="container pt-5">
 				<div className="aximo-service-details-wrap">
 					<h2 className="text-center mb-5">
-						<span className="services-h2">Website Development</span>
+						<span className="services-h2">Website Development Services We Offer</span>
 					</h2>
 
 					{services.map((service, serviceIndex) => (
@@ -541,12 +541,12 @@ function WebDevelopmentDetails() {
 							<div className="col-lg-12">
 								<div className="aximo-default-content">
 
-									<h2 className="text-center"><span className="services-h2 text-white">Final Words</span></h2>
+									<h2 className="text-center"><span className="services-h2 text-white">Hire Best Website Development Company in Ahmedabad For Business</span></h2>
 									<p className="text-white text-center">
 										A website is not just a virtual space; it is the online face of your business. At Ahmedabad's Chameleo GFX Studio, we design websites that are contemporary, high-traffic, and effective.
 									</p>
 									<p className="text-white text-center">
-										Whether you require a small business website, an online store, or a complete corporate solution, our team is prepared to deliver. With us, you don't get a website—you get a platform that attracts, engages, and converts. Because at Chameleo GFX Studio, we don't build websites—we build digital growth machines.
+										Whether you require a small business website, an online store, or a complete corporate solution, our team is prepared to deliver. With us, you don't get a website you get a platform that attracts, engages, and converts. Because at Chameleo GFX Studio, we don't build websites we build digital growth machines.
 									</p>
 									<div className="text-center mt-4">
 										<Link to="/contact-us" className="aximo-default-btn pill bg-red">

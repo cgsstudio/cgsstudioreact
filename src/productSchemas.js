@@ -37,7 +37,7 @@ const productSchemas = {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Branding and Identity Design Services",
-    "url": "https://chameleogfxstudio.com/branding-and-identity-design",
+    "url": "https://chameleogfxstudio.com/branding-and-identity-design-agency-ahmedabad",
     "serviceType": "Graphic Design Services",
     "description": "Chameleo GFX Studio is the best Brand & Identity Design Agency in Ahmedabad. We make unique logos, visuals & branding strategies to make a business stand out.",
     "provider": {
@@ -50,11 +50,11 @@ const productSchemas = {
       "name": "Gujarat"
     }
   },
-  "social-media-banner-design": {
+  "social-media-banner-design-ahmedabad": {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Social Media Banner Services",
-    "url": "https://chameleogfxstudio.com/social-media-banner-design",
+    "url": "https://chameleogfxstudio.com/social-media-banner-design-ahmedabad",
     "serviceType": "Graphic Design Services",
     "description": "Chameleo GFX Studio is the best Social Media Banner Design Company in Ahmedabad. Our expert design company creates stunning visuals for all platforms.",
     "provider": {
@@ -71,7 +71,7 @@ const productSchemas = {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Flyer Design Services",
-    "url": "https://chameleogfxstudio.com/flyer-design",
+    "url": "https://chameleogfxstudio.com/flyer-design-services-ahmedabad",
     "serviceType": "Graphic Design Services",
     "description": "Chameleo GFX Studio is the best Flyer Design Agency in Ahmedabad, India. Our expert team creates eye-catching flyers for marketing, events, and promotions.",
     "provider": {
@@ -424,11 +424,11 @@ const productSchemas = {
       "name": "Gujarat"
     }
   },
-  "ui-ux-design-company-in-ahmedabad": {
+  "ui-ux-design-agency-in-ahmedabad": {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "UI/UX Design Services",
-    "url": "https://chameleogfxstudio.com/ui-ux-design-company-in-ahmedabad",
+    "url": "https://chameleogfxstudio.com/ui-ux-design-agency-in-ahmedabad",
     "serviceType": "UI/UX Design Services",
     "description": "Chameleo GFX Studio provides professional UI/UX design services in Ahmedabad. We create beautiful, user-friendly websites, apps, and digital products that boost sales and customer trust.",
     "provider": {
@@ -526,11 +526,11 @@ const productSchemas = {
       "name": "Gujarat"
     }
   },
-  "web-development-company-in-ahmedabad": {
+  "website-development-company-ahmedabad": {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Web Development Services",
-    "url": "https://chameleogfxstudio.com/web-development-company-in-ahmedabad",
+    "url": "https://chameleogfxstudio.com/website-development-company-ahmedabad",
     "serviceType": "Web Development Services",
     "description": "Chameleo GFX Studio provides professional Website Development services in Ahmedabad. We develop websites that are fast, responsive, and optimized to grow your business online.",
     "provider": {
@@ -1172,11 +1172,11 @@ const productSchemas = {
       "name": "Gujarat"
     }
   },
-  "digital-marketing": {
+  "digital-marketing-agency-india": {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Digital Marketing Services",
-    "url": "https://chameleogfxstudio.com/digital-marketing",
+    "url": "https://chameleogfxstudio.com/digital-marketing-agency-india",
     "serviceType": "Digital Marketing Services",
     "description": "Chameleo GFX Studio offers comprehensive digital marketing services in Ahmedabad, including SEO, social media, Google Ads, and email marketing to boost your online presence.",
     "provider": {

@@ -7,22 +7,23 @@ function WebDevelopment() {
   return (
     <>
       <Helmet>
-        <title>Web Development Company in Ahmedabad</title>
-        <meta 
-          name="description" 
-          content="Chameleo GFX Studio is the Best Website Development Company in Ahmedabad. We offer professional website development services that help businesses build a strong digital presence." 
+        <title>Website Development Company</title>
+        <meta
+          name="description"
+          content="Chameleo GFX Studio is the Best Website Development Company in Ahmedabad. We offer professional website development services that help businesses build a strong digital presence."
         />
-        <meta 
-          name="keywords" 
-          content="Web development company in Ahmedabad, Best Web Development Company in Ahmedabad, Website Development Company in Ahmedabad, best website development company in Ahmedabad, Web Development Agency in Ahmedabad" 
+        <meta
+          name="keywords"
+          content="Web development company in Ahmedabad, Best Web Development Company in Ahmedabad, Website Development Company in Ahmedabad, best website development company in Ahmedabad, Web Development Agency in Ahmedabad"
         />
-        <link 
-          rel="canonical" 
-          href="https://chameleogfxstudio.com/web-development-company-in-ahmedabad" 
+        <link
+          rel="canonical"
+          href="https://chameleogfxstudio.com/website-development-company-ahmedabad"
         />
       </Helmet>
-      <ServiceHeroBanner 
-        title="Web Development Services" 
+      <ServiceHeroBanner
+        title="Website Development Company"
+        breadcrumbTitle="Website Development Company in Ahmedabad"
         subtitle="A website is like the virtual home of a company."
         image={heroBannerImage}
       />

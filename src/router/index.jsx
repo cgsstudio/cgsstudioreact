@@ -222,7 +222,7 @@ export const router = createBrowserRouter([
 						element: <Searchengineoptimization />,
 					},
 					{
-						path: "/digital-marketing",
+						path: "/digital-marketing-agency-india",
 						element: <Digitalmarketing />,
 					},
 					{
@@ -424,12 +424,12 @@ export const router = createBrowserRouter([
 
 					},
 					{
-						path: "/ui-ux-design-company-in-ahmedabad",
+						path: "/ui-ux-design-agency-in-ahmedabad",
 						element: <UiuxDesign />,
 
 					},
 					{
-						path: "/web-development-company-in-ahmedabad",
+						path: "/website-development-company-ahmedabad",
 						element: <WebDevelopment />,
 
 					},
@@ -439,7 +439,7 @@ export const router = createBrowserRouter([
 
 					},
 					{
-						path: "/Flyer-Design",
+						path: "/flyer-design-services-ahmedabad",
 						element: <FlyerDesign />,
 
 					},
@@ -479,7 +479,7 @@ export const router = createBrowserRouter([
 
 					},
 					{
-						path: "/branding-and-identity-design",
+						path: "/branding-and-identity-design-agency-ahmedabad",
 						element: <BrandingIdentity />,
 
 					},
@@ -519,7 +519,7 @@ export const router = createBrowserRouter([
 
 					},
 					{
-						path: "/social-media-banner-design",
+						path: "/social-media-banner-design-ahmedabad",
 						element: <SocialMediaBanner />,
 
 					},

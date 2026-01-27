@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function BlogHero({ title }) {
+function BlogHero({ title, breadcrumbTitle }) {
   // Removed background image usage to keep hero banner plain
   return (
     <div className="aximo-breadcrumb blog-hero-banner">
@@ -12,7 +12,7 @@ function BlogHero({ title }) {
               <nav className="breadcrumbs">
                 <ul>
                   <li ><Link to="/">Home</Link></li>
-                  <li>{title}</li>
+                  {breadcrumbTitle && <li>{breadcrumbTitle}</li>}
                 </ul>
               </nav>
             </div>

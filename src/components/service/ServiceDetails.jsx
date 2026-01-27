@@ -101,10 +101,10 @@ function ServiceDetails() {
   return (
     <div className="section ">
       <Helmet>
-        <title>UI/UX Design Company in Ahmedabad - Chameleo GFX Studio</title>
+        <title>Best UI/UX Design Agency in Ahmedabad</title>
         <meta
           name="description"
-          content="Chameleo GFX Studio provides professional UI/UX design services in Ahmedabad. We create beautiful, user-friendly websites, apps, and digital products that boost sales and customer trust."
+          content="Chameleo GFX Studio is the best UI/UX Design Agency in Ahmedabad. We create beautiful, user-friendly websites, apps, and digital products that boost sales and customer trust."
         />
         <meta
           name="keywords"
@@ -112,7 +112,7 @@ function ServiceDetails() {
         />
         <link
           rel="canonical"
-          href="https://chameleogfxstudio.com/ui-ux-design-company-in-ahmedabad"
+          href="https://chameleogfxstudio.com/ui-ux-design-agency-in-ahmedabad"
         />
         <script type="application/ld+json">
           {JSON.stringify(faqSchema)}
@@ -121,21 +121,21 @@ function ServiceDetails() {
 
       <div className="container pt-5">
         <div className="aximo-default-content text-lg-center text-sm-left m-sm-3">
-          	<h1 className="text-lg-center text-sm-left"><span className="custom-h2"><span style={{ color: 'red' }}>UI/UX Design </span> Company in Ahmedabad</span></h1>
+          <h1 className="text-lg-center text-sm-left"><span className="custom-h2"><span style={{ color: 'red' }}>Best UI/UX Design </span> Design Agency in Ahmedabad</span></h1>
 
           <p className="text-lg-center text-sm-left pt-sm-2 pt-3 pt-lg-0">
             At Chameleo GFX Studio, we believe good design is more than just looks; it’s about creating digital experiences that feel effortless. UI/UX design may sound technical, but in simple words, it’s about making websites, apps, and software easy to use, enjoyable, and meaningful for your audience.</p>
-                <ul className="custom-list mb-2">
-                  <li className="m-lg-0 m-sm-2"><b>UI (User Interface)</b> is all about the visuals like colors, buttons, icons, and overall layout.</li>
-                  <li className="m-lg-0 m-sm-2"><b>UX (User Experience)</b> focuses on how people interact with it whether it’s smooth, simple, and satisfying.</li>
-                </ul>
-                <p className="text-lg-center text-sm-left pt-sm-2 pt-3 pt-lg-0">
-                  Think about your favorite app: you know exactly where to tap, the design feels clean and inviting, and everything works fast. That’s the power of great UI/UX.
-                </p>
-                <p className="text-lg-center text-sm-left pt-sm-2 pt-3 pt-lg-0">
-                  As a leading UI/UX Design Company in Ahmedabad, Chameleo GFX Studio combines creativity with AI-driven insights to design digital products that are visually stunning, user-friendly, and built for modern audiences.
-                </p>
-                
+          <ul className="custom-list mb-2">
+            <li className="m-lg-0 m-sm-2"><b>UI (User Interface)</b> is all about the visuals like colors, buttons, icons, and overall layout.</li>
+            <li className="m-lg-0 m-sm-2"><b>UX (User Experience)</b> focuses on how people interact with it whether it’s smooth, simple, and satisfying.</li>
+          </ul>
+          <p className="text-lg-center text-sm-left pt-sm-2 pt-3 pt-lg-0">
+            Think about your favorite app: you know exactly where to tap, the design feels clean and inviting, and everything works fast. That’s the power of great UI/UX.
+          </p>
+          <p className="text-lg-center text-sm-left pt-sm-2 pt-3 pt-lg-0">
+            As a leading UI/UX Design Company in Ahmedabad, Chameleo GFX Studio combines creativity with AI-driven insights to design digital products that are visually stunning, user-friendly, and built for modern audiences.
+          </p>
+
         </div>
       </div>
 
@@ -168,7 +168,7 @@ function ServiceDetails() {
         </div>
       </div>
 
-      {/* Our UI/UX Services */}
+      {/* Our UI/UX Services in Ahmedabad */}
       <div className="container pt-5">
         <div className="aximo-service-details-wrap">
           <div className="row">
@@ -180,7 +180,7 @@ function ServiceDetails() {
             <div className="col-lg-6 align-items-center ">
               <div className="aximo-default-content ">
                 <h2 className="services-h2 mt-lg-0 mt-4">
-                  <span >Our UI/UX Services</span>
+                  <span >Our UI/UX Services in Ahmedabad</span>
                 </h2><br />
                 <p>As one of the most trusted UI/UX design companies in Ahmedabad, we provide end-to-end design solutions tailored to your business needs:</p>
                 <ul className="custom-list mt-1 ml-2">
@@ -290,7 +290,7 @@ function ServiceDetails() {
               <div className="row">
                 <div className="col-lg-5 col-md-5">
                   <div className="design-title-section">
-                    <h1 className="design-title-heading">The Role<br />of Design<br />in Today's<br />Digital<br />World.</h1>
+                    <h1 className="design-title-heading">The Role <br />of UI/UX <br />Design in <br />Today's<br />Digital World..</h1>
                   </div>
                 </div>
 
@@ -333,14 +333,14 @@ function ServiceDetails() {
         </div>
       </div>
 
-      {/* Our Design Process */}
+      {/* Our UI/UX Design Process */}
       <div className="container pt-5">
         <div className="aximo-service-details-wrap">
           <div className="row">
             <div className="col-lg-6 align-items-center order-2 order-md-1">
               <div className="aximo-default-content">
                 <h2>
-                  <span className="services-h2 mt-lg-0 mt-4">Our Design Process</span>
+                  <span className="services-h2 mt-lg-0 mt-4">Our UI/UX Design Process</span>
                 </h2>
                 <ul className="custom-list">
                   <li className="m-lg-0 m-sm-2"><b>Discovery –</b> Understand your business, goals, and users.</li>
@@ -400,13 +400,13 @@ function ServiceDetails() {
           {/* Services List */}
           {services.map((service, index) => (
             <div key={index}>
-               <h2 className="text-center"><span className="services-h2">  {service.title}</span></h2>
-              
+              <h2 className="text-center"><span className="services-h2">  {service.title}</span></h2>
+
 
               {/* Add g-4 for spacing between columns */}
               <div className="row g-4 pt-5">
                 {service.items.map((item, itemIndex) => (
-                  <div key={itemIndex}  className="col-12 col-md-2  pb-3 mx-3 justify-content-start align-items-center" >
+                  <div key={itemIndex} className="col-12 col-md-2  pb-3 mx-3 justify-content-start align-items-center" >
                     <ul className="badge bg-black custom-hover">
                       <li> <a href={item.link} rel="noopener noreferrer" className="link-tegs text-white text-decoration-none" >  {item.text}  </a> </li>
                     </ul>
@@ -427,7 +427,7 @@ function ServiceDetails() {
             <div className="row text-white text-center">
               <div className="aximo-default-content">
                 <h2>
-                  <span className="services-h2 text-white">Final Words </span>
+                  <span className="services-h2 text-white">Creating Meaningful Digital Experiences with UI UX Design Company in Ahmedabad </span>
                 </h2>
                 <p>UI/UX design isn't just about looks, it's about creating smooth, meaningful digital journeys. At <b>Chameleo GFX Studio in Ahmedabad,</b> we blend creativity with AI-powered insights to build designs that your users will love. Whether it's a website, app, or digital product, our team ensures your brand doesn't just stand out but also provides the <b>best user experience possible.</b> Because at Chameleo GFX Studio, we design for people, <b>not just screens.</b> </p>
                 <div className="text-center mt-4">

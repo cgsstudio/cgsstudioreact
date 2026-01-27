@@ -12752,3 +12752,8 @@ button#aximo-notified-btn {
 	top: 130px;
 	height: fit-content;
 }
+
+.home-sub_description {
+	font-size: 24px !important;
+	font-weight: 700;
+}

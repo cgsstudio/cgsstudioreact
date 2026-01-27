@@ -139,7 +139,7 @@ const sitemapData = [
   {
     title: "Digital Marketing",
     items: [
-      { text: "Digital Marketing", link: "/digital-marketing" },
+      { text: "Digital Marketing", link: "/digital-marketing-agency-india" },
       { text: "Search Engine Optimization (SEO)", link: "/search-engine-optimization" },
       { text: "Social Media Marketing", link: "/social-media-marketing" },
       { text: "Email Marketing", link: "/email-marketing" },

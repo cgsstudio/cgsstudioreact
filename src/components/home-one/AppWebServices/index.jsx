@@ -61,7 +61,7 @@ function AppWebServices() {
             description: "We design intuitive user interfaces that ensure maximum usability, smooth navigation, and enjoyable interactions for every user.",
             animation: <div style={{ width: 80, height: 80 }}><Lottie animationData={UiUxAnimation} loop={true} autoplay={true} /></div>,
             // image: UiUxImg,
-            link: "/ui-ux-design-company-in-ahmedabad",
+            link: "/ui-ux-design-agency-in-ahmedabad",
             techs: [
                 { name: "Figma", icon: <SiFigma size={24} color="#F24E1E" />, bg: "#ffe0d6" },
                 { name: "Adobe XD", icon: <SiAdobexd size={24} color="#FF61F6" />, bg: "#ffe0fd" },
@@ -75,7 +75,7 @@ function AppWebServices() {
             description: "As a leading web development company in Ahmedabad, India, we specialize in building visually stunning, high-performing websites that connect seamlessly with your target audience.",
             animation: <div style={{ width: 80, height: 80 }}><Lottie animationData={WebDevAnimation} loop={true} autoplay={true} /></div>,
             // image: WebDevImg,
-            link: "/web-development-company-in-ahmedabad",
+            link: "/website-development-company-ahmedabad",
             techs: [
                 { name: "PHP", icon: <SiPhp size={24} color="#777bb4" />, bg: "#e8ebff" },
                 { name: "WordPress", icon: <SiWordpress size={24} color="#21759b" />, bg: "#e6f1ff" },

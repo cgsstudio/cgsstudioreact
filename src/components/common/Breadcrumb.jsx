@@ -1,8 +1,9 @@
 import BlogHero from "./BlogHero";
 
-function BreadCrumb({ title, subtitle, image }) {
+function BreadCrumb({ title, breadcrumbTitle, subtitle, image }) {
   // Reuse BlogHero so all pages that import BreadCrumb get the same hero style
-  return <BlogHero title={title} image={image} />;
+  // breadcrumbTitle is optional - if not provided, title is used for both
+  return <BlogHero title={title} breadcrumbTitle={breadcrumbTitle || title} image={image} />;
 }
 
 export default BreadCrumb;

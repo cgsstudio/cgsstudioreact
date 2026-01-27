@@ -39,7 +39,7 @@ const servicesData = [
     {
         title: "Digital Marketing",
         links: [
-            { text: "Digital Marketing", to: "/digital-marketing" },
+            { text: "Digital Marketing", to: "/digital-marketing-agency-india" },
             { text: "Search Engine Optimization (SEO)", to: "/search-engine-optimization" },
             { text: "Social Media Marketing", to: "/social-media-marketing" },
             { text: "Email Marketing", to: "/email-marketing" },

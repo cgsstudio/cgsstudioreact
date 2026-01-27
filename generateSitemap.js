@@ -109,8 +109,7 @@ const pages = [
   { url: "/reactjs-ui-ux-design-and-development", changefreq: "monthly", priority: 0.7 },
 
   // ✅ Digital Marketing
-  { url: "/digital-marketing", changefreq: "monthly", priority: 0.7 },
-  { url: "/digital-marketing-agency-ahmedabad", changefreq: "monthly", priority: 0.7 },
+  { url: "/digital-marketing-agency-india", changefreq: "monthly", priority: 0.7 },
   { url: "/search-engine-optimization", changefreq: "monthly", priority: 0.7 },
   { url: "/social-media-marketing", changefreq: "monthly", priority: 0.7 },
   { url: "/email-marketing", changefreq: "monthly", priority: 0.7 },

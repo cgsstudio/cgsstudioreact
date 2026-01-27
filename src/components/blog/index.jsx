@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useSearchParams } from "react-router-dom";
 import BlogCard from "./BlogCard";
 import Categories from "./Categories";
 import RecentPosts from "./RecentPosts";
@@ -8,10 +9,22 @@ import { BlogData } from "./BlogData";
 import Navigation from "./Navigation";
 
 function Blog() {
+  const [searchParams] = useSearchParams();
   const [currentPage, setCurrentPage] = useState(1);
   const blogsPerPage = 3;
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [selectedTag, setSelectedTag] = useState(null);
+
+  useEffect(() => {
+    const tag = searchParams.get("tag");
+    if (tag) {
+      setSelectedTag(tag);
+      setSelectedCategory(null); // Reset category when tag is selected from URL
+      setCurrentPage(1); // Reset to the first page
+    } else {
+      setSelectedTag(null);
+    }
+  }, [searchParams]);
 
   // Reverse the BlogData array
   const reversedBlogData = [...BlogData].reverse(); // Using spread operator to avoid mutating original array
@@ -20,8 +33,8 @@ function Blog() {
   const filteredBlogs = selectedCategory
     ? reversedBlogData.filter((blog) => blog.category === selectedCategory)
     : selectedTag
-    ? reversedBlogData.filter((blog) => blog.keywords.includes(selectedTag))
-    : reversedBlogData;
+      ? reversedBlogData.filter((blog) => blog.keywords.includes(selectedTag))
+      : reversedBlogData;
 
   // Get all unique tags
   const allTags = [...new Set(BlogData.flatMap((blog) => blog.keywords))];

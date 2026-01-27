@@ -56,7 +56,7 @@ function GraphicDesign() {
   return (
     <>
       <Helmet>
-        <title>Graphic Design Company in Ahmedabad - Chameleo GFX Studio</title>
+        <title>Graphic Design Services</title>
         <meta
           name="description"
           content="Chameleo GFX Studio is leading Graphic Design Company in Ahmedabad. We have the best Graphic Designer that offers innovative graphic design services. Call now."
@@ -79,6 +79,7 @@ function GraphicDesign() {
       {/* Page Layout */}
       <ServiceHeroBanner
         title="Graphic Design Services"
+        breadcrumbTitle="Graphic Design Company in Ahmedabad"
         subtitle="Graphic design is the creative process of combining text, images, shapes, and colors to convey ideas in a clear and visually appealing manner."
       />
       <GraphicDesignService />

@@ -11,8 +11,8 @@ const services = [
 	  title: "Graphics Design",
 	  items: [
 		{ text: "Logo Design", link: "/logo-design-company-ahmedabad" },
-		{ text: "Branding and Identity Design", link: "/branding-and-identity-design" },
-		{ text: "Social Media Banner Design", link: "/social-media-banner-design" },
+		{ text: "Branding and Identity Design", link: "/branding-and-identity-design-agency-ahmedabad" },
+		{ text: "Social Media Banner Design", link: "/social-media-banner-design-ahmedabad" },
 		{ text: "Flyer Design", link: "/flyer-design" },
 		{ text: "Brochure Design", link: "/brochure-design" },
 		{ text: "Poster Design", link: "/poster-design" },

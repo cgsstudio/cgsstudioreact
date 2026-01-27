@@ -10,9 +10,9 @@ const services = [
 	  title: "Graphics Design",
 	  items: [
 		{ text: "Logo Design", link: "/logo-design-company-ahmedabad" },
-		{ text: "Branding and Identity Design", link: "/branding-and-identity-design" },
-		{ text: "Social Media Banner Design", link: "/social-media-banner-design" },
-		{ text: "Flyer Design", link: "/flyer-design" },
+		{ text: "Branding and Identity Design", link: "/branding-and-identity-design-agency-ahmedabad" },
+		{ text: "Social Media Banner Design", link: "/social-media-banner-design-ahmedabad" },
+		{ text: "Flyer Design", link: "/flyer-design-services-ahmedabad" },
 		{ text: "Brochure Design", link: "/brochure-design" },
 		{ text: "Poster Design", link: "/poster-design" },
 		{ text: "Hoarding Design", link: "/hoarding-design" },
@@ -57,7 +57,7 @@ function FlyerDesigndetail() {
 							<div className="aximo-default-content">
 								<h2>
 									<span className="aximo-title-animation">
-									About Flyer Design
+									Flyer Design Services Ahmedabad 
 										<span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
 										</span>

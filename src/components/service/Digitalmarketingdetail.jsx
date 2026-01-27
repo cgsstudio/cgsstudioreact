@@ -17,7 +17,7 @@ const services = [
   {
     title: "Digital Marketing",
     items: [
-      { text: "Digital Marketing", link: "/digital-marketing" },
+      { text: "Digital Marketing", link: "/digital-marketing-agency-india" },
       { text: "Search Engine Optimization (SEO)", link: "/search-engine-optimization" },
       { text: "Social Media Marketing", link: "/social-media-marketing" },
       { text: "Email Marketing", link: "/email-marketing" },
@@ -101,14 +101,14 @@ function DigitalMarketingDetail() {
   return (
     <div className="service-section">
       <Helmet>
-        <title>Digital Marketing Company in Ahmedabad - Chameleo GFX Studio</title>
+        <title>Digital Marketing Agency in Ahmedabad, India</title>
         <meta
           name="description"
-          content="Chameleo GFX Studio offers comprehensive digital marketing services in Ahmedabad, including SEO, social media, Google Ads, and email marketing to boost your online presence."
+          content="Chameleo GFX Studio is the best Digital Marketing Agency in Ahmedabad, India, offering SEO, social media, Google Ads, and email marketing to boost your online presence."
         />
         <link
           rel="canonical"
-          href="https://chameleogfxstudio.com/digital-marketing-company-in-ahmedabad"
+          href="https://chameleogfxstudio.com/digital-marketing-agency-india"
         />
         <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       </Helmet>
@@ -135,7 +135,7 @@ function DigitalMarketingDetail() {
                 <p className="text-lg-center text-sm-left">
                   At Chameleo GFX Studio, one of the premier Digital Marketing Companies in Ahmedabad, we develop strategies that make your brand noticeable, engage with your audience, and generate results. Our strategy is a blend of creativity, technology, and AI-driven decision-making for maximum effect.
                 </p>
-                
+
               </div>
             </div>
           </div>
@@ -145,7 +145,7 @@ function DigitalMarketingDetail() {
         <div className="row">
           <div className="col-lg-6 align-items-center order-2 order-lg-1 pt-4 pt-lg-0">
             <div className="aximo-default-content">
-              <h2><span className="services-h2"><span style={{ color: 'red' }}>Why Digital Marketing </span>is Important?</span></h2>
+              <h2><span className="services-h2"><span style={{ color: 'red' }}>Benefits of Digital Marketing Services in India</span> for Modern Businesses </span></h2>
               <p>
                 Old-school marketing, such as billboards and flyers, is still effective, but in the digital age, most of our customers are online. If you are not there, you are leaving tremendous opportunities behind.
               </p>
@@ -373,7 +373,7 @@ function DigitalMarketingDetail() {
           </div>
           <div className="col-lg-6 align-items-center pt-4 pt-lg-0">
             <div className="aximo-default-content">
-              <h2><span className="services-h2">Why Chameleo GFX Studio for Digital Marketing?</span></h2>
+              <h2><span className="services-h2">Why Choose Chameleo GFX Studio for Digital Marketing Services?</span></h2>
               <ul className="custom-list mt-1 ml-5 pl-5">
                 <li className="ml-4 mt-0"><b>Evidence-based approaches –</b> We prioritize actual outcomes, not ego metrics.</li>
                 <li className="ml-4 mt-0"><b>All customers are our customers –</b> From SEO to social media to ads, we do it all.</li>
@@ -390,7 +390,7 @@ function DigitalMarketingDetail() {
         </div>
       </div>
 
-              {/* Services List */}
+      {/* Services List */}
       <div className="container pt-5">
         {services.map((service, index) => (
           <div key={index}>
@@ -423,7 +423,7 @@ function DigitalMarketingDetail() {
                   <div className="col-lg-12 align-items-center">
                     <div className="aximo-default-content">
                       <h2 className="text-center">
-                        <span className="services-h2 text-white text-center">Final Words</span>
+                        <span className="services-h2 text-white text-center">Digital Marketing Agency in Ahmedabad That Drives Visibility, Leads, and Sales</span>
                       </h2>
 
                       <p className="text-center">
@@ -452,7 +452,7 @@ function DigitalMarketingDetail() {
         </div>
       </div>
 
-      
+
 
       {/* FAQ Section */}
       <section className="faq-section py-5">
