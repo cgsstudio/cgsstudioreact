@@ -12,7 +12,8 @@ const TermsAndConditions = () => {
                   <title>Terms & Conditions</title>
                   <meta name="robots" content="noindex, nofollow" />a
                 </Helmet>
-      <BlogHero title="Terms & Conditions" />
+      <BlogHero title="Terms & Conditions" breadcrumbTitle="Terms & Conditions" />
+      <img src={Star2Img} />
      <div className="container py-5">
       <h1 className="mb-5">Terms & Conditions</h1>
       <p>

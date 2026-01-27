@@ -3,7 +3,7 @@ import FaqAccordion from "../../components/faq/FaqAccordion";
 function Faq() {
 	return (
 		<>
-			<BlogHero title="Faq" />
+			<BlogHero title="Faq" breadcrumbTitle="Faq" />
 			<FaqAccordion />
 		</>
 	);

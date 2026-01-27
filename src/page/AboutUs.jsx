@@ -43,7 +43,7 @@ function AboutUs() {
 					href="https://chameleogfxstudio.com/About-us"
 				/>
 			</Helmet>
-			<BlogHero title="About Us" image={heroBannerImage} />
+			<BlogHero title="About Us" breadcrumbTitle="About Us" image={heroBannerImage} />
 			<Story />
 			<About />
 			<AutoSlider />

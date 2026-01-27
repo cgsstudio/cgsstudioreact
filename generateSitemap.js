@@ -170,6 +170,7 @@ const pages = [
   { url: "/blog/linkedin-marketing-for-b2b-brands-complete-guide", changefreq: "monthly", priority: 0.6 },
   { url: "/blog/human-ai-collaboration-in-design", changefreq: "monthly", priority: 0.6 },
   { url: "/blog/strong-branding-for-small-businesses", changefreq: "monthly", priority: 0.6 },
+  { url: "/blog/why-strong-branding-for-small-businesses", changefreq: "monthly", priority: 0.6 },
 
 
 

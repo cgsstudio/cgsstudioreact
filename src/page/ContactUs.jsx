@@ -24,7 +24,7 @@ function ContactUs() {
           href="https://chameleogfxstudio.com/contact-us" 
         />
         </Helmet>
-			<BlogHero title="Contact Us" image={heroBannerImage} />
+			<BlogHero title="Contact Us" breadcrumbTitle="Contact Us" image={heroBannerImage} />
 			<ContactForm />
 			<ContactInfo />
 			<GoogleMap location={location} />

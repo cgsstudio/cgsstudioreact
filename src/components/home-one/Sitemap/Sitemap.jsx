@@ -211,6 +211,7 @@ const sitemapData = [
       { text: "LinkedIn Marketing for B2B Brands: A Complete Guide", link: "/blog/linkedin-marketing-for-b2b-brands-complete-guide" },
       { text: "Human-AI Collaboration in Design: Where Creativity Meets Technology", link: "/blog/human-ai-collaboration-in-design" },
       { text: "Why Strong Branding Is Essential for Small Businesses?", link: "/blog/strong-branding-for-small-businesses" },
+      { text: "Top Graphic Design Trends Businesses Should Follow in 2026", link: "/blog/why-strong-branding-for-small-businesses" },
 
 
 
@@ -246,7 +247,7 @@ function SiteMapPage() {
         <link rel="canonical" href="https://chameleogfxstudio.com/sitemap" />
       </Helmet>
 
-      <BlogHero title="Sitemap" />
+      <BlogHero title="Sitemap" breadcrumbTitle="Sitemap" />
 
       <div className="container py-5">
         {sitemapData.map((section, i) => (

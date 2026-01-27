@@ -10,7 +10,7 @@ const PrivacyPolicy = () => {
                 <meta name="robots" content="noindex, nofollow" />
             </Helmet>
 
-            <BlogHero title="Privacy Policy" />
+            <BlogHero title="Privacy Policy" breadcrumbTitle="Privacy Policy" />
             <div className="container py-5">
                 <h2 className="my-4">Privacy Policy</h2>
                 <p className="paragraph-cgs mb-3">

@@ -45,7 +45,7 @@ const Industryweserve = () => {
       <Helmet>
         <title>Industries We Serve</title>
       </Helmet>
-      <BlogHero title="Industries We Serve" />
+      <BlogHero title="Industries We Serve" breadcrumbTitle="Industries We Serve" />
       <div className="container py-5">
         <h2 className="my-4 text-center aximo-section-title center">Industries We Serve</h2>
         <div className="row g-4 justify-content-center aximo-service-wrap">
