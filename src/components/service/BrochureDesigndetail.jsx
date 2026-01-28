@@ -57,7 +57,7 @@ function BrochureDesigndetail() {
 							<div className="aximo-default-content">
 								<h2>
 									<span className="aximo-title-animation">
-										About Brochure Design
+										Brochure Design Company in Ahmedabad
 										<span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
 										</span>

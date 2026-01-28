@@ -15,7 +15,7 @@ function NewsletterDesign() {
           href="https://chameleogfxstudio.com/newsletter-design" 
         />
         </Helmet>
-      <BreadCrumb title="Newsletter Design" />
+      <BreadCrumb title="Newsletter Design Service" breadcrumbTitle="Newsletter Design Service in Ahmedabad" />
       <NewsletterDesigndetail />
 
     </>

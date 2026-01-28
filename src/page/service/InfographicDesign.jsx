@@ -15,7 +15,7 @@ function InfographicDesign() {
           href="https://chameleogfxstudio.com/infographic-design" 
         />
         </Helmet>
-      <BreadCrumb title=" Infographic Design" />
+      <BreadCrumb title="Infographic Design Services" breadcrumbTitle="Infographic Design Services in Ahmedabad" />
       <InfographicDesigndetail />
 
     </>

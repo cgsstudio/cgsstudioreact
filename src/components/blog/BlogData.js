@@ -1,4 +1,4 @@
-import Blog1Img from "../../assets/images/blog/blog-1.png";
+﻿import Blog1Img from "../../assets/images/blog/blog-1.png";
 import Blog2Img from "../../assets/images/blog/blog-2.jpg";
 import Blog3Img from "../../assets/images/blog/Blog-3.png";
 import Blog4Img from "../../assets/images/blog/blog-4.jpg";
@@ -6949,7 +6949,8 @@ Can I build a strong brand on a tight budget?
       "@type": "Answer",
       "text": "Absolutely. Strong branding is more about consistency and strategy than a big budget. You can make a huge impact with low-cost tactics like building a community on social media, creating memorable customer experiences, and forming local partnerships."
     }
-  }]
+  }
+  ]
 }
 </script>`,
     category: "Business",
@@ -7271,51 +7272,58 @@ Can I build a strong brand on a tight budget?
             </div>
         </div>
     </div>    <br> 
+ <br> 
 `,
-
-schema: `<script type="application/ld+json">
+    schema: `<script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "mainEntity": [{
-    "@type": "Question",
-    "name": "What is the main theme behind the graphic design trends 2026?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "The biggest theme is a pushback against sterile, AI-generated perfection. It's all about bringing back the human touch, think warmth, personality, and even a little bit of intentional messiness. The goal is to feel authentic and connect with people on a real level."
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the main theme behind the graphic design trends 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The biggest theme is a pushback against sterile, AI-generated perfection. It's all about bringing back the human touch, warmth, personality, and intentional imperfection to create authentic emotional connections."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can a small business afford to implement the new graphic design trends in 2026?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Small businesses don’t need large budgets. Many trends rely on creativity rather than expensive tools. Smartphone photography, free fonts from platforms like Google Fonts, and smart use of existing resources can effectively capture modern design trends."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are the graphic design trends 2026 suitable for B2B companies, or just B2C?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Graphic design trends 2026 are suitable for both B2B and B2C brands. B2B companies can adopt specific aesthetics like Micro-Industrial or Frutiger Aero styles to appear more innovative, precise, and approachable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I choose which of the graphic design trends 2026 is right for my brand's personality?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Start by defining your brand personality. Playful brands may benefit from Maximalism, while trust-focused brands may prefer Tactile Craft. Understand your audience and feel free to blend multiple trends to create a unique visual identity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Will following the graphic design trends of 2026 make my brand look dated in a few years?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Following trends won’t make your brand look dated if you adopt the core principles rather than copying styles blindly. Combine trend-inspired elements with timeless design fundamentals like balance, clarity, and hierarchy."
+      }
     }
-  },{
-    "@type": "Question",
-    "name": "How can a small business afford to implement the new graphic design trends in 2026?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "You don't need a huge budget. Many of these trends are about creativity, not expensive tools. For example, the \"Candid Camera Roll\" look can be achieved with just a smartphone. You can also find free, expressive fonts on sites like Google Fonts to play with typography. It's all about being clever with your resources."
-    }
-  },{
-    "@type": "Question",
-    "name": "Are the graphic design trends 2026 suitable for B2B companies, or just B2C?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "They're for everyone. A B2B tech company can use the optimistic Frutiger Aero revival to seem more innovative and friendly. A serious consulting firm could adopt Micro-Industrial aesthetics to look precise and trustworthy. It's all about choosing the trend that matches the personality you want to project."
-    }
-  },{
-    "@type": "Question",
-    "name": "How do I choose which of the graphic design trends 2026 is right for my brand's personality?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "Start with a gut check: who are you as a brand? If you're playful and energetic, Maximalism might be a great fit. If you're all about sincerity and trust, Tactile Craft could be perfect. Look at your audience and what they respond to, and don't be afraid to mix elements from different trends to create something unique."
-    }
-  },{
-    "@type": "Question",
-    "name": "Will following the graphic design trends of 2026 make my brand look dated in a few years?",
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": "That's a valid concern. The trick is to adopt the spirit of a trend, not just copy it blindly. Use the trend's core ideas (like warmth, nostalgia, or rawness) but apply them within a solid, timeless design framework. Good design principles like balance and hierarchy never go out of style."
-    }
-  }]
+  ]
 }
 </script>
-    `,
+
+`,
     category: "Graphic Design Trends",
     date: "January 26, 2026",
     img: Blog59Img,

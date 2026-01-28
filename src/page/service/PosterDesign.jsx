@@ -15,7 +15,7 @@ function PosterDesign() {
           href="https://chameleogfxstudio.com/poster-design" 
         />
         </Helmet>
-      <BreadCrumb title="Poster Design" />
+      <BreadCrumb title="Poster Design Services" breadcrumbTitle="Poster Design Services in Ahmedabad" />
       <PosterDesigndetail />
 
     </>

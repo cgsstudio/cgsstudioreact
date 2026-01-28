@@ -1,0 +1,22 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    
+    # Remove www and enforce HTTPS
+    RewriteCond %{HTTP_HOST} ^www\.chameleogfxstudio\.com$ [OR]
+    RewriteCond %{HTTPS} off
+    RewriteRule ^(.*)$ https://chameleogfxstudio.com/$1 [R=301,L]
+    
+    # 301 Permanent Redirects
+    RewriteRule ^ui-ux-design-company-in-ahmedabad/?$ https://chameleogfxstudio.com/ui-ux-design-agency-in-ahmedabad [R=301,L]
+    
+    RewriteRule ^web-development-company-in-ahmedabad/?$ https://chameleogfxstudio.com/website-development-company-ahmedabad [R=301,L]
+    
+    RewriteRule ^digital-marketing/?$ https://chameleogfxstudio.com/digital-marketing-agency-india [R=301,L]
+    
+    RewriteRule ^branding-and-identity-design/?$ https://chameleogfxstudio.com/branding-and-identity-design-agency-ahmedabad [R=301,L]
+    
+    RewriteRule ^social-media-banner-design/?$ https://chameleogfxstudio.com/social-media-banner-design-ahmedabad [R=301,L]
+    
+    RewriteRule ^flyer-design/?$ https://chameleogfxstudio.com/flyer-design-services-ahmedabad [R=301,L]
+</IfModule>

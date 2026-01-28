@@ -8,7 +8,7 @@ function Services({ services }) {
 			<div className="container">
 				<div className="aximo-section-title center pt-3 pt-sm-0 pt-md-0">
 					<h2>
-						Innovative Services
+						Digital Marketing Agency
 						{/* <span className="aximo-title-animation"> */}
 						{/* <span className="aximo-title-icon">
 								<img src={Star2Img} alt="Star2Img" />

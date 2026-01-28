@@ -57,7 +57,7 @@ function AdvertisingDesigndetail() {
 							<div className="aximo-default-content">
 								<h2>
 									<span className="aximo-title-animation">
-									About Advertising Design
+									Advertising Design Agency in Ahmedabad
 										<span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
 										</span>

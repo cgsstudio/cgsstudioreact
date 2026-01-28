@@ -472,9 +472,13 @@ h1,
 	}
 }
 
+.aximo-title-animation {
+    font-size: 50px !important;
+}
+
 h2,
 .h2 {
-	font-size: 70px;
+	font-size: 60px;
 	line-height: 0.9em;
 	/* 116.667% */
 	letter-spacing: -0.7px;
@@ -482,6 +486,9 @@ h2,
 
 @media (max-width: 1199px) {
 
+	.aximo-title-animation {
+    font-size: 48px !important;
+}
 	h2,
 	.h2 {
 		font-size: 48px;
@@ -490,6 +497,9 @@ h2,
 
 @media (max-width: 767px) {
 
+	.aximo-title-animation {
+    font-size: 36px !important;
+}
 	h2,
 	.h2 {
 		font-size: 36px;
@@ -6109,7 +6119,7 @@ a.aximo-service-icon:hover {
 }
 
 .aximo-faq-wrap {
-	padding: 130px 0;
+	padding: 90px 0;
 	/* border-bottom: 1px solid #e6e6e6; */
 }
 
@@ -9690,7 +9700,7 @@ a.aximo-connect-login img {
 .aximo-section-title.center {
 	margin: 0 auto;
 	text-align: center;
-	max-width: 800px;
+	max-width: 810px;
 }
 
 .aximo-section-title.center.full-width {

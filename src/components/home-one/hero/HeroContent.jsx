@@ -8,17 +8,16 @@ function HeroContent() {
 	return (
 		<div className="aximo-hero-content">
 			<h1 className="home-title ">
-				<span className="aximo-title-animation home-heading text-red">
+				<span className=" home-heading text-red">
 					Digital Marketing
 				</span>{" "}
 				Agency
 			</h1>
-			<p className="home-sub_description">
-				{`SEO, Web Design & Growth Solutions Partner`}
-			</p>
+			 <p className="home-sub_description">
+				{`Strategic Digital Solutions for Modern Brands `}
+			</p> 
 			<p className="home-description">
-				{`At Chameleo GFX Studio, we craft powerful digital experiences that help brands grow. With a perfect mix of creativity, technology, and strategy, our team turns ideas into results. Whether you need a stunning website, engaging visuals, or performance-driven digital marketing, we deliver solutions that transform your brand and strengthen your presence online.
-`}
+				{`At Chameleo GFX Studio, we design and build digital solutions that help brands grow with confidence. By combining creative design, smart technology, and growth-focused strategy, we deliver websites, visuals, and marketing that create real impact online.`}
 			</p>
 
 			<div className="aximo-hero-user-wrap">

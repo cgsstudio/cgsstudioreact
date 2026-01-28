@@ -134,7 +134,7 @@ function AppWebServices() {
         <div className="section pb-5 pt-5 pt-sm-0 pt-md-0" style={{ backgroundColor: '#000' }}>
             <div className="container">
                 <div className="aximo-section-title center ">
-                    <h2 className="text-whitesmoke">Innovative Services</h2>
+                    <h2 className="text-whitesmoke">Digital Marketing Agency</h2>
                 </div>
 
                 <div className="row gy-4">

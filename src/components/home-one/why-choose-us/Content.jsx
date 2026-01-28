@@ -4,7 +4,7 @@ function Content() {
 		<div className="aximo-default-content text-whitesmoke m-0">
 			<h2 className="text-whitesmoke">
 				<span className="aximo-title-animation  ">
-					Digital Solutions Partner in
+					Digital Marketing Agency in
 				</span>{" "}
 				Ahmedabad, India
 

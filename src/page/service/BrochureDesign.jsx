@@ -15,7 +15,7 @@ function BrochureDesign() {
           href="https://chameleogfxstudio.com/brochure-design" 
         />
         </Helmet>
-      <BreadCrumb title="Brochure Design" />
+      <BreadCrumb title="Brochure Design Company " breadcrumbTitle="Brochure Design Company in Ahmedabad" />
       <BrochureDesigndetail />
 
     </>

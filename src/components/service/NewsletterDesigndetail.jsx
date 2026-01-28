@@ -58,7 +58,7 @@ function NewsletterDesigndetail() {
 							<div className="aximo-default-content">
 								<h2>
 									<span className="aximo-title-animation">
-									About Newsletter Design
+									Newsletter Design Service in Ahmedabad
 										<span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
 										</span>
