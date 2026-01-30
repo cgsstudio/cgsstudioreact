@@ -8,38 +8,38 @@ import WebDevApproach from "./WebDevApproach";
 
 const services = [
 	{
-	  title: "Graphics Design",
-	  items: [
-		{ text: "Logo Design", link: "/logo-design-company-ahmedabad" },
-		{ text: "Branding and Identity Design", link: "/branding-and-identity-design-agency-ahmedabad" },
-		{ text: "Social Media Banner Design", link: "/social-media-banner-design-ahmedabad" },
-		{ text: "Flyer Design", link: "/flyer-design-services-ahmedabad" },
-		{ text: "Brochure Design", link: "/brochure-design" },
-		{ text: "Poster Design", link: "/poster-design" },
-		{ text: "Hoarding Design", link: "/hoarding-design" },
-		{ text: "Packaging Design", link: "/packaging-design" },
-		{ text: "Advertising Design", link: "/advertising-design" },
-		{ text: "Newsletter Design", link: "/newsletter-design" },
-		{ text: "Infographic Design", link: "/infographic-design" },
-		{ text: "Business Card Design", link: "/business-card-design" },
-		{ text: "Presentation Design", link: "/presentation-design" },
-		{ text: "Magazine and Booklet Design", link: "/magazine-and-booklet-design" },
-		{ text: "Custom Illustration Design", link: "/custom-illustration-design" },
-		{ text: "Event Invitation Design", link: "/event-invitation-design" },
-		{ text: "Menu Design", link: "/menu-design" },
-		{ text: "Signage Design", link: "/signage-design" },
-		{ text: "Corporate Profile Design", link: "/corporate-profile-design" },
-		{ text: "Annual Report Design", link: "/annual-report-design" },
-		{ text: "Digital Ad Design", link: "/digital-ad-design" },
-		{ text: "Trade Show Booth Design", link: "/trade-show-booth-design" },
-		{ text: "Motion Graphics Design", link: "/motion-graphics-design" },
-		{ text: "E-book Design", link: "/e-book-design" },
-	  ],
+		title: "Graphics Design",
+		items: [
+			{ text: "Logo Design", link: "/logo-design-company-ahmedabad" },
+			{ text: "Branding and Identity Design", link: "/branding-and-identity-design-agency-ahmedabad" },
+			{ text: "Social Media Banner Design", link: "/social-media-banner-design-ahmedabad" },
+			{ text: "Flyer Design", link: "/flyer-design-services-ahmedabad" },
+			{ text: "Brochure Design", link: "/brochure-design" },
+			{ text: "Poster Design", link: "/poster-design" },
+			{ text: "Hoarding Design", link: "/hoarding-design" },
+			{ text: "Packaging Design", link: "/packaging-design" },
+			{ text: "Advertising Design", link: "/advertising-design" },
+			{ text: "Newsletter Design", link: "/newsletter-design" },
+			{ text: "Infographic Design", link: "/infographic-design" },
+			{ text: "Business Card Design", link: "/business-card-design" },
+			{ text: "Presentation Design", link: "/presentation-design" },
+			{ text: "Magazine and Booklet Design", link: "/magazine-and-booklet-design" },
+			{ text: "Custom Illustration Design", link: "/custom-illustration-design" },
+			{ text: "Event Invitation Design", link: "/event-invitation-design" },
+			{ text: "Menu Design", link: "/menu-design" },
+			{ text: "Signage Design", link: "/signage-design" },
+			{ text: "Corporate Profile Design", link: "/corporate-profile-design" },
+			{ text: "Annual Report Design", link: "/annual-report-design" },
+			{ text: "Digital Ad Design", link: "/digital-ad-design" },
+			{ text: "Exhibition Booth Design", link: "/exhibition-booth-design-ahmedabad/" },
+			{ text: "Motion Graphics Design", link: "/motion-graphics-design" },
+			{ text: "E-book Design", link: "/e-book-design" },
+		],
 	},
-  ];
-  
-  
-  
+];
+
+
+
 
 
 
@@ -47,7 +47,7 @@ const services = [
 
 
 function TradeShowdetail() {
-	
+
 	return (
 		<div className="section aximo-section-padding2">
 			<div className="container">
@@ -60,70 +60,70 @@ function TradeShowdetail() {
 							<div className="aximo-default-content">
 								<h2>
 									<span className="aximo-title-animation">
-									About Trade Show Booth Design
+										Exhibition Booth Design Services in Ahmedabad
 										<span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
 										</span>
 									</span>
 								</h2>
 								<p>
-								At trade shows, your booth is the face of your brand – it’s your chance to stand out from the crowd and make a lasting impression on potential clients. Trade show booth design plays a crucial role in making your presence felt, and it starts with captivating, thoughtful design. At Chameleo GFX Studio, we specialize in custom trade show booth designs that are not only visually striking but also designed to foster interaction and drive engagement. Whether it’s showcasing products, gathering leads, or simply increasing brand awareness, we create booths that attract attention and spark meaningful connections.
+									At trade shows, your booth is the face of your brand – it’s your chance to stand out from the crowd and make a lasting impression on potential clients. Trade show booth design plays a crucial role in making your presence felt, and it starts with captivating, thoughtful design. At Chameleo GFX Studio, we specialize in custom trade show booth designs that are not only visually striking but also designed to foster interaction and drive engagement. Whether it’s showcasing products, gathering leads, or simply increasing brand awareness, we create booths that attract attention and spark meaningful connections.
 								</p>
 								<p>
-								A great trade show booth design is about more than just aesthetics – it’s about creating an experience that engages attendees and leaves a lasting impression. At Chameleo GFX Studio, our trade show booth design services are tailored to meet your specific goals, whether that’s generating leads, driving sales, or increasing brand recognition. Our designs combine interactive elements with bold branding and a layout that encourages visitors to explore and engage with your offerings. Ready to stand out at your next trade show? Let us help you design a booth that attracts, engages, and converts.
+									A great trade show booth design is about more than just aesthetics – it’s about creating an experience that engages attendees and leaves a lasting impression. At Chameleo GFX Studio, our trade show booth design services are tailored to meet your specific goals, whether that’s generating leads, driving sales, or increasing brand recognition. Our designs combine interactive elements with bold branding and a layout that encourages visitors to explore and engage with your offerings. Ready to stand out at your next trade show? Let us help you design a booth that attracts, engages, and converts.
 								</p>
 							</div>
 						</div>
 					</div>
-					  <div className="container pt-5">
-							{services.map((service, index) => (
-							  <div key={index} className="">
+					<div className="container pt-5">
+						{services.map((service, index) => (
+							<div key={index} className="">
 								{/* Heading for each main category */}
 								<div className="aximo-section-title main center">
-								  <h2>
-									<span className="aximo-title-animation">
-									  {service.title}
-									  <span className="aximo-title-icon">
-										<img className="shape-color" src={Star2Img} alt="Star2Img" />
-									  </span>
-									</span>
-								  </h2>
+									<h2>
+										<span className="aximo-title-animation">
+											{service.title}
+											<span className="aximo-title-icon">
+												<img className="shape-color" src={Star2Img} alt="Star2Img" />
+											</span>
+										</span>
+									</h2>
 								</div>
 								{service.categories &&
-								  service.categories.map((category, catIndex) => (
-									<div key={catIndex} className="mb-4">
-									  {/* Subtitle for each subcategory */}
-									  <h4 className="mb-3">{category.subtitle}</h4>
-									  <div className="row">
-										{category.items.map((item, itemIndex) => (
-										  <div key={itemIndex} className="col-12 col-md-6">
-											<ul className="list-unstyled custom-list">
-											  <li>{item}</li>
-											</ul>
-										  </div>
-										))}
-									  </div>
-									</div>
-								  ))}
+									service.categories.map((category, catIndex) => (
+										<div key={catIndex} className="mb-4">
+											{/* Subtitle for each subcategory */}
+											<h4 className="mb-3">{category.subtitle}</h4>
+											<div className="row">
+												{category.items.map((item, itemIndex) => (
+													<div key={itemIndex} className="col-12 col-md-6">
+														<ul className="list-unstyled custom-list">
+															<li>{item}</li>
+														</ul>
+													</div>
+												))}
+											</div>
+										</div>
+									))}
 								{!service.categories && (
-								<div className="row">
-								{service.items.map((item, itemIndex) => (
-							   <div key={itemIndex} className="col-12 col-md-6">
-								 <ul className="list-unstyled custom-list">
-								   <li>
-									 <a href={item.link} rel="noopener noreferrer">
-									   {item.text}
-									 </a>
-								   </li>
-								 </ul>
-							   </div>
-							 ))}
-						   </div>
+									<div className="row">
+										{service.items.map((item, itemIndex) => (
+											<div key={itemIndex} className="col-12 col-md-6">
+												<ul className="list-unstyled custom-list">
+													<li>
+														<a href={item.link} rel="noopener noreferrer">
+															{item.text}
+														</a>
+													</li>
+												</ul>
+											</div>
+										))}
+									</div>
 								)}
-							  </div>
-							))}
-						  </div>
-					
+							</div>
+						))}
+					</div>
+
 				</div>
 			</div>
 		</div>

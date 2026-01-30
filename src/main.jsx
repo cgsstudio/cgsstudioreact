@@ -34,7 +34,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           width: '100%',
           height: '100vh',
           backgroundColor: '#000',
-          color: '#fff',
+          color: '#fdfde1',
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',

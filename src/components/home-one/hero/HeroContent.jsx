@@ -13,9 +13,9 @@ function HeroContent() {
 				</span>{" "}
 				Agency
 			</h1>
-			 <p className="home-sub_description">
+			<p className="home-sub_description">
 				{`Strategic Digital Solutions for Modern Brands `}
-			</p> 
+			</p>
 			<p className="home-description">
 				{`At Chameleo GFX Studio, we design and build digital solutions that help brands grow with confidence. By combining creative design, smart technology, and growth-focused strategy, we deliver websites, visuals, and marketing that create real impact online.`}
 			</p>
@@ -39,9 +39,9 @@ function HeroContent() {
 			<a className="aximo-call-btn home-hero-btn" href="tel:+918460384838">
 				Book A Free Consultation <i className="icon-call"></i>
 			</a>
-			<div className="aximo-hero-shape">
+			{/* <div className="aximo-hero-shape">
 				<img className="shape-color" src={ShapeImg} alt="ShapeImg" />
-			</div>
+			</div> */}
 		</div>
 
 	);

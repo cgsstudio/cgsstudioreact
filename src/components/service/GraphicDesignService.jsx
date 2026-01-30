@@ -39,9 +39,9 @@ const services = [
       { text: "Corporate Profile Design", link: "/corporate-profile-design" },
       { text: "Annual Report Design", link: "/annual-report-design" },
       { text: "Digital Ad Design", link: "/digital-ad-design" },
-      { text: "Trade Show Booth Design", link: "/trade-show-booth-design" },
-      { text: "Motion Graphics Design", link: "/motion-graphics-design" },
-      { text: "E-book Design", link: "/e-book-design" },
+      { text: "Trade Show Booth Design", link: "/exhibition-booth-design-ahmedabad/" },
+      { text: "Motion Graphics Design", link: "/motion-graphics-design-agency-ahmedabad" },
+      { text: "E-book Design", link: "/e-book-design-service-ahmedabad" },
     ],
   },
 ];
@@ -98,7 +98,7 @@ function GraphicDesignService() {
 
                 <p className="text-lg-center text-sm-left">
                   A well-made design is more than just decoration. It tells your story, explains your message, and creates a lasting impression. It makes a brand look professional, trustworthy, and unique. At Chameleo GFX Studio, a leading Graphic Design Company in Ahmedabad, India, to stay ahead in today's competitive market, we also integrate AI-driven market insights and creative strategies to make your designs more impactful.	</p>
-                
+
               </div>
             </div>
           </div>

@@ -9,9 +9,9 @@ function Hero() {
 		<div className="aximo-hero-section2">
 			<div className="container position-relative">
 				<HeroContent />
-				<div className="aximo-hero-shape1">
+				{/* <div className="aximo-hero-shape1">
 					<img src={Shape1Img} alt="Shape" />
-				</div>
+				</div> */}
 				<div className="aximo-hero-shape2">
 					<img src={ShapeStarImg} alt="ShapeStarImg" />
 				</div>

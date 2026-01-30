@@ -44,65 +44,65 @@ const services = [
 
 
 function DigitalAddetail() {
-	
-	return (
-		<div className="section aximo-section-padding2">
-			<div className="container">
-				<div className="aximo-service-details-wrap">
-					<div className="aximo-service-details-thumb">
-						<img src={SingleImg} alt="Web Development" />
-					</div>
-					<div className="row">
-						<div className="col-lg-12">
-							<div className="aximo-default-content">
-								<h2>
-									<span className="aximo-title-animation">
-                                    About Digital Ad Design
-										<span className="aximo-title-icon">
-											<img src={Star2Img} alt="star" />
-										</span>
-									</span>
-								</h2>
-								<p>
-								Digital ad design is a critical component of any online marketing campaign. Whether for display ads, social media ads, or search engine ads, the design of your digital ad plays a key role in grabbing attention and driving conversions. At Chameleo GFX Studio, we specialize in digital ad design services that are optimized for performance and engagement. Our team creates visually appealing ads that align with your brand’s voice and drive measurable results. From banner ads to social media campaigns, we help you make the most of your online advertising efforts.
-								</p>
-								<p>
-								Our digital ad design services are focused on creating high-impact ads that capture attention and deliver results. We design ads that are responsive, effective, and crafted to perform across different platforms and devices. With a focus on creativity and optimization, our digital ad design services help you maximize the return on your advertising investments by reaching your target audience with compelling visuals and clear calls to action.
-								</p>
-							</div>
-						</div>
-					</div>
-					  <div className="container pt-5">
-                      {services.map((service, index) => (
-                 <div key={index} className="">
-              <div className="aximo-section-title main center">
-              <h2>
-            <span className="aximo-title-animation">
-          {service.title}
-          <span className="aximo-title-icon">
-            <img className="shape-color" src={Star2Img} alt="Star2Img" />
-          </span>
-        </span>
-      </h2>
-    </div>
-        <div className="row">
-         {service.items.map((item, itemIndex) => (
-        <div key={itemIndex} className="col-12 col-md-6">
-          <ul className="list-unstyled custom-list">
-            <li>
-              <a href={item.link} rel="noopener noreferrer">
-                {item.text}
-              </a>
-            </li>
-          </ul>
-        </div>
-      ))}
-    </div>
-  </div>
-))}
 
-						  </div>
-					{/* <div className="row">
+  return (
+    <div className="section aximo-section-padding2">
+      <div className="container">
+        <div className="aximo-service-details-wrap">
+          <div className="aximo-service-details-thumb">
+            <img src={SingleImg} alt="Web Development" />
+          </div>
+          <div className="row">
+            <div className="col-lg-12">
+              <div className="aximo-default-content">
+                <h2>
+                  <span className="aximo-title-animation">
+                    Digital Ad Design Agency in Ahmedabad
+                    <span className="aximo-title-icon">
+                      <img src={Star2Img} alt="star" />
+                    </span>
+                  </span>
+                </h2>
+                <p>
+                  Digital ad design is a critical component of any online marketing campaign. Whether for display ads, social media ads, or search engine ads, the design of your digital ad plays a key role in grabbing attention and driving conversions. At Chameleo GFX Studio, we specialize in digital ad design services that are optimized for performance and engagement. Our team creates visually appealing ads that align with your brand’s voice and drive measurable results. From banner ads to social media campaigns, we help you make the most of your online advertising efforts.
+                </p>
+                <p>
+                  Our digital ad design services are focused on creating high-impact ads that capture attention and deliver results. We design ads that are responsive, effective, and crafted to perform across different platforms and devices. With a focus on creativity and optimization, our digital ad design services help you maximize the return on your advertising investments by reaching your target audience with compelling visuals and clear calls to action.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="container pt-5">
+            {services.map((service, index) => (
+              <div key={index} className="">
+                <div className="aximo-section-title main center">
+                  <h2>
+                    <span className="aximo-title-animation">
+                      {service.title}
+                      <span className="aximo-title-icon">
+                        <img className="shape-color" src={Star2Img} alt="Star2Img" />
+                      </span>
+                    </span>
+                  </h2>
+                </div>
+                <div className="row">
+                  {service.items.map((item, itemIndex) => (
+                    <div key={itemIndex} className="col-12 col-md-6">
+                      <ul className="list-unstyled custom-list">
+                        <li>
+                          <a href={item.link} rel="noopener noreferrer">
+                            {item.text}
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+
+          </div>
+          {/* <div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-user-interface">
 								<h3>Visual Brilliance Unleashed: Elevate Your Brand with The Best Graphic Design Company in Ahmedabad</h3>
@@ -116,10 +116,10 @@ function DigitalAddetail() {
 						<img className="img-fluid" src={SingleImg2} alt="Web Development" />
 				
 					</div> */}
-				</div>
-			</div>
-		</div>
-	);
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default DigitalAddetail;

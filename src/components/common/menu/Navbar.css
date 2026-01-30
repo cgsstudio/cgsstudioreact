@@ -1,7 +1,7 @@
 /* General Navbar Styling */
 .custom-navbar {
   background-color: #000;
-  color: white;
+  color: #fdfde1 !important;
   padding: 10px 20px;
 }
 

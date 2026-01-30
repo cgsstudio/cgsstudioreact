@@ -241,7 +241,7 @@ const productSchemas = {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Magazine and Booklet Design Services",
-    "url": "https://chameleogfxstudio.com/magazine-and-booklet-design",
+    "url": "https://chameleogfxstudio.com/magazine-and-booklet-design-ahmedabad",
     "serviceType": "Graphic Design Services",
     "description": "Chameleo GFX Studio is the best magazine and booklet design company in Ahmedabad, India. We create visually appealing designs that capture attention effectively.",
     "provider": {
@@ -275,7 +275,7 @@ const productSchemas = {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Event Invitation Design Services",
-    "url": "https://chameleogfxstudio.com/event-invitation-design",
+    "url": "https://chameleogfxstudio.com/event-invitation-design-ahmedabad",
     "serviceType": "Graphic Design Services",
     "description": "Chameleo GFX Studio offers premium event invitation design services in Ahmedabad, India. We create stylish, unique invitations tailored to your event’s theme and needs.",
     "provider": {
@@ -292,7 +292,7 @@ const productSchemas = {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Menu Design Services",
-    "url": "https://chameleogfxstudio.com/menu-design",
+    "url": "https://chameleogfxstudio.com/menu-design-service-ahmedabad",
     "serviceType": "Graphic Design Services",
     "description": "Chameleo GFX Studio offers top menu card designing services in Ahmedabad, India. We create stylish, high-quality menus for restaurants, cafés, and hotels.",
     "provider": {
@@ -309,7 +309,7 @@ const productSchemas = {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Signage Design Services",
-    "url": "https://chameleogfxstudio.com/signage-design",
+    "url": "https://chameleogfxstudio.com/signage-design-service-ahmedabad",
     "serviceType": "Graphic Design Services",
     "description": "Chameleo GFX Studio offers top Signage Designing Services in Ahmedabad, India. We create eye-catching signage for businesses, retail, and outdoor branding.",
     "provider": {
@@ -326,7 +326,7 @@ const productSchemas = {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Corporate Profile Design Services",
-    "url": "https://chameleogfxstudio.com/corporate-profile-design",
+    "url": "https://chameleogfxstudio.com/corporate-profile-design-ahmedabad",
     "serviceType": "Graphic Design Services",
     "description": "Chameleo GFX Studio offers Company Profile Design Services in Ahmedabad, India. We create impactful company profiles that showcase your brand's vision.",
     "provider": {
@@ -343,7 +343,7 @@ const productSchemas = {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Annual Report Design Services",
-    "url": "https://chameleogfxstudio.com/annual-report-design",
+    "url": "https://chameleogfxstudio.com/annual-report-design-agency-ahmedabad",
     "serviceType": "Graphic Design Services",
     "description": "Chameleo GFX Studio offers Annual Report Design Services in Ahmedabad, India. We create visually stunning, informative reports that reflect your brand’s growth.",
     "provider": {
@@ -360,7 +360,7 @@ const productSchemas = {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Digital Ad Design Services",
-    "url": "https://chameleogfxstudio.com/digital-ad-design",
+    "url": "https://chameleogfxstudio.com/digital-ad-design-agency-ahmedabad",
     "serviceType": "Graphic Design Services",
     "description": "Chameleo GFX Studio offers Digital Ad Design Services in Ahmedabad, India. We create high-converting ads for social media, websites, and online marketing.",
     "provider": {
@@ -377,7 +377,7 @@ const productSchemas = {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Trade Show Booth Design Services",
-    "url": "https://chameleogfxstudio.com/trade-show-booth-design",
+    "url": "https://chameleogfxstudio.com/exhibition-booth-design-ahmedabad/",
     "serviceType": "Graphic Design Services",
     "description": "Chameleo GFX Studio offers Trade Show Booth Design Services in Ahmedabad, India. We create custom exhibition booths that enhance brand presence. Call us now!",
     "provider": {
@@ -394,7 +394,7 @@ const productSchemas = {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "Motion Graphics Design Services",
-    "url": "https://chameleogfxstudio.com/motion-graphics-design",
+    "url": "https://chameleogfxstudio.com/motion-graphics-design-agency-ahmedabad",
     "serviceType": "Graphic Design Services",
     "description": "Chameleo GFX Studio offers Motion Graphics Design Services in Ahmedabad, India. We create engaging animations, explainer videos, and visual effects to enhance your brand.",
     "provider": {
@@ -411,7 +411,7 @@ const productSchemas = {
     "@context": "https://schema.org",
     "@type": "Service",
     "name": "E-book Design Services",
-    "url": "https://chameleogfxstudio.com/e-book-design",
+    "url": "https://chameleogfxstudio.com/e-book-design-service-ahmedabad",
     "serviceType": "Graphic Design Services",
     "description": "Chameleo GFX Studio offers E-book Design Services in Ahmedabad, India. We create visually appealing, reader-friendly e-books with stunning layouts and graphics.",
     "provider": {

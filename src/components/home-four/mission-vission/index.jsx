@@ -16,7 +16,7 @@ function MissionVision() {
 				</div>
 			</div>
 			<div className="aximo-v4-shape1">
-				<img src={Shape1Img} alt="Shape1Img" />
+				{/* <img src={Shape1Img} alt="Shape1Img" /> */}
 			</div>
 		</div>
 	);

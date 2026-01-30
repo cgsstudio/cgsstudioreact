@@ -8,35 +8,35 @@ import WebDevApproach from "./WebDevApproach";
 
 const services = [
 	{
-	  title: "Graphics Design",
-	  items: [
-		{ text: "Logo Design", link: "/logo-design-company-ahmedabad" },
-		{ text: "Branding and Identity Design", link: "/branding-and-identity-design-agency-ahmedabad" },
-		{ text: "Social Media Banner Design", link: "/social-media-banner-design-ahmedabad" },
-		{ text: "Flyer Design", link: "/flyer-design-services-ahmedabad" },
-		{ text: "Brochure Design", link: "/brochure-design" },
-		{ text: "Poster Design", link: "/poster-design" },
-		{ text: "Hoarding Design", link: "/hoarding-design" },
-		{ text: "Packaging Design", link: "/packaging-design" },
-		{ text: "Advertising Design", link: "/advertising-design" },
-		{ text: "Newsletter Design", link: "/newsletter-design" },
-		{ text: "Infographic Design", link: "/infographic-design" },
-		{ text: "Business Card Design", link: "/business-card-design" },
-		{ text: "Presentation Design", link: "/presentation-design" },
-		{ text: "Magazine and Booklet Design", link: "/magazine-and-booklet-design" },
-		{ text: "Custom Illustration Design", link: "/custom-illustration-design" },
-		{ text: "Event Invitation Design", link: "/event-invitation-design" },
-		{ text: "Menu Design", link: "/menu-design" },
-		{ text: "Signage Design", link: "/signage-design" },
-		{ text: "Corporate Profile Design", link: "/corporate-profile-design" },
-		{ text: "Annual Report Design", link: "/annual-report-design" },
-		{ text: "Digital Ad Design", link: "/digital-ad-design" },
-		{ text: "Trade Show Booth Design", link: "/trade-show-booth-design" },
-		{ text: "Motion Graphics Design", link: "/motion-graphics-design" },
-		{ text: "E-book Design", link: "/e-book-design" },
-	  ],
+		title: "Graphics Design",
+		items: [
+			{ text: "Logo Design", link: "/logo-design-company-ahmedabad" },
+			{ text: "Branding and Identity Design", link: "/branding-and-identity-design-agency-ahmedabad" },
+			{ text: "Social Media Banner Design", link: "/social-media-banner-design-ahmedabad" },
+			{ text: "Flyer Design", link: "/flyer-design-services-ahmedabad" },
+			{ text: "Brochure Design", link: "/brochure-design" },
+			{ text: "Poster Design", link: "/poster-design" },
+			{ text: "Hoarding Design", link: "/hoarding-design" },
+			{ text: "Packaging Design", link: "/packaging-design" },
+			{ text: "Advertising Design", link: "/advertising-design" },
+			{ text: "Newsletter Design", link: "/newsletter-design" },
+			{ text: "Infographic Design", link: "/infographic-design" },
+			{ text: "Business Card Design", link: "/business-card-design" },
+			{ text: "Presentation Design", link: "/presentation-design" },
+			{ text: "Magazine and Booklet Design", link: "/magazine-and-booklet-design" },
+			{ text: "Custom Illustration Design", link: "/custom-illustration-design" },
+			{ text: "Event Invitation Design", link: "/event-invitation-design" },
+			{ text: "Menu Design", link: "/menu-design" },
+			{ text: "Signage Design", link: "/signage-design" },
+			{ text: "Corporate Profile Design", link: "/corporate-profile-design" },
+			{ text: "Annual Report Design", link: "/annual-report-design" },
+			{ text: "Digital Ad Design", link: "/digital-ad-design" },
+			{ text: "Trade Show Booth Design", link: "/trade-show-booth-design" },
+			{ text: "Motion Graphics Design", link: "/motion-graphics-design" },
+			{ text: "E-book Design", link: "/e-book-design" },
+		],
 	},
-  ];
+];
 
 
 
@@ -44,7 +44,7 @@ const services = [
 
 
 function EventInvitationdetail() {
-	
+
 	return (
 		<div className="section aximo-section-padding2">
 			<div className="container">
@@ -57,70 +57,70 @@ function EventInvitationdetail() {
 							<div className="aximo-default-content">
 								<h2>
 									<span className="aximo-title-animation">
-									About Event Invitation Design
+										Event Invitation Design in Ahmedabad
 										<span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
 										</span>
 									</span>
 								</h2>
 								<p>
-								The right event invitation design doesn’t just provide the details – it creates a sense of excitement, anticipation, and exclusivity. A beautifully designed invitation can set the tone for your event and generate buzz long before it begins. At Chameleo GFX Studio, we believe that every event deserves a unique, eye-catching invitation. Whether it’s for a corporate event, wedding, or grand launch, our custom event invitation designs reflect the spirit and theme of your occasion while engaging your guests from the moment they open it.
+									The right event invitation design doesn’t just provide the details – it creates a sense of excitement, anticipation, and exclusivity. A beautifully designed invitation can set the tone for your event and generate buzz long before it begins. At Chameleo GFX Studio, we believe that every event deserves a unique, eye-catching invitation. Whether it’s for a corporate event, wedding, or grand launch, our custom event invitation designs reflect the spirit and theme of your occasion while engaging your guests from the moment they open it.
 								</p>
 								<p>
-								Creating a memorable event invitation design is all about combining creativity, elegance, and practicality. At Chameleo GFX Studio, we understand that the invitation is the first thing your guests will see – so we make sure it’s something they’ll want to keep. From color schemes to typography, we create designs that resonate with your event's theme and purpose, ensuring your invitation stands out in a crowded inbox or mailbox. Ready to impress your guests? Let us design an invitation that builds excitement and sets the stage for a successful event.
+									Creating a memorable event invitation design is all about combining creativity, elegance, and practicality. At Chameleo GFX Studio, we understand that the invitation is the first thing your guests will see – so we make sure it’s something they’ll want to keep. From color schemes to typography, we create designs that resonate with your event's theme and purpose, ensuring your invitation stands out in a crowded inbox or mailbox. Ready to impress your guests? Let us design an invitation that builds excitement and sets the stage for a successful event.
 								</p>
 							</div>
 						</div>
 					</div>
-					  <div className="container pt-5">
-							{services.map((service, index) => (
-							  <div key={index} className="">
+					<div className="container pt-5">
+						{services.map((service, index) => (
+							<div key={index} className="">
 								{/* Heading for each main category */}
 								<div className="aximo-section-title main center">
-								  <h2>
-									<span className="aximo-title-animation">
-									  {service.title}
-									  <span className="aximo-title-icon">
-										<img className="shape-color" src={Star2Img} alt="Star2Img" />
-									  </span>
-									</span>
-								  </h2>
+									<h2>
+										<span className="aximo-title-animation">
+											{service.title}
+											<span className="aximo-title-icon">
+												<img className="shape-color" src={Star2Img} alt="Star2Img" />
+											</span>
+										</span>
+									</h2>
 								</div>
 								{service.categories &&
-								  service.categories.map((category, catIndex) => (
-									<div key={catIndex} className="mb-4">
-									  {/* Subtitle for each subcategory */}
-									  <h4 className="mb-3">{category.subtitle}</h4>
-									  <div className="row">
-										{category.items.map((item, itemIndex) => (
-										  <div key={itemIndex} className="col-12 col-md-6">
-											<ul className="list-unstyled custom-list">
-											  <li>{item}</li>
-											</ul>
-										  </div>
-										))}
-									  </div>
-									</div>
-								  ))}
+									service.categories.map((category, catIndex) => (
+										<div key={catIndex} className="mb-4">
+											{/* Subtitle for each subcategory */}
+											<h4 className="mb-3">{category.subtitle}</h4>
+											<div className="row">
+												{category.items.map((item, itemIndex) => (
+													<div key={itemIndex} className="col-12 col-md-6">
+														<ul className="list-unstyled custom-list">
+															<li>{item}</li>
+														</ul>
+													</div>
+												))}
+											</div>
+										</div>
+									))}
 								{!service.categories && (
-								  <div className="row">
-								  {service.items.map((item, itemIndex) => (
-								 <div key={itemIndex} className="col-12 col-md-6">
-								   <ul className="list-unstyled custom-list">
-									 <li>
-									   <a href={item.link}  rel="noopener noreferrer">
-										 {item.text}
-									   </a>
-									 </li>
-								   </ul>
-								 </div>
-							   ))}
-							 </div>
+									<div className="row">
+										{service.items.map((item, itemIndex) => (
+											<div key={itemIndex} className="col-12 col-md-6">
+												<ul className="list-unstyled custom-list">
+													<li>
+														<a href={item.link} rel="noopener noreferrer">
+															{item.text}
+														</a>
+													</li>
+												</ul>
+											</div>
+										))}
+									</div>
 								)}
-							  </div>
-							))}
-						  </div>
-					
+							</div>
+						))}
+					</div>
+
 				</div>
 			</div>
 		</div>

@@ -7,7 +7,7 @@ function HeroThumb() {
 	return (
 		<div className="aximo-hero-thumb3-wrap">
 			<div className="aximo-hero-thumb3">
-				<LazyLoadImage src={ThumbImg} alt=" Thumb" effect="blur" />
+				{/* <LazyLoadImage src={ThumbImg} alt=" Thumb" effect="blur" /> */}
 				<div className="aximo-hero-thumb-shape2">
 					<img src={ShapeMonitorImg} alt="ShapeMonitorImg" />
 				</div>

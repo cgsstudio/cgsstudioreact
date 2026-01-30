@@ -6,14 +6,14 @@ function HeroThumbs() {
 			className="aximo-hero-thumb jos text-center text-md-start"
 			data-jos_animation="fade-right"
 		>
-			<img
+			{/* <img
 				src={HeroThumbImg}
 				alt="Hero thumb"
 				rel="preload"
 				fetchpriority="high"
 				decoding="async"
 				className="img-fluid"
-			/>
+			/> */}
 		</div>
 	);
 }

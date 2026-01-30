@@ -30,7 +30,7 @@
 .how-we-work-section .aximo-section-title h2 {
     font-size: 48px;
     font-weight: 700;
-    color: #fff;
+    color: #fdfde1 !important;
     margin-bottom: 60px;
     line-height: 1.3;
 }
@@ -86,7 +86,7 @@
 }
 
 .work-step-card:hover .icon-component {
-    color: #fff;
+    color: #fdfde1 !important;
 }
 
 /* Step Title */

@@ -65,7 +65,7 @@
 
 .cta-btn:hover {
     background-color: transparent;
-    color: #fff;
+    color: #fdfde1 !important;
 }
 
 /* Variant: Center Aligned */

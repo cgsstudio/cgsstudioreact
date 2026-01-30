@@ -120,7 +120,7 @@ function ServiceDetails() {
       </Helmet>
 
       <div className="container pt-5">
-        <div className="aximo-default-content text-lg-center text-sm-left m-sm-3">
+        <div className="aximo-default-content text-lg-center">
           <h1 className="text-lg-center text-sm-left"><span className="custom-h2"><span style={{ color: 'red' }}>Best UI/UX Design </span> Design Agency in Ahmedabad</span></h1>
 
           <p className="text-lg-center text-sm-left pt-sm-2 pt-3 pt-lg-0">
@@ -161,7 +161,7 @@ function ServiceDetails() {
             </div>
             <div className="col-lg-6 align-items-center order-1 order-md-2">
               <div>
-                <img src={uiux_image1} alt="Graphic Design" className="services_page_image" />
+                <img src={uiux_image1} alt="Graphic Design" className="services_page_image img-fluid" />
               </div>
             </div>
           </div>
@@ -174,7 +174,7 @@ function ServiceDetails() {
           <div className="row">
             <div className="col-lg-6 align-items-center">
               <div>
-                <img src={uiux_image3} className="ui-ux_image2" />
+                <img src={uiux_image3} className="ui-ux_image2 img-fluid" />
               </div>
             </div>
             <div className="col-lg-6 align-items-center ">
@@ -201,8 +201,8 @@ function ServiceDetails() {
       {/* Contect Form */}
       <div className="container py-5" id="contact-form">
         <div className="row align-items-center" >
-          <div className="col-md-6 mb-4 mb-md-0 pr-5  mr-5">
-            <div className="servisepage-form-section servisepage-form-section-1 pr-5">
+          <div className="col-md-6 mb-4 mb-md-0">
+            <div className="servisepage-form-section servisepage-form-section-1">
               <h2>Optimize your Business Hours Efficiently  </h2>
             </div>
 
@@ -284,46 +284,44 @@ function ServiceDetails() {
 
       {/* The Role of Design in Today's Digital World. */}
       <div className="design-body-wrapper">
-        <div className="container pt-5">
-          <div className="container py-5">
-            <div className="design-main-card">
-              <div className="row">
-                <div className="col-lg-5 col-md-5">
-                  <div className="design-title-section">
-                    <h1 className="design-title-heading">The Role <br />of UI/UX <br />Design in <br />Today's<br />Digital World..</h1>
-                  </div>
+        <div className="container py-5">
+          <div className="design-main-card">
+            <div className="row">
+              <div className="col-lg-5 col-md-5">
+                <div className="design-title-section">
+                  <h1 className="design-title-heading">The Role <br />of UI/UX <br />Design in <br />Today's<br />Digital World..</h1>
                 </div>
+              </div>
 
-                <div className="col-lg-7 col-md-7">
-                  <div className="design-timeline-wrapper">
-                    <div className="design-timeline-vertical-line"></div>
+              <div className="col-lg-7 col-md-7">
+                <div className="design-timeline-wrapper">
+                  <div className="design-timeline-vertical-line"></div>
 
-                    <div className="design-timeline-single-item">
-                      <div className="design-timeline-circle-dot"></div>
-                      <div className="design-info-content-box">
-                        <p className="design-info-text-paragraph">On websites, design influences how long visitors stay.</p>
-                      </div>
+                  <div className="design-timeline-single-item">
+                    <div className="design-timeline-circle-dot"></div>
+                    <div className="design-info-content-box">
+                      <p className="design-info-text-paragraph">On websites, design influences how long visitors stay.</p>
                     </div>
+                  </div>
 
-                    <div className="design-timeline-single-item">
-                      <div className="design-timeline-circle-dot"></div>
-                      <div className="design-info-content-box">
-                        <p className="design-info-text-paragraph">On apps, design decides whether users keep or delete it.</p>
-                      </div>
+                  <div className="design-timeline-single-item">
+                    <div className="design-timeline-circle-dot"></div>
+                    <div className="design-info-content-box">
+                      <p className="design-info-text-paragraph">On apps, design decides whether users keep or delete it.</p>
                     </div>
+                  </div>
 
-                    <div className="design-timeline-single-item">
-                      <div className="design-timeline-circle-dot"></div>
-                      <div className="design-info-content-box">
-                        <p className="design-info-text-paragraph">In software, design impacts efficiency and productivity.</p>
-                      </div>
+                  <div className="design-timeline-single-item">
+                    <div className="design-timeline-circle-dot"></div>
+                    <div className="design-info-content-box">
+                      <p className="design-info-text-paragraph">In software, design impacts efficiency and productivity.</p>
                     </div>
+                  </div>
 
-                    <div className="design-timeline-single-item">
-                      <div className="design-timeline-circle-dot"></div>
-                      <div className="design-info-content-box">
-                        <p className="design-info-text-paragraph">Strong UI/UX is the secret to customer satisfaction, retention, and long-term growth.</p>
-                      </div>
+                  <div className="design-timeline-single-item">
+                    <div className="design-timeline-circle-dot"></div>
+                    <div className="design-info-content-box">
+                      <p className="design-info-text-paragraph">Strong UI/UX is the secret to customer satisfaction, retention, and long-term growth.</p>
                     </div>
                   </div>
                 </div>
@@ -355,7 +353,7 @@ function ServiceDetails() {
             </div>
             <div className="col-lg-6 align-items-center order-1 order-md-2">
               <div>
-                <img src={uiux_image2} className="ui-ux_image2" />
+                <img src={uiux_image2} className="ui-ux_image2 img-fluid" />
               </div>
             </div>
           </div>
@@ -368,7 +366,7 @@ function ServiceDetails() {
           <div className="row">
             <div className="col-lg-6 align-items-center">
               <div>
-                <img src={uiux_image4} alt="Graphic Design" className="ui-ux_image4" />
+                <img src={uiux_image4} alt="Graphic Design" className="ui-ux_image4 img-fluid" />
               </div>
             </div>
             <div className="col-lg-6 align-items-center">
@@ -406,7 +404,7 @@ function ServiceDetails() {
               {/* Add g-4 for spacing between columns */}
               <div className="row g-4 pt-5">
                 {service.items.map((item, itemIndex) => (
-                  <div key={itemIndex} className="col-12 col-md-2  pb-3 mx-3 justify-content-start align-items-center" >
+                  <div key={itemIndex} className="col-12 col-md-2  pb-3 justify-content-start align-items-center" >
                     <ul className="badge bg-black custom-hover">
                       <li> <a href={item.link} rel="noopener noreferrer" className="link-tegs text-white text-decoration-none" >  {item.text}  </a> </li>
                     </ul>
@@ -448,7 +446,7 @@ function ServiceDetails() {
           <ServiceAccordion items={faqData} defaultOpen={0} />
         </div>
       </section>
-    </div>
+    </div >
   );
 }
 

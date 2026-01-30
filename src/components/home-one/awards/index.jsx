@@ -71,7 +71,7 @@ function AwardsSection() {
     <div className="section pt-5" style={{ backgroundColor: '#000' }}>
       <div className="container">
         <div className="row align-items-center gy-4">
-          <div className="col-lg-3">
+          <div className="col-lg-3 text-center text-lg-start">
             <h3 className="fw-bold mb-3 text-whitesmoke">Our Awards & Recognition</h3>
             <p className="text-whitesmoke">Celebrating Excellence: A Legacy of Awards and Recognitions</p>
           </div>

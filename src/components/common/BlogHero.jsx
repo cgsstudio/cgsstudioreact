@@ -23,4 +23,4 @@ function BlogHero({ title, breadcrumbTitle }) {
   );
 }
 
-export default BlogHero;
+export default BlogHero; 

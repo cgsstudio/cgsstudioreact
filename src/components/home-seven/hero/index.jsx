@@ -12,9 +12,9 @@ function Hero() {
 						<HeroContent />
 					</div>
 					<div className="col-lg-6">
-						<div className="aximo-hero-thumb7">
+						{/* <div className="aximo-hero-thumb7">
 							<LazyLoadImage src={HeroThumbImg} alt=" Thumb" effect="blur" />
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

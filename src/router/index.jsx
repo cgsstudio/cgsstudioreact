@@ -148,66 +148,6 @@ const CookiePolicy = lazy(() => import("../components/home-one/cookie/CookiePoli
 
 export const router = createBrowserRouter([
 	{
-		path: "/ui-ux-design-company-in-ahmedabad",
-		element: <Navigate to="/ui-ux-design-agency-in-ahmedabad" replace />,
-	},
-	{
-		path: "/web-development-company-in-ahmedabad",
-		element: <Navigate to="/website-development-company-ahmedabad" replace />,
-	},
-	{
-		path: "/digital-marketing",
-		element: <Navigate to="/digital-marketing-agency-india" replace />,
-	},
-	{
-		path: "/branding-and-identity-design",
-		element: <Navigate to="/branding-and-identity-design-agency-ahmedabad" replace />,
-	},
-	{
-		path: "/social-media-banner-design",
-		element: <Navigate to="/social-media-banner-design-ahmedabad" replace />,
-	},
-	{
-		path: "/flyer-design",
-		element: <Navigate to="/flyer-design-services-ahmedabad" replace />,
-	},
-	{
-		path: "/brochure-design",
-		element: <Navigate to="/brochure-design-company-ahmedabad/" replace />,
-	},
-	{
-		path: "/poster-design",
-		element: <Navigate to="/poster-design-services-ahmedabad" replace />,
-	},
-	{
-		path: "/hoarding-design",
-		element: <Navigate to="/hoarding-design-services-ahmedabad" replace />,
-	},
-	{
-		path: "/packaging-design",
-		element: <Navigate to="/packaging-design-agency-ahmedabad" replace />,
-	},
-	{
-		path: "/advertising-design",
-		element: <Navigate to="/advertising-design-agency-ahmedabad" replace />,
-	},
-	{
-		path: "/newsletter-design",
-		element: <Navigate to="/newsletter-design-service-ahmedabad" replace />,
-	},
-	{
-		path: "/infographic-design",
-		element: <Navigate to="/infographic-design-services-ahmedabad" replace />,
-	},
-	{
-		path: "/business-card-design",
-		element: <Navigate to="/visiting-card-design-service-ahmedabad" replace />,
-	},
-	{
-		path: "/presentation-design",
-		element: <Navigate to="/presentation-design-services-ahmedabad" replace />,
-	},
-	{
 		path: "/",
 		element: <Layout />,
 		children: [
@@ -215,6 +155,106 @@ export const router = createBrowserRouter([
 				path: "/",
 				element: <LayoutOne />,
 				children: [
+					{
+						path: "/ui-ux-design-company-in-ahmedabad",
+						element: <Navigate to="/ui-ux-design-agency-in-ahmedabad" replace />,
+					},
+					{
+						path: "/web-development-company-in-ahmedabad",
+						element: <Navigate to="/website-development-company-ahmedabad" replace />,
+					},
+					{
+						path: "/digital-marketing",
+						element: <Navigate to="/digital-marketing-agency-india" replace />,
+					},
+					{
+						path: "/branding-and-identity-design",
+						element: <Navigate to="/branding-and-identity-design-agency-ahmedabad" replace />,
+					},
+					{
+						path: "/social-media-banner-design",
+						element: <Navigate to="/social-media-banner-design-ahmedabad" replace />,
+					},
+					{
+						path: "/flyer-design",
+						element: <Navigate to="/flyer-design-services-ahmedabad" replace />,
+					},
+					{
+						path: "/brochure-design",
+						element: <Navigate to="/brochure-design-company-ahmedabad/" replace />,
+					},
+					{
+						path: "/poster-design",
+						element: <Navigate to="/poster-design-services-ahmedabad" replace />,
+					},
+					{
+						path: "/hoarding-design",
+						element: <Navigate to="/hoarding-design-services-ahmedabad" replace />,
+					},
+					{
+						path: "/packaging-design",
+						element: <Navigate to="/packaging-design-agency-ahmedabad" replace />,
+					},
+					{
+						path: "/advertising-design",
+						element: <Navigate to="/advertising-design-agency-ahmedabad" replace />,
+					},
+					{
+						path: "/newsletter-design",
+						element: <Navigate to="/newsletter-design-service-ahmedabad" replace />,
+					},
+					{
+						path: "/infographic-design",
+						element: <Navigate to="/infographic-design-services-ahmedabad" replace />,
+					},
+					{
+						path: "/business-card-design",
+						element: <Navigate to="/visiting-card-design-service-ahmedabad" replace />,
+					},
+					{
+						path: "/presentation-design",
+						element: <Navigate to="/presentation-design-services-ahmedabad" replace />,
+					},
+					{
+						path: "/magazine-and-booklet-design",
+						element: <Navigate to="/magazine-and-booklet-design-ahmedabad" replace />,
+					},
+					{
+						path: "/event-invitation-design",
+						element: <Navigate to="/event-invitation-design-ahmedabad" replace />,
+					},
+					{
+						path: "/menu-design",
+						element: <Navigate to="/menu-design-service-ahmedabad" replace />,
+					},
+					{
+						path: "/signage-design",
+						element: <Navigate to="/signage-design-service-ahmedabad" replace />,
+					},
+					{
+						path: "/corporate-profile-design",
+						element: <Navigate to="/corporate-profile-design-ahmedabad" replace />,
+					},
+					{
+						path: "/annual-report-design",
+						element: <Navigate to="/annual-report-design-agency-ahmedabad" replace />,
+					},
+					{
+						path: "/digital-ad-design",
+						element: <Navigate to="/digital-ad-design-agency-ahmedabad" replace />,
+					},
+					{
+						path: "/trade-show-booth-design",
+						element: <Navigate to="/exhibition-booth-design-ahmedabad/" replace />,
+					},
+					{
+						path: "/motion-graphics-design",
+						element: <Navigate to="/motion-graphics-design-agency-ahmedabad" replace />,
+					},
+					{
+						path: "/e-book-design",
+						element: <Navigate to="/e-book-design-service-ahmedabad" replace />,
+					},
 					{
 						path: "/",
 						element: <HomeOne />,
@@ -519,7 +559,7 @@ export const router = createBrowserRouter([
 
 					},
 					{
-						path: "/event-invitation-design",
+						path: "/event-invitation-design-ahmedabad",
 						element: <EventInvitation />,
 
 					},
@@ -529,12 +569,12 @@ export const router = createBrowserRouter([
 
 					},
 					{
-						path: "/corporate-profile-design",
+						path: "/corporate-profile-design-ahmedabad",
 						element: <CorporateProfile />,
 
 					},
 					{
-						path: "/trade-show-booth-design",
+						path: "/exhibition-booth-design-ahmedabad/",
 						element: <TradeShow />,
 
 					},
@@ -559,22 +599,22 @@ export const router = createBrowserRouter([
 
 					},
 					{
-						path: "/magazine-and-booklet-design",
+						path: "/magazine-and-booklet-design-ahmedabad",
 						element: <MagazineBooklet />,
 
 					},
 					{
-						path: "/menu-design",
+						path: "/menu-design-service-ahmedabad",
 						element: <Menudesigncard />,
 
 					},
 					{
-						path: "/annual-report-design",
+						path: "/annual-report-design-agency-ahmedabad",
 						element: <AnnualReport />,
 
 					},
 					{
-						path: "/motion-graphics-design",
+						path: "/motion-graphics-design-agency-ahmedabad",
 						element: <MotionGraphics />,
 
 					},
@@ -594,17 +634,17 @@ export const router = createBrowserRouter([
 
 					},
 					{
-						path: "/signage-design",
+						path: "/signage-design-service-ahmedabad",
 						element: <SignageDesign />,
 
 					},
 					{
-						path: "/digital-ad-design",
+						path: "/digital-ad-design-agency-ahmedabad",
 						element: <DigitalAd />,
 
 					},
 					{
-						path: "/e-book-design",
+						path: "/e-book-design-service-ahmedabad",
 						element: <Ebookdesign />,
 
 					},
@@ -701,11 +741,11 @@ export const router = createBrowserRouter([
 						path: "*",
 						element: <ErrorPage />,
 					},
-			],
-		},
-		{
-			path: "/",
-			element: <LayoutTwo />,
+				],
+			},
+			{
+				path: "/",
+				element: <LayoutTwo />,
 				children: [
 					{
 						path: "/home-two",

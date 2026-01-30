@@ -9,9 +9,9 @@ function AboutTwo() {
 					<div className="col-lg-5 order-lg-1 offset-lg-1">
 						<div className="aximo-content-thumb ">
 							<img src={Thumb2Img} alt="Thumb2Img" />
-							<div className="aximo-thumb-shape2">
+							{/* <div className="aximo-thumb-shape2">
 								<img src={Shape1Img} alt="Shape1Img" />
-							</div>
+							</div> */}
 						</div>
 					</div>
 					<div className="col-lg-6">
