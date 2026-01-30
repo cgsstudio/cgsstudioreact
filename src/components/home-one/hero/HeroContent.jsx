@@ -36,7 +36,7 @@ function HeroContent() {
 					<p>Believed by more than a thousand people</p>
 				</div>
 			</div>
-			<a className="aximo-call-btn home-hero-btn" href="tel:+918460384838">
+			<a className="aximo-call-btn home-hero-btn" href="https://wa.me/919737472636">
 				Book A Free Consultation <i className="icon-call"></i>
 			</a>
 			{/* <div className="aximo-hero-shape">

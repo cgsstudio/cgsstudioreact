@@ -38,39 +38,8 @@ const GHLIcon = ({ size = 24 }) => (
 
 function AppWebServices() {
     const cards = [
-        {
+         {
             id: 1,
-            title: "Graphic Design",
-            description: "Our graphic designs transform creative ideas into captivating visuals that leave a lasting impression on your audience.",
-            animation: <div style={{ width: 80, height: 80 }}><Lottie animationData={MobileAppAnimation} loop={true} autoplay={true} /></div>,
-            // image: MobileAppImg,
-            link: "/graphic-design-company-in-ahmedabad",
-            techs: [
-                { name: "Figma", icon: <SiFigma size={24} color="#F24E1E" />, bg: "#ffece6" },
-                { name: "Adobe Illustrator", icon: <SiAdobeillustrator size={24} color="#FF7C00" />, bg: "#fff3e6" },
-                { name: "Adobe Photoshop", icon: <SiAdobephotoshop size={24} color="#31A8FF" />, bg: "#e6f5ff" },
-                { name: "Canva", icon: <SiCanva size={24} color="#00C4CC" />, bg: "#e6ffff" },
-                { name: "Adobe XD", icon: <SiAdobexd size={24} color="#FF21C0" />, bg: "#ffe6f7" },
-                { name: "Sketch", icon: <SiSketch size={24} color="#F7B500" />, bg: "#fff8e6" },
-                { name: "Framer", icon: <SiFramer size={24} color="#0055FF" />, bg: "#e6efff" }
-            ]
-        },
-        {
-            id: 2,
-            title: "UI/UX Design",
-            description: "We design intuitive user interfaces that ensure maximum usability, smooth navigation, and enjoyable interactions for every user.",
-            animation: <div style={{ width: 80, height: 80 }}><Lottie animationData={UiUxAnimation} loop={true} autoplay={true} /></div>,
-            // image: UiUxImg,
-            link: "/ui-ux-design-agency-in-ahmedabad",
-            techs: [
-                { name: "Figma", icon: <SiFigma size={24} color="#F24E1E" />, bg: "#ffe0d6" },
-                { name: "Adobe XD", icon: <SiAdobexd size={24} color="#FF61F6" />, bg: "#ffe0fd" },
-                { name: "Sketch", icon: <SiSketch size={24} color="#F7B500" />, bg: "#fff3d6" },
-                { name: "Framer", icon: <SiFramer size={24} color="#0055FF" />, bg: "#e0eaff" }
-            ]
-        },
-        {
-            id: 3,
             title: "Web Development",
             description: "As a leading web development company in Ahmedabad, India, we specialize in building visually stunning, high-performing websites that connect seamlessly with your target audience.",
             animation: <div style={{ width: 80, height: 80 }}><Lottie animationData={WebDevAnimation} loop={true} autoplay={true} /></div>,
@@ -89,7 +58,7 @@ function AppWebServices() {
             ]
         },
         {
-            id: 4,
+            id: 2,
             title: "Search Engine Optimization",
             description: "Our team leverages advanced strategies and in-depth keyword analysis to ensure your website ranks high for the searches that matter most.",
             animation: <div style={{ width: 80, height: 80 }}><Lottie animationData={SeoAnimation} loop={true} autoplay={true} /></div>,
@@ -127,7 +96,40 @@ function AppWebServices() {
                     bg: "#eaffea"
                 }
             ]
-        }
+        },
+        
+        {
+            id: 3,
+            title: "UI/UX Design",
+            description: "We design intuitive user interfaces that ensure maximum usability, smooth navigation, and enjoyable interactions for every user.",
+            animation: <div style={{ width: 80, height: 80 }}><Lottie animationData={UiUxAnimation} loop={true} autoplay={true} /></div>,
+            // image: UiUxImg,
+            link: "/ui-ux-design-agency-in-ahmedabad",
+            techs: [
+                { name: "Figma", icon: <SiFigma size={24} color="#F24E1E" />, bg: "#ffe0d6" },
+                { name: "Adobe XD", icon: <SiAdobexd size={24} color="#FF61F6" />, bg: "#ffe0fd" },
+                { name: "Sketch", icon: <SiSketch size={24} color="#F7B500" />, bg: "#fff3d6" },
+                { name: "Framer", icon: <SiFramer size={24} color="#0055FF" />, bg: "#e0eaff" }
+            ]
+        },
+        {
+            id: 4,
+            title: "Graphic Design",
+            description: "Our graphic designs transform creative ideas into captivating visuals that leave a lasting impression on your audience.",
+            animation: <div style={{ width: 80, height: 80 }}><Lottie animationData={MobileAppAnimation} loop={true} autoplay={true} /></div>,
+            // image: MobileAppImg,
+            link: "/graphic-design-company-in-ahmedabad",
+            techs: [
+                { name: "Figma", icon: <SiFigma size={24} color="#F24E1E" />, bg: "#ffece6" },
+                { name: "Adobe Illustrator", icon: <SiAdobeillustrator size={24} color="#FF7C00" />, bg: "#fff3e6" },
+                { name: "Adobe Photoshop", icon: <SiAdobephotoshop size={24} color="#31A8FF" />, bg: "#e6f5ff" },
+                { name: "Canva", icon: <SiCanva size={24} color="#00C4CC" />, bg: "#e6ffff" },
+                { name: "Adobe XD", icon: <SiAdobexd size={24} color="#FF21C0" />, bg: "#ffe6f7" },
+                { name: "Sketch", icon: <SiSketch size={24} color="#F7B500" />, bg: "#fff8e6" },
+                { name: "Framer", icon: <SiFramer size={24} color="#0055FF" />, bg: "#e6efff" }
+            ]
+        },
+       
     ];
 
     return (
