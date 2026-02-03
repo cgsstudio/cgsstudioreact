@@ -212,6 +212,7 @@ const sitemapData = [
       { text: "Human-AI Collaboration in Design: Where Creativity Meets Technology", link: "/blog/human-ai-collaboration-in-design" },
       { text: "Why Strong Branding Is Essential for Small Businesses?", link: "/blog/strong-branding-for-small-businesses" },
       { text: "Top Graphic Design Trends Businesses Should Follow in 2026", link: "/blog/why-strong-branding-for-small-businesses" },
+      { text: "Top Shopify E-commerce SEO Strategies to Boost Sales in 2026", link: "/blog/top-shopify-e-commerce-seo-strategies-for-2026" },
 
 
 

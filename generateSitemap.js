@@ -171,6 +171,7 @@ const pages = [
   { url: "/blog/human-ai-collaboration-in-design", changefreq: "monthly", priority: 0.6 },
   { url: "/blog/strong-branding-for-small-businesses", changefreq: "monthly", priority: 0.6 },
   { url: "/blog/why-strong-branding-for-small-businesses", changefreq: "monthly", priority: 0.6 },
+  { url: "/blog/top-shopify-e-commerce-seo-strategies-for-2026", changefreq: "monthly", priority: 0.6 },
 
 
 

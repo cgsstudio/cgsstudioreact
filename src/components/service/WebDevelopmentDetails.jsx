@@ -173,7 +173,7 @@ function WebDevelopmentDetails() {
 	return (
 		<div className="section  pb-0">
 			<Helmet>
-				<title>Website Development Company in Ahmedabad - Chameleo GFX Studio</title>
+				<title>Website Development Company in Ahmedabad</title>
 				<meta
 					name="description"
 					content="Chameleo GFX Studio provides professional Website Development services in Ahmedabad. We develop websites that are fast, responsive, and optimized to grow your business online."
@@ -194,7 +194,7 @@ function WebDevelopmentDetails() {
 					<div className="row ">
 						<div className="col-lg-12">
 							<div className="aximo-default-content">
-								<h1 className="text-lg-center text-sm-left"><span className="custom-h2"><span style={{ color: 'red' }}>Website Development</span> Company</span></h1>
+								<h1 className="text-lg-center text-sm-left"><span className="custom-h2"><span style={{ color: 'red' }}>Website Development</span> Company in Ahmedabad</span></h1>
 
 								<p className="text-lg-center text-sm-left pt-sm-2 pt-3 pt-lg-0">
 									A website is like the virtual home of a company. Just as a physical store, it must be inviting, well-structured, and appealing. Website designing is the process of creating that virtual house, ensuring it is aesthetically pleasing, functions well, and provides users with the information they require.
