@@ -6,7 +6,7 @@ const sitemapData = [
   {
     title: "Home",
     items: [
-      { text: "Home", link: "//localhost:5174" },
+      { text: "Home", link: "/" },
     ],
   },
   {

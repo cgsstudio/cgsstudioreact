@@ -4,6 +4,7 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 
 export default defineConfig({
+  base: '/', // Changed from './' to '/' to fix asset loading on deep routes like /blog/:slug
   plugins: [react()],
   resolve: {
     alias: {
@@ -23,9 +24,6 @@ export default defineConfig({
     },
     rollupOptions: {
       output: {
-        manualChunks: {
-          bootstrap: ['bootstrap'],
-        },
       },
     },
   },

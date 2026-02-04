@@ -186,8 +186,16 @@ const generate = async () => {
   sitemap.end();
 
   const data = await streamToPromise(sitemap);
+
+  // Write to public folder (for future builds)
   fs.writeFileSync("./public/sitemap.xml", data.toString());
-  console.log("✅ Sitemap generated: public/sitemap.xml");
+
+  // Write to dist folder (for current deployment if build already finished)
+  if (fs.existsSync("./dist")) {
+    fs.writeFileSync("./dist/sitemap.xml", data.toString());
+  }
+
+  console.log("✅ Sitemap generated successfully");
 };
 
 generate();

@@ -12,24 +12,33 @@ function BlogDetails({ blog }) {
     // Assuming `blog.slug` is available and represents the unique identifier for the blog
     const canonicalUrl = `https://chameleogfxstudio.com/blog/${blog.slug}`; // Replace with your actual blog base URL
 
-    // This function extracts the JSON content from the schema string
-    const extractJsonFromScript = (scriptString) => {
-        if (!scriptString || typeof scriptString !== "string") {
-            return null;
+    // This function extracts all JSON content from multiple schema script tags
+    const extractSchemas = (schemaString) => {
+        if (!schemaString || typeof schemaString !== "string") {
+            return [];
         }
-        // This regular expression gets the content from between the <script> tags
-        const match = scriptString.match(/<script.*?>(.*?)<\/script>/s);
-        return match ? match[1] : null;
+        // This regular expression gets the content from between all <script> tags
+        const regex = /<script.*?>([\s\S]*?)<\/script>/g;
+        const schemas = [];
+        let match;
+        while ((match = regex.exec(schemaString)) !== null) {
+            schemas.push(match[1]);
+        }
+        return schemas;
     };
 
-    const schemaJson = extractJsonFromScript(blog.schema);
+    const schemas = extractSchemas(blog.schema);
 
     return (
         <>
             <Helmet>
                 <link rel="canonical" href={canonicalUrl} />
-                {/* This will add the schema script to the page head if it exists */}
-                {schemaJson && <script type="application/ld+json">{schemaJson}</script>}
+                {/* This will add the schema scripts to the page head if they exist */}
+                {schemas.map((schema, index) => (
+                    <script key={index} type="application/ld+json">
+                        {schema}
+                    </script>
+                ))}
             </Helmet>
 
             <div className="post-thumbnail">

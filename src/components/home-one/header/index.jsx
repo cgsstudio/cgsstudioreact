@@ -21,16 +21,7 @@ function Header() {
 	return (
 		<>
 			<Helmet>
-				{/* Google Tag Manager */}
-				<script async src="https://www.googletagmanager.com/gtag/js?id=G-DL5PNFG08R"></script>
-				<script>
-					{`
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-DL5PNFG08R');
-        `}
-				</script>
+
 
 				{/* Organization Schema */}
 				<script type="application/ld+json">
