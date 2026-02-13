@@ -24,6 +24,14 @@ import partner14 from '../../../assets/images/logo/partner-14.png'
 import partner15 from '../../../assets/images/logo/partner-15.png'
 import partner16 from '../../../assets/images/logo/partner-16.png'
 import partner17 from '../../../assets/images/logo/Cybervantage-logo.webp'
+import partner18 from '../../../assets/images/logo/rachana_bio_chemicals.png'
+import partner19 from '../../../assets/images/logo/Rock.jpg'
+import partner20 from '../../../assets/images/logo/Rocks & Logs.jpg'
+import partner21 from '../../../assets/images/logo/Surenspace.jpg'
+import partner22 from '../../../assets/images/logo/The Latin House.jpg'
+import partner23 from '../../../assets/images/logo/Urbatect.jpg'
+import partner24 from '../../../assets/images/logo/Veeba.jpg'
+
 
 const LogoSlider = () => {
   const logos = [
@@ -44,6 +52,13 @@ const LogoSlider = () => {
     { img: partner15, link: 'https://abscholify.com/' },
     { img: partner16, link: 'https://kaysonlaw.co.uk/' },
     { img: partner17, link: 'https://cybervantage.ai/' },
+    { img: partner18, link: 'https://www.rachanabiochemicals.com/' },
+    { img: partner19, link: 'https://rock-gyms.com/' },
+    { img: partner20, link: 'https://rocksnlogs.com/' },
+    { img: partner21, link: 'https://surenspace.com/' },
+    { img: partner22, link: 'https://thelatinhouse.com/' },
+    { img: partner23, link: 'https://www.urbatect.com/' },
+    { img: partner24, link: 'https://veeba.in/' },
   ];
 
   return (

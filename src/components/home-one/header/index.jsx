@@ -26,30 +26,23 @@ function Header() {
 				{/* Organization Schema */}
 				<script type="application/ld+json">
 					{JSON.stringify({
-						"@context": "http://schema.org",
+						"@context": "https://schema.org",
 						"@type": "Organization",
 						"name": "Chameleo GFX Studio",
-						"legalName": "Chameleo GFX Studio",
 						"url": "https://chameleogfxstudio.com/",
-						"logo": "https://chameleogfxstudio.com/logo.png", // Make sure this path is correct
+						"logo": "https://chameleogfxstudio.com/assets/Cgs_Logo-Bq-O945l.png",
+						"contactPoint": {
+							"@type": "ContactPoint",
+							"telephone": "+91 9737472636",
+							"contactType": "customer service",
+							"areaServed": "IN"
+						},
 						"sameAs": [
 							"https://www.facebook.com/chameleogfxstudio",
 							"https://www.instagram.com/chameleogfxstudio/",
-							"https://www.linkedin.com/company/chameleogfxstudio/"
-						],
-						"address": {
-							"@type": "PostalAddress",
-							"streetAddress": "F Block, PNTC, F - 1001, Times Of India Press Rd, Rajmani Society, Satellite, Shyamal",
-							"addressLocality": "Ahmedabad",
-							"addressRegion": "Gujarat",
-							"postalCode": "380015",
-							"addressCountry": "India"
-						},
-						"contactPoint": {
-							"@type": "ContactPoint",
-							"telephone": "+91-97374-72636",
-							"contactType": "Customer Service"
-						}
+							"https://www.linkedin.com/company/chameleogfxstudio/",
+							"https://in.pinterest.com/chameleogfxstudio/"
+						]
 					})}
 				</script>
 
@@ -59,20 +52,31 @@ function Header() {
 						"@context": "https://schema.org",
 						"@type": "LocalBusiness",
 						"name": "Chameleo GFX Studio",
-						"@id": "https://chameleogfxstudio.com/",
+						"image": "https://chameleogfxstudio.com/assets/Cgs_Logo-Bq-O945l.png",
+						"@id": "",
 						"url": "https://chameleogfxstudio.com/",
-						"telephone": "+91-97374-72636",
+						"telephone": "+91 9737472636",
 						"address": {
 							"@type": "PostalAddress",
 							"streetAddress": "F Block, PNTC, F - 1001, Times Of India Press Rd, Rajmani Society, Satellite, Shyamal",
 							"addressLocality": "Ahmedabad",
-							"addressRegion": "Gujarat",
 							"postalCode": "380015",
-							"addressCountry": "India"
+							"addressCountry": "IN"
+						},
+						"geo": {
+							"@type": "GeoCoordinates",
+							"latitude": 23.009829,
+							"longitude": 72.52271012883487
 						},
 						"openingHoursSpecification": {
 							"@type": "OpeningHoursSpecification",
-							"dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+							"dayOfWeek": [
+								"Monday",
+								"Tuesday",
+								"Wednesday",
+								"Thursday",
+								"Friday"
+							],
 							"opens": "09:00",
 							"closes": "20:00"
 						}

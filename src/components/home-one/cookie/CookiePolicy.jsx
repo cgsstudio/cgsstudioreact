@@ -9,6 +9,7 @@ const CookiePolicy = () => {
             <Helmet>
                 <title>Cookie Policy | Chameleo GFX Studio</title>
                 <meta name="robots" content="noindex, nofollow" />
+                <link rel="canonical" href="https://chameleogfxstudio.com/cookie-policy" />
             </Helmet>
 
             <BreadCrumb title="Cookie Policy" />
@@ -16,7 +17,7 @@ const CookiePolicy = () => {
                 <h2 className="my-4">Cookie Policy</h2>
                 <p className="paragraph-cgs mb-3">Last Updated: 23rd Sept, 2025</p>
                 <p className="paragraph-cgs mb-3">
-                    Welcome to Chameleo GFX Studio ("we," "us," or "our"). This Cookie Policy explains how we use cookies and similar technologies on our website 
+                    Welcome to Chameleo GFX Studio ("we," "us," or "our"). This Cookie Policy explains how we use cookies and similar technologies on our website
                     <a className="text-link-main" href="/" rel="noopener noreferrer"> https://chameleogfxstudio.com/</a> ("Site"), and how you can control them.
                 </p>
 
@@ -115,16 +116,16 @@ const CookiePolicy = () => {
 
                 <h4 className="cgs-heading">8. Contact us</h4>
                 <address className="paragraph-cgs">
-                    Chameleo GFX Studio<br/>
-                    F - 1001, PNTC, <br/>
-                    Times Of India Press Rd, <br/>
-                    Rajmani Society, Satellite, <br/>
-                    Shyamal, Ahmedabad, <br/>
-                    Gujarat 380015<br/>
-                    Email: <a className="text-link-main" href="mailto:info@chameleogfxstudio.com">info@chameleogfxstudio.com</a><br/>
+                    Chameleo GFX Studio<br />
+                    F - 1001, PNTC, <br />
+                    Times Of India Press Rd, <br />
+                    Rajmani Society, Satellite, <br />
+                    Shyamal, Ahmedabad, <br />
+                    Gujarat 380015<br />
+                    Email: <a className="text-link-main" href="mailto:info@chameleogfxstudio.com">info@chameleogfxstudio.com</a><br />
                     <div className="d-flex">
-                    Phone: <div><a className="text-link-main" href="tel:+918460384838">+91-8460384838</a><br/>
-                          <a className="text-link-main" href="tel:+919737472636">+91-9737472636</a></div> </div>
+                        Phone: <div><a className="text-link-main" href="tel:+918460384838">+91-8460384838</a><br />
+                            <a className="text-link-main" href="tel:+919737472636">+91-9737472636</a></div> </div>
                 </address>
             </div>
         </>
