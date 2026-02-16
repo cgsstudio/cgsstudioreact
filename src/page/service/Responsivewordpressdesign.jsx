@@ -16,7 +16,10 @@ function Responsivewordpressdesign() {
         />
         </Helmet>
       <BreadCrumb title="Responsive WordPress Design" />
-      <Responsivewordpressdesigndetail />
+      <div className="bg-white-smoke">
+        <Responsivewordpressdesigndetail />
+
+    </div>
 
     </>
   );

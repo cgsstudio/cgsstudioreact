@@ -16,7 +16,10 @@ function BrandingIdentity() {
         />
       </Helmet>
       <BreadCrumb title="Brand Identity Design Agency" breadcrumbTitle="Brand Identity Design Agency in Ahmedabad" />
-      <BrandingIdentitydetail />
+      <div className="bg-white-smoke">
+        <BrandingIdentitydetail />
+
+    </div>
 
     </>
   );

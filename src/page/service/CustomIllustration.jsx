@@ -16,7 +16,10 @@ function CustomIllustration() {
         />
       </Helmet>
       <BreadCrumb title="Custom Illustration Design" breadcrumbTitle="Custom Illustration Design in Ahmedabad" />
-      <CustomIllustrationdetail />
+      <div className="bg-white-smoke">
+        <CustomIllustrationdetail />
+
+    </div>
 
     </>
   );

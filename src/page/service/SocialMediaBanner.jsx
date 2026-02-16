@@ -16,7 +16,10 @@ function SocialMediaBanner() {
         />
         </Helmet>
       <BreadCrumb title="Social Media Banner Design Services" breadcrumbTitle="Social Media Banner Design Services in Ahmedabad" />
-      <SocialMediaBannerdetail />
+      <div className="bg-white-smoke">
+        <SocialMediaBannerdetail />
+
+    </div>
 
     </>
   );

@@ -16,7 +16,9 @@ function LogoDesign() {
         />
       </Helmet>
       <BreadCrumb title="Logo Design Company" breadcrumbTitle="Logo Design Company in Ahmedabad" />
-      <LogoDesignDetails />
+      <div className="bg-white-smoke">
+        <LogoDesignDetails />
+      </div>
 
     </>
   );

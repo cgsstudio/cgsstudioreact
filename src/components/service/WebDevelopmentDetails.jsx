@@ -278,15 +278,15 @@ function WebDevelopmentDetails() {
 						</div>
 
 						<div className="d-flex justify-content-between align-items-left py-3 mt-4">
-							<div className="text-center">
+							<div className="https://prnt.sc/lIfcJEfFEPPm">
 								<h3 className="text-danger fw-bold mb-0 our_efficiently">5K+</h3>
 								<small className="text-muted our_efficiently_1">Projects Delivered</small>
 							</div>
-							<div className="text-center">
+							<div className="https://prnt.sc/lIfcJEfFEPPm">
 								<h3 className="text-danger fw-bold mb-0 our_efficiently">11+</h3>
 								<small className="text-muted our_efficiently_1">Years of Experience</small>
 							</div>
-							<div className="text-center">
+							<div className="https://prnt.sc/lIfcJEfFEPPm">
 								<h3 className="text-danger fw-bold mb-0 our_efficiently">100%</h3>
 								<small className="text-muted our_efficiently_1">Success Projects</small>
 							</div>
@@ -356,10 +356,10 @@ function WebDevelopmentDetails() {
 				<div className="container">
 					<div className="container py-5">
 						<div className="design-main-card">
-							<div className="row">
+							<div className="row gy-4">
 								<div className="col-lg-5 col-md-5">
 									<div className="design-title-section">
-										<h1 className="design-title-heading">The Role<br />of Design<br />in Today's<br />Digital<br />World.</h1>
+										<h1 className="design-title-heading">The Role of Design in Today's Digital World.</h1>
 									</div>
 								</div>
 
@@ -534,18 +534,18 @@ function WebDevelopmentDetails() {
 
 			</div>
 
-			<div className="containar-flude bg-dark mt-5 ">
+			<div className="containar-flude bg-black mt-5 ">
 				<div className="container pt-5 pb-5">
 					<div className="aximo-service-details-wrap">
 						<div className="row">
 							<div className="col-lg-12">
 								<div className="aximo-default-content">
 
-									<h2 className="text-center"><span className="services-h2 text-white">Hire Best Website Development Company in Ahmedabad For Business</span></h2>
-									<p className="text-white text-center">
+									<h2 className="text-center"><span className="services-h2 text-white-smoke">Hire Best Website Development Company in Ahmedabad For Business</span></h2>
+									<p className="text-white-smoke text-center">
 										A website is not just a virtual space; it is the online face of your business. At Ahmedabad's Chameleo GFX Studio, we design websites that are contemporary, high-traffic, and effective.
 									</p>
-									<p className="text-white text-center">
+									<p className="text-white-smoke text-center">
 										Whether you require a small business website, an online store, or a complete corporate solution, our team is prepared to deliver. With us, you don't get a website you get a platform that attracts, engages, and converts. Because at Chameleo GFX Studio, we don't build websites we build digital growth machines.
 									</p>
 									<div className="text-center mt-4">
@@ -606,7 +606,7 @@ function WebDevelopmentDetails() {
 
 			<div className="container mt-5">
 
-				<section className="faq-section py-5">
+				<section className="faq-section py-5 bg-white-smoke">
 					<div className="container">
 						<h2 className="mb-4 text-lg-center text-left">
 							<span className="services-h2 text-lg-center text-left">FAQs on Website Development</span>

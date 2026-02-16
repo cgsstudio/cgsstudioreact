@@ -1131,7 +1131,7 @@
 
 .reveal-header .dark-version-logo {
 	display: block !important;
-} 
+}
 
 .reveal-header .light-version-logo {
 	display: none !important;
@@ -1677,12 +1677,16 @@ ul.list-main-disc {
 		white-space: normal !important;
 		word-break: break-word !important;
 	}
+
 	.team-heading .aximo-title-animation {
-		display: block !important; /* force 'Leaders.' to wrap onto next line */
+		display: block !important;
+		/* force 'Leaders.' to wrap onto next line */
 		margin-top: 6px;
 	}
+
 	.team-heading .aximo-title-icon img {
-		display: none !important; /* hide decorative star on very small screens */
+		display: none !important;
+		/* hide decorative star on very small screens */
 	}
 }
 
@@ -2512,18 +2516,25 @@ h3.blog-h2 {
 		font-size: 28px;
 		line-height: 34px;
 	}
+
+
 }
+
+
+
+
 
 .blog-hero-banner {
 	padding-top: 140px !important;
 	padding-bottom: 40px !important;
 }
 
-.blog-hero-banner {
-	padding-top: 140px !important;
-	padding-bottom: 40px !important;
+@media (max-width: 767px) {
+	.blog-hero-banner {
+		padding-top: 120px !important;
+		padding-bottom: 20px !important;
+	}
 }
-
 
 .aximo-form-wrap3 {
 	background-color: #fffff5;
@@ -2587,6 +2598,12 @@ h3.blog-h2 {
 	background-color: #ddd;
 }
 
+@media (max-width: 767px) {
+	.design-timeline-vertical-line {
+		display: none;
+	}
+}
+
 .design-timeline-single-item {
 	position: relative;
 	margin-bottom: 20px;
@@ -2604,6 +2621,12 @@ h3.blog-h2 {
 	z-index: 1;
 }
 
+@media (max-width: 767px) {
+	.design-timeline-circle-dot {
+		display: none;
+	}
+}
+
 .design-info-content-box {
 	background-color: #000;
 	color: white;
@@ -2613,7 +2636,7 @@ h3.blog-h2 {
 
 @media (max-width: 768px) {
 	.design-timeline-wrapper {
-		padding-left: 20px;
+		padding-left: 0px;
 	}
 
 	.design-info-content-box {
@@ -2649,6 +2672,7 @@ h3.blog-h2 {
 @media (max-width: 768px) {
 	.our_efficiently {
 		font-size: 36px;
+		text-align: left;
 	}
 }
 
@@ -2693,7 +2717,8 @@ h3.blog-h2 {
 	}
 
 	.design-title-heading {
-		font-size: 48px;
+		font-size: 38px;
+		line-height: 48px !important;
 	}
 
 	.design-info-text-paragraph {

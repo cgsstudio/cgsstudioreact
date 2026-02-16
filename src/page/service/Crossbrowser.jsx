@@ -16,7 +16,10 @@ function Crossbrowser() {
         />
         </Helmet>
       <BreadCrumb title="Cross-Browser Compatibility Testing" />
-      <Crossbrowserdetail />
+      <div className="bg-white-smoke">
+        <Crossbrowserdetail />
+
+    </div>
 
     </>
   );

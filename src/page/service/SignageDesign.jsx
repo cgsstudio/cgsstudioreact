@@ -16,7 +16,10 @@ function SignageDesign() {
         />
       </Helmet>
       <BreadCrumb title="Signage Design Services" breadcrumbTitle="Signage Design Services in Ahmedabad" />
-      <SignageDesigndetail />
+      <div className="bg-white-smoke">
+        <SignageDesigndetail />
+
+    </div>
 
     </>
   );

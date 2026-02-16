@@ -16,7 +16,10 @@ function Shopifyappintegration() {
         />
         </Helmet>
       <BreadCrumb title="Shopify App Integration and Development" />
-      <Shopifyappintegrationdetail />
+      <div className="bg-white-smoke">
+        <Shopifyappintegrationdetail />
+
+    </div>
 
     </>
   );

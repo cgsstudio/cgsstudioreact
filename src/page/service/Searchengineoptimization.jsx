@@ -16,7 +16,10 @@ function Searchengineoptimization() {
         />
         </Helmet>
       <BreadCrumb title="Search Engine Optimization" />
-      <Searchengineoptimizationdetail />
+      <div className="bg-white-smoke">
+        <Searchengineoptimizationdetail />
+
+    </div>
 
     </>
   );

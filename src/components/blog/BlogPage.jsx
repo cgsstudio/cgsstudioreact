@@ -13,6 +13,7 @@ function BlogPage() {
     <div className='blog-page'>
       <BlogHeroBanner title={title} breadcrumbs={breadcrumbs} padding="120px 0" />
       <Blog />
+
     </div>
   );
 }

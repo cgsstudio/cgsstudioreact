@@ -16,7 +16,10 @@ function FigmatowordPress() {
         />
         </Helmet>
       <BreadCrumb title="Figma to WordPress" />
-      <FigmatowordPressdetail />
+      <div className="bg-white-smoke">
+        <FigmatowordPressdetail />
+
+    </div>
 
     </>
   );

@@ -16,7 +16,10 @@ function CustomwordPresswebsite() {
         />
         </Helmet>
       <BreadCrumb title="Custom WordPress Website Design" />
-      <CustomwordPresswebsitedetail />
+      <div className="bg-white-smoke">
+        <CustomwordPresswebsitedetail />
+
+    </div>
 
     </>
   );

@@ -16,7 +16,10 @@ function Photoshoptoreact() {
         />
         </Helmet>
       <BreadCrumb title="Photoshop to React"/>
-      <Photoshoptoreactdetail />
+      <div className="bg-white-smoke">
+        <Photoshoptoreactdetail />
+
+    </div>
 
     </>
   );

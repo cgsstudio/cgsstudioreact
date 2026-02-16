@@ -16,7 +16,10 @@ function AndroidUIUXDesign() {
         />
         </Helmet>
       <BreadCrumb title=" Android UI/UX Design" />
-      <AndroidUIUXDesigndetail />
+      <div className="bg-white-smoke">
+        <AndroidUIUXDesigndetail />
+
+    </div>
 
     </>
   );

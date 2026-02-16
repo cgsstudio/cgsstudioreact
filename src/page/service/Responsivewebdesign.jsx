@@ -16,7 +16,10 @@ function Responsivewebdesign() {
         />
         </Helmet>
       <BreadCrumb title="Responsive Web Design" />
-      <Responsivewebdesigndetail />
+      <div className="bg-white-smoke">
+        <Responsivewebdesigndetail />
+
+    </div>
 
     </>
   );

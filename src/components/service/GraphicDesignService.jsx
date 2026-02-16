@@ -75,7 +75,7 @@ function GraphicDesignService() {
   };
 
   return (
-    <div className="service-section">
+    <div className="service-section bg-white-smoke">
       <Helmet>
         <title>Graphic Design Company in Ahmedabad - Chameleo GFX Studio</title>
         <meta
@@ -232,15 +232,15 @@ function GraphicDesignService() {
             </div>
 
             <div className="d-flex justify-content-between align-items-left py-3 mt-4" >
-              <div className="text-center">
+              <div className="text-left text-md-center">
                 <h3 className="text-danger fw-bold mb-0 our_efficiently">5K+</h3>
                 <small className="text-muted our_efficiently_1">Projects Delivered</small>
               </div>
-              <div className="text-center">
+              <div className="text-left text-md-center">
                 <h3 className="text-danger fw-bold mb-0 our_efficiently">11+</h3>
                 <small className="text-muted our_efficiently_1">Years of Experience</small>
               </div>
-              <div className="text-center">
+              <div className="text-left text-md-center">
                 <h3 className="text-danger fw-bold mb-0 our_efficiently">100%</h3>
                 <small className="text-muted our_efficiently_1">Success Projects</small>
               </div>
@@ -312,10 +312,10 @@ function GraphicDesignService() {
         <div className="container">
           <div className="container py-5">
             <div className="design-main-card">
-              <div className="row">
+              <div className="row gy-4">
                 <div className="col-lg-5 col-md-5">
                   <div className="design-title-section">
-                    <h1 className="design-title-heading">The Role<br />of Design<br />in Today's<br />Digital<br />World.</h1>
+                    <h1 className="design-title-heading">The Role of Design in Today's Digital World.</h1>
                   </div>
                 </div>
 
@@ -401,17 +401,17 @@ function GraphicDesignService() {
                   <div className="col-lg-12 align-items-center">
                     <div className="aximo-default-content">
                       <h2 className="text-center">
-                        <span className="services-h2 text-white text-center">Final Words</span>
+                        <span className="services-h2 text-white-smoke text-center">Final Words</span>
                       </h2>
 
-                      <p className="text-center">
+                      <p className="text-center text-white-smoke">
                         Graphic design is much more than making things pretty. It is about communication, trust, and creating an identity that people remember. At <b>Chameleo GFX Studio in Ahmedabad,</b> we specialize in crafting designs that not only look great but also help businesses grow.
                       </p>
-                      <p className="text-center">
+                      <p className="text-center text-white-smoke">
                         Whether you need a logo, a brochure, or a complete brand identity, our team is ready to deliver designs that truly make an impact. With Chameleo GFX Studio, your brand will not just exist. It will shine.
                       </p>
 
-                      <p className="text-center">
+                      <p className="text-center text-white-smoke">
                         Because for us, <b>design is not just our work. It’s our passion.</b>
                       </p>
 

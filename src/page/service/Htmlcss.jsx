@@ -16,7 +16,10 @@ function Htmlcss() {
         />
         </Helmet>
       <BreadCrumb title="HTML/CSS Development" />
-      <Htmlcssdetail />
+      <div className="bg-white-smoke">
+        <Htmlcssdetail />
+
+    </div>
 
     </>
   );

@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet";
 import React from "react";
+import "./IndustriesHomeSection.css";
 import BlogHero from "../../../components/common/BlogHero";
 import education from "../../../assets/images/icon/Education1.svg";
 import healthcare from "../../../assets/images/icon/Healthcare.svg";
@@ -46,20 +47,22 @@ const Industryweserve = () => {
         <title>Industries We Serve</title>
       </Helmet>
       <BlogHero title="Industries We Serve" breadcrumbTitle="Industries We Serve" />
-      <div className="container py-5">
-        <h2 className="my-4 text-center aximo-section-title center">Industries We Serve</h2>
-        <div className="row g-4 justify-content-center aximo-service-wrap">
-          {industries.map((industry, index) => (
-            <div key={index} className="col-md-6 col-lg-4 ">
-              <div className="  aximo-iconbox-wrap">
-                {industry.icon && <img src={industry.icon} alt={industry.title} className="img-fluid" style={{ height: "50px" }} />}
-                <h3 className="mt-3 aximo-iconbox-data">{industry.title}</h3>
-                <p className="">{industry.description}</p>
+      <section className="bg-white-smoke">
+        <div className="container py-3 py-md-5">
+          <h2 className="my-4 text-center aximo-section-title center">Industries We Serve</h2>
+          <div className="row g-4 justify-content-center aximo-service-wrap">
+            {industries.map((industry, index) => (
+              <div key={index} className="col-md-6 col-lg-4 ">
+                <div className="  aximo-iconbox-wrap">
+                  {industry.icon && <img src={industry.icon} alt={industry.title} className="img-fluid" style={{ height: "50px" }} />}
+                  <h3 className="mt-3 aximo-iconbox-data">{industry.title}</h3>
+                  <p className="">{industry.description}</p>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

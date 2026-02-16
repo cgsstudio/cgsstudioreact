@@ -85,7 +85,7 @@ function GraphicDesign() {
       <GraphicDesignService />
 
       {/* FAQs Section */}
-      <section className="faq-section py-5">
+      <section className="faq-section py-5 bg-white-smoke">
         <div className="container">
           <h2 className="mb-4 text-center">Frequently Asked Questions</h2>
           <ServiceAccordion items={faqData} defaultOpen={0} />

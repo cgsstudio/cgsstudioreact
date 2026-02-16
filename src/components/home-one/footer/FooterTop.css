@@ -99,6 +99,8 @@
     color: var(--white-smoke);
     text-decoration: none;
     line-height: 1.5;
+    overflow-wrap: break-word;
+    word-break: break-word;
 }
 
 /* Mobile view */

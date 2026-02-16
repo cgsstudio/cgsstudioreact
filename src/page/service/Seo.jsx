@@ -16,7 +16,10 @@ function Seo() {
         />
       </Helmet>
       <BreadCrumb title="SEO Company in Ahmedabad" />
-      <SeoDetails />
+      <div className="bg-white-smoke">
+        <SeoDetails />
+
+    </div>
 
     </>
   );

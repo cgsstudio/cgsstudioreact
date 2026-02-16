@@ -16,7 +16,10 @@ function Reactjsmobileapp() {
         />
         </Helmet>
       <BreadCrumb title="React.js Mobile App Development"/>
-      <Reactjsmobileappdetail />
+      <div className="bg-white-smoke">
+        <Reactjsmobileappdetail />
+
+    </div>
 
     </>
   );

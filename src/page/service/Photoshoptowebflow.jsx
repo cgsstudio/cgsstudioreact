@@ -16,7 +16,10 @@ function Photoshoptowebflow() {
         />
         </Helmet>
       <BreadCrumb title="Photoshop to Webflow Conversion" />
-      <Photoshoptowebflowdetail />
+      <div className="bg-white-smoke">
+        <Photoshoptowebflowdetail />
+
+    </div>
 
     </>
   );

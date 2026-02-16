@@ -16,7 +16,10 @@ function Webflowintegration() {
         />
         </Helmet>
       <BreadCrumb title="Webflow Integration Services" />
-      <Webflowintegrationdetail />
+      <div className="bg-white-smoke">
+        <Webflowintegrationdetail />
+
+    </div>
 
     </>
   );

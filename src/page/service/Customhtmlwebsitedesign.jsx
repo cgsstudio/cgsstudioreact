@@ -16,7 +16,10 @@ function Customhtmlwebsitedesign() {
         />
         </Helmet>
       <BreadCrumb title="Custom HTML Website Design" />
-      <Customhtmlwebsitedesigndetail />
+      <div className="bg-white-smoke">
+        <Customhtmlwebsitedesigndetail />
+
+    </div>
 
     </>
   );

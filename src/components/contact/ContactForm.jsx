@@ -35,7 +35,7 @@ function ContactForm() {
   };
 
   return (
-    <div id="contact-form" className="section aximo-section-padding">
+    <div id="contact-form" className="section aximo-section-padding bg-white-smoke">
       <div className="container">
         <div className="row">
           <div className="col-lg-8">
@@ -57,16 +57,16 @@ function ContactForm() {
           </div>
         </div>
 
-        <div className="row">
+        <div className="row gy-4">
           <div className="col-lg-5 order-lg-2">
-            <div className="aximo-contact-thumb">
+            <div className="aximo-contact-thumb d-none d-lg-block">
               <LazyLoadImage
                 src={ContactThumb}
-                width={500}
-                height={635}
+                className="img-fluid"
                 alt="Contact Thumb"
                 effect="blur"
               />
+
             </div>
           </div>
           <div className="col-lg-7">
@@ -90,7 +90,7 @@ function ContactForm() {
                       type="email"
                       name="email"
                       id="email"
-                      placeholder="Your email address"
+                      placeholder="Your Email Address"
                     />
                   </Field>
                 </div>
@@ -106,12 +106,16 @@ function ContactForm() {
                   </Field>
                 </div>
                 <div className="aximo-main-field">
+                  <label htmlFor="message" className="aximo-label">
+                    Your Message
+                  </label>
                   <textarea
                     {...register("message", {
                       required: "Message is required.",
                     })}
                     name="message"
                     placeholder="Write your message here..."
+
                   ></textarea>
                 </div>
                 <button id="aximo-main-btn" type="submit">

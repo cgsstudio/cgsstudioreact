@@ -16,7 +16,10 @@ function Ebookdesign() {
         />
       </Helmet>
       <BreadCrumb title="E-book Design Services" breadcrumbTitle="E-book Design Services in Ahmedabad" />
-      <Ebookdesigndetail />
+      <div className="bg-white-smoke">
+        <Ebookdesigndetail />
+
+    </div>
 
     </>
   );

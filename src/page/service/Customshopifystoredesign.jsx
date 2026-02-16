@@ -16,7 +16,10 @@ function Customshopifystoredesign() {
         />
         </Helmet>
       <BreadCrumb title="Custom Shopify Store Design" />
-      <Customshopifystoredesigndetail />
+      <div className="bg-white-smoke">
+        <Customshopifystoredesigndetail />
+
+    </div>
 
     </>
   );

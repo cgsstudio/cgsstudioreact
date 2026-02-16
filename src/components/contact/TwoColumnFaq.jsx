@@ -38,13 +38,13 @@ const faqData = {
 };
 function TwoColumnFaq() {
 	return (
-		<div className="section aximo-section-padding">
+		<div className="section aximo-section-padding bg-white-smoke">
 			<div className="container">
 				<div className="text-center mb-5">
 					<h2>
-						These FAQs help
+						These FAQs help clients learn about us
 						<span className="aximo-title-animation">
-							clients learn about us
+
 							<span className="aximo-title-icon">
 								<img className="shape-color" src={Star2Img} alt="Star" />
 							</span>

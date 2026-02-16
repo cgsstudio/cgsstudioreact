@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { ChevronRight } from 'lucide-react';
 
 function BlogHero({ title, breadcrumbTitle }) {
   // Removed background image usage to keep hero banner plain
@@ -10,10 +11,7 @@ function BlogHero({ title, breadcrumbTitle }) {
             <div className="aximo-breadcrumb-content text-center">
               <h2 className="aximo-breadcrumb-title text-white mb-3">{title}</h2>
               <nav className="breadcrumbs">
-                <ul>
-                  <li ><Link to="/">Home</Link></li>
-                  {breadcrumbTitle && <li>{breadcrumbTitle}</li>}
-                </ul>
+                <span><Link to="/">Home</Link><span><ChevronRight color="#fdfde1" /></span><span className="bread_crumb_link">{breadcrumbTitle || title}</span></span>
               </nav>
             </div>
           </div>

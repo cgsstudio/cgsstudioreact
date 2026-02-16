@@ -16,7 +16,10 @@ function Figmatoshopify() {
         />
         </Helmet>
       <BreadCrumb title="Figma to Shopify Conversion" />
-      <Figmatoshopifydetail />
+      <div className="bg-white-smoke">
+        <Figmatoshopifydetail />
+
+    </div>
 
     </>
   );

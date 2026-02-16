@@ -16,7 +16,10 @@ function IOSUIUXDesign() {
         />
         </Helmet>
       <BreadCrumb title="iOS UI/UX Design" />
-      <IOSUIUXDesigndetail />
+      <div className="bg-white-smoke">
+        <IOSUIUXDesigndetail />
+
+    </div>
 
     </>
   );

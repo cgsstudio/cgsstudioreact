@@ -16,7 +16,10 @@ function Reactjs() {
         />
       </Helmet>
       <BreadCrumb title="React.js Development Company in Ahmedabad" />
-      <Reactjsdetail />
+      <div className="bg-white-smoke">
+        <Reactjsdetail />
+
+    </div>
 
     </>
   );

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { ChevronRight } from 'lucide-react';
 
 function BlogHeroBanner({ title, breadcrumbs }) {
   return (
@@ -10,11 +11,16 @@ function BlogHeroBanner({ title, breadcrumbs }) {
             <div className="aximo-breadcrumb-content text-center">
               <h2 className="aximo-breadcrumb-title mb-3">{title}</h2>
               <nav className="breadcrumbs">
-                <ul>
+                <span>
                   {breadcrumbs.map((crumb, index) => (
-                    <li key={index}>{crumb.link ? <Link to={crumb.link}>{crumb.label}</Link> : crumb.label}</li>
+                    <React.Fragment key={index}>
+                      {crumb.link ? <Link to={crumb.link}>{crumb.label}</Link> : <span className="bread_crumb_link">{crumb.label}</span>}
+                      {index < breadcrumbs.length - 1 && (
+                        <span><ChevronRight color="#fdfde1" /></span>
+                      )}
+                    </React.Fragment>
                   ))}
-                </ul>
+                </span>
               </nav>
             </div>
           </div>

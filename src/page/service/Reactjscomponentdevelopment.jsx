@@ -16,7 +16,10 @@ function Reactjscomponentdevelopment() {
         />
         </Helmet>
       <BreadCrumb title="React.js Component Development and Integration"/>
-      <Reactjscomponentdevelopmentdetail />
+      <div className="bg-white-smoke">
+        <Reactjscomponentdevelopmentdetail />
+
+    </div>
 
     </>
   );

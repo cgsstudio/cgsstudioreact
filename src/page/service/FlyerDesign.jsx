@@ -16,7 +16,10 @@ function FlyerDesign() {
         />
         </Helmet>
        <BreadCrumb title="Flyer Design Services" breadcrumbTitle="Flyer Design Services Ahmedabad " />
-      <FlyerDesigndetail/>
+      <div className="bg-white-smoke">
+        <FlyerDesigndetail/>
+
+    </div>
 
     </>
   );

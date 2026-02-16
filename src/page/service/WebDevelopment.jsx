@@ -27,7 +27,9 @@ function WebDevelopment() {
         subtitle="A website is like the virtual home of a company."
         image={heroBannerImage}
       />
-      <WebDevelopmentDetails />
+      <div className="bg-white-smoke">
+        <WebDevelopmentDetails />
+    </div>
     </>
   );
 }

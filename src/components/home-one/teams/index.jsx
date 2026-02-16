@@ -3,11 +3,11 @@ import TeamCard from "./TeamCard";
 
 function Teams({ teams }) {
 	return (
-		<div className="section aximo-section-padding">
+		<div className="section aximo-section-padding bg-white-smoke">
 			<div className="container">
 				<div className="aximo-section-title center">
 					<h2 className="team-heading">
-					Our Visionary       
+						Our Visionary
 						<span className="aximo-title-animation">Leaders.
 							<span className="aximo-title-icon">
 								<img src={Star2Img} alt="Star2Img" />

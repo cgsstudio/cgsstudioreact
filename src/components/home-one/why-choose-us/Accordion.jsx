@@ -12,7 +12,7 @@ function Accordion() {
 						Creative Branding Solutions
 					</button>
 				</h4>
-				<div id="collapseOne" className="accordion-collapse collapse " data-bs-parent="#aximo-accordion">
+				<div id="collapseOne" className="accordion-collapse collapse ">
 					<div className="accordion-body">
 						Transforming your business into a memorable brand with innovative designs.
 					</div>
@@ -29,7 +29,7 @@ function Accordion() {
 						Custom Design Expertise
 					</button>
 				</h4>
-				<div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#aximo-accordion">
+				<div id="collapseTwo" className="accordion-collapse collapse">
 					<div className="accordion-body">
 						Delivering unique visuals tailored to make your brand shine brighter.
 					</div>
@@ -46,7 +46,7 @@ function Accordion() {
 						High-Quality Visuals
 					</button>
 				</h4>
-				<div id="collapseThree" className="accordion-collapse collapse" data-bs-parent="#aximo-accordion">
+				<div id="collapseThree" className="accordion-collapse collapse">
 					<div className="accordion-body">
 						Elevate your brand with professional and captivating designs.
 					</div>
@@ -63,7 +63,7 @@ function Accordion() {
 						End-to-End Design Services
 					</button>
 				</h4>
-				<div id="collapseFour" className="accordion-collapse collapse" data-bs-parent="#aximo-accordion">
+				<div id="collapseFour" className="accordion-collapse collapse">
 					<div className="accordion-body">
 						From concept to creation, we craft designs that leave a lasting impact.
 					</div>

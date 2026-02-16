@@ -16,7 +16,10 @@ function Templatecustomization() {
         />
         </Helmet>
       <BreadCrumb title="Template Customization" />
-      <Templatecustomizationdetail />
+      <div className="bg-white-smoke">
+        <Templatecustomizationdetail />
+
+    </div>
 
     </>
   );

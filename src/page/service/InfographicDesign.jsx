@@ -16,7 +16,10 @@ function InfographicDesign() {
         />
         </Helmet>
       <BreadCrumb title="Infographic Design Services" breadcrumbTitle="Infographic Design Services in Ahmedabad" />
-      <InfographicDesigndetail />
+      <div className="bg-white-smoke">
+        <InfographicDesigndetail />
+
+    </div>
 
     </>
   );

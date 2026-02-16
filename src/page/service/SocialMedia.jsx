@@ -19,7 +19,10 @@ function SocialMedia() {
         />
         </Helmet>
       <BreadCrumb title="Social Media" />
-      <SocialMediaDetails/>
+      <div className="bg-white-smoke">
+        <SocialMediaDetails/>
+
+    </div>
 
     </>
   );

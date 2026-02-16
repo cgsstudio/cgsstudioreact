@@ -66,7 +66,8 @@ function Blog() {
   };
 
   return (
-    <div className="section aximo-section-padding2">
+
+    <div className="section aximo-section-padding2 bg-white-smoke">
       <div className="container">
         <div className="row">
           <div className="col-lg-8">

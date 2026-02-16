@@ -16,7 +16,10 @@ function Shopifythemecustomization() {
         />
         </Helmet>
       <BreadCrumb title="Shopify Theme Customization" />
-      <Shopifythemecustomizationdetail />
+      <div className="bg-white-smoke">
+        <Shopifythemecustomizationdetail />
+
+    </div>
 
     </>
   );

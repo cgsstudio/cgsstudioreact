@@ -16,7 +16,10 @@ function Figmatoreact() {
         />
         </Helmet>
       <BreadCrumb title="Figma to React" />
-      <Figmatoreactdetail />
+      <div className="bg-white-smoke">
+        <Figmatoreactdetail />
+
+    </div>
 
     </>
   );

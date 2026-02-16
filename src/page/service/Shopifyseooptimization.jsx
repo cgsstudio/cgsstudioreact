@@ -16,7 +16,10 @@ function Shopifyseooptimization() {
         />
         </Helmet>
       <BreadCrumb title="Shopify SEO Optimization" />
-      <Shopifyseooptimizationdetail />
+      <div className="bg-white-smoke">
+        <Shopifyseooptimizationdetail />
+
+    </div>
 
     </>
   );

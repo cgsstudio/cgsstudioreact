@@ -99,7 +99,7 @@ function DigitalMarketingDetail() {
       });
   };
   return (
-    <div className="service-section">
+    <div className="service-section bg-white-smoke">
       <Helmet>
         <title>Digital Marketing Agency in Ahmedabad, India</title>
         <meta
@@ -207,15 +207,15 @@ function DigitalMarketingDetail() {
             </div>
 
             <div className="d-flex justify-content-between align-items-left py-3 mt-4">
-              <div className="text-center">
+              <div className="text-left text-md-center">
                 <h3 className="text-danger fw-bold mb-0 our_efficiently">5K+</h3>
                 <small className="text-muted our_efficiently_1">Projects Delivered</small>
               </div>
-              <div className="text-center">
+              <div className="text-left text-md-center">
                 <h3 className="text-danger fw-bold mb-0 our_efficiently">11+</h3>
                 <small className="text-muted our_efficiently_1">Years of Experience</small>
               </div>
-              <div className="text-center">
+              <div className="text-left text-md-center">
                 <h3 className="text-danger fw-bold mb-0 our_efficiently">100%</h3>
                 <small className="text-muted our_efficiently_1">Success Projects</small>
               </div>
@@ -286,10 +286,10 @@ function DigitalMarketingDetail() {
         <div className="container">
           <div className="container py-5">
             <div className="design-main-card">
-              <div className="row">
+              <div className="row gy-4">
                 <div className="col-lg-5 col-md-5">
                   <div className="design-title-section">
-                    <h1 className="design-title-heading">The Digital<br />Marketing<br />Role in the <br />Modern<br />World.</h1>
+                    <h1 className="design-title-heading">The Digital Marketing Role in the  Modern World.</h1>
                   </div>
                 </div>
 
@@ -423,17 +423,17 @@ function DigitalMarketingDetail() {
                   <div className="col-lg-12 align-items-center">
                     <div className="aximo-default-content">
                       <h2 className="text-center">
-                        <span className="services-h2 text-white text-center">Digital Marketing Agency in Ahmedabad That Drives Visibility, Leads, and Sales</span>
+                        <span className="services-h2 text-white-smoke text-center">Digital Marketing Agency in Ahmedabad That Drives Visibility, Leads, and Sales</span>
                       </h2>
 
-                      <p className="text-center">
+                      <p className="text-center text-white-smoke">
                         Digital marketing is the pulse of contemporary business growth. At Chameleo GFX Studio in Ahmedabad, we design strategies that improve visibility, bring customers, and generate sales.
                       </p>
-                      <p className="text-center">
+                      <p className="text-center text-white-smoke">
                         Whether you're a new startup wanting to create buzz or an established brand wanting to grow, our digital marketing professionals are here for you. With the perfect combination of creativity, strategy, data, and future-proof AI trends, we ensure your business stands out online.
                       </p>
 
-                      <p className="text-center">
+                      <p className="text-center text-white-smoke">
                         Because at Chameleo GFX Studio, we don't merely market brands, we craft success stories.
                       </p>
 
@@ -455,7 +455,7 @@ function DigitalMarketingDetail() {
 
 
       {/* FAQ Section */}
-      <section className="faq-section py-5">
+      <section className="faq-section py-5 bg-white-smoke">
         <div className="container">
           <h2 className="mb-4 text-center">
             <span className="custom-h2">FAQs on Digital Marketing</span>

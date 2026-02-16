@@ -17,7 +17,10 @@ function Customreactjsweb() {
         />
         </Helmet>
       <BreadCrumb title="Custom React.js Web Application" image={heroBannerImage} />
-      <Customreactjswebdetail />
+      <div className="bg-white-smoke">
+        <Customreactjswebdetail />
+
+    </div>
 
     </>
   );

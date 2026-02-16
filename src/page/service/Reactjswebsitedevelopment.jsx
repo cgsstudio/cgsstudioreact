@@ -16,7 +16,10 @@ function Reactjswebsitedevelopment() {
         />
         </Helmet>
       <BreadCrumb title="React.js Website Development"/>
-      <Reactjswebsitedevelopmentdetail />
+      <div className="bg-white-smoke">
+        <Reactjswebsitedevelopmentdetail />
+
+    </div>
 
     </>
   );

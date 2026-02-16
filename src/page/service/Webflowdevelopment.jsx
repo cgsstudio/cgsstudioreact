@@ -16,7 +16,10 @@ function Webflowdevelopment() {
         />
         </Helmet>
       <BreadCrumb title="Webflow Development" />
-      <Webflowdetail />
+      <div className="bg-white-smoke">
+        <Webflowdetail />
+
+    </div>
 
     </>
   );

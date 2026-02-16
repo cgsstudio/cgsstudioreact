@@ -16,7 +16,10 @@ function WordPressseooptimization() {
         />
         </Helmet>
       <BreadCrumb title="WordPress SEO Optimization" />
-      <WordPressseooptimizationdetail />
+      <div className="bg-white-smoke">
+        <WordPressseooptimizationdetail />
+
+    </div>
 
     </>
   );

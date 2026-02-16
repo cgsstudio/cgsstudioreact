@@ -16,7 +16,10 @@ function NewsletterDesign() {
         />
         </Helmet>
       <BreadCrumb title="Newsletter Design Service" breadcrumbTitle="Newsletter Design Service in Ahmedabad" />
-      <NewsletterDesigndetail />
+      <div className="bg-white-smoke">
+        <NewsletterDesigndetail />
+
+    </div>
 
     </>
   );

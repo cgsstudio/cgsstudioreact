@@ -16,7 +16,10 @@ function TradeShow() {
         />
       </Helmet>
       <BreadCrumb title="Exhibition Booth Design Services" breadcrumbTitle="Exhibition Booth Design Services in Ahmedabad" />
-      <TradeShowdetail />
+      <div className="bg-white-smoke">
+        <TradeShowdetail />
+
+    </div>
 
     </>
   );

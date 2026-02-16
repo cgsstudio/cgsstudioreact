@@ -38,7 +38,7 @@ const GHLIcon = ({ size = 24 }) => (
 
 function AppWebServices() {
     const cards = [
-         {
+        {
             id: 1,
             title: "Web Development",
             description: "As a leading web development company in Ahmedabad, India, we specialize in building visually stunning, high-performing websites that connect seamlessly with your target audience.",
@@ -97,7 +97,7 @@ function AppWebServices() {
                 }
             ]
         },
-        
+
         {
             id: 3,
             title: "UI/UX Design",
@@ -129,7 +129,7 @@ function AppWebServices() {
                 { name: "Framer", icon: <SiFramer size={24} color="#0055FF" />, bg: "#e6efff" }
             ]
         },
-       
+
     ];
 
     return (

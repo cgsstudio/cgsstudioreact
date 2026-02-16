@@ -16,7 +16,10 @@ function WordPresswebsitemaintenance() {
         />
         </Helmet>
       <BreadCrumb title="WordPress Website Maintenance and Support" />
-      <WordPresswebsitemaintenancedetail />
+      <div className="bg-white-smoke">
+        <WordPresswebsitemaintenancedetail />
+
+    </div>
 
     </>
   );

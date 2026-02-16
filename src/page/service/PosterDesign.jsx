@@ -16,7 +16,10 @@ function PosterDesign() {
         />
         </Helmet>
       <BreadCrumb title="Poster Design Services" breadcrumbTitle="Poster Design Services in Ahmedabad" />
-      <PosterDesigndetail />
+      <div className="bg-white-smoke">
+        <PosterDesigndetail />
+
+    </div>
 
     </>
   );

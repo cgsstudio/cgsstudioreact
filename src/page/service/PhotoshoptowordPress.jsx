@@ -16,7 +16,10 @@ function PhotoshoptowordPress() {
         />
         </Helmet>
       <BreadCrumb title="Photoshop to WordPress" />
-      <PhotoshoptowordPressdetail />
+      <div className="bg-white-smoke">
+        <PhotoshoptowordPressdetail />
+
+    </div>
 
     </>
   );

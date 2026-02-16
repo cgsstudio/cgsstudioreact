@@ -16,7 +16,10 @@ function WooCommercedesign() {
         />
         </Helmet>
       <BreadCrumb title="WooCommerce Design and Development" />
-      <WooCommercedesigndetail />
+      <div className="bg-white-smoke">
+        <WooCommercedesigndetail />
+
+    </div>
 
     </>
   );

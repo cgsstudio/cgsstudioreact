@@ -4,7 +4,7 @@ import ExperienceImg from "../../../assets/images/v1/certificate.webp";
 
 function StatsSection() {
     return (
-        <div className="stats-section py-5">
+        <div className="stats-section py-3 py-md-5">
             <div className="container">
                 <div className="row g-4 align-items-stretch">
                     {/* Left Column: Experience Badge Card */}

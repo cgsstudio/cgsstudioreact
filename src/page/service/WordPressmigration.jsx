@@ -16,7 +16,10 @@ function WordPressmigration() {
         />
         </Helmet>
       <BreadCrumb title="WordPress Migration and Upgrades" />
-      <WordPressmigrationdetail />
+      <div className="bg-white-smoke">
+        <WordPressmigrationdetail />
+
+    </div>
 
     </>
   );

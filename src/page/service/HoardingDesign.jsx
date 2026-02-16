@@ -16,7 +16,10 @@ function HoardingDesign() {
         />
         </Helmet>
       <BreadCrumb title="Hoarding Design Services" breadcrumbTitle="Hoarding Design Services in Ahmedabad"/>
-      <HoardingDesigndetail />
+      <div className="bg-white-smoke">
+        <HoardingDesigndetail />
+
+    </div>
 
     </>
   );

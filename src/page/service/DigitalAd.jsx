@@ -16,7 +16,10 @@ function DigitalAd() {
         />
       </Helmet>
       <BreadCrumb title="Digital Ad Design Agency" breadcrumbTitle="Digital Ad Design Agency in Ahmedabad" />
-      <DigitalAddetail />
+      <div className="bg-white-smoke">
+        <DigitalAddetail />
+
+    </div>
 
     </>
   );

@@ -16,7 +16,10 @@ function BusinessCard() {
         />
         </Helmet>
       <BreadCrumb title="Visiting Card Design Service" breadcrumbTitle="Visiting Card Design Service in Ahmedabad" />
-      <BusinessCarddetail/>
+      <div className="bg-white-smoke">
+        <BusinessCarddetail/>
+
+    </div>
 
     </>
   );

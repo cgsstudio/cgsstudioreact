@@ -16,7 +16,10 @@ function Photoshoptoshopify() {
         />
         </Helmet>
       <BreadCrumb title="Photoshop to Shopify" />
-      <Photoshoptoshopifydetail />
+      <div className="bg-white-smoke">
+        <Photoshoptoshopifydetail />
+
+    </div>
 
     </>
   );

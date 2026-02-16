@@ -16,7 +16,10 @@ function Themeandplugin() {
         />
         </Helmet>
       <BreadCrumb title="Theme and Plugin Customization" />
-      <Themeandplugindetail />
+      <div className="bg-white-smoke">
+        <Themeandplugindetail />
+
+    </div>
 
     </>
   );

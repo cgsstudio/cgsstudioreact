@@ -16,7 +16,10 @@ function Htmltoshopify() {
         />
         </Helmet>
       <BreadCrumb title="HTML to Shopify" />
-      <Htmltoshopifydetail />
+      <div className="bg-white-smoke">
+        <Htmltoshopifydetail />
+
+    </div>
 
     </>
   );

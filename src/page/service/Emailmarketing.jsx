@@ -16,7 +16,10 @@ function Emailmarketing() {
         />
         </Helmet>
       <BreadCrumb title="Email Marketing" />
-      <Emailmarketingdetail />
+      <div className="bg-white-smoke">
+        <Emailmarketingdetail />
+
+    </div>
 
     </>
   );

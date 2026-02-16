@@ -19,7 +19,7 @@ function SingleBlog() {
   }
 
   return (
-    <div className="section post-details-page aximo-section-padding2">
+    <div className="section post-details-page aximo-section-padding2 bg-white-smoke">
       <Helmet>
         <title>{blog.seot}</title>
         <meta name="description" content={blog.seod} />

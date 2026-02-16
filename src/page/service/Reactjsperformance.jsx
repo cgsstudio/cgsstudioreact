@@ -16,7 +16,10 @@ function Reactjsperformance() {
         />
         </Helmet>
       <BreadCrumb title="React.js Performance Optimization"/>
-      <Reactjsperformancedetail />
+      <div className="bg-white-smoke">
+        <Reactjsperformancedetail />
+
+    </div>
 
     </>
   );

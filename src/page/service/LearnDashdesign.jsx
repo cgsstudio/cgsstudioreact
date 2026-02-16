@@ -16,7 +16,10 @@ function LearnDashdesign() {
         />
         </Helmet>
       <BreadCrumb title="LearnDash Design and Development" />
-      <LearnDashdesigndetail />
+      <div className="bg-white-smoke">
+        <LearnDashdesigndetail />
+
+    </div>
 
     </>
   );

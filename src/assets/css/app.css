@@ -108,7 +108,7 @@ body {
 	text-rendering: optimizeLegibility;
 	font-weight: 400;
 	overflow-x: hidden;
-	background-color: var(--light-bg1);
+	background-color: var(--body-color);
 	counter-reset: my-sec-counter;
 	font-size: 18px;
 	line-height: 30px;
@@ -170,6 +170,10 @@ textarea {
 	/* 1 */
 }
 
+.text-white-smoke {
+	color: var(--white-smoke);
+}
+
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
 	clip: auto;
@@ -181,7 +185,9 @@ textarea {
 	white-space: inherit;
 }
 
-
+.bg-white-smoke {
+	background-color: #fffff5;
+}
 
 
 .invisible {
@@ -3689,11 +3695,12 @@ button#aximo-submit-btn2:hover .aximo-label-up {
 	.aximo-breadcrumb {
 		padding: 170px 0 80px;
 	}
+
 }
 
 @media (max-width: 575px) {
 	.aximo-breadcrumb {
-		padding: 130px 0 0px;
+		padding: 130px 0 20px;
 	}
 }
 
@@ -3727,7 +3734,7 @@ button#aximo-submit-btn2:hover .aximo-label-up {
 
 .blog-hero-banner .breadcrumbs li {
 	display: inline;
-	margin: 0 10px;
+	/* margin: 0 10px; */
 }
 
 .blog-hero-banner .breadcrumbs a {
@@ -3751,7 +3758,7 @@ button#aximo-submit-btn2:hover .aximo-label-up {
 	font-weight: 700;
 	line-height: 1;
 	z-index: 0;
-	padding: 0 20px;
+	padding: 0 5px;
 	position: relative;
 	display: inline-block;
 	color: var(--accent-color);
@@ -3763,13 +3770,13 @@ button#aximo-submit-btn2:hover .aximo-label-up {
 	}
 }
 
-.breadcrumbs ul li:first-child {
+/* .breadcrumbs ul li:first-child {
 	padding-left: 0;
-}
+} */
 
-.breadcrumbs ul li:last-child {
+/* .breadcrumbs ul li:last-child {
 	padding-right: 0;
-}
+} */
 
 .breadcrumbs ul li:before {
 	content: "";
@@ -3783,6 +3790,8 @@ button#aximo-submit-btn2:hover .aximo-label-up {
 	background-position: center right;
 	background-repeat: no-repeat;
 	background-image: url(../images/icon/arrow-right7.svg);
+	display: none;
+
 }
 
 .breadcrumbs ul li:last-child:before {
@@ -3974,7 +3983,7 @@ button#aximo-submit-btn2:hover .aximo-label-up {
 
 @media (max-width: 767px) {
 	.aximo-section-title {
-		margin-bottom: 50px !important;
+		margin-bottom: 30px !important;
 	}
 }
 
@@ -6171,7 +6180,7 @@ a.aximo-service-icon:hover {
 
 @media (max-width: 767px) {
 	.aximo-faq-wrap {
-		padding: 80px 0;
+		padding: 20px 0;
 	}
 }
 
@@ -11233,6 +11242,14 @@ a.aximo-connect-login img {
 	margin-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+	.post-meta {
+		flex-direction: column;
+		align-items: flex-start;
+		row-gap: 10px;
+	}
+}
+
 .post-category a {
 	padding: 9px 13px;
 	border-radius: 50px;
@@ -12810,4 +12827,23 @@ button#aximo-notified-btn {
 
 .home-hero-btn:hover {
 	color: #fff !important
+}
+
+.breadcrumbs span {
+	color: var(--white-smoke);
+}
+
+.breadcrumbs span a {
+	color: var(--white-smoke);
+}
+
+.breadcrumbs span .bread_crumb_link {
+	color: var(--accent-color);
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.D-flex .breadcrumbs {
+	text-align: left;
 }

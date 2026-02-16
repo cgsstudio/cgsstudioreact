@@ -207,15 +207,15 @@ function ServiceDetails() {
             </div>
 
             <div className="d-flex justify-content-between align-items-left py-3 mt-4">
-              <div className="text-center">
+              <div className="https://prnt.sc/lIfcJEfFEPPm">
                 <h3 className="text-danger fw-bold mb-0 our_efficiently">5K+</h3>
                 <small className="text-muted our_efficiently_1">Projects Delivered</small>
               </div>
-              <div className="text-center">
+              <div className="https://prnt.sc/lIfcJEfFEPPm">
                 <h3 className="text-danger fw-bold mb-0 our_efficiently">11+</h3>
                 <small className="text-muted our_efficiently_1">Years of Experience</small>
               </div>
-              <div className="text-center">
+              <div className="https://prnt.sc/lIfcJEfFEPPm">
                 <h3 className="text-danger fw-bold mb-0 our_efficiently">100%</h3>
                 <small className="text-muted our_efficiently_1">Success Projects</small>
               </div>
@@ -286,10 +286,10 @@ function ServiceDetails() {
       <div className="design-body-wrapper">
         <div className="container py-5">
           <div className="design-main-card">
-            <div className="row">
+            <div className="row gy-4">
               <div className="col-lg-5 col-md-5">
                 <div className="design-title-section">
-                  <h1 className="design-title-heading">The Role <br />of UI/UX <br />Design in <br />Today's<br />Digital World..</h1>
+                  <h1 className="design-title-heading">The Role of UI/UX Design in Today's Digital World..</h1>
                 </div>
               </div>
 
@@ -404,7 +404,7 @@ function ServiceDetails() {
               {/* Add g-4 for spacing between columns */}
               <div className="row g-4 pt-5">
                 {service.items.map((item, itemIndex) => (
-                  <div key={itemIndex} className="col-12 col-md-2  pb-3 justify-content-start align-items-center" >
+                  <div key={itemIndex} className="col-12 col-md-3  pb-3 justify-content-start align-items-center text-center text-md-start" >
                     <ul className="badge bg-black custom-hover">
                       <li> <a href={item.link} rel="noopener noreferrer" className="link-tegs text-white text-decoration-none" >  {item.text}  </a> </li>
                     </ul>
@@ -419,15 +419,15 @@ function ServiceDetails() {
 
 
       {/* Final Words */}
-      <div className="containar-flude bg-dark mt-5 ">
+      <div className="containar-flude bg-black mt-5 ">
         <div className="container pt-5 pb-5">
           <div className="aximo-service-details-wrap">
             <div className="row text-white text-center">
               <div className="aximo-default-content">
                 <h2>
-                  <span className="services-h2 text-white">Creating Meaningful Digital Experiences with UI UX Design Company in Ahmedabad </span>
+                  <span className="services-h2 text-white-smoke">Creating Meaningful Digital Experiences with UI UX Design Company in Ahmedabad </span>
                 </h2>
-                <p>UI/UX design isn't just about looks, it's about creating smooth, meaningful digital journeys. At <b>Chameleo GFX Studio in Ahmedabad,</b> we blend creativity with AI-powered insights to build designs that your users will love. Whether it's a website, app, or digital product, our team ensures your brand doesn't just stand out but also provides the <b>best user experience possible.</b> Because at Chameleo GFX Studio, we design for people, <b>not just screens.</b> </p>
+                <p className='text-white-smoke'>UI/UX design isn't just about looks, it's about creating smooth, meaningful digital journeys. At <b>Chameleo GFX Studio in Ahmedabad,</b> we blend creativity with AI-powered insights to build designs that your users will love. Whether it's a website, app, or digital product, our team ensures your brand doesn't just stand out but also provides the <b>best user experience possible.</b> Because at Chameleo GFX Studio, we design for people, <b>not just screens.</b> </p>
                 <div className="text-center mt-4">
                   <Link to="/contact-us" className="aximo-default-btn pill bg-red">
                     Schedule a call
@@ -440,7 +440,7 @@ function ServiceDetails() {
       </div>
 
       {/* FAQ Section */}
-      <section className="faq-section py-5">
+      <section className="faq-section py-5 bg-white-smoke">
         <div className="container pt-5">
           <h2 className="mb-4 text-center">FAQs About UI/UX Design</h2>
           <ServiceAccordion items={faqData} defaultOpen={0} />

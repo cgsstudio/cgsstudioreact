@@ -16,7 +16,10 @@ function Dokandesign() {
         />
         </Helmet>
       <BreadCrumb title="Dokan Design and Development" />
-      <Dokandesigndetail />
+      <div className="bg-white-smoke">
+        <Dokandesigndetail />
+
+    </div>
 
     </>
   );

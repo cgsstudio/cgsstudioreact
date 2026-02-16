@@ -16,7 +16,10 @@ function BrochureDesign() {
         />
         </Helmet>
       <BreadCrumb title="Brochure Design Company " breadcrumbTitle="Brochure Design Company in Ahmedabad" />
-      <BrochureDesigndetail />
+      <div className="bg-white-smoke">
+        <BrochureDesigndetail />
+
+    </div>
 
     </>
   );

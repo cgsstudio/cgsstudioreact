@@ -16,7 +16,10 @@ function Shopify() {
         />
       </Helmet>
       <BreadCrumb title="Shopify Development Company in Ahmedabad" />
-      <Shopifydetail />
+      <div className="bg-white-smoke">
+        <Shopifydetail />
+
+    </div>
 
     </>
   );

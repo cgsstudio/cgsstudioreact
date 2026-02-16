@@ -16,7 +16,10 @@ function Figmatowebflow() {
         />
         </Helmet>
       <BreadCrumb title="Figma to Webflow Conversion" />
-      <Figmatowebflowdetail />
+      <div className="bg-white-smoke">
+        <Figmatowebflowdetail />
+
+    </div>
 
     </>
   );

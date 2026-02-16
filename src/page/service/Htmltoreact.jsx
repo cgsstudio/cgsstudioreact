@@ -16,7 +16,10 @@ function Htmltoreact() {
         />
         </Helmet>
       <BreadCrumb title="HTML to React"/>
-      <Htmltoreactdetail />
+      <div className="bg-white-smoke">
+        <Htmltoreactdetail />
+
+    </div>
 
     </>
   );

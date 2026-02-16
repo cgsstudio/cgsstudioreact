@@ -16,7 +16,10 @@ function HtmltowordPress() {
         />
         </Helmet>
       <BreadCrumb title="HTML to WordPress" />
-      <HtmltowordPressdetail />
+      <div className="bg-white-smoke">
+        <HtmltowordPressdetail />
+
+    </div>
 
     </>
   );

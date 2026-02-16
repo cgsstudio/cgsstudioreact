@@ -16,7 +16,10 @@ function Htmltowebflow() {
         />
         </Helmet>
       <BreadCrumb title="HTML to Webflow Conversion" />
-      <Htmltowebflowdetail />
+      <div className="bg-white-smoke">
+        <Htmltowebflowdetail />
+
+    </div>
 
     </>
   );

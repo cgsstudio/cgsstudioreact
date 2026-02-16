@@ -20,7 +20,9 @@ function UiuxDesign() {
         subtitle="Graphic design is the creative process of combining text, images, shapes, and colors to convey ideas in a clear and visually appealing manner."
         image={heroBannerImage}
       />
-      <ServiceDetails />
+      <div className="bg-white-smoke">
+        <ServiceDetails />
+    </div>
     </>
   );
 }

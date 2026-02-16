@@ -16,7 +16,10 @@ function ERPUIUXDesign() {
         />
         </Helmet>
       <BreadCrumb title=" ERP UI/UX Design" />
-      <ERPUIUXDesigndetail />
+      <div className="bg-white-smoke">
+        <ERPUIUXDesigndetail />
+
+    </div>
 
     </>
   );

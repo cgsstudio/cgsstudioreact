@@ -16,7 +16,10 @@ function BackendUIUXDesign() {
         />
         </Helmet>
       <BreadCrumb title="Backend UI/UX Design" />
-      <BackendUIUXDesigndetail />
+      <div className="bg-white-smoke">
+        <BackendUIUXDesigndetail />
+
+    </div>
 
     </>
   );

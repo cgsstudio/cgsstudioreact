@@ -16,7 +16,10 @@ function AdvertisingDesign() {
         />
         </Helmet>
       <BreadCrumb title="Advertising Design Agency" breadcrumbTitle="Advertising Design Agency in Ahmedabad" />
-      <AdvertisingDesigndetail />
+      <div className="bg-white-smoke">
+        <AdvertisingDesigndetail />
+
+    </div>
 
     </>
   );

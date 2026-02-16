@@ -16,7 +16,10 @@ function BuddyBossdesign() {
         />
         </Helmet>
       <BreadCrumb title="BuddyBoss, LearnDash, and Dokan Design & Development" />
-      <BuddyBossdesigndetail />
+      <div className="bg-white-smoke">
+        <BuddyBossdesigndetail />
+
+    </div>
 
     </>
   );

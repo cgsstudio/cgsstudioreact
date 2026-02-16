@@ -16,7 +16,10 @@ function AnnualReport() {
         />
       </Helmet>
       <BreadCrumb title="Annual Report Design Agency" breadcrumbTitle="Annual Report Design Agency in Ahmedabad" />
-      <AnnualReportdetail />
+      <div className="bg-white-smoke">
+        <AnnualReportdetail />
+
+    </div>
 
     </>
   );

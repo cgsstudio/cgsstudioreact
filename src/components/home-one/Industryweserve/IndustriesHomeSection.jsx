@@ -40,7 +40,7 @@ const IndustriesHomeSection = () => {
     }, []);
 
     return (
-        <div className="section aximo-section-padding3 py-5 bg-black" >
+        <div className="section aximo-section-padding3 pt-3 pb-0 pt-md-5 pb-md-5 bg-black" >
             <div className="container">
                 <div className="row align-items-center">
                     {/* Industries Grid Table - Left Side */}

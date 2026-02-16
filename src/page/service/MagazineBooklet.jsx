@@ -16,7 +16,10 @@ function MagazineBooklet() {
         />
       </Helmet>
       <BreadCrumb title="Magazine and Booklet Design Services" breadcrumbTitle="Magazine and Booklet Design Services in Ahmedabad" />
-      <MagazineBookletdetail />
+      <div className="bg-white-smoke">
+        <MagazineBookletdetail />
+
+    </div>
 
     </>
   );

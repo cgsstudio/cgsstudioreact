@@ -16,7 +16,10 @@ function Metaads() {
         />
         </Helmet>
       <BreadCrumb title="Meta Ads" />
-      <Metaadsdetail />
+      <div className="bg-white-smoke">
+        <Metaadsdetail />
+
+    </div>
 
     </>
   );

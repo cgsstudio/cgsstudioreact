@@ -16,7 +16,10 @@ function Shopifyecommercemanagement() {
         />
         </Helmet>
       <BreadCrumb title="Shopify E-commerce Management" />
-      <Shopifyecommercemanagementdetail />
+      <div className="bg-white-smoke">
+        <Shopifyecommercemanagementdetail />
+
+    </div>
 
     </>
   );

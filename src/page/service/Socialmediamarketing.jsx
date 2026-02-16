@@ -16,7 +16,10 @@ function Socialmediamarketing() {
         />
         </Helmet>
       <BreadCrumb title="Social Media Marketing" />
-      <Socialmediamarketingdetail />
+      <div className="bg-white-smoke">
+        <Socialmediamarketingdetail />
+
+    </div>
 
     </>
   );

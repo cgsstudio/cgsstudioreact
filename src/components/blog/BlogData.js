@@ -6322,7 +6322,7 @@ creating compatibility issues, and opening security gaps</p>
         <h2 class="blog-h2" id="link-2">Introduction: The Partnership, Not the Replacement</h2>
         <p>The conversation around <b>AI in graphic design</b> has often been framed in extremes: either as an existential threat to creatives or a magical button for instant artwork. The reality, as leading <b>Graphic Design Companies in Ahmedabad</b> and worldwide are discovering, is far more nuanced and powerful. The true revolution lies not in AI replacing the designer but in <b>AI-powered design</b> tools augmenting human creativity, strategy, and efficiency.</p>
         <p>This synergy, which we term <b>human-AI design collaboration</b>, is creating a new paradigm. It allows designers to offload repetitive tasks, generate unprecedented volumes of ideas, and personalize at scale, while they focus on what humans do best: conceptual thinking, emotional intelligence, cultural nuance, and strategic storytelling. For any business seeking cutting-edge branding and marketing, partnering with a <a class="blogtitle" href="https://chameleogfxstudio.com/graphic-design-company-in-ahmedabad">graphic design agency in Ahmedabad</a> that understands this balance is no longer a luxury; it’s a strategic necessity.</p>
-       <img src="/image/cgs_1.png" alt="human-AI design collaboration" class="responsive-img" />
+       <img src="/image/cgs_1.png" alt="human-AI design collaboration" class="img-fluid" />
 
         </br>
 
@@ -6343,7 +6343,7 @@ creating compatibility issues, and opening security gaps</p>
     </ul><br>
 
     <p>This <b>creative collaboration with AI</b> amplifies the designer’s capabilities. As noted in a seminal blog on <b>AI and creativity in design</b> by Adobe’s blog, the tools are shifting from mere utilities to "<a class="blogtitle" href="https://copilot.microsoft.com/">co-pilots</a>" actively participating in the <b>AI design workflow</b>. The result is a faster, more exploratory, and often more innovative process.</p>
-    <img src="/image/CGS_3.png" alt="AI and creativity in design " class="responsive-img"/>
+    <img src="/image/CGS_3.png" alt="AI and creativity in design " class="img-fluid"/>
     <h2 class="blog-h2" id="link-4">AI in the Graphic Design Workflow: From Concept to Final Art</h2>
     <p>Let’s demystify how <b>AI tools for designers</b> are integrated into a professional <b>AI-driven design process</b> at a forward-thinking agency. This isn't about one-click logos; it's about an enhanced, phase-by-phase approach.</p>
     <ul class="bloglistitem">
@@ -6354,7 +6354,7 @@ creating compatibility issues, and opening security gaps</p>
     </ul><br>
   
     <p>This integrated <b>AI design workflow</b> ensures speed and volume without sacrificing the <b>human-centered AI design</b> touch that makes work resonate.</p>  
-    <img src="/image/CGS_4.png" alt="human-AI design collaboration" class="responsive-img"/>
+    <img src="/image/CGS_4.png" alt="human-AI design collaboration" class="img-fluid"/>
 
     <div class="bg-black rounded-3 p-3">         
     <h3 class="text-white mb-2">Want to see how AI and creativity work together?</h3>
@@ -6372,7 +6372,7 @@ creating compatibility issues, and opening security gaps</p>
       <li><b>Ethical & Original Output :</b> A professional agency uses AI ethically, ensuring the final artwork is original, copyright-compliant, and free from the biases that can exist in AI training data. The human guarantees uniqueness.</li>
       <li><b>Iterative Dialogue :</b> The best work comes from a "conversation." The designer inputs a prompt, evaluates the AI's output, refines the prompt, and guides the tool iteratively toward the desired vision.</li>
     </ul>
-    <img src="/image/CGS_5.png" alt="human-AI design collaboration" class="responsive-img"/>
+    <img src="/image/CGS_5.png" alt="human-AI design collaboration" class="img-fluid"/>
 
       <h2 class="blog-h2" id="link-6">Local Insight Meets Global Technology</h2>
       <p>Why does finding the <a class="blogtitle" href="https://chameleogfxstudio.com/graphic-design-company-in-ahmedabad">best graphic design company in Ahmedabad</a> matter in this context? Because the most powerful human-AI design collaboration is one that is also deeply human-centered. A local agency brings an irreplaceable layer:</p>
@@ -6383,7 +6383,7 @@ creating compatibility issues, and opening security gaps</p>
       </ul>
     <br>
     <p>When this local expertise is fused with global AI tools for designers, the result is design that is both technologically cutting-edge and culturally resonant a formidable combination for any brand targeting the Ahmedabad market or beyond.</p>
-    <img src="/image/cgs_2.png" alt="human-AI design collaboration" class="responsive-img"/>
+    <img src="/image/cgs_2.png" alt="human-AI design collaboration" class="img-fluid"/>
     <h2 class="blog-h2" id="link-7">Choosing the Right Partner: A Graphic Design Agency for the AI Era</h2>
     <p>As you seek a <b>Graphic Design Agency in Ahmedabad</b>, look for these signs that they are leading in the age of AI collaboration:</p>
 
@@ -6553,7 +6553,7 @@ creating compatibility issues, and opening security gaps</p>
         <br>
          
 
-        <img src="/image/CGS_6.webp" alt="An infographic explaining the difference between brand identity and brand image for strong branding for small businesses." class="responsive-img"/><br><br>
+        <img src="/image/CGS_6.webp" alt="An infographic explaining the difference between brand identity and brand image for strong branding for small businesses." class="img-fluid"/><br><br>
       <p>For a small business, understanding the importance of branding can’t be overstated. Here’s why it matters so much:</p>
       <ul class="bloglistitem">
         <li><B>Builds Trust and Credibility:</B> A professional and consistent brand sends a clear message: you’re a serious business that people can rely on. It makes you look polished and trustworthy from the very first impression.</li>
@@ -6581,7 +6581,7 @@ creating compatibility issues, and opening security gaps</p>
      </ul>
      <br>
 
-      <img src="/image/CGS_7.webp" alt="An infographic showing the relationship between mission, vision, and values, key to strong branding for small businesses." class="responsive-img"/>
+      <img src="/image/CGS_7.webp" alt="An infographic showing the relationship between mission, vision, and values, key to strong branding for small businesses." class="img-fluid"/>
     <br>  <br>
 
     <h3 class="blog-h2" id="target_audience">Identify your target audience</h3>
@@ -6660,7 +6660,7 @@ creating compatibility issues, and opening security gaps</p>
     <li><b>Typography:</b>  The fonts you choose say a lot about your brand. A sleek, modern sans-serif font might feel innovative and tech-forward, while a classic serif font can convey a sense of tradition and elegance. The most important thing is to choose fonts that are easy to read.</li>
     </ul>
     <br>
-     <img src="/image/CGS_8.webp" alt="An infographic detailing the three cornerstones of visual identity: logo, color palette, and typography, essential for strong branding for small businesses." class="responsive-img"/>
+     <img src="/image/CGS_8.webp" alt="An infographic detailing the three cornerstones of visual identity: logo, color palette, and typography, essential for strong branding for small businesses." class="img-fluid"/>
     <br> <br>
     <h3 class="blog-h2" id="Use_AI_tools">Use AI tools for ideas and concepts</h3>
     <p>Let's be honest, professional design can feel out of reach for a new business. The good news is that AI has made it easier than ever to get the creative ball rolling. AI tools are fantastic for brainstorming logo ideas, exploring color combinations, or creating mood boards to help you find your visual direction.</p>
@@ -6726,7 +6726,7 @@ creating compatibility issues, and opening security gaps</p>
 
 <img src="/image/CGS_9.webp" 
      alt="A workflow diagram outlining a 4-step implementation strategy for strong branding for small businesses." 
-     class="responsive-img" />
+     class="img-fluid" />
 
 <br>
 <br>
@@ -7031,7 +7031,7 @@ Can I build a strong brand on a tight budget?
 
 <p>As businesses adapt to these evolving visual styles, working with the best graphic design agency for businesses becomes essential. A professional <a href="https://chameleogfxstudio.com/graphic-design-agency-in-ahmedabad" class="blogtitle">graphic design company in Ahmedabad</a> can help brands translate these 2026 trends into practical designs that feel authentic, human, and market-ready without losing brand consistency.</p>
 
-<img src="/image/CGS_10.webp" alt="Top 7 graphic design trends for 2026 to keep your brand fresh" class="responsive-img"/>
+<img src="/image/CGS_10.webp" alt="Top 7 graphic design trends for 2026 to keep your brand fresh" class="img-fluid"/>
 <br><br>
    <div class="bg-black rounded-3 p-3">         
     <h4 class="text-white mb-4">Feeling overwhelmed by the 2026 design shift? Let our Ahmedabad-based studio guides your brand’s evolution with a custom strategy.</h4>    
@@ -7126,7 +7126,7 @@ Can I build a strong brand on a tight budget?
 <h3 class="blog-h3" id="Tactile_Craft_and_Naive_Design">1. Tactile Craft and Naive Design</h3>
 <p>This trend emerges as a contrast to the polished images associated with AI generation, emphasizing warmth and personality. Vistaprint calls one aspect of this "<a href="https://www.vistaprint.com/hub/graphic-design-trends" class="blogtitle">Tactile Craft,</a>" which uses digital textures that look and feel like real materials such as embroidery, cut paper, or felt. It feels cozy and familiar, as you can see in the examples below.</p>
 
-<img src="/image/CGS_11.webp" alt="An infographic showing the Tactile Craft trend with textured designs and the Naive Design trend with childlike drawings." class="responsive-img"/>
+<img src="/image/CGS_11.webp" alt="An infographic showing the Tactile Craft trend with textured designs and the Naive Design trend with childlike drawings." class="img-fluid"/>
 <br>
 
 <br>
@@ -7145,7 +7145,7 @@ Can I build a strong brand on a tight budget?
 <p>It’s about giving people a break from the daily grind. <a href="https://www.vicemediagroup.com/wp-content/uploads/2023/08/The-Great-Vibe-Shift.pdf" class="blogtitle">A VICE report</a> found that 68% of young people are actively looking for funny, escapist content. This trend provides exactly that. It's difficult to ignore, but if it becomes too abstract, the message might get lost. The key is to anchor the surreal elements with clear copy. It's perfect for creative agencies, music festivals, and any brand targeting a younger audience.</p>
  <h3 class="blog-h2" id="Maximalism_and_Expressive_Layouts">3. Maximalism and Expressive Layouts</h3>
 <p>Contrasting with the long-standing minimalist approach, 2026 sees a return to maximalism. This trend is all about <a class="blogtitle" href="https://waffledesigns.medium.com/2026-design-trends-were-fighting-back-against-perfection-e8178d702fbf">rich, layered compositions</a> packed with photos, textures, patterns, and typography. The following visual breaks down the key differences between minimalism and this chaotic but organized style.</p>
-<img src="/image/CGS_12.webp" alt="A comparison of Minimalism's clean aesthetic versus Maximalism's vibrant and layered approach." class="responsive-img"/><br>
+<img src="/image/CGS_12.webp" alt="A comparison of Minimalism's clean aesthetic versus Maximalism's vibrant and layered approach." class="img-fluid"/><br>
 <br>
 <p>Designer Lindsay Marsh notes that maximalism allows for complex, nuanced layers that are difficult to replicate with current AI tools, resulting in a style that feels distinctly human. Maximalism is visually thrilling, but without a strong visual hierarchy, it can quickly become overwhelming. It's an excellent choice for posters, event flyers, and a stunning <a href="https://chameleogfxstudio.com/infographic-design" class="blogtitle">Infographic Design</a> that makes complex data feel exciting.</p>
 <h3 class="blog-h2" id="Frutiger_Aero_Revival">4. The Frutiger Aero Revival: Retro-digital Nostalgia</h3>
@@ -7175,7 +7175,7 @@ Can I build a strong brand on a tight budget?
 <p>Selecting the right trend is easier when guided by experts offering <a href="https://chameleogfxstudio.com/branding-and-identity-design" class="blogtitle">brand identity design services in Ahmedabad</a>. These services help align visual trends with brand values, audience expectations, and long-term growth goals, turning design into a business asset rather than just decoration.</p>
 <p>After reviewing the top trends, the next step is to determine which is suitable for your business. Here are a few quick tips to help you decide.</p>
 
-<img src="/image/CGS_13.webp" alt="A four-step workflow for selecting the right design trend for your business, from analysis to consultation." class="responsive-img"/><br>
+<img src="/image/CGS_13.webp" alt="A four-step workflow for selecting the right design trend for your business, from analysis to consultation." class="img-fluid"/><br>
 <br>
 <ul class="bloglistitem">
 <li><b>Know your brand personality:</b> Before you adopt a trend, consider your brand's identity. If you're a serious financial institution, the energy of Maximalism probably isn't a fit. However, the clean precision of Micro-Industrial aesthetics might be perfect. The trend should feel like an extension of your brand, not a costume.</li>
@@ -7446,7 +7446,7 @@ Can I build a strong brand on a tight budget?
     <p>Simply put, <a href="https://www.semrush.com/blog/shopify-seo/" class="blogtitle">Shopify e-commerce SEO</a> is the process of tweaking your online store so it <a href="https://help.shopify.com/en/manual/promoting-marketing/seo/seo-overview" class="blogtitle">shows up higher in search results</a> on Google, Bing, and other search engines. It's not just one magic trick, but a collection of different practices that all work together.</p>
     <p>Imagine it this way: you have the technical side (is your site fast and easy for Google to read?), the on-page content (are you using the right keywords on your product pages?), the site architecture (can customers easily find their way around?), and building authority (are other websites linking to you?). A good strategy weaves all these elements together to match what your ideal customers are looking for, making it easy for them to find your products and hit "add to cart."</p>
 
-    <img src="/image/CGS_15.webp" alt="An infographic showing the four key pillars of Shopify e-commerce SEO strategies: technical SEO, on-page content, site architecture, and building authority." class="responsive-img"/><br><br>
+    <img src="/image/CGS_15.webp" alt="An infographic showing the four key pillars of Shopify e-commerce SEO strategies: technical SEO, on-page content, site architecture, and building authority." class="img-fluid"/><br><br>
 
     <h2 class="blog-h2" id="how_we_chose">How We Chose the Best Shopify E-Commerce SEO Strategies for This List?</h2>
     <p>We didn't just pull these seven strategies out of thin air. We wanted to give you a list that’s actually useful, so we selected each one based on a few important factors:</p>
@@ -7578,7 +7578,7 @@ Can I build a strong brand on a tight budget?
       </li>
       </ul>
       <br>
-      <img src="/image/CGS_16.webp" alt="An infographic showing the four key pillars of Shopify e-commerce SEO strategies: technical SEO, on-page content, site architecture, and building authority." class="responsive-img"/><br><br>
+      <img src="/image/CGS_16.webp" alt="An infographic showing the four key pillars of Shopify e-commerce SEO strategies: technical SEO, on-page content, site architecture, and building authority." class="img-fluid"/><br><br>
       
       <ul class="bloglistitem">
       <li><b>Typical Investment:</b>
@@ -7614,7 +7614,7 @@ Can I build a strong brand on a tight budget?
     <h3 class="blog-h3" id="Build_Authority_with_Content_Marketing">5. Build Authority with Content Marketing</h3>
     <p>In Google's view, authority is a big part of trustworthiness. One of the most important factors in determining your site's authority is the number of <a href="https://www.shopify.com/ng/blog/how-to-make-money-with-seo" class="blogtitle">high-quality backlinks</a> (links from other websites) pointing to your store. A good off-page SEO strategy involves creating great content that people naturally want to link to and actively building relationships to earn those links.</p>
     
-    <img src="/image/CGS_17.webp" alt="An infographic showing the cyclical process of building authority as part of Shopify e-commerce SEO strategies, including content creation, outreach, and linking." class="responsive-img"/><br><br>
+    <img src="/image/CGS_17.webp" alt="An infographic showing the cyclical process of building authority as part of Shopify e-commerce SEO strategies, including content creation, outreach, and linking." class="img-fluid"/><br><br>
     <ul class="bloglistitem">
       <li><b>Key Actions:</b>
         <ul class="bloglistitem">
@@ -7642,7 +7642,7 @@ Can I build a strong brand on a tight budget?
     <h3 class="blog-h3" id="Leverage_Schema_Markup_For_Rich_Snippets">6. Leverage Schema Markup for Rich Snippets</h3>
     <p>Schema markup might sound complicated, but the idea is pretty simple. It's a piece of code you add to your site that helps search engines understand your content better. The reward? You can get "rich snippets" in the search results, which are enhanced listings that show extra information like price, availability, and those all-important star ratings. These can make your listing pop and significantly boost your click-through rate.</p>
 
-    <img src="/image/CGS_18.webp" alt="An infographic comparing a standard search result to a rich snippet, highlighting the benefits of schema markup for Shopify e-commerce SEO strategies." class="responsive-img"/><br><br>
+    <img src="/image/CGS_18.webp" alt="An infographic comparing a standard search result to a rich snippet, highlighting the benefits of schema markup for Shopify e-commerce SEO strategies." class="img-fluid"/><br><br>
 
     <ul class="bloglistitem">
       <li><b>Key Actions:</b>
@@ -7908,14 +7908,14 @@ Can I build a strong brand on a tight budget?
         <li><a href="#faq">Frequently Asked Questions</a></li>
       </ul>
     </div><br>
-    <img src="/image/CGS_19.webp" alt="The modern development workflow integrates AI assistance from design through deployment" class="responsive-img"/><br><br>
+    <img src="/image/CGS_19.webp" alt="The modern development workflow integrates AI assistance from design through deployment" class="img-fluid"/><br><br>
     <h2 class="blog-h2 mt-4" id="tool_1_cursor">The AI-native code editor: Cursor</h2>
     <p>Most developers started 2025 using VS Code with GitHub Copilot. By the end of the year, a significant portion had switched to <a href="https://cursor.com/" class="blogtitle">Cursor</a>, and the trend is accelerating.</p>
     <p>Cursor looks like VS Code because it is built on the same foundation. But under the hood, it's an entirely different beast. Where Copilot suggests the next line based on context, Cursor understands your entire repository. It can plan multi-file refactors, explain complex codebases in plain English, and generate entire features from natural language descriptions.</p>
     <p>The real differentiator is onboarding. Joining a new codebase used to mean days of reading documentation and tracing function calls. With Cursor, you can ask "How does the authentication flow work?" and get a coherent explanation with relevant code references. Large-scale refactoring that used to require careful manual editing across dozens of files now happens with a single prompt.</p>
     <p>Cursor offers a free tier with basic features. The Pro plan at $20 per month unlocks unlimited AI requests and advanced features. For teams, there's an enterprise tier with centralized billing and admin controls.</p>
   
-  <img src="/image/CGS_20.webp" alt="Cursor AI-powered code editor for developers" class="responsive-img"/><br><br>
+  <img src="/image/CGS_20.webp" alt="Cursor AI-powered code editor for developers" class="img-fluid"/><br><br>
     <div class="bg-black rounded-3 p-3">
       <h4 class="text-white mb-4">Ready to integrate AI-powered development into your workflow, but need expert guidance? </h4>
       <a href="https://chameleogfxstudio.com/contact-us" class="bg-red fw-bold text-white p-2 rounded br-2">We can help you!</a>
@@ -7925,13 +7925,13 @@ Can I build a strong brand on a tight budget?
     <p>Despite Cursor's rise, <a href="https://code.visualstudio.com/" class="blogtitle">Visual Studio Code</a> remains the foundation for most developers, holding over 70% market share among professionals. Its extension ecosystem is unmatched, and the pace of innovation around AI integration keeps it competitive.</p>
     <p>The big shift in 2026 is tool consolidation. The old setup of running ESLint for linting and Prettier for formatting is obsolete. <a href="https://biomejs.dev/" class="blogtitle">Biome</a> replaces both, offering 10x faster performance by being written in Rust instead of JavaScript. It handles linting, formatting, and eventually bundling through a single configuration.</p>
     <p>Essential extensions for the 2026 stack include GitHub Copilot Chat (which goes beyond autocomplete to offer inline explanations and refactoring), Next.js snippets for rapid component creation, and Tailwind CSS IntelliSense for utility class documentation directly in your editor.</p>
-    <img src="/image/CGS_21.webp" alt="Visual Studio Code editor with extensions marketplace" class="responsive-img"/><br><br>
+    <img src="/image/CGS_21.webp" alt="Visual Studio Code editor with extensions marketplace" class="img-fluid"/><br><br>
     <h2 class="blog-h2 mt-4" id="tool_3_nextjs">The meta-framework standard: Next.js 15</h2>
     <p>The era of configuring your own bundler, router, and server setup is over. In 2026, meta-frameworks are the default entry point for professional <a href="https://chameleogfxstudio.com/website-development-company-ahmedabad" class="blogtitle">web development services</a>, and Next.js 15 leads the pack.</p>
     <p>The biggest change is React Server Components (RSC) becoming the default paradigm through the App Router. Instead of shipping JavaScript to the browser to render your page, components render on the server or at the edge, sending only the minimal HTML and CSS needed. This radically improves Core Web Vitals, particularly Time to First Byte and overall page load performance.</p>
     <p>Next.js 15 also brings Turbopack for faster development builds, stabilized Server Actions for form handling and data mutations, and deeper integration with Vercel's deployment platform. For most new projects, starting with plain React is now the exception rather than the rule.</p>
 
-    <img src="/image/CGS_22.webp" alt="Next.js framework homepage with documentation links" class="responsive-img"/><br><br>
+    <img src="/image/CGS_22.webp" alt="Next.js framework homepage with documentation links" class="img-fluid"/><br><br>
     
     <div class="bg-black rounded-3 p-3">
       <h4 class="text-white mb-4">Migrating to or starting a new project with Next.js 15? </h4>
@@ -7943,56 +7943,56 @@ Can I build a strong brand on a tight budget?
     <p>TanStack Router is gaining ground fast, offering type-safe routing that's 20,000x faster at route matching according to their benchmarks. It remembers scroll positions, handles complex nested routes smoothly, and integrates seamlessly with TanStack Query for data loading.</p>
     <p>The combination provides end-to-end type safety; your frontend knows exactly what shape the data will be, and TypeScript catches mismatches at build time rather than runtime. TanStack Start, the full-stack framework built on these primitives, hit release candidate status in late 2025 and is worth watching as a Next.js alternative.</p>
 
-    <img src="/image/CGS_23.webp" alt="TanStack suite homepage for data management tools" class="responsive-img"/>
+    <img src="/image/CGS_23.webp" alt="TanStack suite homepage for data management tools" class="img-fluid"/>
 
     <h2 class="blog-h2 mt-4" id="tool_5_tailwind">The styling engine: Tailwind CSS v4 + ShadCN</h2>
     <p>The styling wars are over, and utility-first CSS won. Among <b>web development tools 2026</b>, <a href="https://tailwindcss.com/" class="blogtitle">Tailwind CSS</a> version 4 brings a rewritten JIT engine that's 5x faster at rebuilds, which matters when you're iterating quickly with AI-generated components.</p>
     <p>The real productivity boost comes from combining Tailwind with ShadCN, a collection of headless UI primitives that you copy and paste directly into your codebase. Unlike traditional component libraries, ShadCN gives you full ownership of the code. You get accessibility, keyboard navigation, and proper focus management out of the box, but you can customize every pixel with Tailwind classes.</p>
     <p>The 2026 CLI rewrite made ShadCN even smoother, with better theme support and integrations, including ElevenLabs components. When paired with AI tools like v0 by Vercel, you can generate complete, styled components from text descriptions in seconds.</p>
     
-    <img src="/image/CGS_24.webp" alt="Tailwind CSS utility-first framework homepage" class="responsive-img"/>
+    <img src="/image/CGS_24.webp" alt="Tailwind CSS utility-first framework homepage" class="img-fluid"/>
     
     <h2 class="blog-h2 mt-4" id="tool_6_claude">The AI assistant: Claude Code</h2>
     <p>While Cursor integrates AI into your editor, <a href="https://claude.ai/code" class="blogtitle">Claude Code</a> takes a different approach. It's designed for deep reasoning about large codebases, architecture decisions, and complex debugging scenarios.</p>
     <p>Claude excels at understanding system design tradeoffs. You can paste in error logs, describe symptoms, and get structured debugging guidance. It processes entire repositories to answer questions about how components interact, where state is managed, and what the implications of a proposed change would be.</p>
     <p>The most effective developers in 2026 use both tools: Cursor for day-to-day implementation and refactoring, Claude for architecture review and thorny problems that require deeper reasoning. The combination covers the full spectrum from syntax to system design.</p>
     
-    <img src="/image/CGS_25.webp" alt="Claude Code AI assistant interface for developers" class="responsive-img"/>
+    <img src="/image/CGS_25.webp" alt="Claude Code AI assistant interface for developers" class="img-fluid"/>
     
     <h2 class="blog-h2 mt-4" id="tool_7_playwright">The testing stack: Playwright + Vitest</h2>
     <p>Testing is no longer optional, and the tools have matured significantly. <a href="https://playwright.dev/" class="blogtitle">Playwright</a> has overtaken Cypress as the standard for end-to-end testing, offering native cross-browser support for Chromium, Firefox, and WebKit. It's faster, handles dynamic content more reliably, and has better TypeScript integration.</p>
     <p>For unit and integration testing, <a href="https://vitest.dev/" class="blogtitle">Vitest</a> has largely replaced Jest. Being built on Vite means it supports Hot Module Replacement for tests; your test results update instantly as you save files, just like your dev server.</p>
     <p>The 2026 twist is AI-assisted testing. Playwright integrates with AI agents that can generate test cases from user flows, automatically detect visual regressions, and even suggest fixes for flaky tests. Pair this with MCP (Model Context Protocol) servers, and your AI coding assistant can run E2E tests directly to verify its own changes.</p>
 
-    <img src="/image/CGS_26.webp" alt="Playwright testing framework for cross-browser automation" class="responsive-img"/>
+    <img src="/image/CGS_26.webp" alt="Playwright testing framework for cross-browser automation" class="img-fluid"/>
 
     <h2 class="blog-h2 mt-4" id="tool_8_fastapi">The backend simplifier: FastAPI</h2>
     <p>Python is experiencing a renaissance in web development, driven by AI integration requirements. <a href="https://fastapi.tiangolo.com/" class="blogtitle">FastAPI</a> has emerged as the framework of choice, offering 5-10x better performance than Flask according to benchmarks (20,000+ requests per second versus 4,000).</p> 
     <p>What makes FastAPI compelling is its developer experience. Type hints automatically generate OpenAPI documentation. Pydantic handles request and response validation with clear error messages. Async support is built in from the ground up, not bolted on later.</p>
     <p>For teams building AI-powered features, FastAPI is often the right choice over Node.js. When your application needs to integrate with machine learning models, data science pipelines, or natural language processing, having Python on both sides of the stack eliminates friction.</p>
 
-    <img src="/image/CGS_27.webp" alt="FastAPI Python framework for high-performance APIs" class="responsive-img"/>
+    <img src="/image/CGS_27.webp" alt="FastAPI Python framework for high-performance APIs" class="img-fluid"/>
 
     <h2 class="blog-h2 mt-4" id="tool_9_temporal">The workflow engine: Temporal</h2>
     <p>Not every task completes in a single HTTP request. Background processing, multi-step workflows, and scheduled jobs need reliability that simple queue systems can't provide. <a href="https://temporal.io/" class="blogtitle">Temporal</a> solves this by treating workflows as code that can survive process restarts, retries, and failures.</p>
     <p>Upload a file, generate thumbnails, run AI inference, send notifications, and if any step fails, Temporal retries with exponential backoff. If the server crashes mid-workflow, execution resumes exactly where it left off when it comes back online.</p>
     <p>Netflix, Snap, and other large-scale operations rely on Temporal for bulletproof workflow execution. For smaller teams, it removes the operational burden of managing stateful background jobs. The code looks synchronous and straightforward, but runs with the resilience of a distributed system.</p>
 
-    <img src="/image/CGS_28.webp" alt="Temporal workflow engine for reliable background jobs" class="responsive-img"/>
+    <img src="/image/CGS_28.webp" alt="Temporal workflow engine for reliable background jobs" class="img-fluid"/>
 
     <h2 class="blog-h2 mt-4" id="tool_10_cloudflare">The edge deployment platform: Cloudflare Workers</h2>
     <p>Edge computing has shifted from "interesting experiment" to "default deployment target." <a href="https://workers.cloudflare.com/" class="blogtitle">Cloudflare Workers</a> runs your code in 300+ locations worldwide, eliminating the latency of routing requests back to a central server.</p>
     <p>The free tier includes 100,000 requests per day, enough for most side projects and many production applications. You get sub-50 millisecond response times globally, automatic scaling, and zero cold starts. The platform now supports front-end frameworks, back-end APIs, AI inference, and scheduled jobs with built-in monitoring.</p>
     <p>Modern frameworks like Next.js and TanStack Start are designed for edge deployment. Middleware runs at the edge, authentication checks happen close to users, and dynamic content is generated geographically distributed rather than centralized.</p>
 
-    <img src="/image/CGS_29.webp" alt="Cloudflare Workers edge computing platform homepage" class="responsive-img"/>
+    <img src="/image/CGS_29.webp" alt="Cloudflare Workers edge computing platform homepage" class="img-fluid"/>
 
     <h2 class="blog-h2 mt-4" id="tool_11_pnpm">The package management revolution: pnpm + Turborepo</h2>
     <p>As projects scale, local development speed becomes a bottleneck. <a href="https://pnpm.io/" class="blogtitle">pnpm</a> addresses this with content-addressable storage: install a package once on your machine, then hard-link it to all your projects. Complex installations that take 45 seconds with npm often complete in 5-7 seconds with pnpm.</p>
     <p>For monorepos (single repositories containing multiple applications and shared packages), <a href="https://turborepo.org/" class="blogtitle">Turborepo</a> is essential. It uses sophisticated build caching to skip work that hasn't changed. If you build an application and none of its dependencies changed, Turborepo retrieves the previous output instantly. This can reduce CI pipeline times from minutes to seconds.</p>
     <p>The combination of pnpm and Turborepo makes monorepos practical for teams of any size. What used to require dedicated platform teams to manage is now accessible to small startups.</p>
 
-    <img src="/image/CGS_30.webp" alt="pnpm package manager for fast JavaScript installations" class="responsive-img"/>
+    <img src="/image/CGS_30.webp" alt="pnpm package manager for fast JavaScript installations" class="img-fluid"/>
 
     <h2 class="blog-h2 mt-4" id="comparison">2026 Web Development Tools Comparison</h2>
     <div class="table-responsive">

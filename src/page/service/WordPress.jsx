@@ -16,7 +16,10 @@ function WordPress() {
         />
       </Helmet>
       <BreadCrumb title="WordPress Development Services in Ahmedabad" />
-      <WordPressdetail />
+      <div className="bg-white-smoke">
+        <WordPressdetail />
+
+    </div>
 
     </>
   );

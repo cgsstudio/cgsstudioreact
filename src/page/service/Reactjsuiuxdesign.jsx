@@ -16,7 +16,10 @@ function Reactjsuiuxdesign() {
         />
         </Helmet>
       <BreadCrumb title="React.js UI/UX Design and Development"/>
-      <Reactjsuiuxdesigndetail />
+      <div className="bg-white-smoke">
+        <Reactjsuiuxdesigndetail />
+
+    </div>
 
     </>
   );

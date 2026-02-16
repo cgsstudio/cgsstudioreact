@@ -9,7 +9,7 @@ function Content() {
 				Ahmedabad, India
 
 			</h2>
-			<p>
+			<p className="mt-4">
 				Chameleo GFX Studio is a trusted partner for businesses looking to strengthen their digital presence. Based in Ahmedabad, India, we provide end-to-end solutions including website design, development, creative graphics, and digital marketing. With creativity at the core of our approach, we deliver strategies that are both innovative and results-driven.
 			</p>
 			<p>

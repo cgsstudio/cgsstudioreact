@@ -16,7 +16,10 @@ function MotionGraphics() {
         />
       </Helmet>
       <BreadCrumb title="Motion Graphics Design Agency" breadcrumbTitle="Motion Graphics Design Agency in Ahmedabad" />
-      <MotionGraphicsdetail />
+      <div className="bg-white-smoke">
+        <MotionGraphicsdetail />
+
+    </div>
 
     </>
   );

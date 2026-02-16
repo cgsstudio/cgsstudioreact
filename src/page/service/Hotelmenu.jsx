@@ -16,7 +16,10 @@ function Hotelmenu() {
         />
       </Helmet>
       <BreadCrumb title="Menu Card Design Services" breadcrumbTitle="Menu Card Design Services in Ahmedabad" />
-      <MenuDesigndetail />
+      <div className="bg-white-smoke">
+        <MenuDesigndetail />
+
+    </div>
 
     </>
   );

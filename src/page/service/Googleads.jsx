@@ -16,7 +16,10 @@ function Googleads() {
         />
         </Helmet>
       <BreadCrumb title="Google Ads" />
-      <Googleadsdetail />
+      <div className="bg-white-smoke">
+        <Googleadsdetail />
+
+    </div>
 
     </>
   );

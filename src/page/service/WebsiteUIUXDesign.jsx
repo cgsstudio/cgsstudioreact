@@ -17,7 +17,10 @@ function WebsiteUIUXDesign() {
         />
         </Helmet>
       <BreadCrumb title="Website UI/UX Design" image={heroBannerImage} />
-      <WebsiteUIUXDesigndetail />
+      <div className="bg-white-smoke">
+        <WebsiteUIUXDesigndetail />
+
+    </div>
 
     </>
   );
