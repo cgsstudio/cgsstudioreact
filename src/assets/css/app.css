@@ -3295,7 +3295,7 @@ textarea::placeholder {
 
 .aximo-form-field2 input,
 .aximo-form-field2 textarea {
-	font-weight: 600;
+	font-weight: 500;
 	padding: 15px 0 !important;
 	border-radius: 0 !important;
 	border: none !important;
@@ -12846,4 +12846,41 @@ button#aximo-notified-btn {
 
 .D-flex .breadcrumbs {
 	text-align: left;
+}
+
+.service-img {
+	width: 100%;
+	height: auto;
+}
+
+@media (max-width: 767px) {
+	.service-img {
+		width: 70% !important;
+	}
+}
+
+.custom-list-new li {
+	list-style: none !important;
+	margin-bottom: 10px
+}
+
+.custom-list-new li a {
+	padding: 10px;
+	background-color: var(--dark-bg);
+	border-radius: 6px;
+	color: var(--white-smoke) !important;
+	transition: all 0.3s ease;
+
+
+}
+
+.custom-list-new li a:hover {
+	background-color: var(--accent-color);
+	color: var(--white-smoke) !important;
+}
+
+@media (max-width: 767px) {
+	.custom-list-new li {
+		text-align: center;
+	}
 }

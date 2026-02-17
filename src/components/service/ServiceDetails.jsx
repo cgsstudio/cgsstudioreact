@@ -146,7 +146,7 @@ function ServiceDetails() {
             <div className="col-lg-6 align-items-center order-2 order-md-1">
               <div className="aximo-default-content">
                 <h2><span className="services-h2 mt-lg-0 mt-lg-0 mt-4">Why UI/UX Design Matters?</span></h2>
-                <p>No matter how great your product is, a poor design can drive users away. Today’s customers expect speed, clarity, and simplicity online. Good UI/UX design helps businesses <b>make strong first impressions, build trust, and keep customers coming back.</b>
+                <p>No matter how great your product is, a poor design can drive users away. Today’s customers expect speed, clarity, and simplicity online. Good UI/UX design helps businesses make strong first impressions, build trust, and keep customers coming back.
                 </p>
                 <p>  Here’s why it’s so important: </p>
                 <ul className="custom-list mt-1">
@@ -425,9 +425,9 @@ function ServiceDetails() {
             <div className="row text-white text-center">
               <div className="aximo-default-content">
                 <h2>
-                  <span className="services-h2 text-white-smoke">Creating Meaningful Digital Experiences with UI UX Design Company in Ahmedabad </span>
+                  <span className="services-h2 text-white-smoke text-center">Creating Meaningful Digital Experiences with UI UX Design Company in Ahmedabad </span>
                 </h2>
-                <p className='text-white-smoke'>UI/UX design isn't just about looks, it's about creating smooth, meaningful digital journeys. At <b>Chameleo GFX Studio in Ahmedabad,</b> we blend creativity with AI-powered insights to build designs that your users will love. Whether it's a website, app, or digital product, our team ensures your brand doesn't just stand out but also provides the <b>best user experience possible.</b> Because at Chameleo GFX Studio, we design for people, <b>not just screens.</b> </p>
+                <p className='text-white-smoke text-center'>UI/UX design isn't just about looks, it's about creating smooth, meaningful digital journeys. At <b>Chameleo GFX Studio in Ahmedabad,</b> we blend creativity with AI-powered insights to build designs that your users will love. Whether it's a website, app, or digital product, our team ensures your brand doesn't just stand out but also provides the <b>best user experience possible.</b> Because at Chameleo GFX Studio, we design for people, <b>not just screens.</b> </p>
                 <div className="text-center mt-4">
                   <Link to="/contact-us" className="aximo-default-btn pill bg-red">
                     Schedule a call

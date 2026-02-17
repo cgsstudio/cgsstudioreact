@@ -21,12 +21,12 @@ function ServiceHeroBanner({ title, subtitle, image, breadcrumbTitle }) {
   };
 
   return (
-    <div className="aximo-breadcrumb">
+    <div className="aximo-breadcrumb ">
       <div className="container">
-        <div className="row D-flex align-items-center">
+        <div className="row D-flex align-items-center py-5 py-md-0">
           <div className="col-lg-7">
-            <h2 className="post__title text-left services_hero text-white mb-3">{title}</h2>
-            {subtitle && <p className="post__subtitle text-white text-left services_hero">{subtitle}</p>}
+            <h2 className="post__title text-left services_hero text-white-smoke mb-3">{title}</h2>
+            {subtitle && <p className="post__subtitle text-left services_hero text-white-smoke">{subtitle}</p>}
             <nav className="breadcrumbs">
               <span><Link to="/">Home</Link><span><ChevronRight color="#fdfde1" /></span><span className="bread_crumb_link">{breadcrumbTitle || title}</span></span>
             </nav>
@@ -41,8 +41,8 @@ function ServiceHeroBanner({ title, subtitle, image, breadcrumbTitle }) {
             </div>
           </div>
           <div className="col-lg-5">
-            <div className="aximo-service-details-thumb">
-              <img src={image || social_icon} alt={title} />
+            <div>
+              <img className="service-img d-none d-lg-block" src={image || social_icon} alt={title} />
             </div>
           </div>
         </div>

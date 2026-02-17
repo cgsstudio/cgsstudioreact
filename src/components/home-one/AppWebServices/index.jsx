@@ -190,7 +190,7 @@ function AppWebServices() {
                                     className="d-flex align-items-center justify-content-end"
                                     style={{
                                         position: 'absolute',
-                                        bottom: '20px',
+                                        bottom: '10px',
                                         right: '20px',
                                     }}
                                 >

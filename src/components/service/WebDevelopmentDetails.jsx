@@ -189,7 +189,7 @@ function WebDevelopmentDetails() {
 				<script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
 			</Helmet>
 
-			<div className="container">
+			<div className="container pt-5 pt-md-0">
 				<div className="aximo-service-details-wrap">
 					<div className="row ">
 						<div className="col-lg-12">
