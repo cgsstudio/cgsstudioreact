@@ -214,6 +214,7 @@ const sitemapData = [
       { text: "Top Graphic Design Trends Businesses Should Follow in 2026", link: "/blog/why-strong-branding-for-small-businesses" },
       { text: "Top Shopify E-commerce SEO Strategies to Boost Sales in 2026", link: "/blog/top-shopify-e-commerce-seo-strategies-for-2026" },
       { text: "12 Future-Ready Web Development Tools Every Developer Needs In 2026", link: "/blog/future-ready-web-development-tools-2026" },
+      { text: "Why E-E-A-T Matters More Than Ever in the AI Search Era?", link: "/blog/eeat-in-ai-search-era" },
 
 
 
