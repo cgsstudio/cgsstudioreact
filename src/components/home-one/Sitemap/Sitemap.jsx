@@ -251,42 +251,43 @@ function SiteMapPage() {
       </Helmet>
 
       <BlogHero title="Sitemap" breadcrumbTitle="Sitemap" />
+      <section class="section aximo-section-padding bg-white-smoke">
+        <div className="container py-5">
+          {sitemapData.map((section, i) => (
+            <div key={i} className="mb-5">
+              <h2 className="mb-4 mainheading-sitemap">{section.title}</h2>
 
-      <div className="container py-5">
-        {sitemapData.map((section, i) => (
-          <div key={i} className="mb-5">
-            <h2 className="mb-4 mainheading-sitemap">{section.title}</h2>
-
-            {/* Subcategories (for Website Development) */}
-            {section.subcategories ? (
-              section.subcategories.map((sub, j) => (
-                <div key={j} className="mb-3 ">
-                  <h5 className="mb-2">{sub.subtitle}</h5>
-                  <ul className="list-unstyled sitemap-left">
-                    {sub.items.map((item, k) => (
-                      <li key={k} className="col-12 col-md-6 mb-2 sitemap-linkmain ">
-                        <a href={item.link} rel="noopener noreferrer">
-                          {item.text}
-                        </a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              ))
-            ) : (
-              <ul className="list-unstyled sitemap-left">
-                {section.items.map((item, j) => (
-                  <li key={j} className="col-12 col-md-12 mb-2 sitemap-linkmain ">
-                    <a href={item.link} rel="noopener noreferrer">
-                      {item.text}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            )}
-          </div>
-        ))}
-      </div>
+              {/* Subcategories (for Website Development) */}
+              {section.subcategories ? (
+                section.subcategories.map((sub, j) => (
+                  <div key={j} className="mb-3 ">
+                    <h5 className="mb-2">{sub.subtitle}</h5>
+                    <ul className="list-unstyled sitemap-left">
+                      {sub.items.map((item, k) => (
+                        <li key={k} className="col-12 col-md-6 mb-2 sitemap-linkmain ">
+                          <a href={item.link} rel="noopener noreferrer">
+                            {item.text}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                ))
+              ) : (
+                <ul className="list-unstyled sitemap-left">
+                  {section.items.map((item, j) => (
+                    <li key={j} className="col-12 col-md-12 mb-2 sitemap-linkmain ">
+                      <a href={item.link} rel="noopener noreferrer">
+                        {item.text}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          ))}
+        </div>
+      </section>
     </>
   );
 }

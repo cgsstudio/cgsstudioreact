@@ -1,17 +1,15 @@
 import Star2Img from "../../assets/images/v1/star2.png";
 function FaqAccordion() {
 	return (
-		<div className="section aximo-section-padding">
+		<div className="section aximo-section-padding bg-white-smoke">
 			<div className="container">
 				<div className="aximo-section-title center">
 					<h2>
 						<span className="aximo-title-animation">
 							These FAQs help
-							<span className="aximo-title-icon">
-								<img className="shape-color" src={Star2Img} alt="Star" />
-							</span>
 						</span>
 						clients learn about us
+
 					</h2>
 				</div>
 

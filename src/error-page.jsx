@@ -11,9 +11,9 @@ export default function ErrorPage() {
 				<title>404 - Page Not Found | Chameleo GFX Studio</title>
 				<meta name="description" content="Sorry, the page you are looking for does not exist. Return to the homepage of Chameleo GFX Studio." />
 			</Helmet>
-			<div className="section">
+			<div className="section bg-white-smoke">
 				<div className="container">
-					<div className="aximo-errors-wrap">
+					<div className="aximo-errors-wrap ">
 						<div className="aximo-errors-thumb">
 							<img src={ErrorImg} alt="Error" />
 						</div>

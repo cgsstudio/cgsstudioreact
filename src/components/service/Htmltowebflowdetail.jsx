@@ -89,75 +89,85 @@ function Htmltowebflowdetail() {
     <div className="section aximo-section-padding2">
       <div className="container">
         <div className="aximo-service-details-wrap">
-          <div className="aximo-service-details-thumb">
+          <div className="aximo-service-details-thumb d-none d-md-block">
             <img src={SingleImg} alt="Web Development" />
           </div>
+
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
                 <h2>
                   <span className="aximo-title-animation">
-                  HTML to Webflow Conversion
+                    HTML to Webflow Conversion
                     <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span>
                   </span>
                 </h2>
                 <p>
-                Migrating from static HTML to a dynamic Webflow website can significantly enhance your website’s flexibility and management. At Chameleo GFX Studio, we specialize in HTML to Webflow conversion, making your website easier to update, more interactive, and fully responsive. Our team carefully transfers your existing HTML structure into Webflow while optimizing it for modern design standards and SEO best practices.
+                  Migrating from static HTML to a dynamic Webflow website can significantly enhance your website’s flexibility and management. At Chameleo GFX Studio, we specialize in HTML to Webflow conversion, making your website easier to update, more interactive, and fully responsive. Our team carefully transfers your existing HTML structure into Webflow while optimizing it for modern design standards and SEO best practices.
                 </p>
                 <p>
-                As a trusted HTML to Webflow conversion service provider in Ahmedabad, we ensure that your website maintains its existing functionality while gaining the benefits of Webflow’s intuitive CMS, animations, and easy-to-use editor. Whether you want to modernize your website or improve its performance, our HTML to Webflow services provide a seamless transition without losing data or design quality.
+                  As a trusted HTML to Webflow conversion service provider in Ahmedabad, we ensure that your website maintains its existing functionality while gaining the benefits of Webflow’s intuitive CMS, animations, and easy-to-use editor. Whether you want to modernize your website or improve its performance, our HTML to Webflow services provide a seamless transition without losing data or design quality.
                 </p>
               </div>
             </div>
           </div>
+          <div className="aximo-service-details-thumb d-block d-md-none mt-5">
+            <img src={SingleImg} alt="Web Development" />
+          </div>
+
 
           {/* Services List Section */}
           <div className="container pt-5">
-  {services && services.length > 0 ? (
-    services.map((service, index) => (
-      <div key={index}>
-        <div className="aximo-section-title main center">
-          <h2 className="mb-3 subtitle-heading">
-            <span className="aximo-title-animation">
-              {service.title}
-              <span className="aximo-title-icon">
-                <img className="shape-color" src={Star2Img} alt="Star2Img" />
-            </span>
-            </span>
-          </h2>
-        </div>
+            {services && services.length > 0 ? (
+              services.map((service, index) => (
+                <div key={index}>
+                  <div className="aximo-section-title main center">
+                    <h2 className="mb-3 subtitle-heading">
+                      <span className="aximo-title-animation">
+                        {service.title}
+                        <span className="aximo-title-icon">
+                          <img className="shape-color" src={Star2Img} alt="Star2Img" />
+                        </span>
+                      </span>
+                    </h2>
+                  </div>
 
-        {/* Loop through categories */}
-        {service.categories.map((category, catIndex) => (
-          <div className="mb-4" key={catIndex}>
-            <h4 className="mb-3 subtitle-heading">
-                  <a href={category.subtitleLink} rel="noopener noreferrer">
-                   {category.subtitle}
-                  </a>
-                  </h4>
-            <div className="row">
-              {category.items.map((item, itemIndex) => (
-                <div key={itemIndex} className="col-12 col-md-6">
-                  <ul className="list-unstyled custom-list">
-                    <li>
-                      <a href={item.link} rel="noopener noreferrer">
-                        {item.text}
-                      </a>
-                    </li>
-                  </ul>
+                  {/* Loop through categories */}
+                  {service.categories.map((category, catIndex) => (
+                    <div className="mb-4" key={catIndex}>
+                      <h4 className="fw-bold subtitle-heading text-center bg-black px-5 py-2 rounded-5 d-inline-block mx-auto">
+                        <a
+                          href={category.subtitleLink}
+                          rel="noopener noreferrer"
+                          className="text-decoration-none"
+                          style={{ color: "#fdfde1" }}
+                        >
+                          {category.subtitle}
+                        </a>
+                      </h4>
+                      <div className="row">
+                        {category.items.map((item, itemIndex) => (
+                          <div key={itemIndex} className="col-12 col-md-6">
+                            <ul className="list-unstyled custom-list">
+                              <li>
+                                <a href={item.link} rel="noopener noreferrer">
+                                  {item.text}
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
                 </div>
-              ))}
-            </div>
+              ))
+            ) : (
+              <p>No services available</p>
+            )}
           </div>
-        ))}
-      </div>
-    ))
-  ) : (
-    <p>No services available</p>
-  )}
-</div>
 
         </div>
       </div>
