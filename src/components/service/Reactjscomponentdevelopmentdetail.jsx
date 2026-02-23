@@ -89,78 +89,79 @@ function Reactjscomponentdevelopmentdetail() {
     <div className="section aximo-section-padding2">
       <div className="container">
         <div className="aximo-service-details-wrap">
-          <div className="aximo-service-details-thumb">
-            <img src={SingleImg} alt="Web Development"/>
+          <div className="axiom-service-details-thumb d-none d-md-block">
+            <img src={SingleImg} alt="Web Development" />
           </div>
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
                 <h2>
                   <span className="aximo-title-animation">
-                  React.js Component Development and Integration – Build Reusable, Scalable UI Components
+                    React.js Component Development and Integration – Build Reusable, Scalable UI Components
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}
                   </span>
                 </h2>
                 <p>
-                Creating a seamless user experience starts with well-structured React.js component development. At Chameleo GFX Studio, we specialize in building reusable, scalable, and high-performance React components that enhance the efficiency of your web applications. Whether you need custom UI elements, complex interactive features, or third-party API integrations, our React.js developers in Ahmedabad ensure every component is optimized for performance and maintainability. By following best practices in component-based architecture, we help businesses create modular applications that are easy to manage and scale.
+                  Creating a seamless user experience starts with well-structured React.js component development. At Chameleo GFX Studio, we specialize in building reusable, scalable, and high-performance React components that enhance the efficiency of your web applications. Whether you need custom UI elements, complex interactive features, or third-party API integrations, our React.js developers in Ahmedabad ensure every component is optimized for performance and maintainability. By following best practices in component-based architecture, we help businesses create modular applications that are easy to manage and scale.
                 </p>
                 <p>
-                Our React.js component integration services focus on seamlessly connecting different modules within your web application. We work with REST APIs, GraphQL, Redux, and Context API to ensure data flows efficiently between components, improving application speed and user engagement. Whether you are developing a React dashboard, eCommerce platform, or SaaS application, our team ensures that each component integrates smoothly while maintaining a consistent and intuitive UI/UX design.
+                  Our React.js component integration services focus on seamlessly connecting different modules within your web application. We work with REST APIs, GraphQL, Redux, and Context API to ensure data flows efficiently between components, improving application speed and user engagement. Whether you are developing a React dashboard, eCommerce platform, or SaaS application, our team ensures that each component integrates smoothly while maintaining a consistent and intuitive UI/UX design.
                 </p>
                 <p>
-                By leveraging the power of React.js hooks, state management techniques, and virtual DOM rendering, we ensure your web application loads faster, runs smoother, and provides an optimal user experience. Whether you need to enhance an existing application or build a brand-new React-based web solution, our custom React.js component development services ensure your project meets modern web standards and delivers outstanding performance.
+                  By leveraging the power of React.js hooks, state management techniques, and virtual DOM rendering, we ensure your web application loads faster, runs smoother, and provides an optimal user experience. Whether you need to enhance an existing application or build a brand-new React-based web solution, our custom React.js component development services ensure your project meets modern web standards and delivers outstanding performance.
                 </p>
               </div>
             </div>
           </div>
+          <div className="aximo-service-details-thumb d-block d-md-none mt-5">
+            <img src={SingleImg} alt="Web Development" />
+          </div>
 
           {/* Services List Section */}
           <div className="container pt-5">
-  {services && services.length > 0 ? (
-    services.map((service, index) => (
-      <div key={index}>
-        <div className="aximo-section-title main center">
-          <h2 className="mb-3 subtitle-heading">
-            <span className="aximo-title-animation">
-              {service.title}
-              <span className="aximo-title-icon">
-                <img className="shape-color" src={Star2Img} alt="Star2Img" />
-            </span>
-            </span>
-          </h2>
-        </div>
+            {services && services.length > 0 ? (
+              services.map((service, index) => (
+                <div key={index}>
+                  <div className="aximo-section-title main center">
+                    <h2 className="mb-3 subtitle-heading">
+                      <span className="aximo-title-animation">
+                        {service.title}
+                        <span className="aximo-title-icon">
+                          <img className="shape-color" src={Star2Img} alt="Star2Img" />
+                        </span>
+                      </span>
+                    </h2>
+                  </div>
 
-        {/* Loop through categories */}
-        {service.categories.map((category, catIndex) => (
-          <div className="mb-4" key={catIndex}>
-            <h4 className="mb-3 subtitle-heading">
-                  <a href={category.subtitleLink} rel="noopener noreferrer">
-                   {category.subtitle}
-                  </a>
-                  </h4>
-            <div className="row">
-              {category.items.map((item, itemIndex) => (
-                <div key={itemIndex} className="col-12 col-md-6">
-                  <ul className="list-unstyled custom-list">
-                    <li>
-                      <a href={item.link} rel="noopener noreferrer">
-                        {item.text}
-                      </a>
-                    </li>
-                  </ul>
+                  {/* Loop through categories */}
+                  {service.categories.map((category, catIndex) => (
+                    <div className="mb-4" key={catIndex}>
+                      <h4 className="fw-bold subtitle-heading text-center bg-black px-5 py-2 rounded-5 d-inline-block mx-auto">
+                        <a href={category.subtitleLink} rel="noopener noreferrer" className="text-decoration-none" style={{ color: "#fdfde1" }} > {category.subtitle} </a>
+                      </h4>
+                      <div className="row">
+                        {category.items.map((item, itemIndex) => (
+                          <div key={itemIndex} className="col-12 col-md-6">
+                            <ul className="list-unstyled custom-list">
+                              <li>
+                                <a href={item.link} rel="noopener noreferrer">
+                                  {item.text}
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
                 </div>
-              ))}
-            </div>
+              ))
+            ) : (
+              <p>No services available</p>
+            )}
           </div>
-        ))}
-      </div>
-    ))
-  ) : (
-    <p>No services available</p>
-  )}
-</div>
 
         </div>
       </div>

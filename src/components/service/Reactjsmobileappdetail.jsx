@@ -89,78 +89,79 @@ function Reactjsmobileappdetail() {
     <div className="section aximo-section-padding2">
       <div className="container">
         <div className="aximo-service-details-wrap">
-          <div className="aximo-service-details-thumb">
-            <img src={SingleImg} alt="Web Development"/>
+          <div className="axiom-service-details-thumb d-none d-md-block">
+            <img src={SingleImg} alt="Web Development" />
           </div>
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
                 <h2>
                   <span className="aximo-title-animation">
-                  React.js Mobile App Development (React Native) – Build Fast, Cross-Platform Mobile Apps
+                    React.js Mobile App Development (React Native) – Build Fast, Cross-Platform Mobile Apps
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}
                   </span>
                 </h2>
                 <p>
-                In today’s mobile-driven world, having a high-performance, cross-platform mobile application is crucial for business success. At Chameleo GFX Studio, we offer React Native mobile app development services, helping businesses create fast, responsive, and user-friendly mobile applications for both iOS and Android. With React Native, we build mobile apps that provide a native-like experience while reducing development time and costs.
+                  In today’s mobile-driven world, having a high-performance, cross-platform mobile application is crucial for business success. At Chameleo GFX Studio, we offer React Native mobile app development services, helping businesses create fast, responsive, and user-friendly mobile applications for both iOS and Android. With React Native, we build mobile apps that provide a native-like experience while reducing development time and costs.
                 </p>
                 <p>
-                Our React Native developers in Ahmedabad specialize in building custom mobile applications tailored to your business needs. Whether you need an eCommerce app, on-demand service app, or social networking platform, we use the power of React.js and React Native to create intuitive user interfaces and seamless app experiences. By leveraging native modules, optimized animations, and efficient state management, we ensure that your app runs smoothly and delivers top-notch performance across all devices.
+                  Our React Native developers in Ahmedabad specialize in building custom mobile applications tailored to your business needs. Whether you need an eCommerce app, on-demand service app, or social networking platform, we use the power of React.js and React Native to create intuitive user interfaces and seamless app experiences. By leveraging native modules, optimized animations, and efficient state management, we ensure that your app runs smoothly and delivers top-notch performance across all devices.
                 </p>
                 <p>
-                With a mobile-first approach, we focus on UI/UX design, app speed optimization, and seamless API integrations to enhance functionality. Whether you are launching a new mobile app or upgrading an existing one, our React.js and React Native mobile app development services ensure that your application is scalable, efficient, and future-ready.
+                  With a mobile-first approach, we focus on UI/UX design, app speed optimization, and seamless API integrations to enhance functionality. Whether you are launching a new mobile app or upgrading an existing one, our React.js and React Native mobile app development services ensure that your application is scalable, efficient, and future-ready.
                 </p>
               </div>
             </div>
           </div>
+          <div className="aximo-service-details-thumb d-block d-md-none mt-5">
+            <img src={SingleImg} alt="Web Development" />
+          </div>
 
           {/* Services List Section */}
           <div className="container pt-5">
-  {services && services.length > 0 ? (
-    services.map((service, index) => (
-      <div key={index}>
-        <div className="aximo-section-title main center">
-          <h2 className="mb-3 subtitle-heading">
-            <span className="aximo-title-animation">
-              {service.title}
-              <span className="aximo-title-icon">
-                <img className="shape-color" src={Star2Img} alt="Star2Img" />
-            </span>
-            </span>
-          </h2>
-        </div>
+            {services && services.length > 0 ? (
+              services.map((service, index) => (
+                <div key={index}>
+                  <div className="aximo-section-title main center">
+                    <h2 className="mb-3 subtitle-heading">
+                      <span className="aximo-title-animation">
+                        {service.title}
+                        <span className="aximo-title-icon">
+                          <img className="shape-color" src={Star2Img} alt="Star2Img" />
+                        </span>
+                      </span>
+                    </h2>
+                  </div>
 
-        {/* Loop through categories */}
-        {service.categories.map((category, catIndex) => (
-          <div className="mb-4" key={catIndex}>
-            <h4 className="mb-3 subtitle-heading">
-                  <a href={category.subtitleLink} rel="noopener noreferrer">
-                   {category.subtitle}
-                  </a>
-                  </h4>
-            <div className="row">
-              {category.items.map((item, itemIndex) => (
-                <div key={itemIndex} className="col-12 col-md-6">
-                  <ul className="list-unstyled custom-list">
-                    <li>
-                      <a href={item.link} rel="noopener noreferrer">
-                        {item.text}
-                      </a>
-                    </li>
-                  </ul>
+                  {/* Loop through categories */}
+                  {service.categories.map((category, catIndex) => (
+                    <div className="mb-4" key={catIndex}>
+                      <h4 className="fw-bold subtitle-heading text-center bg-black px-5 py-2 rounded-5 d-inline-block mx-auto">
+                        <a href={category.subtitleLink} rel="noopener noreferrer" className="text-decoration-none" style={{ color: "#fdfde1" }} > {category.subtitle} </a>
+                      </h4>
+                      <div className="row">
+                        {category.items.map((item, itemIndex) => (
+                          <div key={itemIndex} className="col-12 col-md-6">
+                            <ul className="list-unstyled custom-list">
+                              <li>
+                                <a href={item.link} rel="noopener noreferrer">
+                                  {item.text}
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
                 </div>
-              ))}
-            </div>
+              ))
+            ) : (
+              <p>No services available</p>
+            )}
           </div>
-        ))}
-      </div>
-    ))
-  ) : (
-    <p>No services available</p>
-  )}
-</div>
 
         </div>
       </div>

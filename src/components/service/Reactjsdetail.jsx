@@ -89,75 +89,76 @@ function Reactjsdetail() {
     <div className="section aximo-section-padding2">
       <div className="container">
         <div className="aximo-service-details-wrap">
-          <div className="aximo-service-details-thumb">
-            <img src={SingleImg} alt="Web Development"/>
+          <div className="axiom-service-details-thumb d-none d-md-block">
+            <img src={SingleImg} alt="Web Development" />
           </div>
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
                 <h2>
                   <span className="aximo-title-animation">
-                  React.js Development – Build Fast, Scalable, and Modern Web Applications
+                    React.js Development – Build Fast, Scalable, and Modern Web Applications
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}
                   </span>
                 </h2>
                 <p>
-                In today’s digital landscape, having a high-performance web application is essential for businesses looking to stay ahead of the competition. At Chameleo GFX Studio, we specialize in React.js development, building dynamic, responsive, and scalable web applications that enhance user engagement. As a leading React.js development company in Ahmedabad, we leverage the power of React.js to create interactive UI components that deliver an exceptional user experience. Our expertise ensures your website or application is lightning-fast, SEO-friendly, and easy to maintain, making it an ideal choice for businesses that require modern, efficient solutions.
+                  In today’s digital landscape, having a high-performance web application is essential for businesses looking to stay ahead of the competition. At Chameleo GFX Studio, we specialize in React.js development, building dynamic, responsive, and scalable web applications that enhance user engagement. As a leading React.js development company in Ahmedabad, we leverage the power of React.js to create interactive UI components that deliver an exceptional user experience. Our expertise ensures your website or application is lightning-fast, SEO-friendly, and easy to maintain, making it an ideal choice for businesses that require modern, efficient solutions.
                 </p>
                 <p>
-                Our custom React.js web application development services focus on crafting web apps that are both intuitive and high-performing. Whether you need a single-page application (SPA), progressive web app (PWA), or enterprise-grade software, we build tailored solutions to meet your business needs. Using React.js performance optimization, we ensure your web application runs seamlessly across all devices, reducing load times and enhancing responsiveness. With our cutting-edge development approach, we help businesses create robust digital platforms that drive growth and improve customer interactions.
+                  Our custom React.js web application development services focus on crafting web apps that are both intuitive and high-performing. Whether you need a single-page application (SPA), progressive web app (PWA), or enterprise-grade software, we build tailored solutions to meet your business needs. Using React.js performance optimization, we ensure your web application runs seamlessly across all devices, reducing load times and enhancing responsiveness. With our cutting-edge development approach, we help businesses create robust digital platforms that drive growth and improve customer interactions.
                 </p>
               </div>
             </div>
           </div>
+          <div className="aximo-service-details-thumb d-block d-md-none mt-5">
+            <img src={SingleImg} alt="Web Development" />
+          </div>
 
           {/* Services List Section */}
           <div className="container pt-5">
-  {services && services.length > 0 ? (
-    services.map((service, index) => (
-      <div key={index}>
-        <div className="aximo-section-title main center">
-          <h2 className="mb-3 subtitle-heading">
-            <span className="aximo-title-animation">
-              {service.title}
-              <span className="aximo-title-icon">
-                <img className="shape-color" src={Star2Img} alt="Star2Img" />
-            </span>
-            </span>
-          </h2>
-        </div>
+            {services && services.length > 0 ? (
+              services.map((service, index) => (
+                <div key={index}>
+                  <div className="aximo-section-title main center">
+                    <h2 className="mb-3 subtitle-heading">
+                      <span className="aximo-title-animation">
+                        {service.title}
+                        <span className="aximo-title-icon">
+                          <img className="shape-color" src={Star2Img} alt="Star2Img" />
+                        </span>
+                      </span>
+                    </h2>
+                  </div>
 
-        {/* Loop through categories */}
-        {service.categories.map((category, catIndex) => (
-          <div className="mb-4" key={catIndex}>
-            <h4 className="mb-3 subtitle-heading">
-                  <a href={category.subtitleLink} rel="noopener noreferrer">
-                   {category.subtitle}
-                  </a>
-                  </h4>
-            <div className="row">
-              {category.items.map((item, itemIndex) => (
-                <div key={itemIndex} className="col-12 col-md-6">
-                  <ul className="list-unstyled custom-list">
-                    <li>
-                      <a href={item.link} rel="noopener noreferrer">
-                        {item.text}
-                      </a>
-                    </li>
-                  </ul>
+                  {/* Loop through categories */}
+                  {service.categories.map((category, catIndex) => (
+                    <div className="mb-4" key={catIndex}>
+                      <h4 className="fw-bold subtitle-heading text-center bg-black px-5 py-2 rounded-5 d-inline-block mx-auto">
+                        <a href={category.subtitleLink} rel="noopener noreferrer" className="text-decoration-none" style={{ color: "#fdfde1" }} > {category.subtitle} </a>
+                      </h4>
+                      <div className="row">
+                        {category.items.map((item, itemIndex) => (
+                          <div key={itemIndex} className="col-12 col-md-6">
+                            <ul className="list-unstyled custom-list">
+                              <li>
+                                <a href={item.link} rel="noopener noreferrer">
+                                  {item.text}
+                                </a>
+                              </li>
+                            </ul>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  ))}
                 </div>
-              ))}
-            </div>
+              ))
+            ) : (
+              <p>No services available</p>
+            )}
           </div>
-        ))}
-      </div>
-    ))
-  ) : (
-    <p>No services available</p>
-  )}
-</div>
 
         </div>
       </div>
