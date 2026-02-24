@@ -170,7 +170,7 @@ const pages = [
   { url: "/blog/linkedin-marketing-for-b2b-brands-complete-guide", changefreq: "monthly", priority: 0.6 },
   { url: "/blog/human-ai-collaboration-in-design", changefreq: "monthly", priority: 0.6 },
   { url: "/blog/strong-branding-for-small-businesses", changefreq: "monthly", priority: 0.6 },
-  { url: "/blog/why-strong-branding-for-small-businesses", changefreq: "monthly", priority: 0.6 },
+  { url: "/blog/top-graphic-design-trends-2026", changefreq: "monthly", priority: 0.6 },
   { url: "/blog/top-shopify-e-commerce-seo-strategies-for-2026", changefreq: "monthly", priority: 0.6 },
   { url: "/blog/future-ready-web-development-tools-2026", changefreq: "monthly", priority: 0.6 },
   { url: "/blog/eeat-in-ai-search-era", changefreq: "monthly", priority: 0.6 },
