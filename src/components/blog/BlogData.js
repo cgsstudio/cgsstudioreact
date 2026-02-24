@@ -8611,14 +8611,15 @@ Can I build a strong brand on a tight budget?
     "@type": "WebPage",
     "@id": "https://chameleogfxstudio.com/blog/eeat-in-ai-search-era"
   },
+  "url": "https://chameleogfxstudio.com/blog/eeat-in-ai-search-era",
   "headline": "Why E-E-A-T Matters More Than Ever in the AI Search Era?",
   "description": "Learn why E-E-A-T is crucial in the AI search era and how experience, expertise, authority, and trust boost rankings in AI-driven results and overviews.",
-  "image": "https://chameleogfxstudio.com/assets/chameleo%2041-CKfqtWyD.png",  
+  "image": "https://chameleogfxstudio.com/assets/chameleo%2041-CKfqtWyD.png",
   "author": {
     "@type": "Organization",
     "name": "Chameleo GFX Studio",
     "url": "https://chameleogfxstudio.com/"
-  },  
+  },
   "publisher": {
     "@type": "Organization",
     "name": "Chameleo GFX Studio",
@@ -8627,8 +8628,8 @@ Can I build a strong brand on a tight budget?
       "url": "https://chameleogfxstudio.com/logo.png"
     }
   },
-  "datePublished": "2026-02-19",
-  "dateModified": "2026-02-19"
+  "datePublished": "2026-02-19T10:00:00+05:30",
+  "dateModified": "2026-02-23T18:50:00+05:30"
 }
 </script>
 `

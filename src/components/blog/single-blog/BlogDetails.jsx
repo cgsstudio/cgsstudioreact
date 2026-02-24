@@ -35,9 +35,11 @@ function BlogDetails({ blog }) {
                 <link rel="canonical" href={canonicalUrl} />
                 {/* This will add the schema scripts to the page head if they exist */}
                 {schemas.map((schema, index) => (
-                    <script key={index} type="application/ld+json">
-                        {schema}
-                    </script>
+                    <script
+                        key={index}
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: schema }}
+                    />
                 ))}
             </Helmet>
 
