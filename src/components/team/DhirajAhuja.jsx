@@ -15,8 +15,8 @@ function DhirajAhuja() {
             "@context": "https://schema.org",
             "@type": "Person",
             "name": "Dhiraj Ahuja",
-            "jobTitle": "Co-Founder & CFO",
-            "image": "https://chameleogfxstudio.com/assets/team2-B-96gR5_.png",
+            "jobTitle": "Co-Founder & Chairman",
+            "image": "https://chameleogfxstudio.com/assets/team2-BN-Hph1G.png",
             "url": "https://chameleogfxstudio.com/dhiraj-ahuja",
             "worksFor": {
               "@type": "Organization",
@@ -26,11 +26,11 @@ function DhirajAhuja() {
             "sameAs": [
               "https://www.linkedin.com/in/dhirahuja/"
             ],
-            "description": "Dhiraj Ahuja is a pioneering entrepreneur and the Co-Founder & CFO of Chameleo GFX Studio, a strategic leader shaping the future of technology and high-impact digital solutions."
+            "description": "Dhiraj Ahuja is an Entrepreneur | Co-Founder & Chairman of Chameleo GFX Studio, a visionary leader driving business expansion and making major financial and growth-focused decisions that shape the company’s direction."
           })}
         </script>
       </Helmet>
-      <div className="section aximo-section-padding2 mt-5">
+      <div className="section aximo-section-padding2 mt-5 bg-white-smoke">
         <div className="container">
           <div className="row">
             <div className="col-lg-5">
