@@ -24,12 +24,12 @@ function HeaderMenu() {
 						</Link>
 						<ul className="sub-menu" id="submenu-1">
 							<li className="sub-menu--item">
-								<Link to="/about-us">
+								<Link to="/about-us/">
 									<span className="menu-item-text">About Us</span>
 								</Link>
 							</li>
 							<li className="sub-menu--item">
-								<Link to="#">
+								<Link to="/industries-we-serve/">
 									<span className="menu-item-text">Industries We Serve</span>
 								</Link>
 							</li>
@@ -168,7 +168,7 @@ function HeaderMenu() {
 								</Link>
 							</li>
 							<li className="sub-menu--item">
-								<Link to="/pricing">
+								<Link to="/pricing/">
 									<span className="menu-item-text">Pricing</span>
 								</Link>
 							</li>
@@ -203,7 +203,7 @@ function HeaderMenu() {
 								</a>
 								<ul className="sub-menu shape-none" id="submenu-4">
 									<li className="sub-menu--item">
-										<Link to="/service">
+										<Link to="/services/">
 											<span className="menu-item-text">service</span>
 										</Link>
 									</li>
@@ -220,7 +220,7 @@ function HeaderMenu() {
 								</a>
 								<ul className="sub-menu shape-none" id="submenu-5">
 									<li className="sub-menu--item">
-										<Link to="/team">
+										<Link to="/team/">
 											<span className="menu-item-text">team</span>
 										</Link>
 									</li>
@@ -233,21 +233,21 @@ function HeaderMenu() {
 							</li>
 							<li className="sub-menu--item nav-item-has-children">
 								<a href="#" data-menu-get="h3" className="drop-trigger">
-									Portfolio<i className="fas fa-angle-down"></i>
+									Case Studies<i className="fas fa-angle-down"></i>
 								</a>
 								<ul className="sub-menu shape-none" id="submenu-6">
 									<li className="sub-menu--item">
-										<Link to="/portfolio-one">
-											<span className="menu-item-text">Portfolio One Column</span>
+										<Link to="/case-studies/">
+											<span className="menu-item-text">Case Studies</span>
 										</Link>
 									</li>
 									<li className="sub-menu--item">
-										<Link to="/portfolio-two">
+										<Link to="/portfolio-two/">
 											<span className="menu-item-text">Portfolio Two Column</span>
 										</Link>
 									</li>
 									<li className="sub-menu--item">
-										<Link to="/single-portfolio">
+										<Link to="/single-portfolio/">
 											<span className="menu-item-text">Single Portfolio</span>
 										</Link>
 									</li>
@@ -259,7 +259,7 @@ function HeaderMenu() {
 								</a>
 								<ul className="sub-menu shape-none" id="submenu-7">
 									<li className="sub-menu--item">
-										<Link to="/faq">
+										<Link to="/faq/">
 											<span className="menu-item-text">faq</span>
 										</Link>
 									</li>
@@ -310,7 +310,7 @@ function HeaderMenu() {
 						</a>
 						<ul className="sub-menu" id="submenu-9">
 							<li className="sub-menu--item">
-								<Link to="/blog">
+								<Link to="/blog/">
 									<span className="menu-item-text">blog</span>
 								</Link>
 							</li>
@@ -327,7 +327,7 @@ function HeaderMenu() {
 						</ul>
 					</li>
 					<li className="nav-item">
-						<Link to="/contact-us" className="nav-link-item">
+						<Link to="/contact-us/" className="nav-link-item">
 							Contact Us
 						</Link>
 					</li>

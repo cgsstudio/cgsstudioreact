@@ -29,9 +29,9 @@
 // ];
 export const routes = [
   { path: "/", title: "Home" },
-  { path: "/About-us", title: "About Us" },
-  { path: "/service", title: "Services" },
-  { path: "/industries-we-serve", title: "Industries We Serve" },
-  { path: "/blogs", title: "Blogs" },
-  { path: "/contact-us", title: "Contact Us" },
+  { path: "/about-us/", title: "About Us" },
+  { path: "/services/", title: "Services" },
+  { path: "/industries-we-serve/", title: "Industries We Serve" },
+  { path: "/blog/", title: "Blog" },
+  { path: "/contact-us/", title: "Contact Us" },
 ];

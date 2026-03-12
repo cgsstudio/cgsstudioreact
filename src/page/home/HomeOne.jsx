@@ -119,7 +119,7 @@ function HomeOne() {
 				<meta name="keywords" content="Chameleo GFX Studio, Web Development Company in Ahmedabad, Digital Marketing Agency in Ahmedabad, Best Web Development Company Ahmedabad, SEO Company in Ahmedabad, Social Media Marketing Ahmedabad, Website Design Company Ahmedabad, PPC Agency Ahmedabad, Online Marketing Services Ahmedabad, Ecommerce Website Development Ahmedabad, Branding Agency Ahmedabad, Web Development Services Ahmedabad, Digital Marketing Services Ahmedabad" />
 				<link
 					rel="canonical"
-					href="https://chameleogfxstudio.com/"
+					href="https://www.chameleogfxstudio.com/"
 				/>
 
 				{/* Open Graph Meta Tags */}

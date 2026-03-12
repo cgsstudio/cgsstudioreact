@@ -16,11 +16,11 @@ const services = [
   {
     title: "UI/UX Design",
     items: [
-      { text: "Website UI/UX Design", link: "/website-ui-ux-design" },
-      { text: "iOS UI/UX Design", link: "/ios-ui-ux-design" },
-      { text: "Android UI/UX Design", link: "/android-ui-ux-design" },
-      { text: "Backend UI/UX Design", link: "/backend-ui-ux-design" },
-      { text: "ERP UI/UX Design", link: "/erp-ui-ux-design" },
+      { text: "Website UI/UX Design", link: "/services/ui-ux-design/website-ui-ux-design" },
+      { text: "iOS UI/UX Design", link: "/services/ui-ux-design/ios-ui-ux-design" },
+      { text: "Android UI/UX Design", link: "/services/ui-ux-design/android-ui-ux-design" },
+      { text: "Backend UI/UX Design", link: "/services/ui-ux-design/backend-ui-ux-design" },
+      { text: "ERP UI/UX Design", link: "/services/ui-ux-design/erp-ui-ux-design" },
     ],
   },
 ];

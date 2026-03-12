@@ -5,37 +5,7 @@ import Star2Img from "../../assets/images/v1/star2.png";
 import WebDevApproach from "./WebDevApproach";
 
 
-const services = [
-	{
-	  title: "Graphics Design",
-	  items: [
-		{ text: "Logo Design", link: "/logo-design-company-ahmedabad" },
-		{ text: "Branding and Identity Design", link: "/branding-and-identity-design-agency-ahmedabad" },
-		{ text: "Social Media Banner Design", link: "/social-media-banner-design-ahmedabad" },
-		{ text: "Flyer Design", link: "/flyer-design-services-ahmedabad" },
-		{ text: "Brochure Design", link: "/brochure-design" },
-		{ text: "Poster Design", link: "/poster-design" },
-		{ text: "Hoarding Design", link: "/hoarding-design" },
-		{ text: "Packaging Design", link: "/packaging-design" },
-		{ text: "Advertising Design", link: "/advertising-design" },
-		{ text: "Newsletter Design", link: "/newsletter-design" },
-		{ text: "Infographic Design", link: "/infographic-design" },
-		{ text: "Business Card Design", link: "/business-card-design" },
-		{ text: "Presentation Design", link: "/presentation-design" },
-		{ text: "Magazine and Booklet Design", link: "/magazine-and-booklet-design" },
-		{ text: "Custom Illustration Design", link: "/custom-illustration-design" },
-		{ text: "Event Invitation Design", link: "/event-invitation-design" },
-		{ text: "Menu Design", link: "/menu-design" },
-		{ text: "Signage Design", link: "/signage-design" },
-		{ text: "Corporate Profile Design", link: "/corporate-profile-design" },
-		{ text: "Annual Report Design", link: "/annual-report-design" },
-		{ text: "Digital Ad Design", link: "/digital-ad-design" },
-		{ text: "Trade Show Booth Design", link: "/trade-show-booth-design" },
-		{ text: "Motion Graphics Design", link: "/motion-graphics-design" },
-		{ text: "E-book Design", link: "/e-book-design" },
-	  ],
-	},
-  ];
+import { graphicDesignServices as services } from "../../data/serviceData";
   
 
 

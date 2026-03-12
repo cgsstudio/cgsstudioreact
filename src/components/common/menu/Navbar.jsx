@@ -73,16 +73,8 @@ function Navbar({
         return () => document.removeEventListener('click', handleClickOutside);
     }, [isMobile, mobileServicesOpen]);
 
-    const servicesPaths = [
-        "/graphic-design-company-in-ahmedabad",
-        "/ui-ux-design-agency-in-ahmedabad",
-        "/website-development-company-ahmedabad",
-        "/digital-marketing-agency-india",
-        "/service",
-    ];
-    const isServicesActive = servicesPaths.some((path) =>
-        location.pathname.startsWith(path)
-    );
+    const servicesPaths = ["/services"];
+    const isServicesActive = location.pathname.startsWith("/services");
 
     return (
         <nav className={`menu-block ${toggleMenu ? "active" : ""}`}>
@@ -109,7 +101,7 @@ function Navbar({
                             onMouseLeave={() => { if (!isMobile) setMobileServicesOpen(false); }}
                         >
                             <NavLink
-                                to="/service"
+                                to="/services"
                                 className={({ isActive }) =>
                                     "nav-link-item" +
                                     ((isActive || isServicesActive) ? " active" : "")
@@ -150,7 +142,7 @@ function Navbar({
                             >
                                 <li>
                                     <NavLink
-                                        to="/graphic-design-company-in-ahmedabad"
+                                        to="/services/graphic-design"
                                         className={({ isActive }) =>
                                             "nav-link-item" + (isActive ? " active" : "")
                                         }
@@ -161,7 +153,7 @@ function Navbar({
                                 </li>
                                 <li>
                                     <NavLink
-                                        to="/ui-ux-design-agency-in-ahmedabad"
+                                        to="/services/ui-ux-design"
                                         className={({ isActive }) =>
                                             "nav-link-item" + (isActive ? " active" : "")
                                         }
@@ -172,7 +164,7 @@ function Navbar({
                                 </li>
                                 <li>
                                     <NavLink
-                                        to="/website-development-company-ahmedabad"
+                                        to="/services/web-development"
                                         className={({ isActive }) =>
                                             "nav-link-item" + (isActive ? " active" : "")
                                         }
@@ -183,7 +175,7 @@ function Navbar({
                                 </li>
                                 <li>
                                     <NavLink
-                                        to="/digital-marketing-agency-india"
+                                        to="/services/digital-marketing"
                                         className={({ isActive }) =>
                                             "nav-link-item" + (isActive ? " active" : "")
                                         }

@@ -1,0 +1,168 @@
+	{
+		path: '/custom-html-website-design',
+		element: <Navigate to='/services/web-development/custom-html-website-design' replace />,
+	},
+	{
+		path: '/template-customization',
+		element: <Navigate to='/services/web-development/template-customization' replace />,
+	},
+	{
+		path: '/responsive-web-design',
+		element: <Navigate to='/services/web-development/responsive-web-design' replace />,
+	},
+	{
+		path: '/cross-browser-compatibility-testing',
+		element: <Navigate to='/services/web-development/cross-browser-compatibility-testing' replace />,
+	},
+	{
+		path: '/website-redesign-and-revamp',
+		element: <Navigate to='/services/web-development/website-redesign-and-revamp' replace />,
+	},
+	{
+		path: '/custom-webflow-development',
+		element: <Navigate to='/services/web-development/custom-webflow-development' replace />,
+	},
+	{
+		path: '/webflow-theme-development',
+		element: <Navigate to='/services/web-development/webflow-theme-development' replace />,
+	},
+	{
+		path: '/figma-to-webflow',
+		element: <Navigate to='/services/web-development/figma-to-webflow' replace />,
+	},
+	{
+		path: '/photoshop-to-webflow',
+		element: <Navigate to='/services/web-development/photoshop-to-webflow' replace />,
+	},
+	{
+		path: '/html-to-webflow',
+		element: <Navigate to='/services/web-development/html-to-webflow' replace />,
+	},
+	{
+		path: '/webflow-integration',
+		element: <Navigate to='/services/web-development/webflow-integration' replace />,
+	},
+	{
+		path: '/custom-wordpress-website-design',
+		element: <Navigate to='/services/web-development/custom-wordpress-website-design' replace />,
+	},
+	{
+		path: '/woocommerce-development',
+		element: <Navigate to='/services/web-development/woocommerce-development' replace />,
+	},
+	{
+		path: '/wordpress-seo-optimization',
+		element: <Navigate to='/services/web-development/wordpress-seo-optimization' replace />,
+	},
+	{
+		path: '/wordpress-migration-and-upgrades',
+		element: <Navigate to='/services/web-development/wordpress-migration-and-upgrades' replace />,
+	},
+	{
+		path: '/buddyboss-design-and-development',
+		element: <Navigate to='/services/web-development/buddyboss-design-and-development' replace />,
+	},
+	{
+		path: '/custom-shopify-store-design',
+		element: <Navigate to='/services/web-development/custom-shopify-store-design' replace />,
+	},
+	{
+		path: '/shopify-theme-customization',
+		element: <Navigate to='/services/web-development/shopify-theme-customization' replace />,
+	},
+	{
+		path: '/shopify-seo-optimization',
+		element: <Navigate to='/services/web-development/shopify-seo-optimization' replace />,
+	},
+	{
+		path: '/figma-to-shopify',
+		element: <Navigate to='/services/web-development/figma-to-shopify' replace />,
+	},
+	{
+		path: '/photoshop-to-shopify',
+		element: <Navigate to='/services/web-development/photoshop-to-shopify' replace />,
+	},
+	{
+		path: '/html-to-shopify',
+		element: <Navigate to='/services/web-development/html-to-shopify' replace />,
+	},
+	{
+		path: '/shopify-app-integration-and-development',
+		element: <Navigate to='/services/web-development/shopify-app-integration-and-development' replace />,
+	},
+	{
+		path: '/shopify-ecommerce-management-and-support',
+		element: <Navigate to='/services/web-development/shopify-ecommerce-management-and-support' replace />,
+	},
+	{
+		path: '/figma-to-react',
+		element: <Navigate to='/services/web-development/figma-to-react' replace />,
+	},
+	{
+		path: '/photoshop-to-react',
+		element: <Navigate to='/services/web-development/photoshop-to-react' replace />,
+	},
+	{
+		path: '/html-to-react',
+		element: <Navigate to='/services/web-development/html-to-react' replace />,
+	},
+	{
+		path: '/reactjs-performance-optimization',
+		element: <Navigate to='/services/web-development/reactjs-performance-optimization' replace />,
+	},
+	{
+		path: '/custom-reactjs-web-application-development',
+		element: <Navigate to='/services/web-development/custom-reactjs-web-application-development' replace />,
+	},
+	{
+		path: '/reactjs-component-development-and-integration',
+		element: <Navigate to='/services/web-development/reactjs-component-development-and-integration' replace />,
+	},
+	{
+		path: '/reactjs-mobile-app-development',
+		element: <Navigate to='/services/web-development/reactjs-mobile-app-development' replace />,
+	},
+	{
+		path: '/reactjs-ssr-website-development',
+		element: <Navigate to='/services/web-development/reactjs-ssr-website-development' replace />,
+	},
+	{
+		path: '/reactjs-ui-ux-design-and-development',
+		element: <Navigate to='/services/web-development/reactjs-ui-ux-design-and-development' replace />,
+	},
+	{
+		path: '/learndash-design-and-development',
+		element: <Navigate to='/services/web-development/wordpress-development' replace />,
+	},
+	{
+		path: '/dokan-design-and-development',
+		element: <Navigate to='/services/web-development/wordpress-development' replace />,
+	},
+	{
+		path: '/responsive-wordpress-design',
+		element: <Navigate to='/services/web-development/wordpress-development' replace />,
+	},
+	{
+		path: '/figma-to-wordpress',
+		element: <Navigate to='/services/web-development/wordpress-development' replace />,
+	},
+	{
+		path: '/photoshop-to-wordpress',
+		element: <Navigate to='/services/web-development/wordpress-development' replace />,
+	},
+	{
+		path: '/html-to-wordpress',
+		element: <Navigate to='/services/web-development/wordpress-development' replace />,
+	},
+	{
+		path: '/theme-and-plugin-customization',
+		element: <Navigate to='/services/web-development/wordpress-development' replace />,
+	},
+	{
+		path: '/woocommerce-design-and-development',
+		element: <Navigate to='/services/web-development/wordpress-development' replace />,
+	},
+	{
+		path: '/wordpress-website-maintenance-and-support',
+		element: <Navigate to='/services/web-development/wordpress-development' replace />,
+	},

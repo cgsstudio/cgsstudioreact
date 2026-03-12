@@ -6,18 +6,7 @@ import WebDevApproach from "./WebDevApproach";
 
 
 
-const services = [
-	{
-		title: "UI/UX Design",
-		items: [
-			{ text: "Website UI/UX Design", link: "/website-ui-ux-design" },
-			{ text: "iOS UI/UX Design", link: "/ios-ui-ux-design" },
-			{ text: "Android UI/UX Design", link: "/android-ui-ux-design" },
-			{ text: "Backend UI/UX Design", link: "/backend-ui-ux-design" },
-			{ text: "ERP UI/UX Design Design", link: "/erp-ui-ux-design" },
-		],
-	},
-]; 0
+import { uiuxDesignServices as services } from "../../data/serviceData";
 
 
 function AndroidUIUXDesigndetail() {

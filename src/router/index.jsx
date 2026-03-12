@@ -137,15 +137,6 @@ const Metaads = lazy(() => import("../page/service/Metaads.jsx"));
 const Sitemap = lazy(() => import("../components/home-one/Sitemap/Sitemap.jsx"));
 const CookiePolicy = lazy(() => import("../components/home-one/cookie/CookiePolicy.jsx"));
 
-
-
-
-
-
-
-
-
-
 export const router = createBrowserRouter([
 	{
 		path: "/",
@@ -156,137 +147,35 @@ export const router = createBrowserRouter([
 				element: <LayoutOne />,
 				children: [
 					{
-						path: "/ui-ux-design-company-in-ahmedabad",
-						element: <Navigate to="/ui-ux-design-agency-in-ahmedabad" replace />,
-					},
-					{
-						path: "/web-development-company-in-ahmedabad",
-						element: <Navigate to="/website-development-company-ahmedabad" replace />,
-					},
-					{
-						path: "/digital-marketing",
-						element: <Navigate to="/digital-marketing-agency-india" replace />,
-					},
-					{
-						path: "/branding-and-identity-design",
-						element: <Navigate to="/branding-and-identity-design-agency-ahmedabad" replace />,
-					},
-					{
-						path: "/social-media-banner-design",
-						element: <Navigate to="/social-media-banner-design-ahmedabad" replace />,
-					},
-					{
-						path: "/flyer-design",
-						element: <Navigate to="/flyer-design-services-ahmedabad" replace />,
-					},
-					{
-						path: "/brochure-design",
-						element: <Navigate to="/brochure-design-company-ahmedabad/" replace />,
-					},
-					{
-						path: "/poster-design",
-						element: <Navigate to="/poster-design-services-ahmedabad" replace />,
-					},
-					{
-						path: "/hoarding-design",
-						element: <Navigate to="/hoarding-design-services-ahmedabad" replace />,
-					},
-					{
-						path: "/packaging-design",
-						element: <Navigate to="/packaging-design-agency-ahmedabad" replace />,
-					},
-					{
-						path: "/advertising-design",
-						element: <Navigate to="/advertising-design-agency-ahmedabad" replace />,
-					},
-					{
-						path: "/newsletter-design",
-						element: <Navigate to="/newsletter-design-service-ahmedabad" replace />,
-					},
-					{
-						path: "/infographic-design",
-						element: <Navigate to="/infographic-design-services-ahmedabad" replace />,
-					},
-					{
-						path: "/business-card-design",
-						element: <Navigate to="/visiting-card-design-service-ahmedabad" replace />,
-					},
-					{
-						path: "/presentation-design",
-						element: <Navigate to="/presentation-design-services-ahmedabad" replace />,
-					},
-					{
-						path: "/magazine-and-booklet-design",
-						element: <Navigate to="/magazine-and-booklet-design-ahmedabad" replace />,
-					},
-					{
-						path: "/event-invitation-design",
-						element: <Navigate to="/event-invitation-design-ahmedabad" replace />,
-					},
-					{
-						path: "/menu-design",
-						element: <Navigate to="/menu-design-service-ahmedabad" replace />,
-					},
-					{
-						path: "/signage-design",
-						element: <Navigate to="/signage-design-service-ahmedabad" replace />,
-					},
-					{
-						path: "/corporate-profile-design",
-						element: <Navigate to="/corporate-profile-design-ahmedabad" replace />,
-					},
-					{
-						path: "/annual-report-design",
-						element: <Navigate to="/annual-report-design-agency-ahmedabad" replace />,
-					},
-					{
-						path: "/digital-ad-design",
-						element: <Navigate to="/digital-ad-design-agency-ahmedabad" replace />,
-					},
-					{
-						path: "/trade-show-booth-design",
-						element: <Navigate to="/exhibition-booth-design-ahmedabad/" replace />,
-					},
-					{
-						path: "/motion-graphics-design",
-						element: <Navigate to="/motion-graphics-design-agency-ahmedabad" replace />,
-					},
-					{
-						path: "/e-book-design",
-						element: <Navigate to="/e-book-design-service-ahmedabad" replace />,
-					},
-					{
 						path: "/",
 						element: <HomeOne />,
 					},
 					{
-						path: "/about-us",
+						path: "/about-us/",
 						element: <AboutUs />,
 					},
 					{
-						path: "/contact-us",
+						path: "/contact-us/",
 						element: <ContactUs />,
 					},
 					{
-						path: "/industries-we-serve",
+						path: "/industries-we-serve/",
 						element: <Industryweserve />,
 					},
 					{
-						path: "/faq",
+						path: "/faq/",
 						element: <Faq />,
 					},
-
 					{
-						path: "/testimonial",
+						path: "/testimonial/",
 						element: <TestimonialPage />,
 					},
-
 					{
-						path: "/pricing",
+						path: "/pricing/",
 						element: <Pricing />,
 					},
 					{
-						path: "/blogs",
+						path: "/blog/",
 						element: <BlogPage />,
 					},
 					{
@@ -298,400 +187,113 @@ export const router = createBrowserRouter([
 						element: <BlogGridPage />,
 					},
 					{
-						path: "/meta-ads",
-						element: <Metaads />,
+						path: "/services/",
+						children: [
+							{
+								index: true,
+								element: <ServicePage />,
+							},
+							{
+								path: "ui-ux-design",
+								children: [
+									{ index: true, element: <UiuxDesign /> },
+									{ path: "website-ui-ux-design", element: <WebsiteUIUXDesign /> },
+									{ path: "ios-ui-ux-design", element: <IOSUIUXDesign /> },
+									{ path: "android-ui-ux-design", element: <AndroidUIUXDesign /> },
+									{ path: "erp-ui-ux-design", element: <ERPUIUXDesign /> },
+									{ path: "backend-ui-ux-design", element: <BackendUIUXDesign /> },
+								],
+							},
+							{
+								path: "digital-marketing",
+								children: [
+									{ index: true, element: <Digitalmarketing /> },
+									{ path: "search-engine-optimization", element: <Searchengineoptimization /> },
+									{ path: "social-media-marketing", element: <Socialmediamarketing /> },
+									{ path: "email-marketing", element: <Emailmarketing /> },
+									{ path: "google-ads", element: <Googleads /> },
+									{ path: "meta-ads", element: <Metaads /> },
+								],
+							},
+							{
+								path: "web-development",
+								children: [
+									{ index: true, element: <WebDevelopment /> },
+									{ path: "wordpress-development", element: <WordPress /> },
+									{ path: "custom-wordpress-website-design", element: <CustomwordPresswebsite /> },
+									{ path: "woocommerce-development", element: <WooCommercedevelopment /> },
+									{ path: "wordpress-seo-optimization", element: <WordPressseooptimization /> },
+									{ path: "wordpress-migration-and-upgrades", element: <WordPressmigration /> },
+									{ path: "buddyboss-design-and-development", element: <BuddyBossdesign /> },
+									{ path: "webflow-development", element: <Webflowdevelopment /> },
+									{ path: "custom-webflow-development", element: <Customwebflowdevelopment /> },
+									{ path: "webflow-theme-development", element: <Webflowthemedevelopment /> },
+									{ path: "figma-to-webflow", element: <Figmatowebflow /> },
+									{ path: "photoshop-to-webflow", element: <Photoshoptowebflow /> },
+									{ path: "html-to-webflow", element: <Htmltowebflow /> },
+									{ path: "webflow-integration", element: <Webflowintegration /> },
+									{ path: "shopify-development", element: <Shopify /> },
+									{ path: "custom-shopify-store-design", element: <Customshopifystoredesign /> },
+									{ path: "shopify-theme-customization", element: <Shopifythemecustomization /> },
+									{ path: "shopify-seo-optimization", element: <Shopifyseooptimization /> },
+									{ path: "figma-to-shopify", element: <Figmatoshopify /> },
+									{ path: "photoshop-to-shopify", element: <Photoshoptoshopify /> },
+									{ path: "html-to-shopify", element: <Htmltoshopify /> },
+									{ path: "shopify-app-integration-and-development", element: <Shopifyappintegration /> },
+									{ path: "shopify-ecommerce-management-and-support", element: <Shopifyecommercemanagement /> },
+									{ path: "react-js-development", element: <Reactjs /> },
+									{ path: "figma-to-react", element: <Figmatoreact /> },
+									{ path: "photoshop-to-react", element: <Photoshoptoreact /> },
+									{ path: "html-to-react", element: <Htmltoreact /> },
+									{ path: "reactjs-performance-optimization", element: <Reactjsperformance /> },
+									{ path: "custom-reactjs-web-application-development", element: <Customreactjsweb /> },
+									{ path: "reactjs-component-development-and-integration", element: <Reactjscomponentdevelopment /> },
+									{ path: "reactjs-mobile-app-development", element: <Reactjsmobileapp /> },
+									{ path: "reactjs-ssr-website-development", element: <Reactjswebsitedevelopment /> },
+									{ path: "reactjs-ui-ux-design-and-development", element: <Reactjsuiuxdesign /> },
+									{ path: "html-css-development", element: <Htmlcss /> },
+									{ path: "custom-html-website-design", element: <Customhtmlwebsitedesign /> },
+									{ path: "template-customization", element: <Templatecustomization /> },
+									{ path: "responsive-web-design", element: <Responsivewebdesign /> },
+									{ path: "cross-browser-compatibility-testing", element: <Crossbrowser /> },
+									{ path: "website-redesign-and-revamp", element: <Websiteredesign /> },
+								],
+							},
+							{
+								path: "graphic-design",
+								children: [
+									{ index: true, element: <GraphicDesign /> },
+									{ path: "logo-design-company", element: <LogoDesign /> },
+									{ path: "branding-and-identity-design-agency", element: <BrandingIdentity /> },
+									{ path: "social-media-banner-design", element: <SocialMediaBanner /> },
+									{ path: "flyer-design-services", element: <FlyerDesign /> },
+									{ path: "brochure-design-company", element: <BrochureDesign /> },
+									{ path: "poster-design-services", element: <PosterDesign /> },
+									{ path: "hoarding-design-services", element: <HoardingDesign /> },
+									{ path: "packaging-design-agency", element: <PackagingDesign /> },
+									{ path: "advertising-design-agency", element: <AdvertisingDesign /> },
+									{ path: "newsletter-design-service", element: <NewsletterDesign /> },
+									{ path: "infographic-design-services", element: <InfographicDesign /> },
+									{ path: "visiting-card-design-service", element: <BusinessCard /> },
+									{ path: "presentation-design-services", element: <PresentationDesign /> },
+									{ path: "magazine-and-booklet-design", element: <MagazineBooklet /> },
+									{ path: "custom-illustration-design", element: <CustomIllustration /> },
+									{ path: "event-invitation-design", element: <EventInvitation /> },
+									{ path: "menu-design-service", element: <Menudesigncard /> },
+									{ path: "signage-design-service", element: <SignageDesign /> },
+									{ path: "corporate-profile-design", element: <CorporateProfile /> },
+									{ path: "annual-report-design-agency", element: <AnnualReport /> },
+									{ path: "digital-ad-design-agency", element: <DigitalAd /> },
+									{ path: "exhibition-booth-design", element: <TradeShow /> },
+									{ path: "motion-graphics-design-agency", element: <MotionGraphics /> },
+									{ path: "e-book-design-service", element: <Ebookdesign /> },
+								],
+							},
+						],
 					},
 					{
 						path: "/sitemap",
 						element: <Sitemap />,
-					},
-					{
-						path: "/google-ads",
-						element: <Googleads />,
-					},
-					{
-						path: "/email-marketing",
-						element: <Emailmarketing />,
-					},
-					{
-						path: "/social-media-marketing",
-						element: <Socialmediamarketing />,
-					},
-					{
-						path: "/search-engine-optimization",
-						element: <Searchengineoptimization />,
-					},
-					{
-						path: "/digital-marketing-agency-india",
-						element: <Digitalmarketing />,
-					},
-					{
-						path: "/website-redesign-and-revamp",
-						element: <Websiteredesign />,
-					},
-					{
-						path: "/cross-browser-compatibility-testing",
-						element: <Crossbrowser />,
-					},
-					{
-						path: "/responsive-web-design",
-						element: <Responsivewebdesign />,
-					},
-					{
-						path: "/template-customization",
-						element: <Templatecustomization />,
-					},
-					{
-						path: "/custom-html-website-design",
-						element: <Customhtmlwebsitedesign />,
-					},
-					{
-						path: "/html-css",
-						element: <Htmlcss />,
-					},
-					{
-						path: "/reactjs-ui-ux-design-and-development",
-						element: <Reactjsuiuxdesign />,
-					},
-					{
-						path: "/reactjs-ssr-website-development",
-						element: <Reactjswebsitedevelopment />,
-					},
-					{
-						path: "/reactjs-mobile-app-development",
-						element: <Reactjsmobileapp />,
-					},
-					{
-						path: "/reactjs-component-development-and-integration",
-						element: <Reactjscomponentdevelopment />,
-					},
-					{
-						path: "/custom-reactjs-web-application-development",
-						element: <Customreactjsweb />,
-					},
-					{
-						path: "/reactjs-performance-optimization",
-						element: <Reactjsperformance />,
-					},
-					{
-						path: "/photoshop-to-react",
-						element: <Photoshoptoreact />,
-					},
-					{
-						path: "/html-to-react",
-						element: <Htmltoreact />,
-					},
-					{
-						path: "/figma-to-react",
-						element: <Figmatoreact />,
-					},
-					{
-						path: "/react-js",
-						element: <Reactjs />,
-					},
-					{
-						path: "/shopify-ecommerce-management-and-support",
-						element: <Shopifyecommercemanagement />,
-					},
-					{
-						path: "/shopify-app-integration-and-development",
-						element: <Shopifyappintegration />,
-					},
-					{
-						path: "/html-to-shopify",
-						element: <Htmltoshopify />,
-					},
-					{
-						path: "/photoshop-to-shopify",
-						element: <Photoshoptoshopify />,
-					},
-					{
-						path: "/figma-to-shopify",
-						element: <Figmatoshopify />,
-					},
-					{
-						path: "/shopify-seo-optimization",
-						element: <Shopifyseooptimization />,
-					},
-					{
-						path: "/shopify-theme-customization",
-						element: <Shopifythemecustomization />,
-					},
-					{
-						path: "/custom-shopify-store-design",
-						element: <Customshopifystoredesign />,
-					},
-					{
-						path: "/shopify",
-						element: <Shopify />,
-					},
-					{
-						path: "/wordpress-website-maintenance-and-support",
-						element: <WordPresswebsitemaintenance />,
-					},
-					{
-						path: "/woocommerce-design-and-development",
-						element: <WooCommercedesign />,
-					},
-					{
-						path: "/theme-and-plugin-customization",
-						element: <Themeandplugin />,
-					},
-					{
-						path: "/html-to-wordpress",
-						element: <HtmltowordPress />,
-					},
-					{
-						path: "/photoshop-to-wordpress",
-						element: <PhotoshoptowordPress />,
-					},
-					{
-						path: "/figma-to-wordpress",
-						element: <FigmatowordPress />,
-					},
-					{
-						path: "/responsive-wordpress-design",
-						element: <Responsivewordpressdesign />,
-					},
-					{
-						path: "/dokan-design-and-development",
-						element: <Dokandesign />,
-					},
-					{
-						path: "/learndash-design-and-development",
-						element: <LearnDashdesign />,
-					},
-					{
-						path: "/buddyboss-design-and-development",
-						element: <BuddyBossdesign />,
-					},
-					{
-						path: "/wordpress-migration-and-upgrades",
-						element: <WordPressmigration />,
-					},
-					{
-						path: "/wordpress-seo-optimization",
-						element: <WordPressseooptimization />,
-					},
-					{
-						path: "/woocommerce-development",
-						element: <WooCommercedevelopment />,
-					},
-					{
-						path: "/custom-webflow-development",
-						element: <Customwebflowdevelopment />,
-
-					},
-					{
-						path: "/webflow",
-						element: <Webflowdevelopment />,
-
-					},
-
-					{
-						path: "/custom-wordpress-website-design",
-						element: <CustomwordPresswebsite />,
-
-					},
-					{
-						path: "/wordpress",
-						element: <WordPress />,
-
-					},
-					{
-						path: "/webflow-integration",
-						element: <Webflowintegration />,
-
-					},
-					{
-						path: "/html-to-webflow",
-						element: <Htmltowebflow />,
-
-					},
-					{
-						path: "/photoshop-to-webflow",
-						element: <Photoshoptowebflow />,
-
-					},
-					{
-						path: "/figma-to-webflow",
-						element: <Figmatowebflow />,
-
-					},
-					{
-						path: "/webflow-theme-development",
-						element: <Webflowthemedevelopment />,
-
-					},
-					{
-						path: "/ui-ux-design-agency-in-ahmedabad",
-						element: <UiuxDesign />,
-
-					},
-					{
-						path: "/website-development-company-ahmedabad",
-						element: <WebDevelopment />,
-
-					},
-					{
-						path: "/graphic-design-company-in-ahmedabad",
-						element: <GraphicDesign />,
-
-					},
-					{
-						path: "/flyer-design-services-ahmedabad",
-						element: <FlyerDesign />,
-
-					},
-					{
-						path: "/hoarding-design-services-ahmedabad",
-						element: <HoardingDesign />,
-
-					},
-					{
-						path: "/newsletter-design-service-ahmedabad",
-						element: <NewsletterDesign />,
-
-					},
-					{
-						path: "/presentation-design-services-ahmedabad",
-						element: <PresentationDesign />,
-
-					},
-					{
-						path: "/event-invitation-design-ahmedabad",
-						element: <EventInvitation />,
-
-					},
-					{
-						path: "/advertising-design-agency-ahmedabad",
-						element: <AdvertisingDesign />,
-
-					},
-					{
-						path: "/corporate-profile-design-ahmedabad",
-						element: <CorporateProfile />,
-
-					},
-					{
-						path: "/exhibition-booth-design-ahmedabad/",
-						element: <TradeShow />,
-
-					},
-					{
-						path: "/branding-and-identity-design-agency-ahmedabad",
-						element: <BrandingIdentity />,
-
-					},
-					{
-						path: "/brochure-design-company-ahmedabad/",
-						element: <BrochureDesign />,
-
-					},
-					{
-						path: "/packaging-design-agency-ahmedabad",
-						element: <PackagingDesign />,
-
-					},
-					{
-						path: "/infographic-design-services-ahmedabad",
-						element: <InfographicDesign />,
-
-					},
-					{
-						path: "/magazine-and-booklet-design-ahmedabad",
-						element: <MagazineBooklet />,
-
-					},
-					{
-						path: "/menu-design-service-ahmedabad",
-						element: <Menudesigncard />,
-
-					},
-					{
-						path: "/annual-report-design-agency-ahmedabad",
-						element: <AnnualReport />,
-
-					},
-					{
-						path: "/motion-graphics-design-agency-ahmedabad",
-						element: <MotionGraphics />,
-
-					},
-					{
-						path: "/social-media-banner-design-ahmedabad",
-						element: <SocialMediaBanner />,
-
-					},
-					{
-						path: "/visiting-card-design-service-ahmedabad",
-						element: <BusinessCard />,
-
-					},
-					{
-						path: "/custom-illustration-design",
-						element: <CustomIllustration />,
-
-					},
-					{
-						path: "/signage-design-service-ahmedabad",
-						element: <SignageDesign />,
-
-					},
-					{
-						path: "/digital-ad-design-agency-ahmedabad",
-						element: <DigitalAd />,
-
-					},
-					{
-						path: "/e-book-design-service-ahmedabad",
-						element: <Ebookdesign />,
-
-					},
-					{
-						path: "/poster-design-services-ahmedabad",
-						element: <PosterDesign />,
-
-					},
-					{
-						path: "/logo-design-company-ahmedabad",
-						element: <LogoDesign />,
-
-					},
-					{
-						path: "/website-ui-ux-design",
-						element: <WebsiteUIUXDesign />,
-
-					},
-					{
-						path: "/ios-ui-ux-design",
-						element: <IOSUIUXDesign />,
-
-					},
-					{
-						path: "/android-ui-ux-design",
-						element: <AndroidUIUXDesign />,
-
-					},
-					{
-						path: "/erp-ui-ux-design",
-						element: <ERPUIUXDesign />,
-
-					},
-					{
-						path: "/backend-ui-ux-design",
-						element: <BackendUIUXDesign />,
-
-					},
-					{
-						path: "/seo-company-in-ahmedabad",
-						element: <Seo />,
-
-					},
-					{
-						path: "/social-media-marketing-agency-ahmedabad",
-						element: <SocialMedia />,
-
 					},
 					{
 						path: "/team",
@@ -710,7 +312,7 @@ export const router = createBrowserRouter([
 						element: <DhirajAhuja />,
 					},
 					{
-						path: "/portfolio-one",
+						path: "/case-studies/",
 						element: <PortfolioOneColumn />,
 					},
 					{
@@ -723,7 +325,7 @@ export const router = createBrowserRouter([
 					},
 					{
 						path: "/service",
-						element: <ServicePage />,
+						element: <Navigate to="/services" replace />,
 					},
 					{
 						path: "/terms-and-conditions",
@@ -829,62 +431,522 @@ export const router = createBrowserRouter([
 	},
 	{
 		path: "/ui-ux-design-company-in-ahmedabad",
-		element: <Navigate to="/ui-ux-design-agency-in-ahmedabad" replace />,
+		element: <Navigate to="/services/ui-ux-design" replace />,
 	},
 	{
 		path: "/web-development-company-in-ahmedabad",
-		element: <Navigate to="/website-development-company-ahmedabad" replace />,
+		element: <Navigate to="/services/web-development" replace />,
 	},
 	{
 		path: "/digital-marketing",
-		element: <Navigate to="/digital-marketing-agency-india" replace />,
+		element: <Navigate to="/services/digital-marketing" replace />,
+	},
+	{
+		path: "/ui-ux-design-agency-in-ahmedabad",
+		element: <Navigate to="/services/ui-ux-design" replace />,
+	},
+	{
+		path: "/website-development-company-ahmedabad",
+		element: <Navigate to="/services/web-development" replace />,
+	},
+	{
+		path: "/graphic-design-company-in-ahmedabad",
+		element: <Navigate to="/services/graphic-design" replace />,
+	},
+	{
+		path: "/digital-marketing-agency-india",
+		element: <Navigate to="/services/digital-marketing" replace />,
 	},
 	{
 		path: "/branding-and-identity-design",
-		element: <Navigate to="/branding-and-identity-design-agency-ahmedabad" replace />,
+		element: <Navigate to="/services/graphic-design/branding-and-identity-design-agency" replace />,
 	},
 	{
 		path: "/social-media-banner-design",
-		element: <Navigate to="/social-media-banner-design-ahmedabad" replace />,
+		element: <Navigate to="/services/graphic-design/social-media-banner-design" replace />,
 	},
 	{
 		path: "/flyer-design",
-		element: <Navigate to="/flyer-design-services-ahmedabad" replace />,
+		element: <Navigate to="/services/graphic-design/flyer-design-services" replace />,
 	},
 	{
 		path: "/brochure-design",
-		element: <Navigate to="/brochure-design-company-ahmedabad/" replace />,
+		element: <Navigate to="/services/graphic-design/brochure-design-company" replace />,
 	},
 	{
 		path: "/poster-design",
-		element: <Navigate to="/poster-design-services-ahmedabad" replace />,
+		element: <Navigate to="/services/graphic-design/poster-design-services" replace />,
 	},
 	{
 		path: "/hoarding-design",
-		element: <Navigate to="/hoarding-design-services-ahmedabad" replace />,
+		element: <Navigate to="/services/graphic-design/hoarding-design-services" replace />,
 	},
 	{
 		path: "/packaging-design",
-		element: <Navigate to="/packaging-design-agency-ahmedabad" replace />,
+		element: <Navigate to="/services/graphic-design/packaging-design-agency" replace />,
 	},
 	{
 		path: "/advertising-design",
-		element: <Navigate to="/advertising-design-agency-ahmedabad" replace />,
+		element: <Navigate to="/services/graphic-design/advertising-design-agency" replace />,
 	},
 	{
 		path: "/newsletter-design",
-		element: <Navigate to="/newsletter-design-service-ahmedabad" replace />,
+		element: <Navigate to="/services/graphic-design/newsletter-design-service" replace />,
 	},
 	{
 		path: "/infographic-design",
-		element: <Navigate to="/infographic-design-services-ahmedabad" replace />,
+		element: <Navigate to="/services/graphic-design/infographic-design-services" replace />,
 	},
 	{
 		path: "/business-card-design",
-		element: <Navigate to="/visiting-card-design-service-ahmedabad" replace />,
+		element: <Navigate to="/services/graphic-design/visiting-card-design-service" replace />,
 	},
 	{
 		path: "/presentation-design",
-		element: <Navigate to="/presentation-design-services-ahmedabad" replace />,
+		element: <Navigate to="/services/graphic-design/presentation-design-services" replace />,
+	},
+	{
+		path: "/logo-design-company-ahmedabad",
+		element: <Navigate to="/services/graphic-design/logo-design-company" replace />,
+	},
+	{
+		path: "/magazine-and-booklet-design",
+		element: <Navigate to="/services/graphic-design/magazine-and-booklet-design" replace />,
+	},
+	{
+		path: "/custom-illustration-design",
+		element: <Navigate to="/services/graphic-design/custom-illustration-design" replace />,
+	},
+	{
+		path: "/event-invitation-design",
+		element: <Navigate to="/services/graphic-design/event-invitation-design" replace />,
+	},
+	{
+		path: "/menu-design",
+		element: <Navigate to="/services/graphic-design/menu-design-service" replace />,
+	},
+	{
+		path: "/signage-design",
+		element: <Navigate to="/services/graphic-design/signage-design-service" replace />,
+	},
+	{
+		path: "/corporate-profile-design",
+		element: <Navigate to="/services/graphic-design/corporate-profile-design" replace />,
+	},
+	{
+		path: "/annual-report-design",
+		element: <Navigate to="/services/graphic-design/annual-report-design-agency" replace />,
+	},
+	{
+		path: "/digital-ad-design",
+		element: <Navigate to="/services/graphic-design/digital-ad-design-agency" replace />,
+	},
+	{
+		path: "/trade-show-booth-design",
+		element: <Navigate to="/services/graphic-design/exhibition-booth-design" replace />,
+	},
+	{
+		path: "/motion-graphics-design",
+		element: <Navigate to="/services/graphic-design/motion-graphics-design-agency" replace />,
+	},
+	{
+		path: "/e-book-design",
+		element: <Navigate to="/services/graphic-design/e-book-design-service" replace />,
+	},
+	{
+		path: "/website-ui-ux-design",
+		element: <Navigate to="/services/ui-ux-design/website-ui-ux-design" replace />,
+	},
+	{
+		path: "/ios-ui-ux-design",
+		element: <Navigate to="/services/ui-ux-design/ios-ui-ux-design" replace />,
+	},
+	{
+		path: "/android-ui-ux-design",
+		element: <Navigate to="/services/ui-ux-design/android-ui-ux-design" replace />,
+	},
+	{
+		path: "/backend-ui-ux-design",
+		element: <Navigate to="/services/ui-ux-design/backend-ui-ux-design" replace />,
+	},
+	{
+		path: "/erp-ui-ux-design",
+		element: <Navigate to="/services/ui-ux-design/erp-ui-ux-design" replace />,
+	},
+	{
+		path: "/search-engine-optimization",
+		element: <Navigate to="/services/digital-marketing/search-engine-optimization" replace />,
+	},
+	{
+		path: "/social-media-marketing",
+		element: <Navigate to="/services/digital-marketing/social-media-marketing" replace />,
+	},
+	{
+		path: "/email-marketing",
+		element: <Navigate to="/services/digital-marketing/email-marketing" replace />,
+	},
+	{
+		path: "/google-ads",
+		element: <Navigate to="/services/digital-marketing/google-ads" replace />,
+	},
+	{
+		path: "/meta-ads",
+		element: <Navigate to="/services/digital-marketing/meta-ads" replace />,
+	},
+	 {
+		path: "/wordpress",
+		element: <Navigate to="/services/web-development" replace />,
+	},
+	{
+		path: "/shopify",
+		element: <Navigate to="/services/web-development" replace />,
+	},
+	{
+		path: "/webflow",
+		element: <Navigate to="/services/web-development" replace />,
+	},
+	{
+		path: "/react-js",
+		element: <Navigate to="/services/web-development" replace />,
+	},
+	{
+		path: "/html-css",
+		element: <Navigate to="/services/web-development" replace />,
+	},
+	{
+		path: "/services/web-development/html-css-development/custom-html-website-design",
+		element: <Navigate to="/services/web-development/custom-html-website-design" replace />,
+	},
+	{
+		path: "/services/web-development/html-css-development/template-customization",
+		element: <Navigate to="/services/web-development/template-customization" replace />,
+	},
+	{
+		path: "/services/web-development/html-css-development/responsive-web-design",
+		element: <Navigate to="/services/web-development/responsive-web-design" replace />,
+	},
+	{
+		path: "/services/web-development/html-css-development/cross-browser-compatibility-testing",
+		element: <Navigate to="/services/web-development/cross-browser-compatibility-testing" replace />,
+	},
+	{
+		path: "/services/web-development/html-css-development/website-redesign-and-revamp",
+		element: <Navigate to="/services/web-development/website-redesign-and-revamp" replace />,
+	},
+	{
+		path: "/services/web-development/webflow-development/custom-webflow-development",
+		element: <Navigate to="/services/web-development/custom-webflow-development" replace />,
+	},
+	{
+		path: "/services/web-development/webflow-development/webflow-theme-development",
+		element: <Navigate to="/services/web-development/webflow-theme-development" replace />,
+	},
+	{
+		path: "/services/web-development/webflow-development/figma-to-webflow",
+		element: <Navigate to="/services/web-development/figma-to-webflow" replace />,
+	},
+	{
+		path: "/services/web-development/webflow-development/photoshop-to-webflow",
+		element: <Navigate to="/services/web-development/photoshop-to-webflow" replace />,
+	},
+	{
+		path: "/services/web-development/webflow-development/html-to-webflow",
+		element: <Navigate to="/services/web-development/html-to-webflow" replace />,
+	},
+	{
+		path: "/services/web-development/webflow-development/webflow-integration",
+		element: <Navigate to="/services/web-development/webflow-integration" replace />,
+	},
+	{
+		path: "/services/web-development/wordpress-development/custom-wordpress-website-design",
+		element: <Navigate to="/services/web-development/custom-wordpress-website-design" replace />,
+	},
+	{
+		path: "/services/web-development/wordpress-development/woocommerce-development",
+		element: <Navigate to="/services/web-development/woocommerce-development" replace />,
+	},
+	{
+		path: "/services/web-development/wordpress-development/wordpress-seo-optimization",
+		element: <Navigate to="/services/web-development/wordpress-seo-optimization" replace />,
+	},
+	{
+		path: "/services/web-development/wordpress-development/wordpress-migration-and-upgrades",
+		element: <Navigate to="/services/web-development/wordpress-migration-and-upgrades" replace />,
+	},
+	{
+		path: "/services/web-development/wordpress-development/buddyboss-design-and-development",
+		element: <Navigate to="/services/web-development/buddyboss-design-and-development" replace />,
+	},
+	{
+		path: "/services/web-development/wordpress-development/learndash-design-and-development",
+		element: <Navigate to="/services/web-development/wordpress-development" replace />,
+	},
+	{
+		path: "/services/web-development/wordpress-development/dokan-design-and-development",
+		element: <Navigate to="/services/web-development/wordpress-development" replace />,
+	},
+	{
+		path: "/services/web-development/wordpress-development/responsive-wordpress-design",
+		element: <Navigate to="/services/web-development/wordpress-development" replace />,
+	},
+	{
+		path: "/services/web-development/wordpress-development/figma-to-wordpress",
+		element: <Navigate to="/services/web-development/wordpress-development" replace />,
+	},
+	{
+		path: "/services/web-development/wordpress-development/photoshop-to-wordpress",
+		element: <Navigate to="/services/web-development/wordpress-development" replace />,
+	},
+	{
+		path: "/services/web-development/wordpress-development/html-to-wordpress",
+		element: <Navigate to="/services/web-development/wordpress-development" replace />,
+	},
+	{
+		path: "/services/web-development/wordpress-development/theme-and-plugin-customization",
+		element: <Navigate to="/services/web-development/wordpress-development" replace />,
+	},
+	{
+		path: "/services/web-development/wordpress-development/woocommerce-design-and-development",
+		element: <Navigate to="/services/web-development/wordpress-development" replace />,
+	},
+	{
+		path: "/services/web-development/wordpress-development/wordpress-website-maintenance-and-support",
+		element: <Navigate to="/services/web-development/wordpress-development" replace />,
+	},
+	{
+		path: "/services/web-development/shopify-development/custom-shopify-store-design",
+		element: <Navigate to="/services/web-development/custom-shopify-store-design" replace />,
+	},
+	{
+		path: "/services/web-development/shopify-development/shopify-theme-customization",
+		element: <Navigate to="/services/web-development/shopify-theme-customization" replace />,
+	},
+	{
+		path: "/services/web-development/shopify-development/shopify-seo-optimization",
+		element: <Navigate to="/services/web-development/shopify-seo-optimization" replace />,
+	},
+	{
+		path: "/services/web-development/shopify-development/figma-to-shopify",
+		element: <Navigate to="/services/web-development/figma-to-shopify" replace />,
+	},
+	{
+		path: "/services/web-development/shopify-development/photoshop-to-shopify",
+		element: <Navigate to="/services/web-development/photoshop-to-shopify" replace />,
+	},
+	{
+		path: "/services/web-development/shopify-development/html-to-shopify",
+		element: <Navigate to="/services/web-development/html-to-shopify" replace />,
+	},
+	{
+		path: "/services/web-development/shopify-development/shopify-app-integration-and-development",
+		element: <Navigate to="/services/web-development/shopify-app-integration-and-development" replace />,
+	},
+	{
+		path: "/services/web-development/shopify-development/shopify-ecommerce-management-and-support",
+		element: <Navigate to="/services/web-development/shopify-ecommerce-management-and-support" replace />,
+	},
+	{
+		path: "/services/web-development/react-js-development/figma-to-react",
+		element: <Navigate to="/services/web-development/figma-to-react" replace />,
+	},
+	{
+		path: "/services/web-development/react-js-development/photoshop-to-react",
+		element: <Navigate to="/services/web-development/photoshop-to-react" replace />,
+	},
+	{
+		path: "/services/web-development/react-js-development/html-to-react",
+		element: <Navigate to="/services/web-development/html-to-react" replace />,
+	},
+	{
+		path: "/services/web-development/react-js-development/reactjs-performance-optimization",
+		element: <Navigate to="/services/web-development/reactjs-performance-optimization" replace />,
+	},
+	{
+		path: "/services/web-development/react-js-development/custom-reactjs-web-application-development",
+		element: <Navigate to="/services/web-development/custom-reactjs-web-application-development" replace />,
+	},
+	{
+		path: "/services/web-development/react-js-development/reactjs-component-development-and-integration",
+		element: <Navigate to="/services/web-development/reactjs-component-development-and-integration" replace />,
+	},
+	{
+		path: "/services/web-development/react-js-development/reactjs-mobile-app-development",
+		element: <Navigate to="/services/web-development/reactjs-mobile-app-development" replace />,
+	},
+	{
+		path: "/services/web-development/react-js-development/reactjs-ssr-website-development",
+		element: <Navigate to="/services/web-development/reactjs-ssr-website-development" replace />,
+	},
+	{
+		path: "/services/web-development/react-js-development/reactjs-ui-ux-design-and-development",
+		element: <Navigate to="/services/web-development/reactjs-ui-ux-design-and-development" replace />,
+	},
+	{
+		path: '/custom-html-website-design',
+		element: <Navigate to='/services/web-development/custom-html-website-design' replace />,
+	},
+	{
+		path: '/template-customization',
+		element: <Navigate to='/services/web-development/template-customization' replace />,
+	},
+	{
+		path: '/responsive-web-design',
+		element: <Navigate to='/services/web-development/responsive-web-design' replace />,
+	},
+	{
+		path: '/cross-browser-compatibility-testing',
+		element: <Navigate to='/services/web-development/cross-browser-compatibility-testing' replace />,
+	},
+	{
+		path: '/website-redesign-and-revamp',
+		element: <Navigate to='/services/web-development/website-redesign-and-revamp' replace />,
+	},
+	{
+		path: '/custom-webflow-development',
+		element: <Navigate to='/services/web-development/custom-webflow-development' replace />,
+	},
+	{
+		path: '/webflow-theme-development',
+		element: <Navigate to='/services/web-development/webflow-theme-development' replace />,
+	},
+	{
+		path: '/figma-to-webflow',
+		element: <Navigate to='/services/web-development/figma-to-webflow' replace />,
+	},
+	{
+		path: '/photoshop-to-webflow',
+		element: <Navigate to='/services/web-development/photoshop-to-webflow' replace />,
+	},
+	{
+		path: '/html-to-webflow',
+		element: <Navigate to='/services/web-development/html-to-webflow' replace />,
+	},
+	{
+		path: '/webflow-integration',
+		element: <Navigate to='/services/web-development/webflow-integration' replace />,
+	},
+	{
+		path: '/custom-wordpress-website-design',
+		element: <Navigate to='/services/web-development/custom-wordpress-website-design' replace />,
+	},
+	{
+		path: '/woocommerce-development',
+		element: <Navigate to='/services/web-development/woocommerce-development' replace />,
+	},
+	{
+		path: '/wordpress-seo-optimization',
+		element: <Navigate to='/services/web-development/wordpress-seo-optimization' replace />,
+	},
+	{
+		path: '/wordpress-migration-and-upgrades',
+		element: <Navigate to='/services/web-development/wordpress-migration-and-upgrades' replace />,
+	},
+	{
+		path: '/buddyboss-design-and-development',
+		element: <Navigate to='/services/web-development/buddyboss-design-and-development' replace />,
+	},
+	{
+		path: '/custom-shopify-store-design',
+		element: <Navigate to='/services/web-development/custom-shopify-store-design' replace />,
+	},
+	{
+		path: '/shopify-theme-customization',
+		element: <Navigate to='/services/web-development/shopify-theme-customization' replace />,
+	},
+	{
+		path: '/shopify-seo-optimization',
+		element: <Navigate to='/services/web-development/shopify-seo-optimization' replace />,
+	},
+	{
+		path: '/figma-to-shopify',
+		element: <Navigate to='/services/web-development/figma-to-shopify' replace />,
+	},
+	{
+		path: '/photoshop-to-shopify',
+		element: <Navigate to='/services/web-development/photoshop-to-shopify' replace />,
+	},
+	{
+		path: '/html-to-shopify',
+		element: <Navigate to='/services/web-development/html-to-shopify' replace />,
+	},
+	{
+		path: '/shopify-app-integration-and-development',
+		element: <Navigate to='/services/web-development/shopify-app-integration-and-development' replace />,
+	},
+	{
+		path: '/shopify-ecommerce-management-and-support',
+		element: <Navigate to='/services/web-development/shopify-ecommerce-management-and-support' replace />,
+	},
+	{
+		path: '/figma-to-react',
+		element: <Navigate to='/services/web-development/figma-to-react' replace />,
+	},
+	{
+		path: '/photoshop-to-react',
+		element: <Navigate to='/services/web-development/photoshop-to-react' replace />,
+	},
+	{
+		path: '/html-to-react',
+		element: <Navigate to='/services/web-development/html-to-react' replace />,
+	},
+	{
+		path: '/reactjs-performance-optimization',
+		element: <Navigate to='/services/web-development/reactjs-performance-optimization' replace />,
+	},
+	{
+		path: '/custom-reactjs-web-application-development',
+		element: <Navigate to='/services/web-development/custom-reactjs-web-application-development' replace />,
+	},
+	{
+		path: '/reactjs-component-development-and-integration',
+		element: <Navigate to='/services/web-development/reactjs-component-development-and-integration' replace />,
+	},
+	{
+		path: '/reactjs-mobile-app-development',
+		element: <Navigate to='/services/web-development/reactjs-mobile-app-development' replace />,
+	},
+	{
+		path: '/reactjs-ssr-website-development',
+		element: <Navigate to='/services/web-development/reactjs-ssr-website-development' replace />,
+	},
+	{
+		path: '/reactjs-ui-ux-design-and-development',
+		element: <Navigate to='/services/web-development/reactjs-ui-ux-design-and-development' replace />,
+	},
+	{
+		path: '/learndash-design-and-development',
+		element: <Navigate to='/services/web-development/wordpress-development' replace />,
+	},
+	{
+		path: '/dokan-design-and-development',
+		element: <Navigate to='/services/web-development/wordpress-development' replace />,
+	},
+	{
+		path: '/responsive-wordpress-design',
+		element: <Navigate to='/services/web-development/wordpress-development' replace />,
+	},
+	{
+		path: '/figma-to-wordpress',
+		element: <Navigate to='/services/web-development/wordpress-development' replace />,
+	},
+	{
+		path: '/photoshop-to-wordpress',
+		element: <Navigate to='/services/web-development/wordpress-development' replace />,
+	},
+	{
+		path: '/html-to-wordpress',
+		element: <Navigate to='/services/web-development/wordpress-development' replace />,
+	},
+	{
+		path: '/theme-and-plugin-customization',
+		element: <Navigate to='/services/web-development/wordpress-development' replace />,
+	},
+	{
+		path: '/woocommerce-design-and-development',
+		element: <Navigate to='/services/web-development/wordpress-development' replace />,
+	},
+	{
+		path: '/wordpress-website-maintenance-and-support',
+		element: <Navigate to='/services/web-development/wordpress-development' replace />,
 	},
 ]);

@@ -40,7 +40,7 @@ function AboutUs() {
 				<meta name="keywords" content="About Chameleo GFX Studio. About Graphic Company in Ahmedabad, About best Branding company in Ahmedabad, Logo design company, UI UX Design Company, Web development company, social media marketing agency, SEO Company" />
 				<link
 					rel="canonical"
-					href="https://chameleogfxstudio.com/About-us"
+					href="https://www.chameleogfxstudio.com/about-us/"
 				/>
 			</Helmet>
 			<BlogHero title="About Us" breadcrumbTitle="About Us" image={heroBannerImage} />

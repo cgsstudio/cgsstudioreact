@@ -17,12 +17,12 @@ const services = [
   {
     title: "Digital Marketing",
     items: [
-      { text: "Digital Marketing", link: "/digital-marketing-agency-india" },
-      { text: "Search Engine Optimization (SEO)", link: "/search-engine-optimization" },
-      { text: "Social Media Marketing", link: "/social-media-marketing" },
-      { text: "Email Marketing", link: "/email-marketing" },
-      { text: "Google Ads", link: "/google-ads" },
-      { text: "Meta Ads", link: "/meta-ads" },
+      { text: "Digital Marketing", link: "/services/digital-marketing" },
+      { text: "Search Engine Optimization (SEO)", link: "/services/digital-marketing/search-engine-optimization" },
+      { text: "Social Media Marketing", link: "/services/digital-marketing/social-media-marketing" },
+      { text: "Email Marketing", link: "/services/digital-marketing/email-marketing" },
+      { text: "Google Ads", link: "/services/digital-marketing/google-ads" },
+      { text: "Meta Ads", link: "/services/digital-marketing/meta-ads" },
     ],
   },
 ];

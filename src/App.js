@@ -14,7 +14,7 @@ const ConditionalHeroBanner = () => {
     return <ServicePageHeroBanner />;
   }
 
-  if (path.startsWith("/blog") || path.startsWith("/blogs") || path.startsWith("/blog-grid")) {
+  if (path.startsWith("/blog") || path.startsWith("/blog-grid")) {
     return null;
   }
 
@@ -45,12 +45,13 @@ const AppContent = () => {
       <ConditionalHeroBanner />
       <Routes>
         <Route path="/" element={<Layout><div>Home Page</div></Layout>} />
-        <Route path="/about-us" element={<Layout><div>About Page</div></Layout>} />
-        <Route path="/services" element={<Layout><div>Services Page</div></Layout>} />
+        <Route path="/about-us/" element={<Layout><div>About Page</div></Layout>} />
+        <Route path="/case-studies/" element={<Layout><div>Case Studies</div></Layout>} />
+        <Route path="/services/" element={<Layout><div>Services Page</div></Layout>} />
         <Route path="/services/:serviceId" element={<ServicePage />} />
-        <Route path="/industries-we-serve" element={<Layout><div>Industries We Serve</div></Layout>} />
-        <Route path="/blogs" element={<Layout><div>Blogs</div></Layout>} />
-        <Route path="/contact-us" element={<Layout><div>Contact Us</div></Layout>} />
+        <Route path="/industries-we-serve/" element={<Layout><div>Industries We Serve</div></Layout>} />
+        <Route path="/blog/" element={<Layout><div>Blogs</div></Layout>} />
+        <Route path="/contact-us/" element={<Layout><div>Contact Us</div></Layout>} />
       </Routes>
     </>
   );

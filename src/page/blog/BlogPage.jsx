@@ -8,8 +8,9 @@ function BlogPage() {
 		<>
 		<Helmet>
             <title>Blog - Chameleo GFX Studio</title>
-            <meta name="description" content="" />
-			<meta name="keywords" content="Chameleo GFX Studio, SEO For Dubai Tourism, Online Visibility Dubai Hospitality, SEO Strategies For Hotels Dubai, Dubai Tourism SEO Tips, Hospitality SEO Dubai, Travel Industry SEO Dubai, SEO Benefits For Hospitality Dubai" /> {/* */}
+            <meta name="description" content="Stay updated with the latest insights, trends, and tips in UI/UX design, web development, and digital marketing from Chameleo GFX Studio." />
+            <link rel="canonical" href="https://www.chameleogfxstudio.com/blog/" />
+            <meta name="keywords" content="Chameleo GFX Studio, UI/UX Design Trends, Web Development Tips, Digital Marketing Insights, Graphics Design Blog" />
         </Helmet>
 			<HeroBanner
 				title="Blog"

@@ -23,6 +23,7 @@ function SingleBlog() {
       <Helmet>
         <title>{blog.seot}</title>
         <meta name="description" content={blog.seod} />
+        <link rel="canonical" href={`https://www.chameleogfxstudio.com/blog/${slug}/`} />
         <meta name="keywords" content={blog.keywords.join(", ")} />
       </Helmet>
       <div className="container">

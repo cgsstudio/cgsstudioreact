@@ -4,19 +4,7 @@ import SingleImg2 from "../../assets/images/service/service-details.webp";
 import Star2Img from "../../assets/images/v1/star2.png";
 import WebDevApproach from "./WebDevApproach";
 
-const services = [
-  {
-    title: "Digital Marketing",
-    items: [
-      { text: "Digital Marketing", link: "/digital-marketing-agency-india" },
-      { text: "Search Engine Optimization (SEO)", link: "/search-engine-optimization" },
-      { text: "Social Media Marketing", link: "/social-media-marketing" },
-      { text: "Email Marketing", link: "/email-marketing" },
-      { text: "Google Ads", link: "/google-ads" },
-      { text: "Meta Ads", link: "/meta-ads" },
-    ],
-  },
-];
+import { digitalMarketingServices as services } from "../../data/serviceData";
 
 
 function Searchengineoptimizationdetail() {

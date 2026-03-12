@@ -21,7 +21,7 @@ function ContactUs() {
 				<meta name="keywords" content="Contact US, Chameleo GFX Studio, Chameleo GFX Studio, Contact Details, Call, Email, Address, Ahmedabad, India, Contact Details of Graphic Company, Graphic Services Provider Contact details, Contact Details of Branding Company, Graphic Services Provider Contact details" />
 				<link
 					rel="canonical"
-					href="https://chameleogfxstudio.com/contact-us"
+					href="https://www.chameleogfxstudio.com/contact-us/"
 				/>
 			</Helmet>
 			<BlogHero title="Contact Us" breadcrumbTitle="Contact Us" image={heroBannerImage} />
