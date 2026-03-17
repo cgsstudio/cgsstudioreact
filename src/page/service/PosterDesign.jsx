@@ -12,10 +12,10 @@ function PosterDesign() {
 			      <meta name="keywords" content="Chameleo GFX Studio, Poster Design Services, Poster Design Ahmedabad, Poster Design Services in Ahmedabad, Poster Designing India, Poster Designing India, Custom Poster Design, Promotional Poster Design, Event Poster Design, Creative Poster Design, Business Poster Design, Graphic Design Services, Print Design Services." />
             <link 
           rel="canonical" 
-          href="https://chameleogfxstudio.com/poster-design" 
+          href="https://chameleogfxstudio.com/services/graphic-design/poster-design-services-company" 
         />
         </Helmet>
-      <BreadCrumb title="Poster Design Services" breadcrumbTitle="Poster Design Services in Ahmedabad" />
+      <BreadCrumb title="Poster Design Services Company" breadcrumbTitle="Poster Design Services Company" />
       <div className="bg-white-smoke">
         <PosterDesigndetail />
 

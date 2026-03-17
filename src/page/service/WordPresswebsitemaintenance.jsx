@@ -12,10 +12,10 @@ function WordPresswebsitemaintenance() {
 			      <meta name="keywords" content="Chameleo GFX Studio, WordPress maintenance, WP support Ahmedabad, website support India, WordPress updates, site security, WP bug fixes, WordPress help, WP monitoring, WordPress backup" />
             <link 
           rel="canonical" 
-          href="/wordpress-website-maintenance-and-support" 
+          href="https://chameleogfxstudio.com/services/web-development/wordpress-website-maintenance-and-support-company" 
         />
         </Helmet>
-      <BreadCrumb title="WordPress Website Maintenance and Support" />
+      <BreadCrumb title="WordPress Website Maintenance and Support Company" breadcrumbTitle="WordPress Website Maintenance and Support Company" />
       <div className="bg-white-smoke">
         <WordPresswebsitemaintenancedetail />
 

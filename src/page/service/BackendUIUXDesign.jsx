@@ -12,10 +12,10 @@ function BackendUIUXDesign() {
 			      <meta name="keywords" content="Chameleo GFX Studio, Backend UI/UX Design, Backend UI/UX Design Services in Ahmedabad, Admin Panel Design, Dashboard UI Design, Backend Design Ahmedabad, Backend UI India, Backend UI/UX Design India, Web App Design, User Experience Design, Saas UI/UX, Enterprise UI Design, Responsive Backend Design" />
       <link 
           rel="canonical" 
-          href="https://chameleogfxstudio.com/backend-ui-ux-design" 
+          href="https://chameleogfxstudio.com/services/ui-ux-design/backend-ui-ux-design-company" 
         />
         </Helmet>
-      <BreadCrumb title="Backend UI/UX Design" />
+      <BreadCrumb title="Backend UI/UX Design Company" breadcrumbTitle="Backend UI/UX Design Company" />
       <div className="bg-white-smoke">
         <BackendUIUXDesigndetail />
 

@@ -12,10 +12,10 @@ function ERPUIUXDesign() {
         <meta name="keywords" content="Chameleo GFX Studio, ERP UI/UX Design, ERP Design Ahmedabad, ERP UI/UX Design Services in Ahmedabad, ERP UI/UX Design Company, ERP Design India, ERP UI/UX Design India, Enterprise UI/UX, Business Software Design, ERP Dashboard Design, Saas UI/UX, ERP System Design, User-Friendly ERP, ERP Interface Design" />
         <link
           rel="canonical"
-          href="https://chameleogfxstudio.com/erp-ui-ux-design"
+          href="https://chameleogfxstudio.com/services/ui-ux-design/erp-ui-ux-design-company"
         />
       </Helmet>
-      <BreadCrumb title="ERP UI/UX Design" />
+      <BreadCrumb title="ERP UI/UX Design Company" breadcrumbTitle="ERP UI/UX Design Company" />
       <div className="bg-white-smoke">
         <ERPUIUXDesigndetail />
 

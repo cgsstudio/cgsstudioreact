@@ -12,10 +12,10 @@ function Reactjsperformance() {
 			      <meta name="keywords" content="Chameleo GFX Studio, React.js optimization, React performance, React developers in Ahmedabad, React speed boost, React app optimization, frontend optimization, React.js experts, reduce load time, optimize React code" />
             <link 
           rel="canonical" 
-          href="/reactjs-performance-optimization" 
+          href="https://chameleogfxstudio.com/services/web-development/reactjs-performance-optimization-company" 
         />
         </Helmet>
-      <BreadCrumb title="React.js Performance Optimization"/>
+      <BreadCrumb title="Reactjs Performance Optimization Company" breadcrumbTitle="Reactjs Performance Optimization Company" />
       <div className="bg-white-smoke">
         <Reactjsperformancedetail />
 

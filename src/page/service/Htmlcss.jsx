@@ -12,10 +12,10 @@ function Htmlcss() {
 			      <meta name="keywords" content="Chameleo GFX Studio, HTML Development Ahmedabad, CSS Development India, HTML CSS Company Ahmedabad, Front-End Development India, Responsive Web Design" />
             <link 
           rel="canonical" 
-          href="/html-css" 
+          href="https://chameleogfxstudio.com/services/web-development/html-css-development-company" 
         />
         </Helmet>
-      <BreadCrumb title="HTML/CSS Development" />
+      <BreadCrumb title="HTML/CSS Development Company" breadcrumbTitle="HTML/CSS Development Company" />
       <div className="bg-white-smoke">
         <Htmlcssdetail />
 

@@ -12,10 +12,10 @@ function PresentationDesign() {
 			<meta name="keywords" content="Chameleo GFX Studio offers top PPT Design Services in Ahmedabad, India. We create stunning PowerPoint presentations that captivate and communicate effectively." />
       <link 
           rel="canonical" 
-          href="https://chameleogfxstudio.com/presentation-design" 
+          href="https://chameleogfxstudio.com/services/graphic-design/presentation-design-services-company" 
         />
         </Helmet>
-      <BreadCrumb title="Presentation Design Services" breadcrumbTitle="Presentation Design Services in Ahmedabad" />
+      <BreadCrumb title="Presentation Design Services Company" breadcrumbTitle="Presentation Design Services Company" />
       <PresentationDesigndetail />
 
     </>

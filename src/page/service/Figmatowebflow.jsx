@@ -12,10 +12,10 @@ function Figmatowebflow() {
 			      <meta name="keywords" content="Chameleo GFX Studio, Figma to Webflow Conversion, Webflow Developers Ahmedabad, Figma to Webflow India, Responsive Webflow Websites, Webflow Experts" />
             <link 
           rel="canonical" 
-          href="/figma-to-webflow" 
+          href="https://chameleogfxstudio.com/services/web-development/figma-to-webflow-company" 
         />
         </Helmet>
-      <BreadCrumb title="Figma to Webflow Conversion" />
+      <BreadCrumb title="Figma to Webflow Company" breadcrumbTitle="Figma to Webflow Company" />
       <div className="bg-white-smoke">
         <Figmatowebflowdetail />
 

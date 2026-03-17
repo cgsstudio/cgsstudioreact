@@ -12,10 +12,10 @@ function HoardingDesign() {
 			<meta name="keywords" content="Chameleo GFX Studio, Hoarding design services, Hoarding Design Services in Ahmedabad, Hoarding Design Ahmedabad, Hoarding Design India, Outdoor Advertising Design, Billboard Design, Creative Hoarding Design, Custom Hoarding Design, Branding Hoarding Design, Large Format Printing, Advertisement Hoarding Design." />
       <link 
           rel="canonical" 
-          href="https://chameleogfxstudio.com/hoarding-design" 
+          href="https://chameleogfxstudio.com/services/graphic-design/hoarding-design-services-company" 
         />
         </Helmet>
-      <BreadCrumb title="Hoarding Design Services" breadcrumbTitle="Hoarding Design Services in Ahmedabad"/>
+      <BreadCrumb title="Hoarding Design Services Company" breadcrumbTitle="Hoarding Design Services Company" />
       <div className="bg-white-smoke">
         <HoardingDesigndetail />
 

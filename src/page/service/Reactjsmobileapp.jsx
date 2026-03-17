@@ -12,10 +12,10 @@ function Reactjsmobileapp() {
 			      <meta name="keywords" content="Chameleo GFX Studio, React.js mobile apps, mobile app development in Ahmedabad, React Native India, React mobile developers, scalable mobile apps, React app design, cross-platform apps, mobile UI development, React.js experts" />
             <link 
           rel="canonical" 
-          href="/reactjs-mobile-app-development" 
+          href="https://chameleogfxstudio.com/services/web-development/reactjs-mobile-app-development-company" 
         />
         </Helmet>
-      <BreadCrumb title="React.js Mobile App Development"/>
+      <BreadCrumb title="Reactjs Mobile App Development Company" breadcrumbTitle="Reactjs Mobile App Development Company" />
       <div className="bg-white-smoke">
         <Reactjsmobileappdetail />
 

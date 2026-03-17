@@ -126,10 +126,10 @@ function HeaderMenu() {
           >
             <ul>
               <li>
-                <Link to="/web-design">Web Design</Link>
+                <Link to="/services/web-development/">Web Design</Link>
               </li>
               <li>
-                <Link to="/web-development">Web Development</Link>
+                <Link to="/services/web-development/">Web Development</Link>
               </li>
             </ul>
           </div>
@@ -142,10 +142,10 @@ function HeaderMenu() {
           >
             <ul>
               <li>
-                <Link to="/seo">SEO</Link>
+                <Link to="/services/digital-marketing/seo-agency">SEO</Link>
               </li>
               <li>
-                <Link to="/social-media">Social Media</Link>
+                <Link to="/services/digital-marketing/social-media-marketing-agency">Social Media</Link>
               </li>
             </ul>
           </div>
@@ -208,7 +208,7 @@ function HeaderMenu() {
 										</Link>
 									</li>
 									<li className="sub-menu--item">
-										<Link to="/single-service">
+										<Link to="/services/ui-ux-design/website-ui-ux-design-company">
 											<span className="menu-item-text">service details</span>
 										</Link>
 									</li>

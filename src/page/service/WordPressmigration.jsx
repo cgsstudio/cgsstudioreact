@@ -12,10 +12,10 @@ function WordPressmigration() {
 			      <meta name="keywords" content="Chameleo GFX Studio, WordPress migration Ahmedabad, WordPress upgrades India, website migration services, WordPress transfer India, upgrade WordPress site, WordPress migration experts, secure site migration, WordPress version upgrade, migrate WordPress India" />
             <link 
           rel="canonical" 
-          href="/wordpress-migration-and-upgrades" 
+          href="https://chameleogfxstudio.com/services/web-development/wordpress-migration-and-upgrades-company" 
         />
         </Helmet>
-      <BreadCrumb title="WordPress Migration and Upgrades" />
+      <BreadCrumb title="WordPress Migration and Upgrades Company" breadcrumbTitle="WordPress Migration and Upgrades Company" />
       <div className="bg-white-smoke">
         <WordPressmigrationdetail />
 

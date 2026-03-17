@@ -12,10 +12,10 @@ function Customhtmlwebsitedesign() {
         <meta name="keywords" content="Chameleo GFX Studio, Custom HTML Website Ahmedabad, HTML Design Company Ahmedabad, Responsive Website Design, Custom Web Design India, Front-End Development" />
         <link
           rel="canonical"
-          href="/custom-html-website-design"
+          href="https://chameleogfxstudio.com/services/web-development/custom-html-website-design-company"
         />
       </Helmet>
-      <BreadCrumb title="Custom HTML Website Design" />
+      <BreadCrumb title="Custom HTML Website Design Company" breadcrumbTitle="Custom HTML Website Design Company" />
       <div className="bg-white-smoke">
         <Customhtmlwebsitedesigndetail />
 

@@ -12,10 +12,10 @@ function Templatecustomization() {
 			      <meta name="keywords" content="Chameleo GFX Studio, Template Customization in Ahmedabad, Custom Website Templates, Website Design, Professional Template Services Ahmedabad, Template Design India" />
             <link 
           rel="canonical" 
-          href="/template-customization" 
+          href="https://chameleogfxstudio.com/services/web-development/template-customization-company" 
         />
         </Helmet>
-      <BreadCrumb title="Template Customization" />
+      <BreadCrumb title="Template Customization Company" breadcrumbTitle="Template Customization Company" />
       <div className="bg-white-smoke">
         <Templatecustomizationdetail />
 

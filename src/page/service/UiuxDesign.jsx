@@ -6,17 +6,17 @@ function UiuxDesign() {
   return (
     <>
       <Helmet>
-        <title>UI/UX Design Agency</title>
+        <title>UI/UX Design</title>
         <meta name="description" content="Chameleo GFX Studio is the best UI UX Design Company in Ahmedabad. We have expert UI/UX designer in Ahmedabad that enhance the ui/ux experience. Contact us now." />
         <meta name="keywords" content="UI UX Design Company in Ahmedabad, Best UI UX Design Company in Ahmedabad, UI UX designer in Ahmedabad" />
         <link
           rel="canonical"
-          href="https://chameleogfxstudio.com/ui-ux-design-agency-in-ahmedabad"
+          href="https://chameleogfxstudio.com/services/ui-ux-design"
         />
       </Helmet>
       <ServiceHeroBanner
-        title="UI/UX Design Agency "
-        breadcrumbTitle="UI/UX Design Agency in Ahmedabad"
+        title="UI/UX Design"
+        breadcrumbTitle="UI/UX Design"
         subtitle="Graphic design is the creative process of combining text, images, shapes, and colors to convey ideas in a clear and visually appealing manner."
         image={heroBannerImage}
       />

@@ -12,10 +12,10 @@ function Figmatoshopify() {
 			      <meta name="keywords" content="Chameleo GFX Studio, Figma to Shopify, Shopify conversion Ahmedabad, Figma to Shopify India, Shopify development, responsive Shopify store, Shopify designers, eCommerce design, Shopify experts, Shopify customization" />
             <link 
           rel="canonical" 
-          href="/figma-to-shopify" 
+          href="https://chameleogfxstudio.com/services/web-development/figma-to-shopify-company" 
         />
         </Helmet>
-      <BreadCrumb title="Figma to Shopify Conversion" />
+      <BreadCrumb title="Figma to Shopify Company" breadcrumbTitle="Figma to Shopify Company" />
       <div className="bg-white-smoke">
         <Figmatoshopifydetail />
 

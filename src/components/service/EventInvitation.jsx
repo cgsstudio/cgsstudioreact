@@ -12,10 +12,10 @@ function EventInvitation() {
         <meta name="keywords" content="Chameleo GFX Studio, Event Invitation Design, Custom Invitations, Ahmedabad Invitation Design, Stylish Invitations, Personalized Event Invitations, Wedding Invitations, Party Invitations, Creative Invitation Design, Event Card Design, Graphic Design India" />
         <link
           rel="canonical"
-          href="https://chameleogfxstudio.com/event-invitation-design-ahmedabad"
+          href="https://chameleogfxstudio.com/services/graphic-design/event-invitation-design-company"
         />
       </Helmet>
-      <BreadCrumb title="Event Invitation Design" breadcrumbTitle="Event Invitation Design in Ahmedabad" />
+      <BreadCrumb title="Event Invitation Design Company" breadcrumbTitle="Event Invitation Design Company" />
       <EventInvitationdetail />
 
     </>

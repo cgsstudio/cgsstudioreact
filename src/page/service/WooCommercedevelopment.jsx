@@ -12,10 +12,10 @@ function WooCommercedevelopment() {
 			      <meta name="keywords" content="Chameleo GFX Studio, WooCommerce development Ahmedabad, WooCommerce design India, eCommerce website India, custom WooCommerce solutions, WooCommerce experts Ahmedabad, online store development, WooCommerce developers India, eCommerce design Ahmedabad, WordPress eCommerce India" />
             <link 
           rel="canonical" 
-          href="/woocommerce-development" 
+          href="https://chameleogfxstudio.com/services/web-development/woocommerce-development-company" 
         />
         </Helmet>
-      <BreadCrumb title="WooCommerce Development" />
+      <BreadCrumb title="WooCommerce Development Company" breadcrumbTitle="WooCommerce Development Company" />
       <div className="bg-white-smoke">
         <WooCommercedevelopmentdetail />
 

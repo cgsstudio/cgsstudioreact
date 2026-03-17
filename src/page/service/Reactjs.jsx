@@ -12,10 +12,10 @@ function Reactjs() {
         <meta name="keywords" content="Chameleo GFX Studio, React.js development, React developers in Ahmedabad, React India, React.js company India, web app development India, JavaScript developers, frontend development, SPA development, custom React apps" />
         <link
           rel="canonical"
-          href="/react-js"
+          href="https://chameleogfxstudio.com/services/web-development/react-js-development-company"
         />
       </Helmet>
-      <BreadCrumb title="React.js Development Company in Ahmedabad" />
+      <BreadCrumb title="React JS Development Company" breadcrumbTitle="React JS Development Company" />
       <div className="bg-white-smoke">
         <Reactjsdetail />
 

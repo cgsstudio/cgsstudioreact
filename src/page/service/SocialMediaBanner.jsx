@@ -12,10 +12,10 @@ function SocialMediaBanner() {
 			      <meta name="keywords" content="Chameleo GFX Studio, Social Media Banner Design Company, Social Media Design Services, Social Media Banner Design Company Ahmedabad, Social Media Design Services Ahmedabad, Social Media Banner Design Agency" />
             <link 
           rel="canonical" 
-          href="https://chameleogfxstudio.com/social-media-banner-design-ahmedabad" 
+          href="https://chameleogfxstudio.com/services/graphic-design/social-media-banner-design-company" 
         />
         </Helmet>
-      <BreadCrumb title="Social Media Banner Design Services" breadcrumbTitle="Social Media Banner Design Services in Ahmedabad" />
+      <BreadCrumb title="Social Media Banner Design Company" breadcrumbTitle="Social Media Banner Design Company" />
       <div className="bg-white-smoke">
         <SocialMediaBannerdetail />
 

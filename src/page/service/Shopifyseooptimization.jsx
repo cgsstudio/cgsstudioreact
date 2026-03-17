@@ -12,10 +12,10 @@ function Shopifyseooptimization() {
 			      <meta name="keywords" content="Chameleo GFX Studio, Shopify SEO, Shopify SEO Ahmedabad, Shopify SEO India, eCommerce SEO, Shopify optimization, online store SEO, SEO experts, Shopify marketing, SEO services India" />
             <link 
           rel="canonical" 
-          href="/shopify-seo-optimization" 
+          href="https://chameleogfxstudio.com/services/web-development/shopify-seo-optimization-company" 
         />
         </Helmet>
-      <BreadCrumb title="Shopify SEO Optimization" />
+      <BreadCrumb title="Shopify SEO Optimization Company" breadcrumbTitle="Shopify SEO Optimization Company" />
       <div className="bg-white-smoke">
         <Shopifyseooptimizationdetail />
 

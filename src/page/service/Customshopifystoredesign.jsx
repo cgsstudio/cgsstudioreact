@@ -12,10 +12,10 @@ function Customshopifystoredesign() {
 			      <meta name="keywords" content="Chameleo GFX Studio, custom Shopify design, Shopify store Ahmedabad, Shopify India, Shopify theme design, eCommerce design, Shopify UI/UX, Shopify experts, online store design, Shopify customization" />
             <link 
           rel="canonical" 
-          href="/custom-shopify-store-design" 
+          href="https://chameleogfxstudio.com/services/web-development/custom-shopify-store-design-company" 
         />
         </Helmet>
-      <BreadCrumb title="Custom Shopify Store Design" />
+      <BreadCrumb title="Custom Shopify Store Design Company" breadcrumbTitle="Custom Shopify Store Design Company" />
       <div className="bg-white-smoke">
         <Customshopifystoredesigndetail />
 

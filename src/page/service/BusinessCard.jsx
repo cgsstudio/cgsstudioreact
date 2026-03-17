@@ -12,10 +12,10 @@ function BusinessCard() {
 			      <meta name="keywords" content="Chameleo GFX Studio, Visiting Card Design, Visiting Card Ahmedabad, Visiting Card Design Services, Visiting Card India, Visiting Card Design India, Custom Visiting Cards, Professional Card Design, Creative Visiting Cards, Corporate Card Design, Visiting Card Design" />
             <link 
           rel="canonical" 
-          href="https://chameleogfxstudio.com/business-card-design" 
+          href="https://chameleogfxstudio.com/services/graphic-design/visiting-card-design-service-company" 
         />
         </Helmet>
-      <BreadCrumb title="Visiting Card Design Service" breadcrumbTitle="Visiting Card Design Service in Ahmedabad" />
+      <BreadCrumb title="Visiting Card Design Service Company" breadcrumbTitle="Visiting Card Design Service Company" />
       <div className="bg-white-smoke">
         <BusinessCarddetail/>
 

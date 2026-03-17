@@ -12,10 +12,10 @@ function PackagingDesign() {
 			<meta name="keywords" content="Chameleo GFX Studio, Packaging Design Services, Packaging Design Ahmedabad, Packaging Design India, Packaging Design Services in Ahmedabad, Custom Packaging Design, Product Packaging Design, Creative Packaging, Branding Packaging, Box Design, Label Design, Packaging Solutions" />
       <link 
           rel="canonical" 
-          href="https://chameleogfxstudio.com/packaging-design" 
+          href="https://chameleogfxstudio.com/services/graphic-design/packaging-design-agency-company" 
         />
         </Helmet>
-      <BreadCrumb title="Packaging Design Agency" breadcrumbTitle="Packaging Design Agency in Ahmedabad"/>
+      <BreadCrumb title="Packaging Design Agency Company" breadcrumbTitle="Packaging Design Agency Company"/>
       <div className="bg-white-smoke">
         <PackagingDesigndetail />
 

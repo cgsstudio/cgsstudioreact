@@ -13,10 +13,10 @@ function Customreactjsweb() {
 			      <meta name="keywords" content="Chameleo GFX Studio, custom React apps, React.js web development, React developers in Ahmedabad, React India, React web apps, SPA development, frontend experts, React.js company, scalable React solutions" />
             <link 
           rel="canonical" 
-          href="/custom-reactjs-web-application-development" 
+          href="https://chameleogfxstudio.com/services/web-development/custom-reactjs-web-application-development-company" 
         />
         </Helmet>
-      <BreadCrumb title="Custom React.js Web Application" image={heroBannerImage} />
+      <BreadCrumb title="Custom Reactjs Web Application Development Company" breadcrumbTitle="Custom Reactjs Web Application Development Company" image={heroBannerImage} />
       <div className="bg-white-smoke">
         <Customreactjswebdetail />
 

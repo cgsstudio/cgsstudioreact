@@ -12,10 +12,10 @@ function Responsivewebdesign() {
 			      <meta name="keywords" content="Chameleo GFX Studio, Responsive Web Design, Mobile-Friendly Websites, Website Design Services, Responsive Design India, User-Friendly Websites" />
             <link 
           rel="canonical" 
-          href="/responsive-web-design" 
+          href="https://chameleogfxstudio.com/services/web-development/responsive-web-design-company" 
         />
         </Helmet>
-      <BreadCrumb title="Responsive Web Design" />
+      <BreadCrumb title="Responsive Web Design Company" breadcrumbTitle="Responsive Web Design Company" />
       <div className="bg-white-smoke">
         <Responsivewebdesigndetail />
 

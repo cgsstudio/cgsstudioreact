@@ -12,10 +12,10 @@ function MagazineBooklet() {
         <meta name="keywords" content="Chameleo GFX Studio, Magazine Design, Booklet Design, Graphic Design Ahmedabad, Publication Design, Brochure Design, Professional Booklet Design, Creative Magazine Layout, Print Design Services, Custom Booklet Design" />
         <link
           rel="canonical"
-          href="https://chameleogfxstudio.com/magazine-and-booklet-design-ahmedabad"
+          href="https://chameleogfxstudio.com/services/graphic-design/magazine-and-booklet-design-company"
         />
       </Helmet>
-      <BreadCrumb title="Magazine and Booklet Design Services" breadcrumbTitle="Magazine and Booklet Design Services in Ahmedabad" />
+      <BreadCrumb title="Magazine and Booklet Design Services Company" breadcrumbTitle="Magazine and Booklet Design Services Company" />
       <div className="bg-white-smoke">
         <MagazineBookletdetail />
 

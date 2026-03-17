@@ -7,15 +7,15 @@ function Socialmediamarketing() {
   return (
     <>
     <Helmet>
-            <title>Social Media Marketing Agency in India | Social Media Marketing Services</title>
+            <title>Social Media Marketing Agency | Social Media Marketing Services</title>
             <meta name="description" content="Chameleo GFX Studio is a leading social media marketing agency in India, helping brands grow with creative strategies across all major social platforms." />
 			      <meta name="keywords" content="Chameleo GFX Studio, social media marketing India, SMM agency India, Instagram marketing India, Facebook ads India, digital marketing agency, social media experts India, content creation India, online branding India, social media strategy" />
             <link 
           rel="canonical" 
-          href="/social-media-marketing" 
+          href="https://chameleogfxstudio.com/services/digital-marketing/social-media-marketing-agency" 
         />
         </Helmet>
-      <BreadCrumb title="Social Media Marketing" />
+      <BreadCrumb title="Social Media Marketing Agency" />
       <div className="bg-white-smoke">
         <Socialmediamarketingdetail />
 

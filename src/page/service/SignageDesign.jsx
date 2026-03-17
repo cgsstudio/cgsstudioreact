@@ -12,10 +12,10 @@ function SignageDesign() {
         <meta name="keywords" content="Chameleo GFX Studio, Signage Design Services, Signage Design Ahmedabad, Signage Design India, Signage Design Services in India, Custom Signage, Outdoor Signage, Business Signage, Retail Signage, Creative Signboard Design, Branding Signage, Commercial Signage Design" />
         <link
           rel="canonical"
-          href="https://chameleogfxstudio.com/signage-design-service-ahmedabad"
+          href="https://chameleogfxstudio.com/services/graphic-design/signage-design-service-company"
         />
       </Helmet>
-      <BreadCrumb title="Signage Design Services" breadcrumbTitle="Signage Design Services in Ahmedabad" />
+      <BreadCrumb title="Signage Design Service Company" breadcrumbTitle="Signage Design Service Company" />
       <div className="bg-white-smoke">
         <SignageDesigndetail />
 

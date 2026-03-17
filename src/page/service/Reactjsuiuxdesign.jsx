@@ -12,10 +12,10 @@ function Reactjsuiuxdesign() {
 			      <meta name="keywords" content="Chameleo GFX Studio, React.js UI design, React UX development, React.js Ahmedabad, UI/UX React India, frontend development, React interface design, user experience React, custom React apps, React.js experts" />
             <link 
           rel="canonical" 
-          href="/reactjs-ui-ux-design-and-development" 
+          href="https://chameleogfxstudio.com/services/web-development/reactjs-ui-ux-design-and-development-company" 
         />
         </Helmet>
-      <BreadCrumb title="React.js UI/UX Design and Development"/>
+      <BreadCrumb title="Reactjs UI/UX Design and Development Company" breadcrumbTitle="Reactjs UI/UX Design and Development Company" />
       <div className="bg-white-smoke">
         <Reactjsuiuxdesigndetail />
 

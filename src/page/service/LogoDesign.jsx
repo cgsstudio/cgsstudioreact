@@ -12,10 +12,10 @@ function LogoDesign() {
         <meta name="keywords" content="Logo design company in Ahmedabad, logo designer in Ahmedabad, Branding Agency in Ahmedabad, Creative Branding Agency in Ahmedabad" />
         <link
           rel="canonical"
-          href="https://chameleogfxstudio.com/logo-design-company-ahmedabad"
+          href="https://chameleogfxstudio.com/services/graphic-design/logo-design-company"
         />
       </Helmet>
-      <BreadCrumb title="Logo Design Company" breadcrumbTitle="Logo Design Company in Ahmedabad" />
+      <BreadCrumb title="Logo Design Company" breadcrumbTitle="Logo Design Company" />
       <div className="bg-white-smoke">
         <LogoDesignDetails />
       </div>

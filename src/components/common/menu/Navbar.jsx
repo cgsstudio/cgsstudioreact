@@ -1,8 +1,9 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { routes } from "./routes";
 import { NavLink, useLocation } from "react-router-dom";
 import { FaEnvelope, FaPhoneAlt, FaInstagram, FaLinkedin, FaFacebook } from "react-icons/fa";
 import CgsLogo from "../../../assets/images/logo/Cgs_Logo.png";
+import MegaMenu from "./MegaMenu";
 
 function Navbar({
     toggleMenu,
@@ -12,7 +13,9 @@ function Navbar({
     menuTitle,
 }) {
     const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
+    const [megaMenuOpen, setMegaMenuOpen] = useState(false);
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    const megaMenuRef = useRef(null);
 
     const location = useLocation();
 
@@ -26,6 +29,7 @@ function Navbar({
     // Close dropdown when route changes
     useEffect(() => {
         setMobileServicesOpen(false);
+        setMegaMenuOpen(false);
     }, [location.pathname]);
 
     // Close dropdown when menu is closed
@@ -58,9 +62,14 @@ function Navbar({
         }
     };
 
-    // Handle clicking outside dropdown to close it
+    // Close mega menu when clicking outside
     useEffect(() => {
         const handleClickOutside = (event) => {
+            if (!isMobile && megaMenuOpen) {
+                if (megaMenuRef.current && !megaMenuRef.current.contains(event.target)) {
+                    setMegaMenuOpen(false);
+                }
+            }
             if (isMobile && mobileServicesOpen) {
                 const dropdown = event.target.closest('.dropdown');
                 if (!dropdown) {
@@ -69,11 +78,10 @@ function Navbar({
             }
         };
 
-        document.addEventListener('click', handleClickOutside);
-        return () => document.removeEventListener('click', handleClickOutside);
-    }, [isMobile, mobileServicesOpen]);
+        document.addEventListener('mousedown', handleClickOutside);
+        return () => document.removeEventListener('mousedown', handleClickOutside);
+    }, [isMobile, megaMenuOpen, mobileServicesOpen]);
 
-    const servicesPaths = ["/services"];
     const isServicesActive = location.pathname.startsWith("/services");
 
     return (
@@ -95,10 +103,11 @@ function Navbar({
                 {routes.map((route) =>
                     route.title === "Services" ? (
                         <li
-                            className={`nav-item dropdown${mobileServicesOpen ? " open" : ""}`}
+                            className={`nav-item dropdown${mobileServicesOpen || (!isMobile && megaMenuOpen) ? " open" : ""}`}
                             key={route.title}
-                            onMouseEnter={() => { if (!isMobile) setMobileServicesOpen(true); }}
-                            onMouseLeave={() => { if (!isMobile) setMobileServicesOpen(false); }}
+                            onMouseEnter={() => { if (!isMobile) setMegaMenuOpen(true); }}
+                            onMouseLeave={() => { if (!isMobile) setMegaMenuOpen(false); }}
+                            ref={!isMobile ? megaMenuRef : null}
                         >
                             <NavLink
                                 to="/services"
@@ -106,22 +115,29 @@ function Navbar({
                                     "nav-link-item" +
                                     ((isActive || isServicesActive) ? " active" : "")
                                 }
-                                onClick={handleServicesNavClick}
+                                onClick={(e) => {
+                                    if (isMobile) handleServicesNavClick(e);
+                                    else {
+                                        e.preventDefault();
+                                        setMegaMenuOpen(!megaMenuOpen);
+                                    }
+                                }}
                                 style={{
                                     cursor: "pointer",
-                                    display: isMobile ? "flex" : undefined,
-                                    justifyContent: isMobile ? "space-between" : undefined,
-                                    alignItems: isMobile ? "center" : undefined,
+                                    display: "flex",
+                                    justifyContent: isMobile ? "space-between" : "center",
+                                    alignItems: "center",
+                                    gap: "6px"
                                 }}
                             >
                                 {route.title}
                                 <span
                                     style={{
-                                        marginLeft: isMobile ? "auto" : undefined,
                                         display: "flex",
                                         alignItems: "center",
                                         fontSize: "12px",
-                                        transform: mobileServicesOpen && isMobile ? "rotate(180deg)" : "rotate(0deg)",
+                                        color: (isMobile ? mobileServicesOpen : megaMenuOpen) ? "#ed1d24" : "inherit",
+                                        transform: (isMobile ? mobileServicesOpen : megaMenuOpen) ? "rotate(180deg)" : "rotate(0deg)",
                                         transition: "transform 0.3s ease",
                                     }}
                                 >
@@ -131,60 +147,13 @@ function Navbar({
                                 </span>
                             </NavLink>
 
-                            <ul
-                                className="submenu"
-                                style={{
-                                    display: mobileServicesOpen ? "block" : "none",
-                                    maxHeight: mobileServicesOpen ? "300px" : "0",
-                                    overflow: "hidden",
-                                    transition: "max-height 0.3s ease",
-                                }}
-                            >
-                                <li>
-                                    <NavLink
-                                        to="/services/graphic-design"
-                                        className={({ isActive }) =>
-                                            "nav-link-item" + (isActive ? " active" : "")
-                                        }
-                                        onClick={handleMobileLinkClick}
-                                    >
-                                        Graphics Design
-                                    </NavLink>
-                                </li>
-                                <li>
-                                    <NavLink
-                                        to="/services/ui-ux-design"
-                                        className={({ isActive }) =>
-                                            "nav-link-item" + (isActive ? " active" : "")
-                                        }
-                                        onClick={handleMobileLinkClick}
-                                    >
-                                        UI/UX Design
-                                    </NavLink>
-                                </li>
-                                <li>
-                                    <NavLink
-                                        to="/services/web-development"
-                                        className={({ isActive }) =>
-                                            "nav-link-item" + (isActive ? " active" : "")
-                                        }
-                                        onClick={handleMobileLinkClick}
-                                    >
-                                        Website Development
-                                    </NavLink>
-                                </li>
-                                <li>
-                                    <NavLink
-                                        to="/services/digital-marketing"
-                                        className={({ isActive }) =>
-                                            "nav-link-item" + (isActive ? " active" : "")
-                                        }
-                                        onClick={handleMobileLinkClick}
-                                    >
-                                        Digital Marketing
-                                    </NavLink>
-                                </li>
-                            </ul>
+                            {/* Mega Menu for Desktop */}
+                            {!isMobile && (
+                                <MegaMenu 
+                                    isOpen={megaMenuOpen} 
+                                    closeMenu={() => setMegaMenuOpen(false)} 
+                                />
+                            )}
                         </li>
                     ) : (
                         <li className="nav-item" key={route.title}>
@@ -202,6 +171,14 @@ function Navbar({
                     )
                 )}
             </ul>
+
+            {/* Full-width Overlay for Desktop */}
+            {!isMobile && (
+                <div 
+                    className={`mega-menu-overlay ${megaMenuOpen ? "show" : ""}`} 
+                    onMouseEnter={() => setMegaMenuOpen(false)} 
+                />
+            )}
 
             {/* Mobile Contact Info */}
             {isMobile && (

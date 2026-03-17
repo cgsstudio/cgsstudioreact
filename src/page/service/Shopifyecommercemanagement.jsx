@@ -12,10 +12,10 @@ function Shopifyecommercemanagement() {
 			      <meta name="keywords" content="Chameleo GFX Studio, Shopify management, eCommerce management, Shopify Ahmedabad, Shopify India, store management, product upload, order management, Shopify support, Shopify marketing" />
             <link 
           rel="canonical" 
-          href="/shopify-ecommerce-management-and-support" 
+          href="https://chameleogfxstudio.com/services/web-development/shopify-ecommerce-management-and-support-company" 
         />
         </Helmet>
-      <BreadCrumb title="Shopify E-commerce Management" />
+      <BreadCrumb title="Shopify E-commerce Management and Support Company" breadcrumbTitle="Shopify E-commerce Management and Support Company" />
       <div className="bg-white-smoke">
         <Shopifyecommercemanagementdetail />
 

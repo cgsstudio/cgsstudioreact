@@ -13,10 +13,10 @@ function WebsiteUIUXDesign() {
 			      <meta name="keywords" content="Chameleo GFX Studio, UI/UX Design Services, Website UI/UX Design Company in Ahmedabad, Website UI/UX Design India, Website UI Design, Website UX Design, UI/UX Company Ahmedabad, UI/UX Design India, User Experience Design, Responsive Web Design, Custom UI/UX Design, Web App Design, Mobile UI/UX Design" />
       <link 
           rel="canonical" 
-          href="https://chameleogfxstudio.com/website-ui-ux-design" 
+          href="https://chameleogfxstudio.com/services/ui-ux-design/website-ui-ux-design-company" 
         />
         </Helmet>
-      <BreadCrumb title="Website UI/UX Design" image={heroBannerImage} />
+      <BreadCrumb title="Website UI/UX Design Company" breadcrumbTitle="Website UI/UX Design Company" image={heroBannerImage} />
       <div className="bg-white-smoke">
         <WebsiteUIUXDesigndetail />
 

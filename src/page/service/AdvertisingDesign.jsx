@@ -12,10 +12,10 @@ function AdvertisingDesign() {
 			      <meta name="keywords" content="Chameleo GFX Studio, Advertising Design Services, Advertising Design Ahmedabad, Advertising Design India, Advertising Design Company, Advertising Design Company in India, Creative Ad Design, Digital Ad Design, Print Ad Design, Outdoor Advertising, Branding Design, Marketing Creatives, Promotional Design" />
             <link 
           rel="canonical" 
-          href="https://chameleogfxstudio.com/advertising-design" 
+          href="https://chameleogfxstudio.com/services/graphic-design/advertising-design-agency-company" 
         />
         </Helmet>
-      <BreadCrumb title="Advertising Design Agency" breadcrumbTitle="Advertising Design Agency in Ahmedabad" />
+      <BreadCrumb title="Advertising Design Agency Company" breadcrumbTitle="Advertising Design Agency Company" />
       <div className="bg-white-smoke">
         <AdvertisingDesigndetail />
 

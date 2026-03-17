@@ -12,10 +12,10 @@ function CustomwordPresswebsite() {
 			      <meta name="keywords" content="Chameleo GFX Studio, custom WordPress design Ahmedabad, WordPress website design India, responsive WordPress sites, SEO-friendly WordPress, WordPress experts India, custom web design Ahmedabad, WordPress developers India, tailored WordPress solutions, WordPress UI design" />
             <link 
           rel="canonical" 
-          href="/custom-wordpress-website-design" 
+          href="https://chameleogfxstudio.com/services/web-development/custom-wordpress-website-design-company" 
         />
         </Helmet>
-      <BreadCrumb title="Custom WordPress Website Design" />
+      <BreadCrumb title="Custom WordPress Website Design Company" breadcrumbTitle="Custom WordPress Website Design Company" />
       <div className="bg-white-smoke">
         <CustomwordPresswebsitedetail />
 

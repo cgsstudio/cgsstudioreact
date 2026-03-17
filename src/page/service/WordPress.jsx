@@ -12,10 +12,10 @@ function WordPress() {
         <meta name="keywords" content="Chameleo GFX Studio, WordPress development Ahmedabad, WordPress development India, custom WordPress services, WordPress design Ahmedabad, WordPress experts India, website development Ahmedabad, WordPress theme development, SEO-friendly WordPress, WordPress plugin development" />
         <link
           rel="canonical"
-          href="/wordpress"
+          href="https://chameleogfxstudio.com/services/web-development/wordpress-development-company"
         />
       </Helmet>
-      <BreadCrumb title="WordPress Development Services in Ahmedabad" />
+      <BreadCrumb title="WordPress Development Company" breadcrumbTitle="WordPress Development Company" />
       <div className="bg-white-smoke">
         <WordPressdetail />
 

@@ -12,10 +12,10 @@ function Responsivewordpressdesign() {
 			      <meta name="keywords" content="Chameleo GFX Studio, Responsive WordPress design, WordPress development Ahmedabad, web design India, mobile-friendly websites, SEO WordPress design, website design Ahmedabad" />
             <link 
           rel="canonical" 
-          href="/responsive-wordpress-design" 
+          href="https://chameleogfxstudio.com/services/web-development/responsive-wordpress-design-company" 
         />
         </Helmet>
-      <BreadCrumb title="Responsive WordPress Design" />
+      <BreadCrumb title="Responsive WordPress Design Company" breadcrumbTitle="Responsive WordPress Design Company" />
       <div className="bg-white-smoke">
         <Responsivewordpressdesigndetail />
 

@@ -12,10 +12,10 @@ function Themeandplugin() {
 			      <meta name="keywords" content="Chameleo GFX Studio, theme customization, plugin customization, WordPress customization Ahmedabad, custom themes India, WordPress experts, WP plugin edit, WP services, WordPress developers, custom WordPress solutions" />
             <link 
           rel="canonical" 
-          href="/theme-and-plugin-customization" 
+          href="https://chameleogfxstudio.com/services/web-development/theme-and-plugin-customization-company" 
         />
         </Helmet>
-      <BreadCrumb title="Theme and Plugin Customization" />
+      <BreadCrumb title="Theme and Plugin Customization Company" breadcrumbTitle="Theme and Plugin Customization Company" />
       <div className="bg-white-smoke">
         <Themeandplugindetail />
 

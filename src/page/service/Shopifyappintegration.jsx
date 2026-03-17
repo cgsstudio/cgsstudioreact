@@ -12,10 +12,10 @@ function Shopifyappintegration() {
 			      <meta name="keywords" content="Chameleo GFX Studio, Shopify app development, Shopify integration, Shopify experts India, Shopify Ahmedabad, custom Shopify apps, Shopify API, eCommerce apps, app integration service, Shopify developers" />
             <link 
           rel="canonical" 
-          href="/shopify-app-integration-and-development" 
+          href="https://chameleogfxstudio.com/services/web-development/shopify-app-integration-and-development-company" 
         />
         </Helmet>
-      <BreadCrumb title="Shopify App Integration and Development" />
+      <BreadCrumb title="Shopify App Integration and Development Company" breadcrumbTitle="Shopify App Integration and Development Company" />
       <div className="bg-white-smoke">
         <Shopifyappintegrationdetail />
 

@@ -12,10 +12,10 @@ function Reactjscomponentdevelopment() {
 			      <meta name="keywords" content="Chameleo GFX Studio, React component development, React integration, custom UI components, React developers in Ahmedabad, React.js India, reusable components, frontend development, React app integration, scalable React UI" />
             <link 
           rel="canonical" 
-          href="/reactjs-component-development-and-integration" 
+          href="https://chameleogfxstudio.com/services/web-development/reactjs-component-development-and-integration-company" 
         />
         </Helmet>
-      <BreadCrumb title="React.js Component Development and Integration"/>
+      <BreadCrumb title="Reactjs Component Development and Integration Company" breadcrumbTitle="Reactjs Component Development and Integration Company" />
       <div className="bg-white-smoke">
         <Reactjscomponentdevelopmentdetail />
 

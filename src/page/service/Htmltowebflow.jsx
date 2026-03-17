@@ -12,10 +12,10 @@ function Htmltowebflow() {
 			      <meta name="keywords" content="Chameleo GFX Studio, HTML To Webflow, HTML To Webflow Conversion, Webflow Developers Ahmedabad, Webflow India, Responsive Webflow Design, Webflow Migration" />
             <link 
           rel="canonical" 
-          href="/html-to-webflow" 
+          href="https://chameleogfxstudio.com/services/web-development/html-to-webflow-company" 
         />
         </Helmet>
-      <BreadCrumb title="HTML to Webflow Conversion" />
+      <BreadCrumb title="HTML to Webflow Company" breadcrumbTitle="HTML to Webflow Company" />
       <div className="bg-white-smoke">
         <Htmltowebflowdetail />
 

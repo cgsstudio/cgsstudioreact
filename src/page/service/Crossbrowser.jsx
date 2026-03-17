@@ -12,10 +12,10 @@ function Crossbrowser() {
 			      <meta name="keywords" content="Chameleo GFX Studio, Cross-Browser Testing, Browser Compatibility, Website Testing, Web Design, Responsive Design, Browser Support, UI Testing" />
             <link 
           rel="canonical"   
-          href="/cross-browser-compatibility-testing" 
+          href="https://chameleogfxstudio.com/services/web-development/cross-browser-compatibility-testing-company" 
         />
         </Helmet>
-      <BreadCrumb title="Cross-Browser Compatibility Testing" />
+      <BreadCrumb title="Cross-Browser Compatibility Testing Company" breadcrumbTitle="Cross-Browser Compatibility Testing Company" />
       <div className="bg-white-smoke">
         <Crossbrowserdetail />
 

@@ -12,10 +12,10 @@ function IOSUIUXDesign() {
 			      <meta name="keywords" content="Chameleo GFX Studio, iOS UI/UX design, iOS app design, iOS UI/UX Design Company in Ahmedabad, UI/UX design Ahmedabad, iOS design India, iOS UI/UX Design India, iPhone app UI, iPad app UI, mobile UI/UX design, Apple app design, custom iOS design, user experience design" />
       <link 
           rel="canonical" 
-          href="https://chameleogfxstudio.com/ios-ui-ux-design" 
+          href="https://chameleogfxstudio.com/services/ui-ux-design/ios-ui-ux-design-company" 
         />
         </Helmet>
-      <BreadCrumb title="iOS UI/UX Design" />
+      <BreadCrumb title="iOS UI/UX Design Company" breadcrumbTitle="iOS UI/UX Design Company" />
       <div className="bg-white-smoke">
         <IOSUIUXDesigndetail />
 

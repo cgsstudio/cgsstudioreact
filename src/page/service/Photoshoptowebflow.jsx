@@ -12,10 +12,10 @@ function Photoshoptowebflow() {
 			      <meta name="keywords" content="Chameleo GFX Studio, Figma to Webflow, Figma to Webflow Ahmedabad, Figma to Webflow India, Webflow Development, Responsive Webflow Design, Webflow Agency India" />
             <link 
           rel="canonical" 
-          href="/photoshop-to-webflow" 
+          href="https://chameleogfxstudio.com/services/web-development/photoshop-to-webflow-company" 
         />
         </Helmet>
-      <BreadCrumb title="Photoshop to Webflow Conversion" />
+      <BreadCrumb title="Photoshop to Webflow Company" breadcrumbTitle="Photoshop to Webflow Company" />
       <div className="bg-white-smoke">
         <Photoshoptowebflowdetail />
 

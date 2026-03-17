@@ -12,10 +12,10 @@ function FlyerDesign() {
 			<meta name="keywords" content="Chameleo GFX Studio, Flyer Design Services, Flyer Design Ahmedabad, Flyer Design Company India, Flyer Design Agency, Custom Flyer Design, Promotional Flyer Design, Business Flyer Design, Event Flyer Design, Creative Flyer Design, Graphic Design Services" />
       <link 
           rel="canonical" 
-          href="https://chameleogfxstudio.com/flyer-design-services-ahmedabad" 
+          href="https://chameleogfxstudio.com/services/graphic-design/flyer-design-services-company" 
         />
         </Helmet>
-       <BreadCrumb title="Flyer Design Services" breadcrumbTitle="Flyer Design Services Ahmedabad " />
+       <BreadCrumb title="Flyer Design Services Company" breadcrumbTitle="Flyer Design Services Company" />
       <div className="bg-white-smoke">
         <FlyerDesigndetail/>
 

@@ -12,10 +12,10 @@ function BuddyBossdesign() {
 			      <meta name="keywords" content="Chameleo GFX Studio, BuddyBoss development India, LearnDash experts Ahmedabad, Dokan design India, eLearning platform development, LMS design India, marketplace website India, WordPress LMS solutions, BuddyBoss customization, Dokan multivendor development" />
             <link 
           rel="canonical" 
-          href="/buddyboss-design-and-development" 
+          href="https://chameleogfxstudio.com/services/web-development/buddyboss-design-and-development-company" 
         />
         </Helmet>
-      <BreadCrumb title="BuddyBoss, LearnDash, and Dokan Design & Development" />
+      <BreadCrumb title="BuddyBoss, LearnDash, and Dokan Design & Development Company" breadcrumbTitle="BuddyBoss, LearnDash, and Dokan Design & Development Company" />
       <div className="bg-white-smoke">
         <BuddyBossdesigndetail />
 

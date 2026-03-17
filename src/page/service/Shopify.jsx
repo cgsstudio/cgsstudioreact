@@ -12,10 +12,10 @@ function Shopify() {
         <meta name="keywords" content="Chameleo GFX Studio, Shopify development, Shopify Ahmedabad, Shopify India, Shopify experts, eCommerce store development, Shopify customization, Shopify designers, Shopify setup, Shopify support" />
         <link
           rel="canonical"
-          href="/shopify"
+          href="https://chameleogfxstudio.com/services/web-development/shopify-development-company"
         />
       </Helmet>
-      <BreadCrumb title="Shopify Development Company in Ahmedabad" />
+      <BreadCrumb title="Shopify Development Company" breadcrumbTitle="Shopify Development Company" />
       <div className="bg-white-smoke">
         <Shopifydetail />
 

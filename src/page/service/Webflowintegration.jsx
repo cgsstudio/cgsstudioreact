@@ -12,10 +12,10 @@ function Webflowintegration() {
 			      <meta name="keywords" content="Chameleo GFX Studio, Webflow Integration Services, Webflow CRM Integration, Webflow CMS Setup, Webflow Developers India, Webflow Ahmedabad, Automation Integration" />
             <link 
           rel="canonical" 
-          href="/webflow-integration" 
+          href="https://chameleogfxstudio.com/services/web-development/webflow-integration-company" 
         />
         </Helmet>
-      <BreadCrumb title="Webflow Integration Services" />
+      <BreadCrumb title="Webflow Integration Company" breadcrumbTitle="Webflow Integration Company" />
       <div className="bg-white-smoke">
         <Webflowintegrationdetail />
 

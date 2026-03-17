@@ -12,10 +12,10 @@ function BrochureDesign() {
 			      <meta name="keywords" content="Chameleo GFX Studio, Brochure Design Services, Brochure Design in Ahmedabad, Brochure Design Company India, Brochure Design Company Ahmedabad, Corporate Brochure Design, Product Brochure Design, Marketing Brochure Design, Custom Brochure Design, Creative Brochure Design, Graphic Design Services" />
       <link 
           rel="canonical" 
-          href="https://chameleogfxstudio.com/brochure-design" 
+          href="https://chameleogfxstudio.com/services/graphic-design/brochure-design-company" 
         />
         </Helmet>
-      <BreadCrumb title="Brochure Design Company " breadcrumbTitle="Brochure Design Company in Ahmedabad" />
+      <BreadCrumb title="Brochure Design Company" breadcrumbTitle="Brochure Design Company" />
       <div className="bg-white-smoke">
         <BrochureDesigndetail />
 

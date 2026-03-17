@@ -7,7 +7,7 @@ function WebDevelopment() {
   return (
     <>
       <Helmet>
-        <title>Website Development Company</title>
+        <title>Website Development</title>
         <meta
           name="description"
           content="Chameleo GFX Studio is the Best Website Development Company in Ahmedabad. We offer professional website development services that help businesses build a strong digital presence."
@@ -18,12 +18,12 @@ function WebDevelopment() {
         />
         <link
           rel="canonical"
-          href="https://chameleogfxstudio.com/website-development-company-ahmedabad"
+          href="https://chameleogfxstudio.com/services/web-development"
         />
       </Helmet>
       <ServiceHeroBanner
-        title="Website Development Company"
-        breadcrumbTitle="Website Development Company in Ahmedabad"
+        title="Website Development"
+        breadcrumbTitle="Website Development"
         subtitle="A website is like the virtual home of a company."
         image={heroBannerImage}
       />

@@ -12,10 +12,10 @@ function Customwebflowdevelopment() {
 			      <meta name="keywords" content="Chameleo GFX Studio, Custom Webflow Development, Webflow Agency Ahmedabad, Webflow Developers India, Webflow Experts, Responsive Webflow Website" />
             <link 
           rel="canonical" 
-          href="/custom-webflow-development" 
+          href="https://chameleogfxstudio.com/services/web-development/custom-webflow-development-company" 
         />
         </Helmet>
-      <BreadCrumb title="Custom Webflow Development" />
+      <BreadCrumb title="Custom Webflow Development Company" breadcrumbTitle="Custom Webflow Development Company" />
       <div className="bg-white-smoke">
         <Customwebflowdevelopmentdetail />
 

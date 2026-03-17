@@ -12,10 +12,10 @@ function Ebookdesign() {
         <meta name="keywords" content="Chameleo GFX Studio, E-Book Design Services Ahmedabad, E-Book Design Ahmedabad, E-Book Design India, E-book Design Services, Digital Book Design, Custom E-Book Design, Interactive E-Book, E-Book Formatting, Professional E-Book Design, Creative E-Book Layout, E-Publishing Design" />
         <link
           rel="canonical"
-          href="https://chameleogfxstudio.com/e-book-design-service-ahmedabad"
+          href="https://chameleogfxstudio.com/services/graphic-design/e-book-design-service-company"
         />
       </Helmet>
-      <BreadCrumb title="E-book Design Services" breadcrumbTitle="E-book Design Services in Ahmedabad" />
+      <BreadCrumb title="E-book Design Services Company" breadcrumbTitle="E-book Design Services Company" />
       <div className="bg-white-smoke">
         <Ebookdesigndetail />
 

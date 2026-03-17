@@ -13,12 +13,12 @@ function Digitalmarketing() {
         <meta name="keywords" content="Chameleo GFX Studio, Digital Marketing India, SEO Services India, Social Media Marketing, Branding Agency India, Web Design India, PPC India, Online Marketing, Content Marketing India, Creative Agency India" />
         <link
           rel="canonical"
-          href="https://chameleogfxstudio.com/digital-marketing-agency-india"
+          href="https://chameleogfxstudio.com/services/digital-marketing"
         />
       </Helmet>
       <ServiceHeroBanner
-        title="Digital Marketing Agency"
-        breadcrumbTitle="Digital Marketing Agency in India"
+        title="Digital Marketing"
+        breadcrumbTitle="Digital Marketing"
         subtitle="A website is like the virtual home of a company."
         image={heroBannerImage}
       />

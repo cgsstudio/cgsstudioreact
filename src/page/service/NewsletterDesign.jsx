@@ -12,10 +12,10 @@ function NewsletterDesign() {
 			<meta name="keywords" content="Chameleo GFX Studio, Newsletter Design Services, Newsletter Design Ahmedabad, Newsletter Design India, Custom Newsletter Design, Business Newsletter Design, Corporate Newsletter, Email Newsletter Design, Digital Newsletter Design, Creative Newsletter Design, Branding Newsletter" />
       <link 
           rel="canonical" 
-          href="https://chameleogfxstudio.com/newsletter-design" 
+          href="https://chameleogfxstudio.com/services/graphic-design/newsletter-design-service-company" 
         />
         </Helmet>
-      <BreadCrumb title="Newsletter Design Service" breadcrumbTitle="Newsletter Design Service in Ahmedabad" />
+      <BreadCrumb title="Newsletter Design Service Company" breadcrumbTitle="Newsletter Design Service Company" />
       <div className="bg-white-smoke">
         <NewsletterDesigndetail />
 

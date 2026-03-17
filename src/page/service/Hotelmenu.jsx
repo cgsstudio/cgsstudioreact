@@ -12,10 +12,10 @@ function Hotelmenu() {
         <meta name="keywords" content="Chameleo GFX Studio, Menu Card Design, Menu Design Ahmedabad, Menu Card Design Services in Ahmedabad, Menu Card Design India, Menu Card Design Services, Restaurant Menu Design, Café Menu Design, Hotel Menu Design, Custom Menu Design, Creative Menu Cards, Food Menu Design" />
         <link
           rel="canonical"
-          href="https://chameleogfxstudio.com/menu-design-service-ahmedabad"
+          href="https://chameleogfxstudio.com/services/graphic-design/menu-design-service-company"
         />
       </Helmet>
-      <BreadCrumb title="Menu Card Design Services" breadcrumbTitle="Menu Card Design Services in Ahmedabad" />
+      <BreadCrumb title="Menu Design Service Company" breadcrumbTitle="Menu Design Service Company" />
       <div className="bg-white-smoke">
         <MenuDesigndetail />
 

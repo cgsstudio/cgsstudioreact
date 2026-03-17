@@ -12,10 +12,10 @@ function InfographicDesign() {
 			<meta name="keywords" content="Chameleo GFX Studio, Infographic Design Services, Infographic Design Ahmedabad, Infographic Design Services in Ahmedabad, Infographic Design India, Infographic Designing India, Data Visualization, Creative Infographics, Business Infographics, Custom Infographic Design, Infographic Marketing, Graphic Design Services" />
       <link 
           rel="canonical" 
-          href="https://chameleogfxstudio.com/infographic-design" 
+          href="https://chameleogfxstudio.com/services/graphic-design/infographic-design-services-company" 
         />
         </Helmet>
-      <BreadCrumb title="Infographic Design Services" breadcrumbTitle="Infographic Design Services in Ahmedabad" />
+      <BreadCrumb title="Infographic Design Services Company" breadcrumbTitle="Infographic Design Services Company" />
       <div className="bg-white-smoke">
         <InfographicDesigndetail />
 

@@ -12,10 +12,10 @@ function WordPressseooptimization() {
 			      <meta name="keywords" content="Chameleo GFX Studio, WordPress SEO Ahmedabad, WordPress SEO India, SEO optimization services,  SEO experts Ahmedabad, WordPress SEO company India, website SEO India, WordPress SEO developers, SEO services for WordPress, on-page SEO WordPress" />
             <link 
           rel="canonical" 
-          href="/wordpress-seo-optimization" 
+          href="https://chameleogfxstudio.com/services/web-development/wordpress-seo-optimization-company" 
         />
         </Helmet>
-      <BreadCrumb title="WordPress SEO Optimization" />
+      <BreadCrumb title="WordPress SEO Optimization Company" breadcrumbTitle="WordPress SEO Optimization Company" />
       <div className="bg-white-smoke">
         <WordPressseooptimizationdetail />
 

@@ -12,10 +12,10 @@ function Reactjswebsitedevelopment() {
 			      <meta name="keywords" content="Chameleo GFX Studio, React.js website development, React developers Ahmedabad, React India, frontend development, scalable React websites, modern web apps, React UI design, custom React websites, React.js experts" />
             <link 
           rel="canonical" 
-          href="/reactjs-ssr-website-development" 
+          href="https://chameleogfxstudio.com/services/web-development/reactjs-ssr-website-development-company" 
         />
         </Helmet>
-      <BreadCrumb title="React.js Website Development"/>
+      <BreadCrumb title="Reactjs Website Development Company" breadcrumbTitle="Reactjs Website Development Company" />
       <div className="bg-white-smoke">
         <Reactjswebsitedevelopmentdetail />
 

@@ -12,10 +12,10 @@ function Shopifythemecustomization() {
 			      <meta name="keywords" content="Chameleo GFX Studio, Shopify theme customization, Shopify Ahmedabad, Shopify theme design, Shopify experts India, Shopify store customization, eCommerce theme edits, Shopify developers, Shopify UI customization, Shopify store design" />
             <link 
           rel="canonical" 
-          href="/shopify-theme-customization" 
+          href="https://chameleogfxstudio.com/services/web-development/shopify-theme-customization-company" 
         />
         </Helmet>
-      <BreadCrumb title="Shopify Theme Customization" />
+      <BreadCrumb title="Shopify Theme Customization Company" breadcrumbTitle="Shopify Theme Customization Company" />
       <div className="bg-white-smoke">
         <Shopifythemecustomizationdetail />
 
