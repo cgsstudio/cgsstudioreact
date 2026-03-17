@@ -10,6 +10,9 @@ function Navbar({
     handleMenu,
     handleGoBack,
     mobileSubMenu,
+    handleSubMenu,
+    mobileSubMenuSub,
+    handleSubMenuSub,
     menuTitle,
 }) {
     const [mobileServicesOpen, setMobileServicesOpen] = useState(false);
@@ -55,6 +58,9 @@ function Navbar({
             if (!mobileServicesOpen) {
                 e.preventDefault(); // Prevent navigation first time to open dropdown
                 setMobileServicesOpen(true);
+                if (handleSubMenu) {
+                    handleSubMenu(e, "services");
+                }
             } else {
                 // Dropdown already open, allow navigation and close menu + dropdown
                 handleMobileLinkClick();
@@ -87,13 +93,25 @@ function Navbar({
     return (
         <nav className={`menu-block ${toggleMenu ? "active" : ""}`}>
             {/* Mobile Menu Header */}
-            <div className={`mobile-menu-head ${mobileSubMenu ? "active" : ""}`}>
+            <div className={`mobile-menu-head ${(mobileSubMenu || mobileServicesOpen) ? "active" : ""}`}>
                 <a href="/"><img src={CgsLogo} alt="CGS Logo" width="200" height="50" /></a>
-                <div className="go-back" onClick={handleGoBack}>
+                <div className="go-back" onClick={() => {
+                    if (isMobile && mobileServicesOpen) {
+                        setMobileServicesOpen(false);
+                    }
+                    handleGoBack();
+                }}>
                     <i className="fa fa-angle-left"></i>
                 </div>
                 <div className="current-menu-title">{menuTitle}</div>
-                <div className="mobile-menu-close" onClick={handleMenu}>
+                <div className="mobile-menu-close" onClick={() => {
+                    if (isMobile && mobileServicesOpen) {
+                        setMobileServicesOpen(false);
+                        handleGoBack(); // Reset submenu state without closing full menu
+                    } else {
+                        handleMenu();
+                    }
+                }}>
                     &times;
                 </div>
             </div>
@@ -147,13 +165,15 @@ function Navbar({
                                 </span>
                             </NavLink>
 
-                            {/* Mega Menu for Desktop */}
-                            {!isMobile && (
-                                <MegaMenu 
-                                    isOpen={megaMenuOpen} 
-                                    closeMenu={() => setMegaMenuOpen(false)} 
-                                />
-                            )}
+                            {/* Mega Menu (desktop + mobile) */}
+                            <MegaMenu
+                                isOpen={isMobile ? mobileServicesOpen : megaMenuOpen}
+                                isMobile={isMobile}
+                                closeMenu={() => {
+                                    if (isMobile) setMobileServicesOpen(false);
+                                    else setMegaMenuOpen(false);
+                                }}
+                            />
                         </li>
                     ) : (
                         <li className="nav-item" key={route.title}>

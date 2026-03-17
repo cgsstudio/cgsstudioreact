@@ -5,7 +5,7 @@ import {
   FaRocket, 
   FaCode, 
   FaBullhorn, 
-  FaChevronRight 
+  FaChevronRight
 } from "react-icons/fa";
 import { 
   graphicDesignServices, 
@@ -15,7 +15,7 @@ import {
 } from "../../../data/serviceData";
 import "./MegaMenu.css";
 
-const MegaMenu = ({ isOpen, closeMenu }) => {
+const MegaMenu = ({ isOpen, closeMenu, isMobile }) => {
   const menuData = {
     "Graphics Design": {
       icon: <FaPalette />,
@@ -24,15 +24,24 @@ const MegaMenu = ({ isOpen, closeMenu }) => {
       sections: [
         {
           title: "Branding",
-          links: graphicDesignServices[0].items.slice(0, 8).map(item => ({ label: item.text, href: item.link }))
+          links: graphicDesignServices[0].items.slice(0, 8).map((item) => ({ 
+            label: item.text, 
+            href: item.link
+          }))
         },
         {
           title: "Print & Media",
-          links: graphicDesignServices[0].items.slice(8, 16).map(item => ({ label: item.text, href: item.link }))
+          links: graphicDesignServices[0].items.slice(8, 16).map((item) => ({ 
+            label: item.text, 
+            href: item.link
+          }))
         },
         {
           title: "Corporate",
-          links: graphicDesignServices[0].items.slice(16, 24).map(item => ({ label: item.text, href: item.link }))
+          links: graphicDesignServices[0].items.slice(16, 24).map((item) => ({ 
+            label: item.text, 
+            href: item.link
+          }))
         }
       ]
     },
@@ -43,21 +52,24 @@ const MegaMenu = ({ isOpen, closeMenu }) => {
       sections: [
         {
           title: "Core UX",
-          links: uiuxDesignServices[0].items.map(item => ({ label: item.text, href: item.link }))
+          links: uiuxDesignServices[0].items.map((item) => ({ 
+            label: item.text, 
+            href: item.link
+          }))
         }
       ]
     },
     "Website Development": {
       icon: <FaCode />,
       href: "/services/web-development",
-      columns: 5,
+      columns: 3,
       sections: webDevelopmentServices[0].categories.map(cat => ({
         title: cat.subtitle,
         links: cat.items
           .filter(item => item.text.toLowerCase() !== cat.subtitle.toLowerCase())
-          .map(item => ({ 
+          .map((item) => ({ 
             label: item.text.replace("React.js ", "").replace("Development and ", ""), 
-            href: item.link 
+            href: item.link
           }))
       }))
     },
@@ -68,7 +80,10 @@ const MegaMenu = ({ isOpen, closeMenu }) => {
       sections: [
         {
           title: "Marketing",
-          links: digitalMarketingServices[0].items.map(item => ({ label: item.text, href: item.link }))
+          links: digitalMarketingServices[0].items.map((item) => ({ 
+            label: item.text, 
+            href: item.link
+          }))
         }
       ]
     }
@@ -76,6 +91,29 @@ const MegaMenu = ({ isOpen, closeMenu }) => {
 
   const tabKeys = Object.keys(menuData);
   const [activeTab, setActiveTab] = useState(tabKeys[0]);
+  const activeColumns = isMobile ? 1 : menuData[activeTab].columns;
+
+  // Mobile: render a simple dropdown list of the 4 main pages (no mega grid)
+  if (isMobile) {
+    return (
+      <div className={`mega-menu-master ${isOpen ? "open" : ""} mobile`}>
+        <div className="mega-container mobile-simple">
+          <div className="mobile-services-dropdown">
+            {tabKeys.map((tab) => (
+              <NavLink
+                key={tab}
+                to={menuData[tab].href}
+                className="mobile-service-link"
+                onClick={closeMenu}
+              >
+                {tab}
+              </NavLink>
+            ))}
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className={`mega-menu-master ${isOpen ? "open" : ""}`} onMouseLeave={closeMenu}>
@@ -99,21 +137,22 @@ const MegaMenu = ({ isOpen, closeMenu }) => {
 
         {/* Right Main Panel for Sub-Categories */}
         <main className="mega-main-panel">
-          <div className={`mega-grid-dynamic grid-cols-${menuData[activeTab].columns}`}>
+          <div className={`mega-grid-dynamic grid-cols-${activeColumns}`}>
             {menuData[activeTab].sections.map((section, idx) => (
               <div key={idx} className="mega-section-column">
                 <h4 className="column-heading-top">{section.title}</h4>
                 <nav className="column-links-list">
                   {section.links.map((link, lIdx) => (
-                    <NavLink key={lIdx} to={link.href} className="column-link-item" onClick={closeMenu}>
-                      {link.label}
-                    </NavLink>
+                    <div key={lIdx} className="link-wrapper">
+                      <NavLink to={link.href} className="column-link-item" onClick={closeMenu}>
+                        {link.label}
+                      </NavLink>
+                    </div>
                   ))}
                 </nav>
               </div>
             ))}
           </div>
-
         </main>
       </div>
     </div>
