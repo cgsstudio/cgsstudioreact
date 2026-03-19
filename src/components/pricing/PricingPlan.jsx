@@ -66,7 +66,7 @@ const pricingPlanData = [
 function PricingPlan() {
 	const frequencies = [
 		{ id: 1, label: "Annually" },
-		{ id: 2, label: "Monthly" },
+		{ id: 2, label: "weekly" },
 	];
 
 	const [frequency, setFrequency] = useState(frequencies[0]);
@@ -94,7 +94,7 @@ function PricingPlan() {
 					</h2>
 				</div>
 				<div className="pricing-btn">
-					<label>Billed monthly</label>
+					<label>Billed weekly</label>
 					<div className="toggle-btn">
 						<input
 							className="form-check-input btn-toggle price-deck-trigger"

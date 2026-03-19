@@ -12,10 +12,10 @@ function Htmltoreact() {
 			      <meta name="keywords" content="Chameleo GFX Studio, HTML to React, React conversion in Ahmedabad, React developers India, HTML to React.js, dynamic web apps, frontend development, React components, responsive React apps, custom React development" />
             <link 
           rel="canonical" 
-          href="https://chameleogfxstudio.com/services/web-development/html-to-react-company" 
+          href="https://chameleogfxstudio.com/services/web-development/html-to-react-services" 
         />
         </Helmet>
-      <BreadCrumb title="HTML to React Company" breadcrumbTitle="HTML to React Company" />
+      <BreadCrumb title="HTML to React Services" breadcrumbTitle="HTML to React Services" />
       <div className="bg-white-smoke">
         <Htmltoreactdetail />
 

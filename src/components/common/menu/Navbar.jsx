@@ -29,6 +29,16 @@ function Navbar({
         return () => window.removeEventListener("resize", handleResize);
     }, []);
 
+    // Reset mobile states when switching to desktop
+    useEffect(() => {
+        if (windowWidth > 991) {
+            setMobileServicesOpen(false);
+            if (toggleMenu) {
+                handleMenu();
+            }
+        }
+    }, [windowWidth, toggleMenu, handleMenu]);
+
     // Close dropdown when route changes
     useEffect(() => {
         setMobileServicesOpen(false);

@@ -4,59 +4,19 @@ import BlogHero from "../../../components/common/BlogHero";
 
 const sitemapData = [
   {
-    title: "Home",
+    title: "Main Pages",
     items: [
       { text: "Home", link: "/" },
-    ],
-  },
-  {
-    title: "About Us",
-    items: [
-      { text: "About Us", link: "/about-us" },
-    ],
-  },
-  {
-    title: "Services",
-    subcategories: [
-      {
-        subtitle: "Graphics Design",
-        items: [
-          { text: "Logo Design", link: "/services/graphic-design/logo-design-company" },
-          { text: "Branding and Identity Design", link: "/services/graphic-design/branding-and-identity-design-agency" },
-          { text: "Social Media Banner Design", link: "/services/graphic-design/social-media-banner-design" },
-          { text: "Flyer Design", link: "/services/graphic-design/flyer-design-services" },
-          { text: "Brochure Design", link: "/services/graphic-design/brochure-design-company" },
-          { text: "Poster Design", link: "/services/graphic-design/poster-design-services" },
-          { text: "Hoarding Design", link: "/services/graphic-design/hoarding-design-services" },
-          { text: "Packaging Design", link: "/services/graphic-design/packaging-design-agency" },
-          { text: "Advertising Design", link: "/services/graphic-design/advertising-design-agency" },
-          { text: "Newsletter Design", link: "/services/graphic-design/newsletter-design-service" },
-          { text: "Infographic Design", link: "/services/graphic-design/infographic-design-services" },
-          { text: "Business Card Design", link: "/services/graphic-design/visiting-card-design-service" },
-          { text: "Presentation Design", link: "/services/graphic-design/presentation-design-services" },
-          { text: "Magazine and Booklet Design", link: "/services/graphic-design/magazine-and-booklet-design" },
-          { text: "Custom Illustration Design", link: "/services/graphic-design/custom-illustration-design" },
-          { text: "Event Invitation Design", link: "/services/graphic-design/event-invitation-design" },
-          { text: "Menu Design", link: "/services/graphic-design/menu-design-service" },
-          { text: "Signage Design", link: "/services/graphic-design/signage-design-service" },
-          { text: "Corporate Profile Design", link: "/services/graphic-design/corporate-profile-design" },
-          { text: "Annual Report Design", link: "/services/graphic-design/annual-report-design-agency" },
-          { text: "Digital Ad Design", link: "/services/graphic-design/digital-ad-design-agency" },
-          { text: "Trade Show Booth Design", link: "/services/graphic-design/exhibition-booth-design" },
-          { text: "Motion Graphics Design", link: "/services/graphic-design/motion-graphics-design-agency" },
-          { text: "E-book Design", link: "/services/graphic-design/e-book-design-service" },
-        ],
-      },
-    ],
-  },
-  {
-    title: "UI/UX Design",
-    items: [
-      { text: "Website UI/UX Design", link: "/services/ui-ux-design/website-ui-ux-design" },
-      { text: "iOS UI/UX Design", link: "/services/ui-ux-design/ios-ui-ux-design" },
-      { text: "Android UI/UX Design", link: "/services/ui-ux-design/android-ui-ux-design" },
-      { text: "Backend UI/UX Design", link: "/services/ui-ux-design/backend-ui-ux-design" },
-      { text: "ERP UI/UX Design", link: "/services/ui-ux-design/erp-ui-ux-design" },
+      { text: "About Us", link: "/about-us/" },
+      { text: "Services", link: "/services/" },
+      { text: "Case Studies", link: "/case-studies/" },
+      { text: "Industries We Serve", link: "/industries-we-serve/" },
+      { text: "Blog", link: "/blog/" },
+      { text: "Contact Us", link: "/contact-us/" },
+      { text: "Testimonials", link: "/testimonial/" },
+      { text: "Pricing", link: "/pricing/" },
+      { text: "Team", link: "/team" },
+      { text: "FAQ", link: "/faq/" },
     ],
   },
   {
@@ -65,167 +25,195 @@ const sitemapData = [
       {
         subtitle: "HTML/CSS",
         items: [
-          { text: "HTML/CSS", link: "/services/web-development/html-css-development" },
-          { text: "Custom HTML Website Design", link: "/services/web-development/custom-html-website-design" },
-          { text: "Template Customization", link: "/services/web-development/template-customization" },
-          { text: "Responsive Web Design", link: "/services/web-development/responsive-web-design" },
-          { text: "Cross-Browser Compatibility Testing", link: "/services/web-development/cross-browser-compatibility-testing" },
-          { text: "Website Redesign and Revamp", link: "/services/web-development/website-redesign-and-revamp" },
+          { text: "HTML/CSS Development", link: "/services/web-development/html-css-development-company" },
+          { text: "Custom HTML Website Design", link: "/services/web-development/custom-html-website-design-company" },
+          { text: "Template Customization", link: "/services/web-development/template-customization-company" },
+          { text: "Responsive Web Design", link: "/services/web-development/responsive-web-design-company" },
+          { text: "Cross-Browser Compatibility Testing", link: "/services/web-development/cross-browser-compatibility-testing-company" },
+          { text: "Website Redesign and Revamp", link: "/services/web-development/website-redesign-and-revamp-company" },
         ],
       },
       {
         subtitle: "Webflow",
         items: [
-          { text: "Webflow", link: "/services/web-development/webflow-development" },
-          { text: "Custom Webflow Development", link: "/services/web-development/custom-webflow-development" },
-          { text: "Webflow Theme Development", link: "/services/web-development/webflow-theme-development" },
-          { text: "Figma to Webflow", link: "/services/web-development/figma-to-webflow" },
-          { text: "HTML to Webflow", link: "/services/web-development/html-to-webflow" },
-          { text: "Webflow Integration", link: "/services/web-development/webflow-integration" },
+          { text: "Webflow Development", link: "/services/web-development/webflow-development-company" },
+          { text: "Custom Webflow Development", link: "/services/web-development/custom-webflow-development-company" },
+          { text: "Webflow Theme Development", link: "/services/web-development/webflow-theme-development-company" },
+          { text: "Figma to Webflow", link: "/services/web-development/figma-to-webflow-company" },
+          { text: "Photoshop to Webflow", link: "/services/web-development/photoshop-to-webflow-company" },
+          { text: "HTML to Webflow", link: "/services/web-development/html-to-webflow-company" },
+          { text: "Webflow Integration", link: "/services/web-development/webflow-integration-company" },
         ],
       },
       {
         subtitle: "WordPress",
         items: [
-          { text: "WordPress", link: "/services/web-development/wordpress-development" },
-          { text: "Custom WordPress Website Design", link: "/services/web-development/custom-wordpress-website-design" },
-          { text: "WooCommerce Development", link: "/services/web-development/woocommerce-development" },
-          { text: "WordPress SEO Optimization", link: "/services/web-development/wordpress-seo-optimization" },
-          { text: "WordPress Migration and Upgrades", link: "/services/web-development/wordpress-migration-and-upgrades" },
-          { text: "BuddyBoss Design and Development", link: "/services/web-development/buddyboss-design-and-development" },
+          { text: "WordPress Development", link: "/services/web-development/wordpress-development-company" },
+          { text: "Custom WordPress Website Design", link: "/services/web-development/custom-wordpress-website-design-company" },
+          { text: "WooCommerce Development", link: "/services/web-development/woocommerce-development-company" },
+          { text: "WordPress SEO Optimization", link: "/services/web-development/wordpress-seo-optimization-company" },
+          { text: "WordPress Migration and Upgrades", link: "/services/web-development/wordpress-migration-and-upgrades-company" },
+          { text: "BuddyBoss Design and Development", link: "/services/web-development/buddyboss-design-and-development-company" },
         ],
       },
       {
         subtitle: "Shopify",
         items: [
-          { text: "Shopify", link: "/services/web-development/shopify-development" },
-          { text: "Custom Shopify Store Design", link: "/services/web-development/custom-shopify-store-design" },
-          { text: "Shopify Theme Customization", link: "/services/web-development/shopify-theme-customization" },
-          { text: "Shopify SEO Optimization", link: "/services/web-development/shopify-seo-optimization" },
-          { text: "Figma to Shopify", link: "/services/web-development/figma-to-shopify" },
-          { text: "Photoshop to Shopify", link: "/services/web-development/photoshop-to-shopify" },
-          { text: "HTML to Shopify", link: "/services/web-development/html-to-shopify" },
-          { text: "Shopify App Integration and Development", link: "/services/web-development/shopify-app-integration-and-development" },
-          { text: "Shopify E-commerce Management and Support", link: "/services/web-development/shopify-ecommerce-management-and-support" },
+          { text: "Shopify Development", link: "/services/web-development/shopify-development-company" },
+          { text: "Custom Shopify Store Design", link: "/services/web-development/custom-shopify-store-design-company" },
+          { text: "Shopify Theme Customization", link: "/services/web-development/shopify-theme-customization-company" },
+          { text: "Shopify SEO Optimization", link: "/services/web-development/shopify-seo-optimization-company" },
+          { text: "Figma to Shopify", link: "/services/web-development/figma-to-shopify-services" },
+          { text: "Photoshop to Shopify", link: "/services/web-development/photoshop-to-shopify-services" },
+          { text: "HTML to Shopify", link: "/services/web-development/html-to-shopify-services" },
+          { text: "Shopify App Integration and Development", link: "/services/web-development/shopify-app-integration-and-development-company" },
+          { text: "Shopify E-commerce Management and Support", link: "/services/web-development/shopify-ecommerce-management-and-support-company" },
         ],
       },
       {
         subtitle: "React.js",
         items: [
-          { text: "React.js", link: "/services/web-development/react-js-development" },
-          { text: "Figma to React", link: "/services/web-development/figma-to-react" },
-          { text: "Photoshop to React", link: "/services/web-development/photoshop-to-react" },
-          { text: "HTML to React", link: "/services/web-development/html-to-react" },
-          { text: "React.js Performance Optimization", link: "/services/web-development/reactjs-performance-optimization" },
-          { text: "Custom React.js Web Application Development", link: "/services/web-development/custom-reactjs-web-application-development" },
-          { text: "React.js Component Development and Integration", link: "/services/web-development/reactjs-component-development-and-integration" },
-          { text: "React.js Mobile App Development (React Native)", link: "/services/web-development/reactjs-mobile-app-development" },
-          { text: "React.js Website Development with SSR", link: "/services/web-development/reactjs-ssr-website-development" },
-          { text: "React.js UI/UX Design and Development", link: "/services/web-development/reactjs-ui-ux-design-and-development" },
+          { text: "React.js Development", link: "/services/web-development/react-js-development-company" },
+          { text: "Figma to React", link: "/services/web-development/figma-to-react-services" },
+          { text: "Photoshop to React", link: "/services/web-development/photoshop-to-react-services" },
+          { text: "HTML to React", link: "/services/web-development/html-to-react-services" },
+          { text: "React.js Performance Optimization", link: "/services/web-development/reactjs-performance-optimization-company" },
+          { text: "Custom React.js Web Application Development", link: "/services/web-development/custom-reactjs-web-application-development-company" },
+          { text: "React.js Component Development and Integration", link: "/services/web-development/reactjs-component-development-and-integration-company" },
+          { text: "React.js Mobile App Development", link: "/services/web-development/reactjs-mobile-app-development-company" },
+          { text: "React.js Website Development with SSR", link: "/services/web-development/reactjs-ssr-website-development-company" },
+          { text: "React.js UI/UX Design and Development", link: "/services/web-development/reactjs-ui-ux-design-and-development-company" },
         ],
       },
     ],
   },
   {
+    title: "Graphics Design Services",
+    items: [
+      { text: "Logo Design", link: "/services/graphic-design/logo-design-company" },
+      { text: "Branding and Identity Design", link: "/services/graphic-design/branding-and-identity-design-agency-company" },
+      { text: "Social Media Banner Design", link: "/services/graphic-design/social-media-banner-design-company" },
+      { text: "Flyer Design", link: "/services/graphic-design/flyer-design-services-company" },
+      { text: "Brochure Design", link: "/services/graphic-design/brochure-design-company" },
+      { text: "Poster Design", link: "/services/graphic-design/poster-design-services-company" },
+      { text: "Hoarding Design", link: "/services/graphic-design/hoarding-design-services-company" },
+      { text: "Packaging Design", link: "/services/graphic-design/packaging-design-agency-company" },
+      { text: "Advertising Design", link: "/services/graphic-design/advertising-design-agency-company" },
+      { text: "Newsletter Design", link: "/services/graphic-design/newsletter-design-service-company" },
+      { text: "Infographic Design", link: "/services/graphic-design/infographic-design-services-company" },
+      { text: "Business Card Design", link: "/services/graphic-design/visiting-card-design-service-company" },
+      { text: "Presentation Design", link: "/services/graphic-design/presentation-design-services-company" },
+      { text: "Magazine and Booklet Design", link: "/services/graphic-design/magazine-and-booklet-design-company" },
+      { text: "Custom Illustration Design", link: "/services/graphic-design/custom-illustration-design-company" },
+      { text: "Event Invitation Design", link: "/services/graphic-design/event-invitation-design-company" },
+      { text: "Menu Design", link: "/services/graphic-design/menu-design-service-company" },
+      { text: "Signage Design", link: "/services/graphic-design/signage-design-service-company" },
+      { text: "Corporate Profile Design", link: "/services/graphic-design/corporate-profile-design-company" },
+      { text: "Annual Report Design", link: "/services/graphic-design/annual-report-design-agency-company" },
+      { text: "Digital Ad Design", link: "/services/graphic-design/digital-ad-design-agency-company" },
+      { text: "Trade Show Booth Design", link: "/services/graphic-design/exhibition-booth-design-company" },
+      { text: "Motion Graphics Design", link: "/services/graphic-design/motion-graphics-design-agency-company" },
+      { text: "E-book Design", link: "/services/graphic-design/e-book-design-service-company" },
+    ],
+  },
+  {
+    title: "UI/UX Design Services",
+    items: [
+      { text: "Website UI/UX Design", link: "/services/ui-ux-design/website-ui-ux-design-company" },
+      { text: "iOS UI/UX Design", link: "/services/ui-ux-design/ios-ui-ux-design-company" },
+      { text: "Android UI/UX Design", link: "/services/ui-ux-design/android-ui-ux-design-company" },
+      { text: "Backend UI/UX Design", link: "/services/ui-ux-design/backend-ui-ux-design-company" },
+      { text: "ERP UI/UX Design", link: "/services/ui-ux-design/erp-ui-ux-design-company" },
+    ],
+  },
+
+  {
     title: "Digital Marketing",
     items: [
       { text: "Digital Marketing", link: "/services/digital-marketing" },
-      { text: "Search Engine Optimization (SEO)", link: "/services/digital-marketing/search-engine-optimization" },
-      { text: "Social Media Marketing", link: "/services/digital-marketing/social-media-marketing" },
-      { text: "Email Marketing", link: "/services/digital-marketing/email-marketing" },
-      { text: "Google Ads", link: "/services/digital-marketing/google-ads" },
-      { text: "Meta Ads", link: "/services/digital-marketing/meta-ads" },
+      { text: "Search Engine Optimization (SEO)", link: "/services/digital-marketing/seo-agency" },
+      { text: "Social Media Marketing", link: "/services/digital-marketing/social-media-marketing-agency" },
+      { text: "Email Marketing", link: "/services/digital-marketing/email-marketing-company" },
+      { text: "Google Ads", link: "/services/digital-marketing/google-ads-management-agency" },
+      { text: "Meta Ads", link: "/services/digital-marketing/meta-ads-management-company" },
     ],
   },
   {
-    title: "Industries We Serve",
+    title: "Blog Posts",
     items: [
-      { text: "Industries We Serve", link: "/industries-we-serve" },
-    ],
-  },
-  {
-    title: "Blogs",
-    items: [
-      { text: "How AI is Revolutionizing SEO in 2025: A Human-Centric Guide for Business Growth", link: "/blog/how-ai-is-revolutionizing-seo-in-2025-human-centric-guide-for-business-growth" },
-      { text: "5 UI/UX Mistakes That Are Hurting Your Website’s Performance And How to Fix Them", link: "/blog/5-ui-ux-mistakes-that-are-hurting-websites-performance" },
-      { text: "How Does SEO Help Fashion Retailers Attract More Organic Traffic?", link: "/blog/seo-for-fashion-retailers" },
-      { text: "Google Ads vs. Social Media Ads: How to Choose the Best Platform for Your Business", link: "/blog/google-ads-vs-social-media-ads-choose-the-best-platform-for-business" },
-      { text: "Optimizing Your Web Presence: The Power of SEO Strategies", link: "/blog/power-of-seo-strategies" },
-      { text: "Top 10 SEO Strategies to Boost Your Website’s Google Ranking in 2024", link: "/blog/seo-strategies-to-boost-website-google-ranking" },
-      { text: "How to Build a Unique and Memorable Brand Identity", link: "/blog/how-to-build-a-unique-and-memorable-brand-identity" },
-      { text: "How to Improve Your Company Website’s SEO Rankings", link: "/blog/how-to-improve-your-company-website-seo-ranking" },
-      { text: "Top 5 Graphic Design Trends for 2024 You Need to Know", link: "/blog/graphic-design-trends-for-2024" },
+      { text: "The Role of AI in Graphic Design: Revolution or evolution?", link: "/blog/role-of-ai-in-graphic-design" },
+      { text: "How Graphic Design Impacts Brand Success?", link: "/blog/how-graphic-design-impacts-brand-success" },
+      { text: "The Impact of Graphic Design on Brand Identity", link: "/blog/impact-of-graphic-design-on-brand-identity" },
+      { text: "Digital Marketing vs Traditional Marketing: Which one is better?", link: "/blog/digital-marketing-vs-traditional-marketing" },
+      { text: "Top 7 Ways to Drive More Traffic to Your Website", link: "/blog/top-7-ways-to-drive-more-traffic-to-your-website" },
+      { text: "How to Optimize Your Website for SEO", link: "/blog/how-to-optimize-your-website-for-seo" },
+      { text: "Why Choose Chameleo GFX Studio as Your Graphic Design Agency?", link: "/blog/why-choose-chameleo-gfx-studio-as-your-graphic-design-agency" },
+      { text: "Tips for Effective Logo Design", link: "/blog/tips-for-effective-logo-design" },
+      { text: "The Future of Graphic Design Industries", link: "/blog/future-of-graphic-design-industries" },
+      { text: "Common UX Mistakes to Avoid", link: "/blog/common-ux-mistakes-to-avoid" },
+      { text: "Understanding Colors in Graphic Design", link: "/blog/understanding-colors-in-graphic-design" },
+      { text: "Importance of High-Quality Images in Design", link: "/blog/importance-of-high-quality-images-in-design" },
       { text: "How to Create a Brand Identity That Stands Out", link: "/blog/how-to-create-a-brand-identity-that-stands-out" },
-      { text: "How E-commerce Businesses Can Thrive with Digital Marketing in 2024", link: "/blog/e-commerce-businesses-can-thrive-with-digital-marketing-in-2024" },
-      { text: "How to Optimize Your Website for Increasing Clicks", link: "/blog/how-to-optimize-your-website-for-increasing-clicks" },
-      { text: "The Beginner’s Guide to SEO-Friendly Website Development", link: "/blog/the-beginners-guide-to-seo-friendly-website-development" },
-      { text: "How To Make the E-Commerce Websites Efficient for Better Selling and Good SEO", link: "/blog/how-to-make-the-e-commerce-websites-efficient-for-better-selling-and-good-seo" },
-      { text: "E-commerce Website Design Trends in 2024 You Should Know", link: "/blog/e-commerce-website-design-trends-in-2024-you-should-know" },
-      { text: "How a Web Design and Development Agency in Ahmedabad, India Can Revolutionize Your Business for the Digital Era", link: "/blog/how-a-web-design-and-development-agency-in-ahmedabad-india-can-revolutionize-your-business-for-the-digital-era" },
-      { text: "How SEO Boosts Online Visibility for Dubai’s Tourism and Hospitality", link: "/blog/how-seo-boosts-online-visibility-for-dubai-tourism-and-hospitality" },
-      { text: "How a Professional Logo Designer Can Help Your Brand Achieve Long-Term Success?", link: "/blog/professional-logo-designer-can-help-your-brand-achieve-long-term-success" },
-      { text: "How SEO and AI Work Together to Drive Targeted Traffic and Leads for Online Stores?", link: "/blog/seo-ai-to-drive-targeted-traffic-and-leads-for-online-stores" },
-      { text: "How to Choose the Right eCommerce Platform for Your Business?", link: "/blog/right-ecommerce-platform-for-your-business" },
-      { text: "How to Design High-Converting Infographics for Amazon A+ Content?", link: "/blog/how-to-design-high-converting-infographics-for-amazon-a-plus-content" },
-      { text: "Top SEO Strategies for Healthcare Providers to Boost Online Visibility", link: "/blog/seo-strategies-for-healthcare" },
-      { text: "Why UI/UX Design is Crucial for Android App Success?", link: "/blog/why-ui-ux-design-is-crucial-for-android-app" },
-      { text: "How Custom-Coded Websites Boost UX and Conversions for Indian Businesses", link: "/blog/custom-coded-websites-boost-ux-conversions-for-indian-businesses" },
-      { text: "Why Businesses Should Consider Custom Shopify Development?", link: "/blog/businesses-should-consider-custom-shopify-development" },
-      { text: "React Performance Optimization: Techniques for Faster Apps", link: "/blog/react-performance-optimization-techniques-for-faster-apps" },
-      { text: "Voice Search Optimization: How to Prepare Your Website for 2025", link: "/blog/how-to-prepare-your-website-for-voice-search-optimization-2025" },
-      { text: "What Is the Easiest Way to Convert an HTML Website to WordPress?", link: "/blog/way-to-convert-an-html-website-to-wordpress" },
-      { text: "How Webflow Enhances Speed, Security, and Scalability for Businesses?", link: "/blog/how-webflow-enhances-speed-security-and-scalability-for-businesses" },
-      { text: "How AI Personalization Affects Search Results & CTR?", link: "/blog/how-AI-personalization-affects-search-results-&-CTR" },
-      { text: "A Step-by-Step Guide: How to Choose the Right SEO Agency for Your Business", link: "/blog/best-seo-agency-in-bangalore-for-small-businesses" },
-      { text: "Speed Optimization Techniques to Fix Slower Website Performance in Bangalore", link: "/blog/speed-optimization-techniques-fix-slower-website-performance-bangalore" },
-      { text: "The Growing Demand for React.js Developers in Bangalore’s IT Hub", link: "/blog/demand-for-reactjs-developers-bangalore" },
-      { text: "How AI is Transforming UI/UX Design in Bangalore’s Tech Scene?", link: "/blog/how-ai-is-transforming-ui-ux-design-in-bangalore-tech-scene" },
-      { text: "Latest Digital Marketing Trends: What Bangalore Startups Should Watch", link: "/blog/digital-marketing-trends-bangalore-startups" },
-      { text: "How Google Gemini is Transforming Graphics & UI/UX Design in 2025", link: "/blog/google-gemini-transforming-design-2025" },
-      { text: "Step-by-Step Social Media Strategy for Bangalore Businesses", link: "/blog/step-by-step-social-media-strategy-for-bangalore-businesses" },
-      { text: "WordPress Security Best Practices Every Bangalore Business Should Follow", link: "/blog/wordpress-security-best-practices-bangalore" },
-      { text: "The Rise of AI in Search and What Bangalore Digital Marketers Must Know", link: "/blog/rise-of-ai-in-search-bangalore-digital-marketers" },
-      { text: "SEO for Bangalore’s SaaS & Tech Companies: Winning Strategies in a Crowded Market", link: "/blog/seo-for-bangalore-saas-tech-companies-winning-strategies" },
-      { text: "How Tech Companies in Bangalore Are Leveraging Web 3.0 for Growth?", link: "/blog/how-tech-companies-in-bangalore-are-leveraging-web3-for-growth" },
-      { text: "UI/UX Case Study: Redesigning a Poor-Performing Landing Page", link: "/blog/ui-ux-case-study-landing-page-redesign" },
-      { text: "How AI Automation Tools Are Transforming IT Operations in 2025", link: "/blog/how-ai-automation-tools-are-transforming-it-operations-2025" },
-      { text: "The Best AI Tools for Software Development Teams in 2025", link: "/blog/the-best-ai-tools-for-software-development-teams-in-2025" },
-      { text: "IT Infrastructure Automation Using AI: The Future of DevOps", link: "/blog/it-infrastructure-automation-using-ai-future-of-devops" },
-      { text: "Top 10 UI/UX Design Trends Transforming Indian Businesses", link: "/blog/ui-ux-design-trends-transforming-indian-businesses-2025" },
-      { text: "How AI Helps IT Departments Reduce Costs & Increase Efficiency?", link: "/blog/how-ai-helps-it-departments-reduce-costs-increase-efficiency" },
-      { text: "10 Logo Design Fundamentals to Know Before Using AI Design Tools", link: "/blog/logo-design-fundamentals-ai-tools-guide" },
-      { text: "AI in Cloud Management: Smarter Monitoring, Cost Control & Scaling", link: "/blog/ai-in-cloud-management-monitoring-cost-control-scaling" },
-      { text: "WordPress Development Workflow: From Local Setup to Production", link: "/blog/wordpress-development-workflow-local-to-production" },
-      { text: "AI-Powered QA & Testing Tools Shaping the Future of Software Quality", link: "/blog/ai-powered-qa-testing-tools-future-software-quality" },
-      { text: "The Future of UI/UX Design: Human-Centered Experiences in an AI World", link: "/blog/future-of-ui-ux-design-human-centered-ai" },
-      { text: "LinkedIn Marketing for B2B Brands: A Complete Guide", link: "/blog/linkedin-marketing-for-b2b-brands-complete-guide" },
+      { text: "Effective Typography Tips", link: "/blog/effective-typography-tips" },
+      { text: "The Role of Visual Storytelling in Branding", link: "/blog/role-of-visual-storytelling-in-branding" },
+      { text: "Minimalism vs Maximalism in Design", link: "/blog/minimalism-vs-maximalism-in-design" },
+      { text: "Why Your Business Needs a Professional Website", link: "/blog/why-your-business-needs-a-professional-website" },
+      { text: "The Power of Packaging Design", link: "/blog/the-power-of-packaging-design" },
+      { text: "Infographic Design Tips to Make Complex Data Simple", link: "/blog/infographic-design-tips-to-make-complex-data-simple" },
+      { text: "Branding vs Rebranding: Knowing Is It the Right Time", link: "/blog/branding-rebranding-knowing-is-it-the-right-time" },
+      { text: "AI Tools for Efficiency in Graphic Design", link: "/blog/ai-tools-for-efficiency-in-graphic-design" },
+      { text: "6 Major Benefits of Hiring a Professional Graphic Design Agency", link: "/blog/benefits-of-hiring-a-professional-graphic-design-agency" },
+      { text: "Social Media Design Best Practices", link: "/blog/social-media-design-best-practices" },
+      { text: "User Experience vs User Interface", link: "/blog/user-experience-vs-user-interface" },
+      { text: "Web Designing Impact on SEO", link: "/blog/web-designing-impact-on-seo" },
+      { text: "Brand Consistency: Why It is Important?", link: "/blog/brand-consistency-why-it-is-important" },
+      { text: "The Future of UI/UX Design", link: "/blog/the-future-of-ui-ux-design" },
+      { text: "Importance of White Space in Web Design", link: "/blog/importance-of-white-space-in-web-design" },
+      { text: "How Graphic Designers Use Concept Development", link: "/blog/how-graphic-designers-use-concept-development" },
+      { text: "Digital Marketing Strategy for Small Businesses", link: "/blog/digital-marketing-strategy-for-small-businesses" },
+      { text: "How to Design Memorable Business Cards", link: "/blog/how-to-design-memorable-business-cards" },
+      { text: "Psychology of Color in Marketing", link: "/blog/psychology-of-color-in-marketing" },
+      { text: "The Rise of Motion Graphics in Digital Marketing", link: "/blog/the-rise-of-motion-graphics-in-digital-marketing" },
+      { text: "How Packaging Influences Consumer Behavior?", link: "/blog/how-packaging-influences-consumer-behavior" },
+      { text: "Visual Content for Social Media Marketing", link: "/blog/visual-content-for-social-media-marketing" },
+      { text: "Dark UI Design: Trends and Benefits", link: "/blog/dark-ui-design-trends-and-benefits" },
+      { text: "Brand Voice and Graphic Design Harmony", link: "/blog/brand-voice-and-graphic-design-harmony" },
+      { text: "AI Image Generation Impact on Creativity", link: "/blog/ai-image-generation-impact-on-creativity" },
+      { text: "Responsive Design Importance for Modern Websites", link: "/blog/responsive-design-importance-for-modern-websites" },
+      { text: "Impact of Design on Customer Retention", link: "/blog/impact-of-design-on-customer-retention" },
+      { text: "How to Audit Your Brand Identity", link: "/blog/how-to-audit-your-brand-identity" },
+      { text: "Web Development Trends to Watch in 2025", link: "/blog/web-development-trends-to-watch-in-2025" },
+      { text: "The Future of Graphic Design Agency Ahmedabad", link: "/blog/future-of-graphic-design-agency-ahmedabad" },
+      { text: "SEO Optimization in Ahmedabad Guide", link: "/blog/seo-optimization-in-ahmedabad-guide" },
+      { text: "Visual Marketing Strategies for Ahmedabad Businesses", link: "/blog/visual-marketing-strategies-for-ahmedabad-businesses" },
+      { text: "Hiring UI/UX Design Agency Ahmedabad", link: "/blog/hiring-ui-ux-design-agency-ahmedabad" },
+      { text: "Local Branding Strategy for Ahmedabad Startups", link: "/blog/local-branding-strategy-for-ahmedabad-startups" },
+      { text: "Shopify Ecommerce Web Development Ahmedabad", link: "/blog/shopify-ecommerce-web-development-ahmedabad" },
+      { text: "Social Media Design Trends for Ahmedabad Brands", link: "/blog/social-media-design-trends-for-ahmedabad-brands" },
+      { text: "Finding the Best Graphic Design Agency Ahmedabad", link: "/blog/finding-the-best-graphic-design-agency-ahmedabad" },
+      { text: "Importance of Local SEO for Ahmedabad Businesses", link: "/blog/importance-of-local-seo-for-ahmedabad-businesses" },
+      { text: "Effective UI/UX Design Tips for High Conversion", link: "/blog/effective-ui-ux-design-tips-for-high-conversion" },
+      { text: "Web Development Best Practices for Fast-Loading Sites", link: "/blog/web-development-best-practices-for-fast-loading-sites" },
+      { text: "Branding Identity Elements: Logo, Typography, Color Palette", link: "/blog/branding-identity-elements-logo-typography-color-palette" },
+      { text: "The Future of AI-Assisted Graphic Design Services", link: "/blog/future-of-ai-assisted-graphic-design-services" },
+      { text: "Importance of Branding Identity for Long-Term Growth", link: "/blog/importance-of-branding-identity-for-long-term-growth" },
       { text: "Human-AI Collaboration in Design: Where Creativity Meets Technology", link: "/blog/human-ai-collaboration-in-design" },
       { text: "Why Strong Branding Is Essential for Small Businesses?", link: "/blog/strong-branding-for-small-businesses" },
       { text: "Top Graphic Design Trends Businesses Should Follow in 2026", link: "/blog/top-graphic-design-trends-2026" },
       { text: "Top Shopify E-commerce SEO Strategies to Boost Sales in 2026", link: "/blog/top-shopify-e-commerce-seo-strategies-for-2026" },
       { text: "12 Future-Ready Web Development Tools Every Developer Needs In 2026", link: "/blog/future-ready-web-development-tools-2026" },
       { text: "Why E-E-A-T Matters More Than Ever in the AI Search Era?", link: "/blog/eeat-in-ai-search-era" },
-
-
-
     ],
   },
   {
-    title: "Contact Us",
-    items: [
-      { text: "Contact Us", link: "/contact-us" },
-    ],
-  },
-  {
-    title: "Privacy Policy",
+    title: "Legal",
     items: [
       { text: "Privacy Policy", link: "/privacy-policy" },
-    ],
-  },
-  {
-    title: "Terms and Conditions",
-    items: [
       { text: "Terms and Conditions", link: "/terms-and-conditions" },
+      { text: "Cookie Policy", link: "/cookie-policy" },
+      { text: "Disclaimer", link: "/disclaimer" },
+      { text: "Refund Policy", link: "/refund-policy" },
+      { text: "Sitemap", link: "/sitemap" },
     ],
   },
 ];
@@ -235,39 +223,41 @@ function SiteMapPage() {
   return (
     <>
       <Helmet>
-        <title>Sitemap</title>
-        <meta name="description" content="Sitemap of our services" />
+        <title>Sitemap | Chameleo GFX Studio</title>
+        <meta name="description" content="Sitemap of Chameleo GFX Studio services and pages." />
         <link rel="canonical" href="https://chameleogfxstudio.com/sitemap" />
       </Helmet>
 
       <BlogHero title="Sitemap" breadcrumbTitle="Sitemap" />
-      <section class="section aximo-section-padding bg-white-smoke">
+      <section className="section aximo-section-padding bg-white-smoke">
         <div className="container py-5">
           {sitemapData.map((section, i) => (
             <div key={i} className="mb-5">
-              <h2 className="mb-4 mainheading-sitemap">{section.title}</h2>
+              <h2 className="mb-4 mainheading-sitemap" style={{ color: "#ed1d24", borderBottom: "2px solid #ed1d24", paddingBottom: "10px" }}>{section.title}</h2>
 
               {/* Subcategories (for Website Development) */}
               {section.subcategories ? (
-                section.subcategories.map((sub, j) => (
-                  <div key={j} className="mb-3 ">
-                    <h5 className="mb-2">{sub.subtitle}</h5>
-                    <ul className="list-unstyled sitemap-left">
-                      {sub.items.map((item, k) => (
-                        <li key={k} className="col-12 col-md-6 mb-2 sitemap-linkmain ">
-                          <a href={item.link} rel="noopener noreferrer">
-                            {item.text}
-                          </a>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ))
+                <div className="row">
+                  {section.subcategories.map((sub, j) => (
+                    <div key={j} className="col-12 col-md-4 mb-4">
+                      <h4 className="mb-3" style={{ color: "#000", fontWeight: "700" }}>{sub.subtitle}</h4>
+                      <ul className="list-unstyled">
+                        {sub.items.map((item, k) => (
+                          <li key={k} className="mb-2">
+                            <a href={item.link} style={{ color: "#333", textDecoration: "none", fontSize: "16px" }} onMouseOver={(e) => e.target.style.color = "#ed1d24"} onMouseOut={(e) => e.target.style.color = "#333"}>
+                              {item.text}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  ))}
+                </div>
               ) : (
-                <ul className="list-unstyled sitemap-left">
+                <ul className="list-unstyled row">
                   {section.items.map((item, j) => (
-                    <li key={j} className="col-12 col-md-12 mb-2 sitemap-linkmain ">
-                      <a href={item.link} rel="noopener noreferrer">
+                    <li key={j} className="col-12 col-md-4 mb-2">
+                      <a href={item.link} style={{ color: "#333", textDecoration: "none", fontSize: "16px" }} onMouseOver={(e) => e.target.style.color = "#ed1d24"} onMouseOut={(e) => e.target.style.color = "#333"}>
                         {item.text}
                       </a>
                     </li>

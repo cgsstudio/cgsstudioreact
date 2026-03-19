@@ -12,10 +12,10 @@ function Figmatoreact() {
 			      <meta name="keywords" content="Chameleo GFX Studio, Figma to React, React conversion in Ahmedabad, React development India, Figma to code, frontend development, React.js UI, responsive React apps, custom React components, Figma design to React" />
             <link 
           rel="canonical" 
-          href="https://chameleogfxstudio.com/services/web-development/figma-to-react-company" 
+          href="https://chameleogfxstudio.com/services/web-development/figma-to-react-services" 
         />
         </Helmet>
-      <BreadCrumb title="Figma to React Company" breadcrumbTitle="Figma to React Company" />
+      <BreadCrumb title="Figma to React Company Services" breadcrumbTitle="Figma to React Company Services" />
       <div className="bg-white-smoke">
         <Figmatoreactdetail />
 

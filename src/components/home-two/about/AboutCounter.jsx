@@ -18,7 +18,7 @@ function AboutCounter() {
 					</span>
 					k
 				</h2>
-				<p>Active monthly users</p>
+				<p>Active weekly users</p>
 			</div>
 			<div className="aximo-counter-data2">
 				<h2>

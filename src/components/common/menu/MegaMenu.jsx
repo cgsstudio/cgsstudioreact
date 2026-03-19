@@ -17,6 +17,20 @@ import "./MegaMenu.css";
 
 const MegaMenu = ({ isOpen, closeMenu, isMobile }) => {
   const menuData = {
+    "Website Development": {
+      icon: <FaCode />,
+      href: "/services/web-development",
+      columns: 3,
+      sections: webDevelopmentServices[0].categories.map(cat => ({
+        title: cat.subtitle,
+        links: cat.items
+          .filter(item => item.text.toLowerCase() !== cat.subtitle.toLowerCase())
+          .map((item) => ({ 
+            label: item.text.replace("React.js ", "").replace("Development and ", ""), 
+            href: item.link
+          }))
+      }))
+    },
     "Graphics Design": {
       icon: <FaPalette />,
       href: "/services/graphic-design",
@@ -59,20 +73,7 @@ const MegaMenu = ({ isOpen, closeMenu, isMobile }) => {
         }
       ]
     },
-    "Website Development": {
-      icon: <FaCode />,
-      href: "/services/web-development",
-      columns: 3,
-      sections: webDevelopmentServices[0].categories.map(cat => ({
-        title: cat.subtitle,
-        links: cat.items
-          .filter(item => item.text.toLowerCase() !== cat.subtitle.toLowerCase())
-          .map((item) => ({ 
-            label: item.text.replace("React.js ", "").replace("Development and ", ""), 
-            href: item.link
-          }))
-      }))
-    },
+   
     "Digital Marketing": {
       icon: <FaBullhorn />,
       href: "/services/digital-marketing",

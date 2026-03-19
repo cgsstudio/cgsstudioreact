@@ -136,6 +136,8 @@ const Googleads = lazy(() => import("../page/service/Googleads.jsx"));
 const Metaads = lazy(() => import("../page/service/Metaads.jsx"));
 const Sitemap = lazy(() => import("../components/home-one/Sitemap/Sitemap.jsx"));
 const CookiePolicy = lazy(() => import("../components/home-one/cookie/CookiePolicy.jsx"));
+const Disclaimer = lazy(() => import("../page/Disclaimer.jsx"));
+const RefundPolicy = lazy(() => import("../page/RefundPolicy.jsx"));
 
 export const router = createBrowserRouter([
 	{
@@ -202,6 +204,12 @@ export const router = createBrowserRouter([
 									{ path: "android-ui-ux-design-company", element: <AndroidUIUXDesign /> },
 									{ path: "erp-ui-ux-design-company", element: <ERPUIUXDesign /> },
 									{ path: "backend-ui-ux-design-company", element: <BackendUIUXDesign /> },
+									// 301 Redirects for Old Links
+									{ path: "website-ui-ux-design", element: <Navigate to="/services/ui-ux-design/website-ui-ux-design-company" replace /> },
+									{ path: "ios-ui-ux-design", element: <Navigate to="/services/ui-ux-design/ios-ui-ux-design-company" replace /> },
+									{ path: "android-ui-ux-design", element: <Navigate to="/services/ui-ux-design/android-ui-ux-design-company" replace /> },
+									{ path: "erp-ui-ux-design", element: <Navigate to="/services/ui-ux-design/erp-ui-ux-design-company" replace /> },
+									{ path: "backend-ui-ux-design", element: <Navigate to="/services/ui-ux-design/backend-ui-ux-design-company" replace /> },
 								],
 							},
 							{
@@ -213,6 +221,11 @@ export const router = createBrowserRouter([
 									{ path: "email-marketing-company", element: <Emailmarketing /> },
 									{ path: "google-ads-management-agency", element: <Googleads /> },
 									{ path: "meta-ads-management-company", element: <Metaads /> },
+									// 301 Redirects for Old Links
+									{ path: "search-engine-optimization", element: <Navigate to="/services/digital-marketing/seo-agency" replace /> },
+									{ path: "social-media-marketing", element: <Navigate to="/services/digital-marketing/social-media-marketing-agency" replace /> },
+									{ path: "google-ads", element: <Navigate to="/services/digital-marketing/google-ads-management-agency" replace /> },
+									{ path: "meta-ads", element: <Navigate to="/services/digital-marketing/meta-ads-management-company" replace /> },
 								],
 							},
 							{
@@ -236,15 +249,15 @@ export const router = createBrowserRouter([
 									{ path: "custom-shopify-store-design-company", element: <Customshopifystoredesign /> },
 									{ path: "shopify-theme-customization-company", element: <Shopifythemecustomization /> },
 									{ path: "shopify-seo-optimization-company", element: <Shopifyseooptimization /> },
-									{ path: "figma-to-shopify-company", element: <Figmatoshopify /> },
-									{ path: "photoshop-to-shopify-company", element: <Photoshoptoshopify /> },
-									{ path: "html-to-shopify-company", element: <Htmltoshopify /> },
+									{ path: "figma-to-shopify-services", element: <Figmatoshopify /> },
+									{ path: "photoshop-to-shopify-services", element: <Photoshoptoshopify /> },
+									{ path: "html-to-shopify-services", element: <Htmltoshopify /> },
 									{ path: "shopify-app-integration-and-development-company", element: <Shopifyappintegration /> },
 									{ path: "shopify-ecommerce-management-and-support-company", element: <Shopifyecommercemanagement /> },
 									{ path: "react-js-development-company", element: <Reactjs /> },
-									{ path: "figma-to-react-company", element: <Figmatoreact /> },
-									{ path: "photoshop-to-react-company", element: <Photoshoptoreact /> },
-									{ path: "html-to-react-company", element: <Htmltoreact /> },
+									{ path: "figma-to-react-services", element: <Figmatoreact /> },
+									{ path: "photoshop-to-react-services", element: <Photoshoptoreact /> },
+									{ path: "html-to-react-services", element: <Htmltoreact /> },
 									{ path: "reactjs-performance-optimization-company", element: <Reactjsperformance /> },
 									{ path: "custom-reactjs-web-application-development-company", element: <Customreactjsweb /> },
 									{ path: "reactjs-component-development-and-integration-company", element: <Reactjscomponentdevelopment /> },
@@ -257,6 +270,45 @@ export const router = createBrowserRouter([
 									{ path: "responsive-web-design-company", element: <Responsivewebdesign /> },
 									{ path: "cross-browser-compatibility-testing-company", element: <Crossbrowser /> },
 									{ path: "website-redesign-and-revamp-company", element: <Websiteredesign /> },
+
+									// 301 Redirects for Old Links
+									{ path: "html-css-development", element: <Navigate to="/services/web-development/html-css-development-company" replace /> },
+									{ path: "custom-html-website-design", element: <Navigate to="/services/web-development/custom-html-website-design-company" replace /> },
+									{ path: "template-customization", element: <Navigate to="/services/web-development/template-customization-company" replace /> },
+									{ path: "responsive-web-design", element: <Navigate to="/services/web-development/responsive-web-design-company" replace /> },
+									{ path: "cross-browser-compatibility-testing", element: <Navigate to="/services/web-development/cross-browser-compatibility-testing-company" replace /> },
+									{ path: "website-redesign-and-revamp", element: <Navigate to="/services/web-development/website-redesign-and-revamp-company" replace /> },
+									{ path: "webflow-development", element: <Navigate to="/services/web-development/webflow-development-company" replace /> },
+									{ path: "custom-webflow-development", element: <Navigate to="/services/web-development/custom-webflow-development-company" replace /> },
+									{ path: "webflow-theme-development", element: <Navigate to="/services/web-development/webflow-theme-development-company" replace /> },
+									{ path: "figma-to-webflow", element: <Navigate to="/services/web-development/figma-to-webflow-company" replace /> },
+									{ path: "html-to-webflow", element: <Navigate to="/services/web-development/html-to-webflow-company" replace /> },
+									{ path: "webflow-integration", element: <Navigate to="/services/web-development/webflow-integration-company" replace /> },
+									{ path: "wordpress-development", element: <Navigate to="/services/web-development/wordpress-development-company" replace /> },
+									{ path: "custom-wordpress-website-design", element: <Navigate to="/services/web-development/custom-wordpress-website-design-company" replace /> },
+									{ path: "woocommerce-development", element: <Navigate to="/services/web-development/woocommerce-development-company" replace /> },
+									{ path: "wordpress-seo-optimization", element: <Navigate to="/services/web-development/wordpress-seo-optimization-company" replace /> },
+									{ path: "wordpress-migration-and-upgrades", element: <Navigate to="/services/web-development/wordpress-migration-and-upgrades-company" replace /> },
+									{ path: "buddyboss-design-and-development", element: <Navigate to="/services/web-development/buddyboss-design-and-development-company" replace /> },
+									{ path: "shopify-development", element: <Navigate to="/services/web-development/shopify-development-company" replace /> },
+									{ path: "custom-shopify-store-design", element: <Navigate to="/services/web-development/custom-shopify-store-design-company" replace /> },
+									{ path: "shopify-theme-customization", element: <Navigate to="/services/web-development/shopify-theme-customization-company" replace /> },
+									{ path: "shopify-seo-optimization", element: <Navigate to="/services/web-development/shopify-seo-optimization-company" replace /> },
+									{ path: "figma-to-shopify", element: <Navigate to="/services/web-development/figma-to-shopify-services" replace /> },
+									{ path: "photoshop-to-shopify", element: <Navigate to="/services/web-development/photoshop-to-shopify-services" replace /> },
+									{ path: "html-to-shopify", element: <Navigate to="/services/web-development/html-to-shopify-services" replace /> },
+									{ path: "shopify-app-integration-and-development", element: <Navigate to="/services/web-development/shopify-app-integration-and-development-company" replace /> },
+									{ path: "shopify-ecommerce-management-and-support", element: <Navigate to="/services/web-development/shopify-ecommerce-management-and-support-company" replace /> },
+									{ path: "react-js-development", element: <Navigate to="/services/web-development/react-js-development-company" replace /> },
+									{ path: "figma-to-react", element: <Navigate to="/services/web-development/figma-to-react-services" replace /> },
+									{ path: "photoshop-to-react", element: <Navigate to="/services/web-development/photoshop-to-react-services" replace /> },
+									{ path: "html-to-react", element: <Navigate to="/services/web-development/html-to-react-services" replace /> },
+									{ path: "reactjs-performance-optimization", element: <Navigate to="/services/web-development/reactjs-performance-optimization-company" replace /> },
+									{ path: "custom-reactjs-web-application-development", element: <Navigate to="/services/web-development/custom-reactjs-web-application-development-company" replace /> },
+									{ path: "reactjs-component-development-and-integration", element: <Navigate to="/services/web-development/reactjs-component-development-and-integration-company" replace /> },
+									{ path: "reactjs-mobile-app-development", element: <Navigate to="/services/web-development/reactjs-mobile-app-development-company" replace /> },
+									{ path: "reactjs-ssr-website-development", element: <Navigate to="/services/web-development/reactjs-ssr-website-development-company" replace /> },
+									{ path: "reactjs-ui-ux-design-and-development", element: <Navigate to="/services/web-development/reactjs-ui-ux-design-and-development-company" replace /> },
 								],
 							},
 							{
@@ -287,6 +339,22 @@ export const router = createBrowserRouter([
 									{ path: "exhibition-booth-design-company", element: <TradeShow /> },
 									{ path: "motion-graphics-design-agency-company", element: <MotionGraphics /> },
 									{ path: "e-book-design-service-company", element: <Ebookdesign /> },
+									// 301 Redirects for Old Links
+									{ path: "branding-and-identity-design-agency", element: <Navigate to="/services/graphic-design/branding-and-identity-design-agency-company" replace /> },
+									{ path: "social-media-banner-design", element: <Navigate to="/services/graphic-design/social-media-banner-design-company" replace /> },
+									{ path: "flyer-design-services", element: <Navigate to="/services/graphic-design/flyer-design-services-company" replace /> },
+									{ path: "poster-design-services", element: <Navigate to="/services/graphic-design/poster-design-services-company" replace /> },
+									{ path: "hoarding-design-services", element: <Navigate to="/services/graphic-design/hoarding-design-services-company" replace /> },
+									{ path: "packaging-design-agency", element: <Navigate to="/services/graphic-design/packaging-design-agency-company" replace /> },
+									{ path: "advertising-design-agency", element: <Navigate to="/services/graphic-design/advertising-design-agency-company" replace /> },
+									{ path: "newsletter-design-service", element: <Navigate to="/services/graphic-design/newsletter-design-service-company" replace /> },
+									{ path: "infographic-design-services", element: <Navigate to="/services/graphic-design/infographic-design-services-company" replace /> },
+									{ path: "visiting-card-design-service", element: <Navigate to="/services/graphic-design/visiting-card-design-service-company" replace /> },
+									{ path: "presentation-design-services", element: <Navigate to="/services/graphic-design/presentation-design-services-company" replace /> },
+									{ path: "annual-report-design-agency", element: <Navigate to="/services/graphic-design/annual-report-design-agency-company" replace /> },
+									{ path: "digital-ad-design-agency", element: <Navigate to="/services/graphic-design/digital-ad-design-agency-company" replace /> },
+									{ path: "motion-graphics-design-agency", element: <Navigate to="/services/graphic-design/motion-graphics-design-agency-company" replace /> },
+									{ path: "e-book-design-service", element: <Navigate to="/services/graphic-design/e-book-design-service-company" replace /> },
 								],
 							},
 						],
@@ -336,8 +404,16 @@ export const router = createBrowserRouter([
 						element: <Privacypolicy />,
 					},
 					{
+						path: "/disclaimer",
+						element: <Disclaimer />,
+					},
+					{
 						path: "/cookie-policy",
 						element: <CookiePolicy />,
+					},
+					{
+						path: "/refund-policy",
+						element: <RefundPolicy />,
 					},
 					{
 						path: "*",
@@ -593,7 +669,7 @@ export const router = createBrowserRouter([
 		path: "/meta-ads",
 		element: <Navigate to="/services/digital-marketing/meta-ads-management-company" replace />,
 	},
-	 {
+	{
 		path: "/wordpress",
 		element: <Navigate to="/services/web-development" replace />,
 	},
@@ -727,15 +803,15 @@ export const router = createBrowserRouter([
 	},
 	{
 		path: "/services/web-development/shopify-development/figma-to-shopify",
-		element: <Navigate to="/services/web-development/figma-to-shopify-company" replace />,
+		element: <Navigate to="/services/web-development/figma-to-shopify-services" replace />,
 	},
 	{
 		path: "/services/web-development/shopify-development/photoshop-to-shopify",
-		element: <Navigate to="/services/web-development/photoshop-to-shopify-company" replace />,
+		element: <Navigate to="/services/web-development/photoshop-to-shopify-services" replace />,
 	},
 	{
 		path: "/services/web-development/shopify-development/html-to-shopify",
-		element: <Navigate to="/services/web-development/html-to-shopify-company" replace />,
+		element: <Navigate to="/services/web-development/html-to-shopify-services" replace />,
 	},
 	{
 		path: "/services/web-development/shopify-development/shopify-app-integration-and-development",
@@ -747,15 +823,15 @@ export const router = createBrowserRouter([
 	},
 	{
 		path: "/services/web-development/react-js-development/figma-to-react",
-		element: <Navigate to="/services/web-development/figma-to-react-company" replace />,
+		element: <Navigate to="/services/web-development/figma-to-react-services" replace />,
 	},
 	{
 		path: "/services/web-development/react-js-development/photoshop-to-react",
-		element: <Navigate to="/services/web-development/photoshop-to-react-company" replace />,
+		element: <Navigate to="/services/web-development/photoshop-to-react-services" replace />,
 	},
 	{
 		path: "/services/web-development/react-js-development/html-to-react",
-		element: <Navigate to="/services/web-development/html-to-react-company" replace />,
+		element: <Navigate to="/services/web-development/html-to-react-services" replace />,
 	},
 	{
 		path: "/services/web-development/react-js-development/reactjs-performance-optimization",
@@ -859,15 +935,15 @@ export const router = createBrowserRouter([
 	},
 	{
 		path: "/figma-to-shopify",
-		element: <Navigate to="/services/web-development/figma-to-shopify-company" replace />,
+		element: <Navigate to="/services/web-development/figma-to-shopify-services" replace />,
 	},
 	{
 		path: "/photoshop-to-shopify",
-		element: <Navigate to="/services/web-development/photoshop-to-shopify-company" replace />,
+		element: <Navigate to="/services/web-development/photoshop-to-shopify-services" replace />,
 	},
 	{
 		path: "/html-to-shopify",
-		element: <Navigate to="/services/web-development/html-to-shopify-company" replace />,
+		element: <Navigate to="/services/web-development/html-to-shopify-services" replace />,
 	},
 	{
 		path: "/shopify-app-integration-and-development",
@@ -879,15 +955,15 @@ export const router = createBrowserRouter([
 	},
 	{
 		path: "/figma-to-react",
-		element: <Navigate to="/services/web-development/figma-to-react-company" replace />,
+		element: <Navigate to="/services/web-development/figma-to-react-services" replace />,
 	},
 	{
 		path: "/photoshop-to-react",
-		element: <Navigate to="/services/web-development/photoshop-to-react-company" replace />,
+		element: <Navigate to="/services/web-development/photoshop-to-react-services" replace />,
 	},
 	{
 		path: "/html-to-react",
-		element: <Navigate to="/services/web-development/html-to-react-company" replace />,
+		element: <Navigate to="/services/web-development/html-to-react-services" replace />,
 	},
 	{
 		path: "/reactjs-performance-optimization",

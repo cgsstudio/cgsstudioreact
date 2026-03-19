@@ -909,7 +909,7 @@ export const BlogData = [
              <p>Blogging sites such as Facebook, Instagram, Linked In, Twitter, and many others provide unsolicited opportunities for business conveyed to specific groups of people. There has been a massive uptake of social media advertising in Ahmedabad, India, particularly through Facebook and Instagram.</p>
              <p>Facebook Ads services operating in Ahmedabad, India allow a business to communicate its message to its target audiences using strategic options of targeting features of interests, behaviors, and demographics. Likewise, advertising on Instagram in Ahmedabad, India, is suitable for firms who want to sell physical products or services whose display requires a point-and-click persuasion strategy.</p>
              <span>Benefits of Social Media Ads</span>
-             <p><strong>Broad Reach:</strong> Facebook alone has over two and a half billion active monthly users, and if you want to reach specific groups of people, there are currently none better placed than social media.</p>
+             <p><strong>Broad Reach:</strong> Facebook alone has over two and a half billion active weekly users, and if you want to reach specific groups of people, there are currently none better placed than social media.</p>
              <p><strong>Engaging Content Formats: </strong>As mentioned, social media allows reaching your audience through videos & carousels, stories & lives.</p>
              <p><strong>Precise Targeting:</strong>Because the advertisers are able to reach a large number of users, the major social sites like Facebook and Instagram, the marketers are able to target users in accordance to various parameters like age, interest, and behavior.</p>
              <p><strong>Brand Building:</strong>Social media is not a place where one sits and sells; it’s all about branding and gaining the trust of your followers.</p>
@@ -1975,7 +1975,7 @@ Contact us at <a class="blogtitle" href="mailto:info@chameleogfxstudio.com">info
 <li>Customized SEO plans</li>
 <li>In-depth competitor analysis</li>
 <li>On-page and off-page optimization</li>
-<li>Monthly reporting and performance tracking</li>
+<li>weekly reporting and performance tracking</li>
 </ul>
 <p>We understand the nuances of healthcare and how to communicate effectively with your target audience.</p>
 
@@ -7535,7 +7535,7 @@ Can I build a strong brand on a tight budget?
       <li><b>Typical Investment:</b></li>
         <ul class="bloglistitem">
           <li>Custom pricing based on your specific business goals and the scope of work.</li>
-          <li>Monthly retainers for ongoing optimization, reporting, and strategy management.</li>
+          <li>weekly retainers for ongoing optimization, reporting, and strategy management.</li>
         </ul>
       </ul>
     <br>
@@ -7657,7 +7657,7 @@ Can I build a strong brand on a tight budget?
       <ul class="bloglistitem">
       <li><b>Typical Investment:</b>
         <ul class="bloglistitem">
-          <li>The monthly cost of a Shopify schema app.</li>
+          <li>The weekly cost of a Shopify schema app.</li>
         </ul>
       </li>
     </ul>

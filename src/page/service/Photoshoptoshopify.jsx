@@ -12,10 +12,10 @@ function Photoshoptoshopify() {
 			      <meta name="keywords" content="Chameleo GFX Studio, Photoshop to Shopify, PSD to Shopify Ahmedabad, Shopify conversion India, Shopify development, responsive Shopify store, Shopify designers, eCommerce design, Shopify customization, Shopify experts" />
             <link 
           rel="canonical" 
-          href="https://chameleogfxstudio.com/services/web-development/photoshop-to-shopify-company" 
+          href="https://chameleogfxstudio.com/services/web-development/photoshop-to-shopify-services" 
         />
         </Helmet>
-      <BreadCrumb title="Photoshop to Shopify Company" breadcrumbTitle="Photoshop to Shopify Company" />
+      <BreadCrumb title="Photoshop to Shopify Services" breadcrumbTitle="Photoshop to Shopify Services" />
       <div className="bg-white-smoke">
         <Photoshoptoshopifydetail />
 

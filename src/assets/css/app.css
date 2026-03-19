@@ -10835,9 +10835,9 @@ a.aximo-connect-login img {
 	left: calc(100% - 33px);
 }
 
-[data-pricing-dynamic][data-value-active="monthly"] .dynamic-value:before {
+[data-pricing-dynamic][data-value-active="weekly"] .dynamic-value:before {
 	display: inline-block;
-	content: attr(data-monthly);
+	content: attr(data-weekly);
 }
 
 .dynamic-value:before {

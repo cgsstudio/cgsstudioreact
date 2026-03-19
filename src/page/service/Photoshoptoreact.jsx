@@ -12,10 +12,10 @@ function Photoshoptoreact() {
 			      <meta name="keywords" content="Chameleo GFX Studio, Photoshop to React, PSD to React in Ahmedabad, React development India, React.js UI, PSD to code, frontend development, custom React apps, responsive React design, React components" />
             <link 
           rel="canonical" 
-          href="https://chameleogfxstudio.com/services/web-development/photoshop-to-react-company" 
+          href="https://chameleogfxstudio.com/services/web-development/photoshop-to-react-services" 
         />
         </Helmet>
-      <BreadCrumb title="Photoshop to React Company" breadcrumbTitle="Photoshop to React Company" />
+      <BreadCrumb title="Photoshop to React Services" breadcrumbTitle="Photoshop to React Services" />
       <div className="bg-white-smoke">
         <Photoshoptoreactdetail />
 

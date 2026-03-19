@@ -19,7 +19,7 @@ function Counter() {
 							<span data-percentage="85" className="aximo-counter"></span>
 							<CountUp end={85} duration={3} redraw={true} enableScrollSpy />k
 						</h2>
-						<p>Active monthly users</p>
+						<p>Active weekly users</p>
 					</div>
 					<div className="aximo-counter-data5">
 						<h2>

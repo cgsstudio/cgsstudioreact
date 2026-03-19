@@ -12,10 +12,10 @@ function Htmltoshopify() {
 			      <meta name="keywords" content="Chameleo GFX Studio, HTML to Shopify, Shopify conversion Ahmedabad, Shopify India, custom Shopify store, Shopify developers, Shopify experts, responsive Shopify, eCommerce development, Shopify customization" />
             <link 
           rel="canonical" 
-          href="https://chameleogfxstudio.com/services/web-development/html-to-shopify-company" 
+          href="https://chameleogfxstudio.com/services/web-development/html-to-shopify-services" 
         />
         </Helmet>
-      <BreadCrumb title="HTML to Shopify Company" breadcrumbTitle="HTML to Shopify Company" />
+      <BreadCrumb title="HTML to Shopify Services" breadcrumbTitle="HTML to Shopify Services" />
       <div className="bg-white-smoke">
         <Htmltoshopifydetail />
 
