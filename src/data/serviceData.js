@@ -124,8 +124,10 @@ export const digitalMarketingServices = [
     title: "Digital Marketing",
     items: [
       { text: "Digital Marketing", link: "/services/digital-marketing" },
-      { text: "Search Engine Optimization (SEO)", link: "/services/digital-marketing/seo-agency" },
-      { text: "Social Media Marketing", link: "/services/digital-marketing/social-media-marketing-agency" },
+      { text: "Best SEO Agency", link: "/services/digital-marketing/seo-agency" },
+      { text: "SEO Company", link: "/services/digital-marketing/seo-company" },
+      { text: "Social Media Marketing Agency", link: "/services/digital-marketing/social-media-marketing-agency" },
+      { text: "Social Media Marketing", link: "/services/digital-marketing/social-media-marketing" },
       { text: "Email Marketing", link: "/services/digital-marketing/email-marketing-company" },
       { text: "Google Ads", link: "/services/digital-marketing/google-ads-management-agency" },
       { text: "Meta Ads", link: "/services/digital-marketing/meta-ads-management-company" },

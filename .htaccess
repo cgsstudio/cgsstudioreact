@@ -14,6 +14,23 @@
     RewriteRule ^branding-and-identity-design/?$ /branding-and-identity-design-agency-ahmedabad [R=301,L]
     RewriteRule ^social-media-banner-design/?$ /social-media-banner-design-ahmedabad [R=301,L]
     RewriteRule ^flyer-design/?$ /flyer-design-services-ahmedabad [R=301,L]
+    
+    # Service Redirects
+    RewriteRule ^wordpress/?$ /services/web-development/wordpress-development-company [R=301,L,NC]
+    RewriteRule ^shopify/?$ /services/web-development/shopify-development-company [R=301,L,NC]
+    RewriteRule ^webflow/?$ /services/web-development/webflow-development-company [R=301,L,NC]
+    RewriteRule ^react-js/?$ /services/web-development/react-js-development-company [R=301,L,NC]
+    
+    # WordPress Sub-services
+    RewriteRule ^learndash-design-and-development/?$ /services/web-development/wordpress-development-company [R=301,L]
+    RewriteRule ^dokan-design-and-development/?$ /services/web-development/wordpress-development-company [R=301,L]
+    RewriteRule ^responsive-wordpress-design/?$ /services/web-development/wordpress-development-company [R=301,L]
+    RewriteRule ^figma-to-wordpress/?$ /services/web-development/wordpress-development-company [R=301,L]
+    RewriteRule ^photoshop-to-wordpress/?$ /services/web-development/wordpress-development-company [R=301,L]
+    RewriteRule ^html-to-wordpress/?$ /services/web-development/wordpress-development-company [R=301,L]
+    RewriteRule ^theme-and-plugin-customization/?$ /services/web-development/wordpress-development-company [R=301,L]
+    RewriteRule ^woocommerce-design-and-development/?$ /services/web-development/wordpress-development-company [R=301,L]
+    RewriteRule ^wordpress-website-maintenance-and-support/?$ /services/web-development/wordpress-development-company [R=301,L]
 
     # Additional Redirects
     RewriteRule ^magazine-and-booklet-design/?$ /magazine-and-booklet-design-ahmedabad [R=301,L]

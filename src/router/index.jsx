@@ -217,13 +217,15 @@ export const router = createBrowserRouter([
 								children: [
 									{ index: true, element: <Digitalmarketing /> },
 									{ path: "seo-agency", element: <Searchengineoptimization /> },
+									{ path: "seo-company", element: <Seo /> },
 									{ path: "social-media-marketing-agency", element: <Socialmediamarketing /> },
+									{ path: "social-media-marketing", element: <SocialMedia /> },
 									{ path: "email-marketing-company", element: <Emailmarketing /> },
 									{ path: "google-ads-management-agency", element: <Googleads /> },
 									{ path: "meta-ads-management-company", element: <Metaads /> },
 									// 301 Redirects for Old Links
-									{ path: "search-engine-optimization", element: <Navigate to="/services/digital-marketing/seo-agency" replace /> },
-									{ path: "social-media-marketing", element: <Navigate to="/services/digital-marketing/social-media-marketing-agency" replace /> },
+									{ path: "search-engine-optimization", element: <Navigate to="/services/digital-marketing/seo-company" replace /> },
+									{ path: "social-media-marketing-agency-company", element: <Navigate to="/services/digital-marketing/social-media-marketing-agency" replace /> },
 									{ path: "google-ads", element: <Navigate to="/services/digital-marketing/google-ads-management-agency" replace /> },
 									{ path: "meta-ads", element: <Navigate to="/services/digital-marketing/meta-ads-management-company" replace /> },
 								],
@@ -416,6 +418,22 @@ export const router = createBrowserRouter([
 						element: <RefundPolicy />,
 					},
 					{
+						path: "/wordpress",
+						element: <Navigate to="/services/web-development/wordpress-development-company" replace />,
+					},
+					{
+						path: "/shopify",
+						element: <Navigate to="/services/web-development/shopify-development-company" replace />,
+					},
+					{
+						path: "/webflow",
+						element: <Navigate to="/services/web-development/webflow-development-company" replace />,
+					},
+					{
+						path: "/react-js",
+						element: <Navigate to="/services/web-development/react-js-development-company" replace />,
+					},
+					{
 						path: "*",
 						element: <ErrorPage />,
 					},
@@ -528,6 +546,26 @@ export const router = createBrowserRouter([
 	{
 		path: "/graphic-design-company-in-ahmedabad",
 		element: <Navigate to="/services/graphic-design" replace />,
+	},
+	{
+		path: "/social-media-marketing-agency-ahmedabad",
+		element: <Navigate to="/services/digital-marketing/social-media-marketing-agency" replace />,
+	},
+	{
+		path: "/social-media-marketing-ahmedabad",
+		element: <Navigate to="/services/digital-marketing/social-media-marketing" replace />,
+	},
+	{
+		path: "/logo-design-company-ahmedabad",
+		element: <Navigate to="/services/graphic-design/logo-design-company" replace />,
+	},
+	{
+		path: "/seo-company-in-ahmedabad",
+		element: <Navigate to="/services/digital-marketing/seo-company" replace />,
+	},
+	{
+		path: "/best-seo-agency-in-ahmedabad",
+		element: <Navigate to="/services/digital-marketing/seo-agency" replace />,
 	},
 	{
 		path: "/digital-marketing-agency-india",
@@ -651,11 +689,11 @@ export const router = createBrowserRouter([
 	},
 	{
 		path: "/search-engine-optimization",
-		element: <Navigate to="/services/digital-marketing/seo-agency" replace />,
+		element: <Navigate to="/services/digital-marketing/seo-company" replace />,
 	},
 	{
 		path: "/social-media-marketing",
-		element: <Navigate to="/services/digital-marketing/social-media-marketing-agency" replace />,
+		element: <Navigate to="/services/digital-marketing/social-media-marketing" replace />,
 	},
 	{
 		path: "/email-marketing",
@@ -670,24 +708,8 @@ export const router = createBrowserRouter([
 		element: <Navigate to="/services/digital-marketing/meta-ads-management-company" replace />,
 	},
 	{
-		path: "/wordpress",
-		element: <Navigate to="/services/web-development" replace />,
-	},
-	{
-		path: "/shopify",
-		element: <Navigate to="/services/web-development" replace />,
-	},
-	{
-		path: "/webflow",
-		element: <Navigate to="/services/web-development" replace />,
-	},
-	{
-		path: "/react-js",
-		element: <Navigate to="/services/web-development" replace />,
-	},
-	{
 		path: "/html-css",
-		element: <Navigate to="/services/web-development" replace />,
+		element: <Navigate to="/services/web-development/html-css-development-company" replace />,
 	},
 	{
 		path: "/services/web-development/html-css-development/custom-html-website-design",
@@ -755,39 +777,39 @@ export const router = createBrowserRouter([
 	},
 	{
 		path: "/services/web-development/wordpress-development/learndash-design-and-development",
-		element: <Navigate to="/services/web-development" replace />,
+		element: <Navigate to="/services/web-development/wordpress-development-company" replace />,
 	},
 	{
 		path: "/services/web-development/wordpress-development/dokan-design-and-development",
-		element: <Navigate to="/services/web-development" replace />,
+		element: <Navigate to="/services/web-development/wordpress-development-company" replace />,
 	},
 	{
 		path: "/services/web-development/wordpress-development/responsive-wordpress-design",
-		element: <Navigate to="/services/web-development" replace />,
+		element: <Navigate to="/services/web-development/wordpress-development-company" replace />,
 	},
 	{
 		path: "/services/web-development/wordpress-development/figma-to-wordpress",
-		element: <Navigate to="/services/web-development" replace />,
+		element: <Navigate to="/services/web-development/wordpress-development-company" replace />,
 	},
 	{
 		path: "/services/web-development/wordpress-development/photoshop-to-wordpress",
-		element: <Navigate to="/services/web-development" replace />,
+		element: <Navigate to="/services/web-development/wordpress-development-company" replace />,
 	},
 	{
 		path: "/services/web-development/wordpress-development/html-to-wordpress",
-		element: <Navigate to="/services/web-development" replace />,
+		element: <Navigate to="/services/web-development/wordpress-development-company" replace />,
 	},
 	{
 		path: "/services/web-development/wordpress-development/theme-and-plugin-customization",
-		element: <Navigate to="/services/web-development" replace />,
+		element: <Navigate to="/services/web-development/wordpress-development-company" replace />,
 	},
 	{
 		path: "/services/web-development/wordpress-development/woocommerce-design-and-development",
-		element: <Navigate to="/services/web-development" replace />,
+		element: <Navigate to="/services/web-development/wordpress-development-company" replace />,
 	},
 	{
 		path: "/services/web-development/wordpress-development/wordpress-website-maintenance-and-support",
-		element: <Navigate to="/services/web-development" replace />,
+		element: <Navigate to="/services/web-development/wordpress-development-company" replace />,
 	},
 	{
 		path: "/services/web-development/shopify-development/custom-shopify-store-design",
@@ -991,38 +1013,38 @@ export const router = createBrowserRouter([
 	},
 	{
 		path: "/learndash-design-and-development",
-		element: <Navigate to="/services/web-development" replace />,
+		element: <Navigate to="/services/web-development/wordpress-development-company" replace />,
 	},
 	{
 		path: "/dokan-design-and-development",
-		element: <Navigate to="/services/web-development" replace />,
+		element: <Navigate to="/services/web-development/wordpress-development-company" replace />,
 	},
 	{
 		path: "/responsive-wordpress-design",
-		element: <Navigate to="/services/web-development" replace />,
+		element: <Navigate to="/services/web-development/wordpress-development-company" replace />,
 	},
 	{
 		path: "/figma-to-wordpress",
-		element: <Navigate to="/services/web-development" replace />,
+		element: <Navigate to="/services/web-development/wordpress-development-company" replace />,
 	},
 	{
 		path: "/photoshop-to-wordpress",
-		element: <Navigate to="/services/web-development" replace />,
+		element: <Navigate to="/services/web-development/wordpress-development-company" replace />,
 	},
 	{
 		path: "/html-to-wordpress",
-		element: <Navigate to="/services/web-development" replace />,
+		element: <Navigate to="/services/web-development/wordpress-development-company" replace />,
 	},
 	{
 		path: "/theme-and-plugin-customization",
-		element: <Navigate to="/services/web-development" replace />,
+		element: <Navigate to="/services/web-development/wordpress-development-company" replace />,
 	},
 	{
 		path: "/woocommerce-design-and-development",
-		element: <Navigate to="/services/web-development" replace />,
+		element: <Navigate to="/services/web-development/wordpress-development-company" replace />,
 	},
 	{
 		path: "/wordpress-website-maintenance-and-support",
-		element: <Navigate to="/services/web-development" replace />,
+		element: <Navigate to="/services/web-development/wordpress-development-company" replace />,
 	},
 ]);

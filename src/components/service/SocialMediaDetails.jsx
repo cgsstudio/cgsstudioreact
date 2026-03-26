@@ -3,19 +3,7 @@ import Single2Img from "../../assets/images/service/Social_02.png";
 import Star2Img from "../../assets/images/v1/star2.png";
 
 
-const services = [
-	{
-		title: "Digital Marketing",
-		items: [
-			{ text: "Digital Marketing", link: "/digital-marketing-agency-india" },
-			{ text: "Search Engine Optimization (SEO)", link: "/search-engine-optimization" },
-			{ text: "Social Media Marketing", link: "/social-media-marketing" },
-			{ text: "Email Marketing", link: "/email-marketing" },
-			{ text: "Google Ads", link: "/google-ads" },
-			{ text: "Meta Ads", link: "/meta-ads" },
-		],
-	},
-];
+import { digitalMarketingServices as services } from "../../data/serviceData";
 
 function SocialMediaDetails() {
 	return (
@@ -30,7 +18,7 @@ function SocialMediaDetails() {
 							<div className="aximo-default-content">
 								<h2>
 									<span className="aximo-title-animation">
-										Social Media Marketing – Engage, Influence, and Convert Your Audience
+										social media marketing in Ahmedabad
 										{/* <span className="aximo-title-icon">
 						  <img src={Star2Img} alt="star" />
 						</span> */}

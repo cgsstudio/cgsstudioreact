@@ -20,7 +20,7 @@ function Socialmediamarketingdetail() {
               <div className="aximo-default-content">
                 <h2>
                   <span className="aximo-title-animation">
-                    Social Media Marketing – Engage, Influence, and Convert Your Audience
+                    social media marketing in India
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}

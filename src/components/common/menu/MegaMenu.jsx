@@ -1,17 +1,17 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { 
-  FaPalette, 
-  FaRocket, 
-  FaCode, 
-  FaBullhorn, 
+import {
+  FaPalette,
+  FaRocket,
+  FaCode,
+  FaBullhorn,
   FaChevronRight
 } from "react-icons/fa";
-import { 
-  graphicDesignServices, 
-  uiuxDesignServices, 
-  webDevelopmentServices, 
-  digitalMarketingServices 
+import {
+  graphicDesignServices,
+  uiuxDesignServices,
+  webDevelopmentServices,
+  digitalMarketingServices
 } from "../../../data/serviceData";
 import "./MegaMenu.css";
 
@@ -23,10 +23,11 @@ const MegaMenu = ({ isOpen, closeMenu, isMobile }) => {
       columns: 3,
       sections: webDevelopmentServices[0].categories.map(cat => ({
         title: cat.subtitle,
+        href: cat.subtitleLink,
         links: cat.items
           .filter(item => item.text.toLowerCase() !== cat.subtitle.toLowerCase())
-          .map((item) => ({ 
-            label: item.text.replace("React.js ", "").replace("Development and ", ""), 
+          .map((item) => ({
+            label: item.text.replace("React.js ", "").replace("Development and ", ""),
             href: item.link
           }))
       }))
@@ -38,22 +39,25 @@ const MegaMenu = ({ isOpen, closeMenu, isMobile }) => {
       sections: [
         {
           title: "Branding",
-          links: graphicDesignServices[0].items.slice(0, 8).map((item) => ({ 
-            label: item.text, 
+          href: "/services/graphic-design",
+          links: graphicDesignServices[0].items.slice(0, 8).map((item) => ({
+            label: item.text,
             href: item.link
           }))
         },
         {
           title: "Print & Media",
-          links: graphicDesignServices[0].items.slice(8, 16).map((item) => ({ 
-            label: item.text, 
+          href: "/services/graphic-design",
+          links: graphicDesignServices[0].items.slice(8, 16).map((item) => ({
+            label: item.text,
             href: item.link
           }))
         },
         {
           title: "Corporate",
-          links: graphicDesignServices[0].items.slice(16, 24).map((item) => ({ 
-            label: item.text, 
+          href: "/services/graphic-design",
+          links: graphicDesignServices[0].items.slice(16, 24).map((item) => ({
+            label: item.text,
             href: item.link
           }))
         }
@@ -66,14 +70,15 @@ const MegaMenu = ({ isOpen, closeMenu, isMobile }) => {
       sections: [
         {
           title: "Core UX",
-          links: uiuxDesignServices[0].items.map((item) => ({ 
-            label: item.text, 
+          href: "/services/ui-ux-design",
+          links: uiuxDesignServices[0].items.map((item) => ({
+            label: item.text,
             href: item.link
           }))
         }
       ]
     },
-   
+
     "Digital Marketing": {
       icon: <FaBullhorn />,
       href: "/services/digital-marketing",
@@ -81,8 +86,9 @@ const MegaMenu = ({ isOpen, closeMenu, isMobile }) => {
       sections: [
         {
           title: "Marketing",
-          links: digitalMarketingServices[0].items.map((item) => ({ 
-            label: item.text, 
+          href: "/services/digital-marketing",
+          links: digitalMarketingServices[0].items.map((item) => ({
+            label: item.text,
             href: item.link
           }))
         }
@@ -141,7 +147,11 @@ const MegaMenu = ({ isOpen, closeMenu, isMobile }) => {
           <div className={`mega-grid-dynamic grid-cols-${activeColumns}`}>
             {menuData[activeTab].sections.map((section, idx) => (
               <div key={idx} className="mega-section-column">
-                <h4 className="column-heading-top">{section.title}</h4>
+                <h4 className="column-heading-top">
+                  <NavLink to={section.href} onClick={closeMenu}>
+                    {section.title}
+                  </NavLink>
+                </h4>
                 <nav className="column-links-list">
                   {section.links.map((link, lIdx) => (
                     <div key={lIdx} className="link-wrapper">
