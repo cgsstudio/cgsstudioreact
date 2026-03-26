@@ -275,9 +275,8 @@ function WebDevelopmentDetails() {
 				</div>
 			</div>
 			<div className="design-body-wrapper">
-				<div className="container">
-					<div className="container py-5">
-						<div className="design-main-card">
+				<div className="container py-5">
+					<div className="design-main-card">
 							<div className="row gy-4">
 								<div className="col-lg-5 col-md-5">
 									<div className="design-title-section">
@@ -320,7 +319,6 @@ function WebDevelopmentDetails() {
 								</div>
 							</div>
 						</div>
-					</div>
 				</div>
 			</div>
 

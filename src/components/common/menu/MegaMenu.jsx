@@ -5,13 +5,15 @@ import {
   FaRocket, 
   FaCode, 
   FaBullhorn, 
-  FaChevronRight
+  FaChevronRight,
+  FaRobot
 } from "react-icons/fa";
 import { 
   graphicDesignServices, 
   uiuxDesignServices, 
   webDevelopmentServices, 
-  digitalMarketingServices 
+  digitalMarketingServices,
+  aiDevelopmentServices 
 } from "../../../data/serviceData";
 import "./MegaMenu.css";
 
@@ -82,6 +84,20 @@ const MegaMenu = ({ isOpen, closeMenu, isMobile }) => {
         {
           title: "Marketing",
           links: digitalMarketingServices[0].items.map((item) => ({ 
+            label: item.text, 
+            href: item.link
+          }))
+        }
+      ]
+    },
+    "AI Development": {
+      icon: <FaRobot />,
+      href: "/services/ai-development",
+      columns: 1,
+      sections: [
+        {
+          title: "AI Services",
+          links: aiDevelopmentServices[0].items.map((item) => ({ 
             label: item.text, 
             href: item.link
           }))

@@ -2873,7 +2873,7 @@ header.aximo-header-section.aximo-header7.sticky-menu {
 
 .aximo-default-btn.aximo-header-btn {
 	height: 50px;
-	width: 150px;
+	width: 240px;
 	padding: 0;
 	line-height: 47.5px;
 	color: #fdfde1 !important;
@@ -9181,7 +9181,7 @@ img.swipeimage {
 	object-fit: cover;
 	z-index: 9;
 	opacity: 0;
-	
+
 	pointer-events: none;
 	border-radius: 7px;
 	border: 5px solid #fff;

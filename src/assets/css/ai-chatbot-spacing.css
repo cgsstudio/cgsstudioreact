@@ -1,0 +1,106 @@
+/* AI Chatbot Development Page - Enhanced Spacing */
+.ai-chatbot-page-enhanced {
+  line-height: 1.8;
+  letter-spacing: 0.3px;
+}
+
+.aximo-service-details-wrap {
+  margin-bottom: 60px;
+}
+
+.aximo-default-content p {
+  margin-bottom: 24px;
+  line-height: 1.9;
+}
+
+.aximo-default-content h2 {
+  margin-bottom: 32px;
+  line-height: 1.4;
+}
+
+.custom-list li {
+  margin-bottom: 16px;
+  line-height: 1.7;
+}
+
+.servisepage-form-section-1 {
+  margin-bottom: 40px;
+}
+
+.our_efficiently {
+  line-height: 1.2;
+}
+
+.our_efficiently_1 {
+  line-height: 1.4;
+  margin-top: 8px;
+}
+
+.aximo-form-field2 {
+  margin-bottom: 28px;
+}
+
+.servise-aximo-form-wrap3 {
+  padding: 32px;
+}
+
+/* Image height matching content */
+.services_page_image {
+  height: 700px !important;
+  object-fit: cover;
+  width: 100%;
+  border-radius: 20px!important;
+}
+
+/* Ensure images match content height in all sections */
+.aximo-service-details-wrap .row .col-lg-6 img {
+  min-height: 550px;
+  object-fit: cover;
+  border-radius: 8px;
+  object-position: top;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Section spacing */
+.container.pt-5 {
+  padding-top: 80px !important;
+}
+
+.bg-white-smoke {
+  padding: 40px 0;
+}
+
+/* FAQ section spacing */
+.faq-section {
+  padding: 60px 0;
+}
+
+.faq-section h2 {
+  margin-bottom: 40px;
+  line-height: 1.3;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .aximo-default-content p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+  }
+  
+  .aximo-default-content h2 {
+    margin-bottom: 24px;
+  }
+  
+  .container.pt-5 {
+    padding-top: 60px !important;
+  }
+  
+  .services_page_image {
+    height: 400px !important;
+  }
+  
+  .aximo-service-details-wrap .row .col-lg-6 img {
+    min-height: 450px;
+  }
+}
