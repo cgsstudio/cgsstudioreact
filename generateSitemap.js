@@ -111,75 +111,27 @@ const pages = [
   // ✅ Digital Marketing
   { url: "/services/digital-marketing", changefreq: "weekly", priority: 0.8 },
   { url: "/services/digital-marketing/seo-agency", changefreq: "weekly", priority: 0.7 },
+  { url: "/services/digital-marketing/seo-company", changefreq: "weekly", priority: 0.7 },
   { url: "/services/digital-marketing/social-media-marketing-agency", changefreq: "weekly", priority: 0.7 },
+  { url: "/services/digital-marketing/social-media-marketing", changefreq: "weekly", priority: 0.7 },
   { url: "/services/digital-marketing/email-marketing-company", changefreq: "weekly", priority: 0.7 },
   { url: "/services/digital-marketing/google-ads-management-agency", changefreq: "weekly", priority: 0.7 },
   { url: "/services/digital-marketing/meta-ads-management-company", changefreq: "weekly", priority: 0.7 },
 
-  // ✅ Blog Posts
-  { url: "/blog/role-of-ai-in-graphic-design", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/how-graphic-design-impacts-brand-success", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/impact-of-graphic-design-on-brand-identity", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/digital-marketing-vs-traditional-marketing", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/top-7-ways-to-drive-more-traffic-to-your-website", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/how-to-optimize-your-website-for-seo", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/why-choose-chameleo-gfx-studio-as-your-graphic-design-agency", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/tips-for-effective-logo-design", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/future-of-graphic-design-industries", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/common-ux-mistakes-to-avoid", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/understanding-colors-in-graphic-design", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/importance-of-high-quality-images-in-design", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/how-to-create-a-brand-identity-that-stands-out", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/effective-typography-tips", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/role-of-visual-storytelling-in-branding", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/minimalism-vs-maximalism-in-design", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/why-your-business-needs-a-professional-website", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/the-power-of-packaging-design", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/infographic-design-tips-to-make-complex-data-simple", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/branding-rebranding-knowing-is-it-the-right-time", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/ai-tools-for-efficiency-in-graphic-design", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/benefits-of-hiring-a-professional-graphic-design-agency", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/social-media-design-best-practices", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/user-experience-vs-user-interface", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/web-designing-impact-on-seo", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/brand-consistency-why-it-is-important", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/the-future-of-ui-ux-design", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/importance-of-white-space-in-web-design", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/how-graphic-designers-use-concept-development", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/digital-marketing-strategy-for-small-businesses", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/how-to-design-memorable-business-cards", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/psychology-of-color-in-marketing", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/the-rise-of-motion-graphics-in-digital-marketing", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/how-packaging-influences-consumer-behavior", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/visual-content-for-social-media-marketing", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/dark-ui-design-trends-and-benefits", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/brand-voice-and-graphic-design-harmony", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/ai-image-generation-impact-on-creativity", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/responsive-design-importance-for-modern-websites", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/impact-of-design-on-customer-retention", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/how-to-audit-your-brand-identity", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/web-development-trends-to-watch-in-2025", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/future-of-graphic-design-agency-ahmedabad", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/seo-optimization-in-ahmedabad-guide", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/visual-marketing-strategies-for-ahmedabad-businesses", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/hiring-ui-ux-design-agency-ahmedabad", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/local-branding-strategy-for-ahmedabad-startups", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/shopify-ecommerce-web-development-ahmedabad", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/social-media-design-trends-for-ahmedabad-brands", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/finding-the-best-graphic-design-agency-ahmedabad", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/importance-of-local-seo-for-ahmedabad-businesses", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/effective-ui-ux-design-tips-for-high-conversion", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/web-development-best-practices-for-fast-loading-sites", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/branding-identity-elements-logo-typography-color-palette", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/future-of-ai-assisted-graphic-design-services", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/importance-of-branding-identity-for-long-term-growth", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/human-ai-collaboration-in-design", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/strong-branding-for-small-businesses", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/top-graphic-design-trends-2026", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/top-shopify-e-commerce-seo-strategies-for-2026", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/future-ready-web-development-tools-2026", changefreq: "weekly", priority: 0.6 },
-  { url: "/blog/eeat-in-ai-search-era", changefreq: "weekly", priority: 0.6 },
+  // ✅ Blog Posts will be added dynamically below
 ];
+
+// ✅ Dynamic Blog Routes from BlogData.js
+const blogDataPath = "./src/components/blog/BlogData.js";
+if (fs.existsSync(blogDataPath)) {
+  const blogDataContent = fs.readFileSync(blogDataPath, "utf-8");
+  const slugRegex = /slug:\s*["']([^"']+)["']/g;
+  let match;
+  while ((match = slugRegex.exec(blogDataContent)) !== null) {
+    const slug = match[1];
+    pages.push({ url: `/blog/${slug}`, changefreq: "weekly", priority: 0.6 });
+  }
+}
 
 const generate = async () => {
   for (const page of pages) {

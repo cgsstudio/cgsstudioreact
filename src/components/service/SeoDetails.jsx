@@ -3,19 +3,7 @@ import Single2Img from "../../assets/images/service/seo-2.png";
 import Star2Img from "../../assets/images/v1/star2.png";
 import WorkingApproach from "./WorkingApproach";
 
-const services = [
-	{
-		title: "Digital Marketing",
-		items: [
-			{ text: "Digital Marketing", link: "/digital-marketing-agency-india" },
-			{ text: "Search Engine Optimization (SEO)", link: "/search-engine-optimization" },
-			{ text: "Social Media Marketing", link: "/social-media-marketing" },
-			{ text: "Email Marketing", link: "/email-marketing" },
-			{ text: "Google Ads", link: "/google-ads" },
-			{ text: "Meta Ads", link: "/meta-ads" },
-		],
-	},
-];
+import { digitalMarketingServices as services } from "../../data/serviceData";
 function SeoDetails() {
 	return (
 		<div className="section aximo-section-padding2">
@@ -29,7 +17,7 @@ function SeoDetails() {
 							<div className="aximo-default-content">
 								<h2>
 									<span className="aximo-title-animation">
-										Search Engine Optimization (SEO) – Rank Higher and Increase Organic Traffic
+										SEO Company in Ahmedabad
 										{/* <span className="aximo-title-icon">
 						  <img src={Star2Img} alt="star" />
 						</span> */}

@@ -20,7 +20,7 @@ function Searchengineoptimizationdetail() {
               <div className="aximo-default-content">
                 <h2>
                   <span className="aximo-title-animation">
-                    Search Engine Optimization (SEO) – Rank Higher and Increase Organic Traffic
+                    SEO company India
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}

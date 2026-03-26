@@ -13,19 +13,7 @@ import servise_image1 from "../../assets/images/v1/Digital_marketing03.webp"; //
 import servise_image5 from "../../assets/images/v1/Digital_marketing04.webp";
 import SingleImg from "../../assets/images/v1/Group 122.webp";
 
-const services = [
-  {
-    title: "Digital Marketing",
-    items: [
-      { text: "Digital Marketing", link: "/services/digital-marketing" },
-      { text: "Search Engine Optimization (SEO)", link: "/services/digital-marketing/search-engine-optimization" },
-      { text: "Social Media Marketing", link: "/services/digital-marketing/social-media-marketing" },
-      { text: "Email Marketing", link: "/services/digital-marketing/email-marketing" },
-      { text: "Google Ads", link: "/services/digital-marketing/google-ads" },
-      { text: "Meta Ads", link: "/services/digital-marketing/meta-ads" },
-    ],
-  },
-];
+import { digitalMarketingServices as services } from "../../data/serviceData";
 
 const faqData = [
   {

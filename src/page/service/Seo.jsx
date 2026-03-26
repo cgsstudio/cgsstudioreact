@@ -12,10 +12,10 @@ function Seo() {
         <meta name="keywords" content="SEO Company in Ahmedabad, Best SEO Company in Ahmedabad, SEO Services in Ahmedabad, SEO Agency in Ahmedabad" />
         <link
           rel="canonical"
-          href="https://chameleogfxstudio.com/seo-company-in-ahmedabad"
+          href="https://chameleogfxstudio.com/services/digital-marketing/seo-company"
         />
       </Helmet>
-      <BreadCrumb title="SEO Company in Ahmedabad" />
+      <BreadCrumb title="SEO Company" subtitle="SEO Company" />
       <div className="bg-white-smoke">
         <SeoDetails />
 

@@ -138,16 +138,14 @@ function Navbar({
                             ref={!isMobile ? megaMenuRef : null}
                         >
                             <NavLink
-                                to="/services"
+                                to="/services/"
                                 className={({ isActive }) =>
                                     "nav-link-item" +
                                     ((isActive || isServicesActive) ? " active" : "")
                                 }
                                 onClick={(e) => {
-                                    if (isMobile) handleServicesNavClick(e);
-                                    else {
-                                        e.preventDefault();
-                                        setMegaMenuOpen(!megaMenuOpen);
+                                    if (isMobile) {
+                                        handleServicesNavClick(e);
                                     }
                                 }}
                                 style={{

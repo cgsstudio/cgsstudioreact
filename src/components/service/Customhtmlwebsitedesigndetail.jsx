@@ -18,14 +18,14 @@ function Customhtmlwebsitedesigndetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
+                <h1>
                   <span className="aximo-title-animation">
                     Custom HTML Website Design
                     <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span>
                   </span>
-                </h2>
+                </h1>
                 <p>
                   A unique website design can set your business apart from the competition. At Chameleo GFX Studio, we offer custom HTML website design services to create tailor-made solutions that reflect your brand identity. Unlike pre-made templates, a custom-designed website provides greater flexibility, better performance, and enhanced user engagement. As a trusted custom HTML website design company in Ahmedabad, we deliver websites that are not only visually appealing but also optimized for speed and SEO.
                 </p>
