@@ -1,18 +1,22 @@
 import { Helmet } from "react-helmet";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import BreadCrumb from "../../../components/common/Breadcrumb";
+import BlogHero from "../../../components/common/BlogHero";
 
 const CookiePolicy = () => {
     return (
         <>
             <Helmet>
                 <title>Cookie Policy | Chameleo GFX Studio</title>
+                <meta name="description" content="Learn how Chameleo GFX Studio uses cookies to enhance user experience, analyze website traffic, and improve our digital marketing and web services. Understand your cookie choices and preferences." />
+                <meta name="keywords" content="Chameleo GFX Studio cookie policy, website cookies, user tracking policy, cookies usage, data privacy cookies, digital agency privacy India" />
+                <link rel="canonical" href="https://chameleogfxstudio.com/cookie-policy/" />
                 <meta name="robots" content="noindex, nofollow" />
-                <link rel="canonical" href="https://chameleogfxstudio.com/cookie-policy" />
             </Helmet>
 
-            <BreadCrumb title="Cookie Policy" />
+            <BlogHero title="Cookie Policy" breadcrumbTitle="Cookie Policy" />
+
+            <section className="section aximo-section-padding bg-white-smoke">
             <div className="container py-5">
                 <h2 className="my-4">Cookie Policy</h2>
                 <p className="paragraph-cgs mb-3">Last Updated: 23rd Sept, 2025</p>
@@ -128,6 +132,7 @@ const CookiePolicy = () => {
                             <a className="text-link-main" href="tel:+919737472636">+91-9737472636</a></div> </div>
                 </address>
             </div>
+            </section>
         </>
     );
 };

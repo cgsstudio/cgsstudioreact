@@ -40,7 +40,7 @@ const servicesData = [
         title: "Digital Marketing",
         links: [
             { text: "Digital Marketing", to: "/services/digital-marketing" },
-            { text: "Best SEO Agency", to: "/services/digital-marketing/seo-agency" },
+            { text: "Best SEO Company", to: "/services/digital-marketing/seo-agency" },
             { text: "SEO Company", to: "/services/digital-marketing/seo-company" },
             { text: "Social Media Marketing Agency", to: "/services/digital-marketing/social-media-marketing-agency" },
             { text: "Social Media Marketing", to: "/services/digital-marketing/social-media-marketing" },

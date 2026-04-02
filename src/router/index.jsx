@@ -217,14 +217,16 @@ export const router = createBrowserRouter([
 								children: [
 									{ index: true, element: <Digitalmarketing /> },
 									{ path: "seo-agency", element: <Searchengineoptimization /> },
-									{ path: "seo-company", element: <Seo /> },
+									{ path: "seo-company-in-ahmedabad", element: <Seo /> },
 									{ path: "social-media-marketing-agency", element: <Socialmediamarketing /> },
-									{ path: "social-media-marketing", element: <SocialMedia /> },
+									{ path: "social-media-marketing-in-ahmedabad", element: <SocialMedia /> },
 									{ path: "email-marketing-company", element: <Emailmarketing /> },
 									{ path: "google-ads-management-agency", element: <Googleads /> },
 									{ path: "meta-ads-management-company", element: <Metaads /> },
 									// 301 Redirects for Old Links
-									{ path: "search-engine-optimization", element: <Navigate to="/services/digital-marketing/seo-company" replace /> },
+									{ path: "seo-company", element: <Navigate to="/services/digital-marketing/seo-company-in-ahmedabad" replace /> },
+									{ path: "social-media-marketing", element: <Navigate to="/services/digital-marketing/social-media-marketing-in-ahmedabad" replace /> },
+									{ path: "search-engine-optimization", element: <Navigate to="/services/digital-marketing/seo-agency" replace /> },
 									{ path: "social-media-marketing-agency-company", element: <Navigate to="/services/digital-marketing/social-media-marketing-agency" replace /> },
 									{ path: "google-ads", element: <Navigate to="/services/digital-marketing/google-ads-management-agency" replace /> },
 									{ path: "meta-ads", element: <Navigate to="/services/digital-marketing/meta-ads-management-company" replace /> },
@@ -561,7 +563,7 @@ export const router = createBrowserRouter([
 	},
 	{
 		path: "/seo-company-in-ahmedabad",
-		element: <Navigate to="/services/digital-marketing/seo-company" replace />,
+		element: <Navigate to="/services/digital-marketing/seo-company-in-ahmedabad" replace />,
 	},
 	{
 		path: "/best-seo-agency-in-ahmedabad",
@@ -689,11 +691,11 @@ export const router = createBrowserRouter([
 	},
 	{
 		path: "/search-engine-optimization",
-		element: <Navigate to="/services/digital-marketing/seo-company" replace />,
+		element: <Navigate to="/services/digital-marketing/seo-agency" replace />,
 	},
 	{
 		path: "/social-media-marketing",
-		element: <Navigate to="/services/digital-marketing/social-media-marketing" replace />,
+		element: <Navigate to="/services/digital-marketing/social-media-marketing-in-ahmedabad" replace />,
 	},
 	{
 		path: "/email-marketing",

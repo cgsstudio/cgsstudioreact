@@ -7,6 +7,9 @@ const Disclaimer = () => {
         <>
             <Helmet>
                 <title>Disclaimer | Chameleo GFX Studio</title>
+                <meta name="description" content="Read the disclaimer of Chameleo GFX Studio to understand the limitations of liability, content accuracy, and usage terms for our website, services, and digital solutions." />
+                <meta name="keywords" content="Chameleo GFX Studio disclaimer, website disclaimer, liability terms, service disclaimer, digital agency terms, content usage policy India" />
+                <link rel="canonical" href="https://chameleogfxstudio.com/disclaimer/" />
                 <meta name="robots" content="noindex, nofollow" />
             </Helmet>
 
@@ -15,7 +18,7 @@ const Disclaimer = () => {
             <section className="section aximo-section-padding bg-white-smoke">
                 <div className="container py-5">
 
-                   
+
 
                     <p className="paragraph-cgs">
                         Welcome to Chameleo GFX Studio. By accessing and using our website (<a href="https://chameleogfxstudio.com/" target="_blank" rel="noopener noreferrer" style={{ color: '#ed1d24' }} >https://chameleogfxstudio.com/</a>), you accept and agree to be bound by the terms of this disclaimer. If you do not agree with any part of this disclaimer, please do not use our website.

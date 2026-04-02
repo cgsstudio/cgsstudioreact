@@ -1,3 +1,2 @@
 User-agent: *
-Disallow: /privacy-policy
 Sitemap: https://chameleogfxstudio.com/sitemap.xml

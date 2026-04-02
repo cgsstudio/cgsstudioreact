@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, Navigate } from "react-router-dom";
 import BlogDetails from "./BlogDetails";
 import PostTags from "./PostTags";
 import RecentPosts from "../RecentPosts";
@@ -14,8 +14,8 @@ function SingleBlog() {
   const blog = BlogData.find((blog) => blog.slug === slug);
 
   if (!blog) {
-    // Return null to allow the router to trigger the 404 route
-    return null;
+    // Redirect to 404 page when blog slug is not found
+    return <Navigate to="/404-not-found" replace />;
   }
 
   return (
@@ -23,7 +23,7 @@ function SingleBlog() {
       <Helmet>
         <title>{blog.seot}</title>
         <meta name="description" content={blog.seod} />
-        <link rel="canonical" href={`https://www.chameleogfxstudio.com/blog/${slug}/`} />
+        <link rel="canonical" href={`https://chameleogfxstudio.com/blog/${slug}/`} />
         <meta name="keywords" content={blog.keywords.join(", ")} />
       </Helmet>
       <div className="container">

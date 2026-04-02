@@ -25,7 +25,7 @@ function ServicePage() {
         <title>Services</title>
         <meta name="description" content="" />
         <meta name="keywords" content="" />
-        <link rel="canonical" href="https://www.chameleogfxstudio.com/services/" />
+        <link rel="canonical" href="https://chameleogfxstudio.com/services/" />
       </Helmet>
 
       {/* Breadcrumb Component */}

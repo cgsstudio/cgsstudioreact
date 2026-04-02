@@ -45,7 +45,7 @@ const Industryweserve = () => {
     <>
       <Helmet>
         <title>Industries We Serve</title>
-        <link rel="canonical" href="https://www.chameleogfxstudio.com/industries-we-serve/" />
+        <link rel="canonical" href="https://chameleogfxstudio.com/industries-we-serve/" />
       </Helmet>
       <BlogHero title="Industries We Serve" breadcrumbTitle="Industries We Serve" />
       <section className="bg-white-smoke">

@@ -124,10 +124,10 @@ export const digitalMarketingServices = [
     title: "Digital Marketing",
     items: [
       { text: "Digital Marketing", link: "/services/digital-marketing" },
-      { text: "Best SEO Agency", link: "/services/digital-marketing/seo-agency" },
-      { text: "SEO Company", link: "/services/digital-marketing/seo-company" },
+      { text: "SEO Company", link: "/services/digital-marketing/seo-company-in-ahmedabad" }, // Swapped link
+      { text: "SEO Agency", link: "/services/digital-marketing/seo-agency" }, // Swapped link
       { text: "Social Media Marketing Agency", link: "/services/digital-marketing/social-media-marketing-agency" },
-      { text: "Social Media Marketing", link: "/services/digital-marketing/social-media-marketing" },
+      { text: "Social Media Marketing", link: "/services/digital-marketing/social-media-marketing-in-ahmedabad" }, // Updated slug
       { text: "Email Marketing", link: "/services/digital-marketing/email-marketing-company" },
       { text: "Google Ads", link: "/services/digital-marketing/google-ads-management-agency" },
       { text: "Meta Ads", link: "/services/digital-marketing/meta-ads-management-company" },
