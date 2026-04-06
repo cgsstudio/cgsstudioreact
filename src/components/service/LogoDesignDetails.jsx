@@ -46,14 +46,14 @@ function LogoDesignDetails() {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-default-content">
-								<h2>
-									<span className="aximo-title-animation">
-										Logo Design Company in Ahmedabad
+								<h1>
+									<span className="aximo-title-animation" style={{ lineHeight: 1.2 }} >
+										Best Logo Design Company in Ahmedabad, India
 										<span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
 										</span>
 									</span>
-								</h2>
+								</h1>
 								<p>
 									A logo is the face of your brand, serving as a powerful visual identity that communicates your business values and mission. A well-designed logo creates instant recognition and leaves a lasting impact on your audience. As a trusted logo design company in Ahmedabad, we specialize in creating custom logos that are unique, professional, and aligned with your brand’s vision. Our skilled logo designers in Ahmedabad focus on crafting visually appealing and meaningful designs that make your brand stand out in a competitive market.
 								</p>

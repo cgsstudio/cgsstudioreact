@@ -18,14 +18,14 @@ function Socialmediamarketingdetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    social media marketing in India
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: 1.2 }} >
+                    Best Social Media Marketing Agency Company in Ahmedabad, India
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   Social media is more than just posting content—it's about building relationships, driving engagement, and converting followers into loyal customers. At Chameleo GFX Studio, our social media marketing services in Ahmedabad help brands establish a strong presence on platforms like Facebook, Instagram, LinkedIn, and Twitter. We create customized social media strategies that align with your brand identity and business goals, ensuring that every post, ad, and campaign delivers results.
                 </p>

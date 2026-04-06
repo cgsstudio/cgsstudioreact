@@ -18,14 +18,11 @@ function Webflowintegrationdetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    Webflow Integration Services
-                    <span className="aximo-title-icon">
-                      <img src={Star2Img} alt="star" />
-                    </span>
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: 1.2 }} >
+                    Best Webflow Integration Company in Ahmedabad, India
                   </span>
-                </h2>
+                </h1>
                 <p>
                   A successful website goes beyond just design—it needs seamless integrations for better functionality. At Chameleo GFX Studio, we offer Webflow integration services, connecting your Webflow website with third-party tools like CRM, analytics, payment gateways, automation tools, and more. Whether you need Zapier, HubSpot, Google Analytics, Mailchimp, or API integrations, we ensure smooth connectivity and enhanced performance.
                 </p>

@@ -1,25 +1,25 @@
 import { Helmet } from "react-helmet-async";
 import BreadCrumb from "../../components/common/Breadcrumb";
-import  Htmltoreactdetail from "../../components/service/Htmltoreactdetail";
+import Htmltoreactdetail from "../../components/service/Htmltoreactdetail";
 
 function Htmltoreact() {
-    
+
   return (
     <>
-    <Helmet>
-            <title>HTML to React Services in Ahmedabad, India</title>
-            <meta name="description" content="Chameleo GFX Studio offers the best HTML to React Services in Ahmedabad, India. Convert static HTML into dynamic, reusable, and high-performance React components with expert help." />
-			      <meta name="keywords" content="Chameleo GFX Studio, HTML to React, React conversion in Ahmedabad, React developers India, HTML to React.js, dynamic web apps, frontend development, React components, responsive React apps, custom React development" />
-            <link 
-          rel="canonical" 
-          href="https://chameleogfxstudio.com/services/web-development/html-to-react-services" 
+      <Helmet>
+        <title>HTML to React Services in Ahmedabad, India</title>
+        <meta name="description" content="Chameleo GFX Studio offers the best HTML to React Services in Ahmedabad, India. Convert static HTML into dynamic, reusable, and high-performance React components with expert help." />
+        <meta name="keywords" content="Chameleo GFX Studio, HTML to React, React conversion in Ahmedabad, React developers India, HTML to React.js, dynamic web apps, frontend development, React components, responsive React apps, custom React development" />
+        <link
+          rel="canonical"
+          href="https://chameleogfxstudio.com/services/web-development/html-to-react-services"
         />
-        </Helmet>
-      <BreadCrumb title="HTML to React Services" breadcrumbTitle="HTML to React Services" />
+      </Helmet>
+      <BreadCrumb title="HTML to React Services in Ahmedabad, India" breadcrumbTitle="HTML to React Services in Ahmedabad, India" />
       <div className="bg-white-smoke">
         <Htmltoreactdetail />
 
-    </div>
+      </div>
 
     </>
   );

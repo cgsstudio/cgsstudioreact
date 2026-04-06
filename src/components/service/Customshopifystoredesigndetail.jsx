@@ -94,15 +94,15 @@ function Customshopifystoredesigndetail() {
           </div>
           <div className="row">
             <div className="col-lg-12">
-              <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    Custom Shopify Store Design
-                    <span className="aximo-title-icon">
+              <div className="aximo-default-content" >
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: "1.2" }}>
+                    Best Custom Shopify Store Design Company in Ahmedabad, India
+                    {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
-                    </span>
+                    </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   A custom-designed Shopify store can set your brand apart and create a unique shopping experience for your customers. At Chameleo GFX Studio, we specialize in custom Shopify store design, building tailored eCommerce solutions that reflect your brand identity and engage your audience. Our team creates a user-friendly interface with clean layouts, high-quality visuals, and intuitive navigation, ensuring a seamless browsing and purchasing experience.
                 </p>

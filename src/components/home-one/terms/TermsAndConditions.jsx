@@ -9,9 +9,11 @@ const TermsAndConditions = () => {
   return (
     <>
       <Helmet>
-        <title>Terms & Conditions</title>
+        <title>Terms & Conditions | Chameleo GFX Studio</title>
+        <meta name="description" content="Review the terms and conditions of Chameleo GFX Studio outlining service usage, responsibilities, payment terms, and legal guidelines for our web design, development, and digital marketing services." />
+        <meta name="keywords" content="Chameleo GFX Studio terms and conditions, service terms India, website terms, digital marketing terms, web development terms, legal policy agency" />
+        <link rel="canonical" href="https://chameleogfxstudio.com/terms-and-conditions/" />
         <meta name="robots" content="noindex, nofollow" />
-        <link rel="canonical" href="https://chameleogfxstudio.com/terms-and-conditions" />
       </Helmet>
       <BlogHero title="Terms & Conditions" breadcrumbTitle="Terms & Conditions" />
 

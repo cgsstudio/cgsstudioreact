@@ -110,7 +110,7 @@ function DigitalMarketingDetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h1 className="text-lg-center text-sm-left"><span className="custom-h2"><span style={{ color: 'red' }}>Digital Marketing</span> Agency in India</span></h1>
+                <h1 className="text-lg-center text-sm-left"><span className="custom-h2"><span style={{ color: 'red' }}>Digital Marketing</span> Agency in Ahmedabad, India</span></h1>
 
                 <p className="text-lg-center text-sm-left pt-sm-2 pt-3 pt-lg-0">
                   Digital marketing is the science and art of marketing your company online. It employs tools such as Google, social media, emails, and websites to connect with the right audience at the right moment. To put it simply, it's how brands are seen in the digital world.

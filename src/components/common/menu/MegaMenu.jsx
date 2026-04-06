@@ -89,10 +89,12 @@ const MegaMenu = ({ isOpen, closeMenu, isMobile }) => {
         {
           title: "Marketing",
           href: "/services/digital-marketing",
-          links: digitalMarketingServices[0].items.map((item) => ({
-            label: item.text,
-            href: item.link
-          }))
+          links: digitalMarketingServices[0].items
+            .filter(item => item.link !== "/services/digital-marketing/seo-company-in-ahmedabad" && item.link !== "/services/digital-marketing/social-media-marketing-in-ahmedabad")
+            .map((item) => ({
+              label: item.text,
+              href: item.link
+            }))
         }
       ]
     },

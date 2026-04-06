@@ -6,7 +6,7 @@ import WebDevApproach from "./WebDevApproach";
 
 
 import { graphicDesignServices as services } from "../../data/serviceData";
-  
+
 
 
 
@@ -14,7 +14,7 @@ import { graphicDesignServices as services } from "../../data/serviceData";
 
 
 function FlyerDesigndetail() {
-	
+
 	return (
 		<div className="section aximo-section-padding2">
 			<div className="container">
@@ -25,71 +25,71 @@ function FlyerDesigndetail() {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-default-content">
-								<h2>
-									<span className="aximo-title-animation">
-									Flyer Design Services Ahmedabad 
+								<h1>
+									<span className="aximo-title-animation" style={{ lineHeight: "1.2em" }}>
+										Best Flyer Design Services Ahmedabad India
 										<span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
 										</span>
 									</span>
-								</h2>
+								</h1>
 								<p>
-								Flyers are a powerful and cost-effective marketing tool that helps businesses communicate their message quickly and effectively. A well-designed flyer grabs attention, highlights key information, and encourages customer engagement. At Chameleo GFX Studio, we specialize in custom flyer design services that are visually appealing, professionally structured, and aligned with your brand identity. Whether you need a promotional flyer, event flyer, or business brochure, our expert designers ensure high-quality designs that leave a lasting impact.
+									Flyers are a powerful and cost-effective marketing tool that helps businesses communicate their message quickly and effectively. A well-designed flyer grabs attention, highlights key information, and encourages customer engagement. At Chameleo GFX Studio, we specialize in custom flyer design services that are visually appealing, professionally structured, and aligned with your brand identity. Whether you need a promotional flyer, event flyer, or business brochure, our expert designers ensure high-quality designs that leave a lasting impact.
 								</p>
 								<p>
-								A professionally designed flyer is an excellent way to boost brand awareness and attract potential customers. It allows businesses to showcase products, services, or special offers in a concise yet visually engaging manner. Investing in professional flyer design services ensures that your marketing material stands out, whether used for digital promotions or print distribution. At Chameleo GFX Studio, a leading flyer design company, we create compelling and high-impact designs that help businesses maximize reach and drive customer engagement.
+									A professionally designed flyer is an excellent way to boost brand awareness and attract potential customers. It allows businesses to showcase products, services, or special offers in a concise yet visually engaging manner. Investing in professional flyer design services ensures that your marketing material stands out, whether used for digital promotions or print distribution. At Chameleo GFX Studio, a leading flyer design company, we create compelling and high-impact designs that help businesses maximize reach and drive customer engagement.
 								</p>
 							</div>
 						</div>
 					</div>
-					  <div className="container pt-5">
-							{services.map((service, index) => (
-							  <div key={index} className="">
+					<div className="container pt-5">
+						{services.map((service, index) => (
+							<div key={index} className="">
 								{/* Heading for each main category */}
 								<div className="aximo-section-title main center">
-								  <h2>
-									<span className="aximo-title-animation">
-									  {service.title}
-									  <span className="aximo-title-icon">
-										<img className="shape-color" src={Star2Img} alt="Star2Img" />
-									  </span>
-									</span>
-								  </h2>
+									<h2>
+										<span className="aximo-title-animation">
+											{service.title}
+											<span className="aximo-title-icon">
+												<img className="shape-color" src={Star2Img} alt="Star2Img" />
+											</span>
+										</span>
+									</h2>
 								</div>
 								{service.categories &&
-								  service.categories.map((category, catIndex) => (
-									<div key={catIndex} className="mb-4">
-									  {/* Subtitle for each subcategory */}
-									  <h4 className="mb-3">{category.subtitle}</h4>
-									  <div className="row">
-										{category.items.map((item, itemIndex) => (
-										  <div key={itemIndex} className="col-12 col-md-6">
-											<ul className="list-unstyled custom-list">
-											  <li>{item}</li>
-											</ul>
-										  </div>
-										))}
-									  </div>
-									</div>
-								  ))}
+									service.categories.map((category, catIndex) => (
+										<div key={catIndex} className="mb-4">
+											{/* Subtitle for each subcategory */}
+											<h4 className="mb-3">{category.subtitle}</h4>
+											<div className="row">
+												{category.items.map((item, itemIndex) => (
+													<div key={itemIndex} className="col-12 col-md-6">
+														<ul className="list-unstyled custom-list">
+															<li>{item}</li>
+														</ul>
+													</div>
+												))}
+											</div>
+										</div>
+									))}
 								{!service.categories && (
-								   <div className="row">
-								   {service.items.map((item, itemIndex) => (
-								  <div key={itemIndex} className="col-12 col-md-6">
-									<ul className="list-unstyled custom-list">
-									  <li>
-										<a href={item.link} rel="noopener noreferrer">
-										  {item.text}
-										</a>
-									  </li>
-									</ul>
-								  </div>
-								))}
-							  </div>
+									<div className="row">
+										{service.items.map((item, itemIndex) => (
+											<div key={itemIndex} className="col-12 col-md-6">
+												<ul className="list-unstyled custom-list">
+													<li>
+														<a href={item.link} rel="noopener noreferrer">
+															{item.text}
+														</a>
+													</li>
+												</ul>
+											</div>
+										))}
+									</div>
 								)}
-							  </div>
-							))}
-						  </div>
+							</div>
+						))}
+					</div>
 					{/* <div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-user-interface">

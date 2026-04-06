@@ -7,6 +7,9 @@ const RefundPolicy = () => {
         <>
             <Helmet>
                 <title>Refund Policy | Chameleo GFX Studio</title>
+                <meta name="description" content="Read the refund policy of Chameleo GFX Studio to understand our terms on payments, cancellations, and refunds for web design, development, and digital marketing services." />
+                <meta name="keywords" content="Chameleo GFX Studio refund policy, payment terms, cancellation policy, digital marketing refund, web development refund policy, service terms India" />
+                <link rel="canonical" href="https://chameleogfxstudio.com/refund-policy/" />
                 <meta name="robots" content="noindex, nofollow" />
             </Helmet>
 
@@ -75,7 +78,7 @@ const RefundPolicy = () => {
                         <li>Date of purchase</li>
                         <li>Clear description of the issue along with supporting proof</li>
                     </ul>
-                    <br/>
+                    <br />
                     <p className="paragraph-cgs">
                         📧 Email: <a className="text-link-main" href="mailto:info@chameleogfxstudio.com">info@chameleogfxstudio.com</a>
                     </p>

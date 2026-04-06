@@ -485,6 +485,27 @@ h1,
 	font-size: 50px !important;
 }
 
+.aximo-breadcrumb-title {
+	font-size: 48px;
+	line-height: 1em;
+	letter-spacing: -0.7px;
+}
+
+@media (max-width: 1199px) {
+
+	.aximo-breadcrumb-title {
+		font-size: 40px;
+	}
+}
+
+@media (max-width: 767px) {
+
+	.aximo-breadcrumb-title {
+		font-size: 32px;
+
+	}
+}
+
 h2,
 .h2 {
 	font-size: 60px;

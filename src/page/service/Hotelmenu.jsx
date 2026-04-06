@@ -15,11 +15,11 @@ function Hotelmenu() {
           href="https://chameleogfxstudio.com/services/graphic-design/menu-design-service-company"
         />
       </Helmet>
-      <BreadCrumb title="Menu Design Service Company" breadcrumbTitle="Menu Design Service Company" />
+      <BreadCrumb title="Menu Design Service Company in Ahmedabad, India" breadcrumbTitle="Menu Design Service Company in Ahmedabad, India" />
       <div className="bg-white-smoke">
         <MenuDesigndetail />
 
-    </div>
+      </div>
 
     </>
   );

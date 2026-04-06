@@ -14,17 +14,18 @@ function Shopifyecommercemanagementdetail() {
           <div className="axiom-service-details-thumb d-none d-md-block">
             <img src={SingleImg} alt="Web Development" />
           </div>
-          <div className="row">
+          <div className="row py-5">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    Shopify E-commerce Management and Support – Hassle-Free Store Maintenance
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: "1.1" }}>
+                    Best Shopify E-commerce Management and Support Company in Ahmedabad, India
+
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   Running a successful Shopify store requires constant monitoring, updates, and optimization. At Chameleo GFX Studio, we provide Shopify eCommerce management and support services, ensuring that your online store operates smoothly without interruptions. From product updates and performance monitoring to technical support and security maintenance, we handle everything so you can focus on growing your business.
                 </p>

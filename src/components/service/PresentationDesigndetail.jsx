@@ -27,14 +27,14 @@ function PresentationDesigndetail() {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-default-content">
-								<h2>
-									<span className="aximo-title-animation">
-										Presentation Design Services in Ahmedabad
-										<span className="aximo-title-icon">
+								<h1>
+									<span className="aximo-title-animation" style={{ lineHeight: "1.2" }}>
+										Best Presentation Design Services in Ahmedabad India
+										{/* <span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
-										</span>
+										</span> */}
 									</span>
-								</h2>
+								</h1>
 								<p>
 									Whether you’re presenting to investors, potential clients, or your own team, your presentation design speaks volumes about your professionalism and attention to detail. A stunning presentation can turn an ordinary idea into an extraordinary one, engaging your audience and ensuring your message is delivered with impact. At Chameleo GFX Studio, we specialize in designing custom presentations that elevate your content with stylish, well-thought-out slides. Our goal is to create presentations that not only look amazing but also serve as an effective tool to communicate your ideas with clarity and persuasion.
 								</p>

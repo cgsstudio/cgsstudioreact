@@ -17,14 +17,14 @@ function Shopifydetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    Shopify – Build, Customize, and Scale Your Online Store
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: 1.2 }}>
+                    Best Shopify Development Company in India
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   Shopify is one of the most powerful and user-friendly eCommerce platforms that helps businesses build and manage their online stores effortlessly. At Chameleo GFX Studio, we specialize in custom Shopify store design, delivering high-converting, visually appealing, and fully functional eCommerce websites. Whether you are launching a new online store or revamping an existing one, our team ensures a seamless shopping experience with responsive design, intuitive navigation, and mobile-first optimization.
                 </p>

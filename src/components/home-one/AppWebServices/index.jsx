@@ -44,7 +44,7 @@ function AppWebServices() {
             description: "As a leading web development company in Ahmedabad, India, we specialize in building visually stunning, high-performing websites that connect seamlessly with your target audience.",
             animation: <div style={{ width: 80, height: 80 }}><Lottie animationData={WebDevAnimation} loop={true} autoplay={true} /></div>,
             // image: WebDevImg,
-            link: "/website-development-company-ahmedabad",
+            link: "/services/web-development",
             techs: [
                 { name: "PHP", icon: <SiPhp size={24} color="#777bb4" />, bg: "#e8ebff" },
                 { name: "WordPress", icon: <SiWordpress size={24} color="#21759b" />, bg: "#e6f1ff" },
@@ -63,7 +63,7 @@ function AppWebServices() {
             description: "Our team leverages advanced strategies and in-depth keyword analysis to ensure your website ranks high for the searches that matter most.",
             animation: <div style={{ width: 80, height: 80 }}><Lottie animationData={SeoAnimation} loop={true} autoplay={true} /></div>,
             // image: GameDevImg,
-            link: "/seo-company-in-ahmedabad",
+            link: "/services/digital-marketing/seo-company-in-ahmedabad",
             techs: [
                 {
                     name: "Google Analytics",
@@ -104,7 +104,7 @@ function AppWebServices() {
             description: "We design intuitive user interfaces that ensure maximum usability, smooth navigation, and enjoyable interactions for every user.",
             animation: <div style={{ width: 80, height: 80 }}><Lottie animationData={UiUxAnimation} loop={true} autoplay={true} /></div>,
             // image: UiUxImg,
-            link: "/ui-ux-design-agency-in-ahmedabad",
+            link: "/services/ui-ux-design",
             techs: [
                 { name: "Figma", icon: <SiFigma size={24} color="#F24E1E" />, bg: "#ffe0d6" },
                 { name: "Adobe XD", icon: <SiAdobexd size={24} color="#FF61F6" />, bg: "#ffe0fd" },
@@ -118,7 +118,7 @@ function AppWebServices() {
             description: "Our graphic designs transform creative ideas into captivating visuals that leave a lasting impression on your audience.",
             animation: <div style={{ width: 80, height: 80 }}><Lottie animationData={MobileAppAnimation} loop={true} autoplay={true} /></div>,
             // image: MobileAppImg,
-            link: "/graphic-design-company-in-ahmedabad",
+            link: "/services/graphic-design",
             techs: [
                 { name: "Figma", icon: <SiFigma size={24} color="#F24E1E" />, bg: "#ffece6" },
                 { name: "Adobe Illustrator", icon: <SiAdobeillustrator size={24} color="#FF7C00" />, bg: "#fff3e6" },

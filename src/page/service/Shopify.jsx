@@ -15,11 +15,11 @@ function Shopify() {
           href="https://chameleogfxstudio.com/services/web-development/shopify-development-company"
         />
       </Helmet>
-      <BreadCrumb title="Shopify Development Company" breadcrumbTitle="Shopify Development Company" />
+      <BreadCrumb title="Shopify Development Company in India" breadcrumbTitle="Shopify Development Company in India" />
       <div className="bg-white-smoke">
         <Shopifydetail />
 
-    </div>
+      </div>
 
     </>
   );

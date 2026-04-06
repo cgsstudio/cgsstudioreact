@@ -17,14 +17,14 @@ function Shopifythemecustomizationdetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    Shopify Theme Customization
-                    <span className="aximo-title-icon">
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: "1.2" }}>
+                    Best Shopify Theme Customization Company in Ahmedabad, India
+                    {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
-                    </span>
+                    </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   Your Shopify store’s theme plays a crucial role in its performance and user engagement. At Chameleo GFX Studio, we offer Shopify theme customization services to help you enhance the appearance and functionality of your online store. Whether you want to tweak an existing theme or build a custom one from scratch, our team ensures that your Shopify store stands out with a unique and modern design.
                 </p>

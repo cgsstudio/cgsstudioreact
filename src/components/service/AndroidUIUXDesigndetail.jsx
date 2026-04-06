@@ -21,14 +21,14 @@ function AndroidUIUXDesigndetail() {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-default-content">
-								<h2>
-									<span className="aximo-title-animation">
-										About Android UI/UX Design
+								<h1>
+									<span className="aximo-title-animation" style={{ lineHeight: 1.2 }} >
+										Best Android UI/UX Design Company in Ahmedabad India
 										<span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
 										</span>
 									</span>
-								</h2>
+								</h1>
 								<p>
 									At Chameleo GFX Studio, we specialize in crafting high-quality Android UI/UX designs that enhance user experience and satisfaction. As a leading Android UI/UX design company in Ahmedabad, our team ensures that every app we design is optimized for Android devices, providing a smooth, intuitive interface that aligns with the Android platform’s unique requirements. From custom Android app designs to redesigns, we ensure that your app is visually appealing, easy to navigate, and delivers a seamless user experience that drives engagement and boosts retention.
 								</p>

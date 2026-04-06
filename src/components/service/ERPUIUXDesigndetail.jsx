@@ -28,14 +28,14 @@ function ERPUIUXDesigndetail() {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-default-content">
-								<h2>
-									<span className="aximo-title-animation">
-										About ERP UI/UX Design
+								<h1>
+									<span className="aximo-title-animation" style={{ lineHeight: 1.2 }}>
+										Best ERP UI/UX Design Company in Ahmedabad, India
 										<span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
 										</span>
 									</span>
-								</h2>
+								</h1>
 								<p>
 									Creating an intuitive, user-friendly interface for your ERP (Enterprise Resource Planning) system is crucial to its effectiveness and adoption within your organization. At Chameleo GFX Studio, we specialize in designing ERP UI/UX that enhances usability, simplifies complex workflows, and boosts overall system performance. Our ERP UI/UX design services are customized to meet the unique requirements of your business, ensuring that every interaction with the ERP system is efficient and intuitive. As a trusted UI/UX design company in Ahmedabad, we focus on optimizing the interface to improve employee productivity and streamline business operations.
 								</p>

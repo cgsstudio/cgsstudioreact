@@ -14,12 +14,12 @@ function Shopifyappintegrationdetail() {
           <div className="axiom-service-details-thumb d-none d-md-block">
             <img src={SingleImg} alt="Web Development" />
           </div>
-          <div className="row">
+          <div className="row py-5">
             <div className="col-lg-12">
               <div className="aximo-default-content">
                 <h2>
                   <span className="aximo-title-animation">
-                    Shopify App Integration and Development – Power Up Your Store
+                    Best Shopify App Integration and Development Company in Ahmedabad, India
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}

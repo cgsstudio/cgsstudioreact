@@ -60,7 +60,7 @@ const servicesData = [
 		description:
 			"As a leading web development company in Ahmedabad, India, we specialize in building visually stunning, high-performing websites that connect seamlessly with your target audience.",
 		icon: "icon-web",
-		slug: "website-development-company-ahmedabad"
+		slug: "services/web-development"
 	},
 	{
 		id: crypto.randomUUID(),
@@ -119,7 +119,7 @@ function HomeOne() {
 				<meta name="keywords" content="Chameleo GFX Studio, Web Development Company in Ahmedabad, Digital Marketing Agency in Ahmedabad, Best Web Development Company Ahmedabad, SEO Company in Ahmedabad, Social Media Marketing Ahmedabad, Website Design Company Ahmedabad, PPC Agency Ahmedabad, Online Marketing Services Ahmedabad, Ecommerce Website Development Ahmedabad, Branding Agency Ahmedabad, Web Development Services Ahmedabad, Digital Marketing Services Ahmedabad" />
 				<link
 					rel="canonical"
-					href="https://www.chameleogfxstudio.com/"
+					href="https://chameleogfxstudio.com/"
 				/>
 
 				{/* Open Graph Meta Tags */}

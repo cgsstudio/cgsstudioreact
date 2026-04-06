@@ -12,14 +12,14 @@ function DigitalAd() {
         <meta name="keywords" content="Chameleo GFX Studio, Digital Ad Design, Digital Ad Ahmedabad, Digital Ad Design Services in Ahmedabad, Digital Ad India, Digital Ad Designing India, Online Ad Design, Social Media Ad Design, Banner Ad Design, Display Ad Design, Custom Ad Design, Creative Ad Design, Marketing Ad Design" />
         <link
           rel="canonical"
-          href="https://chameleogfxstudio.com/services/graphic-design/digital-ad-design-agency-company"
+          href="https://chameleogfxstudio.com/services/graphic-design/digital-ad-design-agency"
         />
       </Helmet>
-      <BreadCrumb title="Digital Ad Design Agency Company" breadcrumbTitle="Digital Ad Design Agency Company" />
+      <BreadCrumb title="Digital Ad Design Agency in Ahmedabad, India" breadcrumbTitle="Digital Ad Design Agency in Ahmedabad, India" />
       <div className="bg-white-smoke">
         <DigitalAddetail />
 
-    </div>
+      </div>
 
     </>
   );

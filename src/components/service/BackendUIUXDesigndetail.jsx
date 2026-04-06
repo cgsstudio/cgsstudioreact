@@ -28,14 +28,14 @@ function BackendUIUXDesigndetail() {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-default-content">
-								<h2>
-									<span className="aximo-title-animation">
-										About Backend UI/UX Design
+								<h1>
+									<span className="aximo-title-animation" style={{ lineHeight: 1.2 }}>
+										Best Backend UI/UX Design Company in Ahmedabad India
 										<span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
 										</span>
 									</span>
-								</h2>
+								</h1>
 								<p>
 									Effective backend UI/UX design is critical for ensuring that your backend systems are intuitive, efficient, and easy to manage. At Chameleo GFX Studio, we provide UI/UX design services for backend systems, focusing on creating interfaces that make managing complex data and operations more streamlined and accessible. As an experienced UI/UX design company in Ahmedabad, our team understands the importance of functionality and ease of use for backend interfaces. We design systems that provide a seamless user experience while improving operational efficiency.
 								</p>

@@ -93,16 +93,17 @@ function Photoshoptoreactdetail() {
             <img src={SingleImg} alt="Web Development" />
           </div>
           <div className="row">
-            <div className="col-lg-12">
+            <div className="col-lg-12  py-5">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    Photoshop to React – Convert Your Static Designs into Interactive Web Solutions
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: "1.1" }}>
+                    Best Photoshop to React Services Company in Ahmedabad, India
+
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   If you have Photoshop designs for your website or application, our Photoshop to React conversion services will bring them to life with fully functional and interactive React.js components. At Chameleo GFX Studio, we ensure that every detail of your design is perfectly implemented, maintaining the visual appeal while optimizing the structure for speed, performance, and SEO. Our team takes a structured approach, ensuring that your Photoshop designs are transformed into a high-quality, responsive React.js web application.
                 </p>

@@ -26,14 +26,14 @@ function Ebookdesigndetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    E-book Design Services in Ahmedabad
-                    <span className="aximo-title-icon">
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: "1.2" }}>
+                    Best E-book Design Services in Ahmedabad India
+                    {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
-                    </span>
+                    </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   E-book design is essential for creating a polished, professional, and engaging digital publication. Whether you’re publishing a guide, tutorial, or novel, a well-designed e-book enhances the reading experience and strengthens your brand’s credibility. At Chameleo GFX Studio, we specialize in e-book design services that combine creative design with functionality. We ensure your e-book looks great across all devices, with user-friendly navigation, stunning layouts, and a seamless reading experience.
                 </p>

@@ -1,25 +1,25 @@
 import { Helmet } from "react-helmet-async";
 import BreadCrumb from "../../components/common/Breadcrumb";
-import  Shopifyecommercemanagementdetail from "../../components/service/Shopifyecommercemanagementdetail";
+import Shopifyecommercemanagementdetail from "../../components/service/Shopifyecommercemanagementdetail";
 
 function Shopifyecommercemanagement() {
-    
+
   return (
     <>
-    <Helmet>
-            <title>Shopify E-commerce Management in Ahmedabad, India</title>
-            <meta name="description" content="Chameleo GFX Studio offers Complete Shopify e-commerce management in Ahmedabad, India. From product uploads to marketing and analytics, we manage your store for growth and success." />
-			      <meta name="keywords" content="Chameleo GFX Studio, Shopify management, eCommerce management, Shopify Ahmedabad, Shopify India, store management, product upload, order management, Shopify support, Shopify marketing" />
-            <link 
-          rel="canonical" 
-          href="https://chameleogfxstudio.com/services/web-development/shopify-ecommerce-management-and-support-company" 
+      <Helmet>
+        <title>Shopify E-commerce Management in Ahmedabad, India</title>
+        <meta name="description" content="Chameleo GFX Studio offers Complete Shopify e-commerce management in Ahmedabad, India. From product uploads to marketing and analytics, we manage your store for growth and success." />
+        <meta name="keywords" content="Chameleo GFX Studio, Shopify management, eCommerce management, Shopify Ahmedabad, Shopify India, store management, product upload, order management, Shopify support, Shopify marketing" />
+        <link
+          rel="canonical"
+          href="https://chameleogfxstudio.com/services/web-development/shopify-ecommerce-management-and-support-company"
         />
-        </Helmet>
-      <BreadCrumb title="Shopify E-commerce Management and Support Company" breadcrumbTitle="Shopify E-commerce Management and Support Company" />
+      </Helmet>
+      <BreadCrumb title="Shopify E-commerce Management and Support Company in Ahmedabad, India" breadcrumbTitle="Shopify E-commerce Management and Support Company in Ahmedabad, India" />
       <div className="bg-white-smoke">
         <Shopifyecommercemanagementdetail />
 
-    </div>
+      </div>
 
     </>
   );

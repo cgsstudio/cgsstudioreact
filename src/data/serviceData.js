@@ -9,7 +9,7 @@ export const graphicDesignServices = [
       { text: "Brochure Design", link: "/services/graphic-design/brochure-design-company" },
       { text: "Poster Design", link: "/services/graphic-design/poster-design-services-company" },
       { text: "Hoarding Design", link: "/services/graphic-design/hoarding-design-services-company" },
-      { text: "Packaging Design", link: "/services/graphic-design/packaging-design-agency-company" },
+      { text: "Packaging Design", link: "/services/graphic-design/packaging-design-agency" },
       { text: "Advertising Design", link: "/services/graphic-design/advertising-design-agency-company" },
       { text: "Newsletter Design", link: "/services/graphic-design/newsletter-design-service-company" },
       { text: "Infographic Design", link: "/services/graphic-design/infographic-design-services-company" },
@@ -21,10 +21,10 @@ export const graphicDesignServices = [
       { text: "Menu Design", link: "/services/graphic-design/menu-design-service-company" },
       { text: "Signage Design", link: "/services/graphic-design/signage-design-service-company" },
       { text: "Corporate Profile Design", link: "/services/graphic-design/corporate-profile-design-company" },
-      { text: "Annual Report Design", link: "/services/graphic-design/annual-report-design-agency-company" },
-      { text: "Digital Ad Design", link: "/services/graphic-design/digital-ad-design-agency-company" },
+      { text: "Annual Report Design", link: "/services/graphic-design/annual-report-design-agency" },
+      { text: "Digital Ad Design", link: "/services/graphic-design/digital-ad-design-agency" },
       { text: "Trade Show Booth Design", link: "/services/graphic-design/exhibition-booth-design-company" },
-      { text: "Motion Graphics Design", link: "/services/graphic-design/motion-graphics-design-agency-company" },
+      { text: "Motion Graphics Design", link: "/services/graphic-design/motion-graphics-design-agency" },
       { text: "E-book Design", link: "/services/graphic-design/e-book-design-service-company" },
     ],
   },
@@ -124,10 +124,10 @@ export const digitalMarketingServices = [
     title: "Digital Marketing",
     items: [
       { text: "Digital Marketing", link: "/services/digital-marketing" },
-      { text: "Best SEO Agency", link: "/services/digital-marketing/seo-agency" },
-      { text: "SEO Company", link: "/services/digital-marketing/seo-company" },
+      { text: "SEO Company", link: "/services/digital-marketing/seo-company-in-ahmedabad" }, // Swapped link
+      { text: "SEO Agency", link: "/services/digital-marketing/seo-agency" }, // Swapped link
       { text: "Social Media Marketing Agency", link: "/services/digital-marketing/social-media-marketing-agency" },
-      { text: "Social Media Marketing", link: "/services/digital-marketing/social-media-marketing" },
+      { text: "Social Media Marketing", link: "/services/digital-marketing/social-media-marketing-in-ahmedabad" }, // Updated slug
       { text: "Email Marketing", link: "/services/digital-marketing/email-marketing-company" },
       { text: "Google Ads", link: "/services/digital-marketing/google-ads-management-agency" },
       { text: "Meta Ads", link: "/services/digital-marketing/meta-ads-management-company" },

@@ -17,14 +17,14 @@ function CustomwordPresswebsitedetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    Custom WordPress Website Design
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: "1.2" }}>
+                    Best Custom WordPress Website Design Company in Ahmedabad, India
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   Your website should be as unique as your brand. At Chameleo GFX Studio, we specialize in custom WordPress website design, creating visually stunning and functionally powerful websites tailored to your business goals. Unlike generic templates, our custom WordPress designs are built from the ground up, ensuring your brand stands out. We integrate responsive design elements, intuitive navigation, and high-speed performance to create a seamless user experience.
                 </p>

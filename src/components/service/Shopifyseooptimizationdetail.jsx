@@ -18,14 +18,11 @@ function Shopifyseooptimizationdetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    Shopify SEO Optimization
-                    <span className="aximo-title-icon">
-                      <img src={Star2Img} alt="star" />
-                    </span>
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: "1.2" }}>
+                    Best Shopify SEO Optimization Company in Ahmedabad, India
                   </span>
-                </h2>
+                </h1>
                 <p>
                   Having a beautifully designed Shopify store is not enough—you need to ensure that potential customers can find it easily. At Chameleo GFX Studio, we provide Shopify SEO optimization services, helping you rank higher on search engines and drive organic traffic to your store. Our SEO specialists in Ahmedabad implement proven strategies to optimize your store’s structure, content, and technical performance for better visibility.
                 </p>

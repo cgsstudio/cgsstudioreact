@@ -95,14 +95,14 @@ function Photoshoptoshopifydetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    Photoshop to Shopify – Bring Your Designs to Life
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: 1.2 }} >
+                    Best Photoshop to Shopify Services Company in Ahmedabad, India
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   If you have a stunning eCommerce design in Photoshop and need it transformed into a fully functional Shopify store, we’ve got you covered. At Chameleo GFX Studio, we specialize in Photoshop to Shopify conversion, ensuring your design translates seamlessly into a responsive, high-performing Shopify website. Every detail, from fonts and colors to layouts and interactive elements, is carefully implemented while maintaining the integrity of your original design.
                 </p>

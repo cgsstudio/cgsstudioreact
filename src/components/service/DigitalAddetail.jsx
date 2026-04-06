@@ -25,14 +25,14 @@ function DigitalAddetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    Digital Ad Design Agency in Ahmedabad
-                    <span className="aximo-title-icon">
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: "1.2" }}>
+                    Best Digital Ad Design Agency in Ahmedabad India
+                    {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
-                    </span>
+                    </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   Digital ad design is a critical component of any online marketing campaign. Whether for display ads, social media ads, or search engine ads, the design of your digital ad plays a key role in grabbing attention and driving conversions. At Chameleo GFX Studio, we specialize in digital ad design services that are optimized for performance and engagement. Our team creates visually appealing ads that align with your brand’s voice and drive measurable results. From banner ads to social media campaigns, we help you make the most of your online advertising efforts.
                 </p>

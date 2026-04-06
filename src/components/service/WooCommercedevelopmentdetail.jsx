@@ -17,14 +17,14 @@ function WooCommercedevelopmentdetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    WooCommerce Design and Development
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: 1.2 }} >
+                    Best WooCommerce Development Company in Ahmedabad, India
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   An eCommerce store should be visually appealing, easy to navigate, and optimized for conversions. At Chameleo GFX Studio, we offer WooCommerce design and development, creating custom online stores that provide a seamless shopping experience. Whether you're launching a new store or revamping an existing one, we design and develop WooCommerce websites that are fast, secure, and conversion-friendly.
                 </p>

@@ -25,14 +25,14 @@ function EventInvitationdetail() {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-default-content">
-								<h2>
-									<span className="aximo-title-animation">
-										Event Invitation Design in Ahmedabad
-										<span className="aximo-title-icon">
+								<h1>
+									<span className="aximo-title-animation" style={{ lineHeight: "1.2" }}>
+										Best Event Invitation Design Company in Ahmedabad, India
+										{/* <span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
-										</span>
+										</span> */}
 									</span>
-								</h2>
+								</h1>
 								<p>
 									The right event invitation design doesn’t just provide the details – it creates a sense of excitement, anticipation, and exclusivity. A beautifully designed invitation can set the tone for your event and generate buzz long before it begins. At Chameleo GFX Studio, we believe that every event deserves a unique, eye-catching invitation. Whether it’s for a corporate event, wedding, or grand launch, our custom event invitation designs reflect the spirit and theme of your occasion while engaging your guests from the moment they open it.
 								</p>

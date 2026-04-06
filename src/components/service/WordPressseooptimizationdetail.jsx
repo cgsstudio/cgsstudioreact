@@ -17,14 +17,14 @@ function WordPressseooptimizationdetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    WordPress SEO Optimization
-                    <span className="aximo-title-icon">
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: 1.2 }} >
+                    Best WordPress SEO Optimization Company in Ahmedabad, India
+                    {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
-                    </span>
+                    </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   A well-optimized WordPress website is key to attracting organic traffic and increasing brand visibility. At Chameleo GFX Studio, we offer WordPress SEO optimization, ensuring your website ranks higher on search engines like Google. Our SEO strategies include keyword research, content optimization, technical SEO, and link-building to enhance your site's online presence.
                 </p>

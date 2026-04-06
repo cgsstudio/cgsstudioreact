@@ -24,14 +24,14 @@ function CorporateProfiledetail() {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-default-content">
-								<h2>
-									<span className="aximo-title-animation">
-										Corporate Profile Services in Ahmedabad
-										<span className="aximo-title-icon">
+								<h1>
+									<span className="aximo-title-animation" style={{ lineHeight: "1.2" }}>
+										Best Corporate Profile Services in Ahmedabad India
+										{/* <span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
-										</span>
+										</span> */}
 									</span>
-								</h2>
+								</h1>
 								<p>
 									A corporate profile design is often the first introduction to your business, and it plays a crucial role in making a great first impression. It’s more than just a brochure – it’s your opportunity to showcase who you are, what you do, and why you’re the best at it. At Chameleo GFX Studio, we specialize in crafting corporate profile designs that communicate your values, strengths, and vision in a visually engaging and professional manner. We design profiles that tell your brand’s story, highlight your achievements, and ultimately inspire trust and confidence in your potential clients or partners.
 								</p>

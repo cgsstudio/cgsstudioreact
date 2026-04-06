@@ -28,14 +28,14 @@ function IOSUIUXDesigndetail() {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-default-content">
-								<h2>
-									<span className="aximo-title-animation">
-										About iOS UI/UX Design
+								<h1>
+									<span className="aximo-title-animation" style={{ lineHeight: 1.2 }} >
+										Best iOS UI/UX Design Company in Ahmedabad, India
 										<span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
 										</span>
 									</span>
-								</h2>
+								</h1>
 								<p>
 									In today’s mobile-first world, creating an exceptional iOS UI/UX design is crucial to ensure that your app stands out in the crowded App Store. At Chameleo GFX Studio, we specialize in designing UI/UX for iOS apps that prioritize both visual appeal and functionality. As an experienced iOS UI/UX designer in Ahmedabad, our team crafts designs that align with Apple’s design guidelines while ensuring that your app offers an intuitive, enjoyable experience for users. Whether it’s a custom iOS app or an update to an existing one, we ensure that your design drives engagement and user satisfaction.
 								</p>

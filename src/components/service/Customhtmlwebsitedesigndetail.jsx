@@ -19,11 +19,11 @@ function Customhtmlwebsitedesigndetail() {
             <div className="col-lg-12">
               <div className="aximo-default-content">
                 <h1>
-                  <span className="aximo-title-animation">
-                    Custom HTML Website Design
-                    <span className="aximo-title-icon">
+                  <span className="aximo-title-animation" style={{ lineHeight: "1.2" }} >
+                    Best Custom HTML Website Design Company in Ahmedabad, India
+                    {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
-                    </span>
+                    </span> */}
                   </span>
                 </h1>
                 <p>
