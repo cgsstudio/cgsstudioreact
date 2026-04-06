@@ -134,6 +134,9 @@ const Socialmediamarketing = lazy(() => import("../page/service/Socialmediamarke
 const Emailmarketing = lazy(() => import("../page/service/Emailmarketing.jsx"));
 const Googleads = lazy(() => import("../page/service/Googleads.jsx"));
 const Metaads = lazy(() => import("../page/service/Metaads.jsx"));
+const AIChatbotDevelopment = lazy(() => import("../page/service/AIChatbotDevelopment.jsx"));
+const AISaaSDevelopment = lazy(() => import("../page/service/AISaaSDevelopment.jsx"));
+const AIDevelopment = lazy(() => import("../page/service/AIDevelopment.jsx"));
 const Sitemap = lazy(() => import("../components/home-one/Sitemap/Sitemap.jsx"));
 const CookiePolicy = lazy(() => import("../components/home-one/cookie/CookiePolicy.jsx"));
 const Disclaimer = lazy(() => import("../page/Disclaimer.jsx"));
@@ -223,6 +226,9 @@ export const router = createBrowserRouter([
 									{ path: "email-marketing-company", element: <Emailmarketing /> },
 									{ path: "google-ads-management-agency", element: <Googleads /> },
 									{ path: "meta-ads-management-company", element: <Metaads /> },
+									{ path: "ai-chatbot-development", element: <AIChatbotDevelopment /> },
+									// 301 Redirect for old ai-saas URL
+									{ path: "ai-saas-product-development", element: <Navigate to="/services/ai-development/ai-saas-product-development" replace /> },
 									// 301 Redirects for Old Links
 									{ path: "seo-company", element: <Navigate to="/services/digital-marketing/seo-company-in-ahmedabad" replace /> },
 									{ path: "social-media-marketing", element: <Navigate to="/services/digital-marketing/social-media-marketing-in-ahmedabad" replace /> },
@@ -230,6 +236,13 @@ export const router = createBrowserRouter([
 									{ path: "social-media-marketing-agency-company", element: <Navigate to="/services/digital-marketing/social-media-marketing-agency" replace /> },
 									{ path: "google-ads", element: <Navigate to="/services/digital-marketing/google-ads-management-agency" replace /> },
 									{ path: "meta-ads", element: <Navigate to="/services/digital-marketing/meta-ads-management-company" replace /> },
+								],
+							},
+							{
+								path: "ai-development",
+								children: [
+									{ index: true, element: <AIDevelopment /> },
+									{ path: "ai-saas-product-development", element: <AISaaSDevelopment /> },
 								],
 							},
 							{
@@ -1048,5 +1061,9 @@ export const router = createBrowserRouter([
 	{
 		path: "/wordpress-website-maintenance-and-support",
 		element: <Navigate to="/services/web-development/wordpress-development-company" replace />,
+	},
+	{
+		path: "/ai-chatbot-development",
+		element: <Navigate to="/services/digital-marketing/ai-chatbot-development" replace />,
 	},
 ]);

@@ -1,9 +1,14 @@
 import React from "react";
 
-function ServiceAccordion({ items, defaultOpen = 0 }) {
+function ServiceAccordion({ faqData, defaultOpen = 0 }) {
+	// Safety check: if faqData is undefined or not an array, return null
+	if (!faqData || !Array.isArray(faqData)) {
+		return null;
+	}
+
 	return (
 		<div className="accordion aximo-accordion-wrap" id="service-accordion">
-			{items.map((faq, index) => {
+			{faqData.map((faq, index) => {
 				const collapseId = `collapse-${index}`;
 				const isOpen = index === defaultOpen;
 

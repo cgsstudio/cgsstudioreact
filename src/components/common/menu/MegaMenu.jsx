@@ -1,5 +1,21 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+<<<<<<< HEAD
+import { 
+  FaPalette, 
+  FaRocket, 
+  FaCode, 
+  FaBullhorn, 
+  FaChevronRight,
+  FaRobot
+} from "react-icons/fa";
+import { 
+  graphicDesignServices, 
+  uiuxDesignServices, 
+  webDevelopmentServices, 
+  digitalMarketingServices,
+  aiDevelopmentServices 
+=======
 import {
   FaPalette,
   FaRocket,
@@ -12,6 +28,7 @@ import {
   uiuxDesignServices,
   webDevelopmentServices,
   digitalMarketingServices
+>>>>>>> e17b5081e1c1988c0701e34f91aeb76865d8d2f4
 } from "../../../data/serviceData";
 import "./MegaMenu.css";
 
@@ -93,6 +110,20 @@ const MegaMenu = ({ isOpen, closeMenu, isMobile }) => {
               label: item.text,
               href: item.link
             }))
+        }
+      ]
+    },
+    "AI Development": {
+      icon: <FaRobot />,
+      href: "/services/ai-development",
+      columns: 1,
+      sections: [
+        {
+          title: "AI Services",
+          links: aiDevelopmentServices[0].items.map((item) => ({ 
+            label: item.text, 
+            href: item.link
+          }))
         }
       ]
     }

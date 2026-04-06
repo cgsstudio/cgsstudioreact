@@ -134,3 +134,28 @@ export const digitalMarketingServices = [
     ],
   },
 ];
+
+export const aiDevelopmentServices = [
+  {
+    title: "AI Development",
+    items: [
+      { text: "AI Chatbot Development", link: "/services/digital-marketing/ai-chatbot-development" },
+      { text: "AI Data Training & Model Fine-tuning", link: "/services/ai-development/ai-data-training-model-fine-tuning" },
+      { text: "AI Development & Intelligent Systems", link: "/services/ai-development/ai-development-intelligent-systems" },
+      { text: "AI Document Processing Automation", link: "/services/ai-development/ai-document-processing-automation" },
+      { text: "AI Integration with Existing Systems", link: "/services/ai-development/ai-integration-existing-systems" },
+      { text: "AI Recommendation Engines", link: "/services/ai-development/ai-recommendation-engines" },
+      { text: "AI SaaS Product Development", link: "/services/digital-marketing/ai-saas-product-development" },
+      { text: "AI-VoiceBot-Development-Service-Page-Chameleo", link: "/services/ai-development/ai-voicebot-development-service-page-chameleo" },
+      { text: "Computer Vision Solutions", link: "/services/ai-development/computer-vision-solutions" },
+      { text: "Custom AI Model Development", link: "/services/ai-development/custom-ai-model-development" },
+      { text: "Facial Recognition Solutions", link: "/services/ai-development/facial-recognition-solutions" },
+      { text: "Image Recognition Systems", link: "/services/ai-development/image-recognition-systems" },
+      { text: "NLP (Natural Language Processing) Solutions", link: "/services/ai-development/nlp-natural-language-processing-solutions" },
+      { text: "Object Detection Systems", link: "/services/ai-development/object-detection-systems" },
+      { text: "Predictive Analytics Solutions", link: "/services/ai-development/predictive-analytics-solutions" },
+      { text: "Sentiment Analysis Systems", link: "/services/ai-development/sentiment-analysis-systems" },
+      { text: "Video Analytics Solutions", link: "/services/ai-development/video-analytics-solutions" },
+    ],
+  },
+];
