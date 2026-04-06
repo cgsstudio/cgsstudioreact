@@ -11,7 +11,7 @@ function AIChatbotDevelopment() {
         <meta name="description" content="Intelligent AI Chatbot Development Services in Ahmedabad. Build conversational AI solutions that convert - 24/7 customer support, lead qualification, booking automation. Expert chatbot developers." />
         <meta name="keywords" content="AI chatbot development, chatbot development company, conversational AI, AI chatbot Ahmedabad, chatbot developers, customer service automation, lead generation chatbot" />
         <meta name="author" content="Chameleo GFX Studio" />
-        <link rel="canonical" href="https://chameleogfxstudio.com/services/digital-marketing/ai-chatbot-development" />
+        <link rel="canonical" href="https://chameleogfxstudio.com/services/ai-development/ai-chatbot-development" />
       </Helmet>
       <ServiceHeroBanner
         title="AI Chatbot Development"

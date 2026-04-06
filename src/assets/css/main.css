@@ -1131,7 +1131,7 @@
 
 .reveal-header .dark-version-logo {
 	display: block !important;
-} 
+}
 
 .reveal-header .light-version-logo {
 	display: none !important;
@@ -1677,12 +1677,16 @@ ul.list-main-disc {
 		white-space: normal !important;
 		word-break: break-word !important;
 	}
+
 	.team-heading .aximo-title-animation {
-		display: block !important; /* force 'Leaders.' to wrap onto next line */
+		display: block !important;
+		/* force 'Leaders.' to wrap onto next line */
 		margin-top: 6px;
 	}
+
 	.team-heading .aximo-title-icon img {
-		display: none !important; /* hide decorative star on very small screens */
+		display: none !important;
+		/* hide decorative star on very small screens */
 	}
 }
 
@@ -1898,6 +1902,7 @@ h3.blog-h2 {
 .custom-h2 {
 	font-size: 36px;
 	display: inline-block;
+	line-height: 3.5rem;
 }
 
 .services-h2 {

@@ -137,6 +137,18 @@ const Metaads = lazy(() => import("../page/service/Metaads.jsx"));
 const AIChatbotDevelopment = lazy(() => import("../page/service/AIChatbotDevelopment.jsx"));
 const AISaaSDevelopment = lazy(() => import("../page/service/AISaaSDevelopment.jsx"));
 const AIDevelopment = lazy(() => import("../page/service/AIDevelopment.jsx"));
+const AIDevelopmentIntelligentSystems = lazy(() => import("../page/service/AIDevelopmentIntelligentSystems.jsx"));
+const AIDocumentProcessingAutomation = lazy(() => import("../page/service/AIDocumentProcessingAutomation.jsx"));
+const AIIntegrationServices = lazy(() => import("../page/service/AIIntegrationServices.jsx"));
+const AIRecommendationEngines = lazy(() => import("../page/service/AIRecommendationEngines.jsx"));
+const AIDataTrainingModelFinetuning = lazy(() => import("../page/service/AIDataTrainingModelFinetuning.jsx"));
+const AIVoicebotDevelopment = lazy(() => import("../page/service/AIVoicebotDevelopment.jsx"));
+const ComputerVisionSolutions = lazy(() => import("../page/service/ComputerVisionSolutions.jsx"));
+const CustomAiModelDevelopment = lazy(() => import("../page/service/CustomAiModelDevelopment.jsx"));
+const FacialRecognitionSolutions = lazy(() => import("../page/service/FacialRecognitionSolutions.jsx"));
+const ImageRecognitionSystems = lazy(() => import("../page/service/ImageRecognitionSystems.jsx"));
+const NLPSolutions = lazy(() => import("../page/service/NLPSolutions.jsx"));
+const ObjectDetectionSystems = lazy(() => import("../page/service/ObjectDetectionSystems.jsx"));
 const Sitemap = lazy(() => import("../components/home-one/Sitemap/Sitemap.jsx"));
 const CookiePolicy = lazy(() => import("../components/home-one/cookie/CookiePolicy.jsx"));
 const Disclaimer = lazy(() => import("../page/Disclaimer.jsx"));
@@ -226,7 +238,7 @@ export const router = createBrowserRouter([
 									{ path: "email-marketing-company", element: <Emailmarketing /> },
 									{ path: "google-ads-management-agency", element: <Googleads /> },
 									{ path: "meta-ads-management-company", element: <Metaads /> },
-									{ path: "ai-chatbot-development", element: <AIChatbotDevelopment /> },
+									{ path: "ai-chatbot-development", element: <Navigate to="/services/ai-development/ai-chatbot-development" replace /> },
 									// 301 Redirect for old ai-saas URL
 									{ path: "ai-saas-product-development", element: <Navigate to="/services/ai-development/ai-saas-product-development" replace /> },
 									// 301 Redirects for Old Links
@@ -241,6 +253,19 @@ export const router = createBrowserRouter([
 								children: [
 									{ index: true, element: <AIDevelopment /> },
 									{ path: "ai-saas-product-development", element: <AISaaSDevelopment /> },
+									{ path: "ai-development-intelligent-systems", element: <AIDevelopmentIntelligentSystems /> },
+									{ path: "ai-chatbot-development", element: <AIChatbotDevelopment /> },
+									{ path: "ai-document-processing-automation", element: <AIDocumentProcessingAutomation /> },
+									{ path: "ai-integration-services", element: <AIIntegrationServices /> },
+									{ path: "ai-recommendation-engines", element: <AIRecommendationEngines /> },
+									{ path: "ai-data-training-model-fine-tuning", element: <AIDataTrainingModelFinetuning /> },
+									{ path: "ai-voicebot-development", element: <AIVoicebotDevelopment /> },
+									{ path: "computer-vision-solutions", element: <ComputerVisionSolutions /> },
+									{ path: "custom-ai-model-development", element: <CustomAiModelDevelopment /> },
+									{ path: "facial-recognition-solutions", element: <FacialRecognitionSolutions /> },
+									{ path: "image-recognition-systems", element: <ImageRecognitionSystems /> },
+									{ path: "nlp-natural-language-processing-solutions", element: <NLPSolutions /> },
+									{ path: "object-detection-systems", element: <ObjectDetectionSystems /> },
 								],
 							},
 							{

@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-<<<<<<< HEAD
 import { 
   FaPalette, 
   FaRocket, 
@@ -15,20 +14,6 @@ import {
   webDevelopmentServices, 
   digitalMarketingServices,
   aiDevelopmentServices 
-=======
-import {
-  FaPalette,
-  FaRocket,
-  FaCode,
-  FaBullhorn,
-  FaChevronRight
-} from "react-icons/fa";
-import {
-  graphicDesignServices,
-  uiuxDesignServices,
-  webDevelopmentServices,
-  digitalMarketingServices
->>>>>>> e17b5081e1c1988c0701e34f91aeb76865d8d2f4
 } from "../../../data/serviceData";
 import "./MegaMenu.css";
 
@@ -114,17 +99,22 @@ const MegaMenu = ({ isOpen, closeMenu, isMobile }) => {
     "AI Development": {
       icon: <FaRobot />,
       href: "/services/ai-development",
-      columns: 1,
-      sections: [
-        {
-          title: "AI Services",
-          links: aiDevelopmentServices[0].items.map((item) => ({ 
-            label: item.text, 
-            href: item.link
-          }))
-        }
-      ]
-    }
+      columns: 3,
+      sections: aiDevelopmentServices[0].categories.map((cat) => ({
+        title: cat.subtitle,
+        href: cat.subtitleLink,
+        links: cat.items
+          .filter(item => item.text.toLowerCase() !== cat.subtitle.toLowerCase())
+          .map((item) => ({
+            label: item.text
+              .replace(" (Natural Language Processing)", "")
+              .replace(" Solutions", "")
+              .replace(" Systems", "")
+              .replace(" Development", ""),
+            href: item.link,
+          })),
+      })),
+    },
   };
 
   const tabKeys = Object.keys(menuData);

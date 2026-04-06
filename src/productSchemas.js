@@ -1273,6 +1273,142 @@ const productSchemas = {
       "@type": "State",
       "name": "Gujarat"
     }
+  },
+  "ai-development": {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "AI Development Services",
+    "url": "https://chameleogfxstudio.com/services/ai-development",
+    "serviceType": "AI Development Services",
+    "description": "Chameleo GFX Studio is a leading AI development company in Ahmedabad, India, specializing in custom AI solutions, machine learning, and intelligent automation.",
+    "provider": {
+      "@type": "ProfessionalService",
+      "name": "Chameleo GFX Studio",
+      "url": "https://chameleogfxstudio.com/"
+    },
+    "areaServed": {
+      "@type": "State",
+      "name": "Gujarat"
+    }
+  },
+  "ai-saas-product-development": {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "AI SaaS Product Development",
+    "url": "https://chameleogfxstudio.com/services/ai-development/ai-saas-product-development",
+    "serviceType": "AI Development Services",
+    "description": "Expert AI SaaS product development services in Ahmedabad, India. We build intelligent, scalable, and high-performance AI-powered SaaS solutions.",
+    "provider": {
+      "@type": "ProfessionalService",
+      "name": "Chameleo GFX Studio",
+      "url": "https://chameleogfxstudio.com/"
+    },
+    "areaServed": {
+      "@type": "State",
+      "name": "Gujarat"
+    }
+  },
+  "ai-chatbot-development": {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "AI Chatbot Development",
+    "url": "https://chameleogfxstudio.com/services/ai-development/ai-chatbot-development",
+    "serviceType": "AI Development Services",
+    "description": "Custom AI Chatbot development services in Ahmedabad. We build intelligent conversational AI bots to automate customer support and enhance user engagement.",
+    "provider": {
+      "@type": "ProfessionalService",
+      "name": "Chameleo GFX Studio",
+      "url": "https://chameleogfxstudio.com/"
+    },
+    "areaServed": {
+      "@type": "State",
+      "name": "Gujarat"
+    }
+  },
+  "custom-ai-model-development": {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Custom AI Model Development",
+    "url": "https://chameleogfxstudio.com/services/ai-development/custom-ai-model-development",
+    "serviceType": "AI Development Services",
+    "description": "Chameleo GFX Studio specializes in Custom AI Model Development Services that are built from the ground up around what your business actually needs.",
+    "provider": {
+      "@type": "ProfessionalService",
+      "name": "Chameleo GFX Studio",
+      "url": "https://chameleogfxstudio.com/"
+    },
+    "areaServed": {
+      "@type": "State",
+      "name": "Gujarat"
+    }
+  },
+  "facial-recognition-solutions": {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Facial Recognition Solutions",
+    "url": "https://chameleogfxstudio.com/services/ai-development/facial-recognition-solutions",
+    "serviceType": "AI Development Services",
+    "description": "AI-powered Facial Recognition Solutions in Ahmedabad. Secure access control, automated attendance tracking, and smart surveillance with instant, accurate identity verification.",
+    "provider": {
+      "@type": "ProfessionalService",
+      "name": "Chameleo GFX Studio",
+      "url": "https://chameleogfxstudio.com/"
+    },
+    "areaServed": {
+      "@type": "State",
+      "name": "Gujarat"
+    }
+  },
+  "image-recognition-systems": {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Image Recognition Systems",
+    "url": "https://chameleogfxstudio.com/services/ai-development/image-recognition-systems",
+    "serviceType": "AI Development Services",
+    "description": "AI Image Recognition Solutions in Ahmedabad. We build systems that identify, classify, and interpret visual content automatically, accurately, and at scale.",
+    "provider": {
+      "@type": "ProfessionalService",
+      "name": "Chameleo GFX Studio",
+      "url": "https://chameleogfxstudio.com/"
+    },
+    "areaServed": {
+      "@type": "State",
+      "name": "Gujarat"
+    }
+  },
+  "nlp-natural-language-processing-solutions": {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "NLP (Natural Language Processing) Solutions",
+    "url": "https://chameleogfxstudio.com/services/ai-development/nlp-natural-language-processing-solutions",
+    "serviceType": "AI Development Services",
+    "description": "Chameleo GFX Studio provides expert NLP Solutions in Ahmedabad. We build AI systems that understand, interpret, and generate human language to unlock value from your text data.",
+    "provider": {
+      "@type": "ProfessionalService",
+      "name": "Chameleo GFX Studio",
+      "url": "https://chameleogfxstudio.com/"
+    },
+    "areaServed": {
+      "@type": "State",
+      "name": "Gujarat"
+    }
+  },
+  "object-detection-systems": {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Object Detection Systems",
+    "url": "https://chameleogfxstudio.com/services/ai-development/object-detection-systems",
+    "serviceType": "AI Development Services",
+    "description": "AI Object Detection Solutions in Ahmedabad. We build systems that identify, boundary, and track multiple objects in real-time for manufacturing, retail, and security.",
+    "provider": {
+      "@type": "ProfessionalService",
+      "name": "Chameleo GFX Studio",
+      "url": "https://chameleogfxstudio.com/"
+    },
+    "areaServed": {
+      "@type": "State",
+      "name": "Gujarat"
+    }
   }
 };
 

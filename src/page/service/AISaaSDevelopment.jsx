@@ -11,7 +11,7 @@ function AISaaSDevelopment() {
         <meta name="description" content="Expert AI SaaS Product Development in Ahmedabad. Specialized AI data training & model fine-tuning services. Build intelligent SaaS products with ML foundations that learn and improve." />
         <meta name="keywords" content="AI SaaS development, AI data training, model fine-tuning, machine learning Ahmedabad, AI product development, SaaS AI, ML model training" />
         <meta name="author" content="Chameleo GFX Studio" />
-        <link rel="canonical" href="https://chameleogfxstudio.com/services/ai-development/ai-saas-product-development" />
+        <link rel="canonical" href="https://chameleogfxstudio.com/  " />
       </Helmet>
       <ServiceHeroBanner
         title="AI SaaS Product Development"
