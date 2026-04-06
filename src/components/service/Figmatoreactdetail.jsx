@@ -92,17 +92,17 @@ function Figmatoreactdetail() {
           <div className="axiom-service-details-thumb d-none d-md-block">
             <img src={SingleImg} alt="Web Development" />
           </div>
-          <div className="row">
+          <div className="row py-4">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    Figma to React – Transform Your Designs into Functional Web Applications
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: 1.2 }} >
+                    Best Figma to React Services Company in Ahmedabad, India
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   Do you have a stunning Figma design that needs to be turned into a fully functional web application? At Chameleo GFX Studio, we provide Figma to React conversion services, ensuring pixel-perfect implementation of your UI/UX designs into a fast and responsive React.js application. Our team of React.js developers in Ahmedabad carefully translates every design element, including typography, color schemes, and interactive features, into clean, efficient React components.
                 </p>

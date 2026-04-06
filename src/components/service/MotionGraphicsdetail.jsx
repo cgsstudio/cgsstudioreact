@@ -26,14 +26,14 @@ function MotionGraphicsdetail() {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-default-content">
-								<h2>
-									<span className="aximo-title-animation">
-										Motion Graphics Design Agency in Ahmedabad
-										<span className="aximo-title-icon">
+								<h1>
+									<span className="aximo-title-animation" style={{ lineHeight: "1.2" }}>
+										Best Motion Graphics Design Agency in Ahmedabad India
+										{/* <span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
-										</span>
+										</span> */}
 									</span>
-								</h2>
+								</h1>
 								<p>
 									Motion graphics design is one of the most dynamic ways to engage your audience and tell a story. At Chameleo GFX Studio, we specialize in creating visually striking motion graphics that bring your ideas to life. Whether you're looking to create animated ads, explainer videos, or social media content, our team of motion graphics designers ensures your message is conveyed in a captivating, easy-to-understand format. We combine the latest animation techniques with creative storytelling to deliver impactful results.
 								</p>

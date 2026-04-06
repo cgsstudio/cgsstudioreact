@@ -25,14 +25,14 @@ function BrochureDesigndetail() {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-default-content">
-								<h2>
-									<span className="aximo-title-animation">
-										Brochure Design Company in Ahmedabad
-										<span className="aximo-title-icon">
+								<h1>
+									<span className="aximo-title-animation" style={{ lineHeight: "1.2em" }}>
+										Best Brochure Design Company in Ahmedabad India
+										{/* <span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
-										</span>
+										</span> */}
 									</span>
-								</h2>
+								</h1>
 								<p>
 									A well-designed brochure is a powerful marketing tool that provides your audience with essential information about your brand, services, or products in a compact, visually engaging format. At Chameleo GFX Studio, we specialize in brochure design services that combine creativity with clarity, ensuring your brochure stands out and effectively communicates your message. Whether you need a corporate brochure, product catalog, or event handout, our brochure design company in Ahmedabad delivers designs that leave a lasting impression. Our team ensures that your brochure design reflects your brand’s identity and conveys your message in an attractive and professional way.
 								</p>

@@ -17,14 +17,14 @@ function Figmatowebflowdetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    Figma to Webflow Conversion
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: 1.2 }}>
+                    Best  Figma to Webflow Company in Ahmedabad, India
                     <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span>
                   </span>
-                </h2>
+                </h1>
                 <p>
                   If you have a website design in Figma, we can bring it to life with pixel-perfect Webflow development. At Chameleo GFX Studio, we specialize in Figma to Webflow conversion, ensuring that every detail of your design translates seamlessly into a fully functional website. Our expert developers use Webflow’s powerful tools to create visually stunning, interactive, and mobile-responsive websites that maintain the integrity of your original design.
                 </p>

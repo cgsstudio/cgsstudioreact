@@ -24,14 +24,14 @@ function AnnualReportdetail() {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-default-content">
-								<h2>
-									<span className="aximo-title-animation">
-										About Annual Report Design
-										<span className="aximo-title-icon">
+								<h1>
+									<span className="aximo-title-animation" style={{ lineHeight: "1.2" }}>
+										Best Annual Report Design Agency in Ahmedabad India
+										{/* <span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
-										</span>
+										</span> */}
 									</span>
-								</h2>
+								</h1>
 								<p>
 									An annual report is more than just a financial statement – it’s an opportunity to showcase your company’s accomplishments, values, and vision for the future. At Chameleo GFX Studio, we offer annual report design services that take your financials and company insights and transform them into a visually engaging story. We design reports that are not only informative but also compelling, making sure your stakeholders, investors, and clients can easily digest your key messages.
 								</p>

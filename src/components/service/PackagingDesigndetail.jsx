@@ -7,14 +7,14 @@ import WebDevApproach from "./WebDevApproach";
 
 
 import { graphicDesignServices as services } from "../../data/serviceData";
-  
+
 
 
 
 
 
 function PackagingDesigndetail() {
-	
+
 	return (
 		<div className="section aximo-section-padding2">
 			<div className="container">
@@ -25,72 +25,72 @@ function PackagingDesigndetail() {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-default-content">
-								<h2>
-									<span className="aximo-title-animation">
-									Packaging Design Agency in Ahmedabad
-										<span className="aximo-title-icon">
+								<h1>
+									<span className="aximo-title-animation" style={{ lineHeight: "1.2em" }}>
+										Best Packaging Design Agency in Ahmedabad India
+										{/* <span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
-										</span>
+										</span> */}
 									</span>
-								</h2>
+								</h1>
 								<p>
-								Packaging design is one of the most critical elements in the product marketing journey. It’s your product’s first impression and often the deciding factor in whether a customer will pick it up or pass it by. At Chameleo GFX Studio, we offer custom packaging design services that not only look attractive but also align with your brand’s identity and make your product stand out on the shelf. From creative packaging for food products to sleek designs for electronics, we ensure your packaging is as functional as it is beautiful, capturing attention and encouraging purchases.
+									Packaging design is one of the most critical elements in the product marketing journey. It’s your product’s first impression and often the deciding factor in whether a customer will pick it up or pass it by. At Chameleo GFX Studio, we offer custom packaging design services that not only look attractive but also align with your brand’s identity and make your product stand out on the shelf. From creative packaging for food products to sleek designs for electronics, we ensure your packaging is as functional as it is beautiful, capturing attention and encouraging purchases.
 								</p>
 								<p>
-								A well-designed packaging speaks volumes about the quality of your product and brand. At Chameleo GFX Studio, our packaging design services focus on combining aesthetics with practicality. We use color psychology, typography, and innovative materials to create packaging that reflects your brand and connects with consumers. Whether you're launching a new product or refreshing your existing line, we work with you to design packaging that leaves a lasting impression and enhances the customer experience. Let us help you create packaging that not only protects your product but also drives sales and increases brand recognition.
+									A well-designed packaging speaks volumes about the quality of your product and brand. At Chameleo GFX Studio, our packaging design services focus on combining aesthetics with practicality. We use color psychology, typography, and innovative materials to create packaging that reflects your brand and connects with consumers. Whether you're launching a new product or refreshing your existing line, we work with you to design packaging that leaves a lasting impression and enhances the customer experience. Let us help you create packaging that not only protects your product but also drives sales and increases brand recognition.
 								</p>
 							</div>
 						</div>
 					</div>
-					  <div className="container pt-5">
-							{services.map((service, index) => (
-							  <div key={index} className="">
+					<div className="container pt-5">
+						{services.map((service, index) => (
+							<div key={index} className="">
 								{/* Heading for each main category */}
 								<div className="aximo-section-title main center">
-								  <h2>
-									<span className="aximo-title-animation">
-									  {service.title}
-									  <span className="aximo-title-icon">
-										<img className="shape-color" src={Star2Img} alt="Star2Img" />
-									  </span>
-									</span>
-								  </h2>
+									<h2>
+										<span className="aximo-title-animation">
+											{service.title}
+											<span className="aximo-title-icon">
+												<img className="shape-color" src={Star2Img} alt="Star2Img" />
+											</span>
+										</span>
+									</h2>
 								</div>
 								{service.categories &&
-								  service.categories.map((category, catIndex) => (
-									<div key={catIndex} className="mb-4">
-									  {/* Subtitle for each subcategory */}
-									  <h4 className="mb-3">{category.subtitle}</h4>
-									  <div className="row">
-										{category.items.map((item, itemIndex) => (
-										  <div key={itemIndex} className="col-12 col-md-6">
-											<ul className="list-unstyled custom-list">
-											  <li>{item}</li>
-											</ul>
-										  </div>
-										))}
-									  </div>
-									</div>
-								  ))}
+									service.categories.map((category, catIndex) => (
+										<div key={catIndex} className="mb-4">
+											{/* Subtitle for each subcategory */}
+											<h4 className="mb-3">{category.subtitle}</h4>
+											<div className="row">
+												{category.items.map((item, itemIndex) => (
+													<div key={itemIndex} className="col-12 col-md-6">
+														<ul className="list-unstyled custom-list">
+															<li>{item}</li>
+														</ul>
+													</div>
+												))}
+											</div>
+										</div>
+									))}
 								{!service.categories && (
-								    <div className="row">
-									{service.items.map((item, itemIndex) => (
-								   <div key={itemIndex} className="col-12 col-md-6">
-									 <ul className="list-unstyled custom-list">
-									   <li>
-										 <a href={item.link} rel="noopener noreferrer">
-										   {item.text}
-										 </a>
-									   </li>
-									 </ul>
-								   </div>
-								 ))}
-							   </div>
+									<div className="row">
+										{service.items.map((item, itemIndex) => (
+											<div key={itemIndex} className="col-12 col-md-6">
+												<ul className="list-unstyled custom-list">
+													<li>
+														<a href={item.link} rel="noopener noreferrer">
+															{item.text}
+														</a>
+													</li>
+												</ul>
+											</div>
+										))}
+									</div>
 								)}
-							  </div>
-							))}
-						  </div>
-					
+							</div>
+						))}
+					</div>
+
 				</div>
 			</div>
 		</div>

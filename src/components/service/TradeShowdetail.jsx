@@ -28,14 +28,14 @@ function TradeShowdetail() {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-default-content">
-								<h2>
-									<span className="aximo-title-animation">
-										Exhibition Booth Design Services in Ahmedabad
-										<span className="aximo-title-icon">
+								<h1>
+									<span className="aximo-title-animation" style={{ lineHeight: "1.2" }}>
+										Best Exhibition Booth Design Services in Ahmedabad India
+										{/* <span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
-										</span>
+										</span> */}
 									</span>
-								</h2>
+								</h1>
 								<p>
 									At trade shows, your booth is the face of your brand – it’s your chance to stand out from the crowd and make a lasting impression on potential clients. Trade show booth design plays a crucial role in making your presence felt, and it starts with captivating, thoughtful design. At Chameleo GFX Studio, we specialize in custom trade show booth designs that are not only visually striking but also designed to foster interaction and drive engagement. Whether it’s showcasing products, gathering leads, or simply increasing brand awareness, we create booths that attract attention and spark meaningful connections.
 								</p>

@@ -92,17 +92,17 @@ function Reactjsperformancedetail() {
           <div className="axiom-service-details-thumb d-none d-md-block">
             <img src={SingleImg} alt="Web Development" />
           </div>
-          <div className="row">
+          <div className="row py-5">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    React.js Performance Optimization – Maximize Speed and Efficiency
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: "1.1" }}>
+                    Best Reactjs Performance Optimization Company in Ahmedabad, India
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   A slow web application can drive users away and impact business performance. At Chameleo GFX Studio, we specialize in React.js performance optimization, ensuring your web application runs at peak efficiency. Our React.js developers in Ahmedabad use advanced techniques like code splitting, lazy loading, and efficient state management to reduce load times and improve the overall user experience.
                 </p>

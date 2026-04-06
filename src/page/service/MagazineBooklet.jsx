@@ -15,11 +15,11 @@ function MagazineBooklet() {
           href="https://chameleogfxstudio.com/services/graphic-design/magazine-and-booklet-design-company"
         />
       </Helmet>
-      <BreadCrumb title="Magazine and Booklet Design Services Company" breadcrumbTitle="Magazine and Booklet Design Services Company" />
+      <BreadCrumb title="Magazine and Booklet Design Services Company in Ahmedabad, India" breadcrumbTitle="Magazine and Booklet Design Services Company in Ahmedabad, India" />
       <div className="bg-white-smoke">
         <MagazineBookletdetail />
 
-    </div>
+      </div>
 
     </>
   );

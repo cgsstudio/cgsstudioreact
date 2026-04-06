@@ -27,14 +27,14 @@ function SignageDesigndetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    Signage Design Services in Ahmedabad
-                    <span className="aximo-title-icon">
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: "1.2" }}>
+                    Best Signage Design Services in Ahmedabad India
+                    {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
-                    </span>
+                    </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   Signage design is essential for guiding, informing, and engaging your audience, whether it’s for storefronts, events, or offices. At Chameleo GFX Studio, we provide custom signage design services that help your business or event make a strong visual statement. From exterior building signs to directional signage and event displays, our designs are crafted to be both functional and attention-grabbing. We ensure that your signage design is not only clear and informative but also aligns with your brand’s aesthetic and message.
                 </p>

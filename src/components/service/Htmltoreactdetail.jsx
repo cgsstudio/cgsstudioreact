@@ -92,17 +92,17 @@ function Htmltoreactdetail() {
           <div className="axiom-service-details-thumb d-none d-md-block">
             <img src={SingleImg} alt="Web Development" />
           </div>
-          <div className="row">
+          <div className="row py-5">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    HTML to React – Upgrade Your Website with a Modern Frontend Framework
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: "1.1" }}>
+                    Best HTML to React Services Company in Ahmedabad, India
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   If you have an existing HTML website and want to upgrade it to a more dynamic, high-performance framework, our HTML to React conversion services are the perfect solution. At Chameleo GFX Studio, we specialize in transforming static HTML sites into scalable, interactive React.js applications, helping businesses improve their online presence and user engagement.
                 </p>

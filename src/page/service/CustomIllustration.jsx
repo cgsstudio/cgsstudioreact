@@ -15,11 +15,11 @@ function CustomIllustration() {
           href="https://chameleogfxstudio.com/services/graphic-design/custom-illustration-design-company"
         />
       </Helmet>
-      <BreadCrumb title="Custom Illustration Design Company" breadcrumbTitle="Custom Illustration Design Company" />
+      <BreadCrumb title="Custom Illustration Design Company in Ahmedabad, India" breadcrumbTitle="Custom Illustration Design Company in Ahmedabad, India" />
       <div className="bg-white-smoke">
         <CustomIllustrationdetail />
 
-    </div>
+      </div>
 
     </>
   );

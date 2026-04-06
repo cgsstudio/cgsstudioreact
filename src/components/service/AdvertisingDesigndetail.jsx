@@ -14,7 +14,7 @@ import { graphicDesignServices as services } from "../../data/serviceData";
 
 
 function AdvertisingDesigndetail() {
-	
+
 	return (
 		<div className="section aximo-section-padding2">
 			<div className="container">
@@ -25,53 +25,53 @@ function AdvertisingDesigndetail() {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-default-content">
-								<h2>
-									<span className="aximo-title-animation">
-									Advertising Design Agency in Ahmedabad
+								<h1>
+									<span className="aximo-title-animation" style={{ lineHeight: 1.2 }}>
+										Best Advertising Design Company in Ahmedabad India
 										<span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
 										</span>
 									</span>
-								</h2>
+								</h1>
 								<p>
-								Effective advertising design is essential to capturing attention and converting prospects into customers. At Chameleo GFX Studio, we create advertising designs that are visually impactful and strategically aligned with your brand’s messaging. Whether for print, digital, or outdoor campaigns, our advertising design services focus on creating designs that speak directly to your audience and compel them to take action. We combine creative concepts, bold visuals, and a deep understanding of your brand to craft designs that drive results.
+									Effective advertising design is essential to capturing attention and converting prospects into customers. At Chameleo GFX Studio, we create advertising designs that are visually impactful and strategically aligned with your brand’s messaging. Whether for print, digital, or outdoor campaigns, our advertising design services focus on creating designs that speak directly to your audience and compel them to take action. We combine creative concepts, bold visuals, and a deep understanding of your brand to craft designs that drive results.
 								</p>
 								<p>
-								Our advertising design services include banner ads, display ads, print ads, and more. We focus on creating designs that are not only visually appealing but also effective in achieving your campaign goals. With a mix of creativity, strategy, and expertise, we ensure your advertising materials stand out and resonate with your audience, enhancing your brand’s reach and impact.
+									Our advertising design services include banner ads, display ads, print ads, and more. We focus on creating designs that are not only visually appealing but also effective in achieving your campaign goals. With a mix of creativity, strategy, and expertise, we ensure your advertising materials stand out and resonate with your audience, enhancing your brand’s reach and impact.
 								</p>
 							</div>
 						</div>
 					</div>
-					  <div className="container pt-5">
-                      {services.map((service, index) => (
-                 <div key={index} className="">
-              <div className="aximo-section-title main center">
-              <h2>
-            <span className="aximo-title-animation">
-          {service.title}
-          <span className="aximo-title-icon">
-            <img className="shape-color" src={Star2Img} alt="Star2Img" />
-          </span>
-        </span>
-      </h2>
-    </div>
-        <div className="row">
-         {service.items.map((item, itemIndex) => (
-        <div key={itemIndex} className="col-12 col-md-6">
-          <ul className="list-unstyled custom-list">
-            <li>
-              <a href={item.link} rel="noopener noreferrer">
-                {item.text}
-              </a>
-            </li>
-          </ul>
-        </div>
-      ))}
-    </div>
-  </div>
-))}
+					<div className="container pt-5">
+						{services.map((service, index) => (
+							<div key={index} className="">
+								<div className="aximo-section-title main center">
+									<h2>
+										<span className="aximo-title-animation">
+											{service.title}
+											<span className="aximo-title-icon">
+												<img className="shape-color" src={Star2Img} alt="Star2Img" />
+											</span>
+										</span>
+									</h2>
+								</div>
+								<div className="row">
+									{service.items.map((item, itemIndex) => (
+										<div key={itemIndex} className="col-12 col-md-6">
+											<ul className="list-unstyled custom-list">
+												<li>
+													<a href={item.link} rel="noopener noreferrer">
+														{item.text}
+													</a>
+												</li>
+											</ul>
+										</div>
+									))}
+								</div>
+							</div>
+						))}
 
-						  </div>
+					</div>
 					{/* <div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-user-interface">

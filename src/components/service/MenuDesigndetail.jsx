@@ -25,14 +25,12 @@ function MenuDesigndetail() {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-default-content">
-								<h2>
-									<span className="aximo-title-animation">
-										Event Invitation Design in Ahmedabad
-										<span className="aximo-title-icon">
-											<img src={Star2Img} alt="star" />
-										</span>
+								<h1>
+									<span className="aximo-title-animation" style={{ lineHeight: 1.2 }} >
+										Best Menu Design Service Company in Ahmedabad, India
+
 									</span>
-								</h2>
+								</h1>
 								<p>
 									The design of your restaurant or café menu is just as important as the food you serve. It’s the first impression your customers get when they sit down, and a beautifully designed menu can enhance their dining experience. At Chameleo GFX Studio, we specialize in custom menu design services that are tailored to your brand and the dining experience you want to create. From elegant and sophisticated to bold and modern, we design menus that reflect the ambiance of your establishment and engage customers.
 								</p>

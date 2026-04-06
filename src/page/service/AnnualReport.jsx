@@ -12,14 +12,14 @@ function AnnualReport() {
         <meta name="keywords" content="Chameleo GFX Studio, Annual Report Design, Annual Report Design Ahmedabad, Annual Report Design Services in Ahmedabad, Annual Report Design India, Annual Report Design Services in India, Corporate Report Design, Financial Report Design, Business Report Design, Custom Report Design, Professional Report Design, Company Report Design, Creative Report Design" />
         <link
           rel="canonical"
-          href="https://chameleogfxstudio.com/services/graphic-design/annual-report-design-agency-company"
+          href="https://chameleogfxstudio.com/services/graphic-design/annual-report-design-agency"
         />
       </Helmet>
-      <BreadCrumb title="Annual Report Design Agency Company" breadcrumbTitle="Annual Report Design Agency Company" />
+      <BreadCrumb title="Annual Report Design Agency Company in Ahmedabad, India" breadcrumbTitle="Annual Report Design Agency Company in Ahmedabad, India" />
       <div className="bg-white-smoke">
         <AnnualReportdetail />
 
-    </div>
+      </div>
 
     </>
   );

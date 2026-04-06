@@ -15,11 +15,11 @@ function TradeShow() {
           href="https://chameleogfxstudio.com/services/graphic-design/exhibition-booth-design-company"
         />
       </Helmet>
-      <BreadCrumb title="Exhibition Booth Design Company" breadcrumbTitle="Exhibition Booth Design Company" />
+      <BreadCrumb title="Exhibition Booth Design Company in Ahmedabad, India" breadcrumbTitle="Exhibition Booth Design Company in Ahmedabad, India" />
       <div className="bg-white-smoke">
         <TradeShowdetail />
 
-    </div>
+      </div>
 
     </>
   );

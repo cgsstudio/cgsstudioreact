@@ -17,14 +17,14 @@ function Webflowdetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    Webflow Development
-                    <span className="aximo-title-icon">
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: 1.2 }}>
+                    Best Webflow Development Company in India
+                    {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
-                    </span>
+                    </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   In today’s fast-paced digital world, businesses need websites that are not only visually appealing but also highly functional. At Chameleo GFX Studio, we specialize in Webflow development, delivering custom, scalable, and SEO-friendly websites that enhance user experience. As a leading Webflow development company, we help businesses leverage Webflow’s powerful CMS, clean code, and responsive design capabilities to create high-performance websites. Whether you need a sleek portfolio, an engaging business website, or an advanced eCommerce platform, our Webflow experts ensure seamless functionality with modern aesthetics.
                 </p>

@@ -17,14 +17,14 @@ function Templatecustomizationdetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    Template Customization
-                    <span className="aximo-title-icon">
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: "1.2" }}>
+                    Best Template Customization Company in Ahmedabad, India
+                    {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
-                    </span>
+                    </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   Using a pre-built template doesn’t mean your website has to look generic. At Chameleo GFX Studio, we offer template customization services, helping businesses modify and enhance existing templates to align with their brand identity. Whether you're working with WordPress, Shopify, or other CMS platforms, we ensure your website stands out with unique design elements and a customized layout.
                 </p>

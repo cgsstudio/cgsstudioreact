@@ -93,12 +93,12 @@ function Reactjsmobileappdetail() {
             <img src={SingleImg} alt="Web Development" />
           </div>
 
-          <div className="row">
+          <div className="row py-5">
             <div className="col-lg-12">
               <div className="aximo-default-content">
                 <h2>
                   <span className="aximo-title-animation">
-                    React.js Website Development with Server-Side Rendering (SSR) – Boost Performance and SEO
+                    Best Reactjs Website Development Company in Ahmedabad, India
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}

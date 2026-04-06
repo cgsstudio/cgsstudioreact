@@ -17,14 +17,14 @@ function WordPressmigrationdetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    WordPress Migration and Upgrades
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: 1.2 }} >
+                    Best WordPress Migration and Upgrades Company in Ahmedabad, India
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   Upgrading or migrating your website should be a seamless process. At Chameleo GFX Studio, we offer WordPress migration and upgrades, ensuring your website transitions smoothly without losing data, functionality, or SEO rankings. Whether you're moving from an old CMS to WordPress or upgrading to the latest version, we handle everything efficiently.
                 </p>

@@ -12,14 +12,14 @@ function MotionGraphics() {
         <meta name="keywords" content="Chameleo GFX Studio, Motion Graphics Design, Motion Graphics Ahmedabad, Motion Graphics Design Services in Ahmedabad, Motion Graphics India, Animated Video Design, Explainer Video Design, Visual Effects, 2D Animation, 3D Animation, Branding Animation, Promotional Video Design" />
         <link
           rel="canonical"
-          href="https://chameleogfxstudio.com/services/graphic-design/motion-graphics-design-agency-company"
+          href="https://chameleogfxstudio.com/services/graphic-design/motion-graphics-design-agency"
         />
       </Helmet>
-      <BreadCrumb title="Motion Graphics Design Agency Company" breadcrumbTitle="Motion Graphics Design Agency Company" />
+      <BreadCrumb title="Motion Graphics Design Agency in Ahmedabad, India" breadcrumbTitle="Motion Graphics Design Agency in Ahmedabad, India" />
       <div className="bg-white-smoke">
         <MotionGraphicsdetail />
 
-    </div>
+      </div>
 
     </>
   );

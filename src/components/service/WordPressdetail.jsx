@@ -17,14 +17,15 @@ function WordPressdetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    WordPress Development Services
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: 1.2 }}>
+                    Best WordPress Development Company in India
+
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   A well-designed WordPress website is the foundation of a strong online presence. At Chameleo GFX Studio, we specialize in custom WordPress website design, creating unique, high-performing websites tailored to your brand’s identity. Whether you need a business website, a personal blog, or an eCommerce store, our team ensures a seamless, user-friendly experience with responsive layouts and intuitive navigation. As a leading WordPress development company in Ahmedabad, we focus on delivering visually stunning websites optimized for speed, security, and performance.
                 </p>

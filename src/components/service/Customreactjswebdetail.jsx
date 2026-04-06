@@ -92,17 +92,17 @@ function Customreactjswebdetail() {
           <div className="axiom-service-details-thumb d-none d-md-block">
             <img src={SingleImg} alt="Web Development" />
           </div>
-          <div className="row">
+          <div className="row py-5">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    Custom React.js Web Application Development – Tailored Solutions for Your Business
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: 1.2 }}>
+                    Best Custom Reactjs Web Application Development in Ahmedabad, India
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   Every business has unique requirements, and a generic solution may not always meet your goals. That’s why we offer custom React.js web application development, creating tailor-made digital solutions that align with your brand, audience, and objectives. Whether you need a CRM system, an eCommerce platform, a SaaS application, or an interactive dashboard, our React.js experts build scalable, feature-rich applications that drive results.
                 </p>

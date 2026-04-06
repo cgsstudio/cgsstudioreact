@@ -95,14 +95,14 @@ function Figmatoshopifydetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    Figma to Shopify Conversion
-                    <span className="aximo-title-icon">
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: 1.2 }} >
+                    Best Figma to Shopify Services Company in Ahmedabad, India
+                    {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
-                    </span>
+                    </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   Have a Shopify store design in Figma? We can convert it into a fully functional Shopify website without compromising on quality. At Chameleo GFX Studio, we provide Figma to Shopify conversion services, ensuring pixel-perfect implementation, responsive design, and seamless functionality. Our expert developers carefully translate your Figma designs into Shopify, maintaining every design detail while optimizing for performance and SEO.
                 </p>

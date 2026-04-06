@@ -15,14 +15,14 @@ function SeoDetails() {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-default-content">
-								<h2>
-									<span className="aximo-title-animation">
-										SEO Company in Ahmedabad
+								<h1>
+									<span className="aximo-title-animation" style={{ lineHeight: 1.2 }} >
+										Best SEO Company in Ahmedabad
 										{/* <span className="aximo-title-icon">
 						  <img src={Star2Img} alt="star" />
 						</span> */}
 									</span>
-								</h2>
+								</h1>
 								<p>
 									If your business isn’t ranking on the first page of Google, you’re missing out on valuable customers. Our SEO services in Ahmedabad are designed to improve your website’s visibility and drive organic traffic. We implement on-page, off-page, and technical SEO strategies to ensure your website ranks higher for relevant keywords. From keyword research and content optimization to backlink building and website audits, we cover every aspect of SEO to help you dominate search results.
 								</p>

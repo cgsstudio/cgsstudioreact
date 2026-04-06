@@ -15,7 +15,7 @@ import { graphicDesignServices as services } from "../../data/serviceData";
 
 
 function CustomIllustrationdetail() {
-	
+
 	return (
 		<div className="section aximo-section-padding2">
 			<div className="container">
@@ -26,53 +26,53 @@ function CustomIllustrationdetail() {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-default-content">
-								<h2>
-									<span className="aximo-title-animation">
-									About Custom Illustration Design
+								<h1>
+									<span className="aximo-title-animation" style={{ lineHeight: "1.2" }}>
+										Best Custom Illustration Design Company in Ahmedabad, India
 										{/* <span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
 										</span> */}
 									</span>
-								</h2>
+								</h1>
 								<p>
-								Custom illustration design brings a unique, creative touch to any project, whether for print or digital use. At Chameleo GFX Studio, we specialize in designing custom illustrations that are tailored to your specific needs. Whether you're looking for whimsical, detailed, or conceptual illustrations, our team of talented designers creates artwork that adds personality and creativity to your brand. From illustrations for websites, brochures, or social media, we ensure your visuals are as distinct as your brand.
+									Custom illustration design brings a unique, creative touch to any project, whether for print or digital use. At Chameleo GFX Studio, we specialize in designing custom illustrations that are tailored to your specific needs. Whether you're looking for whimsical, detailed, or conceptual illustrations, our team of talented designers creates artwork that adds personality and creativity to your brand. From illustrations for websites, brochures, or social media, we ensure your visuals are as distinct as your brand.
 								</p>
 								<p>
-								Our custom illustration design services focus on delivering one-of-a-kind visuals that tell your brand's story in a visually compelling way. We combine artistry with strategic design to ensure your illustrations not only capture attention but also convey the right message. Whether you're creating illustrations for marketing materials, books, or merchandise, we help you stand out with unique, tailor-made designs.
+									Our custom illustration design services focus on delivering one-of-a-kind visuals that tell your brand's story in a visually compelling way. We combine artistry with strategic design to ensure your illustrations not only capture attention but also convey the right message. Whether you're creating illustrations for marketing materials, books, or merchandise, we help you stand out with unique, tailor-made designs.
 								</p>
 							</div>
 						</div>
 					</div>
-					  <div className="container pt-5">
-                      {services.map((service, index) => (
-                 <div key={index} className="">
-              <div className="aximo-section-title main center">
-              <h2>
-            <span className="aximo-title-animation">
-          {service.title}
-          <span className="aximo-title-icon">
-            <img className="shape-color" src={Star2Img} alt="Star2Img" />
-          </span>
-        </span>
-      </h2>
-    </div>
-        <div className="row">
-         {service.items.map((item, itemIndex) => (
-        <div key={itemIndex} className="col-12 col-md-6">
-          <ul className="list-unstyled custom-list">
-            <li>
-              <a href={item.link} rel="noopener noreferrer">
-                {item.text}
-              </a>
-            </li>
-          </ul>
-        </div>
-      ))}
-    </div>
-  </div>
-))}
+					<div className="container pt-5">
+						{services.map((service, index) => (
+							<div key={index} className="">
+								<div className="aximo-section-title main center">
+									<h2>
+										<span className="aximo-title-animation">
+											{service.title}
+											<span className="aximo-title-icon">
+												<img className="shape-color" src={Star2Img} alt="Star2Img" />
+											</span>
+										</span>
+									</h2>
+								</div>
+								<div className="row">
+									{service.items.map((item, itemIndex) => (
+										<div key={itemIndex} className="col-12 col-md-6">
+											<ul className="list-unstyled custom-list">
+												<li>
+													<a href={item.link} rel="noopener noreferrer">
+														{item.text}
+													</a>
+												</li>
+											</ul>
+										</div>
+									))}
+								</div>
+							</div>
+						))}
 
-						  </div>
+					</div>
 					{/* <div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-user-interface">

@@ -17,14 +17,14 @@ function Responsivewebdesigndetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    Responsive Web Design
-                    <span className="aximo-title-icon">
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: 1.2 }} >
+                    Best  Responsive Web Design Company in Ahmedabad, India
+                    {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
-                    </span>
+                    </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   A website that adapts to all screen sizes is no longer a luxury—it’s a necessity. At Chameleo GFX Studio, we specialize in responsive web design, ensuring that your website looks perfect and functions seamlessly on desktops, tablets, and mobile devices. A well-optimized responsive website improves user experience, reduces bounce rates, and enhances search engine rankings, making it an essential part of modern web development.
                 </p>

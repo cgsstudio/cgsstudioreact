@@ -25,14 +25,14 @@ function MagazineBookletdetail() {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-default-content">
-								<h2>
-									<span className="aximo-title-animation">
-										Magazine and Booklet Design Services in Ahmedabad
+								<h1>
+									<span className="aximo-title-animation" style={{ lineHeight: "1.2" }}>
+										Best Magazine and Booklet Design Services in Ahmedabad India
 										{/* <span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
 										</span> */}
 									</span>
-								</h2>
+								</h1>
 								<p>
 									Magazine and booklet design plays a pivotal role in how your publication is perceived and how engaging it is for your readers. At Chameleo GFX Studio, we offer expert magazine design services that ensure your content is not only visually appealing but also easy to navigate and engaging. Whether you’re publishing a lifestyle magazine, corporate brochure, or product booklet, our design team works to ensure every page is thoughtfully crafted, from layout to typography.
 								</p>

@@ -18,14 +18,15 @@ function Metaadsdetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    Meta Ads – Unlock the Power of Facebook and Instagram Advertising
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: 1.2 }} >
+                    Best Meta Ads Management Company in Ahmedabad, India
+
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   With over 3 billion active users, Facebook and Instagram are two of the most powerful platforms for reaching your ideal customers. At Chameleo GFX Studio, we specialize in Meta Ads management, helping businesses run high-impact, results-driven ad campaigns on Facebook and Instagram. Our Meta Ads experts in Ahmedabad craft targeted ads that increase brand awareness, generate leads, and drive online sales.
                 </p>

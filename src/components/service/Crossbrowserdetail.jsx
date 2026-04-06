@@ -17,14 +17,14 @@ function Crossbrowserdetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    Cross-Browser Compatibility Testing
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: 1.2 }}>
+                    Best Cross-Browser Compatibility Testing Company in Ahmedabad, India
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   A flawless browsing experience across multiple platforms is essential for user engagement. At Chameleo GFX Studio, we provide cross-browser compatibility testing to ensure that your website functions perfectly on Chrome, Firefox, Safari, Edge, and other major browsers. Inconsistent rendering or broken elements can lead to a poor user experience and lost conversions, which is why testing is a crucial step in web development.
                 </p>

@@ -21,14 +21,12 @@ function Htmlcssdetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    HTML/CSS Development
-                    <span className="aximo-title-icon">
-                      <img src={Star2Img} alt="star" />
-                    </span>
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: 1.2 }}>
+                    Best HTML/CSS Development Company in India
+
                   </span>
-                </h2>
+                </h1>
                 <p>
                   In today’s digital world, a well-structured website is essential for an impactful online presence. At Chameleo GFX Studio, we specialize in HTML/CSS development, crafting clean, efficient, and visually appealing websites that enhance user experience. Whether you're looking for a simple static website or a complex web application, our expert developers ensure seamless functionality and fast-loading pages. As a leading HTML/CSS development company in Ahmedabad, we build SEO-friendly websites that perform exceptionally across all devices and browsers, giving your business a competitive edge.
                 </p>

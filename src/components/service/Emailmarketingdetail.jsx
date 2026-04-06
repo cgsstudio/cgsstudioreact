@@ -18,14 +18,14 @@ function Emailmarketingdetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    Email Marketing – Nurture Leads and Boost Customer Retention
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: 1.2 }}>
+                    Best Email Marketing Company in Ahmedabad, Indias
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   Email marketing remains one of the most cost-effective and high-converting digital marketing strategies. At Chameleo GFX Studio, we help businesses create, automate, and optimize email marketing campaigns that drive engagement and sales. Whether you need newsletters, promotional emails, or automated drip campaigns, we craft personalized emails that resonate with your audience and encourage action.
                 </p>

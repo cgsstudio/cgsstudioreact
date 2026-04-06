@@ -96,14 +96,15 @@ function Htmltoshopifydetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    HTML to Shopify – Seamless Migration for Your Online Store
+
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: "1.2" }}>
+                    Best HTML to Shopify Services Company in Ahmedabad, India
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}
                   </span>
-                </h2>
+                </h1>
                 <p>
                   Already have an HTML-based website and looking to migrate to Shopify? Our HTML to Shopify conversion services at Chameleo GFX Studio make the transition effortless while preserving your site’s design and functionality. We help businesses move from static HTML websites to dynamic, user-friendly Shopify stores, ensuring responsive layouts, mobile optimization, and an enhanced shopping experience
                 </p>

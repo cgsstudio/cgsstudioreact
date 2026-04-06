@@ -28,14 +28,14 @@ function WebsiteUIUXDesigndetail() {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-default-content">
-								<h2>
-									<span className="aximo-title-animation">
-										About Website UI/UX Design
+								<h1>
+									<span className="aximo-title-animation" style={{ lineHeight: 1.2 }} >
+										Best Website UI/UX Design Company in Ahmedabad, India
 										<span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
 										</span>
 									</span>
-								</h2>
+								</h1>
 								<p>
 									At Chameleo GFX Studio, we specialize in creating visually engaging and user-friendly website UI/UX designs that enhance user interaction and overall website performance. As a trusted UI/UX design company in Ahmedabad, we understand the importance of creating responsive, intuitive designs that reflect your brand identity and resonate with your audience. Our team of expert UI/UX designers ensures that every design is not only aesthetically appealing but also highly functional, providing a seamless browsing experience for your users. Whether you need a custom website design or a complete website redesign, we craft solutions that are tailored to your business goals.
 								</p>

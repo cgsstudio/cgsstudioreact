@@ -25,14 +25,14 @@ function BrandingIdentitydetail() {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-default-content">
-								<h2>
-									<span className="aximo-title-animation">
-										Best Brand Identity Design Agency in Ahmedabad
+								<h1>
+									<span className="aximo-title-animation" style={{ lineHeight: "1.2em" }}>
+										Best Brand Identity Design Agency in Ahmedabad India
 										{/* <span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
 										</span> */}
 									</span>
-								</h2>
+								</h1>
 								<p>
 									Your brand identity is more than just your logo – it’s the personality of your business, the first impression you make, and the emotional connection you create with your audience. At Chameleo GFX Studio, we specialize in creating unique and cohesive branding and identity designs that set you apart from the competition and resonate with your target market. From logo design to color schemes and typography, we help you craft a brand identity that is memorable, recognizable, and aligns with your business values.
 								</p>

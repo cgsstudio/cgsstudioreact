@@ -93,12 +93,12 @@ function Reactjsuiuxdesigndetail() {
             <img src={SingleImg} alt="Web Development" />
           </div>
 
-          <div className="row">
+          <div className="row py-5">
             <div className="col-lg-12">
               <div className="aximo-default-content">
                 <h2>
                   <span className="aximo-title-animation">
-                    React.js UI/UX Design and Development – Crafting Engaging Digital Experiences
+                    Best Reactjs UI/UX Design and Development Company in Ahmedabad, India
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}

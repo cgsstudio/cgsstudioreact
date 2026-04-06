@@ -17,14 +17,12 @@ function Websiteredesigndetail() {
           <div className="row">
             <div className="col-lg-12">
               <div className="aximo-default-content">
-                <h2>
-                  <span className="aximo-title-animation">
-                    Website Redesign and Revamp
-                    <span className="aximo-title-icon">
-                      <img src={Star2Img} alt="star" />
-                    </span>
+                <h1>
+                  <span className="aximo-title-animation" style={{ lineHeight: "1.2" }} >
+                    Best Website Redesign and Revamp Company in Ahmedabad, India
+
                   </span>
-                </h2>
+                </h1>
                 <p>
                   If your website feels outdated or isn’t performing well, a redesign can make all the difference. At Chameleo GFX Studio, we offer website redesign and revamp services to give your site a fresh, modern look while improving usability and performance. A well-executed redesign can boost engagement, increase conversions, and strengthen your brand’s online presence. As a trusted website redesign company in Ahmedabad, we focus on enhancing aesthetics, improving navigation, and optimizing functionality.
                 </p>

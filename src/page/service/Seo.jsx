@@ -7,7 +7,7 @@ function Seo() {
   return (
     <>
       <Helmet>
-        <title>SEO Company</title>
+        <title>SEO Company in Ahmedabad</title>
         <meta name="description" content="Chameleo GFX Studio is the Best SEO Company in Ahmedabad. We provide best SEO services to local & global businesses that help increase the website rankings." />
         <meta name="keywords" content="SEO Company in Ahmedabad, Best SEO Company in Ahmedabad, SEO Services in Ahmedabad, SEO Agency in Ahmedabad" />
         <link
@@ -15,11 +15,11 @@ function Seo() {
           href="https://chameleogfxstudio.com/services/digital-marketing/seo-company"
         />
       </Helmet>
-      <BreadCrumb title="SEO Company" subtitle="SEO Company" />
+      <BreadCrumb title="SEO Company in Ahmedabad" subtitle="SEO Company in Ahmedabad" />
       <div className="bg-white-smoke">
         <SeoDetails />
 
-    </div>
+      </div>
 
     </>
   );

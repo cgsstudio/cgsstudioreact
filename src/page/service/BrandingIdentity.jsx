@@ -15,11 +15,11 @@ function BrandingIdentity() {
           href="https://chameleogfxstudio.com/services/graphic-design/branding-and-identity-design-agency-company"
         />
       </Helmet>
-      <BreadCrumb title="Branding and Identity Design Agency Company" breadcrumbTitle="Branding and Identity Design Agency Company" />
+      <BreadCrumb title="Branding and Identity Design Agency in Ahmedabad, India" breadcrumbTitle="Branding and Identity Design Agency in Ahmedabad, India" />
       <div className="bg-white-smoke">
         <BrandingIdentitydetail />
 
-    </div>
+      </div>
 
     </>
   );

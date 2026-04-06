@@ -14,7 +14,7 @@ import { graphicDesignServices as services } from "../../data/serviceData";
 
 
 function PosterDesigndetail() {
-	
+
 	return (
 		<div className="section aximo-section-padding2">
 			<div className="container">
@@ -25,53 +25,53 @@ function PosterDesigndetail() {
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-default-content">
-								<h2>
-									<span className="aximo-title-animation">
-									Poster Design Services in Ahmedabad
-										<span className="aximo-title-icon">
+								<h1>
+									<span className="aximo-title-animation" style={{ lineHeight: "1.2em" }}>
+										Best Poster Design Services in Ahmedabad India
+										{/* <span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
-										</span>
+										</span> */}
 									</span>
-								</h2>
+								</h1>
 								<p>
-								Poster design is an essential tool for advertising, events, or brand promotion. A well-designed poster can capture attention and communicate your message effectively, whether you're advertising an event, promoting a product, or creating awareness. At Chameleo GFX Studio, we offer poster design services that are tailored to meet your specific needs, ensuring your design stands out and grabs the attention it deserves. Whether you're looking for vibrant, bold designs or something more minimalistic, we create posters that align with your goals.
+									Poster design is an essential tool for advertising, events, or brand promotion. A well-designed poster can capture attention and communicate your message effectively, whether you're advertising an event, promoting a product, or creating awareness. At Chameleo GFX Studio, we offer poster design services that are tailored to meet your specific needs, ensuring your design stands out and grabs the attention it deserves. Whether you're looking for vibrant, bold designs or something more minimalistic, we create posters that align with your goals.
 								</p>
 								<p>
-								Our custom poster design services emphasize striking visuals, creative layouts, and clear messaging. We incorporate design elements that reflect your brand's identity while ensuring the poster captures the viewer's attention quickly and effectively. Whether for print or digital use, our poster designs are created to make a lasting impression and help you achieve your marketing objectives.
+									Our custom poster design services emphasize striking visuals, creative layouts, and clear messaging. We incorporate design elements that reflect your brand's identity while ensuring the poster captures the viewer's attention quickly and effectively. Whether for print or digital use, our poster designs are created to make a lasting impression and help you achieve your marketing objectives.
 								</p>
 							</div>
 						</div>
 					</div>
-					  <div className="container pt-5">
-                      {services.map((service, index) => (
-                 <div key={index} className="">
-              <div className="aximo-section-title main center">
-              <h2>
-            <span className="aximo-title-animation">
-          {service.title}
-          <span className="aximo-title-icon">
-            <img className="shape-color" src={Star2Img} alt="Star2Img" />
-          </span>
-        </span>
-      </h2>
-    </div>
-        <div className="row">
-         {service.items.map((item, itemIndex) => (
-        <div key={itemIndex} className="col-12 col-md-6">
-          <ul className="list-unstyled custom-list">
-            <li>
-              <a href={item.link} rel="noopener noreferrer">
-                {item.text}
-              </a>
-            </li>
-          </ul>
-        </div>
-      ))}
-    </div>
-  </div>
-))}
+					<div className="container pt-5">
+						{services.map((service, index) => (
+							<div key={index} className="">
+								<div className="aximo-section-title main center">
+									<h2>
+										<span className="aximo-title-animation">
+											{service.title}
+											<span className="aximo-title-icon">
+												<img className="shape-color" src={Star2Img} alt="Star2Img" />
+											</span>
+										</span>
+									</h2>
+								</div>
+								<div className="row">
+									{service.items.map((item, itemIndex) => (
+										<div key={itemIndex} className="col-12 col-md-6">
+											<ul className="list-unstyled custom-list">
+												<li>
+													<a href={item.link} rel="noopener noreferrer">
+														{item.text}
+													</a>
+												</li>
+											</ul>
+										</div>
+									))}
+								</div>
+							</div>
+						))}
 
-						  </div>
+					</div>
 					{/* <div className="row">
 						<div className="col-lg-12">
 							<div className="aximo-user-interface">
