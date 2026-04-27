@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import ServiceHeroBanner from "../../components/common/ServiceHeroBanner";
 import ComputerVisionSolutionsDetails from "../../components/service/ComputerVisionSolutionsDetails";
-import heroBannerImage from "../../assets/images/v1/Group 112.webp";
+import heroBannerImage from "../../assets/images/v1/Ai  Development.png";
 
 function ComputerVisionSolutions() {
   return (

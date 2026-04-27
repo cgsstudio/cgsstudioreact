@@ -4,11 +4,48 @@ import { Link } from "react-router-dom";
 import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
 import Field from "../common/Field";
+import ServiceAccordion from "../common/ServiceAccordion";
 import { aiDevelopmentServices as services } from "../../data/serviceData";
 import servise_image1 from "../../assets/images/v1/Process_1 6.webp";
-import servise_image2 from "../../assets/images/v1/Process_1 5.webp";
+import servise_image2 from "../../assets/images/v1/cgs11.png";
 import servise_image3 from "../../assets/images/v1/Process_1 4.webp";
-import servise_image4 from "../../assets/images/v1/Process_1 7.png";
+import servise_image4 from "../../assets/images/v1/Group_5.png";
+
+const faqData = [
+  {
+    question: "Why should I choose custom AI model development over off-the-shelf solutions?",
+    answer: "Off-the-shelf solutions are trained on general data and may not address your specific business needs. Custom AI models are trained on your proprietary data, aligning perfectly with your operations and offering much higher accuracy and an edge over competitors.",
+  },
+  {
+    question: "How long does it take to develop a custom AI model?",
+    answer: "The timeline varies based on the complexity of the project, data availability, and integration requirements. Typically, initial proofs-of-concept can take 4-8 weeks, while full-scale, deployment-ready models might take a few months.",
+  },
+  {
+    question: "Do I need a large dataset to build a custom AI model?",
+    answer: "While more high-quality data usually yields better results, we employ techniques like data augmentation, transfer learning, and fine-tuning to build highly effective models even when data is relatively scarce.",
+  },
+  {
+    question: "How do you ensure data security and privacy during development?",
+    answer: "We employ strict security protocols, including data anonymization, encryption at rest and in transit, and role-based access control, ensuring your business's proprietary information remains strictly confidential.",
+  },
+  {
+    question: "What happens after the custom AI model is deployed?",
+    answer: "We offer continuous monitoring, maintenance, and retraining services to ensure the model adapts to new data and maintains its accuracy over time, avoiding concept drift.",
+  },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: faqData.map((item) => ({
+    "@type": "Question",
+    name: item.question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: item.answer,
+    },
+  })),
+};
 
 function CustomAiModelDevelopmentDetails() {
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -54,6 +91,7 @@ function CustomAiModelDevelopmentDetails() {
           rel="canonical"
           href="https://chameleogfxstudio.com/services/ai-development/custom-ai-model-development"
         />
+        <script type="application/ld+json">{JSON.stringify(faqSchema)}</script>
       </Helmet>
 
       {/* Intro Section */}
@@ -65,7 +103,7 @@ function CustomAiModelDevelopmentDetails() {
                 <h1 className="text-lg-center text-sm-left"><span className="custom-h2"><span style={{ color: 'red' }}>Custom AI Model</span> Development</span></h1>
 
                 <p className="text-lg-center text-sm-left mt-4">
-                  <strong>Built for your business. Trained on your data. Designed to scale.</strong><br/><br/>
+                  <strong>Built for your business. Trained on your data. Designed to scale.</strong><br /><br />
                   Off-the-shelf AI tools can take you far — but they'll never take you all the way. When your business has unique data, distinct processes, and specific goals that generic models simply can't accommodate, custom is the only answer that makes sense.
                 </p>
 
@@ -96,7 +134,7 @@ function CustomAiModelDevelopmentDetails() {
             </div>
             <div className="col-lg-6 align-items-center order-1 order-lg-2 pt-4 pt-lg-0">
               <div >
-                <img src={servise_image2} alt="What We Build: Custom AI Models" className="services_page_image" style={{ width: "600px" }} />
+                <img src={servise_image2} alt="What We Build: Custom AI Models" className="services_page_image" style={{ width: "600px", height: "500px", objectFit: "fill" }} />
               </div>
             </div>
           </div>
@@ -109,7 +147,7 @@ function CustomAiModelDevelopmentDetails() {
           <div className="row align-items-center">
             <div className="col-lg-6 align-items-center">
               <div>
-                <img src={servise_image4} alt="Why Choose Custom AI?" className="services_page_image" style={{ width: "600px" }} />
+                <img src={servise_image4} alt="Why Choose Custom AI?" className="services_page_image" style={{ width: "600px", height: "500px", objectFit: "fill" }} />
               </div>
             </div>
             <div className="col-lg-6 pt-4 pt-lg-0">
@@ -133,6 +171,21 @@ function CustomAiModelDevelopmentDetails() {
           <div className="col-md-6 mb-4 mb-md-0 pr-5 mr-5">
             <div className="servisepage-form-section servisepage-form-section-1 pr-5">
               <h2>Ready to build an AI model that actually fits your business?</h2>
+            </div>
+
+            <div className="d-flex justify-content-between align-items-left py-3 mt-4">
+              <div className="https://prnt.sc/lIfcJEfFEPPm">
+                <h3 className="text-danger fw-bold mb-0 our_efficiently">500+</h3>
+                <small className="text-muted our_efficiently_1">AI Models Trained</small>
+              </div>
+              <div className="https://prnt.sc/lIfcJEfFEPPm">
+                <h3 className="text-danger fw-bold mb-0 our_efficiently">98%</h3>
+                <small className="text-muted our_efficiently_1">Model Accuracy</small>
+              </div>
+              <div className="https://prnt.sc/lIfcJEfFEPPm">
+                <h3 className="text-danger fw-bold mb-0 our_efficiently">100%</h3>
+                <small className="text-muted our_efficiently_1">Client Satisfaction</small>
+              </div>
             </div>
           </div>
           <div className="col-md-6">
@@ -211,7 +264,7 @@ function CustomAiModelDevelopmentDetails() {
             </div>
             <div className="col-lg-6 align-items-center order-1 order-lg-2 pt-4 pt-lg-0">
               <div >
-                <img src={servise_image3} alt="Why Chameleo GFX Studio" className="services_page_image" style={{ width: "600px" }} />
+                <img src={servise_image3} alt="Why Chameleo GFX Studio" className="services_page_image" style={{ width: "600px", height: "500px", objectFit: "fill" }} />
               </div>
             </div>
           </div>
@@ -268,7 +321,7 @@ function CustomAiModelDevelopmentDetails() {
                   <p className="text-white-smoke text-center mt-4">
                     Ready to build an AI model that actually fits your business?
                   </p>
-                  
+
                   <div className="text-center mt-4">
                     <Link to="/contact-us" className="aximo-default-btn pill bg-red">
                       Talk to the team
@@ -279,6 +332,19 @@ function CustomAiModelDevelopmentDetails() {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* FAQ Section */}
+      <div className="container py-4 py-md-5">
+        <section className="faq-section py-5 bg-white-smoke">
+          <div className="container">
+            <h2 className="mb-4 text-lg-center text-left">
+              <span className="services-h2 text-lg-center text-left">FAQs on Custom AI Model Development</span>
+            </h2>
+
+            <ServiceAccordion faqData={faqData} defaultOpen={0} />
+          </div>
+        </section>
       </div>
 
     </div>

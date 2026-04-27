@@ -98,25 +98,6 @@ const MegaMenu = ({ isOpen, closeMenu, isMobile }) => {
         }
       ]
     },
-    "AI Development": {
-      icon: <FaRobot />,
-      href: "/services/ai-development",
-      columns: 3,
-      sections: aiDevelopmentServices[0].categories.map((cat) => ({
-        title: cat.subtitle,
-        href: cat.subtitleLink,
-        links: cat.items
-          .filter(item => item.text.toLowerCase() !== cat.subtitle.toLowerCase())
-          .map((item) => ({
-            label: item.text
-              .replace(" (Natural Language Processing)", "")
-              .replace(" Solutions", "")
-              .replace(" Systems", "")
-              .replace(" Development", ""),
-            href: item.link,
-          })),
-      })),
-    },
   };
 
   const tabKeys = Object.keys(menuData);

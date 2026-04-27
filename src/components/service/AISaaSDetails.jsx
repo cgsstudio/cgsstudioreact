@@ -7,7 +7,7 @@ import Field from "../common/Field";
 import ServiceAccordion from "../../components/common/ServiceAccordion";
 import { aiDevelopmentServices as services } from "../../data/serviceData";
 import servise_image1 from "../../assets/images/v1/Process_1 6.webp";
-import servise_image2 from "../../assets/images/v1/Process_1 5.webp";
+import servise_image2 from "../../assets/images/v1/Group (8).png";
 import servise_image3 from "../../assets/images/v1/Process_1 4.webp";
 import servise_image4 from "../../assets/images/v1/Process_1 7.png";
 

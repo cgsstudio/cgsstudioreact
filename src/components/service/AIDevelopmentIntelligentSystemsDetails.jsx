@@ -10,6 +10,7 @@ import servise_image1 from "../../assets/images/v1/Process_1 6.webp";
 import servise_image2 from "../../assets/images/v1/Process_1 5.webp";
 import servise_image3 from "../../assets/images/v1/Process_1 4.webp";
 import servise_image4 from "../../assets/images/v1/Process_1 7.png";
+import partner_image from "../../assets/images/v1/Partner.png";
 
 const faqData = [
   {
@@ -268,7 +269,7 @@ function AIDevelopmentIntelligentSystemsDetails() {
             </div>
             <div className="col-lg-6 align-items-center order-1 order-lg-2 pt-4 pt-lg-0">
               <div >
-                <img src={servise_image2} alt="Why Partner with Chameleo GFX Studio" className="services_page_image" style={{ width: "600px" }} />
+                <img src={partner_image} alt="Why Partner with Chameleo GFX Studio" className="services_page_image" style={{ width: "600px" }} />
               </div>
             </div>
           </div>

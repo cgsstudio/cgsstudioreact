@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import ServiceHeroBanner from "../../components/common/ServiceHeroBanner";
 import ObjectDetectionSystemsDetails from "../../components/service/ObjectDetectionSystemsDetails";
-import heroBannerImage from "../../assets/images/v1/Group 112.webp";
+import heroBannerImage from "../../assets/images/v1/Ai  Development.png";
 
 function ObjectDetectionSystems() {
   return (

@@ -1,7 +1,7 @@
 import { Helmet } from "react-helmet-async";
 import ServiceHeroBanner from "../../components/common/ServiceHeroBanner";
 import AISaaSDetails from "../../components/service/AISaaSDetails";
-import heroBannerImage from "../../assets/images/v1/Group 122.webp";
+import heroBannerImage from "../../assets/images/v1/Ai  Development.png";
 
 function AISaaSDevelopment() {
   return (
