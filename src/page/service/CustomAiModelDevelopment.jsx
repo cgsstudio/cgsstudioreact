@@ -7,6 +7,7 @@ function CustomAiModelDevelopment() {
   return (
     <>
       <Helmet>
+        <meta name="robots" content="noindex, nofollow" />
         <title>Custom AI Model Development | Chameleo GFX Studio</title>
         <meta name="description" content="Custom AI Model Development Services tailored for your business. High accuracy, proprietary training, and seamless integration in Ahmedabad." />
         <meta name="keywords" content="Custom AI Model Development, AI Model Training, Business Intelligence, Machine Learning Models, Ahmedabad AI" />

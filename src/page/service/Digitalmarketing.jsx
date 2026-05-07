@@ -9,7 +9,7 @@ function Digitalmarketing() {
     <>
       <Helmet>
         <title>Digital Marketing</title>
-        <meta name="description" content="Chameleo GFX Studio is a top digital marketing agency in India offering SEO, social media, branding, and web design services to grow your online presence." />
+        <meta name="description" content="Chameleo GFX Studio is a top digital marketing agency in Ahmedabad India offering SEO, social media, branding, and web design services to grow your online presence." />
         <meta name="keywords" content="Chameleo GFX Studio, Digital Marketing India, SEO Services India, Social Media Marketing, Branding Agency India, Web Design India, PPC India, Online Marketing, Content Marketing India, Creative Agency India" />
         <link
           rel="canonical"

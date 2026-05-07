@@ -7,6 +7,7 @@ function NLPSolutions() {
   return (
     <>
       <Helmet>
+        <meta name="robots" content="noindex, nofollow" />
         <title>NLP (Natural Language Processing) Solutions | Chameleo GFX Studio</title>
         <meta name="description" content="AI NLP Solutions in Ahmedabad. We build systems that understand, interpret, and generate human language to unlock value from your text data." />
         <meta name="keywords" content="NLP Solutions, Natural Language Processing, Text Analytics, LLM, Chatbots, Ahmedabad AI Solutions" />

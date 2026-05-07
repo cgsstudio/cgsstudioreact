@@ -7,6 +7,7 @@ function AIDevelopment() {
   return (
     <>
       <Helmet>
+        <meta name="robots" content="noindex, nofollow" />
         <title>AI Development | Chameleo GFX Studio</title>
         <meta name="description" content="Advanced AI Development Services in Ahmedabad. AI-generated solutions with machine learning, deep learning, and neural networks. Build intelligent systems that learn and adapt." />
         <meta name="keywords" content="AI development, AI generated, machine learning, deep learning, neural networks, AI systems, intelligent automation, Ahmedabad" />

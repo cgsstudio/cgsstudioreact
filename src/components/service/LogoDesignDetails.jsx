@@ -48,7 +48,7 @@ function LogoDesignDetails() {
 							<div className="aximo-default-content">
 								<h1>
 									<span className="aximo-title-animation" style={{ lineHeight: 1.2 }} >
-										Best Logo Design Company in Ahmedabad, India
+										Best Logo Design Company in Ahmedabad India
 										<span className="aximo-title-icon">
 											<img src={Star2Img} alt="star" />
 										</span>

@@ -7,6 +7,7 @@ function ComputerVisionSolutions() {
   return (
     <>
       <Helmet>
+        <meta name="robots" content="noindex, nofollow" />
         <title>Computer Vision Solutions | Chameleo GFX Studio</title>
         <meta name="description" content="AI-powered Computer Vision Solutions in Ahmedabad. Give your systems the ability to see, interpret, and act on visual data in real time at scale." />
         <meta name="keywords" content="Computer Vision Solutions, Image Recognition AI, Visual Quality Inspection, Video Analytics, Ahmedabad AI Solutions" />

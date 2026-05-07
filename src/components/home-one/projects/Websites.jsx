@@ -52,7 +52,7 @@ const PortfolioSection = () => {
   };
 
   return (
-    <div className="portfolio-section">
+    <div className="portfolio-section" id="website-crafted">
       {/* Background decorative elements */}
       <div className="bg-decor-1"></div>
       <div className="bg-decor-2"></div>

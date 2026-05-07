@@ -1,5 +1,4 @@
-/* eslint-disable react/prop-types */
-
+﻿
 import NavItem from "./NavItem";
 
 const Dropdown = ({ route, subRoutes, depthLevel, mobileSubMenu, mobileSubMenuSub, handleSubMenuSub }) => {
@@ -33,3 +32,4 @@ const Dropdown = ({ route, subRoutes, depthLevel, mobileSubMenu, mobileSubMenuSu
 };
 
 export default Dropdown;
+

@@ -98,6 +98,7 @@ const MegaMenu = ({ isOpen, closeMenu, isMobile }) => {
         }
       ]
     },
+
   };
 
   const tabKeys = Object.keys(menuData);

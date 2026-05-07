@@ -97,7 +97,7 @@ function Reactjsdetail() {
               <div className="aximo-default-content">
                 <h2>
                   <span className="aximo-title-animation">
-                    Best React JS Development Company in India
+                    Best React JS Development Company in Ahmedabad India
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}

@@ -1,7 +1,7 @@
 
 import About from "../../components/home-one/about";
 import AutoSlider from "../../components/home-one/auto-slider";
-import Hero from "../../components/home-one/hero";
+import AgencyHero from "../../components/common/AgencyHero";
 import Projects from "../../components/home-one/projects";
 import Services from "../../components/home-one/services";
 import AppWebServices from "../../components/home-one/AppWebServices";
@@ -114,17 +114,20 @@ function HomeOne() {
 
 		<>
 			<Helmet>
-				<title>Web Development & Digital Marketing Agency in Ahmedabad - Chameleo GFX Studio </title>
-				<meta name="description" content="Chameleo GFX Studio is the best Web Development & Digital Marketing Agency in Ahmedabad. We are delivering innovative websites and result-driven marketing solutions. " />
+				<title>Digital Marketing & Web Development Agency in Ahmedabad | Chameleo GFX Studio</title>
+				<meta name="description" content="Chameleo GFX Studio is the best Digital Marketing & Web Development Agency in Ahmedabad. We are delivering innovative websites and result-driven marketing solutions." />
 				<meta name="keywords" content="Chameleo GFX Studio, Web Development Company in Ahmedabad, Digital Marketing Agency in Ahmedabad, Best Web Development Company Ahmedabad, SEO Company in Ahmedabad, Social Media Marketing Ahmedabad, Website Design Company Ahmedabad, PPC Agency Ahmedabad, Online Marketing Services Ahmedabad, Ecommerce Website Development Ahmedabad, Branding Agency Ahmedabad, Web Development Services Ahmedabad, Digital Marketing Services Ahmedabad" />
 				<link
 					rel="canonical"
 					href="https://chameleogfxstudio.com/"
 				/>
+				<meta name="author" content="Chameleo GFX Studio" />
+				<meta name="publisher" content="Chameleo GFX Studio" />
+				<link rel="publisher" href="https://chameleogfxstudio.com/" />
 
 				{/* Open Graph Meta Tags */}
-				<meta property="og:title" content="Web Development & Digital Marketing Agency in Ahmedabad - Chameleo GFX Studio " />
-				<meta property="og:description" content="Chameleo GFX Studio is the best Web Development & Digital Marketing Agency in Ahmedabad. We are delivering innovative websites and result-driven marketing solutions. " />
+				<meta property="og:title" content="Digital Marketing & Web Development Agency in Ahmedabad | Chameleo GFX Studio" />
+				<meta property="og:description" content="Chameleo GFX Studio is the best Digital Marketing & Web Development Agency in Ahmedabad. We are delivering innovative websites and result-driven marketing solutions." />
 				<meta property="og:type" content="website" />
 				<meta property="og:url" content="https://chameleogfxstudio.com/" />
 				<meta property="og:image" content="https://newcgswebsite.netlify.app/assets/images/logo/Cgs_Logo.png" />
@@ -135,11 +138,11 @@ function HomeOne() {
 
 				{/* Optional: Twitter Card */}
 				<meta name="twitter:card" content="summary_large_image" />
-				<meta name="twitter:title" content="Web Development & Digital Marketing Agency in Ahmedabad - Chameleo GFX Studio " />
-				<meta name="twitter:description" content="Chameleo GFX Studio is the best Web Development & Digital Marketing Agency in Ahmedabad. We are delivering innovative websites and result-driven marketing solutions. " />
+				<meta name="twitter:title" content="Digital Marketing & Web Development Agency in Ahmedabad | Chameleo GFX Studio" />
+				<meta name="twitter:description" content="Chameleo GFX Studio is the best Digital Marketing & Web Development Agency in Ahmedabad. We are delivering innovative websites and result-driven marketing solutions." />
 				<meta name="twitter:image" content="https://newcgswebsite.netlify.app/assets/images/logo/Cgs_Logo.png" />
 			</Helmet>
-			<Hero />
+			<AgencyHero />
 			<AutoSlider />
 			<AwardsSection />
 			{/* <Services services={servicesData} /> */}

@@ -20,7 +20,7 @@ function Searchengineoptimizationdetail() {
               <div className="aximo-default-content">
                 <h1>
                   <span className="aximo-title-animation" style={{ lineHeight: 1.2 }} >
-                    Best SEO Agency in India
+                    Best SEO Agency in Ahmedabad India
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}

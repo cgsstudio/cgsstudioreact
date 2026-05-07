@@ -1,5 +1,11 @@
 import React, { lazy } from "react";
-import { createBrowserRouter, Navigate } from "react-router-dom";
+import { createBrowserRouter, Navigate, useLocation } from "react-router-dom";
+
+// Helper component to preserve search params during navigation
+const NavigateWithSearchParams = ({ to, ...props }) => {
+	const location = useLocation();
+	return <Navigate to={to + location.search} {...props} />;
+};
 const LayoutEight = lazy(() => import("../components/layout/LayoutEight.jsx"));
 const LayoutFive = lazy(() => import("../components/layout/LayoutFive.jsx"));
 const LayoutFour = lazy(() => import("../components/layout/LayoutFour.jsx"));
@@ -153,6 +159,7 @@ const Sitemap = lazy(() => import("../components/home-one/Sitemap/Sitemap.jsx"))
 const CookiePolicy = lazy(() => import("../components/home-one/cookie/CookiePolicy.jsx"));
 const Disclaimer = lazy(() => import("../page/Disclaimer.jsx"));
 const RefundPolicy = lazy(() => import("../page/RefundPolicy.jsx"));
+const WhiteLabelServices = lazy(() => import("../page/service/WhiteLabelServices.jsx"));
 
 export const router = createBrowserRouter([
 	{
@@ -358,7 +365,7 @@ export const router = createBrowserRouter([
 								children: [
 									{ index: true, element: <GraphicDesign /> },
 									{ path: "logo-design-company", element: <LogoDesign /> },
-									{ path: "branding-and-identity-design-agency-company", element: <BrandingIdentity /> },
+									{ path: "branding-and-identity-design-agency", element: <BrandingIdentity /> },
 									{ path: "social-media-banner-design-company", element: <SocialMediaBanner /> },
 									{ path: "flyer-design-services-company", element: <FlyerDesign /> },
 									{ path: "brochure-design-company", element: <BrochureDesign /> },
@@ -382,7 +389,7 @@ export const router = createBrowserRouter([
 									{ path: "motion-graphics-design-agency", element: <MotionGraphics /> },
 									{ path: "e-book-design-service-company", element: <Ebookdesign /> },
 									// 301 Redirects for Old Links
-									{ path: "branding-and-identity-design-agency", element: <Navigate to="/services/graphic-design/branding-and-identity-design-agency-company" replace /> },
+									{ path: "branding-and-identity-design-agency-company", element: <Navigate to="/services/graphic-design/branding-and-identity-design-agency" replace /> },
 									{ path: "social-media-banner-design", element: <Navigate to="/services/graphic-design/social-media-banner-design-company" replace /> },
 									{ path: "flyer-design-services", element: <Navigate to="/services/graphic-design/flyer-design-services-company" replace /> },
 									{ path: "poster-design-services", element: <Navigate to="/services/graphic-design/poster-design-services-company" replace /> },
@@ -399,6 +406,7 @@ export const router = createBrowserRouter([
 									{ path: "e-book-design-service", element: <Navigate to="/services/graphic-design/e-book-design-service-company" replace /> },
 								],
 							},
+							{ path: "white-label-marketing-agency-india", element: <WhiteLabelServices /> },
 						],
 					},
 					{
@@ -613,7 +621,7 @@ export const router = createBrowserRouter([
 	},
 	{
 		path: "/branding-and-identity-design",
-		element: <Navigate to="/services/graphic-design/branding-and-identity-design-agency-company" replace />,
+		element: <Navigate to="/services/graphic-design/branding-and-identity-design-agency" replace />,
 	},
 	{
 		path: "/social-media-banner-design",
@@ -1090,5 +1098,102 @@ export const router = createBrowserRouter([
 	{
 		path: "/ai-chatbot-development",
 		element: <Navigate to="/services/digital-marketing/ai-chatbot-development" replace />,
+	},
+	// Blog redirects for missing/old links
+	{
+		path: "/blog/graphic-design-company-in-ahmedabad",
+		element: <Navigate to="/services/graphic-design" replace />,
+	},
+	{
+		path: "/blog/social-media-banner-design-ahmedabad",
+		element: <Navigate to="/services/graphic-design/social-media-banner-design-company" replace />,
+	},
+	{
+		path: "/blog/signage-design-service-ahmedabad",
+		element: <Navigate to="/services/graphic-design/signage-design-service-company" replace />,
+	},
+	{
+		path: "/blog/how-to-audit-your-brand-identity",
+		element: <Navigate to="/services/graphic-design/branding-and-identity-design-agency" replace />,
+	},
+	{
+		path: "/blog/menu-design-service-ahmedabad",
+		element: <Navigate to="/services/graphic-design/menu-design-service-company" replace />,
+	},
+	{
+		path: "/blog/corporate-profile-design-ahmedabad",
+		element: <Navigate to="/services/graphic-design/corporate-profile-design-company" replace />,
+	},
+	{
+		path: "/blog/motion-graphics-design-agency-ahmedabad",
+		element: <Navigate to="/services/graphic-design/motion-graphics-design-agency" replace />,
+	},
+	{
+		path: "/blog/hiring-ui-ux-design-agency-ahmedabad",
+		element: <Navigate to="/services/ui-ux-design" replace />,
+	},
+	{
+		path: "/blog/the-future-of-ui-ux-design",
+		element: <Navigate to="/blog/future-of-ui-ux-design-human-centered-ai" replace />,
+	},
+	{
+		path: "/blog/seo-optimization-in-ahmedabad-guide",
+		element: <Navigate to="/services/digital-marketing/seo-company-in-ahmedabad" replace />,
+	},
+	{
+		path: "/blog/finding-the-best-graphic-design-agency-ahmedabad",
+		element: <Navigate to="/services/graphic-design" replace />,
+	},
+	{
+		path: "/blog/magazine-and-booklet-design-ahmedabad",
+		element: <Navigate to="/services/graphic-design/magazine-and-booklet-design" replace />,
+	},
+	{
+		path: "/blog/exhibition-booth-design-ahmedabad",
+		element: <Navigate to="/services/graphic-design/trade-show-booth-design" replace />,
+	},
+	{
+		path: "/blog/e-book-design-service-ahmedabad",
+		element: <Navigate to="/services/graphic-design/e-book-design-service-company" replace />,
+	},
+	{
+		path: "/blog/branding-and-identity-design-agency-ahmedabad",
+		element: <Navigate to="/services/graphic-design/branding-and-identity-design-agency" replace />,
+	},
+	{
+		path: "/blog/minimalism-vs-maximalism-in-design",
+		element: <Navigate to="/blog/human-ai-collaboration-in-design" replace />,
+	},
+	{
+		path: "/blog/psychology-of-color-in-marketing",
+		element: <Navigate to="/blog/how-to-create-a-brand-identity-that-stands-out" replace />,
+	},
+	{
+		path: "/blog/benefits-of-hiring-a-professional-graphic-design-agency",
+		element: <Navigate to="/services/graphic-design" replace />,
+	},
+	{
+		path: "/blog/digital-ad-design-agency-ahmedabad",
+		element: <Navigate to="/services/graphic-design/digital-ad-design" replace />,
+	},
+	{
+		path: "/blog/future-of-graphic-design-agency-ahmedabad",
+		element: <Navigate to="/services/graphic-design" replace />,
+	},
+	{
+		path: "/blog/website-development-company-in-ahmedabad",
+		element: <Navigate to="/services/web-development" replace />,
+	},
+	{
+		path: "/blog/graphic-design-agency-in-ahmedabad",
+		element: <Navigate to="/services/graphic-design" replace />,
+	},
+	{
+		path: "/blog/digital-marketing-company-in-ahmedabad",
+		element: <Navigate to="/services/digital-marketing" replace />,
+	},
+	{
+		path: "/blogs",
+		element: <NavigateWithSearchParams to="/blog/" replace />,
 	},
 ]);

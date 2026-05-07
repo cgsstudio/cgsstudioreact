@@ -7,6 +7,7 @@ function FacialRecognitionSolutions() {
   return (
     <>
       <Helmet>
+        <meta name="robots" content="noindex, nofollow" />
         <title>Facial Recognition Solutions | Chameleo GFX Studio</title>
         <meta name="description" content="AI Facial Recognition Services in Ahmedabad. Secure access control, attendance tracking, and smart surveillance with instant, accurate identity verification." />
         <meta name="keywords" content="Facial Recognition Solutions, AI Facial Recognition Services, Face Recognition Software, Access Control AI, Ahmedabad AI" />

@@ -262,7 +262,7 @@ function AIIntegrationServicesDetails() {
                   Chameleo GFX Studio delivers end-to-end AI integration services in Ahmedabad with a team that understands both the technical complexity and the business context behind every project. We don't apply generic frameworks; we design integration strategies tailored to your product, your users, and your growth trajectory.
                 </p>
                 <p>
-                  As one of the leading providers of Artificial Intelligence Integration Services in India, we've helped businesses across industries automate critical workflows, launch intelligent SaaS products, and future-proof their digital operations.
+                  As one of the leading providers of Artificial Intelligence Integration Services in Ahmedabad India, we've helped businesses across industries automate critical workflows, launch intelligent SaaS products, and future-proof their digital operations.
                 </p>
                 <p>
                   Our process is collaborative and transparent; you stay informed and in control at every milestone. When you work with Chameleo GFX Studio, you're not hiring a development shop. You're gaining a strategic partner who is as invested in your results as you are. Our AI integration services are built on a foundation of trust, technical depth, and a genuine commitment to helping your business move forward with confidence.

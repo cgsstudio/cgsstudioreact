@@ -2542,10 +2542,9 @@ h3.blog-h2 {
 }
 
 .services_hero {
-	text-align: left;
-	display: flex;
-
+	/* text-align: left; */
 }
+
 
 .design-main-card {
 	/* background: white; */

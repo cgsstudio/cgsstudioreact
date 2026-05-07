@@ -1,6 +1,5 @@
-import CountUp from "react-countup";
-// import Thumb1Img from "../../../assets/images/v1/t_thumb1.png";
-// import Thumb2Img from "../../../assets/images/v1/t_thumb2.png";
+﻿import CountUp from "react-countup";
+import Thumb1Img from "../../../assets/images/v1/t_thumb1.png";`r`nimport Thumb2Img from "../../../assets/images/v1/t_thumb2.png";
 import QuoteImg from "../../../assets/images/v4/quote.png";
 function TestimonialsCard() {
 	return (
@@ -86,3 +85,4 @@ function TestimonialsCard() {
 }
 
 export default TestimonialsCard;
+

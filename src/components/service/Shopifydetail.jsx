@@ -19,7 +19,7 @@ function Shopifydetail() {
               <div className="aximo-default-content">
                 <h1>
                   <span className="aximo-title-animation" style={{ lineHeight: 1.2 }}>
-                    Best Shopify Development Company in India
+                    Best Shopify Development Company in Ahmedabad India
                     {/* <span className="aximo-title-icon">
                       <img src={Star2Img} alt="star" />
                     </span> */}

@@ -7,13 +7,13 @@ import { BlogData } from "../../components/blog/BlogData";
 function RecentPosts() {
   return (
     <div>
-    {/* <div className="widget aximo_recent_posts_Widget">
+    <div className="widget aximo_recent_posts_Widget">
       <h3 className="wp-block-heading">Recent Posts:</h3>
 
-      {BlogData.slice(0, 3).map((post) => (
-        <div className="post-item" key={post.id}>
+      {[...BlogData].reverse().slice(0, 3).map((post) => (
+        <div className="post-item" key={post.slug}>
           <div className="post-thumb">
-            <Link to="/single-blog">
+            <Link to={`/blog/${post.slug}`}>
               <img src={post.img} alt={post.title} />
             </Link>
           </div>
@@ -25,7 +25,7 @@ function RecentPosts() {
           </div>
         </div>
       ))}
-    </div> */}
+    </div>
     </div>
   );
 }

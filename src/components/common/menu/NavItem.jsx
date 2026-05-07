@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+﻿import { Link } from "react-router-dom";
 /* eslint-disable react/prop-types */
 import Dropdown from "./Dropdown";
 import { NavLink } from "react-router-dom";
@@ -11,7 +11,7 @@ function NavItem({
 	handleSubMenu,
 	mobileSubMenuSub,
 	handleSubMenuSub,
-	handleMenu, // ✅ Accept handleMenu
+	handleMenu, // âœ… Accept handleMenu
 }) {
 	function handleClick(e) {
 		e.stopPropagation();
@@ -70,3 +70,4 @@ function NavItem({
 
 
 export default NavItem;
+

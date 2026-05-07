@@ -7,6 +7,7 @@ function ObjectDetectionSystems() {
   return (
     <>
       <Helmet>
+        <meta name="robots" content="noindex, nofollow" />
         <title>Object Detection Systems | Chameleo GFX Studio</title>
         <meta name="description" content="AI Object Detection Solutions in Ahmedabad. We build systems that identify, boundary, and track multiple objects in real-time." />
         <meta name="keywords" content="Object Detection, AI Recognition, Visual Tracking, Computer Vision Ahmedabad, Smart City AI" />

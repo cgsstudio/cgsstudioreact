@@ -166,3 +166,7 @@
 		path: '/wordpress-website-maintenance-and-support',
 		element: <Navigate to='/services/web-development/wordpress-development' replace />,
 	},
+	{
+		path: '/blogs',
+		element: <Navigate to='/blog/' replace />,
+	},

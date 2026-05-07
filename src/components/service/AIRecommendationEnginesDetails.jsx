@@ -280,7 +280,7 @@ function AIRecommendationEnginesDetails() {
               <div className="aximo-default-content">
                 <h2><span className="services-h2">A <span style={{ color: 'red' }}>Recommendation Engine Partner</span> Who Understands Your Product</span></h2>
                 <p>
-                  Chameleo GFX Studio is a trusted recommendation engine service provider company in India with hands-on experience building intelligent personalization systems for digital businesses across industries. We approach every engagement as a product challenge, not just an engineering task understanding your users, your content, and your conversion goals before writing a single line of model code.
+                  Chameleo GFX Studio is a trusted recommendation engine service provider company in Ahmedabad India with hands-on experience building intelligent personalization systems for digital businesses across industries. We approach every engagement as a product challenge, not just an engineering task understanding your users, your content, and your conversion goals before writing a single line of model code.
                 </p>
                 <p>
                   Our AI Recommendation Engines in Ahmedabad, India, are built with scalability and transparency in mind. You'll always understand what your system is optimizing for, how it's performing, and where it can improve. No black boxes, just intelligent systems you can trust and build on.

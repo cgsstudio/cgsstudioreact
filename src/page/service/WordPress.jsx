@@ -15,7 +15,7 @@ function WordPress() {
           href="https://chameleogfxstudio.com/services/web-development/wordpress-development-company"
         />
       </Helmet>
-      <BreadCrumb title="WordPress Development Company in India" breadcrumbTitle="WordPress Development Company in India" />
+      <BreadCrumb title="WordPress Development Company in Ahmedabad India" breadcrumbTitle="WordPress Development Company in Ahmedabad India" />
       <div className="bg-white-smoke">
         <WordPressdetail />
 

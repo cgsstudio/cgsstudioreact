@@ -11,9 +11,10 @@ import Navigation from "./Navigation";
 function Blog() {
   const [searchParams] = useSearchParams();
   const [currentPage, setCurrentPage] = useState(1);
-  const blogsPerPage = 3;
+  const [blogsPerPage] = useState(6);
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [selectedTag, setSelectedTag] = useState(null);
+  const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
     const tag = searchParams.get("tag");
@@ -29,12 +30,16 @@ function Blog() {
   // Reverse the BlogData array
   const reversedBlogData = [...BlogData].reverse(); // Using spread operator to avoid mutating original array
 
-  // Filter blogs based on selected category or tag
-  const filteredBlogs = selectedCategory
-    ? reversedBlogData.filter((blog) => blog.category === selectedCategory)
-    : selectedTag
-      ? reversedBlogData.filter((blog) => blog.keywords.includes(selectedTag))
-      : reversedBlogData;
+  // Filter blogs based on selected category, tag, or search query
+  const filteredBlogs = reversedBlogData.filter((blog) => {
+    const matchesCategory = selectedCategory ? blog.category === selectedCategory : true;
+    const matchesTag = selectedTag ? blog.keywords.includes(selectedTag) : true;
+    const matchesSearch = searchQuery 
+      ? blog.title.toLowerCase().includes(searchQuery.toLowerCase()) || 
+        blog.content.toLowerCase().includes(searchQuery.toLowerCase())
+      : true;
+    return matchesCategory && matchesTag && matchesSearch;
+  });
 
   // Get all unique tags
   const allTags = [...new Set(BlogData.flatMap((blog) => blog.keywords))];
@@ -62,7 +67,16 @@ function Blog() {
   const handleTagSelect = (tag) => {
     setSelectedTag(tag);
     setSelectedCategory(null); // Reset category when tag is selected
+    setSearchQuery(""); // Reset search when tag is selected
     setCurrentPage(1); // Reset to the first page when tag changes
+  };
+
+  // Handle search
+  const handleSearch = (query) => {
+    setSearchQuery(query);
+    setSelectedCategory(null);
+    setSelectedTag(null);
+    setCurrentPage(1);
   };
 
   return (
@@ -87,7 +101,7 @@ function Blog() {
           </div>
           <div className="col-lg-4">
             <div className="right-sidebar">
-              <Search />
+              <Search onSearch={handleSearch} />
               <Categories
                 categories={[...new Set(BlogData.map((blog) => blog.category))]}
                 onCategorySelect={handleCategorySelect}

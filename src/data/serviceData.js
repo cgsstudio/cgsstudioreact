@@ -3,7 +3,7 @@ export const graphicDesignServices = [
     title: "Graphics Design",
     items: [
       { text: "Logo Design", link: "/services/graphic-design/logo-design-company" },
-      { text: "Branding and Identity Design", link: "/services/graphic-design/branding-and-identity-design-agency-company" },
+      { text: "Branding and Identity Design", link: "/services/graphic-design/branding-and-identity-design-agency" },
       { text: "Social Media Banner Design", link: "/services/graphic-design/social-media-banner-design-company" },
       { text: "Flyer Design", link: "/services/graphic-design/flyer-design-services-company" },
       { text: "Brochure Design", link: "/services/graphic-design/brochure-design-company" },

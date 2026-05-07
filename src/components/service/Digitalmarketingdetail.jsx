@@ -133,7 +133,7 @@ function DigitalMarketingDetail() {
         <div className="row">
           <div className="col-lg-6 align-items-center order-2 order-lg-1 pt-4 pt-lg-0">
             <div className="aximo-default-content">
-              <h2><span className="services-h2"><span style={{ color: 'red' }}>Benefits of Digital Marketing Services in India</span> for Modern Businesses </span></h2>
+              <h2><span className="services-h2"><span style={{ color: 'red' }}>Benefits of Digital Marketing Services in Ahmedabad India</span> for Modern Businesses </span></h2>
               <p>
                 Old-school marketing, such as billboards and flyers, is still effective, but in the digital age, most of our customers are online. If you are not there, you are leaving tremendous opportunities behind.
               </p>

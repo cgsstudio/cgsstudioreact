@@ -7,7 +7,7 @@ function LogoDesign() {
   return (
     <>
       <Helmet>
-        <title>Logo Design Company</title>
+        <title>Logo Design Company in Ahmedabad India</title>
         <meta name="description" content="Chameleo GFX Studio is the best Logo Design Agency in Ahmedabad. We provide creative logo design & branding services that help businesses create unique identities. Call now." />
         <meta name="keywords" content="Logo design company in Ahmedabad, logo designer in Ahmedabad, Branding Agency in Ahmedabad, Creative Branding Agency in Ahmedabad" />
         <link
@@ -15,7 +15,7 @@ function LogoDesign() {
           href="https://chameleogfxstudio.com/services/graphic-design/logo-design-company"
         />
       </Helmet>
-      <BreadCrumb title="Logo Design Company" breadcrumbTitle="Logo Design Company" />
+      <BreadCrumb title="Logo Design Company in Ahmedabad India" breadcrumbTitle="Logo Design Company in Ahmedabad India" />
       <div className="bg-white-smoke">
         <LogoDesignDetails />
       </div>

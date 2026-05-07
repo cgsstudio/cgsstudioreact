@@ -10,8 +10,9 @@ import { Helmet } from "react-helmet-async";
 function SingleBlog() {
   const { slug } = useParams(); // Get the 'slug' from the URL
 
-  // Find the blog post that matches the 'slug' from the URL
-  const blog = BlogData.find((blog) => blog.slug === slug);
+  // Find the blog post that matches the 'slug' from the URL (handle trailing slashes)
+  const normalizedSlug = slug.endsWith("/") ? slug.slice(0, -1) : slug;
+  const blog = BlogData.find((blog) => blog.slug === normalizedSlug);
 
   if (!blog) {
     // Redirect to 404 page when blog slug is not found

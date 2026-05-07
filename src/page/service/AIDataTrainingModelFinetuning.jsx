@@ -7,6 +7,7 @@ function AIDataTrainingModelFinetuning() {
   return (
     <>
       <Helmet>
+        <meta name="robots" content="noindex, nofollow" />
         <title>AI Data Training & Model Fine-tuning | Chameleo GFX Studio</title>
         <meta name="description" content="Expert AI Data Training & Model Fine-tuning in Ahmedabad. We build intelligence layers that scale with expert data preparation and ML model tuning." />
         <meta name="keywords" content="AI data training, AI model fine-tuning, machine learning training, AI data preparation, custom AI models" />

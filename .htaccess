@@ -44,6 +44,7 @@
     RewriteRule ^motion-graphics-design/?$ /motion-graphics-design-agency-ahmedabad [R=301,L]
     RewriteRule ^e-book-design/?$ /e-book-design-service-ahmedabad [R=301,L]
     RewriteRule ^how-ai-is-revolutionizing-seo-in-2025-human-centric-guide-for-business-growth/?$ /blog/how-ai-is-revolutionizing-seo-in-2025-human-centric-guide-for-business-growth [R=301,L]
+    RewriteRule ^blogs/?$ /blog/ [R=301,L]
 
     # Fallback to index.html for React Router
     RewriteRule ^index\.html$ - [L]

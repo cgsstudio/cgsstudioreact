@@ -255,7 +255,7 @@ function AIDataTrainingModelFinetuningDetails() {
                   Chameleo GFX Studio brings together data scientists, ML engineers, and SaaS product specialists to deliver machine learning model training in Ahmedabad that is tightly aligned with your product roadmap. We don't hand you a model and walk away; we work iteratively, refining performance based on real usage data and your evolving business needs.
                 </p>
                 <p>
-                  Our AI data training and model fine-tuning services have helped SaaS companies across verticals from healthcare and fintech to logistics and edtech, build products their users rely on and trust. As a leading provider of AI data training and model fine-tuning in India, we combine global technical standards with the responsiveness and transparency that growing companies actually need from a development partner.
+                  Our AI data training and model fine-tuning services have helped SaaS companies across verticals from healthcare and fintech to logistics and edtech, build products their users rely on and trust. As a leading provider of AI data training and model fine-tuning in Ahmedabad India, we combine global technical standards with the responsiveness and transparency that growing companies actually need from a development partner.
                 </p>
               </div>
             </div>

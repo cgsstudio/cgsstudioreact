@@ -7,6 +7,7 @@ function AIDevelopmentIntelligentSystems() {
   return (
     <>
       <Helmet>
+        <meta name="robots" content="noindex, nofollow" />
         <title>AI Development & Intelligent Systems | Chameleo GFX Studio</title>
         <meta name="description" content="Building the Future of SaaS with AI Development & Intelligent Systems in Ahmedabad, India. Serving Startups & Enterprises Worldwide." />
         <meta name="keywords" content="AI Development, Intelligent Systems, SaaS, Ahmedabad, Chameleo GFX Studio" />

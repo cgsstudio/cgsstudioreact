@@ -12,7 +12,7 @@ function BrandingIdentity() {
         <meta name="keywords" content="Chameleo GFX Studio, Brand Identity Design, Branding Agency Ahmedabad, Brand Identity Design Services, Brand Identity Design Ahmedabad, Identity Design Ahmedabad, Identity Design Agency" />
         <link
           rel="canonical"
-          href="https://chameleogfxstudio.com/services/graphic-design/branding-and-identity-design-agency-company"
+          href="https://chameleogfxstudio.com/services/graphic-design/branding-and-identity-design-agency"
         />
       </Helmet>
       <BreadCrumb title="Branding and Identity Design Agency in Ahmedabad, India" breadcrumbTitle="Branding and Identity Design Agency in Ahmedabad, India" />

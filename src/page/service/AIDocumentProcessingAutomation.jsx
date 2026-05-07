@@ -7,6 +7,7 @@ function AIDocumentProcessingAutomation() {
   return (
     <>
       <Helmet>
+        <meta name="robots" content="noindex, nofollow" />
         <title>AI Document Processing Automation | Chameleo GFX Studio</title>
         <meta name="description" content="AI Document Processing Automation Services in Ahmedabad. Stop drowning in paperwork with OCR, NLP, and intelligent data extraction. Expert AI automation systems." />
         <meta name="keywords" content="AI document processing, OCR automation, NLP solutions, document automation Ahmedabad, data extraction AI, intelligent systems" />

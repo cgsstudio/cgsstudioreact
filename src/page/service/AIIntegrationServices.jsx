@@ -7,6 +7,7 @@ function AIIntegrationServices() {
   return (
     <>
       <Helmet>
+        <meta name="robots" content="noindex, nofollow" />
         <title>AI Integration Services | Chameleo GFX Studio</title>
         <meta name="description" content="Professional AI Integration Services in Ahmedabad. Connect your existing platforms with intelligent systems to automate, analyze, and adapt. Expert AI implementation." />
         <meta name="keywords" content="AI integration, AI SaaS integration, machine learning deployment, intelligent process automation, AI implementation Ahmedabad" />

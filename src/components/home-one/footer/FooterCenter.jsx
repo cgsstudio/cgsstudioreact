@@ -8,7 +8,7 @@ const servicesData = [
         title: "Graphics Design",
         links: [
             { text: "Logo Design", to: "/services/graphic-design/logo-design-company" },
-            { text: "Branding and Identity Design", to: "/services/graphic-design/branding-and-identity-design-agency-company" },
+            { text: "Branding and Identity Design", to: "/services/graphic-design/branding-and-identity-design-agency" },
             { text: "Social Media Banner Design", to: "/services/graphic-design/social-media-banner-design-company" },
             { text: "Packaging Design", to: "/services/graphic-design/packaging-design-agency-company" },
             { text: "Presentation Design", to: "/services/graphic-design/presentation-design-services-company" },

@@ -1,13 +1,16 @@
+﻿import { useState } from 'react';
 import './ChatBox.css';
 
 function ChatBox() {
-  // ...existing code...
+  const [isOpen, setIsOpen] = useState(false);
+  const toggleChat = () => setIsOpen((current) => !current);
+
   return (
     <div className="chat-box">
-      <button onClick={toggleChat}>Chat</button>
+      <button type="button" onClick={toggleChat}>Chat</button>
       {isOpen && (
         <div className="chat-box-content">
-          {/* ...existing chat content... */}
+          <p>How can we help you?</p>
         </div>
       )}
     </div>

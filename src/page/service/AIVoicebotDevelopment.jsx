@@ -7,6 +7,7 @@ function AIVoicebotDevelopment() {
   return (
     <>
       <Helmet>
+        <meta name="robots" content="noindex, nofollow" />
         <title>AI Voice Bot Development | Chameleo GFX Studio</title>
         <meta name="description" content="AI Voice Bot Development in Ahmedabad. Automate customer support with intelligent, conversational voice AI that speaks your customers' language." />
         <meta name="keywords" content="AI Voice Bot Development, Voice AI Agency, Intelligent Voice Bots, Customer Service AI, Speech Recognition AI" />

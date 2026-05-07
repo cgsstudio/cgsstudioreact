@@ -7,6 +7,7 @@ function ImageRecognitionSystems() {
   return (
     <>
       <Helmet>
+        <meta name="robots" content="noindex, nofollow" />
         <title>Image Recognition Systems | Chameleo GFX Studio</title>
         <meta name="description" content="AI Image Recognition Solutions in Ahmedabad. We build systems that identify, classify, and interpret visual content automatically at scale." />
         <meta name="keywords" content="Image Recognition Systems, AI Image Recognition, Visual Data Processing, Deep Learning, Ahmedabad AI Solutions" />

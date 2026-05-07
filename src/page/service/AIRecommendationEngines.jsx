@@ -7,6 +7,7 @@ function AIRecommendationEngines() {
   return (
     <>
       <Helmet>
+        <meta name="robots" content="noindex, nofollow" />
         <title>AI Recommendation Engines | Chameleo GFX Studio</title>
         <meta name="description" content="Expert AI Recommendation Engine Solutions in Ahmedabad. Deliver personalization at scale and connect every user to exactly what they need. Personalized discovery AI." />
         <meta name="keywords" content="AI recommendation engines, personalization systems, e-commerce recommendations, content discovery AI, machine learning personalization" />

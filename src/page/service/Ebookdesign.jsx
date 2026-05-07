@@ -7,7 +7,7 @@ function Ebookdesign() {
   return (
     <>
       <Helmet>
-        <title>E-book Design Services in Ahmedabad | E-book Design India</title>
+        <title>E-book Design Services Company in Ahmedabad India</title>
         <meta name="description" content="Chameleo GFX Studio offers E-book Design Services in Ahmedabad, India. We create visually appealing, reader-friendly e-books with stunning layouts and graphics." />
         <meta name="keywords" content="Chameleo GFX Studio, E-Book Design Services Ahmedabad, E-Book Design Ahmedabad, E-Book Design India, E-book Design Services, Digital Book Design, Custom E-Book Design, Interactive E-Book, E-Book Formatting, Professional E-Book Design, Creative E-Book Layout, E-Publishing Design" />
         <link
@@ -15,7 +15,7 @@ function Ebookdesign() {
           href="https://chameleogfxstudio.com/services/graphic-design/e-book-design-service-company"
         />
       </Helmet>
-      <BreadCrumb title="E-book Design Services Company" breadcrumbTitle="E-book Design Services Company" />
+      <BreadCrumb title="E-book Design Services Company in Ahmedabad India" breadcrumbTitle="E-book Design Services Company in Ahmedabad India" />
       <div className="bg-white-smoke">
         <Ebookdesigndetail />
 

@@ -15,7 +15,7 @@ function Shopify() {
           href="https://chameleogfxstudio.com/services/web-development/shopify-development-company"
         />
       </Helmet>
-      <BreadCrumb title="Shopify Development Company in India" breadcrumbTitle="Shopify Development Company in India" />
+      <BreadCrumb title="Shopify Development Company in Ahmedabad India" breadcrumbTitle="Shopify Development Company in Ahmedabad India" />
       <div className="bg-white-smoke">
         <Shopifydetail />
 

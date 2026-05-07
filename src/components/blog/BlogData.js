@@ -1,4 +1,4 @@
-﻿import Blog1Img from "../../assets/images/blog/blog-1.png";
+import Blog1Img from "../../assets/images/blog/blog-1.png";
 import Blog2Img from "../../assets/images/blog/blog-2.jpg";
 import Blog3Img from "../../assets/images/blog/Blog-3.png";
 import Blog4Img from "../../assets/images/blog/blog-4.jpg";
@@ -8583,8 +8583,7 @@ Can I build a strong brand on a tight budget?
     <a href="tel:+918460384838" class="bg-red fw-bold text-white p-3 rounded-2 d-inline-block">
         Schedule a Strategy Call
     </a>
-</
-
+    </div>
 </div>
 
 

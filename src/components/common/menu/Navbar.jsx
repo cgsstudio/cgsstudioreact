@@ -178,8 +178,11 @@ function Navbar({
                                 isOpen={isMobile ? mobileServicesOpen : megaMenuOpen}
                                 isMobile={isMobile}
                                 closeMenu={() => {
-                                    if (isMobile) setMobileServicesOpen(false);
-                                    else setMegaMenuOpen(false);
+                                    if (isMobile) {
+                                        handleMobileLinkClick();
+                                    } else {
+                                        setMegaMenuOpen(false);
+                                    }
                                 }}
                             />
                         </li>
@@ -214,9 +217,6 @@ function Navbar({
                     <h6 className="contact-title">Contact Info :</h6>
                     <a href="mailto:info@chameleogfxstudio.com" className="contact-link">
                         <FaEnvelope /> info@chameleogfxstudio.com
-                    </a>
-                    <a href="tel:+918460384838" className="contact-link">
-                        <FaPhoneAlt /> +91-846-038-4838
                     </a>
                     <a href="tel:+919737472636" className="contact-link">
                         <FaPhoneAlt /> +91-973-747-2636
