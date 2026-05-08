@@ -7565,7 +7565,13 @@ img.aximo-video-circle {
 .aximo-auto-slider-section {
 	padding: 20px 0;
 	overflow: hidden;
-	background-color: var(--dark-bg);
+	background-color: #050000;
+	background-image: radial-gradient(rgba(255, 0, 0, 0.08) 1px, transparent 1px);
+	background-size: 30px 30px;
+}
+
+.aximo-auto-slider .swiper-wrapper {
+	transition-timing-function: linear !important;
 }
 
 .aximo-auto-slider-item {
@@ -7575,7 +7581,7 @@ img.aximo-video-circle {
 }
 
 .aximo-auto-slider-item h3 {
-	font-size: 35px;
+	font-size: 20px;
 	white-space: nowrap;
 	padding: 0 24px;
 	text-transform: uppercase;
@@ -7584,7 +7590,7 @@ img.aximo-video-circle {
 
 @media (max-width: 767px) {
 	.aximo-auto-slider-item h3 {
-		font-size: 28px;
+		font-size: 16px;
 	}
 }
 

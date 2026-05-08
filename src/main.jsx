@@ -22,6 +22,7 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import './assets/css/app.css';
 import './assets/css/main.css';
+import './assets/css/spacing-sync.css';
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

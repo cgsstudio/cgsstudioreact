@@ -1,6 +1,6 @@
 import Star3Img from "../../../assets/images/v1/star3.png";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
+import { Autoplay, FreeMode } from "swiper/modules";
 
 const sliderData = [
 	{
@@ -103,23 +103,16 @@ const sliderData = [
 
 const swiperSettings = {
 	centeredSlides: true,
-	speed: 6000,
+	speed: 5000,
 	autoplay: {
-		delay: 1,
+		delay: 0,
+		disableOnInteraction: false,
 	},
 	loop: true,
 	slidesPerView: "auto",
 	allowTouchMove: false,
-	modules: [Autoplay],
-	// slidesPerView: 1,
-	// breakpoints: {
-	// 	1200: {
-	// 		slidesPerView: 2,
-	// 	},
-	// 	1400: {
-	// 		slidesPerView: 2.5,
-	// 	},
-	// },
+	freeMode: true,
+	modules: [Autoplay, FreeMode],
 };
 
 function AutoSlider() {

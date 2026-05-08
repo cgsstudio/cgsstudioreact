@@ -21,7 +21,6 @@ import Team4Img from "../../assets/images/team/team4.png";
 import Logoslider from "../../components/home-one/auto-slider/Logoslider"
 import RightSlider from "../../components/home-one/auto-slider/RightSlider";
 import { Helmet } from "react-helmet";
-import TestimonialSlider from "../../components/home-one/testimonial/TestimonialSlider";
 // import ImageSection from "../../components/home-one/ImageSection";
 import Websites from "../../components/home-one/projects/Websites";
 import IndustriesHomeSection from "../../components/home-one/Industryweserve/IndustriesHomeSection";
@@ -160,16 +159,11 @@ function HomeOne() {
 				btnText="Get a Quote"
 				btnLink="/contact-us"
 				centered={false}
-
 			/>
-			{/* <ImageSection /> */}
-			{/* <Projects /> */}
 			<HowWeWork />
-
 			<StatsSection />
 			<WhyChooseUs />
-			<TestimonialSlider />
-			<MissionVision />
+			<Testimonial />
 			<AutoSlider />
 			{/* <Teams teams={teamsData} /> */}
 		</>

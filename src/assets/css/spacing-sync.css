@@ -1,0 +1,198 @@
+/* Standardizing Homepage Section Spacing, Backgrounds, Alignment & Typography */
+
+/* Global Font Family Update - Set Montserrat for entire homepage sections */
+.websites-section, .websites-section *, 
+.industry-section, .industry-section *, 
+.about-section, .about-section *, 
+.how-we-work-section, .how-we-work-section *, 
+.stats-section-wrapper, .stats-section-wrapper *, 
+.why-choose-us-section, .why-choose-us-section *, 
+.testimonials-section, .testimonials-section *, 
+.cta-section, .cta-section *, 
+.aximo-auto-slider-section, .aximo-auto-slider-section *, 
+.awards-section-wrapper, .awards-section-wrapper *, 
+.services-section, .services-section * {
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+/* Root backgrounds and standardized padding for all sections except Hero */
+.websites-section,
+.industry-section,
+.about-section,
+.how-we-work-section,
+.stats-section-wrapper,
+.why-choose-us-section,
+.testimonials-section,
+.cta-section,
+.aximo-auto-slider-section,
+.awards-section-wrapper,
+.services-section {
+  background-color: #050000 !important;
+  background-image: radial-gradient(rgba(255, 0, 0, 0.08) 1px, transparent 1px) !important;
+  background-size: 30px 30px !important;
+  position: relative !important;
+  overflow: hidden !important;
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
+
+/* Force Global Alignment to Center for all Section Headers */
+.portfolio-header,
+.industry-sub-title-wrapper,
+.industry-main-title,
+.process-header,
+.testimonials-header,
+.cta-label-pill,
+.cta-main-title,
+.cta-desc,
+.awards-title-wrapper,
+.services-header,
+.services-sub-title-wrapper,
+.services-main-title,
+.services-description {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  justify-content: center !important;
+}
+
+/* Ensure descriptions and sub-labels also center */
+.portfolio-description,
+.industry-desc,
+.process-description,
+.testimonials-desc,
+.cta-desc,
+.services-description {
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 800px !important;
+}
+
+/* Standardizing the 'Pill' Subtitle Design across all sections */
+.portfolio-label-pill,
+.industry-label-pill,
+.process-label-pill,
+.testimonials-label,
+.cta-label-pill,
+.awards-title-pill,
+.advantage-label,
+.services-sub-title-pill {
+  background-color: rgba(255, 0, 0, 0.15) !important;
+  border: 1px solid rgba(255, 0, 0, 0.3) !important;
+  border-radius: 30px !important;
+  padding: 8px 22px !important;
+  color: #ff0000 !important;
+  font-size: 13px !important;
+  font-weight: 700 !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 10px !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.15em !important;
+  margin-bottom: 25px !important;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+/* Dot inside pill */
+.portfolio-title-dot,
+.industry-title-dot,
+.awards-title-dot,
+.process-title-dot,
+.services-title-dot {
+  width: 8px !important;
+  height: 8px !important;
+  background-color: #FF0000 !important;
+  border-radius: 50% !important;
+  box-shadow: 0 0 10px #FF0000 !important;
+  display: inline-block !important;
+}
+
+/* Global White Smoke Typography Update */
+h1, h2, h3, h4, h5, h6, 
+.stat-number-card, 
+.stat-number-large, 
+.portfolio-card-title, 
+.industry-card-title,
+.advantage-item-title,
+.growth-sub-title,
+.testimonial-quote,
+.author-name-text,
+.cta-main-title,
+.process-main-title,
+.services-main-title,
+.step-title,
+.step-circle {
+  color: #fdfde1 !important; /* Warm White */
+}
+
+/* Global Subtle Glow Utility */
+.websites-section::after,
+.industry-section::after,
+.about-section::after,
+.how-we-work-section::after,
+.stats-section-wrapper::after,
+.why-choose-us-section::after,
+.testimonials-section::after,
+.cta-section::after,
+.awards-section-wrapper::after,
+.services-section::after {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: radial-gradient(circle, rgba(255, 0, 0, 0.05) 0%, transparent 70%);
+  bottom: -150px;
+  right: -150px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Responsive Scaling */
+/* At 1280px and smaller: set spacing to 30px */
+@media (max-width: 1280px) {
+  .websites-section, .industry-section, .about-section, .how-we-work-section, 
+  .stats-section-wrapper, .why-choose-us-section, .testimonials-section, 
+  .cta-section, .aximo-auto-slider-section, .awards-section-wrapper, .services-section {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+}
+
+/* At 991px and smaller: maintain 30px spacing */
+@media (max-width: 991px) {
+  .websites-section, .industry-section, .about-section, .how-we-work-section, 
+  .stats-section-wrapper, .why-choose-us-section, .testimonials-section, 
+  .cta-section, .aximo-auto-slider-section, .awards-section-wrapper, .services-section {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+  }
+}
+
+/* On mobile: reduce further */
+@media (max-width: 767px) {
+  .websites-section, .industry-section, .about-section, .how-we-work-section, 
+  .stats-section-wrapper, .why-choose-us-section, .testimonials-section, 
+  .cta-section, .aximo-auto-slider-section, .awards-section-wrapper, .services-section {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+  }
+}
+
+/* Mobile: 15px left/right padding for all sections */
+@media (max-width: 767px) {
+  .websites-section .container,
+  .industry-section .container,
+  .about-section .container,
+  .how-we-work-section .container,
+  .stats-section-wrapper .container,
+  .why-choose-us-section .container,
+  .testimonials-section .container,
+  .cta-section .container,
+  .awards-section-wrapper .container,
+  .services-section .container {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}

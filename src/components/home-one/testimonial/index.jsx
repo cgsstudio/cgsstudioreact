@@ -1,90 +1,94 @@
-import Star2Img from "../../../assets/images/v1/star2.png";
-import Thumb1Img from "../../../assets/images/v1/t_thumb1.png";
-import Thumb2Img from "../../../assets/images/v1/t_thumb2.png";
-import Thumb3Img from "../../../assets/images/v1/t_thumb3.png";
-import Thumb4Img from "../../../assets/images/v1/t_thumb4.png";
-import TestimonialSlider from "./TestimonialSlider";
+import React from "react";
+import "./Testimonials.css";
 
 const testimonialsData = [
-	{
-		id: crypto.randomUUID(),
-		rating: 5,
-		title: "Super customer service!",
-		description:
-			"Excellent from start to finish! Niraj is very knowledgeable. He was able to figure out exactly what I and my business needed from start to finish. Niraj built my webpage from scratch with all the plug-ins, add-ons etc. He then helped me maintain and promote my website. He's a one stop shop for all your digital needs. Recommend him highly!!",
-		author: "Philip Smith",
-		designation: "Founder@XYZ",
-		img: Thumb1Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		rating: 4,
-		title: "Exceptional creativity and vision",
-		description:
-			"I couldn't be happier with the results we got from working with CGS Team. The team was awesome and super easy to work with! They helped build our website and do our SEO. We have seen a significant increase in inquiries and enrolments. They provided regular updates and were always available to answer any questions we had. Thank you CGS Team for your exceptional work in helping our business grow! ",
-		author: "Matthew Misner",
-		designation: "Businessman",
-		img: Thumb2Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		rating: 5,
-		title: "Innovative and professional",
-		description:
-			"Absolutely fantastic to work with Niraj and his team. Not only do they actively listen to my needs, but they were able to put a solution together for me, and able to exceed my expectations. Seeing thier portfolio of clients they worked with in the past and seeing how they attentive and critical on all details allowed me to have full trust. They were also flexible with payment options which was important for me. 5 stars I would highly recommend!",
-		author: "Brody Shelton",
-		designation: "Milano Joe",
-		img: Thumb3Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		rating: 4,
-		title: "Transformed our brand",
-		description:
-			"Chameleo GFX Studio did an amazing job for me. They designed my logo, business cards, promotion coupon, and built a website for me. I had no idea what I wanted, I just told Niraj make it look professional and that's exactly what he did. I would definitely recommend CGS Team to anyone looking for quality and professional work. Nothing but the best! ",
-		author: "Brooke Fullerton",
-		designation: "Marketing Director",
-		img: Thumb4Img,
-	},
-	{
-		id: crypto.randomUUID(),
-		rating: 4,
-		title: "Transformed our brand",
-		description:
-			"CGS is a fanstastic company. They are reliable and offer outstanding quality. I really enjoy dealing with Niraj and would recommend them to anyone who is looking to step up their adverstising game and website design. ",
-		author: "Georgiana Anderson",
-		designation: "Marketing Director",
-		img: Thumb4Img,
-	},
+    {
+        id: 1,
+        author: "Rajesh Joshi",
+        role: "Owner, Joshi Realtors – Ahmedabad",
+        avatar: "RJ",
+        text: "Chameleo Tech built our website and within 3 months our inquiries tripled. The SEO team is exceptional – we rank #1 in Ahmedabad for our category now.",
+        rating: "★★★★★"
+    },
+    {
+        id: 2,
+        author: "Priya Shah",
+        role: "Founder, StyleKart – E-commerce",
+        avatar: "PS",
+        text: "The Meta Ads campaign brought us 40+ leads in the first week alone. The ROI has been unreal. Chameleo genuinely cares about your success.",
+        rating: "★★★★★"
+    },
+    {
+        id: 3,
+        author: "Arjun Mehta",
+        role: "CEO, TechFlow Solutions – Surat",
+        avatar: "AM",
+        text: "Their AI chatbot handles 70% of our customer queries automatically. We've reduced our support team workload and increased conversions simultaneously.",
+        rating: "★★★★★"
+    },
+    {
+        id: 4,
+        author: "Nisha Kapoor",
+        role: "Director, Arogya Clinic – Baroda",
+        avatar: "NK",
+        text: "Professional, responsive, and they actually deliver what they promise. Rare to find an agency that combines design quality with real marketing results.",
+        rating: "★★★★★"
+    },
+    {
+        id: 5,
+        author: "Varun Singh",
+        role: "Founder, Urban Threads – Mumbai",
+        avatar: "VS",
+        text: "Our Shopify store was underperforming before Chameleo. They redesigned it, ran Google Shopping Ads, and we hit 3x sales in under 60 days.",
+        rating: "★★★★★"
+    },
+    {
+        id: 6,
+        author: "Manish Rao",
+        role: "MD, Rao Manufacturers – Gujarat",
+        avatar: "MR",
+        text: "Finally an agency that speaks our language and understands local business needs. Everything is delivered on time, on budget, and on point.",
+        rating: "★★★★★"
+    }
 ];
 
 function Testimonial() {
-  return (
-    <div className="section">
-      <div className="container">
-        <div className="aximo-section-title center">
-          <h2>
-            What Clients Say Us
-            <span className="aximo-title-animation">
-              <span className="aximo-title-icon">
-                <img src={Star2Img} alt="Star2Img" />
-              </span>
-            </span>
-          </h2>
-        </div>
-        <div className="testimonial-swiper swiper-container">
-          <div className="swiper-wrapper">
-            {testimonialsData.map((testimonial) => (
-              <div className="swiper-slide" key={testimonial.id}>
-                <TestimonialSlider testimonial={testimonial} />
-              </div>
-            ))}
-          </div>
-          <div className="swiper-pagination"></div>
-        </div>
-      </div>
-    </div>
-  );
+    return (
+        <section className="testimonials-section">
+            <div className="container">
+                {/* Section Header */}
+                <div className="testimonials-header">
+                    <span className="testimonials-label">Client Stories</span>
+                    <h2 className="testimonials-title">
+                        Real Businesses. Real <span className="accent">Results.</span>
+                    </h2>
+                    <p className="testimonials-desc">
+                        Don't take our word for it. Here's what business owners across India are saying.
+                    </p>
+                </div>
+
+                {/* Testimonials Grid */}
+                <div className="testimonials-grid">
+                    {testimonialsData.map((testimonial) => (
+                        <div key={testimonial.id} className="testimonial-card-premium">
+                            <div className="stars-rating">{testimonial.rating}</div>
+                            <p className="testimonial-quote">"{testimonial.text}"</p>
+                            
+                            <div className="testimonial-author-box">
+                                <div className="author-avatar-circle">
+                                    {testimonial.avatar}
+                                </div>
+                                <div className="author-info-text">
+                                    <span className="author-name-text">{testimonial.author}</span>
+                                    <span className="author-role-text">{testimonial.role}</span>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+                </div>
+            </div>
+        </section>
+    );
 }
 
 export default Testimonial;

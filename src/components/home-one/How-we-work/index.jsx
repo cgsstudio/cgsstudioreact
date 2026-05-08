@@ -1,60 +1,63 @@
 import React from 'react';
-import { FiTarget, FiCode, FiCheckCircle, FiEdit2 } from 'react-icons/fi';
 import './HowWeWork.css';
 
-const HowWeWork = () => {
-    const workSteps = [
-        {
-            id: 1,
-            title: "Discover & Understand",
-            icon: FiTarget,
-            description: "We start by understanding your business, goals, and target audience. This ensures every design decision is aligned with your brand vision. "
-        },
-        {
-            id: 2,
-            title: "Strategy & Planning",
-            icon: FiCode,
-            description: "We define the brand strategy, structure, and creative direction. A clear roadmap is created to deliver measurable business results."
-        },
-        {
-            id: 3,
-            title: "Design & Development",
-            icon: FiCheckCircle,
-            description: "We design and build high-quality, scalable brand and web solutions. Every element is crafted for performance, usability, and consistency."
-        },
-        {
-            id: 4,
-            title: "Launch & Growth",
-            icon: FiEdit2,
-            description: "We launch, test, and optimize for real-world performance. Our focus is long-term growth, engagement, and conversions."
-        }
-    ];
+const workSteps = [
+    {
+        id: "01",
+        title: "Discovery Call",
+        description: "We understand your business, goals, and challenges in a free 30-minute call."
+    },
+    {
+        id: "02",
+        title: "Custom Strategy",
+        description: "We build a tailored growth plan specific to your industry and audience."
+    },
+    {
+        id: "03",
+        title: "Execution",
+        description: "Our team gets to work. Builds, launches, optimizes – with regular updates."
+    },
+    {
+        id: "04",
+        title: "Scale & Grow",
+        description: "We measure results, double down on what works, and scale your success."
+    }
+];
 
+const HowWeWork = () => {
     return (
-        <div className="how-we-work-section section py-5">
+        <section className="how-we-work-section" id="process">
             <div className="container">
-                {/* Section Title */}
-                <div className="aximo-section-title center py-2">
-                    <div className="">
-                        <span className="tag-label text-whitesmoke">Clear Steps for Better Results</span>
-                    </div>
-                    <h2 className='mb-2 text-whitesmoke'>Our Development Process</h2>
+                {/* Section Header */}
+                <div className="process-header">
+                    <span className="process-label-pill">How We Work</span>
+                    <h2 className="process-main-title">
+                        Your Journey to <span className="accent">Growth</span> Starts Here
+                    </h2>
+                    <p className="process-description">
+                        A simple, proven process that gets you from idea to revenue as fast as possible.
+                    </p>
                 </div>
 
-                {/* Work Steps Grid */}
-                <div className="work-steps-grid">
-                    {workSteps.map((step) => (
-                        <div key={step.id} className="work-step-card">
-                            <div className="step-icon">
-                                <step.icon className="icon-component" />
+                {/* Timeline and Grid */}
+                <div className="process-container">
+                    <div className="process-line"></div>
+                    <div className="process-grid">
+                        {workSteps.map((step) => (
+                            <div key={step.id} className="process-step-item">
+                                <div className="step-circle">
+                                    {step.id}
+                                </div>
+                                <div className="step-content">
+                                    <h4 className="step-title">{step.title}</h4>
+                                    <p className="step-desc">{step.description}</p>
+                                </div>
                             </div>
-                            <h4 className="step-title">{step.title}</h4>
-                            <p className="step-description">{step.description}</p>
-                        </div>
-                    ))}
+                        ))}
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

@@ -1,0 +1,190 @@
+.portfolio-section {
+  padding: 50px 0;
+  background-color: #050000;
+  position: relative;
+  overflow: hidden;
+  /* Sync background with Awards section */
+  background-image: radial-gradient(rgba(255, 0, 0, 0.08) 1px, transparent 1px);
+  background-size: 30px 30px;
+}
+
+.portfolio-header {
+  margin-bottom: 45px;
+  position: relative;
+  z-index: 2;
+}
+
+.portfolio-label-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.portfolio-label-pill {
+  background-color: rgba(255, 0, 0, 0.2);
+  border: 1px solid rgba(255, 0, 0, 0.4);
+  border-radius: 30px;
+  padding: 8px 20px;
+  color: #fdfde1 !important;
+  font-size: 14px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.portfolio-title-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #FF0000;
+  border-radius: 50%;
+  display: inline-block;
+  box-shadow: 0 0 10px #FF0000;
+}
+
+.portfolio-main-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: 800;
+  color: #fdfde1;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.portfolio-main-title .accent {
+  background: linear-gradient(90deg, #ff0000, #ff6b6b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.portfolio-description {
+  color: #a0a0a0;
+  max-width: 700px;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  position: relative;
+  z-index: 2;
+}
+
+.portfolio-card {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 24px;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.portfolio-card:hover {
+  background: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 0, 0, 0.3);
+  transform: translateY(-10px);
+}
+
+.portfolio-img-wrapper {
+  height: 240px;
+  overflow: hidden;
+  position: relative;
+}
+
+.portfolio-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.portfolio-card:hover .portfolio-img-wrapper img {
+  transform: scale(1.1);
+}
+
+.portfolio-info {
+  padding: 30px;
+  flex-grow: 1;
+}
+
+.portfolio-tag {
+  display: inline-block;
+  color: #ff0000;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 12px;
+}
+
+.portfolio-card-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #fdfde1;
+  margin-bottom: 10px;
+  line-height: 1.3;
+}
+
+.portfolio-stat {
+  font-size: 14px;
+  color: #a0a0a0;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.portfolio-footer {
+  text-align: center;
+  margin-top: 40px;
+  position: relative;
+  z-index: 2;
+}
+
+.btn-all-projects {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #fdfde1;
+  padding: 12px 30px;
+  border-radius: 12px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+}
+
+.btn-all-projects:hover {
+  background: #ff0000;
+  border-color: #ff0000;
+  color: #fdfde1;
+  transform: translateY(-2px);
+}
+
+@media (max-width: 991px) {
+  .portfolio-main-title {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+  .portfolio-main-title {
+    font-size: 32px;
+  }
+  .portfolio-card {
+    max-width: 100%;
+  }
+}
