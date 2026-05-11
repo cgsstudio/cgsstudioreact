@@ -1,6 +1,6 @@
 .portfolio-section {
   padding: 50px 0;
-  background-color: rgba(10, 10, 14, 0.96) !important;
+  background-color: #0c0c0cf7 !important;
   background-image: radial-gradient(circle at top left, rgba(255, 0, 0, 0.06) 0%, transparent 38%) !important;
   position: relative;
   overflow: hidden;
@@ -180,9 +180,11 @@
   .portfolio-grid {
     grid-template-columns: 1fr;
   }
+
   .portfolio-main-title {
     font-size: 32px;
   }
+
   .portfolio-card {
     max-width: 100%;
   }

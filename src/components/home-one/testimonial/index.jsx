@@ -6,7 +6,7 @@ const testimonialsData = [
         id: 1,
         author: "Hocco Ice Cream",
         role: "Owner, Premium Dessert Brand",
-        avatar: <img src="src\assets\images\TestimonialSlider\HOCCO.webp" alt="Hocco Ice Cream" className="author-avatar-image" />,
+        avatar: <img src="./src/assets/images/TestimonialSlider/HOCCO.webp" alt="Hocco Ice Cream" className="author-avatar-image" />,
         text: "Outstanding Brand Design & Quick Turnaround. Chameleo GFX Studio delivered smart, creative brand design with a strong understanding of our brand vision. The team was highly responsive, proactive, and efficient throughout the project. Revisions were handled quickly without compromising on quality. We truly appreciated their professionalism and commitment to timely delivery.",
         rating: "★★★★★",
         fullText: "Chameleo GFX Studio delivered smart, creative brand design with a strong understanding of our premium dessert brand vision. The new branding captures the essence of Hocco Ice Cream's heritage while positioning it for modern market expansion. From logo redesign to complete brand guidelines, every detail was executed flawlessly, resulting in increased brand recognition and customer engagement. The team was highly responsive, proactive, and efficient throughout the project. Revisions were handled quickly without compromising on quality. We truly appreciated their professionalism and commitment to timely delivery."
@@ -15,7 +15,7 @@ const testimonialsData = [
         id: 2,
         author: "Jagatjit Industries",
         role: "Legacy Liquor Brand Transformation",
-        avatar: <img src="src/assets/images/TestimonialSlider/jagatjit_logo.png" alt="Jagatjit Industries" className="author-avatar-image" />,
+        avatar: <img src="./src/assets/images/TestimonialSlider/jagatjit_logo.png" alt="Jagatjit Industries" className="author-avatar-image" />,
         text: "Exceptional Website for Jagatjit Industries. The design is visually captivating with elegant aesthetics and a seamless user experience, while technical execution is flawless—fast, mobile-responsive, and fully industry compliant. Since launch, we've seen remarkable increases in engagement and business inquiries from distributors and partners. Highly recommend Chameleo GFX Studio for premium website development that delivers exceptional results!",
         rating: "★★★★★"
     },
@@ -23,7 +23,7 @@ const testimonialsData = [
         id: 3,
         author: "Cybervantage",
         role: "AI Security Leader",
-        avatar: <img src="src/assets/images/TestimonialSlider/Cybervantage.webp" alt="Cybervantage" className="author-avatar-image" />,
+        avatar: <img src="./src/assets/images/TestimonialSlider/Cybervantage.webp" alt="Cybervantage" className="author-avatar-image" />,
         text: "Professional and fast delivery. They built our cybersecurity website in record time without compromising quality. The site looks incredible and performs even better. The team understood our requirements perfectly and delivered exactly what we envisioned. Communication was excellent throughout the project, and they were always available to answer questions. The attention to detail is remarkable, from smooth animations to security features. Great team to work with, and we'll definitely use them again!",
         rating: "★★★★★"
     },
@@ -31,7 +31,7 @@ const testimonialsData = [
         id: 4,
         author: "Mr. Sprinkle",
         role: "Premium Dessert Brand",
-        avatar: <img src="src/assets/images/TestimonialSlider/Mr. Sprinkle.webp" alt="Mr. Sprinkle" className="author-avatar-image" />,
+        avatar: <img src="./src/assets/images/TestimonialSlider/Mr. Sprinkle.webp" alt="Mr. Sprinkle" className="author-avatar-image" />,
         text: "From concept to reality, exceptional work! We came to Chameleo GFX Studio with just an idea for Mr. Sprinkle Spices, and they brought it to life beautifully. The logo design process was collaborative; they presented multiple concepts that reflected our spice heritage and refined it until it was perfect. The website they built is fast and professional and includes an e-commerce system that makes online ordering seamless for our customers. Their SEO strategy is working wonders; we're getting daily orders from people finding us on Google. Our brand visibility has increased dramatically in the competitive spices market. Best investment we made for Mr. Sprinkle!",
         rating: "★★★★★"
     },
@@ -85,29 +85,29 @@ function Testimonial() {
                     {testimonialsData.map((testimonial) => {
                         const shouldTruncate = needsTruncation(testimonial.text);
                         const isExpanded = expandedId === testimonial.id;
-                        
+
                         // Debug: log which testimonials need truncation
                         console.log(`Testimonial ${testimonial.id}: ${testimonial.text.length} chars, needs truncation: ${shouldTruncate}`);
-                        
+
                         return (
                             <div key={testimonial.id} className="testimonial-card-premium">
                                 <div className="stars-rating">{testimonial.rating}</div>
-                                
+
                                 <div className="testimonial-content-wrapper">
                                     <p className={`testimonial-quote ${shouldTruncate && !isExpanded ? 'truncated' : ''}`}>
                                         "{isExpanded && testimonial.fullText ? testimonial.fullText : testimonial.text}"
                                     </p>
-                                    
+
                                     {shouldTruncate && (
-                                        <button 
-                                            className="read-more-toggle-btn" 
+                                        <button
+                                            className="read-more-toggle-btn"
                                             onClick={() => toggleExpanded(testimonial.id)}
                                         >
                                             {isExpanded ? 'Read Less' : 'Read More'}
                                         </button>
                                     )}
                                 </div>
-                                
+
                                 <div className="testimonial-author-box">
                                     <div className="author-avatar-circle">
                                         {testimonial.avatar}

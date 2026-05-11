@@ -51,14 +51,14 @@
 
 /* Ensure why-choose-us-section has same background as other sections */
 .why-choose-us-section {
-  background-color: rgba(10, 10, 14, 0.96) !important;
-    background-image: radial-gradient(circle at top left, rgba(255, 0, 0, 0.06) 0%, transparent 38%) !important;
-    background-size: 30px 30px !important;
+  background-color: #0c0c0cf7 !important;
+  background-image: radial-gradient(circle at top left, rgba(255, 0, 0, 0.06) 0%, transparent 38%) !important;
+  background-size: 30px 30px !important;
 }
 
 /* Ensure how-we-work-section has same background as other sections */
 .how-we-work-section {
-  background-color: rgba(10, 10, 14, 0.96) !important;
+  background-color: #0c0c0cf7 !important;
   background-image: radial-gradient(circle at top left, rgba(255, 0, 0, 0.06) 0%, transparent 38%) !important;
 }
 
@@ -75,25 +75,25 @@
 
 /* Alternate background accents for key homepage sections */
 .about-section {
-  background-color: rgba(10, 10, 14, 0.96) !important;
+  background-color: #0c0c0cf7 !important;
   background-image: radial-gradient(circle at top left, rgba(255, 0, 0, 0.06) 0%, transparent 38%) !important;
 }
 
 .services-section {
-  background-color: rgba(6, 8, 18, 0.97) !important;
+  background-color: #0c0c0cf7 !important;
   background-image: radial-gradient(circle at top right, rgba(255, 0, 0, 0.05) 0%, transparent 35%) !important;
 }
 
 
 .testimonials-section {
- background-color: #050000 !important;
-    background-image: radial-gradient(rgba(255, 0, 0, 0.08) 1px, transparent 1px) !important;
-    background-size: 30px 30px !important;
+  background-color: #050000 !important;
+  background-image: radial-gradient(rgba(255, 0, 0, 0.08) 1px, transparent 1px) !important;
+  background-size: 30px 30px !important;
 }
 
 .aximo-auto-slider-section {
- background-color: rgba(10, 10, 14, 0.96) !important;
-    background-image: radial-gradient(circle at top left, rgba(255, 0, 0, 0.06) 0%, transparent 38%) !important;
+  background-color: #0c0c0cf7 !important;
+  background-image: radial-gradient(circle at top left, rgba(255, 0, 0, 0.06) 0%, transparent 38%) !important;
 }
 
 /* Force Global Alignment to Center for all Section Headers */
