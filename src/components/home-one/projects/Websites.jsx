@@ -73,7 +73,7 @@ const PortfolioSection = () => {
               Our Work
             </span>
           </div>
-          <h2 className="portfolio-main-title">
+          <h2 className="portfolio-main-title homepage-h2">
             Results We've <span className="accent">Delivered</span>
           </h2>
           <p className="portfolio-description">
@@ -97,7 +97,7 @@ const PortfolioSection = () => {
         </div>
 
         <div className="portfolio-footer">
-          <button className="btn-all-projects" onClick={() => window.location.href = '/case-studies'}>
+          <button className="btn-all-projects" onClick={() => window.location.href = '/contact-us'}>
             View All Projects →
           </button>
         </div>

@@ -11,7 +11,7 @@ function WhyChooseUs() {
                     <div className="col-lg-6">
                         <div className="advantage-content">
                             <span className="advantage-label">Our Advantage</span>
-                            <h2 className="advantage-title">Why Businesses Choose Chameleo GFX Studio</h2>
+                            <h2 className="advantage-title homepage-h2">Why Businesses Choose Chameleo GFX Studio</h2>
                             
                             <div className="advantage-list">
                                 <div className="advantage-item">
@@ -60,7 +60,7 @@ function WhyChooseUs() {
                     {/* Right Column: Growth System Card */}
                     <div className="col-lg-6">
                         <div className="growth-card-main">
-                            <h3 className="growth-card-title">We Don't Just Design — We Build Growth Systems</h3>
+                            <h3 className="growth-card-title">We Don't Just Design We Build Growth Systems</h3>
                             
                             <div className="growth-sub-grid">
                                 <div className="growth-sub-card">

@@ -16,8 +16,16 @@
   border-radius: 20px;
 }
 
-.logo-slider-container .swiper-wrapper {
+/* First slider (Logoslider.jsx) */
+.brandlogo-section .logo-slider-container .swiper-wrapper {
   /* keep the marquee-style linear scroll only for the logo slider */
   transition-timing-function: linear !important;
-  padding: 20px 0;
+  padding: 10px;
+}
+
+/* Second slider (RightSlider.jsx) */
+.brandlogo-section ~ .brandlogo-section .logo-slider-container .swiper-wrapper {
+  /* keep the marquee-style linear scroll only for the logo slider */
+  transition-timing-function: linear !important;
+  padding: 10px;
 }

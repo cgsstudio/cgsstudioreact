@@ -73,11 +73,10 @@ function Projects() {
 		<div className="section dark-bg aximo-section-padding">
 			<div className="container">
 				<div className="aximo-section-title center light">
-					<h2>
-					How we work
-						<span className="aximo-title-animation">
+                    <h2 className="homepage-h2">
+                        How we work
 						 
-							<span className="aximo-title-icon">
+							<span className="aximo-title-animation">`n                            <span className="aximo-title-icon">
 								<img className="shape-color" src={Star2Img} alt="Star2Img" />
 							</span>
 						</span>
@@ -98,3 +97,4 @@ function Projects() {
 }
 
 export default Projects;
+

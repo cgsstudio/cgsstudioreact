@@ -523,6 +523,7 @@ h2,
 	h2,
 	.h2 {
 		font-size: 48px;
+		Color:black !IMPORTANT;
 	}
 }
 
@@ -1656,6 +1657,11 @@ blockquote {
 	.rt-spacer-lg-80 {
 		height: 80px;
 	}
+
+/* Homepage heading utility color */
+.home-one-page .homepage-h2 {
+	color: var(--white-smoke) !important;
+}
 
 	.rt-mb-lg-90 {
 		margin-bottom: 90px;
@@ -3691,6 +3697,13 @@ button#aximo-submit-btn2:hover .aximo-label-up {
 	text-align: center;
 	padding: 140px 0 50px;
 	background-color: var(--dark-bg);
+}
+
+/* Desktop view - left align for service pages with images */
+@media (min-width: 992px) {
+	.aximo-breadcrumb .col-lg-7 {
+		text-align: left;
+	}
 }
 
 @media (max-width: 991px) {
@@ -12858,6 +12871,27 @@ button#aximo-notified-btn {
 	text-align: left;
 }
 
+/* Mobile breadcrumb centering */
+@media (max-width: 767px) {
+	.D-flex .breadcrumbs {
+		text-align: center;
+		display: flex;
+		justify-content: center;
+	}
+
+	.breadcrumbs span {
+		flex-wrap: wrap;
+		display: flex;
+		justify-content: center;
+		gap: 5px;
+	}
+
+	.breadcrumbs span .bread_crumb_link {
+		font-size: 16px;
+		line-height: 24px;
+	}
+}
+
 .service-img {
 	width: 100%;
 	height: auto;
@@ -12893,4 +12927,14 @@ button#aximo-notified-btn {
 	.custom-list-new li {
 		text-align: center;
 	}
+}
+h2 {
+	color: #000 !important;
+}
+
+.about-title {
+	color: #000 !important;
+}
+.homepage-h2 {
+	color:#fdfde1!important;
 }

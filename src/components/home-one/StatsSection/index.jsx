@@ -6,7 +6,7 @@ import "./StatsSection.css";
 const statsData = [
     {
         id: 1,
-        number: 7,
+        number: 6,
         suffix: "+",
         label: "Years Experience",
         icon: FiAward

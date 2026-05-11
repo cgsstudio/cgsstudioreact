@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./app-web-services.css";
-import { 
-  FaCode, 
-  FaChartBar, 
-  FaMousePointer, 
-  FaUsers, 
-  FaBolt, 
-  FaPaintBrush 
+import {
+  FaCode,
+  FaChartBar,
+  FaMousePointer,
+  FaUsers,
+  FaBolt,
+  FaPaintBrush
 } from "react-icons/fa";
 
 const servicesData = [
@@ -71,7 +71,7 @@ function AppWebServices() {
   return (
     <section className="services-section">
       <div className="glow-effect glow-bottom-right"></div>
-      
+
       <div className="container">
         <div className="services-header">
           <div className="services-sub-title-wrapper">
@@ -80,12 +80,12 @@ function AppWebServices() {
               What we do
             </span>
           </div>
-          <h2 className="services-main-title">
+          <h2 className="services-main-title homepage-h2">
             Cutting-Edge Solutions for <br />
-            <span className="red-text-gradient">Scalable Business Growth.</span>
+            <span className="red-text-gradient">Scalable Development</span>
           </h2>
           <p className="services-description">
-            We don't just build websites; we create digital engines. As a premier <strong>Web Development Company in India</strong>, our services are engineered to dominate search results and maximize conversions.
+            We don't just build websites; we create digital engines. As a premier <strong>Digital Marketing & Web Development Agency in Ahmedabad, India</strong>, our services are engineered to dominate search results and maximize conversions.
           </p>
         </div>
 

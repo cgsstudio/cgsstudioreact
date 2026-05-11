@@ -6,7 +6,7 @@ function Story() {
 		<div className="section bg-white-smoke pt-5 pt-md-0">
 			<div className="container">
 				<div className="aximo-section-title center title-description ">
-					<h2>
+					<h2 className="about-title">
 						<span className="aximo-title-animation">
 							We are your trusted
 							<span className="aximo-title-icon about-star-icon">

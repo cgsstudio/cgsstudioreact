@@ -27,7 +27,8 @@ function ContactInfo() {
 							<div className="aximo-contact-info-data">
 								<span>Call us</span>
 								<p>
-									<a href="tel:+919737472636">+91-973-747-2636</a>
+									<a href="tel:+918460384838" className="contact-value">+91-846-038-4838</a><br></br>
+									<a href="tel:+919737472636" className="contact-value">+91-973-747-2636</a>
 								</p>
 
 							</div>

@@ -15,7 +15,7 @@ const workSteps = [
     {
         id: "03",
         title: "Execution",
-        description: "Our team gets to work. Builds, launches, optimizes – with regular updates."
+        description: "Our team gets to work. Builds, launches, optimizes with regular updates."
     },
     {
         id: "04",
@@ -31,7 +31,7 @@ const HowWeWork = () => {
                 {/* Section Header */}
                 <div className="process-header">
                     <span className="process-label-pill">How We Work</span>
-                    <h2 className="process-main-title">
+                    <h2 className="process-main-title homepage-h2">
                         Your Journey to <span className="accent">Growth</span> Starts Here
                     </h2>
                     <p className="process-description">

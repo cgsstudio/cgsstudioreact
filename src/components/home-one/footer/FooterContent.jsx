@@ -46,7 +46,8 @@ function FooterContent() {
 					<ul>
 						<li>Give us a call:</li>
 						<li>
-							<a href="tel:+919737472636">+91-973-747-2636</a>
+							<a href="tel:+918460384838" className="contact-value">+91-846-038-4838</a>
+							<a href="tel:+919737472636" className="contact-value">+91-973-747-2636</a>
 						</li>
 
 					</ul>

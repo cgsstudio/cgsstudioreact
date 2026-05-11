@@ -4,8 +4,6 @@
   position: relative;
   overflow: hidden;
   /* Sync background with other sections */
-  background-image: radial-gradient(rgba(255, 0, 0, 0.08) 1px, transparent 1px);
-  background-size: 30px 30px;
 }
 
 .about-img-container {

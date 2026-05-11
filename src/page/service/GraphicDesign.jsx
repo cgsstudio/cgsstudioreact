@@ -2,6 +2,7 @@ import { Helmet } from "react-helmet-async";
 import ServiceHeroBanner from "../../components/common/ServiceHeroBanner";
 import GraphicDesignService from "../../components/service/GraphicDesignService";
 import ServiceAccordion from "../../components/common/ServiceAccordion";
+import groupImg from "../../assets/images/v1/Group 113.webp";
 
 function GraphicDesign() {
   // FAQs Data
@@ -81,6 +82,7 @@ function GraphicDesign() {
         title="Graphic Design"
         breadcrumbTitle="Graphic Design"
         subtitle="Graphic design is the creative process of combining text, images, shapes, and colors to convey ideas in a clear and visually appealing manner."
+        image={groupImg}
       />
       <GraphicDesignService />
 

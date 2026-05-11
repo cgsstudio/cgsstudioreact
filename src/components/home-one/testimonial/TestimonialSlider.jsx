@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './TestimonialSlider.css';
 import HoccoLogo from "../../../assets/images/TestimonialSlider/HOCCO.webp";
 import JagatjitLogo from "../../../assets/images/TestimonialSlider/Jagatjit.webp";
@@ -6,6 +6,39 @@ import CybervantageLogo from "../../../assets/images/TestimonialSlider/Cybervant
 import IslandSpaceLogo from "../../../assets/images/TestimonialSlider/IslandSPACE.webp";
 import Sprinkle from "../../../assets/images/TestimonialSlider/Mr. Sprinkle.webp";
 import Addy_Organics from "../../../assets/images/TestimonialSlider/Addy Organics.webp";
+
+const ReviewText = ({ text, id, expandedCards, toggleReadMore }) => {
+  const textRef = useRef(null);
+  const [showButton, setShowButton] = useState(false);
+  const isExpanded = expandedCards[id];
+
+  useEffect(() => {
+    if (textRef.current) {
+      if (textRef.current.scrollHeight > textRef.current.clientHeight) {
+        setShowButton(true);
+      }
+    }
+  }, [text]);
+
+  return (
+    <>
+      <p 
+        ref={textRef}
+        className={`review-text text-whitesmoke ${!isExpanded ? 'line-clamp-5' : ''}`}
+      >
+        {text}
+      </p>
+      {showButton && (
+        <button
+          className="read-more-btn"
+          onClick={() => toggleReadMore(id)}
+        >
+          {isExpanded ? 'Show Less' : 'Read More'}
+        </button>
+      )}
+    </>
+  );
+};
 
 const TestimonialSlider = () => {
   const testimonials = [
@@ -162,7 +195,7 @@ const TestimonialSlider = () => {
         {/* Header */}
         <div className="text-center ">
           <div className="aximo-section-title ">
-            <h2 className='text-whitesmoke'>Testimonials</h2>
+            <h2 className='text-whitesmoke homepage-h2'>Testimonials</h2>
           </div>
         </div>
 
@@ -226,17 +259,12 @@ const TestimonialSlider = () => {
                   <p className="review-title text-whitesmoke mb-2 ">{testimonial.title}</p>
 
                   {/* Review Text */}
-                  <p className="review-text text-whitesmoke">
-                    {expandedCards[testimonial.id] ? testimonial.fullText : testimonial.text}
-                  </p>
-
-                  {/* Read More Link */}
-                  <button
-                    className="read-more-btn"
-                    onClick={() => toggleReadMore(testimonial.id)}
-                  >
-                    {expandedCards[testimonial.id] ? 'Show Less' : 'Read More'}
-                  </button>
+                  <ReviewText 
+                    text={testimonial.fullText} 
+                    id={testimonial.id} 
+                    expandedCards={expandedCards} 
+                    toggleReadMore={toggleReadMore} 
+                  />
                 </div>
               </div>
             ))}

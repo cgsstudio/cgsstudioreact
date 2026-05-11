@@ -29,7 +29,7 @@ const IndustriesHomeSection = () => {
                                 Shaping the Digital Future
                             </span>
                         </div>
-                        <h2 className="industry-main-title" style={{ maxWidth: '1000px' }}>
+                        <h2 className="industry-main-title homepage-h2" style={{ maxWidth: '1000px' }}>
                             Advanced Development & <span className="red-text-gradient">Intelligent Coding</span> for Global Brands
                         </h2>
                     </div>

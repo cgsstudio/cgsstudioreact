@@ -60,11 +60,22 @@
 
 .services-main-title {
   font-family: 'Montserrat', sans-serif;
-  font-size: 56px;
+  font-size: 46px;
   font-weight: 800;
   color: #fdfde1;
   line-height: 1.1;
   margin-bottom: 25px;
+  text-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+  animation: titleGlow 3s ease-in-out infinite alternate;
+}
+
+@keyframes titleGlow {
+  0%, 100% {
+    text-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+  }
+  50% {
+    text-shadow: 0 0 30px rgba(255, 0, 0, 0.5);
+  }
 }
 
 .red-text-gradient {
@@ -102,9 +113,10 @@
 }
 
 .glass-card:hover {
-  background: rgba(255, 255, 255, 0.05);
-  border-color: rgba(255, 0, 0, 0.3);
-  transform: translateY(-10px);
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 0, 0, 0.4);
+  transform: translateY(-15px) scale(1.02);
+  box-shadow: 0 20px 40px rgba(255, 0, 0, 0.2);
 }
 
 .card-icon-box {
@@ -180,6 +192,13 @@
 .glass-card:hover .card-btn {
   border-color: rgba(255, 0, 0, 0.5);
   background: rgba(255, 0, 0, 0.05);
+}
+
+.card-btn:hover,
+.card-btn:focus {
+  color: #fdfde1 !important;
+  border-color: #ff0000 !important;
+  background: rgb(255, 0, 0) !important;
 }
 
 @media (max-width: 991px) {

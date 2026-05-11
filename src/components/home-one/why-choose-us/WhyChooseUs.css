@@ -150,4 +150,7 @@
   .growth-sub-grid {
     grid-template-columns: 1fr;
   }
+  .growth-card-title {
+    text-align: center;
+  }
 }

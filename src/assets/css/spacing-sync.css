@@ -1,17 +1,30 @@
 /* Standardizing Homepage Section Spacing, Backgrounds, Alignment & Typography */
 
 /* Global Font Family Update - Set Montserrat for entire homepage sections */
-.websites-section, .websites-section *, 
-.industry-section, .industry-section *, 
-.about-section, .about-section *, 
-.how-we-work-section, .how-we-work-section *, 
-.stats-section-wrapper, .stats-section-wrapper *, 
-.why-choose-us-section, .why-choose-us-section *, 
-.testimonials-section, .testimonials-section *, 
-.cta-section, .cta-section *, 
-.aximo-auto-slider-section, .aximo-auto-slider-section *, 
-.awards-section-wrapper, .awards-section-wrapper *, 
-.services-section, .services-section * {
+.websites-section,
+.websites-section *,
+.industry-section,
+.industry-section *,
+.about-section,
+.about-section *,
+.how-we-work-section,
+.how-we-work-section *,
+.stats-section-wrapper,
+.stats-section-wrapper *,
+.why-choose-us-section,
+.why-choose-us-section *,
+.testimonials-section,
+.testimonials-section *,
+.cta-section,
+.cta-section *,
+.aximo-auto-slider-section,
+.aximo-auto-slider-section *,
+.awards-section-wrapper,
+.awards-section-wrapper *,
+.services-section,
+.services-section *,
+.brandlogo-section,
+.brandlogo-section * {
   font-family: 'Montserrat', sans-serif !important;
 }
 
@@ -28,12 +41,59 @@
 .awards-section-wrapper,
 .services-section {
   background-color: #050000 !important;
-  background-image: radial-gradient(rgba(255, 0, 0, 0.08) 1px, transparent 1px) !important;
+  /* background-image: radial-gradient(rgba(255, 0, 0, 0.08) 1px, transparent 1px) !important; */
   background-size: 30px 30px !important;
   position: relative !important;
   overflow: hidden !important;
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+
+/* Ensure why-choose-us-section has same background as other sections */
+.why-choose-us-section {
+  background-color: rgba(10, 10, 14, 0.96) !important;
+    background-image: radial-gradient(circle at top left, rgba(255, 0, 0, 0.06) 0%, transparent 38%) !important;
+    background-size: 30px 30px !important;
+}
+
+/* Ensure how-we-work-section has same background as other sections */
+.how-we-work-section {
+  background-color: rgba(10, 10, 14, 0.96) !important;
+  background-image: radial-gradient(circle at top left, rgba(255, 0, 0, 0.06) 0%, transparent 38%) !important;
+}
+
+.brandlogo-section {
+  background-color: rgba(0, 0, 0, 0.95) !important;
   padding-top: 40px !important;
-  padding-bottom: 40px !important;
+  padding-bottom: 20px !important;
+}
+
+.brandlogo-section-left {
+  background-color: rgba(0, 0, 0, 0.95) !important;
+  padding-bottom: 60px !important;
+}
+
+/* Alternate background accents for key homepage sections */
+.about-section {
+  background-color: rgba(10, 10, 14, 0.96) !important;
+  background-image: radial-gradient(circle at top left, rgba(255, 0, 0, 0.06) 0%, transparent 38%) !important;
+}
+
+.services-section {
+  background-color: rgba(6, 8, 18, 0.97) !important;
+  background-image: radial-gradient(circle at top right, rgba(255, 0, 0, 0.05) 0%, transparent 35%) !important;
+}
+
+
+.testimonials-section {
+ background-color: #050000 !important;
+    background-image: radial-gradient(rgba(255, 0, 0, 0.08) 1px, transparent 1px) !important;
+    background-size: 30px 30px !important;
+}
+
+.aximo-auto-slider-section {
+ background-color: rgba(10, 10, 14, 0.96) !important;
+    background-image: radial-gradient(circle at top left, rgba(255, 0, 0, 0.06) 0%, transparent 38%) !important;
 }
 
 /* Force Global Alignment to Center for all Section Headers */
@@ -108,24 +168,6 @@
   display: inline-block !important;
 }
 
-/* Global White Smoke Typography Update */
-h1, h2, h3, h4, h5, h6, 
-.stat-number-card, 
-.stat-number-large, 
-.portfolio-card-title, 
-.industry-card-title,
-.advantage-item-title,
-.growth-sub-title,
-.testimonial-quote,
-.author-name-text,
-.cta-main-title,
-.process-main-title,
-.services-main-title,
-.step-title,
-.step-circle {
-  color: #fdfde1 !important; /* Warm White */
-}
-
 /* Global Subtle Glow Utility */
 .websites-section::after,
 .industry-section::after,
@@ -150,38 +192,69 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /* Responsive Scaling */
-/* At 1280px and smaller: set spacing to 30px */
+/* At 1280px and smaller: set spacing to 60px */
 @media (max-width: 1280px) {
-  .websites-section, .industry-section, .about-section, .how-we-work-section, 
-  .stats-section-wrapper, .why-choose-us-section, .testimonials-section, 
-  .cta-section, .aximo-auto-slider-section, .awards-section-wrapper, .services-section {
-    padding-top: 30px !important;
-    padding-bottom: 30px !important;
+
+  .websites-section,
+  .industry-section,
+  .about-section,
+  .how-we-work-section,
+  .stats-section-wrapper,
+  .why-choose-us-section,
+  .testimonials-section,
+  .cta-section,
+  .aximo-auto-slider-section,
+  .awards-section-wrapper,
+  .services-section,
+  .brandlogo-section {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
   }
 }
 
-/* At 991px and smaller: maintain 30px spacing */
+/* At 991px and smaller: maintain spacious layout */
 @media (max-width: 991px) {
-  .websites-section, .industry-section, .about-section, .how-we-work-section, 
-  .stats-section-wrapper, .why-choose-us-section, .testimonials-section, 
-  .cta-section, .aximo-auto-slider-section, .awards-section-wrapper, .services-section {
-    padding-top: 30px !important;
-    padding-bottom: 30px !important;
+
+  .websites-section,
+  .industry-section,
+  .about-section,
+  .how-we-work-section,
+  .stats-section-wrapper,
+  .why-choose-us-section,
+  .testimonials-section,
+  .cta-section,
+  .aximo-auto-slider-section,
+  .awards-section-wrapper,
+  .services-section,
+  .brandlogo-section {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
   }
 }
 
-/* On mobile: reduce further */
+/* On mobile: preserve readable spacing */
 @media (max-width: 767px) {
-  .websites-section, .industry-section, .about-section, .how-we-work-section, 
-  .stats-section-wrapper, .why-choose-us-section, .testimonials-section, 
-  .cta-section, .aximo-auto-slider-section, .awards-section-wrapper, .services-section {
-    padding-top: 15px !important;
-    padding-bottom: 15px !important;
+
+  .websites-section,
+  .industry-section,
+  .about-section,
+  .how-we-work-section,
+  .stats-section-wrapper,
+  .why-choose-us-section,
+  .testimonials-section,
+  .cta-section,
+  .aximo-auto-slider-section,
+  .awards-section-wrapper,
+  .services-section,
+  .brandlogo-section {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
   }
 }
 
 /* Mobile: 15px left/right padding for all sections */
 @media (max-width: 767px) {
+
   .websites-section .container,
   .industry-section .container,
   .about-section .container,

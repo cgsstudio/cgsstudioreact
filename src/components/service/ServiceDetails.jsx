@@ -121,7 +121,7 @@ function ServiceDetails() {
 
       <div className="container pt-5">
         <div className="aximo-default-content text-lg-center">
-          <h1 className="text-lg-center text-sm-left"><span className="custom-h2"><span style={{ color: 'red' }}>Best UI/UX Design </span> Design Agency in Ahmedabad</span></h1>
+          <h1 className="text-lg-center text-sm-left"><span className="custom-h2"><span style={{ color: 'red' }}>Best UI/UX Design </span> Agency in Ahmedabad</span></h1>
 
           <p className="text-lg-center text-sm-left pt-sm-2 pt-3 pt-lg-0">
             At Chameleo GFX Studio, we believe good design is more than just looks; it’s about creating digital experiences that feel effortless. UI/UX design may sound technical, but in simple words, it’s about making websites, apps, and software easy to use, enjoyable, and meaningful for your audience.</p>

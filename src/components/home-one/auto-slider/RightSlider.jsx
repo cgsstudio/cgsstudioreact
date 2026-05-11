@@ -61,7 +61,8 @@ const LogoSlider = () => {
   ];
 
   return (
-    <div className="logo-slider-container bg-black">
+    <section className=" brandlogo-section-left">
+      <div className="logo-slider-container">
       <Swiper
         spaceBetween={20}
         slidesPerView={7}
@@ -99,7 +100,8 @@ const LogoSlider = () => {
           </SwiperSlide>
         ))}
       </Swiper>
-    </div>
+      </div>
+    </section>
   );
 };
 

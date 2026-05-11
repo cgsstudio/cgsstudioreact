@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./about.css";
-import AboutImg from "../../../assets/images/about/agency-office.png";
+import AboutImg from "../../../assets/images/about/agency-office.jpg";
 
 function About() {
   return (

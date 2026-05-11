@@ -1,11 +1,9 @@
 .portfolio-section {
   padding: 50px 0;
-  background-color: #050000;
+  background-color: rgba(10, 10, 14, 0.96) !important;
+  background-image: radial-gradient(circle at top left, rgba(255, 0, 0, 0.06) 0%, transparent 38%) !important;
   position: relative;
   overflow: hidden;
-  /* Sync background with Awards section */
-  background-image: radial-gradient(rgba(255, 0, 0, 0.08) 1px, transparent 1px);
-  background-size: 30px 30px;
 }
 
 .portfolio-header {
@@ -55,9 +53,10 @@
 }
 
 .portfolio-main-title .accent {
-  background: linear-gradient(90deg, #ff0000, #ff6b6b);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: inherit !important;
+  background: none !important;
+  -webkit-background-clip: border-box !important;
+  -webkit-text-fill-color: inherit !important;
 }
 
 .portfolio-description {

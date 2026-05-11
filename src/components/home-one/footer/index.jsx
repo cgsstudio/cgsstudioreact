@@ -11,19 +11,11 @@ function Footer() {
 			<div className="container">
 				<FooterTop />
 				<FooterCenter />
-				{/* <div className="aximo-footer-top aximo-section-padding">
-					<div className="row align-items-center">
-						<div className="col-lg-7">
-							<FooterContent />
-						</div>
-						<div className="col-lg-5">
-							<div className="aximo-form-wrap">
-								<h4>Send us a message</h4>
-								<MessageForm />
-							</div>
-						</div>
-					</div>
-				</div> */}
+				<div className="text-center pb-3 border-bottom border-light border-opacity-10 mb-4">
+					<p className="footer-text" style={{ color: "#fdfde1", opacity: 0.7, margin: 0 }}>
+						Digital Marketing & Web Development Agency in Ahmedabad india
+					</p>
+				</div>
 				<div className="aximo-footer-bottom">
 					<div className="row">
 						<FooterBottom />

@@ -63,19 +63,19 @@ const LogoSlider = () => {
 
   return (
     <>
-      <section className="bg-black">
+      <section className="brandlogo-section">
         <div className="container">
-          <div className="aximo-section-title py-5">
-            <div className="row">
+          <div className="aximo-section-title py-0">
+            <div className="row pb-5">
               <div className="col-xl-12">
-                <h2 className="text-center text-whitesmoke ">Trusted by Leading Brands</h2>
+                <h2 className="text-center text-whitesmoke homepage-h2">Trusted by Leading Brands</h2>
               </div>
             </div>
           </div>
         </div>
         <div className="logo-slider-container">
           <Swiper
-            spaceBetween={20}
+            spaceBetween={40}
             loop={true}
             speed={3500} // Total duration of one slide transition
             autoplay={{
@@ -87,15 +87,15 @@ const LogoSlider = () => {
             breakpoints={{
               1024: {
                 slidesPerView: 7,
-                spaceBetween: 20,
+                spaceBetween: 40,
               },
               768: {
                 slidesPerView: 3,
-                spaceBetween: 20,
+                spaceBetween: 30,
               },
               0: {
                 slidesPerView: 2,
-                spaceBetween: 10,
+                spaceBetween: 20,
               },
             }}
           >

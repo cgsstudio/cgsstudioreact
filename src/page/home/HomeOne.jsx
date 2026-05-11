@@ -110,8 +110,7 @@ const teamsData = [
 
 function HomeOne() {
 	return (
-
-		<>
+		<div className="home-one-page">
 			<Helmet>
 				<title>Digital Marketing & Web Development Agency in Ahmedabad | Chameleo GFX Studio</title>
 				<meta name="description" content="Chameleo GFX Studio is the best Digital Marketing & Web Development Agency in Ahmedabad. We are delivering innovative websites and result-driven marketing solutions." />
@@ -166,7 +165,7 @@ function HomeOne() {
 			<Testimonial />
 			<AutoSlider />
 			{/* <Teams teams={teamsData} /> */}
-		</>
+		</div>
 	);
 }
 

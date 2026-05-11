@@ -25,7 +25,7 @@ function AgencyHero() {
             </div>
 
             {/* Main Visual Headline (H2) */}
-            <h2 className="agency-hero-h2">
+            <h2 className="agency-hero-h2 homepage-h2">
               Helping Businesses Grow with <span className="agency-hero-red-text">SEO</span>,
               High-Converting <span className="agency-hero-red-text">Websites</span>,
               Branding, and <span className="agency-hero-red-text">AI-Powered</span> Digital Solutions.
@@ -79,7 +79,7 @@ function AgencyHero() {
               </div>
               <div className="agency-hero-stat-item">
                 <FaChartLine className="agency-hero-stat-icon" />
-                <span>₹10Cr+ Revenue Generated</span>
+                <span>₹6Cr+ Revenue Generated</span>
               </div>
             </div>
 
