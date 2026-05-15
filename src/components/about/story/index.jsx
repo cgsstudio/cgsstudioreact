@@ -6,15 +6,13 @@ function Story() {
 		<div className="section bg-white-smoke pt-5 pt-md-0">
 			<div className="container">
 				<div className="aximo-section-title center title-description ">
-					<h2 className="about-title">
+					<h1 className="about-title pb-3" style={{ fontSize: '3rem' }}>
 						<span className="aximo-title-animation">
 							We are your trusted
-							<span className="aximo-title-icon about-star-icon">
-								<img className="shape-color" src={Star2Img} alt="star" />
-							</span>
+
 						</span><br />
-						digital innovation partner to propel your brand.
-					</h2>
+						Digital Marketing & Web Development Agency in Ahmedabad
+					</h1>
 					<p>
 						Welcome to Chameleo GFX Studio – where creativity meets technology. We are your trusted partner for Graphic Design, Web Development, and Digital Marketing in Ahmedabad, Gujarat, India. Our mission is simple: to bring your ideas to life and help your brand shine online.
 					</p>

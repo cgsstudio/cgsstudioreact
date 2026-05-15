@@ -35,8 +35,8 @@ function AboutUs() {
 	return (
 		<>
 			<Helmet>
-				<title>About Chameleo GFX Studio-Best Graphic & Branding Agency</title>
-				<meta name="description" content="Chameleo GFX Studio is a well-known Graphic & Branding Agency Company based in Ahmedabad, India. We have dedicated team of Graphic, Branding, UI/UX and Logo Design Experts; they are always ready to give complete support." />
+				<title>About Chameleo GFX Studio | Digital Marketing Agency</title>
+				<meta name="description" content="Chameleo GFX Studio is a leading digital marketing and web development agency in Ahmedabad, offering SEO, branding, web design, and growth-driven solutions." />
 				<meta name="keywords" content="About Chameleo GFX Studio. About Graphic Company in Ahmedabad, About best Branding company in Ahmedabad, Logo design company, UI UX Design Company, Web development company, social media marketing agency, SEO Company" />
 				<link
 					rel="canonical"

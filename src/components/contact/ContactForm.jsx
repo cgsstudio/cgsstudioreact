@@ -40,14 +40,14 @@ function ContactForm() {
         <div className="row">
           <div className="col-lg-8">
             <div className="aximo-section-title">
-              <h2>
+              <h1>
                 <span className="aximo-title-animation">
                   Let’s get in touch
                   <span className="aximo-title-icon">
                     <img className="shape-color" src={Star2Img} alt="Star" />
                   </span>
                 </span>
-              </h2>
+              </h1>
               <p>
                 Fantastic! We can’t wait to connect and kickstart something
                 unique. Feel free to give us a call for any questions or
@@ -63,7 +63,7 @@ function ContactForm() {
               <LazyLoadImage
                 src={ContactThumb}
                 className="img-fluid"
-                alt="Contact Thumb"
+                alt="Digital Marketing & Web Development Agency in Ahmedabad"
                 effect="blur"
               />
 

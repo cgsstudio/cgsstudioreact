@@ -8,7 +8,7 @@ function Teams({ teams }) {
 				<div className="aximo-section-title center">
 					<h2 className="team-heading">
 						Our Visionary
-						<span className="aximo-title-animation">Leaders.
+						<span className="aximo-title-animation">  Leaders.
 							<span className="aximo-title-icon">
 								<img src={Star2Img} alt="Star2Img" />
 							</span>

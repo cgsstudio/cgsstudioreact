@@ -95,7 +95,7 @@ function AppWebServices() {
               <div className="card-icon-box">
                 {service.icon}
               </div>
-              <h4 className="card-title">{service.title}</h4>
+              <h3 className="card-title">{service.title}</h3>
               <p className="card-text">
                 {service.description}
               </p>

@@ -1,53 +1,43 @@
 import Star2Img from "../../assets/images/v1/star2.png";
-import QuestionImg from "../../assets/images/icon/question.svg";
+
 const faqData = {
 	faq1: [
 		{
 			id: crypto.randomUUID(),
-			title: "What services does Chameleo GFX Studio offer in Ahmedabad?",
-			text: "<a href='https://chameleogfxstudio.com/' target='_blank' rel='noopener noreferrer' style='color:#ed1d24; font-weight:600;'>Chameleo GFX Studio</a> provides digital marketing, SEO, social media marketing, Google Ads, website design, web development, branding, eCommerce development, and graphic design services for businesses in Ahmedabad and across India.",
+			title: "What services does Chameleo GFX Studio offer?",
+			text: "<a href='https://chameleogfxstudio.com/' target='_blank' rel='noopener noreferrer' style='color:#ed1d24; font-weight:600;'>Chameleo GFX Studio</a> is a leading Digital Marketing & Web Development Agency in Ahmedabad offering services like website design & development, SEO, social media marketing, branding, logo design, graphic design, performance marketing, and eCommerce solutions for businesses of all sizes.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "Why choose Chameleo GFX Studio as a digital marketing agency in Ahmedabad?",
-			text: "Chameleo GFX Studio focuses on result-driven marketing strategies, creative branding, responsive websites, and customized solutions that help businesses increase visibility, leads, and online growth.",
+			title: "Do you work with startups and small businesses?",
+			text: "Absolutely! We work with startups, local businesses, and established brands across different industries. Our digital marketing and web development solutions are designed to fit businesses of every size and budget.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "Does Chameleo GFX Studio provide custom website development services?",
-			text: "Yes, we offers custom web development services including business websites, WordPress development, eCommerce websites, landing pages, and mobile-friendly web solutions tailored to your business goals.",
-		},
-		{
-			id: crypto.randomUUID(),
-			title: "Which industries does Chameleo GFX Studio work with?",
-			text: "We work with startups, local businesses, healthcare brands, real estate companies, eCommerce stores, education institutes, and service-based businesses looking to grow online.",
+			title: "Can I see your previous work or portfolio?",
+			text: "Yes, you can explore our portfolio to view our latest website designs, branding projects, SEO projects, and digital marketing campaigns created for clients across multiple industries.",
 		},
 	],
 	faq2: [
 		{
 			id: crypto.randomUUID(),
-			title: "How can SEO services help my business grow in Ahmedabad?",
-			text: "Our SEO services improve your website's Google rankings, increase organic traffic, generate quality leads, and help your business reach customers searching for digital marketing and web development services in Ahmedabad.",
+			title: "Do you provide ongoing website maintenance and support?",
+			text: "Yes, we offer website maintenance, security updates, performance optimization, content updates, and technical support to ensure your website runs smoothly and stays updated.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "Does Chameleo GFX Studio offer social media marketing services?",
-			text: "Yes, we provides Instagram marketing, Facebook marketing, LinkedIn marketing, content creation, ad campaigns, and social media management to help brands build a strong online presence.",
+			title: "Can you redesign my existing website?",
+			text: "Yes, we provide website redesign services to improve website design, speed, user experience, mobile responsiveness, SEO performance, and overall conversion rate.",
 		},
 		{
 			id: crypto.randomUUID(),
-			title: "How much does website design and digital marketing cost?",
-			text: "The cost depends on your project requirements, website size, marketing goals, and selected services. We offer customized packages for businesses of all sizes.",
-		},
-		{
-			id: crypto.randomUUID(),
-			title: "How do I get started with Chameleo GFX Studio?",
-			text: "You can contact us on: <a href='tel:+918460384838' style='color:#ed1d24; font-weight:600;'>+91-846-038-4838</a>, <a href='tel:+919737472636' style='color:#ed1d24; font-weight:600;'>+91-973-747-2636</a> or email us on <a href='mailto:info@chameleogfxstudio.com' style='color:#ed1d24; font-weight:600;'>info@chameleogfxstudio.com</a>, <a href='mailto:sales@chameleogfxstudio.com' style='color:#ed1d24; font-weight:600;'>sales@chameleogfxstudio.com</a>, and through the website to discuss your business goals, marketing needs, and web development requirements for a customized strategy.",
+			title: "How can I get started with Chameleo GFX Studio?",
+			text: "Getting started is simple! Contact our team through the phone numbers: <a href='tel:+918460384838' style='color:#ed1d24; font-weight:600;'>+91-846-038-4838</a>, <a href='tel:+919737472636' style='color:#ed1d24; font-weight:600;'>+91-973-747-2636</a>, or email us at <a href='mailto:info@chameleogfxstudio.com' style='color:#ed1d24; font-weight:600;'>info@chameleogfxstudio.com</a>, <a href='mailto:sales@chameleogfxstudio.com' style='color:#ed1d24; font-weight:600;'>sales@chameleogfxstudio.com</a>. We'll understand your requirements and provide the best digital marketing and web development solution for your business.",
 		},
 	],
 };
 
-function TwoColumnFaq() {
+function ContactFaq() {
 	return (
 		<div className="section aximo-section-padding bg-white-smoke">
 			<div className="container">
@@ -105,4 +95,4 @@ function TwoColumnFaq() {
 	);
 }
 
-export default TwoColumnFaq;
+export default ContactFaq;

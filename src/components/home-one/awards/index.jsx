@@ -53,10 +53,10 @@ function AwardsSection() {
         <div className="row">
           <div className="col-12 text-center pb-5">
             <div className="awards-title-wrapper">
-              <p className="awards-title-pill text-uppercase" style={{ textTransform: 'uppercase' }}>
+              <h2 className="awards-title-pill text-uppercase" style={{ textTransform: 'uppercase' }}>
                 <span className="awards-title-dot"></span>
                 Trusted by fast-growing brands across India
-              </p>
+              </h2>
             </div>
           </div>
         </div>
