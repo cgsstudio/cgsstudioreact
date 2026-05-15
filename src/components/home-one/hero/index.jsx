@@ -63,12 +63,9 @@ function HeroSection() {
 		>
 			{/* Content Container */}
 			<div className="container position-relative" style={{ position: "relative", zIndex: 10, width: "100%" }}>
-				<div className="row">
-					<div className="col-lg-8">
+				<div className="row justify-content-center text-center">
+					<div className="col-lg-12">
 						<HeroContent />
-					</div>
-					<div className="col-lg-4">
-						<HeroThumbs />
 					</div>
 				</div>
 			</div>
