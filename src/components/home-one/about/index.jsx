@@ -24,7 +24,7 @@ function About() {
             <div className="about-label-pill">
               About Us
             </div>
-            <h2 className="about-main-title homepage-h2">
+            <h3 className="about-main-title">
               Leading Digital Marketing Agency in Ahmedabad, India
             </h2>
             <p className="about-desc">
