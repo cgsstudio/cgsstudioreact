@@ -7,8 +7,8 @@ const sitemap = new SitemapStream({ hostname: "https://chameleogfxstudio.com" })
 
 const pages = [
   { url: "/", changefreq: "weekly", priority: 1.0 },
-  { url: "/about-us/", changefreq: "weekly", priority: 0.8 },
-  { url: "/services/", changefreq: "weekly", priority: 0.8 },
+  { url: "/about-us/", changefreq: "weekly", priority: 0.7 },
+  { url: "/services/", changefreq: "weekly", priority: 0.7 },
   { url: "/case-studies/", changefreq: "weekly", priority: 0.7 },
   { url: "/industries-we-serve/", changefreq: "weekly", priority: 0.7 },
   { url: "/blog/", changefreq: "weekly", priority: 0.7 },
@@ -29,7 +29,7 @@ const pages = [
   { url: "/portfolio-two", changefreq: "weekly", priority: 0.7 },
 
   // ✅ Graphics Design Services
-  { url: "/services/graphic-design", changefreq: "weekly", priority: 0.8 },
+  { url: "/services/graphic-design", changefreq: "weekly", priority: 0.7 },
   { url: "/services/graphic-design/logo-design-company", changefreq: "weekly", priority: 0.7 },
   { url: "/services/graphic-design/branding-and-identity-design-agency-company", changefreq: "weekly", priority: 0.7 },
   { url: "/services/graphic-design/social-media-banner-design-company", changefreq: "weekly", priority: 0.7 },
@@ -56,7 +56,7 @@ const pages = [
   { url: "/services/graphic-design/e-book-design-service-company", changefreq: "weekly", priority: 0.7 },
 
   // ✅ UI/UX Design
-  { url: "/services/ui-ux-design", changefreq: "weekly", priority: 0.8 },
+  { url: "/services/ui-ux-design", changefreq: "weekly", priority: 0.7 },
   { url: "/services/ui-ux-design/website-ui-ux-design-company", changefreq: "weekly", priority: 0.7 },
   { url: "/services/ui-ux-design/ios-ui-ux-design-company", changefreq: "weekly", priority: 0.7 },
   { url: "/services/ui-ux-design/android-ui-ux-design-company", changefreq: "weekly", priority: 0.7 },
@@ -64,7 +64,7 @@ const pages = [
   { url: "/services/ui-ux-design/erp-ui-ux-design-company", changefreq: "weekly", priority: 0.7 },
 
   // ✅ Web Development
-  { url: "/services/web-development", changefreq: "weekly", priority: 0.8 },
+  { url: "/services/web-development", changefreq: "weekly", priority: 0.7 },
   { url: "/services/web-development/html-css-development-company", changefreq: "weekly", priority: 0.7 },
   { url: "/services/web-development/custom-html-website-design-company", changefreq: "weekly", priority: 0.7 },
   { url: "/services/web-development/template-customization-company", changefreq: "weekly", priority: 0.7 },
@@ -109,7 +109,7 @@ const pages = [
   { url: "/services/web-development/reactjs-ui-ux-design-and-development-company", changefreq: "weekly", priority: 0.7 },
 
   // ✅ Digital Marketing
-  { url: "/services/digital-marketing", changefreq: "weekly", priority: 0.8 },
+  { url: "/services/digital-marketing", changefreq: "weekly", priority: 0.7 },
   { url: "/services/digital-marketing/seo-agency", changefreq: "weekly", priority: 0.7 },
   { url: "/services/digital-marketing/seo-company", changefreq: "weekly", priority: 0.7 },
   { url: "/services/digital-marketing/social-media-marketing-agency", changefreq: "weekly", priority: 0.7 },

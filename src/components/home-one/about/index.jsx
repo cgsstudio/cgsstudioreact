@@ -26,7 +26,7 @@ function About() {
             </div>
             <h3 className="about-main-title">
               Leading Digital Marketing Agency in Ahmedabad, India
-            </h2>
+            </h3>
             <p className="about-desc">
               Chameleo GFX Studio provides website development, SEO, UI/UX design, and branding solutions to grow your business online. We don't just build websites; we build systems that generate leads, increase conversions, and scale your business.
             </p>
